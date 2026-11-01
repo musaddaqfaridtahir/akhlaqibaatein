@@ -1,0 +1,154 @@
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { Folder, BookOpen, Clock, ArrowRight } from 'lucide-react';
+import { Category } from '@/data/types';
+import { getCategoryTitle, getCategoryDesc } from '@/data/categories';
+import { Quote, Article } from '@/data/types';
+import {
+  getArticleTitle,
+  getArticleSummary,
+  getArticleReadTime,
+} from '@/data/articles';
+import QuoteCard from './QuoteCard';
+import { useLanguage } from '@/context/LanguageContext';
+
+interface CategoryDetailViewProps {
+  category: Category;
+  quotes: Quote[];
+  articles: Article[];
+}
+
+export default function CategoryDetailView({
+  category,
+  quotes,
+  articles,
+}: CategoryDetailViewProps) {
+  const { language, t } = useLanguage();
+  const isUrdu = language === 'ur';
+
+  const catTitle = getCategoryTitle(category, language);
+  const catDesc = getCategoryDesc(category, language);
+
+  return (
+    <div className="space-y-12">
+      {/* Category Hero Banner */}
+      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl p-5 sm:p-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+        <div className="relative z-10 space-y-4 max-w-3xl">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
+            <Folder className="w-3.5 h-3.5" />
+            <span>{t.categories}</span>
+          </div>
+
+          <h1
+            className={`text-3xl sm:text-5xl font-extrabold text-white ${
+              isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
+            }`}
+          >
+            {catTitle}
+          </h1>
+
+          <p
+            className={`text-base sm:text-lg text-emerald-100/90 ${
+              isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'
+            }`}
+          >
+            {catDesc}
+          </p>
+        </div>
+
+        <div className="absolute right-[-20px] bottom-[-20px] w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+      </section>
+
+      {/* Quotes Feed in Category */}
+      <section className="space-y-6">
+        <div className="flex items-center justify-between">
+          <h2 className={`text-2xl font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu' : ''}`}>
+            {catTitle} ({quotes.length})
+          </h2>
+          <span className="text-xs text-slate-500">
+            {quotes.length} {t.itemsFound}
+          </span>
+        </div>
+
+        {quotes.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {quotes.map((q) => (
+              <QuoteCard key={q.id} quote={q} showCategoryBadge={false} />
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-12 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800">
+            <BookOpen className="w-10 h-10 text-slate-400 mx-auto mb-2" />
+            <p className={`text-sm text-slate-600 dark:text-slate-400 ${isUrdu ? 'font-urdu' : ''}`}>
+              {t.noResultsTitle}
+            </p>
+          </div>
+        )}
+      </section>
+
+      {/* Articles in Category (if any) */}
+      {articles.length > 0 && (
+        <section className="space-y-6 pt-6 border-t border-slate-200 dark:border-slate-800">
+          <h2 className={`text-2xl font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu' : ''}`}>
+            {t.featuredArticles}
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {articles.map((art) => {
+              const artTitle = getArticleTitle(art, language);
+              const artSummary = getArticleSummary(art, language);
+              const artReadTime = getArticleReadTime(art, language);
+
+              return (
+                <article
+                  key={art.slug}
+                  className="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg transition flex flex-col justify-between"
+                >
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between text-xs text-slate-500">
+                      <span className="flex items-center gap-1">
+                        <Clock className="w-3 h-3 text-amber-500" />
+                        <span>{artReadTime}</span>
+                      </span>
+                      <span>{art.publishedAt}</span>
+                    </div>
+
+                    <h3
+                      className={`text-xl font-bold text-slate-900 dark:text-white ${
+                        isUrdu ? 'font-urdu leading-[2.1]' : 'leading-snug'
+                      }`}
+                    >
+                      <Link href={`/articles/${art.slug}`}>{artTitle}</Link>
+                    </h3>
+
+                    <p
+                      className={`text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-2 ${
+                        isUrdu ? 'font-urdu leading-[2.0]' : 'leading-relaxed'
+                      }`}
+                    >
+                      {artSummary}
+                    </p>
+                  </div>
+
+                  <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex justify-end">
+                    <Link
+                      href={`/articles/${art.slug}`}
+                      className={`text-xs font-semibold text-emerald-700 dark:text-emerald-400 flex items-center gap-1 ${
+                        isUrdu ? 'font-urdu' : ''
+                      }`}
+                    >
+                      <span>{t.readArticle}</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      )}
+    </div>
+  );
+}

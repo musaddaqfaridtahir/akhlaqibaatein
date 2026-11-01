@@ -1,0 +1,26 @@
+========================================================
+   AkhlaqiBaatein.com - Dosray System Par Chalane Ka Tareeqa
+========================================================
+
+1. ZAROORI REQUISITE:
+   - Dosray computer par Node.js (v18 ya v20+) install hona chahiye.
+   - Agar install nahi hai to https://nodejs.org se Node.js LTS download kar ke install kar lein.
+
+2. ASAN TAREEQA (ONE-CLICK):
+   - Is folder ke andar "INSTALL_AND_START.bat" file par double click karein.
+   - Yeh automatically packages install kar ke local server start kar de ga aur browser mein http://localhost:3000 khol de ga.
+
+3. TERMINAL / VS CODE SE CHALANE KA TAREEQA:
+   - Is folder ko VS Code mein open karein.
+   - Terminal (Ctrl + ~) khol kar yeh commands chalayein:
+     1) npm install
+     2) npm run dev
+   - Browser mein http://localhost:3000 open karein.
+
+4. PRODUCTION BUILD TEST KARNE KA TAREEQA:
+   - "BUILD_CHECK.bat" par double click karein YA terminal mein chalayein:
+     npm run build
+
+========================================================
+   AkhlaqiBaatein.com - Ready for Development & Production
+========================================================

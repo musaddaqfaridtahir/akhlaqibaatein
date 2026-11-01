@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #FAF8F5;
+    --foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --border: #e7e5e4;
+    --primary: #065f46;
+    --primary-foreground: #ffffff;
+    --accent: #b45309;
+    --accent-foreground: #ffffff;
+    --muted: #f5f5f4;
+    --muted-foreground: #475569;
+  }
+
+  .dark {
+    --background: #090e17;
+    --foreground: #f8fafc;
+    --card: #111827;
+    --card-foreground: #f8fafc;
+    --border: #1f2937;
+    --primary: #10b981;
+    --primary-foreground: #022c22;
+    --accent: #f59e0b;
+    --accent-foreground: #0f172a;
+    --muted: #1e293b;
+    --muted-foreground: #94a3b8;
+  }
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.2s ease, color 0.2s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Strict Language Typography Rules */
+html.lang-ur body,
+html.lang-ur .font-body-lang {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  line-height: 2.3;
+  direction: rtl;
+}
+
+html.lang-ro body,
+html.lang-ro .font-body-lang {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  line-height: 1.65;
+  direction: ltr;
+}
+
+html.lang-en body,
+html.lang-en .font-body-lang {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  line-height: 1.65;
+  direction: ltr;
+}
+
+/* Nastaliq Urdu Typography Utility */
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+  line-height: 2.3;
+  direction: rtl;
+  text-align: right;
+  word-spacing: 0.1em;
+}
+
+/* Arabic Traditional Typography Utility */
+.font-arabic {
+  font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif;
+  line-height: 2.2;
+  direction: rtl;
+  text-align: right;
+  font-size: 1.35rem;
+}
+
+/* Islamic Geometric Pattern & Accents */
+.islamic-pattern {
+  background-color: transparent;
+  background-image: radial-gradient(rgba(217, 119, 6, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dark .islamic-pattern {
+  background-image: radial-gradient(rgba(245, 158, 11, 0.06) 1px, transparent 1px);
+}
+
+/* Gold Gradient Accents */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 50%, #b45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .text-gold-gradient {
+  background: linear-gradient(135deg, #fcd34d 0%, #f59e0b 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Clean Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #065f46;
+}

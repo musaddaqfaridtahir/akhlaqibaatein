@@ -1,0 +1,214 @@
+'use client';
+
+import React, { useState, useMemo } from 'react';
+import { Search, X, Sparkles, BookOpen } from 'lucide-react';
+import { Quote } from '@/data/types';
+import QuoteCard from './QuoteCard';
+import { useLanguage } from '@/context/LanguageContext';
+import {
+  getQuoteText,
+  getQuoteTitle,
+  getQuoteAuthor,
+  getQuoteTashreeh,
+  getQuoteTags,
+} from '@/data/quotes';
+
+interface SearchAndQuoteFeedProps {
+  initialQuotes: Quote[];
+}
+
+export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeedProps) {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedTag, setSelectedTag] = useState<string>('All');
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const { language, t } = useLanguage();
+
+  const isUrdu = language === 'ur';
+
+  const quickPillsByLang = {
+    ur: [
+      { key: 'All', label: 'تمام اقوال' },
+      { key: 'Islah', label: 'اصلاح' },
+      { key: 'Sabr', label: 'صبر' },
+      { key: 'Shukr', label: 'شکر' },
+      { key: 'Hamsaya', label: 'ہمسایہ' },
+      { key: 'Ilm', label: 'علم' },
+      { key: 'Akhlaq', label: 'اخلاق' },
+      { key: 'Tawazoh', label: 'تواضع' },
+    ],
+    ro: [
+      { key: 'All', label: 'Tamam Aqwal' },
+      { key: 'Islah', label: 'Islah' },
+      { key: 'Sabr', label: 'Sabr' },
+      { key: 'Shukr', label: 'Shukr' },
+      { key: 'Hamsaya', label: 'Hamsaya' },
+      { key: 'Ilm', label: 'Ilm' },
+      { key: 'Akhlaq', label: 'Akhlaq' },
+      { key: 'Tawazoh', label: 'Tawazoh' },
+    ],
+    en: [
+      { key: 'All', label: 'All Sayings' },
+      { key: 'Islah', label: 'Self-Reform' },
+      { key: 'Sabr', label: 'Patience' },
+      { key: 'Shukr', label: 'Gratitude' },
+      { key: 'Hamsaya', label: 'Neighbors' },
+      { key: 'Ilm', label: 'Knowledge' },
+      { key: 'Akhlaq', label: 'Character' },
+      { key: 'Tawazoh', label: 'Humility' },
+    ],
+  }[language];
+
+  const filteredQuotes = useMemo(() => {
+    return initialQuotes.filter((q) => {
+      // Filter by tag
+      if (selectedTag !== 'All') {
+        const hasTag = q.tags.some(
+          (item) => item.toLowerCase() === selectedTag.toLowerCase()
+        );
+        if (!hasTag) return false;
+      }
+
+      // Filter by category
+      if (selectedCategory !== 'All' && q.category !== selectedCategory) {
+        return false;
+      }
+
+      // Filter by search query
+      if (searchQuery.trim()) {
+        const query = searchQuery.toLowerCase().trim();
+        const text = getQuoteText(q, language).toLowerCase();
+        const title = getQuoteTitle(q, language).toLowerCase();
+        const author = getQuoteAuthor(q, language).toLowerCase();
+        const tashreeh = getQuoteTashreeh(q, language).toLowerCase();
+        const tags = getQuoteTags(q, language).join(' ').toLowerCase();
+
+        // Also search across alternative languages for user convenience
+        const anyText = `${q.urdu} ${q.roman} ${q.english} ${q.author} ${q.authorUrdu} ${q.authorEnglish} ${q.title ? `${q.title.ur} ${q.title.ro} ${q.title.en}` : ''}`.toLowerCase();
+
+        if (
+          !text.includes(query) &&
+          !title.includes(query) &&
+          !author.includes(query) &&
+          !tashreeh.includes(query) &&
+          !tags.includes(query) &&
+          !anyText.includes(query)
+        ) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+  }, [initialQuotes, searchQuery, selectedTag, selectedCategory, language]);
+
+  return (
+    <section className="w-full space-y-6">
+      {/* Search Input Bar with Strict Isolation */}
+      <div className="relative max-w-3xl mx-auto">
+        <div className="relative flex items-center shadow-sm rounded-2xl overflow-hidden border border-stone-300 dark:border-emerald-500/30 bg-white dark:bg-slate-900 focus-within:ring-2 focus-within:ring-emerald-800/60 transition">
+          <div className="px-4 text-emerald-800 dark:text-emerald-400">
+            <Search className="w-5 h-5" />
+          </div>
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={t.searchPlaceholder}
+            className={`w-full py-4 px-2 text-sm sm:text-base bg-transparent text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none ${
+              isUrdu ? 'font-urdu' : ''
+            }`}
+            aria-label="Search"
+          />
+          {searchQuery && (
+            <button
+              onClick={() => setSearchQuery('')}
+              className="px-4 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200"
+              aria-label="Clear search"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Quick Topic Pills Bar */}
+      <div className="w-full max-w-full overflow-hidden pt-1">
+        <div className="flex items-center gap-1.5 overflow-x-auto w-full pb-1 scrollbar-none">
+          <span
+            className={`text-xs font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider px-1 hidden sm:inline ${
+              isUrdu ? 'font-urdu text-sm' : ''
+            }`}
+          >
+            {t.topicsHeading}
+          </span>
+          {quickPillsByLang.map((pill) => {
+            const isActive = selectedTag === pill.key;
+            return (
+              <button
+                key={pill.key}
+                onClick={() => setSelectedTag(pill.key)}
+                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+                  isUrdu ? 'font-urdu text-sm leading-none pt-2' : ''
+                } ${
+                  isActive
+                    ? 'bg-emerald-800 text-white shadow-xs'
+                    : 'bg-white dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 border border-stone-300 dark:border-slate-700 hover:border-emerald-700 hover:text-emerald-800'
+                }`}
+              >
+                {pill.label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Results Count & Reset Filter */}
+      <div className="flex items-center justify-between text-xs text-slate-600 dark:text-slate-400 px-1">
+        <span className={isUrdu ? 'font-urdu text-sm' : ''}>
+          {t.availableQuotes} <strong>{filteredQuotes.length}</strong> {t.itemsFound}
+        </span>
+        {(searchQuery || selectedTag !== 'All' || selectedCategory !== 'All') && (
+          <button
+            onClick={() => {
+              setSearchQuery('');
+              setSelectedTag('All');
+              setSelectedCategory('All');
+            }}
+            className={`text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1 ${
+              isUrdu ? 'font-urdu text-sm' : ''
+            }`}
+          >
+            <span>{t.resetFilters}</span>
+          </button>
+        )}
+      </div>
+
+      {/* Quotes Cards Grid */}
+      {filteredQuotes.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          {filteredQuotes.map((quote) => (
+            <QuoteCard key={quote.id} quote={quote} />
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-16 px-4 bg-white dark:bg-slate-900 rounded-3xl border border-dashed border-slate-300 dark:border-slate-800">
+          <BookOpen className="w-12 h-12 text-slate-400 mx-auto mb-3" />
+          <h3
+            className={`text-base font-semibold text-slate-800 dark:text-slate-200 ${
+              isUrdu ? 'font-urdu text-xl' : ''
+            }`}
+          >
+            {t.noResultsTitle}
+          </h3>
+          <p
+            className={`text-xs text-slate-500 dark:text-slate-400 mt-1 max-w-sm mx-auto ${
+              isUrdu ? 'font-urdu text-sm' : ''
+            }`}
+          >
+            {t.noResultsDesc}
+          </p>
+        </div>
+      )}
+    </section>
+  );
+}
