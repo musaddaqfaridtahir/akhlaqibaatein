@@ -34,15 +34,15 @@ export default function CategoryDetailView({
   return (
     <div className="space-y-12">
       {/* Category Hero Banner */}
-      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl p-5 sm:p-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
-        <div className="relative z-10 space-y-4 max-w-3xl">
+      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+        <div className="relative z-10 space-y-3 sm:space-y-4 max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
             <Folder className="w-3.5 h-3.5" />
             <span>{t.categories}</span>
           </div>
 
           <h1
-            className={`text-3xl sm:text-5xl font-extrabold text-white ${
+            className={`text-2xl sm:text-4xl md:text-5xl font-extrabold text-white break-words ${
               isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
             }`}
           >
@@ -50,7 +50,7 @@ export default function CategoryDetailView({
           </h1>
 
           <p
-            className={`text-base sm:text-lg text-emerald-100/90 ${
+            className={`text-sm sm:text-base md:text-lg text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'
             }`}
           >
@@ -73,7 +73,7 @@ export default function CategoryDetailView({
         </div>
 
         {quotes.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {quotes.map((q) => (
               <QuoteCard key={q.id} quote={q} showCategoryBadge={false} />
             ))}
@@ -95,7 +95,7 @@ export default function CategoryDetailView({
             {t.featuredArticles}
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {articles.map((art) => {
               const artTitle = getArticleTitle(art, language);
               const artSummary = getArticleSummary(art, language);

@@ -38,15 +38,15 @@ export default function ArticlesPage() {
   return (
     <div className="space-y-12">
       {/* Header Banner */}
-      <section className="rounded-2xl sm:rounded-3xl p-5 sm:p-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
-        <div className="max-w-3xl space-y-4">
+      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+        <div className="max-w-3xl space-y-3 sm:space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
             <BookOpen className="w-3.5 h-3.5" />
             <span>{pageHeaders.badge}</span>
           </div>
 
           <h1
-            className={`text-3xl sm:text-5xl font-extrabold text-white ${
+            className={`text-2xl sm:text-4xl md:text-5xl font-extrabold text-white break-words ${
               isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
             }`}
           >
@@ -54,7 +54,7 @@ export default function ArticlesPage() {
           </h1>
 
           <p
-            className={`text-sm sm:text-base text-emerald-100/90 ${
+            className={`text-sm sm:text-base text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'
             }`}
           >
@@ -67,7 +67,7 @@ export default function ArticlesPage() {
       <AdSlot position="header" />
 
       {/* Articles Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {articles.map((art) => {
           const artTitle = getArticleTitle(art, language);
           const artSummary = getArticleSummary(art, language);
@@ -77,7 +77,7 @@ export default function ArticlesPage() {
           return (
             <article
               key={art.slug}
-              className="group bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-7 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
+              className="group bg-white dark:bg-slate-900 rounded-2xl sm:rounded-3xl p-4 sm:p-7 border border-slate-200/80 dark:border-slate-800 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between text-xs text-slate-500">

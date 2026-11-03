@@ -102,11 +102,11 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
   }, [initialQuotes, searchQuery, selectedTag, selectedCategory, language]);
 
   return (
-    <section className="w-full space-y-6">
+    <section className="w-full space-y-4 sm:space-y-6">
       {/* Search Input Bar with Strict Isolation */}
       <div className="relative max-w-3xl mx-auto">
-        <div className="relative flex items-center shadow-sm rounded-2xl overflow-hidden border border-stone-300 dark:border-emerald-500/30 bg-white dark:bg-slate-900 focus-within:ring-2 focus-within:ring-emerald-800/60 transition">
-          <div className="px-4 text-emerald-800 dark:text-emerald-400">
+        <div className="relative flex items-center h-12 shadow-sm rounded-2xl overflow-hidden border border-stone-300 dark:border-emerald-500/30 bg-white dark:bg-slate-900 focus-within:ring-2 focus-within:ring-emerald-800/60 transition">
+          <div className="px-3.5 text-emerald-800 dark:text-emerald-400 shrink-0">
             <Search className="w-5 h-5" />
           </div>
           <input
@@ -114,7 +114,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder={t.searchPlaceholder}
-            className={`w-full py-4 px-2 text-sm sm:text-base bg-transparent text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none ${
+            className={`w-full h-full py-0 px-2 text-base bg-transparent text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none ${
               isUrdu ? 'font-urdu' : ''
             }`}
             aria-label="Search"
@@ -122,7 +122,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className="px-4 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200"
+              className="px-3.5 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 shrink-0"
               aria-label="Clear search"
             >
               <X className="w-4 h-4" />
@@ -131,11 +131,11 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
         </div>
       </div>
 
-      {/* Quick Topic Pills Bar */}
+      {/* Quick Topic Pills Bar (Swipeable on Mobile) */}
       <div className="w-full max-w-full overflow-hidden pt-1">
-        <div className="flex items-center gap-1.5 overflow-x-auto w-full pb-1 scrollbar-none">
+        <div className="flex items-center gap-2 overflow-x-auto pb-2 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
           <span
-            className={`text-xs font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider px-1 hidden sm:inline ${
+            className={`text-xs font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider px-1 hidden sm:inline shrink-0 ${
               isUrdu ? 'font-urdu text-sm' : ''
             }`}
           >
@@ -147,7 +147,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
               <button
                 key={pill.key}
                 onClick={() => setSelectedTag(pill.key)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${
                   isUrdu ? 'font-urdu text-sm leading-none pt-2' : ''
                 } ${
                   isActive
@@ -185,7 +185,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
 
       {/* Quotes Cards Grid */}
       {filteredQuotes.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6">
           {filteredQuotes.map((quote) => (
             <QuoteCard key={quote.id} quote={quote} />
           ))}

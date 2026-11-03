@@ -86,20 +86,20 @@ export default function HomePage() {
   };
 
   return (
-    <div className="space-y-16">
+    <div className="space-y-10 sm:space-y-16">
       {/* Top Banner AdSlot */}
       <AdSlot position="header" />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl p-5 sm:p-12 lg:p-16 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-2xl border border-amber-500/30 islamic-pattern">
-        <div className="relative z-10 max-w-3xl space-y-6">
+      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-10 md:py-14 md:px-12 lg:p-16 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-2xl border border-amber-500/30 islamic-pattern">
+        <div className="relative z-10 max-w-3xl space-y-4 sm:space-y-6">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/20 text-amber-300 text-xs sm:text-sm font-semibold border border-amber-500/30">
             <Sparkles className="w-4 h-4 text-amber-400" />
             <span>{heroContent.badge}</span>
           </div>
 
           <h1
-            className={`text-2xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white ${
+            className={`text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white ${
               isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
             }`}
           >
@@ -166,7 +166,7 @@ export default function HomePage() {
       </section>
 
       {/* Category Grid Section */}
-      <section className="space-y-6">
+      <section id="categories" className="space-y-6 scroll-mt-24">
         <div>
           <h2
             className={`text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white ${

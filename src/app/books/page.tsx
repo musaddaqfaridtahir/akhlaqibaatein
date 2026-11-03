@@ -71,7 +71,7 @@ export default function BooksPage() {
   return (
     <div className="space-y-12">
       {/* Header Banner */}
-      <section className="rounded-2xl sm:rounded-3xl p-5 sm:p-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
             <Library className="w-3.5 h-3.5" />
@@ -79,7 +79,7 @@ export default function BooksPage() {
           </div>
 
           <h1
-            className={`text-3xl sm:text-5xl font-extrabold text-white ${
+            className={`text-2xl sm:text-4xl md:text-5xl font-extrabold text-white break-words ${
               isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
             }`}
           >
@@ -87,7 +87,7 @@ export default function BooksPage() {
           </h1>
 
           <p
-            className={`text-base sm:text-lg text-emerald-100/90 ${
+            className={`text-sm sm:text-base md:text-lg text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'
             }`}
           >
@@ -108,7 +108,7 @@ export default function BooksPage() {
         return (
           <section
             key={book.slug}
-            className="rounded-3xl p-8 sm:p-10 bg-white dark:bg-slate-900 border border-emerald-900/10 dark:border-emerald-500/20 shadow-xl space-y-8"
+            className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-emerald-900/10 dark:border-emerald-500/20 shadow-xl space-y-6 sm:space-y-8"
           >
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
               <div>

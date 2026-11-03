@@ -18,13 +18,13 @@ export default function PrivacyPolicyPage() {
       {/* Top Banner AdSlot */}
       <AdSlot position="header" />
 
-      <header className="rounded-3xl p-8 sm:p-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+      <header className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
         <div className="space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
             <Shield className="w-3.5 h-3.5" />
             <span>AdSense & Legal Compliance</span>
           </div>
-          <h1 className="text-3xl sm:text-5xl font-extrabold font-urdu leading-[2.1]">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold font-urdu leading-[2.1] break-words">
             پرائیویسی پالیسی (Privacy Policy)
           </h1>
           <p className="text-xs sm:text-sm text-emerald-200">
@@ -33,7 +33,7 @@ export default function PrivacyPolicyPage() {
         </div>
       </header>
 
-      <section className="rounded-3xl p-8 sm:p-10 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-8 text-slate-800 dark:text-slate-200 text-sm leading-relaxed">
+      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-8 text-slate-800 dark:text-slate-200 text-sm leading-relaxed">
         <div className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white">
             1. Introduction & Overview

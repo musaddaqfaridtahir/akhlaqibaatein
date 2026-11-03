@@ -54,15 +54,15 @@ export default function AboutPage() {
       <AdSlot position="header" />
 
       {/* Hero Header */}
-      <section className="rounded-2xl sm:rounded-3xl p-5 sm:p-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
-        <div className="space-y-4">
+      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+        <div className="space-y-3 sm:space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
             <Sparkles className="w-4 h-4 text-amber-400" />
             <span>{content.badge}</span>
           </div>
 
           <h1
-            className={`text-3xl sm:text-5xl font-extrabold text-white ${
+            className={`text-2xl sm:text-4xl md:text-5xl font-extrabold text-white break-words ${
               isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
             }`}
           >
@@ -70,7 +70,7 @@ export default function AboutPage() {
           </h1>
 
           <p
-            className={`text-base sm:text-lg text-emerald-100/90 ${
+            className={`text-sm sm:text-base md:text-lg text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'
             }`}
           >
@@ -80,7 +80,7 @@ export default function AboutPage() {
       </section>
 
       {/* Main Content Box */}
-      <section className="rounded-3xl p-8 sm:p-10 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-8 text-slate-800 dark:text-slate-200">
+      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-6 sm:space-y-8 text-slate-800 dark:text-slate-200">
         <div className="space-y-4">
           <h2
             className={`text-2xl font-bold text-emerald-900 dark:text-emerald-300 flex items-center gap-2 ${

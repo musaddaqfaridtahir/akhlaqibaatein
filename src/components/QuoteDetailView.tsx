@@ -73,14 +73,14 @@ export default function QuoteDetailView({
 
   return (
     <>
-      <article className="rounded-2xl sm:rounded-3xl p-4 sm:p-10 lg:p-12 bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-sm space-y-8">
+      <article className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-12 bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-sm space-y-6 sm:space-y-8 overflow-hidden">
         {/* Category & Author Badge */}
-        <div className="flex items-center justify-between gap-3 flex-wrap">
+        <div className="flex items-center justify-between gap-2.5 flex-wrap">
           <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
+            <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0" />
             <h2
-              className={`text-sm font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-3 py-1 rounded-full tracking-wide uppercase ${
-                isUrdu ? 'font-urdu text-base' : ''
+              className={`text-xs sm:text-sm font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-3 py-1 rounded-full tracking-wide uppercase ${
+                isUrdu ? 'font-urdu text-sm sm:text-base' : ''
               }`}
             >
               {quoteAuthor}
@@ -90,45 +90,45 @@ export default function QuoteDetailView({
           {category && (
             <Link
               href={`/category/${category.slug}`}
-              className={`text-xs px-3.5 py-1.5 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 hover:bg-emerald-100 transition font-medium ${
+              className={`text-xs px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 hover:bg-emerald-100 transition font-medium ${
                 isUrdu ? 'font-urdu' : ''
               }`}
             >
-              {categoryTitle}
+              #{categoryTitle}
             </Link>
           )}
         </div>
 
         {/* Big Quote Display in Isolated Language */}
-        <div className="py-4 border-y border-stone-200 dark:border-slate-800 space-y-3">
+        <div className="py-3 sm:py-4 border-y border-stone-200 dark:border-slate-800 space-y-3">
           {quoteTitle && (
             <h2
-              className={`font-bold text-slate-900 dark:text-slate-100 ${
+              className={`font-bold text-slate-900 dark:text-slate-100 break-words ${
                 isUrdu
-                  ? 'font-urdu text-2xl sm:text-3xl leading-[2.2] text-right'
-                  : 'text-xl sm:text-2xl text-left'
+                  ? 'font-urdu text-xl sm:text-2xl md:text-3xl leading-[2.2] text-right'
+                  : 'text-lg sm:text-xl md:text-2xl text-left'
               }`}
             >
               {quoteTitle}
             </h2>
           )}
           <h1
-            className={`font-normal text-slate-900 dark:text-slate-50 ${
+            className={`font-normal text-slate-900 dark:text-slate-50 break-words ${
               isUrdu
-                ? 'font-urdu text-3xl sm:text-4xl lg:text-5xl leading-[2.5] text-right'
-                : 'text-2xl sm:text-3xl lg:text-4xl italic leading-relaxed text-left'
+                ? 'font-urdu text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[2.5] text-right'
+                : 'text-xl sm:text-2xl md:text-3xl lg:text-4xl italic leading-relaxed text-left'
             }`}
           >
             {isUrdu ? quoteText : `“${quoteText}”`}
           </h1>
         </div>
 
-        {/* Action Buttons Toolbar */}
-        <div className="flex items-center gap-3 flex-wrap pt-2">
+        {/* Action Buttons Toolbar: Responsive Grid on Mobile */}
+        <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center pt-2">
           <button
             onClick={handleCopy}
-            className={`px-4 py-2.5 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-stone-300 dark:border-slate-700 text-xs font-semibold flex items-center gap-2 transition ${
-              isUrdu ? 'font-urdu text-sm' : ''
+            className={`col-span-1 min-h-[44px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
+              isUrdu ? 'font-urdu' : ''
             }`}
           >
             {copied ? (
@@ -145,23 +145,23 @@ export default function QuoteDetailView({
           </button>
 
           <button
-            onClick={() => setShowStatusModal(true)}
-            className={`px-4 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 border border-amber-600/30 text-xs font-bold flex items-center gap-2 shadow-xs transition ${
-              isUrdu ? 'font-urdu text-sm' : ''
-            }`}
-          >
-            <Download className="w-4 h-4" />
-            <span>{t.downloadBtn}</span>
-          </button>
-
-          <button
             onClick={handleWhatsAppShare}
-            className={`px-4 py-2.5 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-slate-800 dark:hover:bg-emerald-900/60 dark:text-emerald-300 border border-stone-300 dark:border-slate-700 text-xs font-semibold flex items-center gap-2 transition ${
-              isUrdu ? 'font-urdu text-sm' : ''
+            className={`col-span-1 min-h-[44px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-slate-800 dark:hover:bg-emerald-900/60 dark:text-emerald-300 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
+              isUrdu ? 'font-urdu' : ''
             }`}
           >
             <Share2 className="w-4 h-4" />
             <span>{t.shareBtn}</span>
+          </button>
+
+          <button
+            onClick={() => setShowStatusModal(true)}
+            className={`col-span-2 sm:col-span-1 sm:w-auto min-h-[44px] px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 border border-amber-600/30 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 shadow-xs transition active:scale-95 ${
+              isUrdu ? 'font-urdu' : ''
+            }`}
+          >
+            <Download className="w-4 h-4" />
+            <span>{t.downloadBtn}</span>
           </button>
         </div>
 

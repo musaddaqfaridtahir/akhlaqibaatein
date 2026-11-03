@@ -152,7 +152,7 @@ export default function ChahalHadithTracker({
       </div>
 
       {/* Search & Filter Bar */}
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
         <div className="relative w-full sm:max-w-md">
           <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
           <input
@@ -160,29 +160,31 @@ export default function ChahalHadithTracker({
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             placeholder={t.searchHadithPlaceholder}
-            className={`w-full pl-10 pr-4 py-2.5 rounded-xl text-sm bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-600 ${
+            className={`w-full h-12 pl-10 pr-4 rounded-xl text-base bg-white dark:bg-slate-900 border border-stone-300 dark:border-slate-800 text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-700 ${
               isUrdu ? 'font-urdu' : ''
             }`}
           />
         </div>
 
-        {/* Theme Pills */}
-        <div className="flex items-center gap-1.5 overflow-x-auto w-full sm:w-auto pb-1 scrollbar-none">
-          {themes.map((themeName) => (
-            <button
-              key={themeName}
-              onClick={() => setSelectedTheme(themeName)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition ${
-                isUrdu ? 'font-urdu leading-none pt-2' : ''
-              } ${
-                selectedTheme === themeName
-                  ? 'bg-emerald-800 text-white'
-                  : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-emerald-600'
-              }`}
-            >
-              {themeName === 'All' ? t.allPill : themeName}
-            </button>
-          ))}
+        {/* Theme Pills (Swipeable on Mobile) */}
+        <div className="w-full sm:w-auto overflow-hidden">
+          <div className="flex items-center gap-2 overflow-x-auto pb-2 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
+            {themes.map((themeName) => (
+              <button
+                key={themeName}
+                onClick={() => setSelectedTheme(themeName)}
+                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition shrink-0 ${
+                  isUrdu ? 'font-urdu leading-none pt-2' : ''
+                } ${
+                  selectedTheme === themeName
+                    ? 'bg-emerald-800 text-white shadow-xs'
+                    : 'bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-stone-300 dark:border-slate-700 hover:border-emerald-700 hover:text-emerald-800'
+                }`}
+              >
+                {themeName === 'All' ? t.allPill : themeName}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -268,18 +270,19 @@ export default function ChahalHadithTracker({
               </div>
 
               {/* Reference & Actions Bar */}
-              <div className="pt-4 mt-4 border-t border-stone-200 dark:border-slate-800/80 flex items-center justify-between gap-2 flex-wrap text-xs">
-                <span className={`text-[11px] text-slate-600 dark:text-slate-400 ${isUrdu ? 'font-urdu' : ''}`}>
+              <div className="pt-3.5 mt-4 border-t border-stone-200 dark:border-slate-800/80 flex items-center justify-between gap-2.5 flex-wrap text-xs">
+                <span className={`text-xs text-slate-600 dark:text-slate-400 truncate ${isUrdu ? 'font-urdu' : ''}`}>
                   {t.sourceHeading} {hadithRef}
                 </span>
 
-                <div className="flex items-center gap-1.5">
+                <div className="flex items-center gap-2">
                   <button
                     onClick={() => handleCopyHadith(hadith)}
-                    className="p-1.5 px-2.5 rounded-lg bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-stone-300 dark:border-slate-700 transition"
+                    className="min-h-[40px] min-w-[40px] px-3 py-2 rounded-xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-stone-300 dark:border-slate-700 transition flex items-center justify-center active:scale-95"
                     title={t.copyBtn}
+                    aria-label={t.copyBtn}
                   >
-                    <Copy className="w-3.5 h-3.5" />
+                    <Copy className="w-4 h-4" />
                   </button>
 
                   <button
@@ -293,12 +296,13 @@ export default function ChahalHadithTracker({
                         lang: language,
                       })
                     }
-                    className={`p-1.5 px-2.5 rounded-lg text-slate-950 bg-amber-500 hover:bg-amber-600 transition flex items-center gap-1 font-bold shadow-xs border border-amber-600/30 ${
-                      isUrdu ? 'font-urdu text-xs' : ''
+                    className={`min-h-[40px] px-3 py-2 rounded-xl text-slate-950 bg-amber-500 hover:bg-amber-600 transition flex items-center justify-center gap-1.5 font-bold shadow-xs border border-amber-600/30 active:scale-95 ${
+                      isUrdu ? 'font-urdu text-xs' : 'text-xs'
                     }`}
                     title={t.downloadBtn}
+                    aria-label={t.downloadBtn}
                   >
-                    <Download className="w-3.5 h-3.5" />
+                    <Download className="w-4 h-4" />
                     <span>{t.downloadBtn}</span>
                   </button>
                 </div>

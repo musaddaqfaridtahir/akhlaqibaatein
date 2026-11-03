@@ -36,7 +36,7 @@ export default function ChahalHadithPage() {
           <span>اربعینِ اخلاق و حکمت (40 Hadith Memorization Portal)</span>
         </div>
 
-        <h1 className="text-3xl sm:text-5xl font-extrabold font-urdu leading-[2.1] text-slate-900 dark:text-white">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold font-urdu leading-[2.1] text-slate-900 dark:text-white break-words">
           چَہل حدیث: چالیس سنہری احادیثِ مبارکہ
         </h1>
 

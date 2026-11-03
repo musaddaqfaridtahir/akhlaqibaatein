@@ -32,9 +32,12 @@
 
 html,
 body {
-  max-width: 100%;
+  width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
   position: relative;
+  margin: 0;
+  padding: 0;
   background-color: var(--background);
   color: var(--foreground);
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -127,4 +130,13 @@ html.lang-en .font-body-lang {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #065f46;
+}
+
+/* Touch-Scrollable Row Without Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

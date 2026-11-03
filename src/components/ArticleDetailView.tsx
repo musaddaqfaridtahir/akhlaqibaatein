@@ -45,9 +45,9 @@ export default function ArticleDetailView({
       : article.keyTakeawaysRoman;
 
   return (
-    <article className="max-w-4xl mx-auto space-y-10">
+    <article className="max-w-4xl mx-auto space-y-8 sm:space-y-10 overflow-hidden">
       {/* Article Hero Card */}
-      <header className="rounded-3xl p-8 sm:p-10 lg:p-12 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-6">
+      <header className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-12 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-6">
         <div className="flex items-center justify-between gap-4 flex-wrap text-xs text-slate-500">
           <div className="flex items-center gap-2">
             <span className="px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-semibold border border-emerald-200 dark:border-emerald-800">
@@ -88,7 +88,7 @@ export default function ArticleDetailView({
       </header>
 
       {/* Table of Contents Box */}
-      <div className="p-6 rounded-3xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-3">
+      <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-3">
         <h3 className={`font-semibold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2 ${isUrdu ? 'font-urdu text-lg' : ''}`}>
           <ListOrdered className="w-4 h-4 text-amber-500" />
           <span>{t.tableOfContents}</span>
@@ -142,7 +142,7 @@ export default function ArticleDetailView({
             <section
               key={idx}
               id={`section-${idx}`}
-              className="rounded-3xl p-8 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-md space-y-6 scroll-mt-24"
+              className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-md space-y-6 scroll-mt-24"
             >
               <div className="border-b border-slate-100 dark:border-slate-800 pb-3 flex items-center justify-between flex-wrap gap-2">
                 <h2
@@ -177,7 +177,7 @@ export default function ArticleDetailView({
       </div>
 
       {/* Key Takeaways Card */}
-      <section className="rounded-3xl p-8 bg-gradient-to-br from-emerald-900 to-emerald-950 text-white shadow-xl border border-amber-500/30 space-y-5">
+      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-emerald-900 to-emerald-950 text-white shadow-xl border border-amber-500/30 space-y-5">
         <div className="flex items-center gap-2">
           <Sparkles className="w-5 h-5 text-amber-400" />
           <h2 className={`text-2xl font-bold ${isUrdu ? 'font-urdu' : ''}`}>

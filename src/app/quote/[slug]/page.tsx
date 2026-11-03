@@ -68,7 +68,7 @@ export default async function QuoteDetailPage({ params }: PageProps) {
   const relatedQuotes = getRelatedQuotes(quote.slug, quote.category, 4);
 
   return (
-    <div className="space-y-10 max-w-4xl mx-auto">
+    <div className="space-y-6 sm:space-y-10 max-w-4xl mx-auto overflow-hidden">
       {/* Quotation Schema */}
       <JsonLd
         type="quotation"

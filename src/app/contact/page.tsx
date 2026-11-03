@@ -83,17 +83,17 @@ export default function ContactPage() {
       <AdSlot position="header" />
 
       {/* Hero Banner */}
-      <section className="rounded-3xl p-8 sm:p-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
         <div className="max-w-2xl space-y-3">
           <h1
-            className={`text-3xl sm:text-5xl font-extrabold text-white ${
+            className={`text-2xl sm:text-4xl md:text-5xl font-extrabold text-white break-words ${
               isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
             }`}
           >
             {strings.title}
           </h1>
           <p
-            className={`text-base text-emerald-100/90 ${
+            className={`text-sm sm:text-base text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'
             }`}
           >
@@ -102,14 +102,14 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
         {/* Contact Info Card */}
         <div className="md:col-span-1 space-y-6">
-          <div className="p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm space-y-4">
+          <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-sm space-y-4">
             <h3 className={`font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu text-lg' : 'text-base'}`}>
               {strings.directEmail}
             </h3>
-            <div className="flex items-center gap-3 text-sm text-slate-600 dark:text-slate-300">
+            <div className="flex items-center gap-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 break-all">
               <Mail className="w-5 h-5 text-emerald-600 shrink-0" />
               <span>contact@akhlaqibaatein.com</span>
             </div>
@@ -121,7 +121,7 @@ export default function ContactPage() {
 
         {/* Interactive Contact Form */}
         <div className="md:col-span-2">
-          <div className="p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl">
+          <div className="p-4 sm:p-8 rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl">
             {submitted ? (
               <div className="text-center py-12 space-y-4">
                 <CheckCircle2 className="w-16 h-16 text-emerald-500 mx-auto animate-bounce" />
