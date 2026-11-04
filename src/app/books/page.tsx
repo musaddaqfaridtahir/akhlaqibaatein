@@ -71,15 +71,15 @@ export default function BooksPage() {
   return (
     <div className="space-y-12">
       {/* Header Banner */}
-      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-white via-emerald-50/40 to-amber-50/30 dark:from-emerald-950 dark:via-emerald-900 dark:to-slate-950 text-slate-900 dark:text-white shadow-md dark:shadow-xl border border-stone-200/90 dark:border-amber-500/30">
         <div className="max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
-            <Library className="w-3.5 h-3.5" />
-            <span>{headers.badge}</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 dark:bg-amber-500/20 text-emerald-900 dark:text-amber-300 text-xs font-semibold border border-emerald-200 dark:border-amber-500/30">
+            <Library className="w-3.5 h-3.5 text-emerald-700 dark:text-amber-400" />
+            <span className={isUrdu ? 'font-urdu' : ''}>{headers.badge}</span>
           </div>
 
           <h1
-            className={`text-xl sm:text-3xl md:text-4xl font-bold text-white break-words ${
+            className={`text-xl sm:text-3xl md:text-4xl font-bold text-slate-900 dark:text-white break-words ${
               isUrdu ? 'font-urdu leading-[1.8]' : 'leading-tight'
             }`}
           >
@@ -87,7 +87,7 @@ export default function BooksPage() {
           </h1>
 
           <p
-            className={`text-xs sm:text-base text-emerald-100/90 break-words ${
+            className={`text-xs sm:text-base text-slate-700 dark:text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
             }`}
           >

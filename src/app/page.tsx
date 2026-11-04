@@ -91,15 +91,15 @@ export default function HomePage() {
       <AdSlot position="header" />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-10 md:py-14 md:px-12 lg:p-16 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-2xl border border-amber-500/30 islamic-pattern">
+      <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-10 md:py-14 md:px-12 lg:p-16 bg-gradient-to-br from-white via-emerald-50/40 to-amber-50/30 dark:from-emerald-950 dark:via-emerald-900 dark:to-slate-950 text-slate-900 dark:text-white shadow-lg dark:shadow-2xl border border-stone-200/90 dark:border-amber-500/30 islamic-pattern transition-colors">
         <div className="relative z-10 max-w-3xl space-y-4 sm:space-y-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/20 text-amber-300 text-xs sm:text-sm font-semibold border border-amber-500/30">
-            <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 dark:bg-amber-500/20 text-emerald-900 dark:text-amber-300 text-xs sm:text-sm font-semibold border border-emerald-200 dark:border-amber-500/30">
+            <Sparkles className="w-4 h-4 text-emerald-700 dark:text-amber-400 shrink-0" />
             <span className={isUrdu ? 'font-urdu leading-normal' : ''}>{heroContent.badge}</span>
           </div>
 
           <h1
-            className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white break-words ${
+            className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-slate-900 dark:text-white break-words ${
               isUrdu ? 'font-urdu leading-[1.8] sm:leading-[1.9]' : 'leading-tight tracking-tight'
             }`}
           >
@@ -107,7 +107,7 @@ export default function HomePage() {
           </h1>
 
           <p
-            className={`text-xs sm:text-base md:text-lg text-emerald-100/90 break-words ${
+            className={`text-xs sm:text-base md:text-lg text-slate-700 dark:text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[1.85] sm:leading-[2.0]' : 'leading-relaxed'
             }`}
           >
@@ -117,7 +117,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 pt-2">
             <Link
               href="/chahal-hadith"
-              className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs sm:text-sm shadow-lg hover:shadow-amber-500/20 transition active:scale-95 ${
+              className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3.5 rounded-2xl bg-emerald-800 hover:bg-emerald-900 text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 font-bold text-xs sm:text-sm shadow-md hover:shadow-lg transition active:scale-95 ${
                 isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
@@ -127,7 +127,7 @@ export default function HomePage() {
 
             <Link
               href="/books"
-              className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm backdrop-blur-md border border-white/15 transition active:scale-95 ${
+              className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3.5 rounded-2xl bg-white hover:bg-stone-100 text-slate-800 border border-stone-300 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white dark:border-white/15 font-semibold text-xs sm:text-sm shadow-xs backdrop-blur-md transition active:scale-95 ${
                 isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
@@ -138,7 +138,7 @@ export default function HomePage() {
         </div>
 
         {/* Decorative Golden Ambient Blur */}
-        <div className="absolute top-[-50px] right-[-50px] w-96 h-96 bg-amber-500/15 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-[-50px] right-[-50px] w-96 h-96 bg-emerald-500/10 dark:bg-amber-500/15 rounded-full blur-3xl pointer-events-none" />
       </section>
 
       {/* Quote of the Day Spotlight Card */}
@@ -329,19 +329,19 @@ export default function HomePage() {
       </section>
 
       {/* Classic Books Showcase: Makhzan-e-Akhlaq */}
-      <section className="rounded-3xl p-5 sm:p-8 lg:p-10 bg-gradient-to-r from-emerald-900 via-emerald-950 to-slate-900 text-white shadow-xl border border-amber-500/20">
+      <section className="rounded-3xl p-5 sm:p-8 lg:p-10 bg-gradient-to-r from-white via-emerald-50/40 to-amber-50/30 dark:from-emerald-900 dark:via-emerald-950 dark:to-slate-900 text-slate-900 dark:text-white shadow-md dark:shadow-xl border border-stone-200/90 dark:border-amber-500/20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-center">
           <div className="lg:col-span-2 space-y-3 sm:space-y-4">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
-              <Library className="w-3.5 h-3.5" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 dark:bg-amber-500/20 text-emerald-900 dark:text-amber-300 text-xs font-semibold border border-emerald-200 dark:border-amber-500/20">
+              <Library className="w-3.5 h-3.5 text-emerald-700 dark:text-amber-400" />
               <span className={isUrdu ? 'font-urdu' : ''}>{t.bookShowcaseTag}</span>
             </div>
 
-            <h2 className={`text-xl sm:text-3xl md:text-4xl font-bold ${isUrdu ? 'font-urdu leading-[1.8]' : ''}`}>
+            <h2 className={`text-xl sm:text-3xl md:text-4xl font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu leading-[1.8]' : ''}`}>
               {getBookTitle(primaryBook, language)}
             </h2>
 
-            <p className={`text-xs sm:text-sm md:text-base text-emerald-100/90 ${isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'}`}>
+            <p className={`text-xs sm:text-sm md:text-base text-slate-700 dark:text-emerald-100/90 ${isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'}`}>
               {getBookDesc(primaryBook, language)}
             </p>
 
@@ -349,7 +349,7 @@ export default function HomePage() {
               {primaryBook.chapters.map((ch) => (
                 <span
                   key={ch.number}
-                  className={`px-3 py-1 rounded-xl bg-white/10 text-emerald-200 border border-white/10 ${
+                  className={`px-3 py-1 rounded-xl bg-emerald-50 dark:bg-white/10 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-white/10 ${
                     isUrdu ? 'font-urdu' : ''
                   }`}
                 >
@@ -359,18 +359,18 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center p-6 rounded-3xl bg-white/5 backdrop-blur-md border border-white/10 text-center space-y-3">
-            <div className="w-16 h-16 rounded-2xl bg-amber-500/20 text-amber-300 flex items-center justify-center shadow-inner">
+          <div className="flex flex-col items-center justify-center p-6 rounded-3xl bg-emerald-50/50 dark:bg-white/5 backdrop-blur-md border border-emerald-100 dark:border-white/10 text-center space-y-3">
+            <div className="w-16 h-16 rounded-2xl bg-amber-500/20 text-amber-600 dark:text-amber-300 flex items-center justify-center shadow-inner">
               <BookOpen className="w-8 h-8" />
             </div>
             <div>
-              <p className={`text-base font-bold text-white ${isUrdu ? 'font-urdu' : ''}`}>
+              <p className={`text-base font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu' : ''}`}>
                 {getBookAuthor(primaryBook, language)}
               </p>
             </div>
             <Link
               href="/books"
-              className={`w-full py-2.5 px-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold transition shadow-md ${
+              className={`w-full py-2.5 px-4 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 text-xs font-bold transition shadow-md ${
                 isUrdu ? 'font-urdu text-sm' : ''
               }`}
             >

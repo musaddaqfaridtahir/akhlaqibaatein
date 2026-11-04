@@ -83,17 +83,17 @@ export default function ContactPage() {
       <AdSlot position="header" />
 
       {/* Hero Banner */}
-      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
+      <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-white via-emerald-50/40 to-amber-50/30 dark:from-emerald-950 dark:via-emerald-900 dark:to-slate-950 text-slate-900 dark:text-white shadow-md dark:shadow-xl border border-stone-200/90 dark:border-amber-500/30">
         <div className="max-w-2xl space-y-3">
           <h1
-            className={`text-xl sm:text-3xl md:text-4xl font-bold text-white break-words ${
+            className={`text-xl sm:text-3xl md:text-4xl font-bold text-slate-900 dark:text-white break-words ${
               isUrdu ? 'font-urdu leading-[1.8]' : 'leading-tight'
             }`}
           >
             {strings.title}
           </h1>
           <p
-            className={`text-xs sm:text-base text-emerald-100/90 break-words ${
+            className={`text-xs sm:text-base text-slate-700 dark:text-emerald-100/90 break-words ${
               isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
             }`}
           >

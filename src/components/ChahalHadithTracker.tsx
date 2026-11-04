@@ -111,26 +111,26 @@ export default function ChahalHadithTracker({
   return (
     <div className="w-full space-y-8">
       {/* Memorization Progress Dashboard Box */}
-      <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-emerald-900 via-emerald-950 to-slate-950 text-white shadow-xl border border-amber-500/30">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl p-4 sm:p-8 bg-gradient-to-br from-white via-emerald-50/40 to-amber-50/30 dark:from-emerald-900 dark:via-emerald-950 dark:to-slate-950 text-slate-900 dark:text-white shadow-md dark:shadow-xl border border-stone-200/90 dark:border-amber-500/30">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 dark:bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-center md:text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold border border-amber-500/30">
-              <Award className="w-3.5 h-3.5" />
-              <span>{t.arbaeenTitle}</span>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 dark:bg-amber-500/20 text-emerald-900 dark:text-amber-300 text-xs font-semibold border border-emerald-200 dark:border-amber-500/30">
+              <Award className="w-3.5 h-3.5 text-emerald-700 dark:text-amber-400" />
+              <span className={isUrdu ? 'font-urdu' : ''}>{t.arbaeenTitle}</span>
             </div>
-            <h2 className={`text-2xl sm:text-3xl font-bold leading-[2.0] ${isUrdu ? 'font-urdu' : ''}`}>
+            <h2 className={`text-xl sm:text-2xl md:text-3xl font-bold leading-[1.8] ${isUrdu ? 'font-urdu' : ''}`}>
               {t.memorizationProgress} {memorizedCount} / {totalCount}
             </h2>
-            <p className={`text-xs sm:text-sm text-emerald-200/90 max-w-xl ${isUrdu ? 'font-urdu leading-[2.1]' : ''}`}>
+            <p className={`text-xs sm:text-sm text-slate-700 dark:text-emerald-200/90 max-w-xl ${isUrdu ? 'font-urdu leading-[1.85]' : ''}`}>
               {t.arbaeenSubtitle}
             </p>
           </div>
 
           {/* Progress Circular Badge */}
-          <div className="flex flex-col items-center justify-center p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/10 shrink-0 min-w-[150px]">
-            <span className="text-3xl sm:text-4xl font-extrabold text-amber-400">
+          <div className="flex flex-col items-center justify-center p-4 rounded-2xl bg-emerald-50 dark:bg-white/10 text-emerald-950 dark:text-white border border-emerald-200 dark:border-white/10 shrink-0 min-w-[150px]">
+            <span className="text-3xl sm:text-4xl font-extrabold text-amber-600 dark:text-amber-400">
               {progressPercent}%
             </span>
             <span className={`text-xs text-emerald-200 mt-1 ${isUrdu ? 'font-urdu' : ''}`}>
