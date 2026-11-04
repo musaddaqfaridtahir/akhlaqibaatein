@@ -79,8 +79,8 @@ export default function QuoteDetailView({
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0" />
             <h2
-              className={`text-xs sm:text-sm font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-3 py-1 rounded-full tracking-wide uppercase ${
-                isUrdu ? 'font-urdu text-sm sm:text-base' : ''
+              className={`text-xs sm:text-sm font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-3 py-1 rounded-full uppercase ${
+                isUrdu ? 'font-urdu text-xs sm:text-sm' : 'tracking-wide'
               }`}
             >
               {quoteAuthor}
@@ -105,8 +105,8 @@ export default function QuoteDetailView({
             <h2
               className={`font-bold text-slate-900 dark:text-slate-100 break-words ${
                 isUrdu
-                  ? 'font-urdu text-xl sm:text-2xl md:text-3xl leading-[2.2] text-right'
-                  : 'text-lg sm:text-xl md:text-2xl text-left'
+                  ? 'font-urdu text-base sm:text-xl md:text-2xl leading-[1.8] sm:leading-[2.0] text-right'
+                  : 'text-base sm:text-lg md:text-xl text-left'
               }`}
             >
               {quoteTitle}
@@ -115,8 +115,8 @@ export default function QuoteDetailView({
           <h1
             className={`font-normal text-slate-900 dark:text-slate-50 break-words ${
               isUrdu
-                ? 'font-urdu text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[2.5] text-right'
-                : 'text-xl sm:text-2xl md:text-3xl lg:text-4xl italic leading-relaxed text-left'
+                ? 'font-urdu text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-[1.9] sm:leading-[2.2] md:leading-[2.4] text-right'
+                : 'text-lg sm:text-xl md:text-2xl lg:text-3xl italic leading-relaxed text-left'
             }`}
           >
             {isUrdu ? quoteText : `“${quoteText}”`}
@@ -127,7 +127,7 @@ export default function QuoteDetailView({
         <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center pt-2">
           <button
             onClick={handleCopy}
-            className={`col-span-1 min-h-[44px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
+            className={`col-span-1 min-h-[42px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
               isUrdu ? 'font-urdu' : ''
             }`}
           >
@@ -146,7 +146,7 @@ export default function QuoteDetailView({
 
           <button
             onClick={handleWhatsAppShare}
-            className={`col-span-1 min-h-[44px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-slate-800 dark:hover:bg-emerald-900/60 dark:text-emerald-300 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
+            className={`col-span-1 min-h-[42px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-slate-800 dark:hover:bg-emerald-900/60 dark:text-emerald-300 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
               isUrdu ? 'font-urdu' : ''
             }`}
           >
@@ -167,17 +167,17 @@ export default function QuoteDetailView({
 
         {/* Detailed Explanation / Tashreeh in Active Language */}
         <div className="space-y-4 pt-4">
-          <div className="flex items-center gap-2 text-emerald-900 dark:text-emerald-300 font-bold text-lg">
+          <div className="flex items-center gap-2 text-emerald-900 dark:text-emerald-300 font-bold text-base sm:text-lg">
             <Sparkles className="w-5 h-5 text-amber-600 dark:text-amber-500" />
-            <h3 className={isUrdu ? 'font-urdu text-xl' : ''}>
+            <h3 className={isUrdu ? 'font-urdu text-base sm:text-lg' : ''}>
               {t.tashreehHeading}
             </h3>
           </div>
 
-          <div className="p-6 rounded-3xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 space-y-4">
+          <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 space-y-3">
             <p
               className={`text-slate-800 dark:text-slate-200 ${
-                isUrdu ? 'font-urdu text-base sm:text-lg leading-[2.3]' : 'text-sm sm:text-base leading-relaxed'
+                isUrdu ? 'font-urdu text-xs sm:text-sm md:text-base leading-[1.85] sm:leading-[2.0]' : 'text-xs sm:text-sm leading-relaxed'
               }`}
             >
               {quoteTashreeh}

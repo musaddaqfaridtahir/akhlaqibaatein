@@ -239,7 +239,7 @@ export default function ChahalHadithTracker({
 
               {/* Arabic Sacred Text */}
               <div className="py-2 border-b border-dashed border-stone-200 dark:border-slate-800">
-                <p className="font-arabic text-2xl sm:text-3xl text-emerald-950 dark:text-emerald-300 font-semibold leading-[2.2] tracking-wide">
+                <p className="font-arabic text-xl sm:text-2xl md:text-3xl text-emerald-950 dark:text-emerald-300 font-semibold leading-[2.0] sm:leading-[2.2]">
                   {hadith.arabic}
                 </p>
               </div>
@@ -247,10 +247,10 @@ export default function ChahalHadithTracker({
               {/* Strictly Isolated Language Translation */}
               <div className="pt-3">
                 <p
-                  className={`text-slate-900 dark:text-slate-50 font-medium ${
+                  className={`text-slate-900 dark:text-slate-50 font-normal sm:font-medium ${
                     isUrdu
-                      ? 'font-urdu text-xl leading-[2.2]'
-                      : 'text-base sm:text-lg italic leading-relaxed'
+                      ? 'font-urdu text-base sm:text-lg md:text-xl leading-[1.85] sm:leading-[2.1]'
+                      : 'text-sm sm:text-base italic leading-relaxed'
                   }`}
                 >
                   {isUrdu ? hadithText : `“${hadithText}”`}
@@ -259,8 +259,8 @@ export default function ChahalHadithTracker({
 
               {/* Short Moral Lesson */}
               <div
-                className={`mt-3 p-3.5 rounded-2xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 text-xs text-slate-800 dark:text-slate-200 ${
-                  isUrdu ? 'font-urdu text-sm leading-[2.1]' : 'leading-relaxed'
+                className={`mt-3 p-3 sm:p-3.5 rounded-2xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 text-xs text-slate-800 dark:text-slate-200 ${
+                  isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85] sm:leading-[1.95]' : 'leading-relaxed'
                 }`}
               >
                 <strong className="text-emerald-900 dark:text-emerald-400">

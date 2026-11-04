@@ -48,9 +48,20 @@ body {
 /* Strict Language Typography Rules */
 html.lang-ur body,
 html.lang-ur .font-body-lang {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  line-height: 2.3;
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Noto Sans Arabic', system-ui, serif;
+  line-height: 2.0;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
   direction: rtl;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 640px) {
+  html.lang-ur body,
+  html.lang-ur .font-body-lang {
+    line-height: 1.85;
+  }
 }
 
 html.lang-ro body,
@@ -69,20 +80,49 @@ html.lang-en .font-body-lang {
 
 /* Nastaliq Urdu Typography Utility */
 .font-urdu {
-  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
-  line-height: 2.3;
+  font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Noto Sans Arabic', system-ui, serif;
+  line-height: 2.0;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
   direction: rtl;
   text-align: right;
-  word-spacing: 0.1em;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 640px) {
+  .font-urdu {
+    line-height: 1.85;
+  }
+}
+
+/* Strictly neutralize letter-spacing (tracking) on Urdu cursive text */
+html.lang-ur [class*="tracking-"],
+.font-urdu[class*="tracking-"],
+.font-urdu [class*="tracking-"],
+.font-arabic[class*="tracking-"],
+.font-arabic [class*="tracking-"] {
+  letter-spacing: normal !important;
 }
 
 /* Arabic Traditional Typography Utility */
 .font-arabic {
-  font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif;
-  line-height: 2.2;
+  font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', 'Noto Sans Arabic', serif;
+  line-height: 2.0;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
   direction: rtl;
   text-align: right;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 640px) {
+  .font-arabic {
+    line-height: 1.85;
+    font-size: 1.15rem;
+  }
 }
 
 /* Islamic Geometric Pattern & Accents */

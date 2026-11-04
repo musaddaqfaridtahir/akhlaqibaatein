@@ -114,8 +114,8 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder={t.searchPlaceholder}
-            className={`w-full h-full py-0 px-2 text-base bg-transparent text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none ${
-              isUrdu ? 'font-urdu' : ''
+            className={`w-full h-full py-0 px-2 text-sm sm:text-base bg-transparent text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none ${
+              isUrdu ? 'font-urdu leading-normal' : ''
             }`}
             aria-label="Search"
           />
@@ -136,7 +136,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
         <div className="flex items-center gap-2 overflow-x-auto pb-2 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
           <span
             className={`text-xs font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider px-1 hidden sm:inline shrink-0 ${
-              isUrdu ? 'font-urdu text-sm' : ''
+              isUrdu ? 'font-urdu text-xs' : ''
             }`}
           >
             {t.topicsHeading}
@@ -147,8 +147,8 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
               <button
                 key={pill.key}
                 onClick={() => setSelectedTag(pill.key)}
-                className={`px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${
-                  isUrdu ? 'font-urdu text-sm leading-none pt-2' : ''
+                className={`px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${
+                  isUrdu ? 'font-urdu text-xs leading-normal' : ''
                 } ${
                   isActive
                     ? 'bg-emerald-800 text-white shadow-xs'
@@ -164,7 +164,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
 
       {/* Results Count & Reset Filter */}
       <div className="flex items-center justify-between text-xs text-slate-600 dark:text-slate-400 px-1">
-        <span className={isUrdu ? 'font-urdu text-sm' : ''}>
+        <span className={isUrdu ? 'font-urdu text-xs sm:text-sm' : ''}>
           {t.availableQuotes} <strong>{filteredQuotes.length}</strong> {t.itemsFound}
         </span>
         {(searchQuery || selectedTag !== 'All' || selectedCategory !== 'All') && (
@@ -175,7 +175,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
               setSelectedCategory('All');
             }}
             className={`text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1 ${
-              isUrdu ? 'font-urdu text-sm' : ''
+              isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
             }`}
           >
             <span>{t.resetFilters}</span>

@@ -39,11 +39,11 @@ export default function Navbar() {
               <Sparkles className="w-4 h-4 sm:w-6 sm:h-6" />
             </div>
             <div className="flex flex-col min-w-0">
-              <span className={`text-base sm:text-xl font-bold tracking-tight text-slate-900 dark:text-emerald-400 truncate ${language === 'ur' ? 'font-urdu' : ''}`}>
+              <span className={`text-base sm:text-xl font-bold text-slate-900 dark:text-emerald-400 truncate ${language === 'ur' ? 'font-urdu' : 'tracking-tight'}`}>
                 {t.siteName}
                 {language !== 'ur' && <span className="text-amber-700 dark:text-amber-400">.com</span>}
               </span>
-              <span className={`hidden sm:block text-xs text-slate-600 dark:text-slate-400 leading-tight ${language === 'ur' ? 'font-urdu text-sm' : ''}`}>
+              <span className={`hidden sm:block text-xs text-slate-600 dark:text-slate-400 leading-tight ${language === 'ur' ? 'font-urdu text-xs' : ''}`}>
                 {t.tagline}
               </span>
             </div>
@@ -93,7 +93,7 @@ export default function Navbar() {
                       isActive
                         ? 'bg-emerald-800 text-white shadow-sm scale-105'
                         : 'text-slate-700 dark:text-slate-300 hover:text-emerald-800 dark:hover:text-emerald-300'
-                    } ${opt.code === 'ur' ? 'font-urdu text-sm leading-none pt-1.5' : ''}`}
+                    } ${opt.code === 'ur' ? 'font-urdu text-xs leading-normal' : ''}`}
                     title={`Switch to ${opt.label}`}
                   >
                     {opt.label}
@@ -140,7 +140,7 @@ export default function Navbar() {
                     isActive
                       ? 'bg-emerald-800 text-white shadow-xs'
                       : 'text-slate-700 dark:text-slate-300 hover:bg-stone-200 dark:hover:bg-slate-700'
-                  } ${opt.code === 'ur' ? 'font-urdu text-sm leading-none pt-1' : ''}`}
+                  } ${opt.code === 'ur' ? 'font-urdu text-xs leading-normal' : ''}`}
                 >
                   {opt.label}
                 </button>

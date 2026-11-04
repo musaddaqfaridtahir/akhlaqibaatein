@@ -82,8 +82,8 @@ export default function QuoteCard({
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0" />
             <span
-              className={`text-xs font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-2.5 py-0.5 rounded-full tracking-wide uppercase ${
-                isUrdu ? 'font-urdu text-sm' : ''
+              className={`text-xs font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-2.5 py-0.5 rounded-full uppercase ${
+                isUrdu ? 'font-urdu text-xs leading-normal' : 'tracking-wide'
               }`}
             >
               {quoteAuthor}
@@ -94,7 +94,7 @@ export default function QuoteCard({
             <Link
               href={`/category/${quote.category}`}
               className={`text-xs px-2.5 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/60 hover:bg-emerald-100 transition font-medium ${
-                isUrdu ? 'font-urdu' : ''
+                isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
               #{categoryTitle}
@@ -108,7 +108,7 @@ export default function QuoteCard({
           {quoteTitle && (
             <h3
               className={`font-bold text-slate-900 dark:text-slate-100 hover:text-emerald-800 dark:hover:text-emerald-300 transition break-words ${
-                isUrdu ? 'font-urdu text-lg sm:text-xl text-right leading-[2.0]' : 'text-base sm:text-lg text-left'
+                isUrdu ? 'font-urdu text-sm sm:text-base md:text-lg text-right leading-[1.8]' : 'text-sm sm:text-base text-left'
               }`}
             >
               <Link href={`/quote/${quote.slug}`}>
@@ -120,10 +120,10 @@ export default function QuoteCard({
           {/* Main Quote Text with Responsive Nastaleeq sizing */}
           <div className="pt-0.5 pb-1">
             <p
-              className={`text-slate-900 dark:text-slate-50 font-medium hover:text-emerald-800 dark:hover:text-emerald-300 transition break-words ${
+              className={`text-slate-900 dark:text-slate-50 font-normal sm:font-medium hover:text-emerald-800 dark:hover:text-emerald-300 transition break-words ${
                 isUrdu
-                  ? 'font-urdu text-xl leading-[2.25] sm:text-2xl sm:leading-[2.4] md:text-[28px] text-right'
-                  : 'text-base leading-relaxed sm:text-lg md:text-xl italic text-left'
+                  ? 'font-urdu text-base sm:text-xl md:text-2xl leading-[1.9] sm:leading-[2.2] md:leading-[2.3] text-right'
+                  : 'text-sm sm:text-base md:text-lg leading-relaxed italic text-left'
               }`}
             >
               <Link href={`/quote/${quote.slug}`}>
@@ -137,7 +137,7 @@ export default function QuoteCard({
             <div className="flex items-center justify-between">
               <span
                 className={`font-bold text-emerald-900 dark:text-emerald-300 flex items-center gap-1.5 ${
-                  isUrdu ? 'font-urdu text-sm' : ''
+                  isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
                 }`}
               >
                 <Sparkles className="w-3.5 h-3.5 text-amber-600 dark:text-amber-500 shrink-0" />
@@ -165,8 +165,8 @@ export default function QuoteCard({
 
             {showFullTashreeh ? (
               <div
-                className={`mt-2.5 p-3 sm:p-4 rounded-xl sm:rounded-2xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 space-y-2 ${
-                  isUrdu ? 'font-urdu text-base leading-[2.1] sm:text-lg' : 'text-sm leading-relaxed sm:text-base'
+                className={`mt-2 p-3 sm:p-4 rounded-xl sm:rounded-2xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 space-y-2 ${
+                  isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85] sm:leading-[1.95]' : 'text-xs sm:text-sm leading-relaxed'
                 }`}
               >
                 <p className="text-slate-800 dark:text-slate-200">{quoteTashreeh}</p>
@@ -182,7 +182,7 @@ export default function QuoteCard({
             ) : (
               <p
                 className={`mt-1 line-clamp-2 text-slate-700 dark:text-slate-300 ${
-                  isUrdu ? 'font-urdu text-base leading-[2.0] sm:text-lg' : 'text-xs sm:text-sm leading-relaxed'
+                  isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85] sm:leading-[1.95]' : 'text-xs sm:text-sm leading-relaxed'
                 }`}
               >
                 {quoteTashreeh}

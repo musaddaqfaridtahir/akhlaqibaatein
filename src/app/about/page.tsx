@@ -62,16 +62,16 @@ export default function AboutPage() {
           </div>
 
           <h1
-            className={`text-2xl sm:text-4xl md:text-5xl font-extrabold text-white break-words ${
-              isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
+            className={`text-xl sm:text-3xl md:text-4xl font-bold text-white break-words ${
+              isUrdu ? 'font-urdu leading-[1.8]' : 'leading-tight'
             }`}
           >
             {content.title}
           </h1>
 
           <p
-            className={`text-sm sm:text-base md:text-lg text-emerald-100/90 break-words ${
-              isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'
+            className={`text-xs sm:text-base text-emerald-100/90 break-words ${
+              isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
             }`}
           >
             {content.subtitle}

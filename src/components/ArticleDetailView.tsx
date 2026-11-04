@@ -66,16 +66,16 @@ export default function ArticleDetailView({
         <h1
           className={`font-bold text-slate-900 dark:text-white ${
             isUrdu
-              ? 'font-urdu text-3xl sm:text-4xl lg:text-5xl leading-[2.4] text-right'
-              : 'text-2xl sm:text-3xl lg:text-4xl leading-tight text-left'
+              ? 'font-urdu text-xl sm:text-3xl lg:text-4xl leading-[1.8] sm:leading-[2.0] text-right'
+              : 'text-xl sm:text-3xl lg:text-4xl leading-tight text-left'
           }`}
         >
           {title}
         </h1>
 
         {/* Executive Summary Box */}
-        <div className="p-5 rounded-2xl bg-emerald-50/50 dark:bg-emerald-950/30 border-r-4 border-emerald-600 text-slate-800 dark:text-slate-200 space-y-2">
-          <p className={isUrdu ? 'font-urdu text-base leading-[2.1]' : 'text-sm sm:text-base leading-relaxed'}>
+        <div className="p-4 sm:p-5 rounded-2xl bg-emerald-50/50 dark:bg-emerald-950/30 border-s-4 border-emerald-600 text-slate-800 dark:text-slate-200 space-y-2">
+          <p className={isUrdu ? 'font-urdu text-xs sm:text-base leading-[1.85] sm:leading-[1.95]' : 'text-xs sm:text-base leading-relaxed'}>
             {summary}
           </p>
         </div>
@@ -147,7 +147,7 @@ export default function ArticleDetailView({
               <div className="border-b border-slate-100 dark:border-slate-800 pb-3 flex items-center justify-between flex-wrap gap-2">
                 <h2
                   className={`font-bold text-emerald-950 dark:text-emerald-300 ${
-                    isUrdu ? 'font-urdu text-2xl sm:text-3xl leading-[2.2]' : 'text-xl sm:text-2xl leading-snug'
+                    isUrdu ? 'font-urdu text-lg sm:text-2xl leading-[1.8]' : 'text-lg sm:text-2xl leading-snug'
                   }`}
                 >
                   {secHeading}
@@ -161,8 +161,8 @@ export default function ArticleDetailView({
               <div
                 className={`text-slate-800 dark:text-slate-200 space-y-4 ${
                   isUrdu
-                    ? 'font-urdu text-base sm:text-lg leading-[2.4] text-right'
-                    : 'text-sm sm:text-base leading-relaxed text-left'
+                    ? 'font-urdu text-sm sm:text-base leading-[1.85] sm:leading-[2.0] text-right'
+                    : 'text-xs sm:text-base leading-relaxed text-left'
                 }`}
               >
                 {secBody.split('\n').map((para, pIdx) => (

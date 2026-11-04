@@ -94,21 +94,21 @@ export default function HomePage() {
       <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-10 md:py-14 md:px-12 lg:p-16 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-2xl border border-amber-500/30 islamic-pattern">
         <div className="relative z-10 max-w-3xl space-y-4 sm:space-y-6">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/20 text-amber-300 text-xs sm:text-sm font-semibold border border-amber-500/30">
-            <Sparkles className="w-4 h-4 text-amber-400" />
-            <span>{heroContent.badge}</span>
+            <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+            <span className={isUrdu ? 'font-urdu leading-normal' : ''}>{heroContent.badge}</span>
           </div>
 
           <h1
-            className={`text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white ${
-              isUrdu ? 'font-urdu leading-[2.1]' : 'leading-tight'
+            className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white break-words ${
+              isUrdu ? 'font-urdu leading-[1.8] sm:leading-[1.9]' : 'leading-tight tracking-tight'
             }`}
           >
             {heroContent.title}
           </h1>
 
           <p
-            className={`text-sm sm:text-xl text-emerald-100/90 font-light ${
-              isUrdu ? 'font-urdu leading-[2.3]' : 'leading-relaxed'
+            className={`text-xs sm:text-base md:text-lg text-emerald-100/90 break-words ${
+              isUrdu ? 'font-urdu leading-[1.85] sm:leading-[2.0]' : 'leading-relaxed'
             }`}
           >
             {heroContent.desc}
@@ -117,21 +117,21 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 pt-2">
             <Link
               href="/chahal-hadith"
-              className={`inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-6 sm:py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm shadow-lg hover:shadow-amber-500/20 transition active:scale-95 ${
-                isUrdu ? 'font-urdu text-base' : ''
+              className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs sm:text-sm shadow-lg hover:shadow-amber-500/20 transition active:scale-95 ${
+                isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
-              <Award className="w-4 h-4" />
+              <Award className="w-4 h-4 shrink-0" />
               <span>{heroContent.hadithBtn}</span>
             </Link>
 
             <Link
               href="/books"
-              className={`inline-flex items-center justify-center gap-2 px-5 py-3 sm:px-6 sm:py-3.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm backdrop-blur-md border border-white/15 transition active:scale-95 ${
-                isUrdu ? 'font-urdu text-base' : ''
+              className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs sm:text-sm backdrop-blur-md border border-white/15 transition active:scale-95 ${
+                isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
-              <Library className="w-4 h-4" />
+              <Library className="w-4 h-4 shrink-0" />
               <span>{heroContent.libraryBtn}</span>
             </Link>
           </div>
@@ -147,8 +147,8 @@ export default function HomePage() {
           <div className="flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-amber-500" />
             <h2
-              className={`text-xl sm:text-2xl font-bold text-slate-900 dark:text-white ${
-                isUrdu ? 'font-urdu' : ''
+              className={`text-lg sm:text-xl md:text-2xl font-bold text-slate-900 dark:text-white ${
+                isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
               {t.quoteOfTheDay}
@@ -156,7 +156,7 @@ export default function HomePage() {
           </div>
           <span
             className={`text-xs font-semibold text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-3 py-1 rounded-full border border-emerald-200 dark:border-emerald-800 ${
-              isUrdu ? 'font-urdu' : ''
+              isUrdu ? 'font-urdu leading-normal' : ''
             }`}
           >
             {t.selectedQuote}
@@ -169,8 +169,8 @@ export default function HomePage() {
       <section id="categories" className="space-y-6 scroll-mt-24">
         <div>
           <h2
-            className={`text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white ${
-              isUrdu ? 'font-urdu' : ''
+            className={`text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 dark:text-white ${
+              isUrdu ? 'font-urdu leading-[1.8]' : ''
             }`}
           >
             {heroContent.categoriesHeading}
@@ -189,7 +189,7 @@ export default function HomePage() {
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
-                className="group p-6 rounded-3xl bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
+                className="group p-5 sm:p-6 rounded-3xl bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
@@ -203,8 +203,8 @@ export default function HomePage() {
 
                   <div>
                     <h3
-                      className={`text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors ${
-                        isUrdu ? 'font-urdu leading-[2.1]' : ''
+                      className={`text-base sm:text-lg font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors ${
+                        isUrdu ? 'font-urdu leading-[1.8]' : ''
                       }`}
                     >
                       {catTitle}
@@ -213,7 +213,7 @@ export default function HomePage() {
 
                   <p
                     className={`text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-2 ${
-                      isUrdu ? 'font-urdu leading-[2.0]' : 'leading-relaxed'
+                      isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
                     }`}
                   >
                     {catDesc}
@@ -222,7 +222,7 @@ export default function HomePage() {
 
                 <div
                   className={`mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs font-semibold text-emerald-700 dark:text-emerald-400 ${
-                    isUrdu ? 'font-urdu text-sm' : ''
+                    isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
                   }`}
                 >
                   <span>{heroContent.allCategoryQuotes}</span>
@@ -247,8 +247,8 @@ export default function HomePage() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
             <h2
-              className={`text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white ${
-                isUrdu ? 'font-urdu' : ''
+              className={`text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 dark:text-white ${
+                isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
               {t.featuredArticles}
@@ -260,7 +260,7 @@ export default function HomePage() {
           <Link
             href="/articles"
             className={`text-xs font-semibold text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1 self-start sm:self-auto ${
-              isUrdu ? 'font-urdu text-sm' : ''
+              isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
             }`}
           >
             <span>{t.allArticlesLink}</span>
@@ -278,7 +278,7 @@ export default function HomePage() {
             return (
               <article
                 key={art.slug}
-                className="group bg-white dark:bg-slate-900 rounded-3xl p-6 border border-stone-200/90 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
+                className="group bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-6 border border-stone-200/90 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between text-xs text-slate-500">
@@ -292,30 +292,30 @@ export default function HomePage() {
                   </div>
 
                   <h3
-                    className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors ${
-                      isUrdu ? 'font-urdu leading-[2.1]' : 'leading-snug'
+                    className={`text-base sm:text-lg font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-emerald-400 transition-colors ${
+                      isUrdu ? 'font-urdu leading-[1.8]' : 'leading-snug'
                     }`}
                   >
                     <Link href={`/articles/${art.slug}`}>{artTitle}</Link>
                   </h3>
 
                   <p
-                    className={`text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-3 ${
-                      isUrdu ? 'font-urdu leading-[2.0]' : 'leading-relaxed'
+                    className={`text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-2 ${
+                      isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
                     }`}
                   >
                     {artSummary}
                   </p>
                 </div>
 
-                <div className="mt-5 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
-                  <span className={`text-slate-600 dark:text-slate-300 ${isUrdu ? 'font-urdu' : ''}`}>
+                <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs">
+                  <span className={`text-slate-600 dark:text-slate-300 ${isUrdu ? 'font-urdu text-xs' : ''}`}>
                     {artAuthor}
                   </span>
                   <Link
                     href={`/articles/${art.slug}`}
                     className={`font-semibold text-emerald-700 dark:text-emerald-400 hover:text-emerald-800 flex items-center gap-1 ${
-                      isUrdu ? 'font-urdu' : ''
+                      isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
                     }`}
                   >
                     <span>{t.readArticle}</span>
@@ -329,19 +329,19 @@ export default function HomePage() {
       </section>
 
       {/* Classic Books Showcase: Makhzan-e-Akhlaq */}
-      <section className="rounded-3xl p-8 sm:p-10 bg-gradient-to-r from-emerald-900 via-emerald-950 to-slate-900 text-white shadow-xl border border-amber-500/20">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-          <div className="lg:col-span-2 space-y-4">
+      <section className="rounded-3xl p-5 sm:p-8 lg:p-10 bg-gradient-to-r from-emerald-900 via-emerald-950 to-slate-900 text-white shadow-xl border border-amber-500/20">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-center">
+          <div className="lg:col-span-2 space-y-3 sm:space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
               <Library className="w-3.5 h-3.5" />
-              <span>{t.bookShowcaseTag}</span>
+              <span className={isUrdu ? 'font-urdu' : ''}>{t.bookShowcaseTag}</span>
             </div>
 
-            <h2 className={`text-3xl sm:text-4xl font-bold ${isUrdu ? 'font-urdu leading-[2.0]' : ''}`}>
+            <h2 className={`text-xl sm:text-3xl md:text-4xl font-bold ${isUrdu ? 'font-urdu leading-[1.8]' : ''}`}>
               {getBookTitle(primaryBook, language)}
             </h2>
 
-            <p className={`text-sm sm:text-base text-emerald-100/90 ${isUrdu ? 'font-urdu leading-[2.2]' : 'leading-relaxed'}`}>
+            <p className={`text-xs sm:text-sm md:text-base text-emerald-100/90 ${isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'}`}>
               {getBookDesc(primaryBook, language)}
             </p>
 

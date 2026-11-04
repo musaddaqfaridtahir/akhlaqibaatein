@@ -20,12 +20,12 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-xl bg-emerald-800 text-amber-300 flex items-center justify-center">
                 <Sparkles className="w-5 h-5" />
               </div>
-              <span className={`text-xl font-bold tracking-tight text-white ${isUrdu ? 'font-urdu' : ''}`}>
+              <span className={`text-xl font-bold text-white ${isUrdu ? 'font-urdu' : 'tracking-tight'}`}>
                 {t.siteName}
                 {language !== 'ur' && <span className="text-amber-500">.com</span>}
               </span>
             </Link>
-            <p className={`text-sm text-emerald-200/90 ${isUrdu ? 'font-urdu text-base leading-[2.2]' : 'leading-relaxed'}`}>
+            <p className={`text-xs sm:text-sm text-emerald-200/90 ${isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85]' : 'leading-relaxed'}`}>
               {t.footerMission}
             </p>
             <p className="text-xs text-slate-400 leading-relaxed">
@@ -35,7 +35,7 @@ export default function Footer() {
 
           {/* Col 2: Categories */}
           <div className="space-y-3">
-            <h4 className={`text-sm font-semibold text-white uppercase tracking-wider flex items-center gap-2 ${isUrdu ? 'font-urdu text-base' : ''}`}>
+            <h4 className={`text-sm font-semibold text-white uppercase flex items-center gap-2 ${isUrdu ? 'font-urdu text-xs sm:text-sm' : 'tracking-wider'}`}>
               <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
               <span>{t.categories}</span>
             </h4>
@@ -57,7 +57,7 @@ export default function Footer() {
 
           {/* Col 3: Key Portals */}
           <div className="space-y-3">
-            <h4 className={`text-sm font-semibold text-white uppercase tracking-wider flex items-center gap-2 ${isUrdu ? 'font-urdu text-base' : ''}`}>
+            <h4 className={`text-sm font-semibold text-white uppercase flex items-center gap-2 ${isUrdu ? 'font-urdu text-xs sm:text-sm' : 'tracking-wider'}`}>
               <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
               <span>{t.portalsHeading}</span>
             </h4>
@@ -91,7 +91,7 @@ export default function Footer() {
 
           {/* Col 4: Legal & Compliance */}
           <div className="space-y-3">
-            <h4 className={`text-sm font-semibold text-white uppercase tracking-wider flex items-center gap-2 ${isUrdu ? 'font-urdu text-base' : ''}`}>
+            <h4 className={`text-sm font-semibold text-white uppercase flex items-center gap-2 ${isUrdu ? 'font-urdu text-xs sm:text-sm' : 'tracking-wider'}`}>
               <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
               <span>{t.legalHeading}</span>
             </h4>
