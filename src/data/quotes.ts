@@ -6392,6 +6392,460 @@ export const batch14Quotes: QuoteItem[] = [
     ]
   }
 ];
+
+export const batch15Quotes: QuoteItem[] = [
+  {
+    id: "ma-211",
+    slug: "naap-tol-mein-insaf-aur-kami-se-parhez",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 11-12",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "ناپ تول میں انصاف اور ڈنڈی مارنے کی مذمت",
+      ro: "Naap-Tol Mein Insaf Aur Dandi Marne Ki Mazammat",
+      en: "Honesty in Weights and Measures"
+    },
+    quote: {
+      ur: "جب ناپنے لگو تو پورا پورا ناپو اور سیدھی ترازو سے تولا کرو؛ خرابی ہے کم تولنے والوں کے لیے کہ جب لوگوں سے ناپ کر لیتے ہیں تو پورا لیتے ہیں اور جب ان کو ناپ یا تول کر دیتے ہیں تو گھٹا کر دیتے ہیں۔",
+      ro: "Jab naapne lago to poora poora naapo aur seedhi tarazu se tola karo; kharabi hai kam tolne walon ke liye ke jab logon se naap kar lete hain to poora lete hain aur jab un ko naap ya tol kar dete hain to ghata kar dete hain.",
+      en: "Give full measure when you measure, and weigh with an even, honest balance; woe to those who give less in measure—who demand full measure when receiving from people, yet give less when measuring or weighing for them."
+    },
+    tashreeh: {
+      ur: "صرف ترازو ہی نہیں بلکہ ہر کاروبار، ملازمت اور معاملے میں اپنا حق پورا وصول کرنا اور دوسرے کا حق دیتے وقت کمی کر دینا بدترین خیانت ہے جو رزق کی برکت ختم کر دیتی ہے۔",
+      ro: "Sirf tarazu hi nahi balkay har karobar, mulazmat aur muamlay mein apna haq poora wasool karna aur doosre ka haq dete waqt kami kar dena bad-tareen khyanat hai jo rizq ki barkat khatam kar deti hai.",
+      en: "Fairness extends beyond physical scales to every service and contract: demanding one's full right while shortchanging others destroys commercial blessing and social trust."
+    },
+    tags: [
+      { ur: "تجارتی دیانت", ro: "Tijarati Diyanat", en: "Fair Trade" },
+      { ur: "انصاف", ro: "Insaf", en: "Justice" }
+    ]
+  },
+  {
+    id: "ma-212",
+    slug: "neki-aur-taqwa-mein-taawun-gunah-mein-nahi",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "نیکی اور تقویٰ میں تعاون کا عالمگیر اصول",
+      ro: "Neki Aur Taqwa Mein Taawun Ka Aalamgeer Usool",
+      en: "Cooperating in Goodness and Piety, Not in Sin"
+    },
+    quote: {
+      ur: "نیکی اور پرہیزگاری کے کاموں میں ایک دوسرے کی مدد کیا کرو، اور گناہ اور ظلم و زیادتی کے کاموں میں کسی کا ساتھ مت دو؛ اور اللہ سے ڈرتے رہو۔",
+      ro: "Neki aur parhezgari ke kaamon mein aik doosre ki madad kiya karo, aur gunah aur zulm-o-ziyadati ke kaamon mein kisi ka sath mat do; aur Allah se darte raho.",
+      en: "Cooperate with one another in goodness and righteousness, and do not cooperate in sin and aggression; and remain ever mindful of Allah."
+    },
+    tashreeh: {
+      ur: "یہ حکم اسلامی معاشرت کی بنیاد ہے کہ دوستی، رشتہ داری یا برادری کی خاطر کبھی کسی ظلم اور ناجائز کام میں مددگار نہ بنو، بلکہ ہر اس کام میں ہاتھ بٹاؤ جس سے مخلوق کو بھلائی پہنچے۔",
+      ro: "Yeh hukm Islami muasharat ki bunyad hai ke dosti, rishtedari ya biradari ki khatir kabhi kisi zulm aur najaiz kaam mein madadgar na bano, balkay har us kaam mein hath batao jis se makhlooq ko bhalai pohanche.",
+      en: "True loyalty is anchored in moral truth: support every initiative that promotes welfare and righteousness, and refuse to aid injustice regardless of personal ties."
+    },
+    tags: [
+      { ur: "تعاون", ro: "Taawun", en: "Cooperation" },
+      { ur: "پرہیزگاری", ro: "Parhezgari", en: "Righteousness" }
+    ]
+  },
+  {
+    id: "ma-213",
+    slug: "suni-sunai-khabar-ki-tehqeeq-karna",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 14-15",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "سنی سنائی خبر کی تحقیق اور نادانی سے بچاؤ",
+      ro: "Suni-Sunai Khabar Ki Tehqeeq Aur Nadani Se Bachao",
+      en: "Verifying News Before Acting to Prevent Regret"
+    },
+    quote: {
+      ur: "اے ایمان والو! اگر کوئی غیر معتبر شخص تمہارے پاس کوئی خبر لے کر آئے تو خوب تحقیق کر لیا کرو، کہیں ایسا نہ ہو کہ تم نادانی میں کسی قوم کو نقصان پہنچا بیٹھو اور پھر اپنے کیے پر پشیمان ہو۔",
+      ro: "Aye eman walo! Agar koi ghair-mo'tabar shakhs tumhare paas koi khabar le kar aaye to khoob tehqeeq kar liya karo, kahin aisa na ho ke tum nadani mein kisi qoum ko nuqsan pohancha baitho aur phir apne kiye par pasheman ho.",
+      en: "O believers! If an unreliable person brings you any news, verify it thoroughly, lest you harm people out of ignorance and then become regretful over what you have done."
+    },
+    tashreeh: {
+      ur: "افواہوں اور کچی خبروں پر یقین کر کے فوری ردِعمل دینا خاندانوں اور معاشروں کو تباہ کر دیتا ہے۔ عقلمندی کا تقاضا ہے کہ کسی کے خلاف رائے قائم کرنے سے پہلے سچائی کی پوری تصدیق کی جائے۔",
+      ro: "Afwahon aur kachi khabron par yaqeen kar ke fori radd-e-amal dena khandanon aur muashron ko tabah kar deta hai. Aqalmandi ka taqaza hai ke kisi ke khilaf raaye qayam karne se pehle sachai ki poori tasdeeq ki jaye.",
+      en: "Acting upon unverified rumors ruins relationships and causes grave injustice; verifying facts before passing judgment protects everyone from lasting regret."
+    },
+    tags: [
+      { ur: "تحقیق", ro: "Tehqeeq", en: "Verification" },
+      { ur: "احتیاط", ro: "Ehtiyat", en: "Caution" }
+    ]
+  },
+  {
+    id: "ma-214",
+    slug: "bhookay-ko-khana-khilana-aur-mareez-ki-ayadat",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 22",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "بھوکے کو کھلانا، مریض کی عیادت اور مظلوم کی رہائی",
+      ro: "Bhookay Ko Khilana, Mareez Ki Ayadat Aur Mazloom Ki Rihai",
+      en: "Feeding the Hungry, Visiting the Sick, and Freeing the Captive"
+    },
+    quote: {
+      ur: "بھوکے کو کھانا کھلاؤ، بیمار کی عیادت اور مزاج پرسی کرو، اور مصیبت میں گرفتار قیدی کو خلاصی دلاؤ؛ جو شخص کسی مریض کی عیادت کو جاتا ہے وہ واپسی تک جنت کے باغوں میں چلتا رہتا ہے۔",
+      ro: "Bhookay ko khana khilao, bimar ki ayadat aur mizaj-pursi karo, aur musibat mein giriftar qaidi ko khalasi dilao; jo shakhs kisi mareez ki ayadat ko jata hai woh wapsi tak Jannat ke baghon mein chalta rehta hai.",
+      en: "Feed the hungry, visit the sick, and free the captive in distress; whoever goes to visit an ailing person walks amidst the gardens of Paradise until they return."
+    },
+    tashreeh: {
+      ur: "انسانیت کی خدمت ہی رب کے قرب کا سب سے سیدھا راستہ ہے۔ کسی بھوکے کے پیٹ کی آگ بجھانا اور بیماری میں پڑے شخص کے پاس جا کر اسے تسلی دینا زمین پر جنت کمانے کے مترادف ہے۔",
+      ro: "Insaniyat ki khidmat hi Rab ke qurb ka sab se seedha rasta hai. Kisi bhookay ke pait ki aag bujhana aur bimari mein paray shakhs ke paas ja kar usay tasalli dena zameen par Jannat kamane ke mutradif hai.",
+      en: "Serving suffering humanity is the most direct path to divine grace; comforting the sick and feeding the hungry surround a believer with heavenly mercy."
+    },
+    tags: [
+      { ur: "عیادت", ro: "Ayadat", en: "Visiting the Sick" },
+      { ur: "خدمتِ خلق", ro: "Khidmat-e-Khalq", en: "Humanitarian Service" }
+    ]
+  },
+  {
+    id: "ma-215",
+    slug: "qarz-se-bachna-raat-ka-gham-aur-din-ki-zillat",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 26",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "قرض کے بوجھ سے پرہیز اور سادہ معیشت کا سکون",
+      ro: "Qarz Ke Bojh Se Parhez Aur Sada Maeeshat Ka Sukoon",
+      en: "Avoiding Debt and the Peace of Living Within One's Means"
+    },
+    quote: {
+      ur: "جہاں تک ممکن ہو خود کو قرض کے بوجھ سے محفوظ رکھو، کیونکہ قرض رات کا غم اور دن کی ذلت ہے؛ اور جب انسان مقروض ہو جاتا ہے تو بات کرتا ہے تو جھوٹ بولنے لگتا ہے اور وعدہ کرتا ہے تو خلاف ورزی کر بیٹھتا ہے۔",
+      ro: "Jahan tak mumkin ho khud ko qarz ke bojh se mehfooz rakho, kyunkeh qarz raat ka gham aur din ki zillat hai; aur jab insan maqrooz ho jata hai to baat karta hai to jhoot bolne lagta hai aur wada karta hai to khilaf-warzi kar baithta hai.",
+      en: "Guard yourselves as much as possible against falling into debt, for debt is anxiety by night and humiliation by day; when a person is burdened by debt, they are tempted to make excuses and break promises."
+    },
+    tashreeh: {
+      ur: "دکھاوے اور فضول خرچی کے لیے لیا گیا قرض انسان کی راتوں کی نیند اڑا دیتا ہے اور دن میں قرض خواہوں کے سامنے شرمندہ کرتا ہے۔ اپنی چادر دیکھ کر پاؤں پھیلانا عزت اور اخلاق دونوں کی حفاظت کرتا ہے۔",
+      ro: "Dikhaway aur fuzool-kharchi ke liye liya gaya qarz insan ki raaton ki neend ura deta hai aur din mein qarz-khwahon ke samne sharminda karta hai. Apni chadar dekh kar paon phailana izzat aur akhlaq dono ki hifazat karta hai.",
+      en: "Unnecessary debt robs a person of sleep and erodes moral character; living modestly within one's means preserves both peace of mind and personal honor."
+    },
+    tags: [
+      { ur: "سادہ زندگی", ro: "Sada Zindagi", en: "Simple Living" },
+      { ur: "قناعت", ro: "Qana'at", en: "Financial Prudence" }
+    ]
+  },
+  {
+    id: "ma-216",
+    slug: "bhai-ki-peeth-peechay-izzat-ka-difa-karna",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 28",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "پیٹھ پیچھے اپنے بھائی کی عزت و آبرو کی حفاظت",
+      ro: "Peeth Peechay Apne Bhai Ki Izzat-o-Aabroo Ki Hifazat",
+      en: "Defending a Brother's Honor in His Absence"
+    },
+    quote: {
+      ur: "جو شخص اپنے بھائی کی غیر حاضری میں اس کی عزت و آبرو سے تہمت اور برائی کو ہٹاتا ہے، اللہ تعالیٰ پر حق ہے کہ قیامت کے دن اس کو دوزخ کی آگ سے محفوظ رکھے۔",
+      ro: "Jo shakhs apne bhai ki ghair-haziri mein us ki izzat-o-aabroo se tohmat aur burai ko hatata hai, Allah Ta'ala par haq hai ke qayamat ke din us ko dozakh ki aag se mehfooz rakhe.",
+      en: "Whoever defends the honor and reputation of their brother in his absence, Allah takes it upon Himself to shield their face from the Fire on the Day of Resurrection."
+    },
+    tashreeh: {
+      ur: "سچی دوستی اور ایمانداری کا تقاضا یہ ہے کہ اگر کسی محفل میں آپ کے غیر موجود ساتھی کی غیبت یا تہمت لگائی جا رہی ہو تو خاموش تماشائی بننے کے بجائے اس کا دفاع کیا جائے۔",
+      ro: "Sachi dosti aur emandari ka taqaza yeh hai ke agar kisi mehfil mein aap ke ghair-maujood sathi ki gheebat ya tohmat lagai ja rahi ho to khamosh tamashayi banne ke bajaye us ka difa kiya jaye.",
+      en: "True loyalty shines when someone is not in the room: speaking up to silence slander against an absent friend earns divine protection."
+    },
+    tags: [
+      { ur: "حفاظتِ آبرو", ro: "Hifazat-e-Aabroo", en: "Defending Honor" },
+      { ur: "وفاداری", ro: "Wafadari", en: "Loyalty" }
+    ]
+  },
+  {
+    id: "ma-217",
+    slug: "bachon-par-shafqat-aur-unhein-salam-karna",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 38",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "بچوں پر شفقت اور انہیں سلام میں پہل کرنے کا نبوی اسوہ",
+      ro: "Bachon Par Shafqat Aur Unhein Salam Mein Pehal Karne Ka Nabawi Uswah",
+      en: "Prophetic Affection for Children and Greeting Them First"
+    },
+    quote: {
+      ur: "حضور اکرم ﷺ بچوں کے پاس سے گزرتے تو ان پر شفقت فرماتے اور خود انہیں سلام میں پہل فرماتے؛ کسی بچے کو روتا دیکھتے تو رک کر اس کی دلجوئی فرماتے، اور نماز میں کسی بچے کے رونے کی آواز آتی تو ماں کی تکلیف کے خیال سے نماز مختصر فرما دیتے۔",
+      ro: "Huzoor Akram ﷺ bachon ke paas se guzarte to un par shafqat farmate aur khud unhein salam mein pehal farmate; kisi bachay ko rota dekhte to ruk kar us ki dil-joi farmate, aur namaz mein kisi bachay ke rone ki aawaz aati to maa ki takleef ke khayal se namaz mukhtasar farma dete.",
+      en: "Whenever the Prophet ﷺ passed by children, he would smile and greet them first with peace; he comforted crying children with tender affection, and even shortened congregational prayers upon hearing a child weep so the mother would not feel distressed."
+    },
+    tashreeh: {
+      ur: "بچوں کو سلام کرنا اور ان کے سر پر پیار سے ہاتھ پھیرنا ان کے اندر خود اعتمادی اور ادب پیدا کرتا ہے۔ بڑوں کا کام بچوں پر رعب جمانا نہیں بلکہ محبت سے ان کی شخصیت نکھارنا ہے۔",
+      ro: "Bachon ko salam karna aur un ke sar par pyar se hath pherna un ke andar khud-itmadi aur adab paida karta hai. Baron ka kaam bachon par roab jamana nahi balkay mohabbat se un ki shakhsiyat nikharna hai.",
+      en: "Greeting children with respect and treating them with warmth nurtures their self-esteem and teaches them refined manners by example."
+    },
+    tags: [
+      { ur: "شفقتِ اطفال", ro: "Shafqat-e-Atfal", en: "Kindness to Children" },
+      { ur: "تواضع", ro: "Tawazu", en: "Humility" }
+    ]
+  },
+  {
+    id: "ma-218",
+    slug: "majlis-mein-imtiyaz-na-rakhna-aur-ghareebon-ki-diljoi",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 41",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "مجلس میں مساوات اور غرباء و مساکین کی دلجوئی",
+      ro: "Majlis Mein Masawat Aur Ghuraba o Masakeen Ki Dil-Joi",
+      en: "Equality in Gatherings and Honouring the Poor"
+    },
+    quote: {
+      ur: "آپ ﷺ صحابہ کرامؓ میں بغیر کسی امتیازی نشان کے بیٹھتے اور مجلس میں جہاں جگہ خالی پاتے وہیں تشریف فرما ہو جاتے؛ آپ ﷺ مسکینوں کے ساتھ اٹھتے بیٹھتے، غریبوں کی عیادت کو تشریف لے جاتے اور کسی فقیر کو اس کے افلاس کے سبب حقیر نہ جانتے۔",
+      ro: "Aap ﷺ Sahaba Kiram (R.A) mein baghair kisi imtiyazi nishan ke baithte aur majlis mein jahan jagah khali pate wahin tashreef-farma ho jate; Aap ﷺ miskeenon ke sath uthte baithte, ghareebon ki ayadat ko tashreef le jate aur kisi faqeer ko us ke iflas ke sabab haqeer na jante.",
+      en: "The Prophet ﷺ sat among his companions without any special throne or distinction, taking whatever seat was available at the edge of a gathering; he kept company with the poor, visited the sick among the humble, and never looked down upon anyone for their poverty."
+    },
+    tashreeh: {
+      ur: "سچی عظمت وی آئی پی کلچر اور نمایاں کرسیوں کی محتاج نہیں ہوتی۔ غریب اور کمزور انسان کے پاس بیٹھ کر اس کو عزت کا احساس دلانا سب سے بلند اخلاقی درجہ ہے۔",
+      ro: "Sachi azmat VIP culture aur numayan kursiyon ki mohtaj nahi hoti. Ghareeb aur kamzor insan ke paas baith kar us ko izzat ka ehsas dilana sab se buland akhlaqi darja hai.",
+      en: "True leadership rejects elitism and special privilege, finding honor in sitting beside the humble and treating every human being with equal dignity."
+    },
+    tags: [
+      { ur: "مساوات", ro: "Masawat", en: "Social Equality" },
+      { ur: "غریب نوازی", ro: "Ghareeb-Nawazi", en: "Honoring the Poor" }
+    ]
+  },
+  {
+    id: "ma-219",
+    slug: "panch-andheray-aur-un-ke-panch-roshan-charagh",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 68",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "زندگی کے پانچ اندھیرے اور ان کے پانچ روشن چراغ",
+      ro: "Zindagi Ke Panch Andheray Aur Un Ke Panch Roshan Charagh",
+      en: "Five Spiritual Darknesses and Their Five Guiding Lamps"
+    },
+    quote: {
+      ur: "اندھیرے پانچ ہیں اور ان کے چراغ بھی پانچ ہیں: دنیا کی محبت اندھیرا ہے اور اس کا چراغ پرہیزگاری ہے؛ گناہ اندھیرا ہے اور اس کا چراغ توبہ ہے؛ قبر اندھیرا ہے اور اس کا چراغ کلمۂ طیبہ ہے؛ آخرت اندھیرا ہے اور اس کا چراغ نیک عمل ہے؛ اور پل صراط اندھیرا ہے اور اس کا چراغ یقین ہے۔",
+      ro: "Andheray panch hain aur un ke charagh bhi panch hain: duniya ki mohabbat andhera hai aur us ka charagh parhezgari hai; gunah andhera hai aur us ka charagh tauba hai; qabar andhera hai aur us ka charagh Kalma-e-Tayyiba hai; akhirat andhera hai aur us ka charagh nek amal hai; aur Pul-Sirat andhera hai aur us ka charagh yaqeen hai.",
+      en: "There are five darknesses and five lamps to illuminate them: love of the world is darkness and its lamp is piety; sin is darkness and its lamp is repentance; the grave is darkness and its lamp is faith; the Hereafter is darkness and its lamp is righteous action; and the final bridge is darkness and its lamp is certainty."
+    },
+    tashreeh: {
+      ur: "یہ حکیمانہ قول انسان کے پورے سفرِ حیات کا نقشہ کھینچ دیتا ہے کہ دنیا کی غفلت سے نکلنے کے لیے تقویٰ، گناہ کے داغ دھونے کے لیے توبہ، اور آخرت کی منزل آسان کرنے کے لیے عملِ صالح اور کامل یقین ہی اصل روشنی ہیں۔",
+      ro: "Yeh hakeemana qoul insan ke poore safar-e-hayat ka naqsha kheench deta hai ke duniya ki ghaflat se nikalne ke liye taqwa, gunah ke daagh dhone ke liye tauba, aur akhirat ki manzil asan karne ke liye amal-e-saleh aur kamil yaqeen hi asal roshni hain.",
+      en: "Every stage of human existence faces a spiritual shadow that can only be dispelled by its corresponding light: piety, repentance, faith, good deeds, and unwavering certainty."
+    },
+    tags: [
+      { ur: "نورِ ہدایت", ro: "Noor-e-Hidayat", en: "Spiritual Light" },
+      { ur: "یقین", ro: "Yaqeen", en: "Certainty" }
+    ]
+  },
+  {
+    id: "ma-220",
+    slug: "tawazu-ikhtiyar-karna-aur-ghuraba-ki-suhbat",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 76",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "عاجزی سے رفعت اور مساکین کی مجلس کی برکت",
+      ro: "Aajizi Se Rif'at Aur Masakeen Ki Majlis Ki Barkat",
+      en: "Elevation Through Humility and Sitting with the Poor"
+    },
+    quote: {
+      ur: "جو شخص حق کے لیے عاجزی اور تواضع اختیار کرتا ہے، اللہ تعالیٰ اس کی حکمت اور مرتبے کو بلند فرما دیتا ہے؛ مسکینوں اور غریبوں کے پاس بیٹھا کرو کہ اس سے دل میں نرمی اور شکر کا جذبہ پیدا ہوتا ہے۔",
+      ro: "Jo shakhs haq ke liye aajizi aur tawazu ikhtiyar karta hai, Allah Ta'ala us ki hikmat aur martabay ko buland farma deta hai; miskeenon aur ghareebon ke paas baitha karo ke is se dil mein narmi aur shukr ka jazba paida hota hai.",
+      en: "Whoever humbles themselves for the sake of truth, God elevates their wisdom and station; sit often with the poor and humble, for their company softens the heart and awakens gratitude."
+    },
+    tashreeh: {
+      ur: "صرف امیروں اور صاحبِ اقتدار لوگوں کی محفلوں میں بیٹھنے سے انسان میں حرص اور تکبر پیدا ہوتا ہے، جبکہ سادہ اور غریب لوگوں کے درمیان بیٹھنے سے عاجزی اور اپنی نعمتوں کی قدر نصیب ہوتی ہے۔",
+      ro: "Sirf ameeron aur sahib-e-iqtidar logon ki mehfilon mein baithne se insan mein hirs aur takabbur paida hota hai, jabkeh sada aur ghareeb logon ke darmiyan baithne se aajizi aur apni nematon ki qadr naseeb hoti hai.",
+      en: "Chasing elite circles breeds worldly greed, whereas spending time with humble people keeps a person grounded, empathetic, and thankful."
+    },
+    tags: [
+      { ur: "عاجزی", ro: "Aajizi", en: "Humility" },
+      { ur: "رقتِ قلب", ro: "Riqqat-e-Qalb", en: "Softness of Heart" }
+    ]
+  },
+  {
+    id: "ma-221",
+    slug: "duniya-ka-gham-tareeki-aur-akhirat-ka-gham-noor",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 86",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "دنیا کے غم اور آخرت کی فکر کا دل پر اثر",
+      ro: "Duniya Ke Gham Aur Akhirat Ki Fikr Ka Dil Par Asar",
+      en: "Worldly Anxiety Versus Concern for the Hereafter"
+    },
+    quote: {
+      ur: "دنیا کا غم دل میں تاریکی پیدا کرتا ہے اور آخرت کا غم دل میں نور پیدا کرتا ہے؛ جو شخص دنیا کی قید سے نکل کر تقویٰ اختیار کر لیتا ہے، اللہ تعالیٰ اسے مخلوق کی محتاجی سے بے نیاز کر دیتا ہے۔",
+      ro: "Duniya ka gham dil mein tareeki paida karta hai aur akhirat ka gham dil mein noor paida karta hai; jo shakhs duniya ki qaid se nikal kar taqwa ikhtiyar kar leta hai, Allah Ta'ala usay makhlooq ki mohtaji se be-niyaz kar deta hai.",
+      en: "Grieving over worldly losses darkens the heart, whereas concern for the Hereafter fills the heart with light; whoever frees themselves from worldly obsession through piety is granted independence from people."
+    },
+    tashreeh: {
+      ur: "جب انسان ہر وقت صرف دنیاوی نفع نقصان کے غم میں ڈوبا رہتا ہے تو اس کا دل تنگ اور بے سکون ہو جاتا ہے، لیکن جب اس کا اصل مقصد اپنی عاقبت سنوارنا بن جائے تو دنیا کی مشکلات اس کی نظر میں ہلکی ہو جاتی ہیں۔",
+      ro: "Jab insan har waqt sirf dunyawi nafa-nuqsan ke gham mein dooba rehta hai to us ka dil tang aur be-sukoon ho jata hai, lekin jab us ka asal maqsad apni aaqibat sanwarna ban jaye to duniya ki mushkilat us ki nazar mein halki ho jati hain.",
+      en: "Obsessing over material setbacks drains the spirit, while focusing on eternal accountability brings clarity, resilience, and inner freedom."
+    },
+    tags: [
+      { ur: "فکرِ آخرت", ro: "Fikr-e-Akhirat", en: "Eternal Focus" },
+      { ur: "بے نیازی", ro: "Be-Niyazi", en: "Spiritual Freedom" }
+    ]
+  },
+  {
+    id: "ma-222",
+    slug: "fursat-ka-mauqa-badal-ki-tarah-guzar-jata-hai",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 93",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "فرصت کے لمحات اور نیکی کے مواقع کو غنیمت جاننا",
+      ro: "Fursat Ke Lamhat Aur Neki Ke Mawaqe Ko Ghaneemat Janna",
+      en: "Seizing Fleeting Opportunities for Good"
+    },
+    quote: {
+      ur: "فرصت کا موقع بادل کی طرح تیزی سے گزر جاتا ہے، اس لیے جب بھلائی اور نیکی کے مواقع میسر آئیں تو انہیں غنیمت جان کر فوراً حاصل کر لو؛ اور سستی و کاہلی سے بچو کیونکہ سست انسان اپنا حق بھی کھو بیٹھتا ہے۔",
+      ro: "Fursat ka mauqa badal ki tarah tezi se guzar jata hai, is liye jab bhalai aur neki ke mawaqe muyassar aayein to unhein ghaneemat jaan kar foran hasil kar lo; aur susti o kahili se bacho kyunkeh sust insan apna haq bhi kho baithta hai.",
+      en: "Opportunity passes as swiftly as a cloud in the sky, so seize every chance to do good as soon as it appears; and beware of laziness, for the sluggish person forfeits even their own rightful share."
+    },
+    tashreeh: {
+      ur: "زندگی میں کسی کی مدد کرنے، علم سیکھنے یا کوئی نیک کام کر گزرنے کا موقع ہمیشہ برقرار نہیں رہتا۔ جو انسان سستی میں وقت گنوا دیتا ہے اس کے ہاتھ صرف پچھتاوا رہ جاتا ہے۔",
+      ro: "Zindagi mein kisi ki madad karne, ilm seekhne ya koi nek kaam kar guzarne ka mauqa hamesha barqarar nahi rehta. Jo insan susti mein waqt ganwa deta hai us ke hath sirf pachtawa reh jata hai.",
+      en: "Moments of capability and opportunity are transient; acting promptly when a door of goodness opens separates the wise from the regretful."
+    },
+    tags: [
+      { ur: "غنیمتِ وقت", ro: "Ghaneemat-e-Waqt", en: "Seizing Opportunity" },
+      { ur: "مستعدی", ro: "Mustaidi", en: "Proactiveness" }
+    ]
+  },
+  {
+    id: "ma-223",
+    slug: "agar-kalam-chandi-hai-to-khamoshi-sona-hai",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 98",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "خاموشی کا سونا اور علماء و حکماء کی صحبت",
+      ro: "Khamoshi Ka Sona Aur Ulama o Hukama Ki Suhbat",
+      en: "Silence as Gold and the Company of the Wise"
+    },
+    quote: {
+      ur: "اے بیٹے! میں نے بولنے پر بارہا ندامت اٹھائی ہے لیکن خاموش رہنے پر کبھی پشیمان نہیں ہوا؛ اگر کلام چاندی ہے تو موقع کی خاموشی سونا ہے۔ علماء کی صحبت میں زانوئے ادب تہہ کر، کیونکہ اللہ حکمت کے نور سے مردہ دلوں کو زندہ کرتا ہے۔",
+      ro: "Aye betay! Main ne bolne par barha nadamat uthai hai lekin khamosh rehne par kabhi pasheman nahi huwa; agar kalam chandi hai to mauqa ki khamoshi sona hai. Ulama ki suhbat mein zanoo-e-adab teh kar, kyunkeh Allah hikmat ke noor se murda dilon ko zinda karta hai.",
+      en: "O my son! I have often regretted speaking, yet I have never regretted remaining silent; if speech is silver, timely silence is gold. Sit humbly in the company of wise scholars, for God revives hearts with the light of wisdom just as He revives the earth with rain."
+    },
+    tashreeh: {
+      ur: "بے محل بولنے سے خاموش رہنا ہزار درجہ بہتر ہے کیونکہ خاموشی انسان کے وقار کی حفاظت کرتی ہے، اور اہلِ علم کی صحبت انسان کی فکر کو جلا بخشتی ہے۔",
+      ro: "Be-mahal bolne se khamosh rehna hazar darja behtar hai kyunkeh khamoshi insan ke waqar ki hifazat karti hai, aur ahl-e-ilm ki suhbat insan ki fikr ko jila bakhshti hai.",
+      en: "Restraining the tongue prevents countless regrets, and sitting with people of deep knowledge nourishes the mind and awakens the soul."
+    },
+    tags: [
+      { ur: "حکمتِ لقمان", ro: "Hikmat-e-Luqman", en: "Luqman's Wisdom" },
+      { ur: "صحبتِ علماء", ro: "Suhbat-e-Ulama", en: "Company of Scholars" }
+    ]
+  },
+  {
+    id: "ma-224",
+    slug: "aafiyat-chhupi-badshahat-aur-qanaat-lazawal-khazana",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 104",
+    author: {
+      ur: "اقوالِ انبیاء و حکماء",
+      ro: "Aqwal-e-Ambiya o Hukama",
+      en: "Sayings of Prophets & Sages"
+    },
+    title: {
+      ur: "تندرستی کی بادشاہت اور قناعت کا لازوال خزانہ",
+      ro: "Tandrusti Ki Badshahat Aur Qana'at Ka La-Zawal Khazana",
+      en: "Health as a Hidden Kingdom and Contentment as Treasure"
+    },
+    quote: {
+      ur: "تندرستی اور عافیت ایک چھپی ہوئی بادشاہت ہے جس کی قدر بیمار ہی جانتا ہے، اور قناعت ایک ایسا خزانہ ہے جو کبھی ختم نہیں ہوتا؛ جو شخص تھوڑے رزق پر راضی نہ ہوا وہ بہت سے مال سے بھی سیر نہیں ہو سکتا۔",
+      ro: "Tandrusti aur aafiyat aik chhupi hui badshahat hai jis ki qadr bimar hi janta hai, aur qana'at aik aisa khazana hai jo kabhi khatam nahi hota; jo shakhs thoray rizq par raazi na huwa woh bohot se maal se bhi sair nahi ho sakta.",
+      en: "Good health and safety are an invisible crown whose true worth only the sick understand, and contentment is a treasure that never runs dry; whoever is not satisfied with modest provision will never be satisfied with abundance."
+    },
+    tashreeh: {
+      ur: "انسان اکثر صحت اور امن کی نعمت کو معمولی سمجھ کر ناشکری کرتا ہے، حالانکہ جس کو تندرستی اور دل کی قناعت مل گئی اسے دنیا کی سب سے بڑی سلطنت مل گئی۔",
+      ro: "Insan aksar sehat aur aman ki nemat ko mamooli samajh kar nashukri karta hai, halankeh jis ko tandrusti aur dil ki qana'at mil gayi usay duniya ki sab se badi saltanat mil gayi.",
+      en: "Physical well-being and a grateful, contented heart surpass all material empires in value, bringing peace that no amount of gold can buy."
+    },
+    tags: [
+      { ur: "تندرستی", ro: "Tandrusti", en: "Good Health" },
+      { ur: "قناعت", ro: "Qana'at", en: "Contentment" }
+    ]
+  },
+  {
+    id: "ma-225",
+    slug: "sacha-dost-aib-dhanpta-hai-aur-neki-par-ubharta-hai",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 112",
+    author: {
+      ur: "اقوالِ بزرگان و حکماء",
+      ro: "Aqwal-e-Buzurgan o Hukama",
+      en: "Wisdom of the Righteous"
+    },
+    title: {
+      ur: "مخلص اور باوفا دوست کی اصل علامات",
+      ro: "Mukhlis Aur Ba-Wafa Dost Ki Asal Alamaat",
+      en: "The True Signs of a Sincere and Loyal Friend"
+    },
+    quote: {
+      ur: "سچا دوست وہ ہے جو تیری موجودگی میں تجھے نیکی کی یاد دہانی کرائے، تیری غیر حاضری میں تیرے عیب ڈھانپے، تیری خطا کو بھول جائے اور جب تجھ پر زمانے کی تنگی آئے تو اپنا مال اور جان تیرے لیے حاضر کر دے۔",
+      ro: "Sacha dost woh hai jo teri maujoodgi mein tujhe neki ki yaad-dihani karaye, teri ghair-haziri mein tere aib dhanpay, teri khata ko bhool jaye aur jab tujh par zamane ki tangi aaye to apna maal aur jaan tere liye hazir kar de.",
+      en: "A true friend is one who reminds you of goodness when you are together, conceals your faults when you are absent, overlooks your slips, and stands by you wholeheartedly when times grow hard."
+    },
+    tashreeh: {
+      ur: "مطلب کے ساتھی خوشحالی میں گرد جمع ہوتے ہیں اور مصیبت میں کنارہ کر جاتے ہیں، جبکہ مخلص دوست آپ کے کردار کا محافظ ہوتا ہے اور تنگی و فراخی میں یکساں وفا نبھاتا ہے۔",
+      ro: "Matlab ke sathi khushhali mein gird jama hote hain aur musibat mein kinara kar jate hain, jabkeh mukhlis dost aap ke kirdar ka mohafiz hota hai aur tangi o farakhi mein yaksan wafa nibhata hai.",
+      en: "Fair-weather companions vanish in adversity, whereas a sincere friend guards your dignity in private and stands firm beside you in hardship."
+    },
+    tags: [
+      { ur: "اخلاصِ دوستی", ro: "Ikhlas-e-Dosti", en: "Sincere Friendship" },
+      { ur: "وفا", ro: "Wafa", en: "Loyalty" }
+    ]
+  }
+];
+
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
@@ -6407,6 +6861,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch12Quotes.map((q, idx) => quoteItemToQuote(q, idx === 3 || idx === 14)), // ma-169 (Bhai ki hajat rawai), ma-180 (Hazrat Abu Bakr - Subah khezi & Mehnat) featured
   ...batch13Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 12)), // ma-181 (Uswah-e-Rasool), ma-193 (Hazrat Abu Bakr khutba) featured
   ...batch14Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 12 || idx === 14)), // ma-196 (Walideen), ma-208 (Hazrat Ali - Sakhawat o Maafi), ma-210 (Luqman - Do baatein) featured
+  ...batch15Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 8 || idx === 12)), // ma-212 (Neki o Taqwa), ma-219 (Hazrat Abu Bakr - 5 Andheray), ma-223 (Luqman - Khamoshi sona) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
