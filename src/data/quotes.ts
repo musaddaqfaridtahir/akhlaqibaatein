@@ -6846,6 +6846,459 @@ export const batch15Quotes: QuoteItem[] = [
   }
 ];
 
+export const batch16Quotes: QuoteItem[] = [
+  {
+    id: "ma-226",
+    slug: "qarabatiyon-aur-masakeen-ki-khata-par-madad-band-na-karna",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "رنجش کے باوجود حاجت مندوں کی مدد جاری رکھنا",
+      ro: "Ranjish Ke Bawajood Hajat-Mandon Ki Madad Jari Rakhna",
+      en: "Continuing Charity to Relatives Even After a Grievance"
+    },
+    quote: {
+      ur: "تم میں سے جو لوگ صاحبِ فضیلت اور صاحبِ وسعت ہیں وہ قرابت داروں، مسکینوں اور مہاجروں کو کچھ نہ دینے کی قسم نہ کھائیں، بلکہ معاف کر دیں اور درگزر کریں؛ کیا تم نہیں چاہتے کہ اللہ تعالیٰ تمہارے قصور معاف فرما دے؟",
+      ro: "Tum mein se jo log sahib-e-fazeelat aur sahib-e-wus'at hain woh qarabatiyon, miskeenon aur muhajiron ko kuch na dene ki qasam na khayein, balkay maaf kar dein aur darguzar karein; kya tum nahi chahte ke Allah Ta'ala tumhare qusoor maaf farma de?",
+      en: "Let not those of virtue and wealth among you swear to discontinue helping relatives and the needy due to their mistakes; rather, pardon and overlook—do you not wish that Allah should forgive you?"
+    },
+    tashreeh: {
+      ur: "اکثر لوگ کسی غریب رشتہ دار کی غلطی یا ناشکری پر ناراض ہو کر اس کی مالی مدد بند کر دیتے ہیں۔ اعلیٰ ظرفی کا تقاضا یہ ہے کہ رب کی مغفرت کی امید میں ان کی خطا معاف کر کے احسان کا سلسلہ جاری رکھا جائے۔",
+      ro: "Aksar log kisi ghareeb rishtedar ki ghalti ya nashukri par naraz ho kar us ki maali madad band kar dete hain. Aala-zarfi ka taqaza yeh hai ke Rab ki maghfirat ki umeed mein un ki khata maaf kar ke ehsan ka silsila jari rakha jaye.",
+      en: "True magnanimity means continuing to support needy relatives even when they have erred against us, seeking divine forgiveness through our own willingness to forgive."
+    },
+    tags: [
+      { ur: "عفو و درگزر", ro: "Afw-o-Darguzar", en: "Forgiveness" },
+      { ur: "صلہ رحمی", ro: "Sila-Rehmi", en: "Family Support" }
+    ]
+  },
+  {
+    id: "ma-227",
+    slug: "kisi-ke-ghar-mein-ijazat-aur-salam-ke-sath-dakhil-hona",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 14",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "دوسروں کے گھروں میں اجازت اور سلام سے داخل ہونے کے آداب",
+      ro: "Doosron Ke Gharon Mein Ijazat Aur Salam Se Dakhil Hone Ke Aadab",
+      en: "Seeking Permission and Greeting Before Entering Homes"
+    },
+    quote: {
+      ur: "اے ایمان والو! اپنے گھروں کے سوا دوسرے لوگوں کے گھروں میں اس وقت تک داخل نہ ہو جب تک اجازت نہ لے لو اور وہاں کے رہنے والوں کو سلام نہ کر لو؛ اور اگر تم سے کہا جائے کہ واپس چلے جاؤ تو خوش دلی سے واپس لوٹ جاؤ۔",
+      ro: "Aye eman walo! Apne gharon ke siwa doosre logon ke gharon mein us waqt tak dakhil na ho jab tak ijazat na le lo aur wahan ke rehne walon ko salam na kar lo; aur agar tum se kaha jaye ke wapis chalay jao to khush-dili se wapis laut jao.",
+      en: "O believers! Do not enter houses other than your own until you have politely sought permission and greeted their inhabitants with peace; and if you are asked to return, go back cheerfully without taking offense."
+    },
+    tashreeh: {
+      ur: "کسی کی ذاتی خلوت اور گھر کے پردے کا احترام کرنا شائستہ معاشرت کا بنیادی اصول ہے۔ بغیر اطلاع داخل ہونا یا مصروفیت کی وجہ سے معذرت کرنے پر برا مان جانا اخلاقی آداب کے خلاف ہے۔",
+      ro: "Kisi ki zaati khalwat aur ghar ke parday ka ehtiram karna shaista muasharat ka bunyadi usool hai. Baghair ittila dakhil hona ya masroofiyat ki wajah se maazrat karne par bura maan jana akhlaqi aadab ke khilaf hai.",
+      en: "Respecting personal privacy by asking permission before entering—and graciously accepting if the host is unavailable—is a hallmark of civilized etiquette."
+    },
+    tags: [
+      { ur: "آدابِ ملاقات", ro: "Aadab-e-Mulaqat", en: "Visiting Etiquette" },
+      { ur: "احترامِ خلوت", ro: "Ehtiram-e-Khalwat", en: "Privacy" }
+    ]
+  },
+  {
+    id: "ma-228",
+    slug: "tamsukhur-buray-alqab-aur-gheebat-ki-mumaniat",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "تمسخر اڑانے، برے نام رکھنے اور عیب لگانے کی ممانعت",
+      ro: "Tamsukhur Urane, Buray Naam Rakhne Aur Aib Lagane Ki Mumaniat",
+      en: "Prohibition of Mockery, Offensive Nicknames, and Defamation"
+    },
+    quote: {
+      ur: "نہ مرد دوسرے مردوں کا مذاق اڑائیں، ممکن ہے کہ وہ ان سے بہتر ہوں، اور نہ عورتیں دوسری عورتوں کا مذاق اڑائیں؛ نہ آپس میں ایک دوسرے پر عیب لگاؤ اور نہ ایک دوسرے کو برے القاب سے پکارو۔",
+      ro: "Na mard doosre mardon ka mazaq urayein, mumkin hai ke woh un se behtar hon, aur na aurtein doosri aurton ka mazaq urayein; na aapas mein aik doosre par aib lagao aur na aik doosre ko buray alqab se pukaro.",
+      en: "Let no group of men mock another group, for they may be better than them in the sight of God, nor let women mock other women; do not defame one another, nor call each other by offensive nicknames."
+    },
+    tashreeh: {
+      ur: "کسی انسان کی ظاہری شکل، غربت یا سادگی کا مذاق اڑانا تکبر کی علامت ہے کیونکہ ہو سکتا ہے وہ دل کی پاکیزگی میں ہم سے کہیں افضل ہو۔ ہر انسان کو اس کے باعزت نام سے پکارنا ایمان کی شان ہے۔",
+      ro: "Kisi insan ki zahiri shakal, ghareebi ya sadgi ka mazaq urana takabbur ki alamat hai kyunkeh ho sakta hai woh dil ki pakeezgi mein hum se kahin afzal ho. Har insan ko us ke ba-izzat naam se pukarna eman ki shaan hai.",
+      en: "Ridiculing others or using demeaning nicknames stems from arrogance; true faith honors the dignity of every person without exception."
+    },
+    tags: [
+      { ur: "تکریمِ انسانیت", ro: "Takreem-e-Insaniyat", en: "Human Dignity" },
+      { ur: "آدابِ گفتگو", ro: "Aadab-e-Guftugu", en: "Respectful Speech" }
+    ]
+  },
+  {
+    id: "ma-229",
+    slug: "raza-e-ilahi-ke-liye-mareez-ki-ayadat-aur-mulaqat",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 21",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "خالص اللہ کے لیے ملاقات اور عیادت کرنے کی بشارت",
+      ro: "Khalis Allah Ke Liye Mulaqat Aur Ayadat Karne Ki Basharat",
+      en: "Glad Tidings for Visiting the Sick and Friends Purely for God"
+    },
+    quote: {
+      ur: "جو شخص کسی مریض کی عیادت کرے یا اپنے کسی دینی بھائی سے محض اللہ کی رضا کے لیے ملاقات کو جائے، تو آسمان سے ایک منادی پکارتا ہے کہ تو بھی اچھا رہا اور تیرا چلنا بھی بابرکت ہوا، اور تو نے جنت میں اپنا ایک ٹھکانا بنا لیا۔",
+      ro: "Jo shakhs kisi mareez ki ayadat kare ya apne kisi deeni bhai se mehaz Allah ki raza ke liye mulaqat ko jaye, to asman se aik munadi pukarta hai ke tu bhi acha raha aur tera chalna bhi ba-barkat huwa, aur tu ne Jannat mein apna aik thikana bana liya.",
+      en: "Whoever visits a sick person or sets out to meet a brother purely for the sake of God, a heavenly caller proclaims: Blessed are you, blessed are your footsteps, and you have prepared a noble dwelling in Paradise."
+    },
+    tashreeh: {
+      ur: "جب انسان بغیر کسی دنیاوی غرض یا لالچ کے صرف محبت اور ہمدردی کی خاطر کسی بیمار یا دوست کا حال پوچھنے جاتا ہے تو اس کا ہر اٹھنے والا قدم فرشتوں کی دعاؤں کے سائے میں ہوتا ہے۔",
+      ro: "Jab insan baghair kisi dunyawi gharz ya lalach ke sirf mohabbat aur hamdardi ki khatir kisi bimar ya dost ka haal poochne jata hai to us ka har uthne wala qadam farishton ki duaon ke saaye mein hota hai.",
+      en: "Visiting others purely out of sincere affection and empathy—free of worldly motives—transforms ordinary footsteps into an act of worship."
+    },
+    tags: [
+      { ur: "بے غرض محبت", ro: "Be-Gharz Mohabbat", en: "Selfless Love" },
+      { ur: "عیادت", ro: "Ayadat", en: "Visiting the Sick" }
+    ]
+  },
+  {
+    id: "ma-230",
+    slug: "najat-dilane-wali-teen-sifat-aur-halakat-ki-teen-baatein",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 26",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "نجات دلانے والی تین صفات اور ہلاک کرنے والی تین خصلتیں",
+      ro: "Najat Dilane Wali Teen Sifat Aur Halak Karne Wali Teen Khaslatein",
+      en: "Three Qualities That Save and Three That Destroy"
+    },
+    quote: {
+      ur: "تین چیزیں نجات دینے والی ہیں: خلوت اور جلوت دونوں میں اللہ سے ڈرنا، فقر اور امیری دونوں حالتوں میں میانہ روی اختیار کرنا، اور غصے اور خوشی دونوں میں انصاف کی بات کہنا۔ اور تین چیزیں ہلاک کرنے والی ہیں: شدید بخل، نفس کی خواہشات کی پیروی، اور انسان کا اپنی رائے پر مغرور ہونا۔",
+      ro: "Teen cheezein najat dene wali hain: khalwat aur jalwat dono mein Allah se darna, faqr aur ameeri dono halaton mein miyana-rawi ikhtiyar karna, aur gusse aur khushi dono mein insaf ki baat kehna. Aur teen cheezein halak karne wali hain: shadeed bukhl, nafs ki khuwaishat ki pairwi, aur insan ka apni raaye par maghroor hona.",
+      en: "Three qualities lead to salvation: reverence for God in private and public, moderation in poverty and wealth, and fairness in both anger and pleasure; and three traits lead to ruin: extreme greed, following base desires, and self-conceit."
+    },
+    tashreeh: {
+      ur: "یہ حدیثِ مبارکہ اخلاقی توازن کا مکمل دستور ہے کہ تنہائی میں بھی تقویٰ رہے، پیسے کے آنے جانے سے اللے تللے نہ ہوں اور جذبات میں انصاف کا دامن نہ چھوٹے، جبکہ خود پسندی اور لالچ انسان کو لے ڈوبتے ہیں۔",
+      ro: "Yeh hadith-e-mubaraka akhlaqi tawazun ka mukammal dastoor hai ke tanhai mein bhi taqwa rahe, paisay ke aane jane se allay-tallay na hon aur jazbat mein insaf ka daman na chhootay, jabkeh khud-pasandi aur lalach insan ko le doobte hain.",
+      en: "Spiritual balance requires integrity in private, financial moderation, and emotional fairness, while guarding the soul against greed, impulsiveness, and vanity."
+    },
+    tags: [
+      { ur: "توازنِ حیات", ro: "Tawazun-e-Hayat", en: "Moral Balance" },
+      { ur: "خود احتسابی", ro: "Khud-Ehtisabi", en: "Self-Reflection" }
+    ]
+  },
+  {
+    id: "ma-231",
+    slug: "musibat-door-karna-aur-parda-poshi-ka-ajr",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 23",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "پریشانی دور کرنے، آسانی بانٹنے اور پردہ پوشی کا انعام",
+      ro: "Pareshani Door Karne, Asani Bantne Aur Parda-Poshi Ka Inam",
+      en: "Relieving Distress, Easing Hardship, and Concealing Faults"
+    },
+    quote: {
+      ur: "جو شخص کسی مومن سے دنیا کی کوئی مصیبت دور کرے گا اللہ اس سے قیامت کی مصیبتیں دور فرمائے گا؛ جو کسی تنگدست کے ساتھ آسانی کا معاملہ کرے گا اللہ دنیا و آخرت میں اس پر آسانی فرمائے گا؛ اور جو کسی مسلمان کی پردہ پوشی کرے گا اللہ دنیا و آخرت میں اس کا پردہ رکھے گا۔",
+      ro: "Jo shakhs kisi momin se duniya ki koi musibat door karega Allah us se qayamat ki museebatein door farmayega; jo kisi tangdast ke sath asani ka muamla karega Allah duniya o akhirat mein us par asani farmayega; aur jo kisi Musalman ki parda-poshi karega Allah duniya o akhirat mein us ka parda rakhega.",
+      en: "Whoever relieves a believer of a worldly distress, Allah will relieve them of the distresses of the Day of Judgment; whoever makes things easy for one in difficulty, Allah will make things easy for them; and whoever conceals another's fault, Allah will conceal their faults in both worlds."
+    },
+    tashreeh: {
+      ur: "اللہ تعالیٰ کا اپنے بندے کے ساتھ وہی معاملہ ہوتا ہے جو بندہ اللہ کی مخلوق کے ساتھ رکھتا ہے۔ جب تک انسان اپنے بھائی کی مدد میں لگا رہتا ہے، اللہ کی غیبی مدد اس کے شاملِ حال رہتی ہے۔",
+      ro: "Allah Ta'ala ka apne banday ke sath wahi muamla hota hai jo banda Allah ki makhlooq ke sath rakhta hai. Jab tak insan apne bhai ki madad mein laga rehta hai, Allah ki ghaibi madad us ke shamil-e-haal rehti hai.",
+      en: "Divine grace mirrors human compassion: easing the burdens of others and protecting their dignity guarantees divine relief and protection for oneself."
+    },
+    tags: [
+      { ur: "پردہ پوشی", ro: "Parda-Poshi", en: "Concealing Faults" },
+      { ur: "آسانی", ro: "Asani", en: "Easing Hardship" }
+    ]
+  },
+  {
+    id: "ma-232",
+    slug: "huzoor-ki-be-misal-sakhawat-aur-sail-ko-na-kehna",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 37",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "نبوی سخاوت کی وسعت اور سائل کو کبھی ’نہیں‘ نہ کہنا",
+      ro: "Nabawi Sakhawat Ki Wus'at Aur Sail Ko Kabhi 'Nahi' Na Kehna",
+      en: "Boundless Prophetic Generosity and Never Saying 'No'"
+    },
+    quote: {
+      ur: "حضور اکرم ﷺ بھلائی اور سخاوت میں تیز چلنے والی رحمت کی ہوا سے بھی زیادہ فیاض تھے؛ آپ ﷺ سے جب کبھی کوئی چیز مانگی گئی تو آپ نے کبھی 'نہیں' کا لفظ زبان پر نہ لایا، اور آپ کو فقر و تنگدستی کا اندیشہ کبھی سخاوت سے نہ روک سکا۔",
+      ro: "Huzoor Akram ﷺ bhalai aur sakhawat mein tez chalne wali rehmat ki hawa se bhi zyada fayyaz thay; Aap ﷺ se jab kabhi koi cheez mangi gayi to Aap ne kabhi 'nahi' ka lafz zaban par na laya, aur Aap ko faqr o tangdasti ka andesha kabhi sakhawat se na rok saka.",
+      en: "The Prophet ﷺ was more generous in doing good than the swift, rain-bearing wind; never once was he asked for anything to which he said 'No,' Giving with the fearlessness of one who never dreads poverty."
+    },
+    tashreeh: {
+      ur: "آپ ﷺ کی جود و سخا کا یہ عالم تھا کہ اپنے گھر میں فاقہ ہونے کے باوجود جو کچھ آتا شام ہونے سے پہلے محتاجوں میں تقسیم فرما دیتے، اور اگر پاس کچھ نہ ہوتا تو وعدہ یا میٹھے بول سے سائل کا دل خوش فرما دیتے۔",
+      ro: "Aap ﷺ ki jood-o-sakha ka yeh aalam tha ke apne ghar mein faqa hone ke bawajood jo kuch aata sham hone se pehle mohtajon mein taqseem farma dete, aur agar paas kuch na hota to wada ya meethay bol se sail ka dil khush farma dete.",
+      en: "Prophetic generosity flowed without hesitation, prioritizing the needs of the poor over personal comfort and treating every petitioner with honor."
+    },
+    tags: [
+      { ur: "جود و سخا", ro: "Jood-o-Sakha", en: "Generosity" },
+      { ur: "فیاضی", ro: "Fayyazi", en: "Benevolence" }
+    ]
+  },
+  {
+    id: "ma-233",
+    slug: "sakht-kalami-par-hilm-aur-hidayat-ki-dua",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 40",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "نادان کی سختی کے جواب میں حلم، مسکراہٹ اور دعا",
+      ro: "Nadan Ki Sakhti Ke Jawab Mein Hilm, Muskurahat Aur Dua",
+      en: "Responding to Rudeness with Forbearance, Smiles, and Prayer"
+    },
+    quote: {
+      ur: "کسی کی جہالت اور سخت روئی سے آپ ﷺ کے حلم اور صبر ہی میں اضافہ ہوتا؛ جب کسی دیہاتی نے چادر مبارک کھینچ کر سخت کلامی کی تو آپ ﷺ نے مسکرا کر اسے عطا فرمانے کا حکم دیا، اور طائف کے زخم کھا کر بھی بددعا کے بجائے ان کی نسلوں کی ہدایت کی دعا فرمائی۔",
+      ro: "Kisi ki jahalat aur sakht-roi se Aap ﷺ ke hilm aur sabr hi mein izafa hota; jab kisi dehati ne chadar mubarak kheench kar sakht-kalami ki to Aap ﷺ ne muskura kar usay ata farmane ka hukm diya, aur Taif ke zakhm kha kar bhi bad-dua ke bajaye un ki naslon ki hidayat ki dua farmai.",
+      en: "Harshness from the ignorant only increased the Prophet's ﷺ forbearance; when a desert dweller roughly pulled his cloak, he smiled and ordered a gift for him, and even when wounded at Ta'if, he prayed for the guidance of their future generations."
+    },
+    tashreeh: {
+      ur: "اینٹ کا جواب پتھر سے دینا عام دنیا کا دستور ہے، لیکن کانٹوں کے بدلے پھول اور گالیوں کے بدلے دعا دینا نبوی اخلاق ہے جس نے جانی دشمنوں کو بھی جاں نثار بنا دیا۔",
+      ro: "Eent ka jawab pathar se dena aam duniya ka dastoor hai, lekin kanton ke badlay phool aur galiyon ke badlay dua dena Nabawi akhlaq hai jis ne jaani dushmanon ko bhi jaan-nisar bana diya.",
+      en: "Retaliating against rudeness is easy, but meeting harshness with a gentle smile and heartfelt prayer for guidance is the supreme moral force that transforms enemies into friends."
+    },
+    tags: [
+      { ur: "حلم و بردباری", ro: "Hilm o Burdbari", en: "Forbearance" },
+      { ur: "رحمت", ro: "Rehmat", en: "Mercy" }
+    ]
+  },
+  {
+    id: "ma-234",
+    slug: "aath-cheezein-aath-cheezon-ki-zeenat-hain",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 69",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "آٹھ چیزیں جو آٹھ حالتوں کا زیور اور زینت ہیں",
+      ro: "Aath Cheezein Jo Aath Halaton Ka Zewar Aur Zeenat Hain",
+      en: "Eight Virtues That Adorn Eight States of Life"
+    },
+    quote: {
+      ur: "آٹھ چیزیں آٹھ چیزوں کی زینت ہیں: تنگدستی میں سوال سے بچنا، نعمت کے وقت شکر ادا کرنا، مصیبت میں صبر کرنا، علم کے ساتھ بردباری رکھنا، طالبِ علم کا عاجزی اختیار کرنا، خوفِ الٰہی سے رونا، احسان کر کے نہ جتلانا، اور نماز میں خشوع و عاجزی رکھنا۔",
+      ro: "Aath cheezein aath cheezon ki zeenat hain: tangdasti mein sawal se bachna, nemat ke waqt shukr ada karna, musibat mein sabr karna, ilm ke sath burdbari rakhna, talib-e-ilm ka aajizi ikhtiyar karna, khauf-e-Ilahi se rona, ehsan kar ke na jatlana, aur namaz mein khushoo o aajizi rakhna.",
+      en: "Eight qualities are the adornment of eight states: dignity in poverty, gratitude in prosperity, patience in calamity, forbearance in scholarship, humility in a seeker of knowledge, tears out of reverence for God, never reminding others of favors, and devotion in prayer."
+    },
+    tashreeh: {
+      ur: "ہر حال کی ایک خاص خوبصورتی ہے: غریبی کی خوبصورتی خودداری میں، امیری کی شکر میں، علم کی حلم و عاجزی میں اور نیکی کی خوبصورتی احسان نہ جتانے میں پوشیدہ ہے۔",
+      ro: "Har haal ki aik khaas khoobsurti hai: ghareebi ki khoobsurti khuddari mein, ameeri ki shukr mein, ilm ki hilm o aajizi mein aur neki ki khoobsurti ehsan na jatane mein posheeda hai.",
+      en: "Every station in life is beautified by its matching virtue: self-respect adorns scarcity, gratitude adorns wealth, and humility adorns knowledge."
+    },
+    tags: [
+      { ur: "زینتِ اخلاق", ro: "Zeenat-e-Akhlaq", en: "Adornment of Character" },
+      { ur: "خودداری", ro: "Khuddari", en: "Dignity" }
+    ]
+  },
+  {
+    id: "ma-235",
+    slug: "tauba-karne-walon-ki-suhbat-aur-mazloom-ka-khauf",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 77",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "توبہ کرنے والوں کے نرم دل اور بے بس مظلوم کا خوف",
+      ro: "Tauba Karne Walon Ke Naram Dil Aur Be-Bas Mazloom Ka Khauf",
+      en: "The Soft Hearts of the Repentant and Fearing the Helpless"
+    },
+    quote: {
+      ur: "توبہ کرنے والوں (توابین) کے پاس بیٹھا کرو کیونکہ ان کے دل سب سے زیادہ نرم اور پاکیزہ ہوتے ہیں؛ اور اس شخص سے ڈرو جس کے ساتھ تم نے برائی کی ہو اور اللہ کے سوا اس کا کوئی مددگار نہ ہو۔",
+      ro: "Tauba karne walon (tawwabeen) ke paas baitha karo kyunkeh un ke dil sab se zyada naram aur pakeeza hote hain; aur us shakhs se daro jis ke sath tum ne burai ki ho aur Allah ke siwa us ka koi madadgar na ho.",
+      en: "Keep company with those who sincerely repent, for their hearts are the softest and most compassionate; and fear the one whom you have wronged when they have no helper besides God."
+    },
+    tashreeh: {
+      ur: "جو انسان اپنی خطا پر شرمندہ ہو کر رب کی طرف پلٹتا ہے اس کے اندر سے تکبر ختم ہو جاتا ہے اور دل موم ہو جاتا ہے۔ اور سب سے خطرناک ظلم وہ ہے جو ایسے کمزور پر کیا جائے جس کی سفارش کرنے والا زمین پر کوئی نہ ہو کیونکہ اس کا وکیل خود خدا بن جاتا ہے۔",
+      ro: "Jo insan apni khata par sharminda ho kar Rab ki taraf palatta hai us ke andar se takabbur khatam ho jata hai aur dil mom ho jata hai. Aur sab se khatarnaak zulm woh hai jo aise kamzor par kiya jaye jis ki sifarish karne wala zameen par koi na ho kyunkeh us ka wakeel khud Khuda ban jata hai.",
+      en: "Sincere remorse melts away pride and makes the heart gentle, while wronging a defenseless person is perilous because the Almighty Himself champions their cause."
+    },
+    tags: [
+      { ur: "رقتِ قلب", ro: "Riqqat-e-Qalb", en: "Gentle Heart" },
+      { ur: "عدل", ro: "Adal", en: "Justice" }
+    ]
+  },
+  {
+    id: "ma-236",
+    slug: "zahir-ki-khoobi-aur-batin-ki-haqeeqi-fazilat",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 86",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "ظاہری نیکی اور باطنی عمل کا حقیقی فرق",
+      ro: "Zahiri Neki Aur Batini Amal Ka Haqeeqi Farq",
+      en: "Outward Appearances Versus True Inner Virtue"
+    },
+    quote: {
+      ur: "چار چیزیں بظاہر اچھی ہیں مگر چار چیزیں حقیقت میں افضل ہیں: لوگوں سے ملنا جلنا اچھا ہے مگر سنت کی پیروی افضل ہے؛ قرآن پڑھنا اچھا ہے مگر اس پر عمل کرنا افضل ہے؛ قبر کی زیارت اچھی ہے مگر موت کی تیاری افضل ہے؛ اور بیمار کی عیادت اچھی ہے مگر صحت کی حالت میں نیکی کر لینا افضل ہے۔",
+      ro: "Chaar cheezein ba-zahir achi hain magar chaar cheezein haqeeqat mein afzal hain: logon se milna julna acha hai magar sunnat ki pairwi afzal hai; Quran parhna acha hai magar us par amal karna afzal hai; qabar ki ziyarat achi hai magar maut ki tayari afzal hai; aur bimar ki ayadat achi hai magar sehat ki halat mein neki kar lena afzal hai.",
+      en: "Four practices are good on the surface, yet four are far greater in reality: socializing is good, but following the Prophetic way is greater; reciting Scripture is good, but acting upon it is greater; visiting graves is good, but preparing for eternity is greater; and visiting the sick is good, but doing good while healthy is greater."
+    },
+    tashreeh: {
+      ur: "صرف رسوم اور ظاہری اعمال پر اکتفا کرنے کے بجائے ان کے اصل مقصد تک پہنچنا ضروری ہے: تلاوت کا مقصد عمل ہے، قبرستان جانے کا مقصد اپنی اصلاح ہے اور بیماری سے پہلے صحت کی قدر کرنا اصل دانائی ہے۔",
+      ro: "Sirf rusoom aur zahiri aamaal par iktifa karne ke bajaye un ke asal maqsad tak pohanchna zaroori hai: tilawat ka maqsad amal hai, qabristan jane ka maqsad apni islah hai aur bimari se pehle sehat ki qadr karna asal danai hai.",
+      en: "Rituals find their true meaning when they transform behavior: reading wisdom must lead to practice, and witnessing mortality must inspire timely good deeds."
+    },
+    tags: [
+      { ur: "حقیقتِ عمل", ro: "Haqeeqat-e-Amal", en: "True Practice" },
+      { ur: "بصیرت", ro: "Baseerat", en: "Deep Insight" }
+    ]
+  },
+  {
+    id: "ma-237",
+    slug: "insan-ki-qeemat-us-ka-hunar-aur-sabr-ki-do-qismein",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 93",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "انسان کی اصل قیمت اس کا ہنر اور صبر کی دو قسمیں",
+      ro: "Insan Ki Asal Qeemat Us Ka Hunar Aur Sabr Ki Do Qismein",
+      en: "A Person's Worth Lies in Their Excellence and the Two Kinds of Patience"
+    },
+    quote: {
+      ur: "ہر انسان کی قیمت وہی ہنر اور بھلائی ہے جسے وہ بہترین طریقے سے انجام دینا جانتا ہو۔ اور صبر دو قسم کا ہے: ایک اس ناگوار بات پر صبر کرنا جو تجھے تکلیف دے، اور دوسرا اس مرغوب چیز سے باز رہنا جس سے نفس لالچ کرے۔",
+      ro: "Har insan ki qeemat wahi hunar aur bhalai hai jisay woh behtareen tareeqay se anjam dena janta ho. Aur sabr do qism ka hai: aik us nagawar baat par sabr karna jo tujhe takleef de, aur doosra us marghoob cheez se baaz rehna jis se nafs lalach kare.",
+      en: "The true worth of every person lies in the good skill they master and perform with excellence. And patience is of two kinds: enduring what you dislike during hardship, and restraining yourself from what you crave when it is unlawful."
+    },
+    tashreeh: {
+      ur: "معاشرے میں انسان کا مقام اس کے لباس یا دعووں سے نہیں بلکہ اس کے کام کی پختگی اور مہارت سے طے ہوتا ہے۔ اسی طرح صبر صرف دکھ سہنے کا نام نہیں بلکہ حرام کی کشش کے سامنے اپنے نفس کو روک لینا بھی بڑا صبر ہے۔",
+      ro: "Muashray mein insan ka maqam us ke libas ya dawon se nahi balkay us ke kaam ki pukhtagi aur maharat se tay hota hai. Isi tarah sabr sirf dukh sehne ka naam nahi balkay haram ki kashish ke samne apne nafs ko rok lena bhi bada sabr hai.",
+      en: "Human value is defined by competence and moral excellence, while complete patience requires both resilience in pain and self-control against temptation."
+    },
+    tags: [
+      { ur: "ہنر و کمال", ro: "Hunar o Kamal", en: "Excellence" },
+      { ur: "ضبطِ نفس", ro: "Zabt-e-Nafs", en: "Self-Restraint" }
+    ]
+  },
+  {
+    id: "ma-238",
+    slug: "chaar-maqamat-par-chaar-cheezon-ki-hifazat",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 99",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "نماز میں دل اور دسترخوان و محفل میں نفس کی حفاظت",
+      ro: "Namaz Mein Dil Aur Dastarkhwan o Mehfil Mein Nafs Ki Hifazat",
+      en: "Guarding the Heart, Eyes, Tongue, and Appetite in Four Places"
+    },
+    quote: {
+      ur: "بھاری پتھر ڈھونا بدکردار اور نادان کی ہم نشینی سے کہیں ہلکا ہے۔ چار جگہ چار چیزوں کی حفاظت کر: نماز میں اپنے دل کی، لوگوں کی محفل میں اپنی زبان کی، کسی کے گھر جاؤ تو اپنی آنکھ کی، اور دسترخوان پر اپنے پیٹ کی۔",
+      ro: "Bhari pathar dhona bad-kirdar aur nadan ki ham-nashini se kahin halka hai. Chaar jagah chaar cheezon ki hifazat kar: namaz mein apne dil ki, logon ki mehfil mein apni zaban ki, kisi ke ghar jao to apni ankh ki, aur dastarkhwan par apne pait ki.",
+      en: "Carrying heavy boulders is lighter than enduring the company of the wicked. Guard four things in four places: your heart during prayer, your tongue in gatherings, your eyes when visiting someone's home, and your appetite at the dining table."
+    },
+    tashreeh: {
+      ur: "یہ چار عملی اصول عبادت سے لے کر معاشرت تک انسان کو کامل بناتے ہیں: عبادت یکسوئی چاہتی ہے، محفل زبان کا ادب مانگتی ہے، میزبان کا گھر نگاہ کی حیا مانگتا ہے اور کھانا اعتدال مانگتا ہے۔",
+      ro: "Yeh chaar amli usool ibadat se le kar muasharat tak insan ko kamil banate hain: ibadat yaksoi chahti hai, mehfil zaban ka adab mangti hai, mezban ka ghar nigah ki haya mangta hai aur khana aitdaal mangta hai.",
+      en: "Four rules of refined living: mindfulness in worship, restraint in conversation, modesty of gaze in others' homes, and moderation at meals."
+    },
+    tags: [
+      { ur: "آدابِ زندگی", ro: "Aadab-e-Zindagi", en: "Life Etiquette" },
+      { ur: "نگہبانی", ro: "Nigahbani", en: "Mindfulness" }
+    ]
+  },
+  {
+    id: "ma-239",
+    slug: "hasad-chhorna-jism-ki-rahat-aur-qanaat-dil-ka-sukoon",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 244",
+    author: {
+      ur: "اقوالِ حکماء (ارسطو و بزرگان)",
+      ro: "Aqwal-e-Hukama (Arastu o Buzurgan)",
+      en: "Wisdom of Sages"
+    },
+    title: {
+      ur: "حسد کا ترک کرنا بدن کی تندرستی اور روح کا آرام ہے",
+      ro: "Hasad Ka Tark Karna Badan Ki Tandrusti Aur Rooh Ka Aram Hai",
+      en: "Letting Go of Envy Brings Physical Health and Mental Peace"
+    },
+    quote: {
+      ur: "سب سے کم چین اور راحت اس شخص کو نصیب ہوتی ہے جس کے دل میں حسد کا روگ ہو؛ جو انسان حسد چھوڑ دیتا ہے اس کا بدن تندرست ہو جاتا ہے، اور جو فضول جھگڑوں سے کنارہ کر لیتا ہے اس کی عزت سلامت رہتی ہے۔",
+      ro: "Sab se kam chain aur rahat us shakhs ko naseeb hoti hai jis ke dil mein hasad ka rog ho; jo insan hasad chhor deta hai us ka badan tandrust ho jata hai, aur jo fuzool jhagron se kinara kar leta hai us ki izzat salamat rehti hai.",
+      en: "The least peaceful person on earth is the one afflicted with envy; abandoning jealousy restores health to the body, and stepping away from pointless arguments preserves one's honor."
+    },
+    tashreeh: {
+      ur: "حسد ایک ایسی اندرونی بیماری ہے جو حاسد کے اپنے خون اور اعصاب کو جلاتی رہتی ہے۔ دوسروں کی خوشی میں خوش ہونا سیکھ لینا ذہنی سکون اور جسمانی صحت کا سب سے بڑا راز ہے۔",
+      ro: "Hasad aik aisi androoni bimari hai jo hasid ke apne khoon aur aasab ko jalati rehti hai. Doosron ki khushi mein khush hona seekh lena zehni sukoon aur jismani sehat ka sab se bada raaz hai.",
+      en: "Envy silently erodes the envier's own health and peace of mind; celebrating the blessings of others liberates the heart from constant torment."
+    },
+    tags: [
+      { ur: "ذہنی سکون", ro: "Zehni Sukoon", en: "Peace of Mind" },
+      { ur: "تندرستی", ro: "Tandrusti", en: "Well-Being" }
+    ]
+  },
+  {
+    id: "ma-240",
+    slug: "khushhali-mein-apna-mazi-na-bhoolna-aur-shukr-baja-lana",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 312",
+    author: {
+      ur: "سبق آموز حکایات و نصائح",
+      ro: "Sabaq-Aamoz Hikayat o Nasaih",
+      en: "Moral Parables & Wisdom"
+    },
+    title: {
+      ur: "عروج اور خوشحالی میں اپنے ماضی کو یاد رکھنا",
+      ro: "Urooj Aur Khushhali Mein Apne Maazi Ko Yaad Rakhna",
+      en: "Remembering Humble Beginnings in Times of Prosperity"
+    },
+    quote: {
+      ur: "جب زمانہ تجھے تنگدستی سے نکال کر خوشحالی اور عزت کے مقام پر بٹھائے تو اپنے گزرے ہوئے کل کو کبھی فراموش نہ کر؛ اپنے دروازے کو محتاجوں کے لیے کھلا رکھ، کیونکہ نعمت کا شکر یہی ہے کہ اس کا فیض بندگانِ خدا تک پہنچے۔",
+      ro: "Jab zamana tujhe tangdasti se nikal kar khushhali aur izzat ke maqam par bithaye to apne guzray huye kal ko kabhi faramosh na kar; apne darwazay ko mohtajon ke liye khula rakh, kyunkeh nemat ka shukr yehi hai ke us ka faiz bandagan-e-Khuda tak pohanche.",
+      en: "When fortune lifts you from hardship to prosperity and honor, never forget your humble beginnings; keep your door open to those in need, for true gratitude for a blessing is sharing its benefit with God's creation."
+    },
+    tashreeh: {
+      ur: "نعمت ملنے کے بعد گردن میں اکڑ آ جانا اور پرانے دوستوں یا غریبوں سے آنکھیں پھیر لینا زوال کی پہلی سیڑھی ہے۔ جو انسان عروج میں بھی عاجز رہے اور اپنا دسترخوان کشادہ رکھے، اللہ اس کی عزت کو دوام بخشتا ہے۔",
+      ro: "Nemat milne ke baad gardan mein akar aa jana aur purane doston ya ghareebon se ankhein pher lena zawal ki pehli seerhi hai. Jo insan urooj mein bhi aajiz rahe aur apna dastarkhwan kushada rakhe, Allah us ki izzat ko dawam bakhshta hai.",
+      en: "Forgetting one's roots after achieving success breeds arrogance; staying humble in prosperity and lifting others up secures lasting honor."
+    },
+    tags: [
+      { ur: "عاجزی", ro: "Aajizi", en: "Humility" },
+      { ur: "شکرِ نعمت", ro: "Shukr-e-Nemat", en: "Gratitude" }
+    ]
+  }
+];
+
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
@@ -6862,6 +7315,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch13Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 12)), // ma-181 (Uswah-e-Rasool), ma-193 (Hazrat Abu Bakr khutba) featured
   ...batch14Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 12 || idx === 14)), // ma-196 (Walideen), ma-208 (Hazrat Ali - Sakhawat o Maafi), ma-210 (Luqman - Do baatein) featured
   ...batch15Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 8 || idx === 12)), // ma-212 (Neki o Taqwa), ma-219 (Hazrat Abu Bakr - 5 Andheray), ma-223 (Luqman - Khamoshi sona) featured
+  ...batch16Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 4 || idx === 12)), // ma-226 (Qarabatiyon ki madad), ma-230 (Najat ki 3 sifat), ma-238 (Luqman - 4 jagah 4 cheezon ki hifazat) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
