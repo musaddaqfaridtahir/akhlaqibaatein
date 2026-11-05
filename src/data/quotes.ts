@@ -8207,6 +8207,460 @@ export const batch18Quotes: QuoteItem[] = [
 ];
 
 
+export const batch19Quotes: QuoteItem[] = [
+  {
+    id: "ma-271",
+    slug: "nafs-ke-bukhl-aur-lalach-se-bachna-falah-ki-zamanat",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 10",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "نفس کی حرص و بخل سے نجات ہی حقیقی کامیابی ہے",
+      ro: "Nafs Ki Hirs o Bukhl Se Najat Hi Haqeeqi Kamyabi Hai",
+      en: "Freedom from the Greed of the Soul is True Success"
+    },
+    quote: {
+      ur: "جو لوگ اپنے نفس کے بخل اور تنگ دلی سے بچا لیے گئے، وہی حقیقت میں فلاح اور کامیابی پانے والے ہیں؛ اور جو کچھ تم اپنے نفس کی بھلائی کے لیے آگے بھیجو گے اسے اللہ کے ہاں بہتر اور اجر میں بہت بڑا پاؤ گے۔",
+      ro: "Jo log apne nafs ke bukhl aur tang-dili se bacha liye gaye, wahi haqeeqat mein falah aur kamyabi pane wale hain; aur jo kuch tum apne nafs ki bhalai ke liye aagay bhejo ge usay Allah ke haan behtar aur ajr mein bohot bada pao ge.",
+      en: "Whoever is protected from the stinginess and greed of their own soul—it is they who are truly successful; and whatever good you send ahead for yourselves, you will find it with Allah far better and greater in reward."
+    },
+    tashreeh: {
+      ur: "انسان کی سب سے بڑی اندرونی زنجیر اس کے اپنے دل کی تنگی اور مال کی ہوس ہے۔ جس شخص نے اپنے دل کو تنگ دلی سے آزاد کر کے دوسروں پر خرچ کرنا سیکھ لیا، اس نے دنیا اور آخرت دونوں کی فلاح پا لی۔",
+      ro: "Insan ki sab se badi androoni zanjeer us ke apne dil ki tangi aur maal ki hawas hai. Jis shakhs ne apne dil ko tang-dili se aazad kar ke doosron par kharch karna seekh liya, us ne duniya aur akhirat dono ki falah pa li.",
+      en: "Overcoming internal selfishness and stinginess is the greatest personal victory, unlocking generosity and eternal spiritual reward."
+    },
+    tags: [
+      { ur: "فیاضی", ro: "Fayyazi", en: "Generosity" },
+      { ur: "فلاح", ro: "Falah", en: "True Success" }
+    ]
+  },
+  {
+    id: "ma-272",
+    slug: "muamlat-mein-mashwara-aur-pukhta-azm-ke-baad-tawakkul",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 12-13",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "اہم معاملات میں مشاورت اور پختہ عزم کے بعد توکل",
+      ro: "Ahem Muamlat Mein Mushawarat Aur Pukhta Azm Ke Baad Tawakkul",
+      en: "Consultation in Affairs and Trust in God After Firm Resolve"
+    },
+    quote: {
+      ur: "ان کے قصور معاف کر دو، ان کے لیے مغفرت مانگو اور اہم کاموں میں ان سے مشورہ لیا کرو؛ پھر جب تم رائے پختہ کر کے کسی کام کا عزم کر لو تو اللہ پر بھروسہ رکھو، بے شک اللہ توکل کرنے والوں کو دوست رکھتا ہے۔",
+      ro: "Un ke qusoor maaf kar do, un ke liye maghfirat mango aur ahem kaamon mein un se mashwara liya karo; phir jab tum raaye pukhta kar ke kisi kaam ka azm kar lo to Allah par bharosa rakho, be-shak Allah tawakkul karne walon ko dost rakhta hai.",
+      en: "Pardon their shortcomings, pray for their forgiveness, and consult them in matters of importance; then, once you have taken a firm decision, place your trust in Allah—indeed, Allah loves those who rely upon Him."
+    },
+    tashreeh: {
+      ur: "کامیاب قیادت اور گھریلو نظام کا راز یہ ہے کہ ساتھیوں کی غلطیوں سے درگزر کیا جائے، فیصلوں میں ان کی رائے کو شامل کیا جائے اور جب مشورے سے تدبیر مکمل ہو جائے تو تذبذب چھوڑ کر اللہ کے بھروسے پر قدم بڑھا دیا جائے۔",
+      ro: "Kamyab qiyadat aur ghareloo nizam ka raaz yeh hai ke sathiyon ki ghaltiyon se darguzar kiya jaye, faislon mein un ki raaye ko shamil kiya jaye aur jab mashwaray se tadbeer mukammal ho jaye to tazabzub chhor kar Allah ke bharosay par qadam barha diya jaye.",
+      en: "Wise leadership combines forgiveness, thoughtful consultation, and decisive action backed by unwavering trust in God."
+    },
+    tags: [
+      { ur: "مشاورت", ro: "Mushawarat", en: "Consultation" },
+      { ur: "توکل", ro: "Tawakkul", en: "Trust in God" }
+    ]
+  },
+  {
+    id: "ma-273",
+    slug: "salam-ka-behtar-jawab-aur-logon-se-bhali-baat-kehna",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 14-15",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "سلام کا بہترین جواب دینا اور ہر انسان سے اچھی بات کہنا",
+      ro: "Salam Ka Behtareen Jawab Dena Aur Har Insan Se Achi Baat Kehna",
+      en: "Returning Greetings Graciously and Speaking Kindly to All"
+    },
+    quote: {
+      ur: "جب کوئی تمہیں سلام یا اخلاق کا کلمہ کہے تو تم اس سے بہتر کلمے کے ساتھ اس کا جواب دو یا کم از کم ویسا ہی لوٹا دو؛ اور تمام لوگوں سے بھلی اور شائستہ بات کہا کرو۔",
+      ro: "Jab koi tumhein salam ya akhlaq ka kalma kahe to tum us se behtar kalmay ke sath us ka jawab do ya kam az kam waisa hi lauta do; aur tamam logon se bhali aur shaista baat kaha karo.",
+      en: "When you are greeted with a courteous greeting, respond with one even more gracious, or at least return it equally; and speak kindly and politely to all people."
+    },
+    tashreeh: {
+      ur: "محبت اور احترام کا جواب اس سے بڑھ کر گرمجوشی سے دینا اعلیٰ اخلاق کا تقاضا ہے، اور بلا تفریق ہر انسان کے ساتھ شائستہ گفتگو کرنا معاشرے میں امن و آشتی پھیلاتا ہے۔",
+      ro: "Mohabbat aur ehtiram ka jawab us se barh kar garm-joshi se dena aala akhlaq ka taqaza hai, aur bila-tafreeq har insan ke sath shaista guftugu karna muashray mein aman-o-aashti phailata hai.",
+      en: "Reciprocating courtesy with even greater warmth and speaking respectfully to every human being creates a culture of mutual dignity and peace."
+    },
+    tags: [
+      { ur: "حسنِ خطاب", ro: "Husn-e-Khitab", en: "Courteous Speech" },
+      { ur: "شائستگی", ro: "Shaistagi", en: "Graciousness" }
+    ]
+  },
+  {
+    id: "ma-274",
+    slug: "momin-momin-ke-liye-imarat-ki-eenton-ki-manind",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 20",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "ایک مومن دوسرے مومن کے لیے مضبوط عمارت کی مانند ہے",
+      ro: "Aik Momin Doosre Momin Ke Liye Mazboot Imarat Ki Manind Hai",
+      en: "Believers Reinforce One Another Like Bricks of a Building"
+    },
+    quote: {
+      ur: "ایک مومن دوسرے مومن کے لیے ایک مضبوط عمارت کی طرح ہے جس کا ایک حصہ دوسرے حصے کو قوت اور سہارا دیتا ہے؛ اور اہلِ ایمان آپس کی محبت، رحمدلی اور ہمدردی میں ایک جسم کی مانند ہیں۔",
+      ro: "Aik momin doosre momin ke liye aik mazboot imarat ki tarah hai jis ka aik hissa doosre hissay ko quwwat aur sahara deta hai; aur ahl-e-eman aapas ki mohabbat, reham-dili aur hamdardi mein aik jism ki manind hain.",
+      en: "A believer to another believer is like a solid building whose parts reinforce and support one another; in their mutual love, mercy, and empathy, the believers are like a single body."
+    },
+    tashreeh: {
+      ur: "جس طرح دیوار کی اینٹیں ایک دوسرے کو تھام کر طوفان کا مقابلہ کرتی ہیں، اسی طرح معاشرے کے افراد جب ایک دوسرے کی کمزوریوں کو ڈھانپ کر سہارا بنتے ہیں تو پورا معاشرہ ناقابلِ تسخیر بن جاتا ہے۔",
+      ro: "Jis tarah deewar ki eentein aik doosre ko tham kar toofan ka muqabla karti hain, isi tarah muashray ke afrad jab aik doosre ki kamzoriyon ko dhanp kar sahara bante hain to poora muashra na-qabil-e-taskheer ban jata hai.",
+      en: "Just as interlocked bricks give strength to an entire structure, individuals who stand by one another in empathy and support build a resilient community."
+    },
+    tags: [
+      { ur: "یکجہتی", ro: "Yakjehti", en: "Solidarity" },
+      { ur: "اخوت", ro: "Ukhuwwat", en: "Brotherhood" }
+    ]
+  },
+  {
+    id: "ma-275",
+    slug: "asani-paida-karo-tangi-na-karo-aur-khushkhabri-do",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 24",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "لوگوں کے لیے آسانی پیدا کرو اور نفرت نہ پھیلاؤ",
+      ro: "Logon Ke Liye Asani Paida Karo Aur Nafrat Na Phailao",
+      en: "Make Things Easy for People and Do Not Drive Them Away"
+    },
+    quote: {
+      ur: "لوگوں کے لیے آسانی پیدا کرو اور سختی و تنگی نہ پھیلاؤ، لوگوں کو خوشخبری اور امید دلاؤ اور انہیں متنفر نہ کرو؛ کیونکہ تمہیں آسانی بانٹنے کے لیے بھیجا گیا ہے، تنگ کرنے کے لیے نہیں۔",
+      ro: "Logon ke liye asani paida karo aur sakhti o tangi na phailao, logon ko khushkhabri aur umeed dilao aur unhein mutanaffir na karo; kyunkeh tumhein asani bantne ke liye bheja gaya hai, tang karne ke liye nahi.",
+      en: "Facilitate matters for people and do not make things difficult for them; give glad tidings of hope and do not drive people away, for you have been sent to bring ease, not hardship."
+    },
+    tashreeh: {
+      ur: "دین کی دعوت ہو یا دنیا کے معاملات، بے جا سختی اور مایوس کن باتیں لوگوں کو دور بھگا دیتی ہیں۔ دانا انسان ہمیشہ نرمی، سہولت اور امید افزا رویے سے دلوں کو قریب لاتا ہے۔",
+      ro: "Deen ki dawat ho ya duniya ke muamlat, be-ja sakhti aur mayous-kun baatein logon ko door bhaga deti hain. Dana insan hamesha narmi, sahulat aur umeed-afza rawaiye se dilon ko qareeb lata hai.",
+      en: "Harshness and pessimism alienate hearts, whereas offering practical ease, gentle encouragement, and hope inspires lasting positive change."
+    },
+    tags: [
+      { ur: "تيسير و آسانی", ro: "Taiseer o Asani", en: "Facilitation" },
+      { ur: "امید افزائی", ro: "Umeed-Afzai", en: "Encouragement" }
+    ]
+  },
+  {
+    id: "ma-276",
+    slug: "ghar-walon-mein-narmi-allah-ki-bhalai-ki-nishani",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 27",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "گھرانے کی بھلائی کی علامت باہمی نرمی اور محبت ہے",
+      ro: "Gharanay Ki Bhalai Ki Alamat Bahami Narmi Aur Mohabbat Hai",
+      en: "Gentleness Within the Family is a Sign of Divine Blessing"
+    },
+    quote: {
+      ur: "جب اللہ تعالیٰ کسی گھرانے کے ساتھ بھلائی اور خیر کا ارادہ فرماتا ہے تو ان کے مزاجوں میں آپس کی نرمی اور ملائمت پیدا فرما دیتا ہے؛ اور تم میں سب سے بہتر وہ ہے جو اپنے گھر والوں کے حق میں سب سے اچھا ہے۔",
+      ro: "Jab Allah Ta'ala kisi gharanay ke sath bhalai aur khair ka irada farmata hai to un ke mizajon mein aapas ki narmi aur mulaimat paida farma deta hai; aur tum mein sab se behtar woh hai jo apne ghar walon ke haq mein sab se acha hai.",
+      en: "When Allah wills goodness and blessing for a household, He instills gentleness and kindness among its members; and the best among you is the one who is best in conduct toward their own family."
+    },
+    tashreeh: {
+      ur: "باہر کی دنیا میں خوش اخلاق بننا آسان ہے، لیکن انسان کے کردار کا اصل امتحان اپنے گھر کی چار دیواری کے اندر ہوتا ہے۔ جس گھر میں ضد اور تلخی کے بجائے نرمی اور درگزر ہو وہ گھر دنیا کی جنت بن جاتا ہے۔",
+      ro: "Bahar ki duniya mein khush-akhlaq banna asan hai, lekin insan ke kirdar ka asal imtihan apne ghar ki chaar-deewari ke andar hota hai. Jis ghar mein zid aur talkhi ke bajaye narmi aur darguzar ho woh ghar duniya ki Jannat ban jata hai.",
+      en: "A person's true character is measured by how kindly they treat their own family at home; mutual gentleness turns a house into a sanctuary of peace."
+    },
+    tags: [
+      { ur: "خاندانی سکون", ro: "Khandani Sukoon", en: "Family Harmony" },
+      { ur: "نرم مزاجی", ro: "Naram-Mizaji", en: "Gentleness" }
+    ]
+  },
+  {
+    id: "ma-277",
+    slug: "purane-talluqat-nibhana-aur-wafadari-eman-ka-hissa",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 35-36",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "پرانے تعلقات کا پاس اور وفاداری ایمان کا حصہ ہے",
+      ro: "Purane Talluqat Ka Paas Aur Wafadari Eman Ka Hissa Hai",
+      en: "Honoring Old Ties and Loyalty is a Branch of Faith"
+    },
+    quote: {
+      ur: "حضور اکرم ﷺ پرانے تعلقات اور محبتوں کا عمر بھر پاس فرماتے؛ حضرت خدیجہؓ کی وفات کے برسوں بعد بھی ان کی سہیلیوں کے گھر ہدیہ بھیجتے اور فرماتے کہ پرانے عہد اور تعلق کو خوبصورتی سے نبھانا ایمان کا حصہ ہے۔",
+      ro: "Huzoor Akram ﷺ purane talluqat aur mohabbaton ka umar bhar paas farmate; Hazrat Khadijah (R.A) ki wafat ke barson baad bhi un ki saheliyon ke ghar hadiya bhejte aur farmate ke purane ahad aur talluq ko khoobsurti se nibhana eman ka hissa hai.",
+      en: "The Prophet ﷺ cherished old friendships throughout his life; years after the passing of Hazrat Khadijah (R.A), he continued sending gifts to her friends and honored them deeply, saying, 'Faithfulness to old ties is a part of faith.'"
+    },
+    tashreeh: {
+      ur: "نئے دوست اور نئی رونقیں ملنے کے بعد پرانے محسنوں، بزرگوں کے دوستوں اور بچھڑ جانے والے پیاروں کے متعلقین کو یاد رکھنا اور ان کی عزت کرنا اعلیٰ درجے کی وفاداری ہے۔",
+      ro: "Naye dost aur nayi raunaqein milne ke baad purane mohsinon, buzurgon ke doston aur bichhar jane wale pyaron ke muta'alliqeen ko yaad rakhna aur un ki izzat karna aala darjay ki wafadari hai.",
+      en: "Remembering past benefactors and honoring the friends of departed loved ones is the truest mark of a loyal and noble heart."
+    },
+    tags: [
+      { ur: "وفاداری", ro: "Wafadari", en: "Loyalty" },
+      { ur: "حسنِ عہد", ro: "Husn-e-Ahad", en: "Honoring Ties" }
+    ]
+  },
+  {
+    id: "ma-278",
+    slug: "duniya-mein-musafir-ki-tarah-sada-zindagi-guzarna",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 43-44",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "دنیا کی مثال سائے تلے سستانے والے مسافر کی سی ہے",
+      ro: "Duniya Ki Misal Saaye Talay Sustane Wale Musafir Ki Si Hai",
+      en: "Living Simply in the World Like a Traveler Under a Tree's Shade"
+    },
+    quote: {
+      ur: "کھردری چٹائی پر سونے سے آپ ﷺ کے پہلو مبارک پر نشان پڑ گئے، صحابہؓ نے نرم بستر بچھانے کی عرض کی تو آپ ﷺ نے فرمایا: میرا دنیا کی عیش سے کیا واسطہ؟ میری اور دنیا کی مثال تو اس سوار کی سی ہے جو گرمی کے سفر میں کسی درخت کے سائے تلے گھڑی بھر سستا کر آگے روانہ ہو جائے۔",
+      ro: "Khurdari chatai par sonay se Aap ﷺ ke pehlu mubarak par nishan par gaye, Sahaba (R.A) ne naram bistar bichhane ki arz ki to Aap ﷺ ne farmaya: Mera duniya ki aish se kya wasta? Meri aur duniya ki misal to us sawar ki si hai jo garmi ke safar mein kisi darakht ke saaye talay ghari bhar susta kar aagay rawana ho jaye.",
+      en: "When sleeping on a rough palm-fiber mat left marks on the Prophet's ﷺ side and companions offered to spread a soft bedding, he replied: 'What have I to do with worldly luxury? My example in this world is merely that of a traveler who rests for an hour beneath the shade of a tree, then leaves it and moves on.'"
+    },
+    tashreeh: {
+      ur: "ففتوحات اور خزانوں کی فراوانی کے باوجود آپ ﷺ نے اختیاری فقر اور سادگی کو پسند فرمایا تاکہ امت کو سبق ملے کہ انسان کی عظمت محلات اور مخملی بستروں میں نہیں بلکہ مقصدِ حیات کی بلندی میں ہے۔",
+      ro: "Futuhat aur khazanon ki farawani ke bawajood Aap ﷺ ne ikhtiyari faqr aur sadgi ko pasand farmaya taake ummat ko sabaq milay ke insan ki azmat mahallat aur makhmali bistaron mein nahi balkay maqsad-e-hayat ki bulandi mein hai.",
+      en: "Choosing simplicity despite having access to treasures teaches us that human greatness lies in spiritual purpose rather than material luxury."
+    },
+    tags: [
+      { ur: "زہد و سادگی", ro: "Zuhd o Sadgi", en: "Simplicity" },
+      { ur: "مسافرِ حیات", ro: "Musafir-e-Hayat", en: "Purposeful Life" }
+    ]
+  },
+  {
+    id: "ma-279",
+    slug: "masheer-se-sach-bolna-aur-taqwa-sab-se-badi-aqal",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 68-69",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "مشورہ لیتے وقت سچ بولنا اور سب سے بڑی دانائی",
+      ro: "Mashwara Lete Waqt Sach Bolna Aur Sab Se Badi Danai",
+      en: "Honesty When Seeking Counsel and Piety as Supreme Wisdom"
+    },
+    quote: {
+      ur: "جب کسی سے مشورہ مانگو تو اس سے پورا حال سچ سچ بیان کرو ورنہ اپنے ہی نفس کو دھوکہ دو گے؛ جان لو کہ تقویٰ اور پرہیزگاری سے بڑھ کر کوئی عقلمندی نہیں، اور گناہ سے بڑھ کر کوئی نادانی نہیں۔",
+      ro: "Jab kisi se mashwara mango to us se poora haal sach sach bayan karo warna apne hi nafs ko dhoka do ge; jaan lo ke taqwa aur parhezgari se barh kar koi aqalmandi nahi, aur gunah se barh kar koi nadani nahi.",
+      en: "When you seek counsel from an advisor, tell them the complete truth without hiding the facts, lest you deceive only yourself; know that there is no intelligence greater than piety, and no foolishness greater than sin."
+    },
+    tashreeh: {
+      ur: "جس طرح مریض اگر طبیب سے اپنا مرض چھپائے تو صحیح علاج نہیں ہو سکتا، اسی طرح مشورہ لیتے وقت اپنی غلطی چھپانے والا غلط رائے لے کر اپنا ہی نقصان کرتا ہے۔",
+      ro: "Jis tarah mareez agar tabeeb se apna marz chhupaye to sahi ilaj nahi ho sakta, isi tarah mashwara lete waqt apni ghalti chhupane wala ghalat raaye le kar apna hi nuqsan karta hai.",
+      en: "Just as concealing symptoms from a physician ruins the cure, hiding facts from an advisor leads to flawed advice and self-harm."
+    },
+    tags: [
+      { ur: "صداقت", ro: "Sadaqat", en: "Candor" },
+      { ur: "عقل و تقویٰ", ro: "Aqal o Taqwa", en: "Wisdom & Piety" }
+    ]
+  },
+  {
+    id: "ma-280",
+    slug: "ilm-ke-sath-waqar-aur-ustad-o-shagird-se-tawazu",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 75",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "علم کے ساتھ سکون و وقار اور سیکھنے سکھانے میں عاجزی",
+      ro: "Ilm Ke Sath Sukoon o Waqar Aur Seekhne Sikhane Mein Aajizi",
+      en: "Acquiring Tranquility with Knowledge and Humility in Learning"
+    },
+    quote: {
+      ur: "علم حاصل کرو اور علم کے ساتھ سکون، بردباری اور وقار بھی سیکھو؛ جن سے علم سیکھتے ہو ان کے سامنے بھی عاجزی اختیار کرو اور جن کو علم سکھاتے ہو ان کے ساتھ بھی نرمی اور تواضع سے پیش آؤ، اور متکبر علماء مت بنو۔",
+      ro: "Ilm hasil karo aur ilm ke sath sukoon, burdbari aur waqar bhi seekho; jin se ilm seekhte ho un ke samne bhi aajizi ikhtiyar karo aur jin ko ilm sikhate ho un ke sath bhi narmi aur tawazu se pesh aao, aur mutakabbir ulama mat bano.",
+      en: "Acquire knowledge, and alongside knowledge acquire calmness, forbearance, and dignity; be humble toward those who teach you and gentle toward those whom you teach, and never become arrogant scholars."
+    },
+    tashreeh: {
+      ur: "سچا علم انسان کے مزاج میں ٹھہراؤ اور حلم پیدا کرتا ہے۔ استاد کا احترام کرنا طالبِ علم کا زیور ہے اور شاگردوں کے ساتھ شفقت و عاجزی سے پیش آنا استاد کی عظمت کی دلیل ہے۔",
+      ro: "Sacha ilm insan ke mizaj mein thehrao aur hilm paida karta hai. Ustad ka ehtiram karna talib-e-ilm ka zewar hai aur shagirdon ke sath shafqat o aajizi se pesh aana ustad ki azmat ki daleel hai.",
+      en: "True scholarship is marked by serenity and mutual humility: honoring one's mentors while treating students with patience and respect."
+    },
+    tags: [
+      { ur: "وقارِ علم", ro: "Waqar-e-Ilm", en: "Dignity of Knowledge" },
+      { ur: "تواضع", ro: "Tawazu", en: "Humility" }
+    ]
+  },
+  {
+    id: "ma-281",
+    slug: "pakiza-dil-kalam-e-ilahi-se-kabhi-sair-nahi-hote",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 84-86",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "پاکیزہ دل کلامِ الٰہی سے کبھی سیر نہیں ہوتے",
+      ro: "Pakeeza Dil Kalam-e-Ilahi Se Kabhi Sair Nahi Hote",
+      en: "Pure Hearts Never Tire of Divine Wisdom"
+    },
+    quote: {
+      ur: "اگر تمہارے دلوں میں کامل پاکیزگی اور صفائی آ جائے تو وہ اپنے پروردگار کے کلام سے کبھی سیر نہ ہوں؛ جو شخص دنیا کے لالچ کو چھوڑ دیتا ہے وہ اللہ کا محبوب بن جاتا ہے، اور جو گناہوں کو چھوڑ دیتا ہے فرشتے اس سے محبت کرتے ہیں۔",
+      ro: "Agar tumhare dilon mein kamil pakeezgi aur safai aa jaye to woh apne Parwardigar ke kalam se kabhi sair na hon; jo shakhs duniya ke lalach ko chhor deta hai woh Allah ka mehboob ban jata hai, aur jo gunahon ko chhor deta hai farishtay us se mohabbat karte hain.",
+      en: "If your hearts were truly pure, they would never have their fill of the words of your Lord; whoever renounces worldly greed becomes beloved to Allah, and whoever abandons sin becomes beloved to the angels."
+    },
+    tashreeh: {
+      ur: "جس طرح بیمار جسم کو عمدہ غذا بے مزہ لگتی ہے، اسی طرح گناہوں سے آلودہ دل کو ذکر اور نصیحت میں لذت نہیں ملتی۔ دل جتنا صاف ہوگا، حق کی باتوں سے اس کا شوق اتنا ہی بڑھتا جائے گا۔",
+      ro: "Jis tarah bimar jism ko umda ghiza be-maza lagti hai, isi tarah gunahon se aalooda dil ko zikr aur nasihat mein lazzat nahi milti. Dil jitna saaf hoga, haq ki baaton se us ka shauq utna hi barhta jayega.",
+      en: "Just as a healthy body relishes wholesome food, a heart cleansed of greed and sin finds endless joy in divine wisdom."
+    },
+    tags: [
+      { ur: "طہارتِ قلب", ro: "Taharat-e-Qalb", en: "Purity of Heart" },
+      { ur: "محبتِ الٰہی", ro: "Mohabbat-e-Ilahi", en: "Divine Love" }
+    ]
+  },
+  {
+    id: "ma-282",
+    slug: "dushman-par-qaboo-pane-ka-shukrana-usay-maaf-karna",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 90-92",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "مخالف پر قدرت پانے کا شکرانہ اسے معاف کر دینا ہے",
+      ro: "Mukhalif Par Qudrat Pane Ka Shukrana Usay Maaf Kar Dena Hai",
+      en: "Pardoning an Opponent is the Gratitude for Victory"
+    },
+    quote: {
+      ur: "جب اپنے دشمن یا مخالف پر تجھے قدرت اور غلبہ حاصل ہو جائے تو اس کو معاف کر دینے کو اس کامیابی کا شکرانہ بنا لے؛ اور یاد رکھ کہ ایمان میں صبر کا وہی مقام ہے جو جسم میں سر کا ہے، جس کے پاس صبر نہیں اس کا عمل کامل نہیں۔",
+      ro: "Jab apne dushman ya mukhalif par tujhe qudrat aur ghalba hasil ho jaye to us ko maaf kar dene ko us kamyabi ka shukrana bana le; aur yaad rakh ke eman mein sabr ka wahi maqam hai jo jism mein sar ka hai, jis ke paas sabr nahi us ka amal kamil nahi.",
+      en: "When you gain power and victory over your adversary, make your pardon of them the expression of gratitude for that power; and know that patience is to faith what the head is to the body."
+    },
+    tashreeh: {
+      ur: "کامیابی اور طاقت ملنے پر انتقام کی آگ بجھانا کم ظرفوں کا طریقہ ہے، جبکہ اللہ کی دی ہوئی فتح کا بہترین شکر یہ ہے کہ ہارے ہوئے مخالف کے ساتھ عفو و کرم کا معاملہ کیا جائے۔",
+      ro: "Kamyabi aur taqat milne par intiqam ki aag bujhana kam-zarfon ka tareeqa hai, jabkeh Allah ki di hui fatah ka behtareen shukr yeh hai ke haaray huye mukhalif ke sath afw-o-karam ka muamla kiya jaye.",
+      en: "The noblest way to thank God for granting you the upper hand over an opponent is to crown your victory with forgiveness."
+    },
+    tags: [
+      { ur: "عفو و کرم", ro: "Afw-o-Karam", en: "Magnanimous Pardon" },
+      { ur: "صبر", ro: "Sabr", en: "Patience" }
+    ]
+  },
+  {
+    id: "ma-283",
+    slug: "tauba-mein-takheer-na-karo-aur-waqt-e-sahar-ki-bedari",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 98-99",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "توبہ میں تاخیر نہ کرنا اور وقتِ سحر کی بیداری",
+      ro: "Tauba Mein Takheer Na Karna Aur Waqt-e-Sahar Ki Bedari",
+      en: "Never Delaying Repentance and Awakening at Dawn"
+    },
+    quote: {
+      ur: "اے بیٹے! توبہ اور اصلاح کو کل پر مت ٹال، کیونکہ موت بغیر اطلاع کے اچانک آ پہنچتی ہے؛ اور اتنا غافل مت بن کہ مرغ تجھ سے زیادہ ہوشیار نکلے جو سحر کے وقت بیدار ہو کر اپنے رب کو پکارتا ہے اور تو پڑا سوتا رہے۔",
+      ro: "Aye betay! Tauba aur islah ko kal par mat taal, kyunkeh maut baghair ittila ke achanak aa pohanchti hai; aur itna ghafil mat ban ke murgh tujh se zyada hoshiyar nikle jo sahar ke waqt bedar ho kar apne Rab ko pukarta hai aur tu para sota rahe.",
+      en: "O my son! Do not postpone repentance until tomorrow, for death arrives suddenly without warning; and do not let the rooster be wiser than you, calling out at the break of dawn while you lie fast asleep in heedlessness."
+    },
+    tashreeh: {
+      ur: "زندگی کی سانسوں کا کوئی بھروسہ نہیں، اس لیے کسی کا حق ادا کرنا ہو یا رب سے معافی مانگنی ہو تو آج ہی کر لینا چاہیے، اور صبح کی برکت والے وقت کو سستی کی نذر نہیں کرنا چاہیے۔",
+      ro: "Zindagi ki sanson ka koi bharosa nahi, is liye kisi ka haq ada karna ho ya Rab se maafi mangni ho to aaj hi kar lena chahiye, aur subah ki barkat wale waqt ko susti ki nazar nahi karna chahiye.",
+      en: "Because tomorrow is never guaranteed, mending our ways and fulfilling obligations must happen today, beginning with discipline at dawn."
+    },
+    tags: [
+      { ur: "فوری اصلاح", ro: "Fori Islah", en: "Timely Repentance" },
+      { ur: "بیداری", ro: "Bedari", en: "Vigilance" }
+    ]
+  },
+  {
+    id: "ma-284",
+    slug: "chaar-cheezein-kabhi-wapis-nahi-laut-saktein",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 254",
+    author: {
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
+    },
+    title: {
+      ur: "چار چیزیں جو ہاتھ سے نکل کر کبھی واپس نہیں آتیں",
+      ro: "Chaar Cheezein Jo Hath Se Nikal Kar Kabhi Wapis Nahi Aatein",
+      en: "Four Things That Can Never Be Recovered Once Gone"
+    },
+    quote: {
+      ur: "چار چیزیں نکل جانے کے بعد کبھی واپس نہیں لوٹائی جا سکتیں: منہ سے نکلی ہوئی بات، کمان سے چھٹا ہوا تیر، گزرا ہوا زمانہ، اور ہاتھ سے کھویا ہوا موقع؛ پس بولنے سے پہلے سوچو اور وقت گزرنے سے پہلے عمل کر لو۔",
+      ro: "Chaar cheezein nikal jane ke baad kabhi wapis nahi lautai ja saktein: munh se nikli hui baat, kaman se chhuta huwa teer, guzra huwa zamana, aur hath se khoya huwa mauqa; pas bolne se pehle socho aur waqt guzarne se pehle amal kar lo.",
+      en: "Four things can never be recalled once released: a spoken word, an arrow shot from the bow, time that has passed, and a neglected opportunity; therefore, think before you speak and act before the moment fades."
+    },
+    tashreeh: {
+      ur: "انسان کی کامیابی کا دارومدار اپنی زبان اور اپنے وقت کے درست استعمال پر ہے۔ جو شخص الفاظ ادا کرنے میں احتیاط اور مواقع سے فائدہ اٹھانے میں چستی دکھاتا ہے وہ پچھتاوے سے محفوظ رہتا ہے۔",
+      ro: "Insan ki kamyabi ka daromadar apni zaban aur apne waqt ke durust istemal par hai. Jo shakhs alfaz ada karne mein ehtiyat aur mawaqe se faida uthane mein chusti dikhata hai woh pachtaway se mehfooz rehta hai.",
+      en: "Mindfulness over one's words and prompt action when opportunities arise protect a person from lifelong regret."
+    },
+    tags: [
+      { ur: "احتیاطِ گفتار", ro: "Ehtiyat-e-Guftar", en: "Mindful Speech" },
+      { ur: "قدرِ وقت", ro: "Qadr-e-Waqt", en: "Seizing Time" }
+    ]
+  },
+  {
+    id: "ma-285",
+    slug: "ankh-kaan-aur-hath-ka-haqeeqi-shukr-kya-hai",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 335",
+    author: {
+      ur: "اخلاقی جواہر و حکایات",
+      ro: "Akhlaqi Jawahir o Hikayat",
+      en: "Moral Gems & Parables"
+    },
+    title: {
+      ur: "آنکھ، کان اور ہاتھ کا حقیقی شکر کیا ہے؟",
+      ro: "Ankh, Kaan Aur Hath Ka Haqeeqi Shukr Kya Hai?",
+      en: "The True Gratitude of the Eyes, Ears, and Hands"
+    },
+    quote: {
+      ur: "کسی بزرگ سے پوچھا گیا کہ اعضاء کا شکر کیا ہے؟ فرمایا: آنکھوں کا شکر یہ ہے کہ ان سے کسی کی خوبی دیکھو تو ظاہر کرو اور عیب دیکھو تو چھپا لو؛ کانوں کا شکر یہ ہے کہ ان سے خیر کی بات سنو اور غیبت سے بند رکھو؛ اور ہاتھوں کا شکر یہ ہے کہ ان سے بے بسوں کو سہارا دو۔",
+      ro: "Kisi buzurg se poocha gaya ke aza ka shukr kya hai? Farmaya: ankhon ka shukr yeh hai ke un se kisi ki khoobi dekho to zahir karo aur aib dekho to chhupa lo; kanon ka shukr yeh hai ke un se khair ki baat suno aur gheebat se band rakho; aur hathon ka shukr yeh hai ke un se be-bason ko sahara do.",
+      en: "A sage was asked: 'What is the true gratitude of our limbs?' He replied: 'The gratitude of the eyes is to notice virtue in others and conceal their faults; the gratitude of the ears is to absorb wisdom and shut out slander; and the gratitude of the hands is to lift up the weak.'"
+    },
+    tashreeh: {
+      ur: "شکر صرف زبان سے ’الحمد للہ‘ کہنے کا نام نہیں ہے بلکہ اللہ کی دی ہوئی ہر نعمت کو اس کے درست اور پاکیزہ مقصد میں استعمال کرنا ہی اس نعمت کا عملی شکر ہے۔",
+      ro: "Shukr sirf zaban se 'Alhamdulillah' kehne ka naam nahi hai balkay Allah ki di hui har nemat ko us ke durust aur pakeeza maqsad mein istemal karna hi us nemat ka amli shukr hai.",
+      en: "True gratitude goes beyond spoken words: it means dedicating every faculty God has given us—sight, hearing, and strength—to goodness and service."
+    },
+    tags: [
+      { ur: "عملی شکر", ro: "Amli Shukr", en: "Practical Gratitude" },
+      { ur: "عیب پوشی", ro: "Aib-Poshi", en: "Overlooking Faults" }
+    ]
+  }
+];
+
+
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
@@ -8226,6 +8680,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch16Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 4 || idx === 12)), // ma-226 (Qarabatiyon ki madad), ma-230 (Najat ki 3 sifat), ma-238 (Luqman - 4 jagah 4 cheezon ki hifazat) featured
   ...batch17Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 5 || idx === 12)), // ma-241 (Ehsan jatla kar sadqat zaya na karna), ma-246 (Narmi har cheez ko zeenat deti hai), ma-253 (Duniya ko akhirat ke badlay becho) featured
   ...batch18Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 5 || idx === 13)), // ma-256 (Kharch mein bukhl aur israf ke darmiyan aitdaal), ma-261 (Panch nematon ko panch halaton se pehle ghaneemat jano), ma-269 (Ilm aur maal ka farq) featured
+  ...batch19Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 4 || idx === 13)), // ma-272 (Muamlat mein mashwara), ma-275 (Asani paida karo tangi na karo), ma-284 (Chaar cheezein kabhi wapis nahi laut saktein) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
