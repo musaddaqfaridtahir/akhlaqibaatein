@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
 import Navbar from '@/components/Navbar';
+import IslamicDateBar from '@/components/IslamicDateBar';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 
@@ -82,6 +83,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col antialiased bg-[#FAF8F5] dark:bg-slate-950 text-slate-900 dark:text-slate-100 selection:bg-amber-400 selection:text-slate-950 font-body-lang overflow-x-hidden max-w-[100vw] w-full">
         <LanguageProvider>
           <Navbar />
+          <IslamicDateBar />
           <main className="flex-1 w-full max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-4 sm:py-6 overflow-x-hidden">
             {children}
           </main>
