@@ -7299,6 +7299,460 @@ export const batch16Quotes: QuoteItem[] = [
   }
 ];
 
+export const batch17Quotes: QuoteItem[] = [
+  {
+    id: "ma-241",
+    slug: "ehsan-jatla-kar-sadqat-zaya-na-karna",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 11-12",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "احسان جتلا کر اور دل دکھا کر صدقہ ضائع نہ کرنا",
+      ro: "Ehsan Jatla Kar Aur Dil Dukha Kar Sadqa Zaya Na Karna",
+      en: "Do Not Nullify Charity with Reminders of Favors or Hurt"
+    },
+    quote: {
+      ur: "اے ایمان والو! اپنے صدقات و خیرات کو احسان جتلا کر اور ایذا پہنچا کر برباد نہ کرو؛ میٹھی زبان سے بات کر لینا اور درگزر کرنا اس خیرات سے کہیں بہتر ہے جس کے پیچھے حاجت مند کی دل آزاری ہو۔",
+      ro: "Aye eman walo! Apne sadqat o khairat ko ehsan jatla kar aur eiza pohancha kar barbad na karo; meethi zaban se baat kar lena aur darguzar karna us khairat se kahin behtar hai jis ke peechay hajat-mand ki dil-aazari ho.",
+      en: "O believers! Do not render your charities worthless by reminders of your generosity or by injury; a kind word and forgiveness are far better than charity followed by hurt."
+    },
+    tashreeh: {
+      ur: "کسی غریب کی مدد کرنے کے بعد بار بار اس کا ذکر کرنا یا اس سے ذلت آمیز رویہ رکھنا ساری نیکی کو خاک میں ملا دیتا ہے۔ اگر انسان کچھ نہ دے سکے تو کم از کم نرم لفظ بول کر سائل کی عزتِ نفس محفوظ رکھے۔",
+      ro: "Kisi ghareeb ki madad karne ke baad bar bar us ka zikr karna ya us se zillat-aamez rawaiya rakhna sari neki ko khak mein mila deta hai. Agar insan kuch na de sake to kam az kam naram lafz bol kar sail ki izzat-e-nafs mehfooz rakhe.",
+      en: "Boasting about a favor or humiliating a recipient destroys the spiritual value of charity; preserving human dignity with a gentle word outweighs any material gift."
+    },
+    tags: [
+      { ur: "آدابِ انفاق", ro: "Aadab-e-Infaq", en: "Dignified Charity" },
+      { ur: "نرم کلامی", ro: "Naram-Kalami", en: "Kind Speech" }
+    ]
+  },
+  {
+    id: "ma-242",
+    slug: "momin-bhaiyon-ke-darmiyan-insaf-se-sulah-karana",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "اہلِ ایمان کا رشتۂ اخوت اور عدل کے ساتھ صلح کرانا",
+      ro: "Ahl-e-Eman Ka Rishta-e-Ukhuwwat Aur Adal Ke Sath Sulah Karana",
+      en: "The Brotherhood of Faith and Making Peace with Justice"
+    },
+    quote: {
+      ur: "تمام مومن آپس میں بھائی بھائی ہیں، پس اپنے دو بھائیوں کے درمیان رنجش ہو جائے تو انصاف اور عدل کے ساتھ صلح کرا دیا کرو؛ اور اللہ سے ڈرو تاکہ تم پر رحم کیا جائے۔",
+      ro: "Tamam momin aapas mein bhai bhai hain, pas apne do bhaiyon ke darmiyan ranjish ho jaye to insaf aur adal ke sath sulah kara diya karo; aur Allah se daro taake tum par reham kiya jaye.",
+      en: "The believers are but brothers, so make peace between your brothers with fairness and justice; and revere Allah so that you may be shown mercy."
+    },
+    tashreeh: {
+      ur: "جب دو افراد یا خاندانوں میں اختلاف پیدا ہو تو تیسرے فرد کا کام آگ بھڑکانا نہیں بلکہ غیر جانبداری اور انصاف کے ساتھ دونوں کے دلوں کو جوڑنا ہے۔ صلح کرانے سے معاشرے پر اللہ کی رحمت نازل ہوتی ہے۔",
+      ro: "Jab do afrad ya khandanon mein ikhtilaf paida ho to teesre fard ka kaam aag bharkana nahi balkay ghair-janibdari aur insaf ke sath dono ke dilon ko jorna hai. Sulah karane se muashray par Allah ki rehmat nazil hoti hai.",
+      en: "When disputes arise between people, true brotherhood calls for impartial mediation and peacemaking rather than taking sides or fueling division."
+    },
+    tags: [
+      { ur: "اصلاحِ ذات البین", ro: "Islah-e-Zatul-Bain", en: "Peacemaking" },
+      { ur: "اخوت", ro: "Ukhuwwat", en: "Brotherhood" }
+    ]
+  },
+  {
+    id: "ma-243",
+    slug: "burai-ko-behtareen-bhalai-se-door-karna",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 14",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "برائی کو احسن طریقے سے ٹالنا اور دشمن کو دوست بنانا",
+      ro: "Burai Ko Ahsan Tareeqay Se Talna Aur Dushman Ko Dost Banana",
+      en: "Repelling Evil with What is Better to Win Over Enemies"
+    },
+    quote: {
+      ur: "نیکی اور بدی برابر نہیں ہو سکتیں؛ تم برائی کو اس طریقے سے دفع کرو جو سب سے احسن ہو، پھر تم دیکھو گے کہ جس کے اور تمہارے درمیان دشمنی تھی وہ ایسا ہو جائے گا جیسے جگری دوست ہو۔ اور یہ دولت صرف صبر کرنے والوں کو ملتی ہے۔",
+      ro: "Neki aur badi barabar nahi ho saktein; tum burai ko us tareeqay se dafa karo jo sab se ahsan ho, phir tum dekho ge ke jis ke aur tumhare darmiyan dushmani thi woh aisa ho jayega jaise jigri dost ho. Aur yeh daulat sirf sabr karne walon ko milti hai.",
+      en: "Good and evil are never equal; repel evil with that which is finest, and thereupon the one between whom and you there was enmity will become as though he were a devoted friend—and none is granted this character except the patient."
+    },
+    tashreeh: {
+      ur: "نفرت کو نفرت سے ختم نہیں کیا جا سکتا۔ جب انسان صبر کا گھونٹ پی کر زیادتی کے جواب میں حسنِ سلوک کرتا ہے تو مخالف کا ضمیر جاگ اٹھتا ہے اور پرانی عداوت گہری دوستی میں بدل جاتی ہے۔",
+      ro: "Nafrat ko nafrat se khatam nahi kiya ja sakta. Jab insan sabr ka ghoont pee kar ziyadati ke jawab mein husn-e-sulook karta hai to mukhalif ka zameer jaag uthta hai aur purani adawat gehri dosti mein badal jati hai.",
+      en: "Hatred cannot extinguish hatred; responding to hostility with unexpected grace and patience disarms the opponent and turns animosity into lasting respect."
+    },
+    tags: [
+      { ur: "دفعِ شر", ro: "Dafa-e-Shar", en: "Overcoming Evil" },
+      { ur: "اعلیٰ اخلاق", ro: "Aala Akhlaq", en: "Noble Conduct" }
+    ]
+  },
+  {
+    id: "ma-244",
+    slug: "bewa-aur-miskeen-ki-kafalat-mujahid-ki-manind",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 21",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "بیوہ اور مسکین کے لیے دوڑ دھوپ کرنے کا عظیم درجہ",
+      ro: "Bewa Aur Miskeen Ke Liye Daur-Dhoop Karne Ka Azeem Darja",
+      en: "Striving for Widows and the Poor Equals Lifelong Worship"
+    },
+    quote: {
+      ur: "بیوہ عورت اور مسکین کی خبرگیری اور ان کے کام کے لیے دوڑ دھوپ کرنے والا اللہ کی راہ میں جہاد کرنے والے کی مانند ہے، یا اس شخص کی طرح ہے جو رات بھر عبادت میں کھڑا رہے اور کبھی نہ تھکے اور دن کو ہمیشہ روزہ رکھے۔",
+      ro: "Bewa aurat aur miskeen ki khabargeeri aur un ke kaam ke liye daur-dhoop karne wala Allah ki raah mein jihad karne wale ki manind hai, ya us shakhs ki tarah hai jo raat bhar ibadat mein khara rahe aur kabhi na thakay aur din ko hamesha roza rakhe.",
+      en: "The one who strives to look after a widow and a poor person is like a warrior striving in the cause of God, or like one who stands in prayer all night without tiring and fasts continuously by day."
+    },
+    tashreeh: {
+      ur: "بے سہارا بیواؤں اور نادار خاندانوں کی کفالت اور ان کے مسائل حل کرنے کے لیے وقت اور محنت لگانا اسلام میں نفلی عبادات کے بلند ترین درجے کے برابر ثواب رکھتا ہے۔",
+      ro: "Be-sahara bewaon aur nadar khandanon ki kafalat aur un ke masail hal karne ke liye waqt aur mehnat lagana Islam mein nafli ibadat ke buland-tareen darjay ke barabar sawab rakhta hai.",
+      en: "Actively supporting vulnerable widows and the impoverished carries the spiritual weight of continuous night vigils and fasting."
+    },
+    tags: [
+      { ur: "کفالتِ مساکین", ro: "Kafalat-e-Masakeen", en: "Supporting the Needy" },
+      { ur: "خدمتِ خلق", ro: "Khidmat-e-Khalq", en: "Social Welfare" }
+    ]
+  },
+  {
+    id: "ma-245",
+    slug: "nisf-maeeshat-nisf-aqal-aur-nisf-ilm",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 22",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "نصف معیشت، نصف عقل اور نصف علم کے تین ستون",
+      ro: "Nisf Maeeshat, Nisf Aqal Aur Nisf Ilm Ke Teen Sutoon",
+      en: "Half of Livelihood, Half of Wisdom, and Half of Knowledge"
+    },
+    quote: {
+      ur: "خرچ میں میانہ روی اختیار کرنا آدھی معیشت ہے، لوگوں کے ساتھ محبت اور خوش خلقی سے پیش آنا آدھی عقل ہے، اور سلیقے سے اچھا سوال کرنا آدھا علم ہے۔",
+      ro: "Kharch mein miyana-rawi ikhtiyar karna aadhi maeeshat hai, logon ke sath mohabbat aur khush-khulqi se pesh aana aadhi aqal hai, aur saleeqay se acha sawal karna aadha ilm hai.",
+      en: "Moderation in spending is half of livelihood, showing affection and courtesy to people is half of wisdom, and asking a thoughtful question is half of knowledge."
+    },
+    tashreeh: {
+      ur: "یہ تین مختصر اصول معاشی، سماجی اور علمی کامیابی کی کنجی ہیں: آمدنی کے اندر رہ کر خرچ کرنا تنگدستی سے بچاتا ہے، ملنساری دشمنیاں ختم کرتی ہے اور بامقصد سوال علم کے دروازے کھولتا ہے۔",
+      ro: "Yeh teen mukhtasar usool maashi, samaji aur ilmi kamyabi ki kunji hain: aamdani ke andar reh kar kharch karna tangdasti se bachata hai, milansari dushmaniyan khatam karti hai aur ba-maqsad sawal ilm ke darwazay kholta hai.",
+      en: "Financial discipline secures stability, warm social manners reflect true intelligence, and curious, respectful inquiry unlocks deep learning."
+    },
+    tags: [
+      { ur: "کفایت شعاری", ro: "Kifayat-Shiari", en: "Financial Wisdom" },
+      { ur: "خوش خلقی", ro: "Khush-Khulqi", en: "Courtesy" }
+    ]
+  },
+  {
+    id: "ma-246",
+    slug: "narmi-har-cheez-ko-zeenat-deti-hai",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 25",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "نرمی اور ملائمت ہر کام کو زینت بخشتی ہے",
+      ro: "Narmi Aur Mulaimat Har Kaam Ko Zeenat Bakhshti Hai",
+      en: "Gentleness Beautifies Everything It Touches"
+    },
+    quote: {
+      ur: "نرمی (رفق) جس چیز میں بھی ہوتی ہے اسے آراستہ اور خوبصورت بنا دیتی ہے، اور جس چیز سے نرمی نکال لی جاتی ہے وہ عیب دار ہو جاتی ہے؛ اور جو شخص نرمی کے وصف سے محروم رہا وہ ساری بھلائی سے محروم رہا۔",
+      ro: "Narmi (rifq) jis cheez mein bhi hoti hai usay aarasta aur khoobsurat bana deti hai, aur jis cheez se narmi nikal li jati hai woh aib-dar ho jati hai; aur jo shakhs narmi ke wasf se mehroom raha woh sari bhalai se mehroom raha.",
+      en: "Gentleness never enters into anything without beautifying it, and is never removed from anything without marring it; whoever is deprived of gentleness is deprived of all good."
+    },
+    tashreeh: {
+      ur: "سخت مزاجی اور درشتی بنے بنائے کام بگاڑ دیتی ہے جبکہ نرمی اور عفو و درگزر سے بگڑے ہوئے معاملات بھی سنور جاتے ہیں۔ گھر، دفتر اور معاشرے کی خوبصورتی نرمی ہی سے قائم ہے۔",
+      ro: "Sakht-mizaji aur durushti banay-banaye kaam bigar deti hai jabkeh narmi aur afw-o-darguzar se bigray huye muamlat bhi sanwar jate hain. Ghar, daftar aur muashray ki khoobsurti narmi hi se qayam hai.",
+      en: "Harshness ruins even righteous efforts, whereas gentleness and patience resolve complex knots and bring grace to every human interaction."
+    },
+    tags: [
+      { ur: "نرمی", ro: "Narmi", en: "Gentleness" },
+      { ur: "حسنِ عمل", ro: "Husn-e-Amal", en: "Graceful Conduct" }
+    ]
+  },
+  {
+    id: "ma-247",
+    slug: "khane-mein-kabhi-aib-na-nikalna-nabawi-sunnat",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 38",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "کھانے میں کبھی عیب نہ نکالنا اور قناعت کا اسوہ",
+      ro: "Khane Mein Kabhi Aib Na Nikalna Aur Qana'at Ka Uswah",
+      en: "Never Criticizing Food and Practicing Gratitude at Meals"
+    },
+    quote: {
+      ur: "حضور اکرم ﷺ نے کبھی کسی کھانے میں عیب نہیں نکالا؛ اگر رغبت ہوتی تو تناول فرما لیتے اور اگر طبیعت نہ چاہتی تو بغیر کوئی نقص بیان کیے خاموشی سے چھوڑ دیتے، اور جو کچھ حاضر ہوتا اس پر شکر ادا فرماتے۔",
+      ro: "Huzoor Akram ﷺ ne kabhi kisi khane mein aib nahi nikala; agar raghbat hoti to tanawul farma lete aur agar tabiyat na chahti to baghair koi nuqs bayan kiye khamoshi se chhor dete, aur jo kuch hazir hota us par shukr ada farmate.",
+      en: "The Prophet ﷺ never criticized any food presented to him; if he desired it, he ate of it, and if he did not, he simply left it in silence without finding fault—always praising God for whatever was available."
+    },
+    tashreeh: {
+      ur: "کھانے میں نقص نکالنا جہاں رزق کی ناشکری ہے وہیں کھانا پکانے والے کی محنت اور دل کو ٹھیس پہنچانے کا باعث بنتا ہے۔ دسترخوان پر شکر گزاری اور خوش دلی سے کھانا سنتِ نبوی ﷺ ہے۔",
+      ro: "Khane mein nuqs nikalna jahan rizq ki nashukri hai wahin khana pakane wale ki mehnat aur dil ko thees pohanchane ka baas banta hai. Dastarkhwan par shukr-guzari aur khush-dili se khana Sunnat-e-Nabawi ﷺ hai.",
+      en: "Complaining about a meal shows ingratitude for God's provision and hurts the feelings of the one who prepared it; true refinement honors every meal with thankfulness."
+    },
+    tags: [
+      { ur: "آدابِ طعام", ro: "Aadab-e-Ta'am", en: "Dining Etiquette" },
+      { ur: "شکرِ نعمت", ro: "Shukr-e-Nemat", en: "Gratitude" }
+    ]
+  },
+  {
+    id: "ma-248",
+    slug: "ghareeb-ki-dawat-qubool-karna-aur-zameen-par-baithna",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 42",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "غریب کی دعوت قبول کرنا اور عاجزی سے زمین پر بیٹھنا",
+      ro: "Ghareeb Ki Dawat Qubool Karna Aur Aajizi Se Zameen Par Baithna",
+      en: "Accepting the Humble Invitation and Sitting on the Ground"
+    },
+    quote: {
+      ur: "آپ ﷺ غلام اور مسکین کی دعوت بھی بخوشی قبول فرما لیتے، معمولی جو کی روٹی پر بھی تشریف لے جاتے، فرشِ زمین پر بیٹھ کر کھانا تناول فرماتے اور فرماتے کہ میں تو اللہ کا ایک بندہ ہوں، بندوں کی طرح بیٹھتا اور کھاتا ہوں۔",
+      ro: "Aap ﷺ ghulam aur miskeen ki dawat bhi ba-khushi qubool farma lete, mamooli jau ki roti par bhi tashreef le jate, farsh-e-zameen par baith kar khana tanawul farmate aur farmate ke main to Allah ka aik banda hoon, bandon ki tarah baithta aur khata hoon.",
+      en: "The Prophet ﷺ gladly accepted the invitations of servants and the poor even for simple barley bread; he sat humbly on the ground to eat, saying, 'I am but a servant of God—I sit as a servant sits and eat as a servant eats.'"
+    },
+    tashreeh: {
+      ur: "امیروں کی پرتکلف دعوتوں میں تو ہر کوئی جاتا ہے، لیکن کسی غریب کے سادہ بلاوے پر خوشی سے جانا اور اس کا مان رکھنا نبوی اخلاق اور حقیقی تواضع ہے۔",
+      ro: "Ameeron ki pur-takalluf dawaton mein to har koi jata hai, lekin kisi ghareeb ke sada bulaway par khushi se jana aur us ka maan rakhna Nabawi akhlaq aur haqeeqi tawazu hai.",
+      en: "True humility is proven by honoring the simple invitation of a poor person with the same warmth and joy shown to the wealthy."
+    },
+    tags: [
+      { ur: "خاکساری", ro: "Khaksari", en: "Humility" },
+      { ur: "تالیفِ قلب", ro: "Taleef-e-Qalb", en: "Winning Hearts" }
+    ]
+  },
+  {
+    id: "ma-249",
+    slug: "sabr-nisf-eman-aur-yaqeen-kamil-eman-hai",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 68",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "صبر آدھا ایمان ہے اور یقین کامل ایمان ہے",
+      ro: "Sabr Aadha Eman Hai Aur Yaqeen Kamil Eman Hai",
+      en: "Patience is Half of Faith and Certainty is Complete Faith"
+    },
+    quote: {
+      ur: "صبر نصف ایمان ہے اور یقین کامل ایمان ہے؛ اللہ تعالیٰ سے اس قدر ڈرو جس قدر تمہیں اس کی ضرورت ہے، اور اگر تم جاننا چاہتے ہو کہ اللہ کے ہاں تمہارا کیا مقام ہے تو یہ دیکھو کہ اس نے تمہیں کن کاموں میں مشغول رکھا ہے۔",
+      ro: "Sabr nisf eman hai aur yaqeen kamil eman hai; Allah Ta'ala se us qadar daro jis qadar tumhein Us ki zaroorat hai, aur agar tum janna chahte ho ke Allah ke haan tumhara kya maqam hai to yeh dekho ke Us ne tumhein kin kaamon mein mashghool rakha hai.",
+      en: "Patience is half of faith and unwavering certainty is the whole of faith; revere God in proportion to your need of Him, and if you wish to know your standing with God, look at the deeds in which He has engaged your time."
+    },
+    tashreeh: {
+      ur: "انسان کے مقام کی پہچان اس کے دعووں سے نہیں بلکہ اس کی روزمرہ مصروفیات سے ہوتی ہے؛ اگر اس کا وقت خیر، خدمت اور حلال محنت میں گزر رہا ہے تو یہ رب کی توفیق اور قبولیت کی علامت ہے۔",
+      ro: "Insan ke maqam ki pehchan us ke dawon se nahi balkay us ki rozmarra masroofiyat se hoti hai; agar us ka waqt khair, khidmat aur halal mehnat mein guzar raha hai to yeh Rab ki taufeeq aur qubooliyat ki alamat hai.",
+      en: "A person's spiritual rank is reflected in how they spend their daily hours: being occupied in service, honesty, and goodness is the clearest sign of divine favor."
+    },
+    tags: [
+      { ur: "صبر و یقین", ro: "Sabr o Yaqeen", en: "Patience & Certainty" },
+      { ur: "توفیقِ خیر", ro: "Taufeeq-e-Khair", en: "Righteous Engagement" }
+    ]
+  },
+  {
+    id: "ma-250",
+    slug: "insan-ki-parakh-sachai-amanat-aur-taqwa-se-karo",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 79",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "انسان کو پرکھنے کے تین عملی پیمانے",
+      ro: "Insan Ko Parakhne Ke Teen Amli Paimanay",
+      en: "Three Practical Standards for Judging Character"
+    },
+    quote: {
+      ur: "کسی شخص کی محض ظاہری کثرتِ نماز و روزہ کو دیکھ کر دھوکہ نہ کھاؤ، بلکہ یہ دیکھو کہ جب وہ بولتا ہے تو کتنا سچ بولتا ہے، جب اس کے پاس امانت رکھی جائے تو کتنی دیانت دکھاتا ہے، اور جب حلال و حرام کا موقع آئے تو کتنا تقویٰ اختیار کرتا ہے۔",
+      ro: "Kisi shakhs ki mehaz zahiri kasrat-e-namaz o roza ko dekh kar dhoka na khao, balkay yeh dekho ke jab woh bolta hai to kitna sach bolta hai, jab us ke paas amanat rakhi jaye to kitni diyanat dikhata hai, aur jab halal o haram ka mauqa aaye to kitna taqwa ikhtiyar karta hai.",
+      en: "Do not be misled merely by a person's outward display of prayer and fasting; rather, observe their truthfulness when they speak, their integrity when entrusted with property, and their restraint when tempted by unlawful gain."
+    },
+    tashreeh: {
+      ur: "عبادت کا اصل ثمرہ کردار کی پاکیزگی ہے۔ اگر کوئی شخص ظاہری عبادت گزار ہو لیکن گفتگو میں جھوٹا اور لین دین میں خائن ہو تو اس نے دین کی روح کو نہیں سمجھا۔",
+      ro: "Ibadat ka asal samra kirdar ki pakeezgi hai. Agar koi shakhs zahiri ibadat-guzar ho lekin guftugu mein jhoota aur lain dain mein khain ho to us ne deen ki rooh ko nahi samjha.",
+      en: "True devotion bears fruit in daily integrity: honest speech, financial trustworthiness, and moral restraint when facing temptation."
+    },
+    tags: [
+      { ur: "معیارِ کردار", ro: "Miyar-e-Kirdar", en: "True Character" },
+      { ur: "امانت و صداقت", ro: "Amanat o Sadaqat", en: "Honesty & Trust" }
+    ]
+  },
+  {
+    id: "ma-251",
+    slug: "ibadat-ki-halawat-chaar-cheezon-mein-hai",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 85",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "عبادت اور بندگی کی حلاوت پانے کے چار اصول",
+      ro: "Ibadat Aur Bandagi Ki Halawat Pane Ke Chaar Usool",
+      en: "Four Keys to Experiencing the Sweetness of Worship"
+    },
+    quote: {
+      ur: "میں نے عبادت کی حلاوت اور مٹھاس چار چیزوں میں پائی: اول فرائضِ الٰہی کی ادائیگی میں، دوم اللہ کی حرام کردہ چیزوں سے بچنے میں، سوم ثواب کی امید پر بھلائی کا حکم دینے میں، اور چہارم غضبِ الٰہی کے خوف سے برائی سے روکنے میں۔",
+      ro: "Main ne ibadat ki halawat aur mithas chaar cheezon mein payi: awwal faraiz-e-Ilahi ki adaigi mein, doem Allah ki haram karda cheezon se bachne mein, soem sawab ki umeed par bhalai ka hukm dene mein, aur chaharum ghazab-e-Ilahi ke khauf se burai se rokne mein.",
+      en: "I found the sweetness of devotion in four things: fulfilling divine obligations with joy, abstaining from what God has forbidden, encouraging goodness out of hope for His reward, and preventing wrong out of reverence for Him."
+    },
+    tashreeh: {
+      ur: "عبادت میں لذت تب نصیب ہوتی ہے جب انسان فرائض کی پابندی کے ساتھ ساتھ اپنی زندگی کو حرام سے پاک کرے اور معاشرے میں خیر پھیلانے کا درد اپنے دل میں رکھے۔",
+      ro: "Ibadat mein lazzat tab naseeb hoti hai jab insan faraiz ki pabandi ke sath sath apni zindagi ko haram se paak kare aur muashray mein khair phailane ka dard apne dil mein rakhe.",
+      en: "Spiritual joy blossoms when personal devotion is paired with ethical purity and a sincere commitment to uplifting society."
+    },
+    tags: [
+      { ur: "حلاوتِ ایمان", ro: "Halawat-e-Eman", en: "Sweetness of Faith" },
+      { ur: "تقویٰ", ro: "Taqwa", en: "Piety" }
+    ]
+  },
+  {
+    id: "ma-252",
+    slug: "dirham-khone-ka-gham-aur-umar-zaya-hone-ki-be-fikri",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 91-93",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "مال کے نقصان کا غم اور قیمتی عمر کے ضیاع کی غفلت",
+      ro: "Maal Ke Nuqsan Ka Gham Aur Qeemati Umar Ke Ziya Ki Ghaflat",
+      en: "Grieving Over Lost Coins While Ignoring Lost Days of Life"
+    },
+    quote: {
+      ur: "تعجب ہے اس شخص پر کہ اس کا ایک درہم کھو جائے تو غمگین ہو جاتا ہے، لیکن اس کی عمر کا ایک پورا دن بغیر نیکی کے گھٹ جائے تو کچھ رنج نہیں کرتا؛ سب سے بڑی دولتمندی جھوٹی آرزوؤں کو چھوڑ دینا ہے، اور لوگوں کے ساتھ خوش اخلاقی سے گزر بسر کرنا عقل کا تاج ہے۔",
+      ro: "Ta'ajjub hai us shakhs par ke us ka aik dirham kho jaye to ghamgeen ho jata hai, lekin us ki umar ka aik poora din baghair neki ke ghat jaye to kuch ranj nahi karta; sab se badi daulatmandi jhooti aarzuon ko chhor dena hai, aur logon ke sath khush-akhlaqi se guzar-basar karna aqal ka taaj hai.",
+      en: "How strange is the one who grieves over losing a single coin, yet feels no sorrow when a whole day of their life slips away without doing good! The greatest wealth is freeing oneself from vain desires, and treating people with graciousness is the crown of wisdom."
+    },
+    tashreeh: {
+      ur: "کھویا ہوا روپیہ دوبارہ کمایا جا سکتا ہے مگر زندگی کا جو دن گزر گیا وہ قیامت تک واپس نہیں آ سکتا۔ عقلمند وہ ہے جو پیسے سے زیادہ اپنے وقت اور اخلاق کی حفاظت کرے۔",
+      ro: "Khoya huwa rupiya dobara kamaya ja sakta hai magar zindagi ka jo din guzar gaya woh qayamat tak wapis nahi aa sakta. Aqalmand woh hai jo paisay se zyada apne waqt aur akhlaq ki hifazat kare.",
+      en: "Lost money can be earned back, but a wasted day of life is gone forever; true wisdom values time and character above material coin."
+    },
+    tags: [
+      { ur: "قدرِ وقت", ro: "Qadr-e-Waqt", en: "Valuing Time" },
+      { ur: "دانائی", ro: "Danai", en: "Wisdom" }
+    ]
+  },
+  {
+    id: "ma-253",
+    slug: "duniya-ko-akhirat-ke-badlay-becho-dono-mil-jayengi",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 98",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "دنیا اور آخرت کی تجارت کا سنہرا اصول",
+      ro: "Duniya Aur Akhirat Ki Tijarat Ka Sunehra Usool",
+      en: "The Golden Principle of Trading This World for the Hereafter"
+    },
+    quote: {
+      ur: "اے بیٹے! اپنی دنیا کو اپنی آخرت کے عوض بیچ دے تو تجھے دنیا اور آخرت دونوں کا نفع حاصل ہوگا؛ اور اپنی آخرت کو دنیا کی خاطر ہرگز مت بیچنا ورنہ دنیا اور آخرت دونوں ہاتھ سے کھو بیٹھے گا۔",
+      ro: "Aye betay! Apni duniya ko apni akhirat ke iwaz bech de to tujhe duniya aur akhirat dono ka nafa hasil hoga; aur apni akhirat ko duniya ki khatir hargiz mat bechna warna duniya aur akhirat dono hath se kho baithega.",
+      en: "O my son! Trade your worldly desires for the Hereafter and you will win the best of both worlds; never trade away your Hereafter for worldly gain, lest you lose both."
+    },
+    tashreeh: {
+      ur: "جو انسان اصول، ایمان اور آخرت کو مقدم رکھتا ہے، اللہ اس کی دنیا کو بھی باعزت اور پرسکون بنا دیتا ہے؛ لیکن جو شخص تھوڑے سے دنیاوی مفاد کے لیے اپنا ضمیر بیچ دے وہ کہیں کا نہیں رہتا۔",
+      ro: "Jo insan usool, eman aur akhirat ko muqaddam rakhta hai, Allah us ki duniya ko bhi ba-izzat aur pur-sukoon bana deta hai; lekin jo shakhs thoray se dunyawi mafad ke liye apna zameer bech de woh kahin ka nahi rehta.",
+      en: "Prioritizing eternal principles brings peace and honor in this life as well, whereas sacrificing moral integrity for temporary gain leads to ruin in both."
+    },
+    tags: [
+      { ur: "حکمتِ لقمان", ro: "Hikmat-e-Luqman", en: "Luqman's Wisdom" },
+      { ur: "کامیابی", ro: "Kamyabi", en: "True Success" }
+    ]
+  },
+  {
+    id: "ma-254",
+    slug: "aik-baat-bardasht-na-karne-wala-kai-baatein-sunta-hai",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 248",
+    author: {
+      ur: "اقوالِ حکماء و بزرگان",
+      ro: "Aqwal-e-Hukama o Buzurgan",
+      en: "Wisdom of Sages"
+    },
+    title: {
+      ur: "ایک تلخ بات کو نظرانداز کرنے کی حکمت اور مکافاتِ عمل",
+      ro: "Aik Talkh Baat Ko Nazar-Andaz Karne Ki Hikmat Aur Mukafat-e-Amal",
+      en: "The Wisdom of Overlooking a Single Harsh Word"
+    },
+    quote: {
+      ur: "جو شخص کسی کی ایک ناگوار بات برداشت نہیں کرتا اسے بہت سی ناگوار باتیں سننی پڑتی ہیں؛ اور جو انسان کانٹے بوتا ہے وہ کبھی انگور کی فصل نہیں کاٹ سکتا۔",
+      ro: "Jo shakhs kisi ki aik nagawar baat bardasht nahi karta usay bohot si nagawar baatein sunni parti hain; aur jo insan kantay bota hai woh kabhi angoor ki fasal nahi kaat sakta.",
+      en: "Whoever cannot patiently overlook a single harsh word ends up hearing many more; and one who plants thorns can never expect to harvest grapes."
+    },
+    tashreeh: {
+      ur: "چھوٹی سی بات کو انا کا مسئلہ بنا کر پلٹ کر جواب دینے سے جھگڑا طول پکڑتا ہے اور انسان کو مزید تلخ باتیں سننی پڑتی ہیں۔ چشم پوشی کر لینا فتنہ کو پہلی ہی چنگاری پر بجھا دیتا ہے۔",
+      ro: "Choti si baat ko ana ka masla bana kar palat kar jawab dene se jhagra tool pakarta hai aur insan ko mazeed talkh baatein sunni parti hain. Chashm-poshi kar lena fitna ko pehli hi chingari par bujha deta hai.",
+      en: "Escalating a minor slight invites a storm of insults, while letting a small provocation pass in silence extinguishes conflict before it begins."
+    },
+    tags: [
+      { ur: "تحمل", ro: "Tahammul", en: "Tolerance" },
+      { ur: "مکافاتِ عمل", ro: "Mukafat-e-Amal", en: "Consequences" }
+    ]
+  },
+  {
+    id: "ma-255",
+    slug: "ustad-aur-mohsin-ka-adab-ilm-ki-barkat-ka-raaz",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 320",
+    author: {
+      ur: "اخلاقی جواہر و حکایات",
+      ro: "Akhlaqi Jawahir o Hikayat",
+      en: "Moral Gems & Parables"
+    },
+    title: {
+      ur: "استاد اور محسن کا ادب علم کی برکت کی کنجی ہے",
+      ro: "Ustad Aur Mohsin Ka Adab Ilm Ki Barkat Ki Kunji Hai",
+      en: "Respecting Teachers and Benefactors Unlocks the Blessing of Knowledge"
+    },
+    quote: {
+      ur: "علم کی برکت اور نفع صرف ذہانت سے حاصل نہیں ہوتا بلکہ استاد، والدین اور محسن کے ادب سے ملتا ہے؛ جس طالبِ علم نے اپنے سکھانے والے کی تعظیم کھو دی وہ علم کی کتابیں یاد کر کے بھی اس کے نور سے محروم رہا۔",
+      ro: "Ilm ki barkat aur nafa sirf zahanat se hasil nahi hota balkay ustad, walideen aur mohsin ke adab se milta hai; jis talib-e-ilm ne apne sikhane wale ki tazeem kho di woh ilm ki kitabein yaad kar ke bhi us ke noor se mehroom raha.",
+      en: "The true blessing of knowledge is won not by intellect alone, but through deep respect for teachers, parents, and benefactors; one who lacks reverence may memorize books yet remain deprived of their light."
+    },
+    tashreeh: {
+      ur: "تاریخِ اسلام کے تمام بڑے علماء و حکماء کا متفقہ تجربہ ہے کہ بے ادبی انسان کو علم و ہنر کے فیض سے محروم کر دیتی ہے، جبکہ استاد اور بزرگوں کا احترام معمولی صلاحیت کو بھی اوجِ کمال تک پہنچا دیتا ہے۔",
+      ro: "Tareekh-e-Islam ke tamam bade ulama o hukama ka muttafiqa tajurba hai ke be-adabi insan ko ilm o hunar ke faiz se mehroom kar deti hai, jabkeh ustad aur buzurgon ka ehtiram mamooli salahiyat ko bhi auj-e-kamal tak pohancha deta hai.",
+      en: "Humility and gratitude toward those who teach and guide us transform raw information into blessed, life-changing wisdom."
+    },
+    tags: [
+      { ur: "ادبِ استاد", ro: "Adab-e-Ustad", en: "Respecting Teachers" },
+      { ur: "برکتِ علم", ro: "Barkat-e-Ilm", en: "Blessed Knowledge" }
+    ]
+  }
+];
+
+
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
@@ -7316,6 +7770,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch14Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 12 || idx === 14)), // ma-196 (Walideen), ma-208 (Hazrat Ali - Sakhawat o Maafi), ma-210 (Luqman - Do baatein) featured
   ...batch15Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 8 || idx === 12)), // ma-212 (Neki o Taqwa), ma-219 (Hazrat Abu Bakr - 5 Andheray), ma-223 (Luqman - Khamoshi sona) featured
   ...batch16Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 4 || idx === 12)), // ma-226 (Qarabatiyon ki madad), ma-230 (Najat ki 3 sifat), ma-238 (Luqman - 4 jagah 4 cheezon ki hifazat) featured
+  ...batch17Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 5 || idx === 12)), // ma-241 (Ehsan jatla kar sadqat zaya na karna), ma-246 (Narmi har cheez ko zeenat deti hai), ma-253 (Duniya ko akhirat ke badlay becho) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
