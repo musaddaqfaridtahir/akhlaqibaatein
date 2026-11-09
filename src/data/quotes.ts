@@ -6851,26 +6851,26 @@ export const batch16Quotes: QuoteItem[] = [
     id: "ma-226",
     slug: "qarabatiyon-aur-masakeen-ki-khata-par-madad-band-na-karna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    bookRef: "Surah An-Nur (24:22) & Makhzan-e-Akhlaq - Page 13",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "رنجش کے باوجود حاجت مندوں کی مدد جاری رکھنا",
-      ro: "Ranjish Ke Bawajood Hajat-Mandon Ki Madad Jari Rakhna",
+      ur: "رنجش کے باوجود حاجت مند رشتہ داروں کی مدد جاری رکھنا",
+      ro: "Ranjish Ke Bawajood Hajat-Mand Rishtedaron Ki Madad Jari Rakhna",
       en: "Continuing Charity to Relatives Even After a Grievance"
     },
     quote: {
-      ur: "تم میں سے جو لوگ صاحبِ فضیلت اور صاحبِ وسعت ہیں وہ قرابت داروں، مسکینوں اور مہاجروں کو کچھ نہ دینے کی قسم نہ کھائیں، بلکہ معاف کر دیں اور درگزر کریں؛ کیا تم نہیں چاہتے کہ اللہ تعالیٰ تمہارے قصور معاف فرما دے؟",
-      ro: "Tum mein se jo log sahib-e-fazeelat aur sahib-e-wus'at hain woh qarabatiyon, miskeenon aur muhajiron ko kuch na dene ki qasam na khayein, balkay maaf kar dein aur darguzar karein; kya tum nahi chahte ke Allah Ta'ala tumhare qusoor maaf farma de?",
-      en: "Let not those of virtue and wealth among you swear to discontinue helping relatives and the needy due to their mistakes; rather, pardon and overlook—do you not wish that Allah should forgive you?"
+      ur: "اور تم میں سے جو لوگ صاحبِ فضیلت اور وسعت والے ہیں وہ اس بات کی قسم نہ کھائیں کہ رشتہ داروں، مسکینوں اور مہاجرین کو کچھ نہیں دیں گے، بلکہ انہیں معاف کر دینا چاہیے اور درگزر کرنا چاہیے؛ کیا تم یہ پسند نہیں کرتے کہ اللہ تمہیں معاف کر دے؟",
+      ro: "Aur tum mein se jo log sahib-e-fazeelat aur wus'at wale hain woh is baat ki qasam na khayein ke rishtedaron, miskeenon aur muhajirin ko kuch nahi denge, balkay unhein maaf kar dena chahiye aur darguzar karna chahiye; kya tum yeh pasand nahi karte ke Allah tumhein maaf kar de?",
+      en: "And let not those of virtue and wealth among you swear to discontinue helping relatives and the needy due to their mistakes; rather, pardon and overlook—do you not wish that Allah should forgive you?"
     },
     tashreeh: {
-      ur: "اکثر لوگ کسی غریب رشتہ دار کی غلطی یا ناشکری پر ناراض ہو کر اس کی مالی مدد بند کر دیتے ہیں۔ اعلیٰ ظرفی کا تقاضا یہ ہے کہ رب کی مغفرت کی امید میں ان کی خطا معاف کر کے احسان کا سلسلہ جاری رکھا جائے۔",
-      ro: "Aksar log kisi ghareeb rishtedar ki ghalti ya nashukri par naraz ho kar us ki maali madad band kar dete hain. Aala-zarfi ka taqaza yeh hai ke Rab ki maghfirat ki umeed mein un ki khata maaf kar ke ehsan ka silsila jari rakha jaye.",
-      en: "True magnanimity means continuing to support needy relatives even when they have erred against us, seeking divine forgiveness through our own willingness to forgive."
+      ur: "پسِ منظر و تشریح: اکثر لوگ کسی غریب رشتہ دار کی غلطی یا ناشکری پر ناراض ہو کر اس کی مالی مدد بند کر دیتے ہیں۔ اعلیٰ ظرفی کا تقاضا یہ ہے کہ رب کی مغفرت کی امید میں ان کی خطا معاف کر کے احسان کا سلسلہ جاری رکھا جائے۔ آج کا عملی سبق یہ ہے کہ رشتوں کی خفگی کو صدقہ و خیرات بند کرنے کی وجہ نہ بنائیں، بلکہ معاف کر کے اللہ کی رحمت کے امیدوار بنیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Aksar log kisi ghareeb rishtedar ki ghalti ya nashukri par naraz ho kar us ki maali madad band kar dete hain. Aala-zarfi ka taqaza yeh hai ke Rab ki maghfirat ki umeed mein un ki khata maaf kar ke ehsan ka silsila jari rakha jaye. Aaj ka amli sabaq yeh hai ke rishton ki khafgi ko sadqa o khairat band karne ki wajah na banayein, balkay maaf kar ke Allah ki rehmat ke umedwar banein.",
+      en: "Context & Practical Lesson: True magnanimity means continuing to support needy relatives even when they have erred, seeking divine forgiveness through our own willingness to forgive."
     },
     tags: [
       { ur: "عفو و درگزر", ro: "Afw-o-Darguzar", en: "Forgiveness" },
@@ -6881,10 +6881,10 @@ export const batch16Quotes: QuoteItem[] = [
     id: "ma-227",
     slug: "kisi-ke-ghar-mein-ijazat-aur-salam-ke-sath-dakhil-hona",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 14",
+    bookRef: "Surah An-Nur (24:27-28) & Makhzan-e-Akhlaq - Page 14",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -6898,9 +6898,9 @@ export const batch16Quotes: QuoteItem[] = [
       en: "O believers! Do not enter houses other than your own until you have politely sought permission and greeted their inhabitants with peace; and if you are asked to return, go back cheerfully without taking offense."
     },
     tashreeh: {
-      ur: "کسی کی ذاتی خلوت اور گھر کے پردے کا احترام کرنا شائستہ معاشرت کا بنیادی اصول ہے۔ بغیر اطلاع داخل ہونا یا مصروفیت کی وجہ سے معذرت کرنے پر برا مان جانا اخلاقی آداب کے خلاف ہے۔",
-      ro: "Kisi ki zaati khalwat aur ghar ke parday ka ehtiram karna shaista muasharat ka bunyadi usool hai. Baghair ittila dakhil hona ya masroofiyat ki wajah se maazrat karne par bura maan jana akhlaqi aadab ke khilaf hai.",
-      en: "Respecting personal privacy by asking permission before entering—and graciously accepting if the host is unavailable—is a hallmark of civilized etiquette."
+      ur: "پسِ منظر و تشریح: کسی کی ذاتی خلوت اور گھر کے پردے کا احترام کرنا شائستہ معاشرت کا بنیادی اصول ہے۔ بغیر اطلاع داخل ہونا یا مصروفیت کی وجہ سے معذرت کرنے پر برا مان جانا اخلاقی آداب کے خلاف ہے۔ آج کا عملی سبق یہ ہے کہ کسی کے ہاں جانے سے پہلے اطلاع یا اجازت کا اہتمام کریں اور اگر میزبان معذرت کرے تو خندہ پیشانی سے لوٹ آئیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Kisi ki zaati khalwat aur ghar ke parday ka ehtiram karna shaista muasharat ka bunyadi usool hai. Baghair ittila dakhil hona ya masroofiyat ki wajah se maazrat karne par bura maan jana akhlaqi aadab ke khilaf hai. Aaj ka amli sabaq yeh hai ke kisi ke haan jane se pehle ittila ya ijazat ka ehtimam karein aur agar mezban maazrat kare to khanda-peshani se laut aayein.",
+      en: "Context & Practical Lesson: Respecting personal privacy by asking permission before entering—and graciously accepting if the host is unavailable—is a hallmark of civilized etiquette."
     },
     tags: [
       { ur: "آدابِ ملاقات", ro: "Aadab-e-Mulaqat", en: "Visiting Etiquette" },
@@ -6911,10 +6911,10 @@ export const batch16Quotes: QuoteItem[] = [
     id: "ma-228",
     slug: "tamsukhur-buray-alqab-aur-gheebat-ki-mumaniat",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    bookRef: "Surah Al-Hujurat (49:11-12) & Makhzan-e-Akhlaq - Page 13",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -6928,16 +6928,16 @@ export const batch16Quotes: QuoteItem[] = [
       en: "Let no group of men mock another group, for they may be better than them in the sight of God, nor let women mock other women; do not defame one another, nor call each other by offensive nicknames."
     },
     tashreeh: {
-      ur: "کسی انسان کی ظاہری شکل، غربت یا سادگی کا مذاق اڑانا تکبر کی علامت ہے کیونکہ ہو سکتا ہے وہ دل کی پاکیزگی میں ہم سے کہیں افضل ہو۔ ہر انسان کو اس کے باعزت نام سے پکارنا ایمان کی شان ہے۔",
-      ro: "Kisi insan ki zahiri shakal, ghareebi ya sadgi ka mazaq urana takabbur ki alamat hai kyunkeh ho sakta hai woh dil ki pakeezgi mein hum se kahin afzal ho. Har insan ko us ke ba-izzat naam se pukarna eman ki shaan hai.",
-      en: "Ridiculing others or using demeaning nicknames stems from arrogance; true faith honors the dignity of every person without exception."
+      ur: "پسِ منظر و تشریح: سورۃ الحجرات کی یہ تعلیمات باہمی احترام کی روح ہیں۔ کسی انسان کی ظاہری شکل، غربت یا سادگی کا مذاق اڑانا تکبر کی علامت ہے کیونکہ ہو سکتا ہے وہ دل کی پاکیزگی میں ہم سے کہیں افضل ہو۔ آج کا عملی سبق یہ ہے کہ اپنی زبان کو طعنے، تضحیک اور برے ناموں سے محفوظ رکھیں اور ہر انسان کو اس کے باعزت نام سے پکاریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Hujurat ki yeh taleemat bahami ehtiram ki rooh hain. Kisi insan ki zahiri shakal, ghareebi ya sadgi ka mazaq urana takabbur ki alamat hai kyunkeh ho sakta hai woh dil ki pakeezgi mein hum se kahin afzal ho. Aaj ka amli sabaq yeh hai ke apni zaban ko taanay, tazheek aur buray naamon se mehfooz rakhein aur har insan ko us ke ba-izzat naam se pukarein.",
+      en: "Context & Practical Lesson: Ridiculing others or using demeaning nicknames stems from arrogance; true faith honors the dignity of every person without exception."
     },
     tags: [
       { ur: "تکریمِ انسانیت", ro: "Takreem-e-Insaniyat", en: "Human Dignity" },
       { ur: "آدابِ گفتگو", ro: "Aadab-e-Guftugu", en: "Respectful Speech" }
     ]
   },
-  {
+{
     id: "ma-229",
     slug: "raza-e-ilahi-ke-liye-mareez-ki-ayadat-aur-mulaqat",
     categorySlug: "irshadat-e-nabawi",
