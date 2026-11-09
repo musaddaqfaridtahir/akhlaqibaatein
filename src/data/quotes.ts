@@ -9113,6 +9113,459 @@ export const batch20Quotes: QuoteItem[] = [
   }
 ];
 
+export const batch21Quotes: QuoteItem[] = [
+  {
+    id: "ma-301",
+    slug: "thori-dunyawi-qeemat-par-usool-aur-ahad-na-bechna",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    author: {
+      ur: "احکامِ خدا (ماخوذ خلاصہ)",
+      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
+      en: "Divine Teachings (Paraphrased Summary)"
+    },
+    title: {
+      ur: "معمولی دنیاوی مفاد کے بدلے اپنے عہد اور ضمیر کا سودا نہ کرنا",
+      ro: "Mamooli Dunyawi Mafad Ke Badlay Apne Ahad Aur Zameer Ka Sauda Na Karna",
+      en: "Never Trading Moral Principles for Fleeting Worldly Gain"
+    },
+    quote: {
+      ur: "حقیقی استقامت یہ ہے کہ انسان اپنے رب کے عہد اور سچائی کے اصولوں کو چند روزہ دنیاوی مفادات کے بدلے ہرگز فروخت نہ کرے؛ کیونکہ دنیا کا نفع عارضی ہے اور حق پر قائم رہنے کا اجر لازوال ہے۔",
+      ro: "Haqeeqi istaqamat yeh hai ke insan apne Rab ke ahad aur sachai ke usoolon ko chand roza dunyawi mafadat ke badlay hargiz farokht na kare; kyunkeh duniya ka nafa aarzi hai aur haq par qayam rehne ka ajr la-zawal hai.",
+      en: "True steadfastness means never bartering away sacred covenants and moral integrity for temporary worldly profit, for material gain quickly fades while the reward of truth endures forever."
+    },
+    tashreeh: {
+      ur: "زندگی میں بارہا ایسے مواقع آتے ہیں جہاں جھوٹ یا بے انصافی سے فوری مالی فائدہ نظر آتا ہے۔ ایسے وقت میں لالچ کو ٹھکرا کر اپنے ایمان اور وعدے کی لاج رکھنا ہی انسان کی اصل قیمت طے کرتا ہے۔",
+      ro: "Zindagi mein barha aise mawaqe aate hain jahan jhoot ya be-insafi se fori maali faida nazar aata hai. Aise waqt mein lalach ko thukra kar apne eman aur waday ki laaj rakhna hi insan ki asal qeemat tay karta hai.",
+      en: "Temptations often promise quick profit at the expense of honesty; choosing integrity over expediency defines a person's true moral worth."
+    },
+    tags: [
+      { ur: "استقامت", ro: "Istaqamat", en: "Integrity" },
+      { ur: "پاسِ عہد", ro: "Paas-e-Ahad", en: "Honoring Pledges" }
+    ]
+  },
+  {
+    id: "ma-302",
+    slug: "sail-aur-zaroorat-mand-ko-jhirakne-se-parhez",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    author: {
+      ur: "احکامِ خدا (ماخوذ خلاصہ)",
+      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
+      en: "Divine Teachings (Paraphrased Summary)"
+    },
+    title: {
+      ur: "سائل کو نہ جھڑکنا اور رب کی نعمتوں کا شکرانہ",
+      ro: "Sail Ko Na Jhirakna Aur Rab Ki Nematon Ka Shukrana",
+      en: "Never Scolding the Petitioner and Expressing Gratitude"
+    },
+    quote: {
+      ur: "اپنے پروردگار کے احسانات کے جواب میں کبھی کسی بے سہارا پر سختی نہ کرو اور نہ کسی سوال کرنے والے کو جھڑک کر لوٹاؤ؛ بلکہ اپنے رب کی عطا کردہ نعمتوں کا شکر عمل اور عاجزی سے ظاہر کرو۔",
+      ro: "Apne Parwardigar ke ehsanat ke jawab mein kabhi kisi be-sahara par sakhti na karo aur na kisi sawal karne wale ko jhirak kar lautao; balkay apne Rab ki ata karda nematon ka shukr amal aur aajizi se zahir karo.",
+      en: "In gratitude for your Lord's favors, never oppress the vulnerable nor turn away a petitioner with harshness; rather, proclaim the blessings of your Creator through humility and service."
+    },
+    tashreeh: {
+      ur: "مجبوری میں ہاتھ پھیلانے والا یا علم کی بات پوچھنے والا دونوں شفقت کے مستحق ہیں۔ اگر انسان کسی کی مالی مدد نہ بھی کر سکے تو کم از کم عزت اور نرمی سے معذرت کرے تاکہ کسی کا دل نہ ٹوٹے۔",
+      ro: "Majboori mein hath phailane wala ya ilm ki baat poochne wala dono shafqat ke mustahiq hain. Agar insan kisi ki maali madad na bhi kar sake to kam az kam izzat aur narmi se maazrat kare taake kisi ka dil na tootay.",
+      en: "Whether someone seeks financial help or guidance in knowledge, they deserve kindness and dignity; if you cannot fulfill their need, respond with gentle respect."
+    },
+    tags: [
+      { ur: "شفقت", ro: "Shafqat", en: "Compassion" },
+      { ur: "تحدیثِ نعمت", ro: "Tahdees-e-Nemat", en: "Gratitude" }
+    ]
+  },
+  {
+    id: "ma-303",
+    slug: "tazkiya-e-nafs-hi-haqeeqi-kamyabi-ka-miyar-hai",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    author: {
+      ur: "احکامِ خدا (ماخوذ خلاصہ)",
+      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
+      en: "Divine Teachings (Paraphrased Summary)"
+    },
+    title: {
+      ur: "اپنے باطن کو سنوارنے والا ہی حقیقی کامیاب ہے",
+      ro: "Apne Batin Ko Sanwarne Wala Hi Haqeeqi Kamyab Hai",
+      en: "True Success Belongs to the One Who Purifies the Soul"
+    },
+    quote: {
+      ur: "انسان کے دل کو نیکی اور بدی دونوں کی پہچان دے دی گئی ہے؛ پس یقیناً وہ شخص کامیاب ہو گیا جس نے اپنے نفس کو برائیوں کی آلائش سے پاک کر کے نیکی سے پروان چڑھایا، اور وہ نامراد ہوا جس نے اسے گناہوں میں دبا دیا۔",
+      ro: "Insan ke dil ko neki aur badi dono ki pehchan de di gayi hai; pas yaqeenan woh shakhs kamyab ho gaya jis ne apne nafs ko buraiyon ki aalaish se paak kar ke neki se parwan charhaya, aur woh namurad huwa jis ne usay gunahon mein daba diya.",
+      en: "The human soul is inspired with the discernment of right and wrong: truly successful is the one who purifies it through virtue, and truly lost is the one who buries its light beneath corruption."
+    },
+    tashreeh: {
+      ur: "ہماری اصل ذمہ داری دوسروں کا حساب کتاب رکھنا نہیں بلکہ اپنے اندر کی زمین سے حسد، جھوٹ اور تکبر کی جھاڑیاں صاف کر کے اخلاص اور رحم دلی کے پودے لگانا ہے۔",
+      ro: "Hamari asal zimmedari doosron ka hisab-kitab rakhna nahi balkay apne andar ki zameen se hasad, jhoot aur takabbur ki jhariyan saaf kar ke ikhlas aur reham-dili ke poday lagana hai.",
+      en: "Our primary duty in life is inner cultivation: weeding out malice, deceit, and ego from our own hearts so that sincerity and compassion may flourish."
+    },
+    tags: [
+      { ur: "تزکیۂ نفس", ro: "Tazkiya-e-Nafs", en: "Self-Purification" },
+      { ur: "فلاح", ro: "Falah", en: "Salvation" }
+    ]
+  },
+  {
+    id: "ma-304",
+    slug: "kafaf-ki-rozi-aur-qanaat-ki-khush-bakhti",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Hadith Section)",
+    author: {
+      ur: "نبوی تعلیمات ﷺ (خلاصہ)",
+      ro: "Nabawi Taleemat ﷺ (Khulasa)",
+      en: "Prophetic Teachings ﷺ (Paraphrased Summary)"
+    },
+    title: {
+      ur: "بقدرِ ضرورت حلال روزی اور قناعت کی خوش بختی",
+      ro: "Ba-Qadr-e-Zaroorat Halal Rozi Aur Qana'at Ki Khush-Bakhti",
+      en: "The Blessedness of Sufficient Provision and a Contented Heart"
+    },
+    quote: {
+      ur: "کامیاب اور خوش نصیب ہے وہ انسان جسے ہدایت کی دولت ملی، بقدرِ ضرورت حلال رزق عطا ہوا، اور اللہ تعالیٰ نے جو کچھ اسے دیا اس پر اس کے دل کو قانع اور مطمئن کر دیا۔",
+      ro: "Kamyab aur khush-naseeb hai woh insan jisay hidayat ki daulat mili, ba-qadr-e-zaroorat halal rizq ata huwa, aur Allah Ta'ala ne jo kuch usay diya us par us ke dil ko qane' aur mutmain kar diya.",
+      en: "Truly fortunate is the person who is guided to upright faith, granted sufficient lawful provision for their needs, and blessed by God with deep contentment in what they have."
+    },
+    tashreeh: {
+      ur: "ڈھیروں مال کے ساتھ اگر دل بے چین ہو تو وہ مال عذاب ہے، اور اگر حلال آمدنی ضرورت کے مطابق ہو مگر دل میں شکر اور قناعت کا نور ہو تو وہی زندگی کی سب سے بڑی راحت ہے۔",
+      ro: "Dheron maal ke sath agar dil be-chain ho to woh maal azaab hai, aur agar halal aamdani zaroorat ke mutabiq ho magar dil mein shukr aur qana'at ka noor ho to wahi zindagi ki sab se badi rahat hai.",
+      en: "Vast wealth accompanied by anxiety is a burden, whereas modest, lawful earnings paired with a tranquil and grateful heart represent the height of earthly happiness."
+    },
+    tags: [
+      { ur: "قناعت", ro: "Qana'at", en: "Contentment" },
+      { ur: "رزقِ کفاف", ro: "Rizq-e-Kafaf", en: "Sufficient Provision" }
+    ]
+  },
+  {
+    id: "ma-305",
+    slug: "makhlooq-ke-rastay-se-takleef-hatana-maghfirat-ka-sabab",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Hadith Section)",
+    author: {
+      ur: "نبوی تعلیمات ﷺ (خلاصہ)",
+      ro: "Nabawi Taleemat ﷺ (Khulasa)",
+      en: "Prophetic Teachings ﷺ (Paraphrased Summary)"
+    },
+    title: {
+      ur: "مسلمانوں کے راستے سے کانٹا ہٹانا بھی مغفرت کا سبب ہے",
+      ro: "Musalmanon Ke Rastay Se Kanta Hatana Bhi Maghfirat Ka Sabab Hai",
+      en: "Removing Harm from Public Paths Earns Divine Forgiveness"
+    },
+    quote: {
+      ur: "ایک شخص نے گزرگاہ میں کانٹے دار ٹہنی دیکھی تو یہ سوچ کر اسے ہٹا دیا کہ اس سے گزرنے والے انسانوں کو تکلیف نہ پہنچے؛ اللہ تعالیٰ کو اس کا یہ جذبۂ خیر خواہی اس قدر پسند آیا کہ اس کی بخشش فرما دی۔",
+      ro: "Aik shakhs ne guzargah mein kantay-dar tehni dekhi to yeh soch kar usay hata diya ke is se guzarne wale insanon ko takleef na pohanche; Allah Ta'ala ko us ka yeh jazba-e-khair-khwahi is qadar pasand aaya ke us ki bakhshish farma di.",
+      en: "A traveler noticed a thorny branch obstructing a public road and removed it so passersby would not be harmed; God appreciated this simple act of civic care so deeply that He forgave their sins."
+    },
+    tashreeh: {
+      ur: "اگر راستے سے ایک کانٹا ہٹانے پر جنت مل سکتی ہے تو جو لوگ گلی محلوں میں کوڑا پھینک کر، ناجائز تجاوزات بنا کر یا دوسروں کے کاموں میں روڑے اٹکا کر تکلیف دیتے ہیں انہیں اپنے انجام سے ڈرنا چاہیے۔",
+      ro: "Agar rastay se aik kanta hatane par Jannat mil sakti hai to jo log gali-mohallon mein koora phaink kar, najaiz tajawuzat bana kar ya doosron ke kaamon mein roray atka kar takleef dete hain unhein apne anjam se darna chahiye.",
+      en: "If clearing a small obstacle from a street unlocks divine mercy, then keeping public spaces clean, safe, and accessible is a profound spiritual duty."
+    },
+    tags: [
+      { ur: "شہری ذمہ داری", ro: "Shehri Zimmedari", en: "Civic Care" },
+      { ur: "راحت رسانی", ro: "Rahat-Rasani", en: "Removing Harm" }
+    ]
+  },
+  {
+    id: "ma-306",
+    slug: "mareez-ke-paas-baith-kar-umeed-aur-dua-dena",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Hadith Section)",
+    author: {
+      ur: "نبوی تعلیمات ﷺ (خلاصہ)",
+      ro: "Nabawi Taleemat ﷺ (Khulasa)",
+      en: "Prophetic Teachings ﷺ (Paraphrased Summary)"
+    },
+    title: {
+      ur: "مریض کی عیادت میں امید افزا کلمات اور شفا کی دعا",
+      ro: "Mareez Ki Ayadat Mein Umeed-Afza Kalmaat Aur Shifa Ki Dua",
+      en: "Bringing Hope and Comfort When Visiting the Sick"
+    },
+    quote: {
+      ur: "جب کسی بیمار کی عیادت کے لیے جاؤ تو اس کے پاس مایوسی کی بات نہ کرو، بلکہ تسلی اور حوصلے کی بات کہہ کر اس کی ہمت بڑھاؤ؛ کیونکہ تمہارے اچھے بول تقدیر تو نہیں بدلتے لیکن مریض کے دل کو راحت اور سکون ضرور پہنچاتے ہیں۔",
+      ro: "Jab kisi bimar ki ayadat ke liye jao to us ke paas mayousi ki baat na karo, balkay tasalli aur hauslay ki baat keh kar us ki himmat barhao; kyunkeh tumhare achay bol taqdeer to nahi badalte lekin mareez ke dil ko rahat aur sukoon zaroor pohanchate hain.",
+      en: "When you visit an ailing person, speak words of hope, comfort, and encouragement regarding their recovery; for gentle words uplift the patient's spirit and soothe their anxious heart."
+    },
+    tashreeh: {
+      ur: "عیادت کا مقصد مریض کو ڈرانا یا اس کے پاس زیادہ دیر بیٹھ کر اسے تھکانا نہیں ہے، بلکہ مختصر وقت میں مسکرا کر اس کا حوصلہ بڑھانا اور صحت کی دعا دے کر رخصت ہونا ہے۔",
+      ro: "Ayadat ka maqsad mareez ko darana ya us ke paas zyada dair baith kar usay thakana nahi hai, balkay mukhtasar waqt mein muskura kar us ka hausla barhana aur sehat ki dua de kar rukhsat hona hai.",
+      en: "Proper etiquette when visiting the sick means keeping the visit brief, radiating optimism, and offering heartfelt prayers that strengthen their morale."
+    },
+    tags: [
+      { ur: "آدابِ عیادت", ro: "Aadab-e-Ayadat", en: "Etiquette of Visiting" },
+      { ur: "حوصلہ افزائی", ro: "Hausla-Afzai", en: "Encouragement" }
+    ]
+  },
+  {
+    id: "ma-307",
+    slug: "sathiyon-se-mashwara-aur-un-ki-raaye-ka-ehtiram",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Seerah Section)",
+    author: {
+      ur: "اسوۂ نبوی ﷺ (خلاصہ)",
+      ro: "Uswah-e-Nabawi ﷺ (Khulasa)",
+      en: "Prophetic Example ﷺ (Paraphrased Summary)"
+    },
+    title: {
+      ur: "ساتھیوں سے کثرتِ مشاورت اور ان کی رائے کا احترام",
+      ro: "Sathiyon Se Kasrat-e-Mushawarat Aur Un Ki Raaye Ka Ehtiram",
+      en: "Frequently Consulting Companions and Honoring Their Counsel"
+    },
+    quote: {
+      ur: "حضور اکرم ﷺ کمالِ دانش اور وحی کی تائید کے باوجود دنیاوی اور اجتماعی امور میں اپنے صحابہ کرامؓ سے کثرت کے ساتھ مشورہ فرماتے، اور جب کوئی ساتھی بہتر تدبیر پیش کرتا تو کھلے دل سے اپنی رائے چھوڑ کر اس کے مشورے کو قبول فرما لیتے۔",
+      ro: "Huzoor Akram ﷺ kamal-e-danish aur wahi ki taayeed ke bawajood dunyawi aur ijtimai umoor mein apne Sahaba Kiram (R.A) se kasrat ke sath mashwara farmate, aur jab koi sathi behtar tadbeer pesh karta to khulay dil se apni raaye chhor kar us ke mashwaray ko qubool farma lete.",
+      en: "Despite possessing supreme wisdom, the Prophet ﷺ regularly consulted his companions in community affairs and gladly adopted their practical suggestions whenever they offered sound counsel."
+    },
+    tashreeh: {
+      ur: "بڑا انسان وہی ہے جو اپنی رائے پر اڑنے کو عزت کا مسئلہ نہ بنائے۔ ماتحتوں اور ساتھیوں سے مشورہ لینے سے ان میں ذمہ داری کا احساس پیدا ہوتا ہے اور اجتماعی کاموں میں برکت آتی ہے۔",
+      ro: "Bada insan wahi hai jo apni raaye par arne ko izzat ka masla na banaye. Matehton aur sathiyon se mashwara lene se un mein zimmedari ka ehsas paida hota hai aur ijtimai kaamon mein barkat aati hai.",
+      en: "True leadership welcomes good ideas from anyone regardless of rank, empowering team members and fostering collective wisdom."
+    },
+    tags: [
+      { ur: "مشاورتِ نبوی ﷺ", ro: "Mushawarat-e-Nabawi ﷺ", en: "Collaborative Leadership" },
+      { ur: "وسعتِ ظرف", ro: "Wus'at-e-Zarf", en: "Open-Mindedness" }
+    ]
+  },
+  {
+    id: "ma-308",
+    slug: "auqat-ki-munazzam-taqseem-ibadat-khandan-aur-khidmat",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Seerah Section)",
+    author: {
+      ur: "اسوۂ نبوی ﷺ (خلاصہ)",
+      ro: "Uswah-e-Nabawi ﷺ (Khulasa)",
+      en: "Prophetic Example ﷺ (Paraphrased Summary)"
+    },
+    title: {
+      ur: "اوقات کی منظم تقسیم: عبادت، اہلِ خانہ اور خدمتِ خلق",
+      ro: "Auqat Ki Munazzam Taqseem: Ibadat, Ahl-e-Khana Aur Khidmat-e-Khalq",
+      en: "Disciplined Time Management Between God, Family, and Humanity"
+    },
+    quote: {
+      ur: "آپ ﷺ اپنے شب و روز کے اوقات کو بے حد نظم اور سلیقے سے تین حصوں میں تقسیم فرماتے: ایک حصہ اللہ کی عبادت کے لیے، ایک حصہ اپنے اہلِ خانہ کے حقوق اور خبرگیری کے لیے، اور ایک حصہ عام لوگوں سے ملاقات اور ان کے مسائل حل کرنے کے لیے۔",
+      ro: "Aap ﷺ apne shab-o-roz ke auqat ko be-had nazm aur saleeqay se teen hisson mein taqseem farmate: aik hissa Allah ki ibadat ke liye, aik hissa apne ahl-e-khana ke huqooq aur khabargeeri ke liye, aur aik hissa aam logon se mulaqat aur un ke masail hal karne ke liye.",
+      en: "The Prophet ﷺ structured his daily hours into three balanced parts: one portion devoted to the worship of God, one portion dedicated to his family's care, and one portion open to serving the public and addressing their needs."
+    },
+    tashreeh: {
+      ur: "کامیاب زندگی بے ہنگم مصروفیت کا نام نہیں بلکہ ہر حق کو اس کے مقررہ وقت پر ادا کرنے کا نام ہے۔ کام کے چکر میں اپنے گھر والوں کو نظرانداز کر دینا یا روحانی تعلق بھلا دینا توازن کو بگاڑ دیتا ہے۔",
+      ro: "Kamyab zindagi be-hangam masroofiyat ka naam nahi balkay har haq ko us ke muqarrara waqt par ada karne ka naam hai. Kaam ke chakkar mein apne ghar walon ko nazar-andaz kar dena ya roohani talluq bhula dena tawazun ko bigar deta hai.",
+      en: "A fulfilling life requires intentional time management—never letting professional duties crowd out spiritual devotion or quality time with family."
+    },
+    tags: [
+      { ur: "نظمِ اوقات", ro: "Nazm-e-Auqat", en: "Time Management" },
+      { ur: "متوازن زندگی", ro: "Mutawazin Zindagi", en: "Work-Life Balance" }
+    ]
+  },
+  {
+    id: "ma-309",
+    slug: "neki-kar-ke-ajizi-aur-gunah-ke-baad-nadamat",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Sahaba Section)",
+    author: {
+      ur: "اقوالِ صدیقِ اکبرؓ (خلاصہ)",
+      ro: "Aqwal-e-Siddiq-e-Akbar R.A (Khulasa)",
+      en: "Wisdom of Abu Bakr Siddiq R.A (Summary)"
+    },
+    title: {
+      ur: "نیکی کے بعد عاجزی اور قبولیت کی فکر",
+      ro: "Neki Ke Baad Aajizi Aur Qubooliyat Ki Fikr",
+      en: "Humility After Doing Good and Concern for Sincerity"
+    },
+    quote: {
+      ur: "جب کوئی نیکی کرنے کی توفیق ملے تو اس پر فخر کرنے کے بجائے اس بات کی فکر رکھو کہ وہ قبول بھی ہوئی یا نہیں؛ کیونکہ وہ لغزش جو انسان کو عاجز اور منکسر بنا دے اس عبادت سے بہتر ہے جو دل میں تکبر پیدا کر دے۔",
+      ro: "Jab koi neki karne ki taufeeq milay to us par fakhr karne ke bajaye is baat ki fikr rakho ke woh qubool bhi hui ya nahi; kyunkeh woh laghzish jo insan ko aajiz aur munkasir bana de us ibadat se behtar hai jo dil mein takabbur paida kar de.",
+      en: "Whenever you are blessed to perform a good deed, focus on whether it is accepted rather than feeling proud of it; for a slip that leaves you humble and contrite is safer than a virtue that breeds arrogance in the heart."
+    },
+    tashreeh: {
+      ur: "نیکی کرنے سے زیادہ مشکل کام نیکی کو غرور سے بچانا ہے۔ عارفین کا طریقہ یہ ہے کہ وہ بڑے سے بڑا خیر کا کام کر کے بھی خود کو مقصر سمجھتے ہیں اور دوسروں کو کبھی حقیر نہیں جانتے۔",
+      ro: "Neki karne se zyada mushkil kaam neki ko ghuroor se bachana hai. Aarifeen ka tareeqa yeh hai ke woh bade se bada khair ka kaam kar ke bhi khud ko muqassir samajhte hain aur doosron ko kabhi haqeer nahi jante.",
+      en: "Spiritual pride can quietly ruin a lifetime of good works; true righteousness is always accompanied by deep humility and compassion toward others."
+    },
+    tags: [
+      { ur: "انکساری", ro: "Inkisari", en: "Humility" },
+      { ur: "اخلاص", ro: "Ikhlas", en: "Sincerity" }
+    ]
+  },
+  {
+    id: "ma-310",
+    slug: "sachay-aur-mukhlis-logon-ko-apna-hum-nasheen-banao",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Sahaba Section)",
+    author: {
+      ur: "اقوالِ فاروقِ اعظمؓ (خلاصہ)",
+      ro: "Aqwal-e-Farooq-e-Azam R.A (Khulasa)",
+      en: "Wisdom of Umar Farooq R.A (Summary)"
+    },
+    title: {
+      ur: "سچے اور باعمل لوگوں کی ہم نشینی اختیار کرنا",
+      ro: "Sachay Aur Ba-Amal Logon Ki Ham-Nashini Ikhtiyar Karna",
+      en: "Choosing Companions Who Inspire Truth and Integrity"
+    },
+    quote: {
+      ur: "ایسے لوگوں کو اپنا ہم نشین بناؤ جنہیں دیکھ کر تمہیں حق اور فرض یاد آئے، جن کی گفتگو تمہارے علم میں اضافہ کرے، اور جن کا عمل تمہیں سستی چھوڑ کر محنت اور آخرت کی رغبت دلائے۔",
+      ro: "Aise logon ko apna ham-nasheen banao jinhein dekh kar tumhein haq aur farz yaad aaye, jin ki guftugu tumhare ilm mein izafa kare, aur jin ka amal tumhein susti chhor kar mehnat aur akhirat ki raghbat dilaye.",
+      en: "Choose companions whose presence reminds you of moral duty, whose conversation increases your wisdom, and whose conduct inspires you to abandon laziness and strive for eternal good."
+    },
+    tashreeh: {
+      ur: "دوستوں کا حلقہ انسان کے مستقبل کا فیصلہ کرتا ہے۔ اگر آپ کے اردگرد باہمت، دیانت دار اور علم دوست لوگ ہوں گے تو آپ کا معیارِ فکر اور عمل خود بخود بلند ہوتا چلا جائے گا۔",
+      ro: "Doston ka halqa insan ke mustaqbil ka faisla karta hai. Agar aap ke ird-gird ba-himmat, diyanat-dar aur ilm-dost log honge to aap ka miyar-e-fikr aur amal khud-ba-khud buland hota chala jayega.",
+      en: "Our circle of friends shapes our destiny: surrounding ourselves with honest, hardworking, and wise individuals naturally elevates our own standards."
+    },
+    tags: [
+      { ur: "نیک صحبت", ro: "Nek Suhbat", en: "Good Company" },
+      { ur: "ترغیبِ عمل", ro: "Targheeb-e-Amal", en: "Inspiration" }
+    ]
+  },
+  {
+    id: "ma-311",
+    slug: "har-naye-din-ki-pukar-aur-amal-ki-kheti",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Sahaba Section)",
+    author: {
+      ur: "اقوالِ عثمانِ غنیؓ (خلاصہ)",
+      ro: "Aqwal-e-Usman-e-Ghani R.A (Khulasa)",
+      en: "Wisdom of Usman Ghani R.A (Summary)"
+    },
+    title: {
+      ur: "ہر طلوع ہونے والے دن کا پیغام اور عمل کی کھیتی",
+      ro: "Har Tuloo Hone Wale Din Ka Paigham Aur Amal Ki Kheti",
+      en: "The Daily Call of Every New Dawn and the Harvest of Deeds"
+    },
+    quote: {
+      ur: "ہر نیا طلوع ہونے والا دن انسان کو پکار کر کہتا ہے کہ میں ایک نیا موقع اور تیرے عمل پر گواہ ہوں، پس مجھ میں بھلائی کا بیج بو لے کیونکہ جب میں گزر جاؤں گا تو قیامت تک دوبارہ لوٹ کر نہیں آؤں گا۔",
+      ro: "Har naya tuloo hone wala din insan ko pukar kar kehta hai ke main aik naya mauqa aur tere amal par gawah hoon, pas mujh mein bhalai ka beej bo le kyunkeh jab main guzar jaoonga to qayamat tak dobara laut kar nahi aaoonga.",
+      en: "Every new dawn calls out to humanity: 'I am a fresh opportunity and a witness over your actions; sow seeds of goodness within me today, for once I set, I shall never return until the Day of Reckoning.'"
+    },
+    tashreeh: {
+      ur: "زندگی درحقیقت چند گنے چنے دنوں کا مجموعہ ہے۔ ہر صبح اس عزم کے ساتھ اٹھنا کہ آج کسی کا دل نہیں دکھانا اور کوئی نہ کوئی نفع بخش کام ضرور کرنا ہے، زندگی کو بامقصد بنا دیتا ہے۔",
+      ro: "Zindagi dar-haqeeqat chand ginay-chunay dinon ka majmooa hai. Har subah is azm ke sath uthna ke aaj kisi ka dil nahi dukhana aur koi na koi nafa-bakhsh kaam zaroor karna hai, zindagi ko ba-maqsad bana deta hai.",
+      en: "Treating each morning as an irreplaceable gift—dedicated to honest work and kindness—turns an ordinary lifespan into a lasting legacy."
+    },
+    tags: [
+      { ur: "احساسِ وقت", ro: "Ehsas-e-Waqt", en: "Value of Time" },
+      { ur: "نیکی کی کھیتی", ro: "Neki Ki Kheti", en: "Sowing Goodness" }
+    ]
+  },
+  {
+    id: "ma-312",
+    slug: "sabr-musibat-ki-dhal-aur-qanaat-izzat-ki-chadar",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Sahaba Section)",
+    author: {
+      ur: "اقوالِ علی المرتضیٰؓ (خلاصہ)",
+      ro: "Aqwal-e-Ali Al-Murtaza R.A (Khulasa)",
+      en: "Wisdom of Hazrat Ali R.A (Summary)"
+    },
+    title: {
+      ur: "صبر مصیبت کی ڈھال ہے اور قناعت عزت کی چادر",
+      ro: "Sabr Musibat Ki Dhal Hai Aur Qana'at Izzat Ki Chadar",
+      en: "Patience is a Shield in Hardship and Contentment is a Cloak of Honor"
+    },
+    quote: {
+      ur: "صبر کو اپنی مصیبتوں کے آگے ڈھال بنا لو، کیونکہ جو شخص صبر کا دامن تھامے رکھتا ہے وہ کبھی فتح اور کشادگی سے محروم نہیں رہتا؛ اور قناعت کو اپنی چادر بنا لو کہ اس سے بڑی کوئی بے نیازی نہیں۔",
+      ro: "Sabr ko apni museebaton ke aagay dhal bana lo, kyunkeh jo shakhs sabr ka daman thamay rakhta hai woh kabhi fatah aur kushadgi se mehroom nahi rehta; aur qana'at ko apni chadar bana lo ke is se badi koi be-niyazi nahi.",
+      en: "Make patience your shield against life's trials, for the one who perseveres is never deprived of eventual victory—even if it takes time; and wrap yourself in the cloak of contentment to preserve your honor."
+    },
+    tashreeh: {
+      ur: "مشکل وقت کتنا ہی لمبا کیوں نہ ہو، صبر اور محنت کے سامنے آخرکار ہار مان لیتا ہے۔ جو انسان جلد بازی میں ہمت نہیں ہارتا اور اپنی عزتِ نفس کی حفاظت کرتا ہے، کامیابی اس کے قدم چومتی ہے۔",
+      ro: "Mushkil waqt kitna hi lamba kyon na ho, sabr aur mehnat ke samne aakhir-kar haar maan leta hai. Jo insan jald-bazi mein himmat nahi harta aur apni izzat-e-nafs ki hifazat karta hai, kamyabi us ke qadam choomti hai.",
+      en: "No storm lasts forever; combining steady perseverance with self-respect carries a person through the hardest seasons into triumph."
+    },
+    tags: [
+      { ur: "ثابت قدمی", ro: "Sabit-Qadmi", en: "Perseverance" },
+      { ur: "عزتِ نفس", ro: "Izzat-e-Nafs", en: "Self-Respect" }
+    ]
+  },
+  {
+    id: "ma-313",
+    slug: "be-faida-jidal-aur-behas-se-kinara-kashi-hikmat-hai",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Luqman Section)",
+    author: {
+      ur: "حکمتِ لقمان علیہ السلام (خلاصہ)",
+      ro: "Hikmat-e-Luqman A.S (Khulasa)",
+      en: "Wisdom of Luqman (Paraphrased Summary)"
+    },
+    title: {
+      ur: "بے جا کج بحثی اور جھگڑے سے کنارہ کشی ہی دانائی ہے",
+      ro: "Be-Ja Kaj-Behasi Aur Jhagray Se Kinara-Kashi Hi Danai Hai",
+      en: "Stepping Away from Pointless Arguments is True Wisdom"
+    },
+    quote: {
+      ur: "اے بیٹے! علماء سے ضد اور مقابلے کے لیے بحث نہ کر کہ وہ تجھ سے ناراض ہو جائیں گے، اور نادانوں سے الجھ کر اپنا وقار مت گنوا؛ کیونکہ بے جا کج بحثی دوستی کو دشمنی میں بدل دیتی ہے اور علم کا نور بجھا دیتی ہے۔",
+      ro: "Aye betay! Ulama se zid aur muqable ke liye behas na kar ke woh tujh se naraz ho jayenge, aur nadanon se ulajh kar apna waqar mat ganwa; kyunkeh be-ja kaj-behasi dosti ko dushmani mein badal deti hai aur ilm ka noor bujha deti hai.",
+      en: "O my son! Do not argue with scholars out of pride to show off, nor quarrel with the foolish lest they demean your dignity; for pointless contention turns friends into foes and extinguishes the light of wisdom."
+    },
+    tashreeh: {
+      ur: "سوال سیکھنے کے لیے کیا جائے تو علم بڑھتا ہے، لیکن اگر مقصد صرف دوسرے کو نیچا دکھانا اور اپنی جیت منوانا ہو تو ایسی بحث سے دل سخت ہو جاتے ہیں اور باہمی احترام ختم ہو جاتا ہے۔",
+      ro: "Sawal seekhne ke liye kiya jaye to ilm barhta hai, lekin agar maqsad sirf doosre ko neecha dikhana aur apni jeet manwana ho to aisi behas se dil sakht ho jate hain aur bahami ehtiram khatam ho jata hai.",
+      en: "Asking questions to learn enriches the mind, whereas arguing merely to win an ego battle hardens hearts and ruins relationships."
+    },
+    tags: [
+      { ur: "آدابِ علم", ro: "Aadab-e-Ilm", en: "Etiquette of Learning" },
+      { ur: "ترکِ جدال", ro: "Tark-e-Jidal", en: "Avoiding Strife" }
+    ]
+  },
+  {
+    id: "ma-314",
+    slug: "doosron-par-hukm-chalane-se-pehle-apne-nafs-par-hukmran-bano",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Hukama Section)",
+    author: {
+      ur: "اقوالِ حکماء (ماخوذ خلاصہ)",
+      ro: "Aqwal-e-Hukama (Makhooz Khulasa)",
+      en: "Wisdom of Sages (Paraphrased Summary)"
+    },
+    title: {
+      ur: "سب سے بڑی حکمرانی اپنے نفس اور خواہشات پر قابو پانا ہے",
+      ro: "Sab Se Badi Hukmrani Apne Nafs Aur Khuwaishat Par Qaboo Pana Hai",
+      en: "The Greatest Sovereignty is Mastering One's Own Desires"
+    },
+    quote: {
+      ur: "جو شخص اپنے ایک نفس اور اپنی بے جا خواہشات پر قابو نہیں پا سکتا، وہ دوسرے انسانوں کی اصلاح اور رہنمائی کیسے کر سکتا ہے؟ حقیقی آزاد اور بادشاہ وہ ہے جس کی عقل اس کے غصے اور ہوس پر حکمران ہو۔",
+      ro: "Jo shakhs apne aik nafs aur apni be-ja khuwaishat par qaboo nahi pa sakta, woh doosre insanon ki islah aur rehnumai kaise kar sakta hai? Haqeeqi aazad aur badshah woh hai jis ki aqal us ke gusse aur hawas par hukmran ho.",
+      en: "How can one who cannot govern their own impulses hope to guide others? The truly free and noble ruler is the person whose reason governs their anger and desires."
+    },
+    tashreeh: {
+      ur: "انسان بظاہر آزاد نظر آتا ہے لیکن اگر وہ اپنے غصے، لالچ اور بری عادتوں کے ہاتھوں مجبور ہو تو وہ اندر سے قیدی ہے۔ اپنے من کو جیت لینا دنیا فتح کرنے سے بڑی کامیابی ہے۔",
+      ro: "Insan ba-zahir aazad nazar aata hai lekin agar woh apne gusse, lalach aur buri aadaton ke hathon majboor ho to woh andar se qaidi hai. Apne man ko jeet lena duniya fatah karne se badi kamyabi hai.",
+      en: "Outward authority means little if a person is enslaved by their own temper and greed; self-mastery is the foundation of all true leadership."
+    },
+    tags: [
+      { ur: "خود ضابطگی", ro: "Khud-Zabitagi", en: "Self-Mastery" },
+      { ur: "حکمت", ro: "Hikmat", en: "Wisdom" }
+    ]
+  },
+  {
+    id: "ma-315",
+    slug: "choti-amanaton-ki-hifazat-bade-aitmad-ki-bunyad-hai",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Hikayat Section)",
+    author: {
+      ur: "اخلاقی جواہر و حکایات (خلاصہ)",
+      ro: "Akhlaqi Jawahir o Hikayat (Khulasa)",
+      en: "Moral Gems & Parables (Summary)"
+    },
+    title: {
+      ur: "چھوٹی امانتوں کی پاسداری بڑے اعتماد کی بنیاد بنتی ہے",
+      ro: "Choti Amanaton Ki Pasdari Bade Aitmad Ki Bunyad Banti Hai",
+      en: "Honoring Small Trusts Builds a Lifetime of Credibility"
+    },
+    quote: {
+      ur: "انسان کی ساکھ اور اعتبار کسی ایک بڑے کارنامے سے نہیں بلکہ روزمرہ کے چھوٹے معاملات میں سچ بولنے، وقت کی پابندی کرنے اور معمولی رقم کا حساب صاف رکھنے سے قائم ہوتا ہے؛ جو چھوٹی بات میں کھرا نہیں وہ بڑے امتحان میں بھی کامیاب نہیں ہوتا۔",
+      ro: "Insan ki saakh aur aitbar kisi aik bade karnamay se nahi balkay rozmarra ke chote muamlat mein sach bolne, waqt ki pabandi karne aur mamooli raqam ka hisab saaf rakhne se qayam hota hai; jo choti baat mein khara nahi woh bade imtihan mein bhi kamyab nahi hota.",
+      en: "A person's lifelong reputation is built not by a single grand gesture, but by everyday honesty—keeping small promises, respecting time, and accounting fairly for every coin; whoever is faithful in little will be trusted with much."
+    },
+    tashreeh: {
+      ur: "کاروبار ہو یا ملازمت، لوگ سب سے پہلے چھوٹے معاملات میں آپ کی دیانت کو پرکھتے ہیں۔ ایک پیسے کی امانت اور ایک منٹ کے وعدے کا پاس رکھنے والا شخص پورے معاشرے کی آنکھوں کا تارا بن جاتا ہے۔",
+      ro: "Karobar ho ya mulazmat, log sab se pehle chote muamlat mein aap ki diyanat ko parakhte hain. Aik paisay ki amanat aur aik minute ke waday ka paas rakhne wala shakhs poore muashray ki ankhon ka tara ban jata hai.",
+      en: "In business and personal life alike, consistent honesty in the smallest details earns unshakable trust and opens the doors to greater responsibility."
+    },
+    tags: [
+      { ur: "اعتبار و ساکھ", ro: "Aitbar o Saakh", en: "Credibility" },
+      { ur: "دیانت داری", ro: "Diyanat-Dari", en: "Honesty" }
+    ]
+  }
+];
+
 
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
@@ -9135,6 +9588,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch18Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 5 || idx === 13)), // ma-256 (Kharch mein bukhl aur israf ke darmiyan aitdaal), ma-261 (Panch nematon ko panch halaton se pehle ghaneemat jano), ma-269 (Ilm aur maal ka farq) featured
   ...batch19Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 4 || idx === 13)), // ma-272 (Muamlat mein mashwara), ma-275 (Asani paida karo tangi na karo), ma-284 (Chaar cheezein kabhi wapis nahi laut saktein) featured
   ...batch20Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 11 || idx === 14)), // ma-286 (Amanatein o Adal), ma-289 (Dilon o Aamaal), ma-297 (Hazrat Ali - Aqal kamil), ma-300 (Tootay dilon ko jorna) featured
+  ...batch21Quotes.map((q, idx) => quoteItemToQuote(q, idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-304 (Qana'at), ma-308 (Nazm-e-Auqat), ma-312 (Hazrat Ali - Sabr dhal), ma-315 (Choti amanatein) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
