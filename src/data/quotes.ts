@@ -4583,95 +4583,95 @@ export const batch10Quotes: QuoteItem[] = [
 export const batch11Quotes: QuoteItem[] = [
   {
     id: "ma-151",
-    slug: "raah-e-khuda-mein-koshish-aur-ghaib-se-rizq",
+    slug: "zina-ke-asbab-se-door-raho-aur-haya-ikhtiyar-karo",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 7",
+    bookRef: "Surah Al-Furqan (25:68) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "راہِ حق میں کوشش اور گمان سے باہر رزق کا وعدہ",
-      ro: "Raah-e-Haq Mein Koshish Aur Guman Se Bahar Rizq Ka Wada",
-      en: "Striving in the Path of Truth and Provision Beyond Imagination"
+      ur: "شرک، ناحق قتل اور بدکاری سے مکمل اجتناب",
+      ro: "Shirk, Nahaq Qatal Aur Bad-Kaari Se Mukammal Ijtinab",
+      en: "Complete Avoidance of Shirk, Unjust Murder, and Immorality"
     },
     quote: {
-      ur: "جنہوں نے ہماری راہ میں کوشش کی، ہم ان کو اپنا راستہ بتائیں گے؛ اور جو اللہ تعالیٰ سے ڈرتا ہے، اللہ اس کے لیے نکلنے کی راہ بنا دیتا ہے اور اسے ایسی جگہ سے رزق پہنچاتا ہے جو اس کے خواب و خیال میں بھی نہ تھی۔",
-      ro: "Jinhon ne hamari raah mein koshish ki, hum un ko apna rasta batayenge; aur jo Allah Ta'ala se darta hai, Allah us ke liye nikalne ki raah bana deta hai aur usay aisi jagah se rizq pohanchata hai jo us ke khwab-o-khayal mein bhi na thi.",
-      en: "Those who strive sincerely in Our cause, We will surely guide them to Our paths; and whoever fears Allah, He creates a way out for them from every hardship and provides for them from sources they could never imagine."
+      ur: "اور جو لوگ اللہ کے ساتھ کسی دوسرے معبود کو نہیں پکارتے، اور اس جان کو قتل نہیں کرتے جسے اللہ نے حرام کیا ہے مگر حق کے ساتھ، اور نہ ہی زنا کرتے ہیں؛ اور جو شخص یہ کام کرے گا وہ اپنے گناہ کی سزا بھگتے گا۔",
+      ro: "Aur jo log Allah ke sath kisi doosre mabood ko nahi pukarte, aur us jaan ko qatal nahi karte jisay Allah ne haram kiya hai magar haq ke sath, aur na hi zina karte hain; aur jo shakhs yeh kaam karega woh apne gunah ki saza bhagatega.",
+      en: "And those who do not invoke with Allah another deity or kill the soul which Allah has forbidden, except by right, and do not commit unlawful sexual intercourse. And whoever should do that will meet a penalty."
     },
     tashreeh: {
-      ur: "ہدایت اور کامیابی کی شرط سچی تڑپ اور مسلسل جدوجہد ہے۔ جب انسان تقویٰ اختیار کر کے قدم بڑھاتا ہے تو بند دروازے کھل جاتے ہیں اور غیب سے روزی کے اسباب پیدا ہو جاتے ہیں۔",
-      ro: "Hidayat aur kamyabi ki shart sachi tarap aur musalsal jidd-o-jehad hai. Jab insan taqwa ikhtiyar kar ke qadam barhata hai to band darwazay khul jate hain aur ghaib se rozi ke asbab paida ho jate hain.",
-      en: "Sincere effort unlocks divine guidance, and steadfast piety opens unforeseen doors of relief and sustenance during the darkest trials."
+      ur: "پسِ منظر و تشریح: سورۃ الفرقان میں رحمان کے سچے بندوں کے بنیادی اوصاف میں توحید کے بعد انسانی جان کی حرمت اور عفت و پاکدامنی کو رکھا گیا ہے۔ یہ تین بڑے گناہ معاشرے کی جڑیں ہلا دیتے ہیں۔ آج کا عملی سبق یہ ہے کہ اپنے عقیدے کو خالص رکھیں، ہر قسم کے ظلم سے بچیں اور اپنی اخلاقی حدود کی سختی سے پاسداری کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Furqan mein Rehman ke sachay bandon ke bunyadi ausaf mein tauheed ke baad insani jaan ki hurmat aur iffat o pakdamani ko rakha gaya hai. Yeh teen bade gunah muashray ki jarrein hila dete hain. Aaj ka amli sabaq yeh hai ke apne aqeeday ko khalis rakhein, har qisam ke zulm se bachein aur apni akhlaqi hudood ki sakhti se pasdari karein.",
+      en: "Context & Practical Lesson: True servants of the Merciful protect their faith from idolatry, respect human life, and guard their chastity as the core pillars of a righteous life."
     },
     tags: [
-      { ur: "جدوجہد", ro: "Jidd-o-Jehad", en: "Striving" },
-      { ur: "رزق", ro: "Rizq", en: "Sustenance" }
+      { ur: "عقیدہ و اخلاق", ro: "Aqeedah o Akhlaq", en: "Faith & Morals" },
+      { ur: "پاکیزگی", ro: "Pakeezgi", en: "Purity" }
     ]
   },
   {
     id: "ma-152",
-    slug: "apni-pakeezgi-na-jatana-aur-neki-ka-badla-neki",
+    slug: "tauba-iman-aur-nek-amal-se-gunah-badiyon-ki-tabdeeli",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 10",
+    bookRef: "Surah Al-Furqan (25:70) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "اپنی پاکیزگی کا دعویٰ نہ کرنا اور احسان کا بدلہ",
-      ro: "Apni Pakeezgi Ka Dawa Na Karna Aur Ehsan Ka Badla",
-      en: "Avoiding Self-Righteousness and the Reward of Goodness"
+      ur: "سچی توبہ اور ایمان کے ذریعے برائیوں کا نیکیوں میں بدل جانا",
+      ro: "Sachi Tauba Aur Eman ke Zariye Buraiyon Ka Nekiyon Mein Badal Jana",
+      en: "Sincere Repentance Transforms Evil Deeds into Virtues"
     },
     quote: {
-      ur: "لوگو! اپنی بہت پاکیزگی نہ جتایا کرو، پرہیزگاروں کو وہی خوب جانتا ہے؛ اور کیا نیکی کا بدلہ نیکی کے سوا کچھ اور بھی ہو سکتا ہے؟",
-      ro: "Logo! Apni bohot pakeezgi na jataya karo, parhezgaron ko Wahi khoob janta hai; aur kya neki ka badla neki ke siwa kuch aur bhi ho sakta hai?",
-      en: "Do not boast of your own purity, for He knows best who is truly righteous; and can the reward of goodness be anything other than goodness?"
+      ur: "مگر جو شخص توبہ کر لے اور ایمان لے آئے اور صالح عمل کرے، تو اللہ ایسے لوگوں کی برائیوں کو نیکیوں میں بدل دیتا ہے؛ اور اللہ بہت بخشنے والا بڑا مہربان ہے۔",
+      ro: "Magar jo shakhs tauba kar le aur eman le aaye aur saleh amal kare, to Allah aise logon ki buraiyon ko nekiyon mein badal deta hai; aur Allah bohot bakhshne wala bada meharban hai.",
+      en: "Except for those who repent, believe and do righteous work. For them Allah will replace their evil deeds with good. And ever is Allah Forgiving and Merciful."
     },
     tashreeh: {
-      ur: "اپنی نیکی اور پارسائی کا ڈھنڈورا پیٹنا اخلاص کو ختم کر دیتا ہے کیونکہ دلوں کا حال صرف اللہ جانتا ہے۔ کائنات کا اصول ہے کہ جو شخص مخلوق کے ساتھ بھلائی کرتا ہے، اسے بدلے میں بھلائی ہی ملتی ہے۔",
-      ro: "Apni neki aur parsai ka dhandora peetna ikhlas ko khatam kar deta hai kyunkeh dilon ka haal sirf Allah janta hai. Kainat ka usool hai ke jo shakhs makhlooq ke sath bhalai karta hai, usay badlay mein bhalai hi milti hai.",
-      en: "Boasting of personal piety undermines sincerity, as God alone knows the heart; and every act of kindness inevitably returns as kindness."
+      ur: "پسِ منظر و تشریح: اللہ تعالیٰ کی رحمت اتنی وسیع ہے کہ اگر کوئی بندہ سچے دل سے ماضی کی خطاؤں پر نادم ہو کر توبہ کر لے اور اچھے اعمال شروع کر دے، تو رب نہ صرف گناہ معاف فرماتا ہے بلکہ نامۂ اعمال میں ان برائیوں کی جگہ نیکیوں کا ثواب لکھ دیتا ہے۔ آج کا عملی سبق یہ ہے کہ مایوس نہ ہوں، ماضی کی غلطیوں سے سیکھ کر آج سے ہی نیک اعمال کی راہ اختیار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Allah Ta'ala ki rehmat itni wasi' hai ke agar koi banda sache dil se mazi ki khataon par nadim ho kar tauba kar le aur achay aamaal shuru kar de, to Rab na sirf gunah maaf farmata hai balkay nama-e-aamaal mein un buraiyon ki jagah nekiyon ka sawab likh deta hai. Aaj ka amli sabaq yeh hai ke mayous na hon, mazi ki ghaltiyon se seekh kar aaj se hi nek aamaal ki raah ikhtiyar karein.",
+      en: "Context & Practical Lesson: Divine mercy is boundless; sincere repentance wipes the slate clean and transforms past regrets into a future filled with righteous potential."
     },
     tags: [
-      { ur: "عاجزی", ro: "Aajizi", en: "Humility" },
-      { ur: "احسان", ro: "Ehsan", en: "Goodness" }
+      { ur: "توبہ کی طاقت", ro: "Tauba Ki Taqat", en: "Power of Repentance" },
+      { ur: "رحمتِ الٰہی", ro: "Rehmat-e-Ilahi", en: "Divine Mercy" }
     ]
   },
   {
     id: "ma-153",
-    slug: "hajat-se-zaid-kharch-karna-aur-raat-din-ki-ibrat",
+    slug: "jhootay-aur-batil-gawahon-se-bchna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 14",
+    bookRef: "Surah Al-Furqan (25:72) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "حاجت سے زائد مال خرچ کرنا اور گردشِ لیل و نہار",
-      ro: "Hajat Se Zaid Maal Kharch Karna Aur Gardish-e-Lail-o-Nahar",
-      en: "Spending Beyond One's Needs and the Lesson of Night and Day"
+      ur: "باطل مجالس، جھوٹی گواہی اور لغویات سے کنارہ کشی",
+      ro: "Batil Majalis, Jhooti Gawahi Aur Laghviyat Se Kinara-Kashi",
+      en: "Staying Away from Falsehood, False Testimony, and Vain Talk"
     },
     quote: {
-      ur: "اے نبی ﷺ! تم سے دریافت کرتے ہیں اللہ تعالیٰ کی راہ میں کس قدر خرچ کریں؟ تم ان کو سمجھا دو کہ جتنا تمہاری حاجت سے زائد ہو خرچ کر دو۔ رات دن کے رد و بدل میں سمجھ والوں کے لیے بڑی عبرت ہے۔",
-      ro: "Aye Nabi ﷺ! Tum se daryaft karte hain Allah Ta'ala ki raah mein kis qadar kharch karein? Tum un ko samjha do ke jitna tumhari hajat se zaid ho kharch kar do. Raat din ke radd-o-badal mein samajh walon ke liye badi ibrat hai.",
-      en: "They ask you how much they should spend in the way of Allah. Say: Whatever is beyond your lawful needs. Indeed, in the alternation of night and day there are profound lessons for people of understanding."
+      ur: "اور جو لوگ جھوٹی گواہی نہیں دیتے، اور جب کسی لغو یا بیہودہ بات پر ان کا گزر ہو جائے تو وہ وقار کے ساتھ بزرگانہ انداز میں آگے نکل جاتے ہیں۔",
+      ro: "Aur jo log jhooti gawahi nahi dete, aur jab kisi laghwo ya behooda baat par un ka guzar ho jaye to woh waqar ke sath buzurgana andaz mein aagay nikal jate hain.",
+      en: "And those who do not testify to falsehood, and when they pass near ill speech, they pass by with dignity."
     },
     tashreeh: {
-      ur: "ضرورت سے زیادہ مال کو سینت کر رکھنے کے بجائے معاشرے کی فلاح میں لگانا اعلیٰ انفاق ہے، اور رات دن کا مسلسل بدلنا انسان کو یاد دلاتا ہے کہ وقت اور حالات کبھی ایک سے نہیں رہتے۔",
-      ro: "Zaroorat se zyada maal ko seent kar rakhne ke bajaye muashray ki falah mein lagana aala infaq hai, aur raat din ka musalsal badalna insan ko yaad dilata hai ke waqt aur halat kabhi aik se nahi rehte.",
-      en: "Sharing surplus wealth uplifts society, while the constant cycle of night and day reminds the wise of the fleeting nature of worldly time."
+      ur: "پسِ منظر و تشریح: مومن کی شان یہ ہے کہ وہ جھوٹے پروپیگنڈے، باطل محفلوں اور بے مقصد گپ شپ یا غیبت میں خود کو شامل نہیں کرتا۔ اگر کہیں ناپسندیدہ ماحول بن جائے تو وہ وقار کے ساتھ وہاں سے کنارہ کش ہو جاتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنی زبان اور محفلوں کو جھوٹ اور لغویات سے پاک رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Momin ki shaan yeh hai ke woh jhoote propaganda, batil mehfilon aur be-maqsad gap-shap ya gheebat mein khud ko shamil nahi karta. Agar kahin napasandeeda mahool ban jaye to woh waqar ke sath wahan se kinara-kash ho jata hai. Aaj ka amli sabaq yeh hai ke apni zaban aur mehfilon ko jhoot aur laghviyat se paak rakhein.",
+      en: "Context & Practical Lesson: A person of dignity avoids false testimonies and toxic gatherings, gracefully walking away from idle and harmful speech."
     },
     tags: [
-      { ur: "انفاق", ro: "Infaq", en: "Charitable Spending" },
-      { ur: "بصیرت", ro: "Baseerat", en: "Reflection" }
+      { ur: "وقار و متانت", ro: "Waqar o Matanat", en: "Dignity" },
+      { ur: "لغویات سے پرہیز", ro: "Laghviyat Se Parhez", en: "Avoiding Vain Talk" }
     ]
   },
-  {
+{
     id: "ma-154",
     slug: "tohmat-ki-jagah-se-bachna-aur-sadgi-eman-hai",
     categorySlug: "irshadat-e-nabawi",
@@ -5036,95 +5036,95 @@ export const batch11Quotes: QuoteItem[] = [
 export const batch12Quotes: QuoteItem[] = [
   {
     id: "ma-166",
-    slug: "allah-ke-ehsanat-ki-yaad-aur-nafarmani-se-parhez",
+    slug: "rizq-ki-talaash-mein-zamin-par-phail-jana",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 7",
+    bookRef: "Surah Al-Jumu'ah (62:10) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Summary)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "نعمتِ ہدایت کی قدر اور تقویٰ کی اہمیت",
-      ro: "Nemat-e-Hidayat Ki Qadr Aur Taqwa Ki Ahmiyat",
-      en: "Valuing Divine Guidance and Practicing Piety"
+      ur: "نماز کے بعد رزقِ حلال کی تلاش اور اللہ کا کثرت سے ذکر",
+      ro: "Namaz Ke Baad Rizq-e-Halal Ki Talash Aur Allah Ka Kasrat Se Zikr",
+      en: "Seeking Lawful Provision After Prayer and Remembering God Frequently"
     },
     quote: {
-      ur: "رب کے احکام کو معمولی نہ سمجھو اور اس کے اس عظیم احسان کو یاد رکھو کہ اس نے تمہاری رہنمائی کے لیے کتاب اور حکمت کی باتیں عطا فرمائیں؛ پس ہر حال میں اللہ کی نافرمانی سے بچتے رہو۔",
-      ro: "Rab ke ahkam ko mamooli na samjho aur us ke is azeem ehsan ko yaad rakho ke us ne tumhari rehnumai ke liye kitab aur hikmat ki baatein ata farmayein; pas har haal mein Allah ki nafarmani se bachte raho.",
-      en: "Never take divine injunctions lightly, and remember the immense favor of the Scripture and wisdom granted for your guidance; remain ever mindful of God."
+      ur: "پھر جب نماز پوری ہو چکی تو زمین میں پھیل جاؤ اور اللہ کا فضل (رزق) تلاش کرو، اور اللہ کو کثرت سے یاد کرو تاکہ تم فلاح پا سکو۔",
+      ro: "Phir jab namaz poori ho chuki to zameen mein phail jao aur Allah ka fazl (rizq) talash karo, aur Allah ko kasrat se yaad karo taake tum falah pa sako.",
+      en: "And when the prayer has been concluded, disperse within the land and seek from the bounty of Allah, and remember Allah much that you may succeed."
     },
     tashreeh: {
-      ur: "انسان پر سب سے بڑا انعام یہ ہے کہ اسے اچھے اور برے کی تمیز کے لیے آسمانی ہدایت اور عقل دی گئی۔ اس نعمت کا تقاضا ہے کہ زندگی کے ہر معاملے میں سنجیدگی اور فرمانبرداری اختیار کی جائے۔",
-      ro: "Insan par sab se bada inam yeh hai ke usay achay aur buray ki tameez ke liye asmani hidayat aur aqal di gayi. Is nemat ka taqaza hai ke zindagi ke har muamlay mein sanjeedgi aur farmanbardari ikhtiyar ki jaye.",
-      en: "The greatest gift to humanity is moral guidance and intellect; honoring this gift requires living with mindfulness and obedience."
+      ur: "پسِ منظر و تشریح: اسلام کا نظامِ حیات عبادت اور دنیاوی محنت میں کامل توازن سکھاتا ہے۔ جمعہ یا فرض نماز ادا کرنے کے بعد ہاتھ پر ہاتھ دھر کر بیٹھ رہنے کی اجازت نہیں، بلکہ حلال روزی کمانے کے لیے محنت کرنا بھی عبادت کا حصہ ہے۔ آج کا عملی سبق یہ ہے کہ عبادت کے بعد بھرپور محنت سے رزقِ حلال کمائیں اور دل کو ہر وقت رب کی یاد سے آباد رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Islam ka nizam-e-hayat ibadat aur dunyawi mehnat mein kamil tawazun sikhata hai. Jumuma ya farz namaz ada karne ke baad hath par hath dhar kar baith rehne ki ijazat nahi, balkay halal rozi kamane ke liye mehnat karna bhi ibadat ka hissa hai. Aaj ka amli sabaq yeh hai ke ibadat ke baad bharpoor mehnat se rizq-e-halal kamayein aur dil ko har waqt Rab ki yaad se aabad rakhein.",
+      en: "Context & Practical Lesson: Islam balances spiritual devotion with diligent labor; after fulfilling religious duties, stepping out to earn an honest living through hard work is itself an act of worship."
     },
     tags: [
-      { ur: "شکر گزاری", ro: "Shukr-Guzari", en: "Gratitude" },
-      { ur: "حکمت", ro: "Hikmat", en: "Wisdom" }
+      { ur: "کسبِ حلال", ro: "Kasb-e-Halal", en: "Lawful Provision" },
+      { ur: "توازنِ حیات", ro: "Tawazun-e-Hayat", en: "Balanced Life" }
     ]
   },
   {
     id: "ma-167",
-    slug: "nadani-ki-khata-par-fori-tauba-ki-qubooliyat",
+    slug: "zabt-e-nafs-aur-shukr-nemat-kamyabi-ki-kunji",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 8",
+    bookRef: "Surah Luqman (31:17) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Summary)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "سچی توبہ کا وقت اور اصلاح کی جلدی",
-      ro: "Sachi Tauba Ka Waqt Aur Islah Ki Jaldi",
-      en: "Timely Repentance and Sincere Reform"
+      ur: "صبر، استقامت اور عاجزی کے ساتھ زندگی بسر کرنا",
+      ro: "Sabr, Istaqamat Aur Aajizi Ke Sath Zindagi Basar Karna",
+      en: "Living Life with Patience, Steadfastness, and Humility"
     },
     quote: {
-      ur: "رحمتِ الٰہی ان لوگوں کی توبہ قبول فرماتی ہے جو نادانی میں کوئی لغزش کر بیٹھنے کے بعد فوراً سنبھل جاتے ہیں اور اپنی اصلاح کر لیتے ہیں، نہ کہ ان کی جو عمر بھر گناہوں میں ڈوبے رہیں اور موت سامنے دیکھ کر توبہ کا نام لیں۔",
-      ro: "Rehmat-e-Ilahi un logon ki tauba qubool farmati hai jo nadani mein koi laghzish kar baithne ke baad foran sambhal jate hain aur apni islah kar lete hain, na ke un ki jo umar bhar gunahon mein doobay rahein aur maut samne dekh kar tauba ka naam lein.",
-      en: "Divine mercy embraces those who quickly repent and mend their ways after a slip made in ignorance, rather than delaying remorse until the final breath."
+      ur: "اور لوگوں سے اپنے گال پھلا کر بات نہ کر (تکبر نہ کر) اور زمین پر اکڑ کر نہ چل، بے شک اللہ کسی اترانے والے اور فخر کرنے والے کو پسند نہیں کرتا۔",
+      ro: "Aur logon se apne gaal phula kar baat na kar (takabbur na kar) aur zameen par akar kar na chal, be-shak Allah kisi utrane wale aur fakhar karne wale ko pasand nahi karta.",
+      en: "And do not turn your cheek in contempt toward people [due to pride] nor walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful."
     },
     tashreeh: {
-      ur: "توبہ کا دروازہ کھلا ہے مگر عقلمندی یہ ہے کہ غلطی کا احساس ہوتے ہی انسان پلٹ آئے۔ اصلاح کو بڑھاپے یا آخری وقت پر ٹالتے رہنا خود کو دھوکے میں رکھنے کے مترادف ہے۔",
-      ro: "Tauba ka darwaza khula hai magar aqalmandi yeh hai ke ghalti ka ehsas hote hi insan palat aaye. Islah ko burhapay ya aakhri waqt par taltay rehna khud ko dhokay mein rakhne ke mutradif hai.",
-      en: "True repentance means turning back immediately upon realizing a mistake, rather than postponing self-reform until time runs out."
+      ur: "پسِ منظر و تشریح: حضرت لقمان علیہ السلام نے اپنے بیٹے کو جو بنیادی نصیحتیں فرمائیں ان میں تکبر اور غرور سے بچنے کی سخت تاکید شامل ہے۔ مال، حسن یا طاقت مل جانے کے بعد انسان کا اکڑ کر چلنا یا دوسروں کو حقیر سمجھنا اخلاقی پستی کی علامت ہے۔ آج کا عملی سبق یہ ہے کہ کامیابی کے باوجود ہمیشہ عاجزی کو اپنا شیوہ بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Hazrat Luqman (A.S) ne apne betay ko jo bunyadi naseeatein farmayin un mein takabbur aur ghuroor se bachne ki sakht taakid shamil hai. Maal, husn ya taqat mil jane ke baad insan ka akar kar chalna ya doosron ko haqeer samajhna akhlaqi pasti ki alamat hai. Aaj ka amli sabaq yeh hai ke kamyabi ke bawajood hamesha aajizi ko apna shewa banayein.",
+      en: "Context & Practical Lesson: Arrogance and boastful walking reflect an insecure ego; true greatness is always clothed in modesty and genuine humility toward others."
     },
     tags: [
-      { ur: "توبہ", ro: "Tauba", en: "Repentance" },
-      { ur: "اصلاح", ro: "Islah", en: "Self-Reform" }
+      { ur: "عاجزی و انکساری", ro: "Aajizi o Inkisari", en: "Modesty & Humility" },
+      { ur: "تکبر کی ممانعت", ro: "Takabbur Ki Mumaniat", en: "Avoiding Arrogance" }
     ]
   },
   {
     id: "ma-168",
-    slug: "zindagi-ki-aazmaish-aur-sabr-o-namaz-ka-sahara",
+    slug: "apni-chaal-mein-miyana-rawi-aur-aawaz-ki-pasti",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 10",
+    bookRef: "Surah Luqman (31:19) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Summary)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "آزمائش کے لمحات میں صبر اور نماز کی قوت",
-      ro: "Aazmaish Ke Lamhat Mein Sabr Aur Namaz Ki Quwwat",
-      en: "Strength Through Patience and Prayer During Trials"
+      ur: "چلنے میں اعتدال اور گفتگو میں متوازن آواز کا اصول",
+      ro: "Chalne Mein Aitdaal Aur Guftugu Mein Mutawazin Aawaz Ka Usool",
+      en: "Moderation in Walking and Balanced Tone in Speech"
     },
     quote: {
-      ur: "انسان کو دنیا میں خوف، تنگدستی اور مال و اسباب کی کمی سے ضرور آزمایا جاتا ہے؛ ایسے کٹھن اوقات میں ثابت قدم رہنے کے لیے صبر اور نماز کو اپنا سہارا بناؤ جو عاجزی رکھنے والوں کے لیے بے حد آسان ہے۔",
-      ro: "Insan ko duniya mein khauf, tangdasti aur maal-o-asbab ki kami se zaroor aazmaya jata hai; aise kathin auqat mein sabit-qadam rehne ke liye sabr aur namaz ko apna sahara banao jo aajizi rakhne walon ke liye be-had asan hai.",
-      en: "Humanity is inevitably tested through moments of fear, scarcity, and loss; find resilience in patience and prayer, which bring comfort to humble hearts."
+      ur: "اور اپنی چال میں میانہ روی اختیار کرو، اور اپنی آواز کو پست رکھو؛ بے شک تمام آوازوں میں سب سے بری آواز گدھے کی آواز ہے۔",
+      ro: "Aur apni chaal mein miyana-rawi ikhtiyar karo, aur apni aawaz ko past rakho; be-shak tamam aawazon mein sab se buri aawaz gadhe ki aawaz hai.",
+      en: "And be moderate in your pace and lower your voice; indeed, the most disagreeable of sounds is the voice of donkeys."
     },
     tashreeh: {
-      ur: "زندگی کے اتار چڑھاؤ ایمان کی پختگی جانچنے کے لیے آتے ہیں۔ جو انسان اپنے رب سے ملاقات کا یقین رکھتا ہے، اسے نماز اور صبر سے وہ قلبی طاقت ملتی ہے جو بڑے سے بڑا طوفان سہہ لیتی ہے۔",
-      ro: "Zindagi ke utar-charhao eman ki pukhtagi janchne ke liye aate hain. Jo insan apne Rab se mulaqat ka yaqeen rakhta hai, usay namaz aur sabr se woh qalbi taqat milti hai jo bade se bada toofan seh leti hai.",
-      en: "Life's trials test the depth of our character; connecting with the Creator through prayer and patience grants unshakable inner peace."
+      ur: "پسِ منظر و تشریح: اسلام نے مسلمانوں کو زندگی کے ہر شعبے میں وقار اور سلیقہ سکھایا ہے۔ نہ تو تکبر سے اکڑ کر چلنا پسندیدہ ہے اور نہ ہی بے ڈھنگی رفتار۔ اسی طرح بلا ضرورت اونچی آواز میں بولنا یا دوسروں پر دھونس جمانا اخلاقی کمزوری ہے۔ آج کا عملی سبق یہ ہے کہ اپنے چال ڈھال اور بات چیت کے انداز میں متوازن اور باوقار رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Islam ne musalmanon ko zindagi ke har shobay mein waqar aur saleeqa sikhaya hai. Na to takabbur se akar kar chalna pasandeeda hai aur na hi be-dhangi raftar. Isi tarah bila zaroorat oonchi aawaz mein bolna ya doosron par dhoons jamana akhlaqi kamzori hai. Aaj ka amli sabaq yeh hai ke apne chaal-dhal aur baat-cheet ke andaz mein mutawazin aur ba-waqar rahein.",
+      en: "Context & Practical Lesson: Graceful posture, moderate walking pace, and speaking in a calm, measured tone reflect personal refinement and emotional maturity."
     },
     tags: [
-      { ur: "صبر", ro: "Sabr", en: "Patience" },
-      { ur: "نماز", ro: "Namaz", en: "Prayer" }
+      { ur: "شائستگی", ro: "Shaistagi", en: "Refinement" },
+      { ur: "میانہ روی", ro: "Miyana-Rawi", en: "Balanced Manners" }
     ]
   },
-  {
+{
     id: "ma-169",
     slug: "bhai-ki-hajat-rawai-aur-zalim-ko-zulm-se-rokna",
     categorySlug: "irshadat-e-nabawi",
