@@ -89,9 +89,13 @@ export default function StatusImageModal({
               />
             </div>
           )}
+          {/* Status Preview with clean whitespace-pre-line */}
           <p className="text-[11px] sm:text-xs text-slate-500 dark:text-slate-400 mt-2.5 text-center">
             {t.statusCardResolution}
           </p>
+          <div className="w-full max-w-[280px] sm:max-w-[340px] mt-3 p-2.5 sm:p-3 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-slate-200 text-xs text-center whitespace-pre-line max-h-24 overflow-y-auto">
+            {data.text}
+          </div>
         </div>
 
         {/* Action Buttons */}

@@ -120,7 +120,7 @@ export default function QuoteCard({
           {/* Main Quote Text with Responsive Nastaleeq sizing */}
           <div className="pt-0.5 pb-1">
             <p
-              className={`text-slate-900 dark:text-slate-50 font-normal sm:font-medium hover:text-emerald-800 dark:hover:text-emerald-300 transition break-words ${
+              className={`text-slate-900 dark:text-slate-50 font-normal sm:font-medium hover:text-emerald-800 dark:hover:text-emerald-300 transition break-words whitespace-pre-line ${
                 isUrdu
                   ? 'font-urdu text-base sm:text-xl md:text-2xl leading-[1.9] sm:leading-[2.2] md:leading-[2.3] text-right'
                   : 'text-sm sm:text-base md:text-lg leading-relaxed italic text-left'
@@ -169,9 +169,9 @@ export default function QuoteCard({
                   isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85] sm:leading-[1.95]' : 'text-xs sm:text-sm leading-relaxed'
                 }`}
               >
-                <p className="text-slate-800 dark:text-slate-200">{quoteTashreeh}</p>
+                <p className="text-slate-800 dark:text-slate-200 whitespace-pre-line">{quoteTashreeh}</p>
                 {quoteAmliSabaq && (
-                  <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 pt-2 border-t border-emerald-200/60 dark:border-slate-700">
+                  <p className="text-xs sm:text-sm text-slate-800 dark:text-slate-200 pt-2 border-t border-emerald-200/60 dark:border-slate-700 whitespace-pre-line">
                     <strong className="text-emerald-900 dark:text-amber-400 font-bold">
                       {t.amliSabaqHeading}{' '}
                     </strong>
@@ -181,7 +181,7 @@ export default function QuoteCard({
               </div>
             ) : (
               <p
-                className={`mt-1 line-clamp-2 text-slate-700 dark:text-slate-300 ${
+                className={`mt-1 line-clamp-2 text-slate-700 dark:text-slate-300 whitespace-pre-line ${
                   isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85] sm:leading-[1.95]' : 'text-xs sm:text-sm leading-relaxed'
                 }`}
               >

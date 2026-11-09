@@ -222,7 +222,7 @@ export default function QuoteDetailView({
             </h2>
           )}
           <h1
-            className={`font-normal text-slate-900 dark:text-slate-50 break-words ${
+            className={`font-normal text-slate-900 dark:text-slate-50 break-words whitespace-pre-line ${
               isUrdu
                 ? 'font-urdu text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-[1.9] sm:leading-[2.2] md:leading-[2.4] text-right'
                 : 'text-lg sm:text-xl md:text-2xl lg:text-3xl italic leading-relaxed text-left'
@@ -285,7 +285,7 @@ export default function QuoteDetailView({
 
           <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 space-y-3">
             <p
-              className={`text-slate-800 dark:text-slate-200 ${
+              className={`text-slate-800 dark:text-slate-200 whitespace-pre-line ${
                 isUrdu
                   ? 'font-urdu text-xs sm:text-sm md:text-base leading-[1.85] sm:leading-[2.0]'
                   : 'text-xs sm:text-sm leading-relaxed'
@@ -296,7 +296,7 @@ export default function QuoteDetailView({
 
             {quoteAmliSabaq && (
               <div className="pt-3 border-t border-emerald-200/60 dark:border-slate-700">
-                <p className={`text-sm text-slate-800 dark:text-slate-200 ${isUrdu ? 'font-urdu' : ''}`}>
+                <p className={`text-sm text-slate-800 dark:text-slate-200 whitespace-pre-line ${isUrdu ? 'font-urdu' : ''}`}>
                   <strong className="text-emerald-900 dark:text-amber-400 font-bold">
                     {t.amliSabaqHeading}{' '}
                   </strong>
@@ -393,7 +393,7 @@ export default function QuoteDetailView({
                 </h3>
               )}
 
-              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-r-4 border-emerald-600 text-slate-900 dark:text-slate-100 font-urdu text-sm sm:text-base leading-[2.1]">
+              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-r-4 border-emerald-600 text-slate-900 dark:text-slate-100 font-urdu text-sm sm:text-base leading-[2.1] whitespace-pre-line">
                 {urduText}
               </blockquote>
 
@@ -401,13 +401,13 @@ export default function QuoteDetailView({
                 <h4 className="text-xs font-bold text-emerald-900 dark:text-emerald-400 font-urdu">
                   تشریح و اخلاقی پیغام:
                 </h4>
-                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-urdu leading-[2.0]">
+                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 font-urdu leading-[2.0] whitespace-pre-line">
                   {urduTashreeh}
                 </p>
               </div>
 
               {urduAmli && (
-                <div className="p-2.5 rounded-lg bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/40 text-xs font-urdu text-slate-800 dark:text-amber-200 leading-[1.9]">
+                <div className="p-2.5 rounded-lg bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/40 text-xs font-urdu text-slate-800 dark:text-amber-200 leading-[1.9] whitespace-pre-line">
                   <strong>عملی سبق: </strong>
                   {urduAmli}
                 </div>
@@ -438,7 +438,7 @@ export default function QuoteDetailView({
                 </h3>
               )}
 
-              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-l-4 border-amber-500 text-slate-900 dark:text-slate-100 text-xs sm:text-sm italic leading-relaxed">
+              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-l-4 border-amber-500 text-slate-900 dark:text-slate-100 text-xs sm:text-sm italic leading-relaxed whitespace-pre-line">
                 “{romanText}”
               </blockquote>
 
@@ -446,13 +446,13 @@ export default function QuoteDetailView({
                 <h4 className="text-xs font-bold text-emerald-800 dark:text-emerald-400">
                   Tafseel o Akhlaqi Pegham:
                 </h4>
-                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
                   {romanTashreeh}
                 </p>
               </div>
 
               {romanAmli && (
-                <div className="p-2.5 rounded-lg bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/40 text-xs text-slate-800 dark:text-amber-200 leading-normal">
+                <div className="p-2.5 rounded-lg bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/40 text-xs text-slate-800 dark:text-amber-200 leading-normal whitespace-pre-line">
                   <strong>Amli Sabaq: </strong>
                   {romanAmli}
                 </div>
@@ -483,7 +483,7 @@ export default function QuoteDetailView({
                 </h3>
               )}
 
-              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-l-4 border-blue-600 text-slate-900 dark:text-slate-100 text-xs sm:text-sm italic leading-relaxed">
+              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-l-4 border-blue-600 text-slate-900 dark:text-slate-100 text-xs sm:text-sm italic leading-relaxed whitespace-pre-line">
                 “{englishText}”
               </blockquote>
 
@@ -491,13 +491,13 @@ export default function QuoteDetailView({
                 <h4 className="text-xs font-bold text-emerald-800 dark:text-emerald-400">
                   Moral Commentary & Meaning:
                 </h4>
-                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
                   {englishTashreeh}
                 </p>
               </div>
 
               {englishAmli && (
-                <div className="p-2.5 rounded-lg bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/40 text-xs text-slate-800 dark:text-amber-200 leading-normal">
+                <div className="p-2.5 rounded-lg bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/40 text-xs text-slate-800 dark:text-amber-200 leading-normal whitespace-pre-line">
                   <strong>Practical Takeaway: </strong>
                   {englishAmli}
                 </div>

@@ -119,22 +119,30 @@ export function generateStatusImage(data: CanvasData): Promise<string> {
     ctx.textAlign = 'center';
 
     if (isUrdu) {
-      ctx.font = 'bold 44px "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif';
+      const isLong = data.text.length > 120 || data.text.includes('\n');
+      const fontSize = isLong ? 34 : 42;
+      const lineHeight = isLong ? 58 : 74;
+      ctx.font = `bold ${fontSize}px "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif`;
       ctx.direction = 'rtl';
-      const lines = wrapText(ctx, data.text, 900);
-      let startY = 440 - (lines.length * 60) / 2;
+      const lines = wrapText(ctx, data.text, 920);
+      let startY = 430 - (lines.length * lineHeight) / 2;
+      if (startY < 250) startY = 250;
       lines.forEach((line) => {
         ctx.fillText(line, 540, startY);
-        startY += 78;
+        startY += lineHeight;
       });
     } else {
-      ctx.font = 'italic 600 36px "Plus Jakarta Sans", system-ui, -apple-system, sans-serif';
+      const isLong = data.text.length > 130 || data.text.includes('\n');
+      const fontSize = isLong ? 28 : 34;
+      const lineHeight = isLong ? 44 : 54;
+      ctx.font = `italic 600 ${fontSize}px "Plus Jakarta Sans", system-ui, -apple-system, sans-serif`;
       ctx.direction = 'ltr';
-      const lines = wrapText(ctx, `“${data.text}”`, 880);
-      let startY = 440 - (lines.length * 50) / 2;
+      const lines = wrapText(ctx, data.text, 900);
+      let startY = 430 - (lines.length * lineHeight) / 2;
+      if (startY < 250) startY = 250;
       lines.forEach((line) => {
         ctx.fillText(line, 540, startY);
-        startY += 58;
+        startY += lineHeight;
       });
     }
     ctx.restore();
@@ -217,22 +225,30 @@ export function generateStatusImage(data: CanvasData): Promise<string> {
 }
 
 function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
-  const words = text.split(' ');
+  const paragraphs = text.split('\n');
   const lines: string[] = [];
-  let currentLine = words[0] || '';
 
-  for (let i = 1; i < words.length; i++) {
-    const word = words[i];
-    const width = ctx.measureText(currentLine + ' ' + word).width;
-    if (width < maxWidth) {
-      currentLine += ' ' + word;
-    } else {
-      lines.push(currentLine);
-      currentLine = word;
+  for (let p = 0; p < paragraphs.length; p++) {
+    const rawParagraph = paragraphs[p].trim();
+    if (!rawParagraph) {
+      continue;
     }
-  }
-  if (currentLine) {
-    lines.push(currentLine);
+    const words = rawParagraph.split(/\s+/);
+    let currentLine = words[0] || '';
+
+    for (let i = 1; i < words.length; i++) {
+      const word = words[i];
+      const width = ctx.measureText(currentLine + ' ' + word).width;
+      if (width < maxWidth) {
+        currentLine += ' ' + word;
+      } else {
+        lines.push(currentLine);
+        currentLine = word;
+      }
+    }
+    if (currentLine) {
+      lines.push(currentLine);
+    }
   }
   return lines;
 }

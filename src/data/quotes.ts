@@ -9571,56 +9571,56 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-316",
     slug: "be-gharz-ehsan-aur-dunyawi-badlay-ki-tawaqqa-na-rakhna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    bookRef: "Surah Al-Insan (76:8-9) | Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Paraphrased Summary)"
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "بے غرض نیکی کرنا اور مخلوق سے بدلے یا شکریے کی طمع نہ رکھنا",
-      ro: "Be-Gharz Neki Karna Aur Makhlooq Se Badlay Ya Shukriye Ki Tama Na Rakhna",
-      en: "Selfless Kindness Without Expecting Worldly Return or Praise"
+      ur: "صرف رضائے الٰہی کے لیے کھانا کھلانا اور بدلے کی توقع نہ رکھنا",
+      ro: "Sirf Raza-e-Ilahi Ke Liye Khana Khilana Aur Badlay Ki Tawaqqa Na Rakhna",
+      en: "Feeding Others Purely for God's Pleasure Without Expecting Return"
     },
     quote: {
-      ur: "مخلص بندے کسی پر احسان اس نیت سے نہیں کرتے کہ دنیا میں اس سے زیادہ وصول کریں گے؛ وہ مسکین، یتیم اور اسیر کی خدمت کر کے کہتے ہیں کہ ہم تمہیں محض رضائے الٰہی کے لیے کھلاتے ہیں، ہمیں تم سے نہ کوئی بدلہ چاہیے اور نہ شکریے کی آرزو ہے۔",
-      ro: "Mukhlis banday kisi par ehsan is niyat se nahi karte ke duniya mein us se zyada wasool karenge; woh miskeen, yateem aur aseer ki khidmat kar ke kehte hain ke hum tumhein mehaz raza-e-Ilahi ke liye khilate hain, humein tum se na koi badla chahiye aur na shukriye ki aarzoo hai.",
-      en: "Sincere servants never do a favor expecting a greater worldly return; they feed the needy, the orphan, and the distressed purely for the countenance of God, desiring neither reward nor thanks from people."
+      ur: "وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا  إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا\n\nترجمہ: اور وہ اللہ کی محبت میں مسکین، یتیم اور قیدی کو کھانا کھلاتے ہیں (اور کہتے ہیں کہ) ہم تمہیں صرف اللہ کی رضا کے لیے کھلاتے ہیں، ہم تم سے نہ کوئی بدلہ چاہتے ہیں اور نہ شکر گزاری۔",
+      ro: "وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا  إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا\n\nTarjuma: Aur woh Allah ki mohabbat mein miskeen, yateem aur qaidi ko khana khilate hain (aur kehte hain ke) hum tumhein sirf Allah ki raza ke liye khilate hain, hum tum se na koi badla chahte hain aur na shukr-guzari.",
+      en: "وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا  إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا\n\nTranslation: And they give food, in spite of their love for it, to the needy, the orphan, and the captive, [saying], 'We feed you only for the countenance of Allah; we wish not from you any reward or gratitude.'"
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: اکثر انسان جب کسی کے ساتھ بھلائی کرتا ہے تو دل ہی دل میں یہ امید باندھ لیتا ہے کہ سامنے والا عمر بھر اس کے گن گائے گا یا وقت آنے پر اس کا بدلہ چکائے گا، اور جب ایسا نہیں ہوتا تو وہ مایوس ہو کر نیکی ہی چھوڑ بیٹھتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنی ہر نیکی کا کھاتہ براہِ راست اپنے خالق کے ساتھ رکھیں؛ جب آپ لوگوں سے تعریف اور شکریے کی امید ختم کر دیتے ہیں تو نہ کبھی آپ کا دل ٹوٹتا ہے اور نہ ہی آپ کے عمل کا اجر ضائع ہوتا ہے۔",
-      ro: "Pas-e-Manzar o Tashreeh: Aksar insan jab kisi ke sath bhalai karta hai to dil hi dil mein yeh umeed bandh leta hai ke samne wala umar bhar us ke gun gayega ya waqt aane par us ka badla chukayega, aur jab aisa nahi hota to woh mayous ho kar neki hi chhor baithta hai. Aaj ka amli sabaq yeh hai ke apni har neki ka khata barah-e-raast apne Khaliq ke sath rakhein; jab aap logon se tareef aur shukriye ki umeed khatam kar dete hain to na kabhi aap ka dil tootta hai aur na hi aap ke amal ka ajr zaya hota hai.",
-      en: "Context & Practical Lesson: People often feel hurt when their kindness is not reciprocated or praised. Today's moral lesson is to anchor every act of charity directly with the Creator; freeing your heart from the expectation of human applause protects your peace of mind and preserves your eternal reward."
+      ur: "پسِ منظر و تشریح: سورۃ الدہر (الانسان) کی یہ آیات نیک بندوں کے اس بلند ترین اخلاق کو بیان کرتی ہیں کہ وہ خود ضرورت اور رغبت ہونے کے باوجود مسکین، یتیم اور بے بس کو کھانا کھلاتے ہیں اور دل میں ذرا بھی یہ طمع نہیں رکھتے کہ سامنے والا ان کا احسان مانے گا۔ آج کا عملی سبق یہ ہے کہ اپنی ہر نیکی کا کھاتہ براہِ راست اللہ کے ساتھ رکھیں؛ جب آپ لوگوں سے تعریف اور شکریے کی امید ختم کر دیتے ہیں تو نہ کبھی آپ کا دل ٹوٹتا ہے اور نہ ہی آپ کے عمل کا اجر ضائع ہوتا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Ad-Dahr (Al-Insan) ki yeh aayatein nek bandon ke us buland-tareen akhlaq ko bayan karti hain ke woh khud zaroorat aur raghbat hone ke bawajood miskeen, yateem aur be-bas ko khana khilate hain aur dil mein zara bhi yeh tama nahi rakhte ke samne wala un ka ehsan manega. Aaj ka amli sabaq yeh hai ke apni har neki ka khata barah-e-raast Allah ke sath rakhein; jab aap logon se tareef aur shukriye ki umeed khatam kar dete hain to na kabhi aap ka dil tootta hai aur na hi aap ke amal ka ajr zaya hota hai.",
+      en: "Context & Practical Lesson: These verses of Surah Al-Insan honor the righteous who share their cherished food with the needy, orphans, and captives without seeking applause or repayment. Today's moral lesson is to anchor every act of kindness directly with the Creator so your peace of mind and eternal reward remain intact."
     },
     tags: [
       { ur: "اخلاص", ro: "Ikhlas", en: "Pure Sincerity" },
-      { ur: "بے غرض خدمت", ro: "Be-Gharz Khidmat", en: "Selfless Service" }
+      { ur: "ایثار", ro: "Eesar", en: "Selfless Service" }
     ]
   },
   {
     id: "ma-317",
     slug: "bheer-ki-pairwi-ke-bajaye-haq-aur-daleel-ka-sath-dena",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    bookRef: "Surah Al-An'am (6:116) | Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Paraphrased Summary)"
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "اندھی تقلید اور بھیڑ کی پیروی کے بجائے حق پر قائم رہنا",
-      ro: "Andhi Taqleed Aur Bheer Ki Pairwi Ke Bajaye Haq Par Qayam Rehna",
+      ur: "اکثریت کی اندھی تقلید سے بچ کر حق اور دلیل کا ساتھ دینا",
+      ro: "Aksariyat Ki Andhi Taqleed Se Bach Kar Haq Aur Daleel Ka Sath Dena",
       en: "Standing by Truth Instead of Blindly Following the Crowd"
     },
     quote: {
-      ur: "سچائی کا معیار لوگوں کی کثرت نہیں ہے؛ اگر تو زمین پر بسنے والے اکثر لوگوں کے پیچھے بغیر سوچے سمجھے چلے گا تو وہ تجھے ظن و تخمین اور خواہشات کی وادی میں بھٹکا دیں گے، لہٰذا ہمیشہ علم، دلیل اور عدل کا دامن تھامے رکھ۔",
-      ro: "Sachai ka miyar logon ki kasrat nahi hai; agar tu zameen par basne wale aksar logon ke peechay baghair soche samjhe chalega to woh tujhe zan-o-takhmeen aur khuwaishat ki wadi mein bhatka denge, lehaza hamesha ilm, daleel aur adal ka daman thamay rakh.",
-      en: "Truth is never measured by the size of the crowd; following the majority blindly without discernment leads only to conjecture, so hold fast to knowledge, evidence, and justice."
+      ur: "وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ\n\nترجمہ: اور اگر تو زمین پر بسنے والے اکثر لوگوں کے کہنے پر چلے گا تو وہ تجھے اللہ کی راہ سے بھٹکا دیں گے؛ وہ تو محض گمان کے پیچھے چلتے ہیں اور صرف قیاس آرائیاں کرتے ہیں۔",
+      ro: "وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ\n\nTarjuma: Aur agar tu zameen par basne wale aksar logon ke kehne par chalega to woh tujhe Allah ki raah se bhatka denge; woh to mehaz guman ke peechay chalte hain aur sirf qiyas-aaraiyan karte hain.",
+      en: "وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ\n\nTranslation: And if you obey most of those upon the earth, they will mislead you from the way of Allah. They follow nothing but assumption, and they do nothing but falsify."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: معاشرے میں اکثر غلط رسم و رواج، کاروباری بددیانتی اور فضول خرچی صرف یہ کہہ کر اپنائی جاتی ہے کہ 'آج کل سب لوگ یہی کر رہے ہیں'۔ آج کا عملی سبق یہ ہے کہ ہر شخص کو اپنے اعمال کا حساب تنہا دینا ہے؛ کسی غلط کام کے عام ہو جانے سے وہ حلال یا درست نہیں بن جاتا۔ باضمیر انسان بھیڑ چال کا حصہ بننے کے بجائے حق اور اصول پر تنہا کھڑا ہونے کی جرات رکھتا ہے۔",
-      ro: "Pas-e-Manzar o Tashreeh: Muashray mein aksar ghalat rasm-o-riwaj, karobari bad-diyanati aur fuzool-kharchi sirf yeh keh kar apnai jati hai ke 'aaj kal sab log yehi kar rahe hain'. Aaj ka amli sabaq yeh hai ke har shakhs ko apne aamaal ka hisab tanha dena hai; kisi ghalat kaam ke aam ho jane se woh halal ya durust nahi ban jata. Ba-zameer insan bheer-chaal ka hissa banne ke bajaye haq aur usool par tanha khara hone ki jurrat rakhta hai.",
-      en: "Context & Practical Lesson: Wrongful customs and unethical practices are often excused with the phrase, 'Everyone is doing it.' Today's takeaway is that popularity never turns a wrong into a right; a person of principle evaluates actions by moral truth rather than social pressure."
+      ur: "پسِ منظر و تشریح: سورۃ الانعام کی یہ آیت واضح فرماتی ہے کہ حق اور باطل کا معیار لوگوں کی بھیڑ نہیں ہے۔ معاشرے میں اکثر غلط رسم و رواج، کاروباری بددیانتی اور فضول خرچی صرف یہ کہہ کر اپنائی جاتی ہے کہ 'آج کل سب لوگ یہی کر رہے ہیں'۔ آج کا عملی سبق یہ ہے کہ کسی غلط کام کے عام ہو جانے سے وہ درست نہیں بن جاتا؛ باضمیر انسان دیکھا دیکھی چلنے کے بجائے علم، دلیل اور سچائی پر قائم رہتا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-An'am ki yeh aayat wazeh farmati hai ke haq aur batil ka miyar logon ki bheer nahi hai. Muashray mein aksar ghalat rasm-o-riwaj, karobari bad-diyanati aur fuzool-kharchi sirf yeh keh kar apnai jati hai ke 'aaj kal sab log yehi kar rahe hain'. Aaj ka amli sabaq yeh hai ke kisi ghalat kaam ke aam ho jane se woh durust nahi ban jata; ba-zameer insan dekha-dekhi chalne ke bajaye ilm, daleel aur sachai par qayam rehta hai.",
+      en: "Context & Practical Lesson: This verse of Surah Al-An'am warns that truth is never determined by majority vote or social trends. Today's takeaway is that popularity never turns a wrong into a right; a person of integrity evaluates choices by moral truth rather than crowd pressure."
     },
     tags: [
       { ur: "حق پرستی", ro: "Haq-Parasti", en: "Upholding Truth" },
@@ -9631,26 +9631,26 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-318",
     slug: "intiqam-ke-bajaye-sabr-aur-maafi-mein-azmat",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    bookRef: "Surah Ash-Shura (42:40) | Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Paraphrased Summary)"
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "بدلہ لینے پر قادر ہوتے ہوئے صبر اور درگزر کی فضیلت",
-      ro: "Badla Lene Par Qadir Hote Huye Sabr Aur Darguzar Ki Fazeelat",
-      en: "The Moral Greatness of Choosing Patience and Forgiveness Over Revenge"
+      ur: "بدلہ لینے پر قادر ہوتے ہوئے معاف کرنے اور صلح کی فضیلت",
+      ro: "Badla Lene Par Qadir Hote Huye Maaf Karne Aur Sulah Ki Fazeelat",
+      en: "The Greatness of Choosing Forgiveness and Reconciliation Over Revenge"
     },
     quote: {
-      ur: "زیادتی کا بدلہ اسی کے برابر لیا جا سکتا ہے، لیکن جو شخص صبر کرے، معاف کر دے اور معاملے کی اصلاح کر لے تو اس کا اجر براہِ راست اللہ کے ذمے ہے؛ اور یقیناً صبر کرنے والوں کے لیے ہی آخرت کی سرخروئی ہے۔",
-      ro: "Ziyadati ka badla usi ke barabar liya ja sakta hai, lekin jo shakhs sabr kare, maaf kar de aur muamlay ki islah kar le to us ka ajr barah-e-raast Allah ke zimmay hai; aur yaqeenan sabr karne walon ke liye hi akhirat ki surkhrui hai.",
-      en: "While equal retribution is permitted in justice, whoever chooses patience, pardons, and reconciles—their reward rests directly with Allah; indeed, ultimate triumph belongs to the patient."
+      ur: "وَجَزَاءُ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُ عَلَى اللَّهِ ۚ إِنَّهُ لَا يُحِبُّ الظَّالِمِينَ\n\nترجمہ: اور برائی کا بدلہ اسی کے مثل برائی ہے، پھر جو شخص معاف کر دے اور اصلاح کر لے تو اس کا اجر اللہ کے ذمے ہے؛ بے شک وہ ظالموں کو پسند نہیں کرتا۔",
+      ro: "وَجَزَاءُ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُ عَلَى اللَّهِ ۚ إِنَّهُ لَا يُحِبُّ الظَّالِمِينَ\n\nTarjuma: Aur burai ka badla usi ke misl burai hai, phir jo shakhs maaf kar de aur islah kar le to us ka ajr Allah ke zimmay hai; be-shak Woh zalimon ko pasand nahi karta.",
+      en: "وَجَزَاءُ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُ عَلَى اللَّهِ ۚ إِنَّهُ لَا يُحِبُّ الظَّالِمِينَ\n\nTranslation: The recompense for an injury is an injury equal to it; but whoever pardons and makes reconciliation, their reward rests with Allah. Indeed, He does not love the wrongdoers."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: قانونِ عدل مظلوم کو برابر کا حق لینے کی اجازت دیتا ہے، مگر غصے کی حالت میں بدلہ لیتے وقت انسان سے اکثر حد سے تجاوز ہو جاتا ہے جس سے دشمنی کا سلسلہ نسلوں تک چل نکلتا ہے۔ آج کا عملی سبق یہ ہے کہ جہاں معاف کرنے سے اصلاح کی امید ہو، وہاں انتقام کی آگ بجھا کر درگزر کا راستہ اختیار کریں، کیونکہ جس نیکی کا اجر خود ربِ کائنات اپنے ذمے لے لے اس کی عظمت کا کوئی اندازہ نہیں لگا سکتا۔",
-      ro: "Pas-e-Manzar o Tashreeh: Qanoon-e-adal mazloom ko barabar ka haq lene ki ijazat deta hai, magar gusse ki halat mein badla lete waqt insan se aksar had se tajawuz ho jata hai jis se dushmani ka silsila naslon tak chal nikalta hai. Aaj ka amli sabaq yeh hai ke jahan maaf karne se islah ki umeed ho, wahan intiqam ki aag bujha kar darguzar ka rasta ikhtiyar karein, kyunkeh jis neki ka ajr khud Rab-e-Kainat apne zimmay le le us ki azmat ka koi andaza nahi laga sakta.",
-      en: "Context & Practical Lesson: Retaliation in anger frequently crosses the bounds of fairness and perpetuates cycles of hostility. Today's lesson is that choosing forgiveness to mend a relationship elevates your spiritual rank and secures a boundless divine reward."
+      ur: "پسِ منظر و تشریح: سورۃ الشوریٰ کی یہ آیت قانونِ عدل کے ساتھ قانونِ احسان سکھاتی ہے کہ مظلوم کو برابر کا حق لینے کی اجازت تو ہے، لیکن اگر وہ معاف کر کے معاملے کی اصلاح کر لے تو اس کا بے حساب اجر براہِ راست اللہ کے ذمے ہے۔ آج کا عملی سبق یہ ہے کہ جہاں معاف کرنے سے رشتے جڑتے ہوں اور فتنہ ختم ہوتا ہو، وہاں انتقام کے بجائے درگزر کا راستہ اختیار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Ash-Shura ki yeh aayat qanoon-e-adal ke sath qanoon-e-ehsan sikhati hai ke mazloom ko barabar ka haq lene ki ijazat to hai, lekin agar woh maaf kar ke muamlay ki islah kar le to us ka be-hisab ajr barah-e-raast Allah ke zimmay hai. Aaj ka amli sabaq yeh hai ke jahan maaf karne se rishtay jurtay hon aur fitna khatam hota ho, wahan intiqam ke bajaye darguzar ka rasta ikhtiyar karein.",
+      en: "Context & Practical Lesson: Surah Ash-Shura balances legal justice with spiritual nobility: while equal restitution is permitted, choosing forgiveness to mend a relationship secures an immeasurable reward directly from God."
     },
     tags: [
       { ur: "عفو و اصلاح", ro: "Afw o Islah", en: "Forgiveness & Reform" },
@@ -9661,7 +9661,7 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-319",
     slug: "ghussa-na-karo-aur-haqeeqi-pehlwan-zabt-e-nafs-wala",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 19-20 (Hadith Summary)",
+    bookRef: "Makhzan-e-Akhlaq - Page 19-20 (Sahih Bukhari)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
@@ -9678,8 +9678,8 @@ export const batch22Quotes: QuoteItem[] = [
       en: "A man asked the Prophet ﷺ for comprehensive life advice, and he replied simply: 'Do not become angry.' He further taught that the strong person is not the one who overpowers others in wrestling, but the one who controls themselves in a fit of anger."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: انسانی زندگی کے اکثر پچھتاوے، ٹوٹتے ہوئے گھر اور بگڑتے ہوئے کاروبار صرف چند منٹ کے بے قابو غصے کا نتیجہ ہوتے ہیں۔ مشکل الفاظ میں 'صرعۃ' (پہلوانی/پچھاڑنا) سے مراد جسمانی غلبہ ہے۔ آج کا عملی سبق یہ ہے کہ جب غصہ چڑھے تو فوراً خاموش ہو جائیں، کھڑے ہوں تو بیٹھ جائیں، ٹھنڈا پانی پیئیں یا وضو کر لیں؛ اس ایک لمحے کا ضبط آپ کو عمر بھر کی ندامت سے بچا لے گا۔",
-      ro: "Pas-e-Manzar o Tashreeh: Insani zindagi ke aksar pachtaway, toot-te huye ghar aur bigarte huye karobar sirf chand minute ke be-qaboo gusse ka nateeja hote hain. Mushkil alfaz mein 'sur'ah' (pehlwani/pachharna) se murad jismani ghalba hai. Aaj ka amli sabaq yeh hai ke jab ghussa charhe to foran khamosh ho jayein, kharay hon to baith jayein, thanda pani piyein ya wuzu kar lein; is aik lamhay ka zabt aap ko umar bhar ki nadamat se bacha lega.",
+      ur: "پسِ منظر و تشریح: انسانی زندگی کے اکثر پچھتاوے، ٹوٹتے ہوئے گھر اور بگڑتے ہوئے کاروبار صرف چند منٹ کے بے قابو غصے کا نتیجہ ہوتے ہیں۔ آج کا عملی سبق یہ ہے کہ جب غصہ چڑھے تو فوراً خاموش ہو جائیں، کھڑے ہوں تو بیٹھ جائیں، ٹھنڈا پانی پیئیں یا وضو کر لیں؛ اس ایک لمحے کا ضبط آپ کو عمر بھر کی ندامت سے بچا لے گا۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insani zindagi ke aksar pachtaway, toot-te huye ghar aur bigarte huye karobar sirf chand minute ke be-qaboo gusse ka nateeja hote hain. Aaj ka amli sabaq yeh hai ke jab ghussa charhe to foran khamosh ho jayein, kharay hon to baith jayein, thanda pani piyein ya wuzu kar lein; is aik lamhay ka zabt aap ko umar bhar ki nadamat se bacha lega.",
       en: "Context & Practical Lesson: Countless broken relationships and lifelong regrets stem from a few seconds of unchecked rage. Today's practical habit is to pause immediately when provoked—change your posture, sip water, and remain silent until reason regains control."
     },
     tags: [
@@ -9691,7 +9691,7 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-320",
     slug: "apne-hath-ki-halal-kamai-sab-se-pakeeza-rizq",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 22 (Hadith Summary)",
+    bookRef: "Makhzan-e-Akhlaq - Page 22 (Sahih Bukhari)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
@@ -9708,9 +9708,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "No one has ever eaten a meal purer or better than what they have earned through the labor of their own hands; indeed, the Prophet of God, David (A.S), ate solely from the earnings of his own craftsmanship despite his vast kingdom."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: حضرت داؤد علیہ السلام وقت کے عظیم بادشاہ اور پیغمبر تھے، مگر بیت المال سے ذاتی خرچ لینے کے بجائے اپنے ہاتھ سے لوہے کی زرہیں بنا کر فروخت کرتے اور اسی سے اپنے اہل و عیال کا پیٹ پالتے۔ آج کا عملی سبق یہ ہے کہ کسی بھی حلال ہنر، تجارت یا محنت مزدوری کو چھوٹا نہ سمجھیں؛ پسینے کی کمائی سے ملنے والی سادہ روٹی حرام یا مفت کے خوانِ نعمت سے ہزار درجہ زیادہ بابرکت اور باوقار ہے۔",
-      ro: "Pas-e-Manzar o Tashreeh: Hazrat Dawood (A.S) waqt ke azeem badshah aur Peghambar thay, magar Bait-ul-Maal se zaati kharch lene ke bajaye apne hath se lohay ki zirhein bana kar farokht karte aur usi se apne ahl-o-ayal ka pait palte. Aaj ka amli sabaq yeh hai ke kisi bhi halal hunar, tijarat ya mehnat-mazdoori ko chota na samjhein; pasinay ki kamai se milne wali sada roti haram ya muft ke khwan-e-nemat se hazar darja zyada ba-barkat aur ba-waqar hai.",
-      en: "Context & Practical Lesson: Even while ruling an empire, Prophet Dawood (A.S) crafted armor with his own hands to earn his daily bread. Today's lesson is to take immense pride in honest skill, trade, and hard work, knowing that lawful effort brings unmatched dignity and blessing."
+      ur: "پسِ منظر و تشریح: حضرت داؤد علیہ السلام وقت کے عظیم بادشاہ اور پیغمبر تھے، مگر بیت المال سے ذاتی خرچ لینے کے بجائے اپنے ہاتھ سے لوہے کی زرہیں بنا کر فروخت کرتے اور اسی سے اپنے اہل و عیال کا پیٹ پالتے۔ آج کا عملی سبق یہ ہے کہ کسی بھی حلال ہنر، تجارت یا محنت مزدوری کو چھوٹا نہ سمجھیں؛ پسینے کی کمائی سے ملنے والی سادہ روٹی سب سے زیادہ بابرکت اور باوقار ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Hazrat Dawood (A.S) waqt ke azeem badshah aur Peghambar thay, magar Bait-ul-Maal se zaati kharch lene ke bajaye apne hath se lohay ki zirhein bana kar farokht karte aur usi se apne ahl-o-ayal ka pait palte. Aaj ka amli sabaq yeh hai ke kisi bhi halal hunar, tijarat ya mehnat-mazdoori ko chota na samjhein; pasinay ki kamai se milne wali sada roti sab se zyada ba-barkat aur ba-waqar hai.",
+      en: "Context & Practical Lesson: Even while ruling an empire, Prophet Dawood (A.S) crafted armor with his own hands to earn his daily bread. Take pride in honest skill, trade, and hard work, knowing that lawful effort brings unmatched dignity."
     },
     tags: [
       { ur: "کسبِ حلال", ro: "Kasb-e-Halal", en: "Lawful Livelihood" },
@@ -9721,7 +9721,7 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-321",
     slug: "jo-insanon-ka-shukr-ada-nahi-karta-woh-allah-ka-shukr-nahi-karta",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 24 (Hadith Summary)",
+    bookRef: "Makhzan-e-Akhlaq - Page 24 (Sunan Tirmidhi)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
@@ -9738,9 +9738,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "Whoever does not thank people for their kindness has not truly thanked Allah; and whoever is ungrateful for small blessings will remain ungrateful for great ones. Saying 'May Allah reward you with goodness' to a benefactor fulfills the highest praise and gratitude."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: بعض لوگ یہ سمجھتے ہیں کہ رزق اور مدد تو اللہ کی طرف سے تھی، اس لیے جس انسان کے ہاتھ سے مدد ملی اس کا احسان ماننے کی کیا ضرورت ہے؟ اس فرمان نے واضح کر دیا کہ محسن کی قدردانی درحقیقت خالق ہی کی قدردانی ہے۔ آج کا عملی سبق یہ ہے کہ اپنے والدین، اساتذہ، شریکِ حیات، دوستوں اور ماتحتوں کے چھوٹے سے چھوٹے تعاون پر بھی کھلے دل سے شکریہ ادا کرنے اور ان کے لیے خیر کی دعا کرنے کی عادت بنائیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Baaz log yeh samajhte hain ke rizq aur madad to Allah ki taraf se thi, is liye jis insan ke hath se madad mili us ka ehsan manne ki kya zaroorat hai? Is farman ne wazeh kar diya ke mohsin ki qadr-dani dar-haqeeqat Khaliq hi ki qadr-dani hai. Aaj ka amli sabaq yeh hai ke apne walideen, asatiza, shareek-e-hayat, doston aur matehton ke chote se chote taawun par bhi khulay dil se shukriya ada karne aur un ke liye khair ki dua karne ki aadat banayein.",
-      en: "Context & Practical Lesson: Acknowledging the people whom God uses as instruments of help is a spiritual obligation. Make it a daily habit to express heartfelt appreciation and prayers for parents, spouses, colleagues, and helpers for even the smallest kindness."
+      ur: "پسِ منظر و تشریح: محسن کی قدردانی درحقیقت خالق ہی کی قدردانی ہے۔ آج کا عملی سبق یہ ہے کہ اپنے والدین، اساتذہ، شریکِ حیات، دوستوں اور ماتحتوں کے چھوٹے سے چھوٹے تعاون پر بھی کھلے دل سے شکریہ ادا کرنے اور ان کے لیے خیر کی دعا کرنے کی عادت بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Mohsin ki qadr-dani dar-haqeeqat Khaliq hi ki qadr-dani hai. Aaj ka amli sabaq yeh hai ke apne walideen, asatiza, shareek-e-hayat, doston aur matehton ke chote se chote taawun par bhi khulay dil se shukriya ada karne aur un ke liye khair ki dua karne ki aadat banayein.",
+      en: "Context & Practical Lesson: Acknowledging the people whom God uses as instruments of help is a spiritual obligation. Make it a daily habit to express heartfelt appreciation to family, colleagues, and helpers."
     },
     tags: [
       { ur: "احسان مندی", ro: "Ehsan-Mandi", en: "Appreciation" },
@@ -9768,9 +9768,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "The Prophet ﷺ forbade superstitious omens and loved optimism—hearing a hopeful, positive word during a task; he replaced gloomy or harsh names with beautiful, meaningful ones, and loved beginning every noble action from the right side."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: زمانۂ جاہلیت میں لوگ پرندوں یا دنوں سے بدشگونی لے کر اپنے کام چھوڑ دیتے تھے۔ حضور ﷺ نے توہمات کا خاتمہ کر کے 'تفاؤل' (مثبت سوچ اور نیک شگونی) کا کلچر عام فرمایا۔ یہاں تک کہ کسی جگہ یا شخص کا نام 'حزن' (غم/سختی) ہوتا تو اسے بدل کر 'سہل' (آسانی) رکھ دیتے۔ آج کا عملی سبق یہ ہے کہ اپنے بچوں اور کاروبار کے بامقصد نام رکھیں، ہر کام بسم اللہ پڑھ کر دائیں ہاتھ سے شروع کریں اور مایوسی کے بجائے ہمیشہ خیر کی امید رکھیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Zamana-e-jahiliyat mein log parindon ya dinon se bad-shugooni le kar apne kaam chhor dete thay. Huzoor ﷺ ne tawahhumat ka khatma kar ke 'tafa'ul' (musbat soch aur nek-shugooni) ka culture aam farmaya. Yahan tak ke kisi jagah ya shakhs ka naam 'Huzn' (gham/sakhti) hota to usay badal kar 'Sahl' (asani) rakh dete. Aaj ka amli sabaq yeh hai ke apne bachon aur karobar ke ba-maqsad naam rakhein, har kaam Bismillah parh kar dayein hath se shuru karein aur mayousi ke bajaye hamesha khair ki umeed rakhein.",
-      en: "Context & Practical Lesson: The Prophet ﷺ replaced paralyzing superstitions with bright optimism, even changing harsh names like 'Hardship' into 'Ease.' Today's lesson is to cultivate positive speech, choose dignified names, and start noble daily habits with order and hope."
+      ur: "پسِ منظر و تشریح: حضور ﷺ نے زمانۂ جاہلیت کے توہمات کا خاتمہ کر کے 'تفاؤل' (مثبت سوچ اور نیک شگونی) کا کلچر عام فرمایا۔ آج کا عملی سبق یہ ہے کہ اپنے بچوں اور کاروبار کے بامقصد نام رکھیں، ہر کام بسم اللہ پڑھ کر دائیں ہاتھ سے شروع کریں اور مایوسی کے بجائے ہمیشہ خیر کی امید رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Huzoor ﷺ ne zamana-e-jahiliyat ke tawahhumat ka khatma kar ke 'tafa'ul' (musbat soch aur nek-shugooni) ka culture aam farmaya. Aaj ka amli sabaq yeh hai ke apne bachon aur karobar ke ba-maqsad naam rakhein, har kaam Bismillah parh kar dayein hath se shuru karein aur mayousi ke bajaye hamesha khair ki umeed rakhein.",
+      en: "Context & Practical Lesson: The Prophet ﷺ replaced paralyzing superstitions with bright optimism. Cultivate positive speech, choose dignified names, and start noble daily habits with order and hope."
     },
     tags: [
       { ur: "مثبت فکر", ro: "Musbat Fikr", en: "Optimism" },
@@ -9798,9 +9798,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "The Prophet ﷺ honored his guests with such warmth that he would spread his own cloak for them to sit upon and personally serve them; whenever someone came with a need, he listened attentively and never sent them back without fulfilling their request or comforting them with gracious words."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: مہمان نوازی میں اصل چیز مہنگے کھانے نہیں بلکہ میزبان کے چہرے کی خوشی اور ذاتی توجہ ہے۔ آپ ﷺ کے دروازے پر آنے والا ہر مسافر خود کو شاہی مہمان محسوس کرتا۔ آج کا عملی سبق یہ ہے کہ گھر آنے والے مہمان کو بوجھ نہ سمجھیں بلکہ مسکرا کر استقبال کریں اور خود اس کی خدمت کو اپنے گھر کی برکت کا ذریعہ جانیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Mehman-nawazi mein asal cheez mehangay khane nahi balkay mezban ke chehray ki khushi aur zaati tawajjo hai. Aap ﷺ ke darwazay par aane wala har musafir khud ko shahi mehman mehsoos karta. Aaj ka amli sabaq yeh hai ke ghar aane wale mehman ko bojh na samjhein balkay muskura kar istiqbal karein aur khud us ki khidmat ko apne ghar ki barkat ka zariya janein.",
-      en: "Context & Practical Lesson: True hospitality lies not in lavish menus, but in the host's warmth, personal service, and genuine joy at receiving a guest. Welcoming visitors with honour brings lasting blessing into a home."
+      ur: "پسِ منظر و تشریح: مہمان نوازی میں اصل چیز مہنگے کھانے نہیں بلکہ میزبان کے چہرے کی خوشی اور ذاتی توجہ ہے۔ آج کا عملی سبق یہ ہے کہ گھر آنے والے مہمان کو بوجھ نہ سمجھیں بلکہ مسکرا کر استقبال کریں اور خود اس کی خدمت کو اپنے گھر کی برکت کا ذریعہ جانیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Mehman-nawazi mein asal cheez mehangay khane nahi balkay mezban ke chehray ki khushi aur zaati tawajjo hai. Aaj ka amli sabaq yeh hai ke ghar aane wale mehman ko bojh na samjhein balkay muskura kar istiqbal karein aur khud us ki khidmat ko apne ghar ki barkat ka zariya janein.",
+      en: "Context & Practical Lesson: True hospitality lies not in lavish menus, but in the host's warmth, personal service, and genuine joy at receiving a guest."
     },
     tags: [
       { ur: "اکرامِ ضیف", ro: "Ikram-e-Zaif", en: "Honoring Guests" },
@@ -9828,8 +9828,8 @@ export const batch22Quotes: QuoteItem[] = [
       en: "Seek success in your plans by guarding your secrets discreetly, for every possessor of a blessing faces envy; honor the noble-hearted and remain cautious of the petty. Whoever enters the grave without provisions of good deeds is like one who sets out across the ocean without a ship."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: سیدنا صدیقِ اکبرؓ کے اس فرمان میں دنیا اور آخرت دونوں کی کامیابی کے اصول جمع ہیں: اپنے منصوبے مکمل ہونے سے پہلے ہر ایک کے سامنے ڈھنڈورا نہ پیٹیں، اعلیٰ ظرف لوگوں کی عزت کریں اور آخرت کے سفر کے لیے نیک اعمال کی کشتی تیار رکھیں۔ آج کا عملی سبق یہ ہے کہ اپنے گھریلو اور کاروباری رازوں کی حفاظت کریں اور روزانہ کم از کم ایک ایسا نیک عمل ضرور کریں جو آخرت کا توشہ بنے۔",
-      ro: "Pas-e-Manzar o Tashreeh: Sayyiduna Siddiq-e-Akbar (R.A) ke is farman mein duniya aur akhirat dono ki kamyabi ke usool jama hain: apne mansoobay mukammal hone se pehle har aik ke samne dhandora na peetein, aala-zarf logon ki izzat karein aur akhirat ke safar ke liye nek aamaal ki kashti tayyar rakhein. Aaj ka amli sabaq yeh hai ke apne ghareloo aur karobari raazon ki hifazat karein aur rozana kam az kam aik aisa nek amal zaroor karein jo akhirat ka tosha banay.",
+      ur: "پسِ منظر و تشریح: سیدنا صدیقِ اکبرؓ کے اس فرمان میں دنیا اور آخرت دونوں کی کامیابی کے اصول جمع ہیں: اپنے منصوبے مکمل ہونے سے پہلے ہر ایک کے سامنے ظاہر نہ کریں، اعلیٰ ظرف لوگوں کی عزت کریں اور روزانہ کم از کم ایک ایسا نیک عمل ضرور کریں جو آخرت کا توشہ بنے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Sayyiduna Siddiq-e-Akbar (R.A) ke is farman mein duniya aur akhirat dono ki kamyabi ke usool jama hain: apne mansoobay mukammal hone se pehle har aik ke samne zahir na karein, aala-zarf logon ki izzat karein aur rozana kam az kam aik aisa nek amal zaroor karein jo akhirat ka tosha banay.",
       en: "Context & Practical Lesson: Discretion protects unfinished plans from envy, discernment guides our social dealings, and consistent good deeds build the vessel needed for our eternal journey."
     },
     tags: [
@@ -9858,8 +9858,8 @@ export const batch22Quotes: QuoteItem[] = [
       en: "Hold yourselves accountable today before you are called to account tomorrow, and weigh your deeds on the scale of truth before they are weighed for you; for examining yourself in this world makes the reckoning of the Hereafter infinitely easier."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: جس طرح ایک کامیاب تاجر روزانہ رات کو اپنی دکان کا کھاتہ چیک کرتا ہے تاکہ نفع اور نقصان کا پتہ چل سکے، اسی طرح حضرت عمر فاروقؓ رات کو سونے سے پہلے اپنے دن بھر کے اعمال کا جائزہ لیتے تھے۔ آج کا عملی سبق یہ ہے کہ روزانہ سونے سے پہلے صرف پانچ منٹ تنہائی میں بیٹھ کر سوچیں کہ آج مجھ سے کسی کی حق تلفی تو نہیں ہوئی؟ اگر ہوئی ہے تو کل صبح ہی اس کی تلافی کا عزم کریں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Jis tarah aik kamyab tajir rozana raat ko apni dukan ka khata check karta hai taake nafa aur nuqsan ka pata chal sake, isi tarah Hazrat Umar Farooq (R.A) raat ko sonay se pehle apne din bhar ke aamaal ka jaiza lete thay. Aaj ka amli sabaq yeh hai ke rozana sonay se pehle sirf panch minute tanhai mein baith kar sochein ke aaj mujh se kisi ki haq-talfi to nahi hui? Agar hui hai to kal subah hi us ki talafi ka azm karein.",
+      ur: "پسِ منظر و تشریح: جس طرح ایک کامیاب تاجر روزانہ رات کو اپنی دکان کا کھاتہ چیک کرتا ہے، اسی طرح مومن اپنے دن بھر کے اعمال کا جائزہ لیتا ہے۔ آج کا عملی سبق یہ ہے کہ روزانہ سونے سے پہلے صرف پانچ منٹ تنہائی میں بیٹھ کر سوچیں کہ آج مجھ سے کسی کی حق تلفی تو نہیں ہوئی؟",
+      ro: "Pas-e-Manzar o Tashreeh: Jis tarah aik kamyab tajir rozana raat ko apni dukan ka khata check karta hai, isi tarah momin apne din bhar ke aamaal ka jaiza leta hai. Aaj ka amli sabaq yeh hai ke rozana sonay se pehle sirf panch minute tanhai mein baith kar sochein ke aaj mujh se kisi ki haq-talfi to nahi hui?",
       en: "Context & Practical Lesson: Just as a wise merchant audits their ledger every evening, spending five quiet minutes before sleep to review the day's words and transactions allows us to mend mistakes promptly."
     },
     tags: [
@@ -9888,9 +9888,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "The signs of a living heart are cherishing the company of the righteous, showing mercy to the weak, guarding the tongue from backbiting, and never letting the pursuit of this world leave one's eternal home in ruins."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: جسم کی زندگی سانس چلنے سے ہے، لیکن دل کی زندگی احساس، رحم اور پاکیزگی سے ہے۔ جب انسان کو کسی غریب کا دکھ دیکھ کر تکلیف ہو اور غیبت کی محفل سے الجھن محسوس ہو تو یہ اس کے دل کے زندہ اور منور ہونے کی دلیل ہے۔ آج کا عملی سبق یہ ہے کہ اپنے کاروبار اور گھر کی تعمیر کے ساتھ ساتھ غریبوں کی مدد اور اپنی زبان کی حفاظت کے ذریعے اپنے باطن کو بھی آباد رکھیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Jism ki zindagi saans chalne se hai, lekin dil ki zindagi ehsas, reham aur pakeezgi se hai. Jab insan ko kisi ghareeb ka dukh dekh kar takleef ho aur gheebat ki mehfil se uljhan mehsoos ho to yeh us ke dil ke zinda aur munawwar hone ki daleel hai. Aaj ka amli sabaq yeh hai ke apne karobar aur ghar ki tameer ke sath sath ghareebon ki madad aur apni zaban ki hifazat ke zariye apne batin ko bhi aabad rakhein.",
-      en: "Context & Practical Lesson: While breathing proves physical life, empathy for the poor and distaste for gossip prove spiritual vitality. Balance worldly progress with acts of mercy that keep the heart alive."
+      ur: "پسِ منظر و تشریح: جسم کی زندگی سانس چلنے سے ہے، لیکن دل کی زندگی احساس، رحم اور پاکیزگی سے ہے۔ آج کا عملی سبق یہ ہے کہ اپنے کاروبار اور گھر کی تعمیر کے ساتھ ساتھ غریبوں کی مدد اور اپنی زبان کی حفاظت کے ذریعے اپنے باطن کو بھی آباد رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jism ki zindagi saans chalne se hai, lekin dil ki zindagi ehsas, reham aur pakeezgi se hai. Aaj ka amli sabaq yeh hai ke apne karobar aur ghar ki tameer ke sath sath ghareebon ki madad aur apni zaban ki hifazat ke zariye apne batin ko bhi aabad rakhein.",
+      en: "Context & Practical Lesson: While breathing proves physical life, empathy for the poor and distaste for gossip prove spiritual vitality. Balance worldly progress with acts of mercy."
     },
     tags: [
       { ur: "حیاتِ قلب", ro: "Hayat-e-Qalb", en: "Spiritual Vitality" },
@@ -9918,9 +9918,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "There is no finer adornment for a person than noble manners and refined etiquette; whoever softens their speech earns the natural affection of hearts, and whoever swallows their anger doubles their dignity."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: قیمتی سے قیمتی کپڑے بھی بدتمیزی اور غرور کے عیب کو نہیں چھپا سکتے، جبکہ سادہ لباس میں ملبوس باادب اور شیریں کلام انسان ہر محفل کی جان بن جاتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے ظاہری لباس کی صفائی کے ساتھ اپنے لہجے کی مٹھاس پر توجہ دیں؛ گھر کے افراد اور باہر کے لوگوں سے بات کرتے وقت احترام کا دامن تھامے رکھیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Qeemati se qeemati kapray bhi bad-tameezi aur ghuroor ke aib ko nahi chhupa sakte, jabkeh sada libas mein malboos ba-adab aur shireen-kalam insan har mehfil ki jaan ban jata hai. Aaj ka amli sabaq yeh hai ke apne zahiri libas ki safai ke sath apne lehjay ki mithas par tawajjo dein; ghar ke afrad aur bahar ke logon se baat karte waqt ehtiram ka daman thamay rakhein.",
-      en: "Context & Practical Lesson: Expensive clothing can never conceal rude behavior, whereas courteous manners make even the simplest attire shine. Invest daily in a polite tone and respectful conduct."
+      ur: "پسِ منظر و تشریح: قیمتی سے قیمتی کپڑے بھی بدتمیزی اور غرور کے عیب کو نہیں چھپا سکتے، جبکہ سادہ لباس میں ملبوس باادب اور شیریں کلام انسان ہر محفل کی جان بن جاتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے ظاہری لباس کی صفائی کے ساتھ اپنے لہجے کی مٹھاس پر توجہ دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Qeemati se qeemati kapray bhi bad-tameezi aur ghuroor ke aib ko nahi chhupa sakte, jabkeh sada libas mein malboos ba-adab aur shireen-kalam insan har mehfil ki jaan ban jata hai. Aaj ka amli sabaq yeh hai ke apne zahiri libas ki safai ke sath apne lehjay ki mithas par tawajjo dein.",
+      en: "Context & Practical Lesson: Expensive clothing can never conceal rude behavior, whereas courteous manners make even the simplest attire shine."
     },
     tags: [
       { ur: "زینتِ کردار", ro: "Zeenat-e-Kirdar", en: "Graceful Character" },
@@ -9948,9 +9948,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "O my son! Uphold three principles with three groups of people: show reverence and humility toward your elders in age and knowledge, practice fairness and generosity with your peers, and extend kindness and patience to those under your care."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: انسانی تعلقات میں بگاڑ تب آتا ہے جب انسان بڑوں کے سامنے اکڑ دکھائے، دوستوں کے ساتھ بے انصافی کرے یا ماتحتوں پر رعب جمائے۔ حکیم لقمان نے ایک ہی جملے میں پوری سماجی زندگی کا توازن سکھا دیا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے بزرگوں کی نصیحت کو ادب سے سنیں، کاروباری و دفتری ساتھیوں کے حقوق میں ڈنڈی نہ ماریں اور اپنے ملازمین سے نرمی کا برتاؤ کریں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Insani talluqat mein bigar tab aata hai jab insan baron ke samne akar dikhaye, doston ke sath be-insafi kare ya matehton par roab jamaye. Hakeem Luqman ne aik hi jumlay mein poori samaji zindagi ka tawazun sikha diya hai. Aaj ka amli sabaq yeh hai ke apne buzurgon ki nasihat ko adab se sunein, karobari o daftari sathiyon ke huqooq mein dandi na maarein aur apne mulazimeen se narmi ka bartao karein.",
-      en: "Context & Practical Lesson: Social friction arises when people disrespect elders, cheat peers, or mistreat subordinates. Practicing reverence upward, fairness sideways, and compassion downward creates harmony in every sphere of life."
+      ur: "پسِ منظر و تشریح: حکیم لقمان نے ایک ہی جملے میں پوری سماجی زندگی کا توازن سکھا دیا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے بزرگوں کی نصیحت کو ادب سے سنیں، کاروباری و دفتری ساتھیوں کے حقوق میں ڈنڈی نہ ماریں اور اپنے ملازمین سے نرمی کا برتاؤ کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Hakeem Luqman ne aik hi jumlay mein poori samaji zindagi ka tawazun sikha diya hai. Aaj ka amli sabaq yeh hai ke apne buzurgon ki nasihat ko adab se sunein, karobari o daftari sathiyon ke huqooq mein dandi na maarein aur apne mulazimeen se narmi ka bartao karein.",
+      en: "Context & Practical Lesson: Practicing reverence upward, fairness sideways, and compassion downward creates harmony in every sphere of life."
     },
     tags: [
       { ur: "آدابِ معاشرت", ro: "Aadab-e-Muasharat", en: "Social Harmony" },
@@ -9978,9 +9978,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "A foolish person defends their mistake with stubbornness, turning one error into two; whereas a wise and noble soul readily apologizes upon realizing a slip, elevating their respect in every heart."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: انسان خطا کا پتلا ہے اور بھول چوک ہر ایک سے ہو سکتی ہے، لیکن اصل عیب غلطی کرنا نہیں بلکہ انا کی خاطر غلطی پر اڑ جانا ہے۔ آج کا عملی سبق یہ ہے کہ اگر آپ سے اپنے شریکِ حیات، بچے، دوست یا گاہک کے ساتھ کوئی زیادتی ہو جائے تو جھوٹی شان کو ایک طرف رکھ کر سچے دل سے معذرت کر لیں؛ معافی مانگنے والا کبھی چھوٹا نہیں ہوتا۔",
-      ro: "Pas-e-Manzar o Tashreeh: Insan khata ka putla hai aur bhool-chook har aik se ho sakti hai, lekin asal aib ghalti karna nahi balkay ana ki khatir ghalti par ar jana hai. Aaj ka amli sabaq yeh hai ke agar aap se apne shareek-e-hayat, bachay, dost ya gahak ke sath koi ziyadati ho jaye to jhooti shaan ko aik taraf rakh kar sachay dil se maazrat kar lein; maafi mangne wala kabhi chota nahi hota.",
-      en: "Context & Practical Lesson: To err is human, but to stubbornly defend an error out of pride destroys trust. Offering a sincere, timely apology to a family member, friend, or client immediately heals rifts and commands deep respect."
+      ur: "پسِ منظر و تشریح: انسان خطا کا پتلا ہے، لیکن اصل عیب غلطی کرنا نہیں بلکہ انا کی خاطر غلطی پر اڑ جانا ہے۔ آج کا عملی سبق یہ ہے کہ اگر آپ سے اپنے شریکِ حیات، بچے، دوست یا گاہک کے ساتھ کوئی زیادتی ہو جائے تو جھوٹی شان کو ایک طرف رکھ کر سچے دل سے معذرت کر لیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan khata ka putla hai, lekin asal aib ghalti karna nahi balkay ana ki khatir ghalti par ar jana hai. Aaj ka amli sabaq yeh hai ke agar aap se apne shareek-e-hayat, bachay, dost ya gahak ke sath koi ziyadati ho jaye to jhooti shaan ko aik taraf rakh kar sachay dil se maazrat kar lein.",
+      en: "Context & Practical Lesson: Offering a sincere, timely apology to a family member, friend, or client immediately heals rifts and commands deep respect."
     },
     tags: [
       { ur: "وسعتِ قلبی", ro: "Wus'at-e-Qalbi", en: "Magnanimity" },
@@ -10008,9 +10008,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "This world is like a mountain valley that echoes back your own voice: if you send out ease, prayers, and respect to others, honor and peace will return to your doorstep; and if you sow hurt and deceit, that very harvest will grow in your own courtyard."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: تاریخ اور روزمرہ زندگی گواہ ہے کہ والدین کے ساتھ کیا گیا حسنِ سلوک اپنی اولاد کی فرمانبرداری کی صورت میں لوٹتا ہے، اور کسی بے بس کی مدد اپنے آڑے وقت میں غیبی سہارے کی شکل میں سامنے آتی ہے۔ آج کا عملی سبق یہ ہے کہ آپ زندگی سے جو کچھ پانا چاہتے ہیں—عزت، سکون، معافی اور وفاداری—آج سے وہی چیزیں اپنے اردگرد کے انسانوں کو دینا شروع کر دیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Tareekh aur rozmarra zindagi gawah hai ke walideen ke sath kiya gaya husn-e-sulook apni aulad ki farmanbardari ki soorat mein lautta hai, aur kisi be-bas ki madad apne aaray waqt mein ghaibi saharay ki shakal mein samne aati hai. Aaj ka amli sabaq yeh hai ke aap zindagi se jo kuch pana chahte hain—izzat, sukoon, maafi aur wafadari—aaj se wahi cheezein apne ird-gird ke insanon ko dena shuru kar dein.",
-      en: "Context & Practical Lesson: Moral law ensures that how we treat parents, neighbors, and strangers eventually circles back into our own lives. Give to those around you the very respect, mercy, and loyalty you wish to receive."
+      ur: "پسِ منظر و تشریح: والدین کے ساتھ کیا گیا حسنِ سلوک اپنی اولاد کی فرمانبرداری کی صورت میں لوٹتا ہے، اور کسی بے بس کی مدد اپنے آڑے وقت میں غیبی سہارے کی شکل میں سامنے آتی ہے۔ آج کا عملی سبق یہ ہے کہ آپ زندگی سے جو کچھ پانا چاہتے ہیں، آج سے وہی چیزیں اپنے اردگرد کے انسانوں کو دینا شروع کر دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Walideen ke sath kiya gaya husn-e-sulook apni aulad ki farmanbardari ki soorat mein lautta hai, aur kisi be-bas ki madad apne aaray waqt mein ghaibi saharay ki shakal mein samne aati hai. Aaj ka amli sabaq yeh hai ke aap zindagi se jo kuch pana chahte hain, aaj se wahi cheezein apne ird-gird ke insanon ko dena shuru kar dein.",
+      en: "Context & Practical Lesson: Moral law ensures that how we treat parents, neighbors, and strangers eventually circles back into our own lives."
     },
     tags: [
       { ur: "مکافاتِ عمل", ro: "Mukafat-e-Amal", en: "Moral Echo" },
