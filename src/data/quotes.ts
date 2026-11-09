@@ -7758,10 +7758,10 @@ export const batch18Quotes: QuoteItem[] = [
     id: "ma-256",
     slug: "kharch-mein-bukhl-aur-israf-ke-darmiyan-aitdaal",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 10-11",
+    bookRef: "Surah Al-Furqan (25:67) & Makhzan-e-Akhlaq - Page 10-11",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -7775,9 +7775,9 @@ export const batch18Quotes: QuoteItem[] = [
       en: "Do not keep your hand chained to your neck in miserliness, nor extend it completely in wastefulness lest you sit back blameworthy and destitute; the true servants of the Most Merciful are those who, when they spend, are neither extravagant nor tight-fisted, maintaining a balanced middle path."
     },
     tashreeh: {
-      ur: "اسلامی معاشیات کا سنہرا اصول توازن ہے۔ نہ تو مال سمیٹ کر رکھنے کی اجازت ہے کہ اپنے اہلِ خانہ اور محتاجوں کا حق مارا جائے، اور نہ ہی نمود و نمائش میں اس طرح اڑانے کی اجازت ہے کہ کل کو انسان خود دوسروں کے آگے ہاتھ پھیلانے پر مجبور ہو جائے۔",
-      ro: "Islami maashiyat ka sunehra usool tawazun hai. Na to maal sameet kar rakhne ki ijazat hai ke apne ahl-e-khana aur mohtajon ka haq mara jaye, aur na hi numood-o-numaish mein is tarah urane ki ijazat hai ke kal ko insan khud doosron ke aagay hath phailane par majboor ho jaye.",
-      en: "Financial wisdom lies in balance: avoiding stinginess that deprives one's family and the poor, while shunning reckless spending that leads to ruin."
+      ur: "پسِ منظر و تشریح: اسلامی معاشیات کا سنہرا اصول توازن ہے۔ نہ تو مال سمیٹ کر رکھنے کی اجازت ہے کہ اپنے اہلِ خانہ اور محتاجوں کا حق مارا جائے، اور نہ ہی نمود و نمائش میں اس طرح اڑانے کی اجازت ہے کہ کل کو انسان خود دوسروں کے آگے ہاتھ پھیلانے پر مجبور ہو جائے۔ آج کا عملی سبق یہ ہے کہ اپنی آمدنی کے اندر رہتے ہوئے میانہ روی کو اپنا معمول بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Islami maashiyat ka sunehra usool tawazun hai. Na to maal sameet kar rakhne ki ijazat hai ke apne ahl-e-khana aur mohtajon ka haq mara jaye, aur na hi numood-o-numaish mein is tarah urane ki ijazat hai ke kal ko insan khud doosron ke aagay hath phailane par majboor ho jaye. Aaj ka amli sabaq yeh hai ke apni aamdani ke andar rehte hue miyana-rawi ko apna mamool banayein.",
+      en: "Context & Practical Lesson: Financial wisdom lies in balance: avoiding stinginess that deprives one's family and the poor, while shunning reckless spending that leads to ruin."
     },
     tags: [
       { ur: "میانہ روی", ro: "Miyana-Rawi", en: "Moderation" },
@@ -7788,10 +7788,10 @@ export const batch18Quotes: QuoteItem[] = [
     id: "ma-257",
     slug: "qarabati-miskeen-aur-musafir-ka-haq-aur-fuzool-kharchi",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 12",
+    bookRef: "Surah Al-Isra (17:26-27) & Makhzan-e-Akhlaq - Page 12",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -7805,9 +7805,9 @@ export const batch18Quotes: QuoteItem[] = [
       en: "Give the relative their rightful due, as well as the needy and the stranded traveler, and do not squander your wealth wastefully; indeed, the wasteful are brothers to Satan, and Satan is ever ungrateful to his Lord."
     },
     tashreeh: {
-      ur: "قرآن نے رشتہ داروں اور ناداروں کی مدد کو محض احسان نہیں بلکہ ان کا ’حق‘ قرار دیا ہے۔ جو مال غریبوں کی ضرورت پوری کرنے کے بجائے جھوٹی شان و شوکت اور اسراف میں اڑایا جاتا ہے وہ درحقیقت نعمتِ الٰہی کی ناشکری ہے۔",
-      ro: "Quran ne rishtedaron aur nadaron ki madad ko mehaz ehsan nahi balkay un ka 'haq' qarar diya hai. Jo maal ghareebon ki zaroorat poori karne ke bajaye jhooti shaan-o-shaukat aur israf mein uraya jata hai woh dar-haqeeqat nemat-e-Ilahi ki nashukri hai.",
-      en: "Supporting relatives and the needy is a moral obligation, whereas squandering wealth on vanity and excess is a form of ingratitude for divine blessings."
+      ur: "پسِ منظر و تشریح: قرآن نے رشتہ داروں اور ناداروں کی مدد کو محض احسان نہیں بلکہ ان کا ’حق‘ قرار دیا ہے۔ جو مال غریبوں کی ضرورت پوری کرنے کے بجائے جھوٹی شان و شوکت اور اسراف میں اڑایا جاتا ہے وہ درحقیقت نعمتِ الٰہی کی ناشکری ہے۔ آج کا عملی سبق یہ ہے کہ مال کو ضرورت مندوں کی فلاح پر خرچ کریں اور نمائش سے پرہیز کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran ne rishtedaron aur nadaron ki madad ko mehaz ehsan nahi balkay un ka 'haq' qarar diya hai. Jo maal ghareebon ki zaroorat poori karne ke bajaye jhooti shaan-o-shaukat aur israf mein uraya jata hai woh dar-haqeeqat nemat-e-Ilahi ki nashukri hai. Aaj ka amli sabaq yeh hai ke maal ko zaroorat-mandon ki falah par kharch karein aur numaish se parhez karein.",
+      en: "Context & Practical Lesson: Supporting relatives and the needy is a moral obligation, whereas squandering wealth on vanity and excess is a form of ingratitude for divine blessings."
     },
     tags: [
       { ur: "حقوق العباد", ro: "Huqooq-ul-Ibad", en: "Social Rights" },
@@ -7818,10 +7818,10 @@ export const batch18Quotes: QuoteItem[] = [
     id: "ma-258",
     slug: "qoul-e-sadeed-seedhi-baat-aur-aamaal-ki-islah",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 14-15",
+    bookRef: "Surah Al-Ahzab (33:70-71) & Makhzan-e-Akhlaq - Page 14-15",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -7835,16 +7835,16 @@ export const batch18Quotes: QuoteItem[] = [
       en: "O believers! Be mindful of Allah and always speak straightforward, truthful words; He will then set your deeds right for you and forgive your sins."
     },
     tashreeh: {
-      ur: "جب انسان ہیر پھیر، مصلحت پرستی اور جھوٹ چھوڑ کر صاف اور سچی بات کہنے کی عادت بنا لیتا ہے تو اس کے معاملات کی الجھنیں خود بخود سلجھ جاتی ہیں اور اس کا پورا کردار سنور جاتا ہے۔",
-      ro: "Jab insan her-pher, maslehat-parasti aur jhoot chhor kar saaf aur sachi baat kehne ki aadat bana leta hai to us ke muamlat ki uljhanein khud-ba-khud sulajh jati hain aur us ka poora kirdar sanwar jata hai.",
-      en: "Adopting complete honesty and clarity in speech untangles life's complications and brings divine blessing to all of one's actions."
+      ur: "پسِ منظر و تشریح: جب انسان ہیر پھیر، مصلحت پرستی اور جھوٹ چھوڑ کر صاف اور سچی بات کہنے کی عادت بنا لیتا ہے تو اس کے معاملات کی الجھنیں خود بخود سلجھ جاتی ہیں اور اس کا پورا کردار سنور جاتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنی گفتگو میں ہمیشہ صداقت اور واضح پن کو ترجیح دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jab insan her-pher, maslehat-parasti aur jhoot chhor kar saaf aur sachi baat kehne ki aadat bana leta hai to us ke muamlat ki uljhanein khud-ba-khud sulajh jati hain aur us ka poora kirdar sanwar jata hai. Aaj ka amli sabaq yeh hai ke apni guftugu mein hamesha sadaqat aur wazeh-pan ko tarjeeh dein.",
+      en: "Context & Practical Lesson: Adopting complete honesty and clarity in speech untangles life's complications and brings divine blessing to all of one's actions."
     },
     tags: [
       { ur: "قولِ سدید", ro: "Qoul-e-Sadeed", en: "Straight Speech" },
       { ur: "اصلاحِ اعمال", ro: "Islah-e-Aamaal", en: "Rectifying Deeds" }
     ]
   },
-  {
+{
     id: "ma-259",
     slug: "deen-sarasar-khair-khwahi-ka-naam-hai",
     categorySlug: "irshadat-e-nabawi",
