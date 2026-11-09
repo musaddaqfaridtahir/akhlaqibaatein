@@ -3677,92 +3677,92 @@ export const batch8Quotes: QuoteItem[] = [
 export const batch9Quotes: QuoteItem[] = [
   {
     id: "ma-121",
-    slug: "mehboob-cheez-kharch-karna-aur-neki-ka-darja",
+    slug: "walideen-ke-sath-husn-e-sulook-aur-taqdeer-e-ehram",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 8",
+    bookRef: "Surah Al-Isra (17:23) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "حقیقی نیکی کا درجہ پانے کا راز",
-      ro: "Haqeeqi Neki Ka Darja Pane Ka Raaz",
-      en: "The Secret to Attaining True Righteousness"
+      ur: "والدین کے ساتھ حسنِ سلوک اور بڑھاپے میں ان کی خدمت کا حکم",
+      ro: "Walideen Ke Sath Husn-e-Sulook Aur Burhapay Mein Un Ki Khidmat Ka Hukm",
+      en: "Good Treatment of Parents and Caring for Them in Old Age"
     },
     quote: {
-      ur: "لوگو! جب تک اللہ تعالیٰ کی راہ میں وہ چیزیں خرچ نہیں کرو گے جو تم کو عزیز اور پیاری ہیں، نیکی کے درجے کو ہرگز نہیں پہنچو گے؛ اور کوئی سی چیز بھی خرچ کرو اللہ اس کو جانتا ہے۔",
-      ro: "Logo! Jab tak Allah Ta'ala ki raah mein woh cheezein kharch nahi karo ge jo tum ko aziz aur pyari hain, neki ke darjay ko hargiz nahi pohancho ge; aur koi si cheez bhi kharch karo Allah us ko janta hai.",
-      en: "You will never attain the pinnacle of righteousness until you spend in the way of Allah from that which you love most; and whatever you spend, Allah is fully aware of it."
+      ur: "اور تیرے پروردگار نے فیصلہ کر دیا ہے کہ تم اس کے سوا کسی کی عبادت نہ کرو اور ماں باپ کے ساتھ اچھا سلوک کرو؛ اگر تیرے پاس ان میں سے ایک یا دونوں بڑھاپے کو پہنچ جائیں تو انہیں 'ہف' تک نہ کہو اور نہ انہیں جھڑکو، بلکہ ان کے ساتھ نرمی اور احترام سے بات کرو۔",
+      ro: "Aur tere Parwardigar ne faisla kar diya hai ke tum Us ke siwa kisi ki ibadat na karo aur maa-baap ke sath acha salook karo; agar tere paas un mein se aik ya dono burhapay ko pohanch jayein to unhein 'uff' tak na kaho aur na unhein jhirko, balkay un ke sath narmi aur ehtiram se baat karo.",
+      en: "And your Lord has decreed that you not worship except Him, and to parents, good treatment. Whether one or both of them reach old age [while] with you, say not to them [even] 'uff' and do not repel them, but speak to them a noble word."
     },
     tashreeh: {
-      ur: "بیکار یا فالتو چیزیں دے دینا کمال نہیں ہے، بلکہ اپنے دل کی محبوب اور قیمتی چیز کو رضائے الٰہی کے لیے قربان کرنا ہی انسان کو کامل نیکی اور ایثار کے درجے پر فائز کرتا ہے۔",
-      ro: "Bekar ya faltoo cheezein de dena kamal nahi hai, balkay apne dil ki mehboob aur qeemati cheez ko raza-e-Ilahi ke liye qurban karna hi insan ko kamil neki aur eesar ke darjay par faiz karta hai.",
-      en: "Giving away what is unwanted requires little sacrifice; true spiritual elevation comes from sharing what one cherishes most for the sake of God."
+      ur: "پسِ منظر و تشریح: توحید کے فوراً بعد والدین کے ساتھ حسنِ سلوک کا حکم اس بات کی دلیل ہے کہ اسلام میں ماں باپ کی خدمت کا درجہ کتنا بلند ہے۔ بڑھاپے میں جب وہ کمزور ہو جائیں تو ان کی کسی بات پر اکتاہٹ کا اظہار کرنا ('ف' کہنا) بھی سخت گناہ ہے۔ آج کا عملی سبق یہ ہے کہ والدین کی خدمت کو اپنی زندگی کی سب سے بڑی سعادت سمجھیں اور ان کے سامنے ہمیشہ جھکے رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Tauheed ke foran baad walideen ke sath husn-e-sulook ka hukm is baat ki daleel hai ke Islam mein maa-baap ki khidmat ka darja kitna buland hai. Burhapay mein jab woh kamzor ho jayein to un ki kisi baat par ukhtahat ka izhar karna ('uff' kehna) bhi sakht gunah hai. Aaj ka amli sabaq yeh hai ke walideen ki khidmat ko apni zindagi ki sab se badi saadat samjhein aur un ke samne hamesha jhuke rahein.",
+      en: "Context & Practical Lesson: Placing the command to honor parents directly after the command to worship God highlights their supreme status; expressing even minor annoyance ('uff') in their old age is strictly forbidden."
     },
     tags: [
-      { ur: "ایثار", ro: "Eesar", en: "Sacrifice" },
-      { ur: "انفاق", ro: "Infaq", en: "Charity" }
+      { ur: "خدمتِ والدین", ro: "Khidmat-e-Walideen", en: "Filial Piety" },
+      { ur: "احترام", ro: "Ehtiram", en: "Respect" }
     ]
   },
   {
     id: "ma-122",
-    slug: "maal-o-aulad-aur-baqi-rehne-wale-nek-aamaal",
+    slug: "walideen-ke-liye-ajzi-aur-reham-ki-dua",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 9",
+    bookRef: "Surah Al-Isra (17:24) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "دنیا کی زینت اور باقی رہنے والے نیک اعمال",
-      ro: "Duniya Ki Zeenat Aur Baqi Rehne Wale Nek Aamaal",
-      en: "Worldly Adornments Versus Enduring Good Deeds"
+      ur: "والدین کے آگے عاجزی کا بازو جھکانا اور ان کے لیے دعائے مغفرت",
+      ro: "Walideen Ke Aage Aajizi Ka Bazu Jhukana Aur Un Ke Liye Dua-e-Maghfirat",
+      en: "Lowering the Wing of Humility for Parents and Praying for Them"
     },
     quote: {
-      ur: "مال اور اولاد دنیا کی چند روزہ زندگی کے بناؤ سنگار ہیں، اور اعمالِ نیک جن کا اثر دیر تک باقی رہنے والا ہے، تمہارے پروردگار کے نزدیک ثواب اور توقعاتِ آئندہ کے اعتبار سے کہیں بہتر ہیں۔",
-      ro: "Maal aur aulad duniya ki chand roza zindagi ke banao-singhar hain, aur aamaal-e-nek jin ka asar dair tak baqi rehne wala hai, tumhare Parwardigar ke nazdeek sawab aur tawaqqaat-e-ainda ke aitbar se kahin behtar hain.",
-      en: "Wealth and children are the adornments of this brief worldly life, but enduring righteous deeds are far better with your Lord in reward and far better as a foundation for hope."
+      ur: "اور ان کے سامنے شفقت اور عاجزی سے انکساری کا بازو جھکا کر رکھو، اور دعا کرو کہ اے میرے رب! ان پر رحم فرما جیسا کہ انہوں نے بچپن میں مجھے پالا اور پرورش کیا۔",
+      ro: "Aur un ke samne shafqat aur aajizi se inkisari ka bazu jhuka kar rakho, aur dua karo ke aye mere Rab! Un par reham farma jaisa ke unhon ne bachpan mein mujhe pala aur parwarish kiya.",
+      en: "And lower to them the wing of humility out of mercy and say, 'My Lord, have mercy upon them as they brought me up [when I was] small.'"
     },
     tashreeh: {
-      ur: "دولت اور اولاد دنیا کی رونق ضرور ہیں لیکن یہ سب یہیں رہ جاتے ہیں؛ انسان کے ساتھ قبر اور حشر تک جانے والا اصل سرمایہ اس کے وہ نیک اعمال اور صدقہ جاریہ ہیں جن کا اثر باقی رہتا ہے۔",
-      ro: "Daulat aur aulad duniya ki raunaq zaroor hain lekin yeh sab yahin reh jate hain; insan ke sath qabar aur hashr tak jane wala asal sarmaya us ke woh nek aamaal aur sadqa-e-jariya hain jin ka asar baqi rehta hai.",
-      en: "While wealth and family beautify earthly life, only lasting acts of goodness and charity accompany the soul into eternity."
+      ur: "پسِ منظر و تشریح: بچپن میں جب ہم بے بس اور کمزور تھے تو ماں باپ نے اپنی راحتیں قربان کر کے ہمیں پالا۔ اب جب وہ ضعیف ہو جائیں تو اولاد کا فرض ہے کہ وہ عاجزی، محبت اور دعاؤں کے ذریعے ان کی شفقت کا بدلہ چکائے۔ آج کا عملی سبق یہ ہے کہ روزانہ اپنے والدین کی زندگی اور آخرت کے لیے دعاؤں کا اہتمام کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Bachpan mein jab hum be-bas aur kamzor thay to maa-baap ne apni rahaten qurbani kar ke hamein pala. Ab jab woh zaeef ho jayein to aulaad ka farz hai ke woh aajizi, mohabbat aur duaoon ke zariye un ki shafqat ka badla chukayein. Aaj ka amli sabaq yeh hai ke rozana apne walideen ki zindagi aur akhirat ke liye duaoon ka ehtimam karein.",
+      en: "Context & Practical Lesson: Just as parents protected us in childhood, we must shelter them in old age with tenderness, humility, and constant heartfelt prayers."
     },
     tags: [
-      { ur: "اعمالِ صالحہ", ro: "Aamaal-e-Saliha", en: "Righteous Deeds" },
-      { ur: "آخرت", ro: "Akhirat", en: "Hereafter" }
+      { ur: "انکساری", ro: "Inkisari", en: "Humility" },
+      { ur: "دعائے والدین", ro: "Dua-e-Walideen", en: "Praying for Parents" }
     ]
   },
   {
     id: "ma-123",
-    slug: "nek-amal-aur-pakeeza-zindagi-ka-wada",
+    slug: "tabzeer-aur-fuzool-kharchi-shaitan-ka-bhai-hai",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 10",
+    bookRef: "Surah Al-Isra (17:26-27) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "نیک عمل پر پاکیزہ زندگی کا الٰہی وعدہ",
-      ro: "Nek Amal Par Pakeeza Zindagi Ka Ilahi Wada",
-      en: "The Divine Promise of a Pure Life for Righteous Action"
+      ur: "مال کو بے جا اڑانے اور فضول خرچی سے گریز کا حکم",
+      ro: "Maal Ko Be-Ja Urane Aur Fuzool-Kharchi Se Gurez Ka Hukm",
+      en: "Avoiding Wastefulness and Extravagance"
     },
     quote: {
-      ur: "جو شخص نیک عمل کرے گا، مرد ہو یا عورت، اور وہ ایمان بھی رکھتا ہو تو ہم اس دنیا میں بھی اس کی زندگی اچھی طرح بسر کرائیں گے اور آخرت میں بھی ان بہترین اعمال کا صلہ ضرور عطا فرمائیں گے۔",
-      ro: "Jo shakhs nek amal karega, mard ho ya aurat, aur woh eman bhi rakhta ho to hum is duniya mein bhi us ki zindagi achi tarah basar karayenge aur akhirat mein bhi un behtareen aamaal ka sila zaroor ata farmayenge.",
-      en: "Whoever does righteous deeds—whether male or female—while being a believer, We will surely grant them a pure and peaceful life in this world, and reward them in the Hereafter according to the best of their actions."
+      ur: "اور رشتے دار کو اس کا حق دو اور مسکین اور مسافر کو بھی، اور اپنے مال کو بے جا فضول خرچی میں مت اڑاؤ؛ بے شک فضول خرچی کرنے والے شیاطین کے بھائی ہیں، اور شیطان اپنے رب کا بڑا ناشکرا ہے۔",
+      ro: "Aur rishtedar ko us ka haq do aur miskeen aur musafir ko bhi, aur apne maal ko be-ja fuzool-kharchi mein mat urao; be-shak fuzool-kharchi karne wale shiateen ke bhai hain, aur shaitan apne Rab ka bada nashukra hai.",
+      en: "And give the relative his right, and [also] the poor and the traveler, and do not spend wastefully. Indeed, the wasteful are brothers of the devils, and ever has Satan been to his Lord ungrateful."
     },
     tashreeh: {
-      ur: "ایمان اور عملِ صالح کے بدلے میں اللہ تعالیٰ دنیا ہی میں قلبی سکون، قناعت اور پاکیزہ حیات عطا فرماتا ہے جس میں مرد اور عورت کے اجر میں کوئی تفریق نہیں۔",
-      ro: "Eman aur amal-e-saleh ke badlay mein Allah Ta'ala duniya hi mein qalbi sukoon, qana'at aur pakeeza hayat ata farmata hai jis mein mard aur aurat ke ajr mein koi tafreeq nahi.",
-      en: "Faith combined with virtuous action brings inner peace and a dignified life in this world for both men and women equally, alongside eternal reward."
+      ur: "پسِ منظر و تشریح: اسلام مال کو اللہ کی امانت سمجھتا ہے۔ اسے نمود و نمائش، فضول پارٹیوں یا بے مقصد اشیاء پر اڑا دینا شیطانی روش ہے۔ آج کا عملی سبق یہ ہے کہ اپنی کمائی میں رشتہ داروں اور غریبوں کا حق نکالیں اور ذاتی زندگی میں سادگی اپنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Islam maal ko Allah ki amanat samajhta hai. Usay numood-o-numaish, fuzool partiyon ya be-maqsad ashya par ura dena shaitani rawish hai. Aaj ka amli sabaq yeh hai ke apni kamai mein rishtedaron aur ghareebon ka haq nikalein aur zaati zindagi mein sadgi apnayein.",
+      en: "Context & Practical Lesson: Wealth is a divine trust; squandering it on vanity or excess mirrors the ungrateful and rebellious path of Shaytan."
     },
     tags: [
-      { ur: "حیاتِ طیبہ", ro: "Hayat-e-Tayyiba", en: "Pure Life" },
-      { ur: "ایمان و عمل", ro: "Eman o Amal", en: "Faith and Action" }
+      { ur: "کفایت شعاری", ro: "Kifayat-Shiari", en: "Frugality" },
+      { ur: "حقوقِ قرابت", ro: "Huqooq-e-Qarabat", en: "Rights of Kin" }
     ]
   },
   {
@@ -4130,92 +4130,92 @@ export const batch9Quotes: QuoteItem[] = [
 export const batch10Quotes: QuoteItem[] = [
   {
     id: "ma-136",
-    slug: "qaza-par-raza-aur-zikr-e-ilahi-ki-barkat",
+    slug: "sabr-o-istikamat-aur-allahi-sahara",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 7",
+    bookRef: "Surah An-Nahl (16:127) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (حدیثِ قدسی و الٰہی فرمان)",
-      ro: "Ahkam-e-Khuda (Ilahi Farman)",
-      en: "Divine Injunctions"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "قضا پر تسلیم، بلا پر صبر اور ذکرِ الٰہی کا انعام",
-      ro: "Qaza Par Tasleem, Bala Par Sabr Aur Zikr-e-Ilahi Ka Inam",
-      en: "Acceptance of Decree, Patience in Trial, and the Reward of Remembrance"
+      ur: "ہر حال میں صبر کرنا اور اللہ کی مدد پر بھروسہ رکھنا",
+      ro: "Har Haal Mein Sabr Karna Aur Allah Ki Madad Par Bharosa Rakhna",
+      en: "Exercising Patience Under All Circumstances and Trusting God"
     },
     quote: {
-      ur: "جس نے میری قضا کو تسلیم کیا اور میری بلا پر صبر کیا اور میری نعمتوں پر شکر ادا کیا، میں اس کو اپنے پاس صدیق لکھتا ہوں؛ اور جس شخص کو میرا ذکر سوال کرنے سے روک لے، میں اس کو سوال کرنے والوں سے زیادہ دیتا ہوں۔",
-      ro: "Jis ne meri qaza ko tasleem kiya aur meri bala par sabr kiya aur meri nematon par shukr ada kiya, main us ko apne paas siddiq likhta hoon; aur jis shakhs ko mera zikr sawal karne se rok le, main us ko sawal karne walon se zyada deta hoon.",
-      en: "Whoever accepts My decree, endures My trials with patience, and gives thanks for My blessings, I record them with Me among the truthful; and whoever is so absorbed in My remembrance that they refrain from asking, I grant them more than I give to those who ask."
+      ur: "اور آپ صبر کیجیے، اور آپ کا صبر اللہ ہی کی توفیق سے ہے، اور لوگوں کے رویے پر غم نہ کیجیے اور ان کی مکروہ چالوں سے تنگ دل نہ ہوں۔",
+      ro: "Aur aap sabr kijiye, aur aap ka sabr Allah hi ki taufeeq se hai, aur logon ke rawaiye par gham na kijiye aur un ki makrooh chaalon se tang dil na hon.",
+      en: "And be patient, [O Muhammad], and your patience is not but through Allah. Do not grieve over them and do not be in distress from what they conspire."
     },
     tashreeh: {
-      ur: "صدیق کا بلند درجہ پانے کی کنجی یہ ہے کہ انسان تقدیر کے فیصلوں پر راضی رہے، مصیبت میں صبر کرے اور نعمت پر شکر گزار رہے۔ رب کی یاد میں مگن رہنے والے کو اللہ بن مانگے بہترین عطا فرماتا ہے۔",
-      ro: "Siddiq ka buland darja pane ki kunji yeh hai ke insan taqdeer ke faislon par raazi rahe, musibat mein sabr kare aur nemat par shukr-guzar rahe. Rab ki yaad mein magan rehne wale ko Allah bin mangay behtareen ata farmata hai.",
-      en: "Attaining the rank of the truthful requires embracing divine decree, staying patient in adversity, and remaining grateful in prosperity."
+      ur: "پسِ منظر و تشریح: زندگی میں مخالفین کی تنقید اور رکاوٹیں انسان کو مایوس کرتی ہیں۔ قرآن تسلی دیتا ہے کہ اصل صبر انسانی قوت سے نہیں بلکہ اللہ کی توفیق سے ملتا ہے۔ آج کا عملی سبق یہ ہے کہ منفی رویوں پر دل چھوٹا نہ کریں اور اپنا معاملہ اللہ کے سپرد کر کے ثابت قدم رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Zindagi mein mukhalifein ki tanqeed aur rukawatein insan ko mayous karti hain. Quran tasalli deta hai ke asal sabr insani quwwat se nahi balkay Allah ki taufeeq se milta hai. Aaj ka amli sabaq yeh hai ke manfi rawaiyon par dil chota na karein aur apna muamla Allah ke supurd kar ke sabit-qadam rahein.",
+      en: "Context & Practical Lesson: True patience is a divine gift rather than mere willpower; staying resilient against opposition requires anchoring our hope entirely in God."
     },
     tags: [
-      { ur: "صدیقیت", ro: "Siddiqiyat", en: "Truthfulness" },
-      { ur: "ذکر و شکر", ro: "Zikr o Shukr", en: "Remembrance & Gratitude" }
+      { ur: "صبر و استقامت", ro: "Sabr o Istaqamat", en: "Patience & Perseverance" },
+      { ur: "توکل", ro: "Tawakkul", en: "Reliance on God" }
     ]
   },
   {
     id: "ma-137",
-    slug: "hikmat-aur-umda-tadbeer-se-dawat",
+    slug: "ehsan-aur-taqwa-walo-ke-sath-allah-ki-maiyat",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 8",
+    bookRef: "Surah An-Nahl (16:128) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "حکمت، نصیحت اور عمدہ اخلاق سے گفتگو",
-      ro: "Hikmat, Nasihat Aur Umda Akhlaq Se Guftugu",
-      en: "Calling to the Truth with Wisdom and Gracious Dialogue"
+      ur: "تقویٰ اور احسان کرنے والوں کے ساتھ الٰہی معیت و نصرت",
+      ro: "Taqwa Aur Ehsan Karne Walon Ke Sath Ilahi Maiyat o Nusrat",
+      en: "Divine Company and Support for the Pious and Benevolent"
     },
     quote: {
-      ur: "تو اپنے رب کی راہ کی طرف بلا ساتھ حکمت اور موعظت کے، اور ان سے ایسی تدبیر کے ساتھ مباحثہ کر جو خوبی سے بھری ہوئی ہو؛ اور جب گواہ ادائے شہادت کے لیے بلائے جائیں تو حاضر ہونے سے انکار نہ کریں۔",
-      ro: "Tu apne Rab ki raah ki taraf bula sath hikmat aur mau'izat ke, aur un se aisi tadbeer ke sath mubahisa kar jo khoobi se bhari hui ho; aur jab gawah ada-e-shahadat ke liye bulaye jayein to hazir hone se inkar na karein.",
-      en: "Invite to the way of your Lord with wisdom and gentle instruction, and reason with them in the most gracious manner; and when witnesses are called upon to give testimony, they must not refuse."
+      ur: "بے شک اللہ ان لوگوں کے ساتھ ہے جو تقویٰ اختیار کرتے ہیں اور جو احسان کرنے والے ہیں۔",
+      ro: "Be-shak Allah un logon ke sath hai jo taqwa ikhtiyar karte hain aur jo ehsan karne wale hain.",
+      en: "Indeed, Allah is with those who fear Him and those who are doers of good."
     },
     tashreeh: {
-      ur: "دین اور خیر کی بات منوانے کا طریقہ سختی یا تلخ بحث نہیں بلکہ دانائی، دل نشین نصیحت اور خوبصورت طرزِ استدلال ہے۔ اسی طرح حق کی گواہی کے لیے بلائے جانے پر پیچھے نہ ہٹنا اخلاقی فرض ہے۔",
-      ro: "Deen aur khair ki baat manwane ka tareeqa sakhti ya talkh behas nahi balkay danai, dil-nasheen nasihat aur khoobsurat tarz-e-istidlal hai. Isi tarah haq ki gawahi ke liye bulaye jane par peechay na hatna akhlaqi farz hai.",
-      en: "Winning hearts to truth requires wisdom, empathy, and dignified dialogue rather than harsh debate, alongside fulfilling one's civic duty to testify truthfully."
+      ur: "پسِ منظر و تشریح: اس سے بڑی سعادت اور کیا ہو گی کہ کائنات کا خالق پرہیزگار اور نیکوکار بندوں کے ساتھ ہو۔ تقویٰ گناہوں سے بچاتا ہے اور احسان نیکی کی معراج ہے۔ آج کا عملی سبق یہ ہے کہ اپنے ہر عمل میں خدا ترسی اور اعلیٰ اخلاق کا مظاہرہ کریں تاکہ رب کی خاص نصرت حاصل ہو۔",
+      ro: "Pas-e-Manzar o Tashreeh: Is se badi saadat aur kya hogi ke kainat ka khaliq parhezgar aur neko-kar bandon ke sath ho. Taqwa gunahon se bachata hai aur ehsan neki ki meraj hai. Aaj ka amli sabaq yeh hai ke apne har amal mein khuda-tarsi aur aala akhlaq ka muzahira karein taake Rab ki khas nusrat hasil ho.",
+      en: "Context & Practical Lesson: Having the Creator's special backing through piety ('Taqwa') and benevolence ('Ihsan') guarantees inner strength and ultimate success."
     },
     tags: [
-      { ur: "حکمت", ro: "Hikmat", en: "Wisdom" },
-      { ur: "طرزِ گفتگو", ro: "Tarz-e-Guftugu", en: "Gracious Dialogue" }
+      { ur: "معیتِ الٰہی", ro: "Maiyat-e-Ilahi", en: "Divine Company" },
+      { ur: "احسان", ro: "Ihsan", en: "Excellence in Character" }
     ]
   },
   {
     id: "ma-138",
-    slug: "har-insan-apne-amal-ka-khud-zimmedar",
+    slug: "apne-ghar-walo-ko-namaz-ka-hukm-aur-sabr",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 9",
+    bookRef: "Surah Taha (20:132) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "انفرادی ذمہ داری اور اعمال کی جزا و سزا",
-      ro: "Infiradi Zimmedari Aur Aamaal Ki Jaza o Saza",
-      en: "Individual Accountability for Every Action"
+      ur: "اپنے اہل و عیال کو نماز کی تاکید اور خود بھی اس پر قائم رہنا",
+      ro: "Apne Ahl-o-Ayal Ko Namaz Ki Taakid Aur Khud Bhi Us Par Qayam Rehna",
+      en: "Commanding Family to Pray and Steadfastness in Worship"
     },
     quote: {
-      ur: "جو شخص سیدھے راستے پر چلا وہ اپنے ہی ذاتی فائدے کے لیے چلا، اور جو بھٹکا تو اس کے بھٹکنے کا خمیازہ بھی اس کو بھگتنا پڑے گا؛ اور کوئی متنفس کسی دوسرے متنفس کے بارِ گناہ کو اپنے اوپر نہیں لے گا۔",
-      ro: "Jo shakhs seedhe rastay par chala woh apne hi zaati faiday ke liye chala, aur jo bhatka to us ke bhatakne ka khamyaza bhi us ko bhugtna parega; aur koi mutanaffis kisi doosre mutanaffis ke bar-e-gunah ko apne oopar nahi lega.",
-      en: "Whoever follows the right path does so for the benefit of their own soul, and whoever strays bears the loss thereof; no bearer of burdens shall bear the burden of another."
+      ur: "اور اپنے گھر والوں کو نماز کا حکم دیجیے اور خود بھی اس پر پابند رہیے؛ ہم آپ سے کوئی روزی نہیں مانگتے، روزی تو ہم ہی آپ کو دیں گے، اور بہترین انجام تقویٰ کا ہے۔",
+      ro: "Aur apne ghar walon ko namaz ka hukm kijiye aur khud bhi us par paband rahiye; hum aap se koi rozi nahi mangte, rozi to hum hi aap ko denge, aur behtareen anjam taqwa ka hai.",
+      en: "And enjoin prayer upon your family [and people] and be steadfast therein. We ask you not for provision; We provide for you, and the [best] outcome is for [those of] righteousness."
     },
     tashreeh: {
-      ur: "عدالتِ الٰہی کا اٹل اصول ہے کہ ہر انسان اپنے اچھے یا برے عمل کا خود جواب دہ ہے۔ نہ کسی کی نیکی سے اللہ کو کوئی ذاتی فائدہ ہے اور نہ کسی کا گناہ کوئی دوسرا اپنے سر لے سکے گا۔",
-      ro: "Adalat-e-Ilahi ka atal usool hai ke har insan apne achay ya buray amal ka khud jawab-deh hai. Na kisi ki neki se Allah ko koi zaati faida hai aur na kisi ka gunah koi doosra apne sar le sakega.",
-      en: "Divine justice rests on personal accountability: every individual reaps the fruit of their own guidance or bears the consequence of their own choices."
+      ur: "پسِ منظر و تشریح: مومن کی یہ ذمہ داری ہے کہ وہ صرف اپنی ذات تک محدود نہ رہے بلکہ اپنے گھر کے بچوں اور افراد کو بھی دین اور نماز کی پابندی کی تلقین کرے۔ رزق کی فکر رب پر چھوڑ کر عبادات پر توجہ دینا ہی اصل بندگی ہے۔ آج کا عملی سبق یہ ہے کہ اپنے گھر میں نماز کا ماحول بنائیں اور رزق کے معاملے میں پختہ یقین رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Momin ki yeh zimmedari hai ke woh sirf apni zaat tak mehdood na rahe balkay apne ghar ke bachon aur afrad ko bhi deen aur namaz ki pabandi ki talqeen kare. Rizq ki fikr Rab par chor kar ibadaton par tawajjo dena hi asal bandagi hai. Aaj ka amli sabaq yeh hai ke apne ghar mein namaz ka mahool banayein aur rizq ke mamle mein pukhta yaqeen rakhein.",
+      en: "Context & Practical Lesson: Guiding our family toward prayer and trusting God completely for sustenance brings peace and righteousness into our homes."
     },
     tags: [
-      { ur: "ذمہ داری", ro: "Zimmedari", en: "Accountability" },
-      { ur: "ہدایت", ro: "Hidayat", en: "Guidance" }
+      { ur: "اقامتِ صلوٰة", ro: "Iqamat-e-Salah", en: "Establishing Prayer" },
+      { ur: "تربیتِ اولاد", ro: "Tarbiyat-e-Aulad", en: "Family Guidance" }
     ]
   },
   {
