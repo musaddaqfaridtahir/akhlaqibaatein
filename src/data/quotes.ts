@@ -5490,95 +5490,95 @@ export const batch12Quotes: QuoteItem[] = [
 export const batch13Quotes: QuoteItem[] = [
   {
     id: "ma-181",
-    slug: "uswah-e-rasool-aur-rehmat-e-ilahi-se-umeed",
+    slug: "zina-ke-qareeb-bhi-mat-jao-yeh-be-hayaai-hai",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 8",
+    bookRef: "Surah Al-Isra (17:32) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "بہترین نمونۂ حیات اور رحمتِ الٰہی سے امید",
-      ro: "Behtareen Namoona-e-Hayat Aur Rehmat-e-Ilahi Se Umeed",
-      en: "The Finest Role Model and Never Despairing of Divine Mercy"
+      ur: "بے حیائی اور فحاشی کے اسباب اور قریب جانے کی ممانعت",
+      ro: "Be-Hyaai Aur Fahashi Ke Asbab Aur Qareeb Jane Ki Mumaniat",
+      en: "Prohibition of Approaching Indecency and Immorality"
     },
     quote: {
-      ur: "تمہارے لیے اللہ کے پیغمبر ﷺ کی زندگی عمدہ نمونہ ہے؛ اور گمراہوں کے سوا کون ہے جو اپنے پروردگار کی رحمت سے ناامید ہو؟ جس چیز کی حقیقتِ حال تم کو معلوم نہ ہو اس کے پیچھے نادانوں کی سی باتیں مت کرو۔",
-      ro: "Tumhare liye Allah ke Peghambar ﷺ ki zindagi umda namoona hai; aur gumrahon ke siwa kaun hai jo apne Parwardigar ki rehmat se na-umeed ho? Jis cheez ki haqeeqat-e-haal tum ko maloom na ho us ke peechay nadanon ki si baatein mat karo.",
-      en: "Indeed, in the Messenger of Allah ﷺ you have an excellent model to follow; and who despairs of the mercy of his Lord except those who have gone astray? Do not pursue or demand that of which you have no true knowledge."
+      ur: "اور بدکاری (زنا) کے قریب بھی مت جاؤ، بے شک وہ بڑی بے حیائی اور بہت ہی برا راستہ ہے۔",
+      ro: "Aur bad-kaari (zina) ke qareeb bhi mat jao, be-shak woh badi be-hayaai aur bohot hi bura rasta hai.",
+      en: "And do not approach unlawful sexual intercourse. Indeed, it is ever an immorality and is evil as a way."
     },
     tashreeh: {
-      ur: "کامیاب زندگی کے لیے سیرتِ نبوی ﷺ سب سے کامل معیار ہے۔ انسان کو سخت ترین حالات میں بھی رب کی رحمت سے مایوس نہیں ہونا چاہیے اور بغیر علم و تحقیق کے کسی معاملے میں رائے زنی سے بچنا چاہیے۔",
-      ro: "Kamyab zindagi ke liye Seerat-e-Nabawi ﷺ sab se kamil miyar hai. Insan ko sakht-tareen halat mein bhi Rab ki rehmat se mayous nahi hona chahiye aur baghair ilm o tehqeeq ke kisi muamlay mein raaye-zani se bachna chahiye.",
-      en: "The Prophetic biography offers the ultimate standard for human conduct; a believer never loses hope in God's mercy and refrains from speaking without sound knowledge."
+      ur: "پسِ منظر و تشریح: قرآن کریم نے یہ نہیں کہا کہ زنا نہ کرو، بلکہ فرمایا کہ 'اس کے قریب بھی مت جاؤ'۔ اس کا مطلب یہ ہے کہ فحاشی تک پہنچانے والے ہر راستے (جیسے بری نگاہ، تنہائی میں غلط فتنہ انگیز محافل، اور بے پردگی) سے بچا جائے۔ آج کا عملی سبق یہ ہے کہ گناہ سے بچنے کے لیے اس کے ابتدائی اسباب اور محرکات سے بھی دوری اختیار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran-e-Kareem ne yeh nahi kaha ke zina na karo, balkay farmaya ke 'us ke qareeb bhi mat jao'. Is ka matlab yeh hai ke fahashi tak pohanchane wale har rastay (jaise buri nigah, tanhai mein ghalat fitna-angez mahafil, aur be-pardgi) se bacha jaye. Aaj ka amli sabaq yeh hai ke gunah se bachne ke liye us ke ibtidai asbab aur muharriqat se bhi doori ikhtiyar karein.",
+      en: "Context & Practical Lesson: The Quran commands us not to even *approach* indecency, meaning we must guard against the stepping stones and triggers that lead to moral failure."
     },
     tags: [
-      { ur: "اسوۂ حسنہ", ro: "Uswah-e-Hasanah", en: "Role Model" },
-      { ur: "امید", ro: "Umeed", en: "Hope" }
+      { ur: "عفت و پاکدامنی", ro: "Iffat o Pakdamani", en: "Chastity" },
+      { ur: "تہدیدِ گناہ", ro: "Tahdeed-e-Gunah", en: "Guarding Morality" }
     ]
   },
   {
     id: "ma-182",
-    slug: "logon-ki-razamandi-ke-liye-rab-ko-naraz-na-karna",
+    slug: "kisika-khoon-nahaq-mat-karo-aur-mazloom-ki-nusrat",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 9",
+    bookRef: "Surah Al-Isra (17:33) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن و حدیثِ قدسی)",
-      ro: "Ahkam-e-Khuda (Al-Quran o Hadith-e-Qudsi)",
-      en: "Divine Injunctions"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "رضائے الٰہی کو لوگوں کی خوشنودی پر مقدم رکھنا",
-      ro: "Raza-e-Ilahi Ko Logon Ki Khushnoodi Par Muqaddam Rakhna",
-      en: "Prioritizing God's Pleasure Over People-Pleasing"
+      ur: "جان کا احترام اور ناحق خون بہانے کی سخت ممانعت",
+      ro: "Jaan Ka Ehtiram Aur Nahaq Khoon Bahane Ki Sakht Mumaniat",
+      en: "Sanctity of Life and Prohibition of Unjust Killing"
     },
     quote: {
-      ur: "جو شخص ہماری ناراضگی لوگوں کی رضامندی کے مقابلے میں خریدتا ہے ہم اس کو انہیں کے حوالے کر دیتے ہیں۔ مسلمانو! جو مال ہم نے تم کو دے رکھا ہے اس میں سے موت کا وقت آنے سے پہلے پہلے راہِ الٰہی میں خرچ کرتے رہا کرو۔",
-      ro: "Jo shakhs hamari narazgi logon ki razamandi ke muqable mein khareedta hai hum us ko unhein ke hawalay kar dete hain. Musalmano! Jo maal hum ne tum ko de rakha hai us mein se maut ka waqt aane se pehle pehle raah-e-Ilahi mein kharch karte raha karo.",
-      en: "Whoever seeks the approval of people at the cost of Our displeasure, We leave them to the mercy of those very people. Spend in charity from the provision We have granted you before death arrives and leaves you with regret."
+      ur: "اور اس جان کو قتل نہ کرو جسے اللہ نے حرام ٹھہرایا ہے مگر حق کے ساتھ؛ اور جو شخص ناحق قتل کیا جائے تو ہم نے اس کے ولی کو غلبہ (قصاص کا حق) دیا ہے، پس وہ قتل میں حد سے تجاوز نہ کرے۔",
+      ro: "Aur us jaan ko qatal na karo jisay Allah ne haram thehraya hai magar haq ke sath; aur jo shakhs nahaq qatal kiya jaye to hum ne us ke wali ko ghalba (qisas ka haq) diya hai, pas woh qatal mein had se tajawuz na kare.",
+      en: "And do not kill the soul which Allah has forbidden, except by legal right. And whoever is killed unjustly - We have given his heir authority, but let him not exceed limits in [the matter of] taking life."
     },
     tashreeh: {
-      ur: "لوگوں کی واہ واہ یا خوف کی خاطر حق اور سچائی کو چھوڑ دینا انسان کو بے یار و مددگار کر دیتا ہے۔ اسی طرح زندگی کی مہلت ختم ہونے سے پہلے اپنے مال کو نیکی کے کاموں میں لگانا ہی اصل ہوشیاری ہے۔",
-      ro: "Logon ki wah-wah ya khauf ki khatir haq aur sachai ko chhor dena insan ko be-yar-o-madadgar kar deta hai. Isi tarah zindagi ki mohlat khatam hone se pehle apne maal ko neki ke kaamon mein lagana hi asal hoshiyari hai.",
-      en: "Compromising moral truth just to please people strips a person of divine support, and the wisest use of wealth is giving in charity before life's opportunity expires."
+      ur: "پسِ منظر و تشریح: انسانی جان کی حرمت اسلام میں اتنی بلند ہے کہ ایک بے گناہ کا قتل پوری انسانیت کا قتل قرار دیا گیا ہے۔ معاشرتی امن کے لیے ضروری ہے کہ قانون اپنے ہاتھ میں نہ لیا جائے اور مظلوم کو انصاف فراہم کیا جائے۔ آج کا عملی سبق یہ ہے کہ کسی کی جان، مال یا عزت کو نقصان پہنچانے سے سختی سے پرہیز کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insani jaan ki hurmat Islam mein itni buland hai ke aik be-gunah ka qatal poori insaniyat ka qatal qarar diya gaya hai. Maasharati aman ke liye zaroori hai ke qanoon apne hath mein na liya jaye aur mazloom ko insaf faraham kiya jaye. Aaj ka amli sabaq yeh hai ke kisi ki jaan, maal ya izzat ko nuqsan pohanchane se sakhti se parhez karein.",
+      en: "Context & Practical Lesson: Preserving human life and maintaining justice without taking the law into one's own hands is essential for a peaceful and secure society."
     },
     tags: [
-      { ur: "رضائے الٰہی", ro: "Raza-e-Ilahi", en: "Divine Pleasure" },
-      { ur: "انفاق", ro: "Infaq", en: "Timely Charity" }
+      { ur: "حرمتِ جان", ro: "Hurmat-e-Jaan", en: "Sanctity of Life" },
+      { ur: "عدل", ro: "Adal", en: "Justice" }
     ]
   },
   {
     id: "ma-183",
-    slug: "neki-ki-nasihat-himmat-aur-nemat-ki-aazmaish",
+    slug: "yateem-ke-maal-ke-qarib-mat-jao-jab-tak-woh-jawan-ho",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 12",
+    bookRef: "Surah Al-Isra (17:34) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "امر بالمعروف، مشکلات میں ہمت اور نعمت کی آزمائش",
-      ro: "Amr Bil-Ma'roof, Mushkilat Mein Himmat Aur Nemat Ki Aazmaish",
-      en: "Enjoining Good, Perseverance, and the Test of Blessings"
+      ur: "یتیم کے مال کی حفاظت کرنا اور وعدہ پورا کرنا",
+      ro: "Yateem Ke Maal Ki Hifazat Karna Aur Wada Poora Karna",
+      en: "Protecting the Orphan's Wealth and Fulfilling Pledges"
     },
     quote: {
-      ur: "نماز پڑھا کر، لوگوں کو اچھے کاموں کے کرنے کی نصیحت کیا کر، برے کاموں سے منع کیا کر اور تجھ پر جو مصیبت پڑے اس کو صبر سے جھیل؛ بے شک یہ بڑی ہمت کے کام ہیں۔ یاد رکھو کہ نعمت کا ملنا بھی ایک آزمائش ہے کہ تم شکر کرتے ہو یا ناشکری۔",
-      ro: "Namaz parha kar, logon ko achay kaamon ke karne ki nasihat kiya kar, buray kaamon se mana kiya kar aur tujh par jo musibat paray us ko sabr se jheel; be-shak yeh badi himmat ke kaam hain. Yaad rakho ke nemat ka milna bhi aik aazmaish hai ke tum shukr karte ho ya nashukri.",
-      en: "Establish prayer, encourage what is good, forbid what is wrong, and endure patiently whatever hardship befalls you—indeed, these require great resolve. Know that every blessing is a test of whether you remain grateful or become ungrateful."
+      ur: "اور یتیم کے مال کے قریب بھی نہ جاؤ مگر ایسے طریقے سے جو بہترین ہو یہاں تک کہ وہ جوانی کو پہنچ جائے؛ اور وعدہ پورا کرو، بے شک وعدے کے بارے میں (قیامت کے دن) بازپرس ہونے والی ہے۔",
+      ro: "Aur yateem ke maal ke qareeb bhi na jao magar aise tareeqay se jo behtareen ho yahan tak ke woh jawani ko pohanch jaye; aur wada poora karo, be-shak waday ke baray mein (qayamat ke din) baaz-purs hone wali hai.",
+      en: "And do not approach the property of an orphan except in a way that is best until he reaches maturity. And fulfill [every] commitment. Indeed, the commitment is ever [that about which one will be] questioned."
     },
     tashreeh: {
-      ur: "صرف مصیبت ہی امتحان نہیں ہوتی بلکہ خوشحالی، صحت اور دولت بھی اس بات کا امتحان ہیں کہ انسان عاجزی سے شکر ادا کرتا ہے یا غرور میں مبتلا ہوتا ہے۔ خیر پھیلانا اور تلخیاں سہنا اولوالعزم لوگوں کا شیوہ ہے۔",
-      ro: "Sirf musibat hi imtihan nahi hoti balkay khushhali, sehat aur daulat bhi is baat ka imtihan hain ke insan aajizi se shukr ada karta hai ya ghuroor mein mubtala hota hai. Khair phailana aur talkhiyan sehna ulul-azm logon ka shewa hai.",
-      en: "Prosperity is just as much a test of character as adversity; true resolve shines in promoting virtue, enduring trials patiently, and staying humble in success."
+      ur: "پسِ منظر و تشریح: بے سہارا یتیموں کے حقوق کی پامالی معاشرے کی تباہی کا سبب بنتی ہے۔ ان کے مال کی حفاظت صرف بہترین طریقے (اس کی نشوونما اور نفع) کے ساتھ کی جائے گی۔ اسی طرح ہر وعدہ ایک امانت ہے جس کا حساب دینا ہوگا۔ آج کا عملی سبق یہ ہے کہ کمزوروں کے حقوق کا خیال رکھیں اور اپنے ہر قول و اقرار کے پابند رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Be-sahara yateemon ke huqooq ki pamali muashray ki tabahi ka sabab banti hai. Un ke maal ki hifazat sirf behtareen tareeqay (us ki nashonuma aur nafa) ke sath ki jayegi. Isi tarah har wada aik amanat hai jis ka hisab dena hoga. Aaj ka amli sabaq yeh hai ke kamzoron ke huqooq ka khayal rakhein aur apne har qoul-o-iqrar ke paband rahein.",
+      en: "Context & Practical Lesson: Safeguarding the property of orphans and keeping every solemn promise are sacred duties that carry direct accountability before God."
     },
     tags: [
-      { ur: "اولوالعزمی", ro: "Ulul-Azmi", en: "Firm Resolve" },
-      { ur: "شکر گزاری", ro: "Shukr-Guzari", en: "Gratitude" }
+      { ur: "حقوقِ یتیم", ro: "Huqooq-e-Yateem", en: "Orphan Rights" },
+      { ur: "وفائے عہد", ro: "Wafa-e-Ahad", en: "Fulfilling Pledges" }
     ]
   },
-  {
+{
     id: "ma-184",
     slug: "salam-mein-pehal-ki-nawwe-nekiyan-aur-musalman-ka-gham",
     categorySlug: "irshadat-e-nabawi",
@@ -5943,95 +5943,95 @@ export const batch13Quotes: QuoteItem[] = [
 export const batch14Quotes: QuoteItem[] = [
   {
     id: "ma-196",
-    slug: "walideen-ke-sath-ehsan-aur-adab-ki-guftugu",
+    slug: "zalimon-ki-taraf-jhukne-se-parhez-aur-taqwa",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 13-14",
+    bookRef: "Surah Hud (11:113) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "بڑھاپے میں والدین کا ادب اور نرم گفتاری",
-      ro: "Burhapay Mein Walideen Ka Adab Aur Naram-Guftari",
-      en: "Honoring Parents in Old Age and Speaking Gently"
+      ur: "ظالموں کی طرف مائل نہ ہونا ورنہ جہنم کی آگ چھو لے گی",
+      ro: "Zalimon Ki Taraf Jhukne Se Parhez Aur Taqwa",
+      en: "Do Not Lean Toward the Wrongdoers Lest Hellfire Touches You"
     },
     quote: {
-      ur: "ماں باپ کے ساتھ نیک سلوک کرو؛ اگر ان میں سے ایک یا دونوں تمہارے سامنے بڑھاپے کو پہنچ جائیں تو ان کو 'اُف' تک نہ کہو اور نہ انہیں جھڑک کر جواب دو، بلکہ ان سے ادب اور تعظیم کے ساتھ نرم بات کہو اور عاجزی سے ان کے لیے رحم کی دعا کرو۔",
-      ro: "Maa baap ke sath nek sulook karo; agar un mein se aik ya dono tumhare samne burhapay ko pohanch jayein to un ko 'uff' tak na kaho aur na unhein jhirak kar jawab do, balkay un se adab aur tazeem ke sath naram baat kaho aur aajizi se un ke liye reham ki dua karo.",
-      en: "Show utmost kindness to your parents; if one or both of them reach old age in your care, never say to them even a word of annoyance nor scold them, rather speak to them with noble respect and lower to them the wing of humility."
+      ur: "اور ظالموں کی طرف ذرا مت جھکو ورنہ تمہیں بھی آگ (جہنم) چھو لے گی، اور اللہ کے سوا تمہارا کوئی مددگار نہیں پھر تمہیں کہیں سے مدد نہیں ملے گی۔",
+      ro: "Aur zalimon ki taraf zara mat jhuko warna tumhein bhi aag (Jahannam) chhoo legi, aur Allah ke siwa tumhara koi madadgar nahi phir tumhein kahin se madad nahi milegi.",
+      en: "And do not incline toward those who do wrong, lest you be touched by the Fire, and you would have not other than Allah any protectors, then you would not be helped."
     },
     tashreeh: {
-      ur: "بڑھاپے میں انسان کے مزاج میں کمزوری اور چڑچڑا پن آ جاتا ہے۔ ایسے وقت میں والدین کی کسی بات پر ماتھے پر شکن لانا بھی منع ہے، بلکہ ان کے بچپن کے احسانات یاد کر کے محبت اور تعظیم سے پیش آنا فرض ہے۔",
-      ro: "Burhapay mein insan ke mizaj mein kamzori aur chirchira-pan aa jata hai. Aise waqt mein walideen ki kisi baat par mathay par shikan lana bhi mana hai, balkay un ke bachpan ke ehsanat yaad kar ke mohabbat aur tazeem se pesh aana farz hai.",
-      en: "Old age brings physical frailty and vulnerability; honoring parents with patience, gentle words, and heartfelt prayers repays a fraction of the care they gave us in childhood."
+      ur: "پسِ منظر و تشریح: ناانصافی اور ظلم کرنے والوں کی حمایت کرنا یا ان کے ساتھ مفاداتی قربت رکھنا انسان کو اخلاقی اور روحانی طور پر تباہ کر دیتا ہے۔ آج کا عملی سبق یہ ہے کہ ظالموں اور بدعنوانوں سے فاصلہ رکھیں اور ہمیشہ حق اور مظلومین کا ساتھ دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Na-insafi aur zulm karne walon ki himayat karna ya un ke sath mufadati qurbat rakhna insan ko akhlaqi aur roohani taur par tabaah kar deta hai. Aaj ka amli sabaq yeh hai ke zalimon aur bad-unwanon se fasla rakhein aur hamesha haq aur mazlomeen ka sath dein.",
+      en: "Context & Practical Lesson: Associating with or condoning oppressors corrupts character; true piety requires standing firmly against injustice."
     },
     tags: [
-      { ur: "حقوقِ والدین", ro: "Huqooq-e-Walideen", en: "Parents' Rights" },
-      { ur: "ادب", ro: "Adab", en: "Reverence" }
+      { ur: "ظلم سے بیزاری", ro: "Zulm Se Bezari", en: "Opposing Injustice" },
+      { ur: "اصول پرستی", ro: "Oosol-Parasti", en: "Principled Life" }
     ]
   },
   {
     id: "ma-197",
-    slug: "ahad-o-paiman-ki-pabandi-aur-bazpurs",
+    slug: "namaz-qayam-rakho-din-aur-raat-ke-auroaf-mein",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 11",
+    bookRef: "Surah Hud (11:114) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "عہد و پیمان کی پابندی اور قیامت کی بازپرس",
-      ro: "Ahad-o-Paiman Ki Pabandi Aur Qayamat Ki Bazpurs",
-      en: "Fulfilling Covenants and Accountability for Promises"
+      ur: "دن اور رات کے اوقات میں نماز قائم کرنا اور نیکیوں کا اثر",
+      ro: "Namaz Qayam Rakho Din Aur Raat Ke Auqat Mein Aur Nekiyon Ka Asar",
+      en: "Establishing Prayer at Day and Night and the Effect of Good Deeds"
     },
     quote: {
-      ur: "اپنے عہد کو پورا کرو، کیونکہ قیامت کے دن ہر عہد کے بارے میں ضرور پوچھا جائے گا؛ اور جب آپس میں قول و قرار کرو تو اللہ کے عہد کو پورا کیا کرو اور پختہ قسموں کے بعد انہیں مت توڑو۔",
-      ro: "Apne ahad ko poora karo, kyunkeh qayamat ke din har ahad ke baray mein zaroor poocha jayega; aur jab aapas mein qoul-o-qarar karo to Allah ke ahad ko poora kiya karo aur pukhta qasmon ke baad unhein mat toro.",
-      en: "Fulfill every covenant, for indeed every pledge will be questioned on the Day of Reckoning; honor your agreements once made and never break solemn oaths."
+      ur: "اور دن کے دونوں سروں پر اور رات کے کچھ حصوں میں نماز قائم کرو؛ بے شک نیکیاں برائیوں کو مٹا دیتی ہیں، یہ نصیحت حاصل کرنے والوں کے لیے ایک یاد دہانی ہے۔",
+      ro: "Aur din ke dono saron par aur raat ke kuch hisson mein namaz qayam karo; be-shak nekiyan buraiyon ko mita deti hain, yeh nasihat hasil karne walon ke liye aik yaad-dehani hai.",
+      en: "And establish prayer at the two ends of the day and at the approach of the night. Indeed, good deeds do away with misdeeds. That is a reminder for those who remember."
     },
     tashreeh: {
-      ur: "وعدہ اور معاہدہ صرف کاغذ کی تحریر نہیں بلکہ اخلاقی اور شرعی ذمہ داری ہے۔ جو قوم یا فرد اپنے قول و قرار کا پاس نہیں رکھتا وہ دنیا میں اعتبار اور آخرت میں نجات کھو بیٹھتا ہے۔",
-      ro: "Wada aur muahida sirf kaghaz ki tehreer nahi balkay akhlaqi aur shar'i zimmedari hai. Jo qoum ya fard apne qoul-o-qarar ka paas nahi rakhta woh duniya mein aitbar aur akhirat mein najat kho baithta hai.",
-      en: "A promise is a sacred moral contract; honoring commitments builds social trust in this world and secures salvation on the Day of Judgment."
+      ur: "پسِ منظر و تشریح: نماز وقت کی پابندی اور رب کے حضور بندگی کا بہترین ذریعہ ہے۔ اس آیت میں یہ نوید بھی دی گئی ہے کہ اچھے اعمال (خصوصاً توبہ اور نماز) پچھلے گناہوں کے اثرات کو زائل کر دیتے ہیں۔ آج کا عملی سبق یہ ہے کہ اپنی نمازوں کی پابندی کو معمول بنائیں اور ہر گناہ کے بعد فوراً توبہ اور نیکی کی طرف لوٹیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Namaz waqt ki pabandi aur Rab ke huzoor bandagi ka behtareen zariya hai. Is aayat mein yeh naweed bhi di gayi hai ke achay aamaal (khusoosan tauba aur namaz) pichle gunahon ke asraat ko zail kar dete hain. Aaj ka amli sabaq yeh hai ke apni namazon ki pabandi ko mamool banayein aur har gunah ke baad foran tauba aur neki ki taraf laut aayein.",
+      en: "Context & Practical Lesson: Regular prayers anchor our daily routine, while righteous deeds wash away spiritual blemishes, offering a fresh start with every sincere effort."
     },
     tags: [
-      { ur: "ایفائے عہد", ro: "Eefa-e-Ahad", en: "Keeping Promises" },
-      { ur: "ذمہ داری", ro: "Zimmedari", en: "Accountability" }
+      { ur: "قامتِ صلوٰة", ro: "Qamat-e-Salah", en: "Establishing Prayer" },
+      { ur: "توبہ و استغفار", ro: "Tauba o Istighfar", en: "Repentance" }
     ]
   },
   {
     id: "ma-198",
-    slug: "zameen-par-akar-kar-na-chalna-aur-aawaz-past-rakhna",
+    slug: "sabr-aur-mustaqilli-ka-phal-nek-karon-ka-ajr",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 12-13",
+    bookRef: "Surah Hud (11:115) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "چال میں میانہ روی اور گفتگو میں پست آوازی",
-      ro: "Chaal Mein Miyana-Rawi Aur Guftugu Mein Past-Aawazi",
-      en: "Modesty in Walking and Lowering One's Voice"
+      ur: "مشکلات میں صبر کرنا اور نیکی کرنے والوں کا اجر ضائع نہیں ہوتا",
+      ro: "Mushkilat Mein Sabr Karna Aur Neki Karne Walon Ka Ajr Zaya Nahi Hota",
+      en: "Patience in Adversity and the Guaranteed Reward for the Righteous"
     },
     quote: {
-      ur: "لوگوں سے غرور کے ساتھ اپنا رخ نہ پھیر اور زمین پر اتراتا ہوا مت چل، کیونکہ اللہ کسی متکبر اور شیخی خورے کو پسند نہیں کرتا؛ اپنی چال میں اعتدال رکھ اور اپنی آواز کو پست رکھ۔",
-      ro: "Logon se ghuroor ke sath apna rukh na pher aur zameen par itrata huwa mat chal, kyunkeh Allah kisi mutakabbir aur shekhi-khoray ko pasand nahi karta; apni chaal mein aitdaal rakh aur apni aawaz ko past rakh.",
-      en: "Do not turn your face away from people in arrogance, nor walk insolently upon the earth, for Allah dislikes every conceited boaster; be moderate in your pace and lower your voice."
+      ur: "اور صبر کرو، بے شک اللہ نیکی کرنے والوں کا اجر ضائع نہیں کرتا۔",
+      ro: "Aur sabr karo, be-shak Allah neki karne walon ka ajr zaya nahi karta.",
+      en: "And be patient, for indeed, Allah does not allow to be lost the reward of those who do good."
     },
     tashreeh: {
-      ur: "انسان کی چال ڈھال اور اس کے بولنے کا لہجہ اس کے باطن کا آئینہ ہوتا ہے۔ چیخ چلا کر بات کرنا رعب کی علامت نہیں بلکہ بدسلیقگی ہے، جبکہ دھیما لہجہ اور متواضع چال شرافت کی نشانی ہے۔",
-      ro: "Insan ki chaal-dhaal aur us ke bolne ka lehja us ke batin ka aaina hota hai. Cheekh chilla kar baat karna roab ki alamat nahi balkay bad-saleeqgi hai, jabkeh dheema lehja aur mutawaze chaal sharafat ki nishani hai.",
-      en: "True dignity is reflected in a humble walk and a calm, measured voice; shouting never commands respect, whereas gentleness wins every heart."
+      ur: "پسِ منظر و تشریح: مصیبتوں اور آزمائشوں کے وقت مستقل مزاجی اور صبر کا دامن تھامے رکھنا مومن کا شیوہ ہے۔ رب کا وعدہ ہے کہ دنیا میں کی گئی کسی بھی نیکی یا صبر کی محنت کو رائیگاں نہیں جانے دیا جائے گا۔ آج کا عملی سبق یہ ہے کہ مشکلات میں گھبرا کر ہمت نہ ہاریں بلکہ صبر کے ساتھ اچھے اعمال جاری رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Museebaton aur aazmaishon ke waqt mustaqil-mizaji aur sabr ka daman thame rakhna momin ka shewa hai. Rab ka wada hai ke duniya mein ki gayi kisi bhi neki ya sabr ki mehnat ko raigan nahi jane diya jayega. Aaj ka amli sabaq yeh hai ke mushkilat mein ghabra kar himmat na harein balkay sabr ke sath achay aamaal jari rakhein.",
+      en: "Context & Practical Lesson: Steadfastness during trials is a believer's greatest asset; God guarantees that no sincere effort or patience goes unrewarded."
     },
     tags: [
-      { ur: "عاجزی", ro: "Aajizi", en: "Humility" },
-      { ur: "شائستگی", ro: "Shaistagi", en: "Refined Manners" }
+      { ur: "صبر و استقامت", ro: "Sabr o Istaqamat", en: "Patience & Perseverance" },
+      { ur: "اجرِ الٰہی", ro: "Ajr-e-Ilahi", en: "Divine Reward" }
     ]
   },
-  {
+{
     id: "ma-199",
     slug: "mazdoor-ki-mazdoori-pasina-khushk-hone-se-pehle",
     categorySlug: "irshadat-e-nabawi",
