@@ -8212,10 +8212,10 @@ export const batch19Quotes: QuoteItem[] = [
     id: "ma-271",
     slug: "nafs-ke-bukhl-aur-lalach-se-bachna-falah-ki-zamanat",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 10",
+    bookRef: "Surah Al-Hashr (59:9) & Surah Al-Muzzammil (73:20) | Makhzan-e-Akhlaq - Page 10",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8224,14 +8224,14 @@ export const batch19Quotes: QuoteItem[] = [
       en: "Freedom from the Greed of the Soul is True Success"
     },
     quote: {
-      ur: "جو لوگ اپنے نفس کے بخل اور تنگ دلی سے بچا لیے گئے، وہی حقیقت میں فلاح اور کامیابی پانے والے ہیں؛ اور جو کچھ تم اپنے نفس کی بھلائی کے لیے آگے بھیجو گے اسے اللہ کے ہاں بہتر اور اجر میں بہت بڑا پاؤ گے۔",
-      ro: "Jo log apne nafs ke bukhl aur tang-dili se bacha liye gaye, wahi haqeeqat mein falah aur kamyabi pane wale hain; aur jo kuch tum apne nafs ki bhalai ke liye aagay bhejo ge usay Allah ke haan behtar aur ajr mein bohot bada pao ge.",
-      en: "Whoever is protected from the stinginess and greed of their own soul—it is they who are truly successful; and whatever good you send ahead for yourselves, you will find it with Allah far better and greater in reward."
+      ur: "وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ  وَمَا تُقَدِّمُوا لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا\n\nترجمہ: اور جو لوگ اپنے نفس کے بخل اور تنگ دلی سے بچا لیے گئے، وہی حقیقت میں فلاح پانے والے ہیں؛ اور جو کچھ بھلائی تم اپنے نفس کے لیے آگے بھیجو گے اسے اللہ کے ہاں بہتر اور اجر میں بہت بڑا پاؤ گے۔",
+      ro: "وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ  وَمَا تُقَدِّمُوا لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا\n\nTarjuma: Aur jo log apne nafs ke bukhl aur tang-dili se bacha liye gaye, wahi haqeeqat mein falah pane wale hain; aur jo kuch bhalai tum apne nafs ke liye aagay bhejo ge usay Allah ke haan behtar aur ajr mein bohot bada pao ge.",
+      en: "وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ  وَمَا تُقَدِّمُوا لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا\n\nTranslation: And whoever is protected from the stinginess and greed of their own soul—it is they who are truly successful; and whatever good you send ahead for yourselves, you will find it with Allah far better and greater in reward."
     },
     tashreeh: {
-      ur: "انسان کی سب سے بڑی اندرونی زنجیر اس کے اپنے دل کی تنگی اور مال کی ہوس ہے۔ جس شخص نے اپنے دل کو تنگ دلی سے آزاد کر کے دوسروں پر خرچ کرنا سیکھ لیا، اس نے دنیا اور آخرت دونوں کی فلاح پا لی۔",
-      ro: "Insan ki sab se badi androoni zanjeer us ke apne dil ki tangi aur maal ki hawas hai. Jis shakhs ne apne dil ko tang-dili se aazad kar ke doosron par kharch karna seekh liya, us ne duniya aur akhirat dono ki falah pa li.",
-      en: "Overcoming internal selfishness and stinginess is the greatest personal victory, unlocking generosity and eternal spiritual reward."
+      ur: "پسِ منظر و تشریح: قرآن کریم میں 'شُحّ' سے مراد صرف کنجوسی نہیں بلکہ نفس کی وہ شدید حرص ہے جو انسان کو اپنا حق دبانے اور دوسروں کے حق پر للچانے پر ابھارتی ہے۔ آج کا عملی سبق یہ ہے کہ جب انسان اپنے دل کو خود غرضی اور تنگ دلی سے آزاد کر کے مخلوقِ خدا پر خرچ کرنا سیکھ لیتا ہے، تو وہ دنیا کی بے چینی سے بھی نجات پا لیتا ہے اور آخرت کا لازوال ذخیرہ بھی بنا لیتا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran-e-Kareem mein 'shuhh' se murad sirf kanjoosi nahi balkay nafs ki woh shadeed hirs hai jo insan ko apna haq dabane aur doosron ke haq par lalchane par ubharti hai. Aaj ka amli sabaq yeh hai ke jab insan apne dil ko khud-gharzi aur tang-dili se aazad kar ke makhlooq-e-Khuda par kharch karna seekh leta hai, to woh duniya ki be-chaini se bhi najat pa leta hai aur akhirat ka la-zawal zakhira bhi bana leta hai.",
+      en: "Context & Practical Lesson: Overcoming internal selfishness and stinginess ('shuhh') is the greatest personal victory, freeing the heart from anxiety and unlocking eternal spiritual reward."
     },
     tags: [
       { ur: "فیاضی", ro: "Fayyazi", en: "Generosity" },
@@ -8242,10 +8242,10 @@ export const batch19Quotes: QuoteItem[] = [
     id: "ma-272",
     slug: "muamlat-mein-mashwara-aur-pukhta-azm-ke-baad-tawakkul",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 12-13",
+    bookRef: "Surah Aal-e-Imran (3:159) | Makhzan-e-Akhlaq - Page 12-13",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8254,14 +8254,14 @@ export const batch19Quotes: QuoteItem[] = [
       en: "Consultation in Affairs and Trust in God After Firm Resolve"
     },
     quote: {
-      ur: "ان کے قصور معاف کر دو، ان کے لیے مغفرت مانگو اور اہم کاموں میں ان سے مشورہ لیا کرو؛ پھر جب تم رائے پختہ کر کے کسی کام کا عزم کر لو تو اللہ پر بھروسہ رکھو، بے شک اللہ توکل کرنے والوں کو دوست رکھتا ہے۔",
-      ro: "Un ke qusoor maaf kar do, un ke liye maghfirat mango aur ahem kaamon mein un se mashwara liya karo; phir jab tum raaye pukhta kar ke kisi kaam ka azm kar lo to Allah par bharosa rakho, be-shak Allah tawakkul karne walon ko dost rakhta hai.",
-      en: "Pardon their shortcomings, pray for their forgiveness, and consult them in matters of importance; then, once you have taken a firm decision, place your trust in Allah—indeed, Allah loves those who rely upon Him."
+      ur: "فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ\n\nترجمہ: پس ان کے قصور معاف کر دو، ان کے لیے مغفرت مانگو اور اہم کاموں میں ان سے مشورہ لیا کرو؛ پھر جب تم رائے پختہ کر کے کسی کام کا عزم کر لو تو اللہ پر بھروسہ رکھو، بے شک اللہ توکل کرنے والوں کو دوست رکھتا ہے۔",
+      ro: "فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ\n\nTarjuma: Pas un ke qusoor maaf kar do, un ke liye maghfirat mango aur ahem kaamon mein un se mashwara liya karo; phir jab tum raaye pukhta kar ke kisi kaam ka azm kar lo to Allah par bharosa rakho, be-shak Allah tawakkul karne walon ko dost rakhta hai.",
+      en: "فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ\n\nTranslation: So pardon them, pray for their forgiveness, and consult them in matters of importance; then, once you have taken a firm decision, place your trust in Allah—indeed, Allah loves those who rely upon Him."
     },
     tashreeh: {
-      ur: "کامیاب قیادت اور گھریلو نظام کا راز یہ ہے کہ ساتھیوں کی غلطیوں سے درگزر کیا جائے، فیصلوں میں ان کی رائے کو شامل کیا جائے اور جب مشورے سے تدبیر مکمل ہو جائے تو تذبذب چھوڑ کر اللہ کے بھروسے پر قدم بڑھا دیا جائے۔",
-      ro: "Kamyab qiyadat aur ghareloo nizam ka raaz yeh hai ke sathiyon ki ghaltiyon se darguzar kiya jaye, faislon mein un ki raaye ko shamil kiya jaye aur jab mashwaray se tadbeer mukammal ho jaye to tazabzub chhor kar Allah ke bharosay par qadam barha diya jaye.",
-      en: "Wise leadership combines forgiveness, thoughtful consultation, and decisive action backed by unwavering trust in God."
+      ur: "پسِ منظر و تشریح: سورۃ آلِ عمران کی یہ آیتِ کریمہ کامیاب قیادت اور گھریلو نظام کے چار ستون متعین فرماتی ہے: ماتحتوں کی خطا سے درگزر، ان کے حق میں دعائے خیر، فیصلوں میں ان سے مشاورت، اور تدبیر مکمل ہونے کے بعد اللہ پر کامل توکل۔ آج کا عملی سبق یہ ہے کہ اپنے گھر اور کاروبار میں تنہا فیصلے مسلط کرنے کے بجائے مخلص ساتھیوں سے مشورہ کریں اور پھر یکسو ہو کر قدم بڑھائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Aal-e-Imran ki yeh aayat-e-kareema kamyab qiyadat aur ghareloo nizam ke chaar sutoon mutayyan farmati hai: matehton ki khata se darguzar, un ke haq mein dua-e-khair, faislon mein un se mushawarat, aur tadbeer mukammal hone ke baad Allah par kamil tawakkul. Aaj ka amli sabaq yeh hai ke apne ghar aur karobar mein tanha faisle musallat karne ke bajaye mukhlis sathiyon se mashwara karein aur phir yaksoo ho kar qadam barhayein.",
+      en: "Context & Practical Lesson: This verse of Surah Aal-e-Imran outlines the four pillars of wise leadership: forgiveness, prayer, consultation ('Shura'), and decisive action backed by trust in God."
     },
     tags: [
       { ur: "مشاورت", ro: "Mushawarat", en: "Consultation" },
@@ -8272,10 +8272,10 @@ export const batch19Quotes: QuoteItem[] = [
     id: "ma-273",
     slug: "salam-ka-behtar-jawab-aur-logon-se-bhali-baat-kehna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 14-15",
+    bookRef: "Surah An-Nisa (4:86) & Surah Al-Baqarah (2:83) | Makhzan-e-Akhlaq - Page 14-15",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8284,14 +8284,14 @@ export const batch19Quotes: QuoteItem[] = [
       en: "Returning Greetings Graciously and Speaking Kindly to All"
     },
     quote: {
-      ur: "جب کوئی تمہیں سلام یا اخلاق کا کلمہ کہے تو تم اس سے بہتر کلمے کے ساتھ اس کا جواب دو یا کم از کم ویسا ہی لوٹا دو؛ اور تمام لوگوں سے بھلی اور شائستہ بات کہا کرو۔",
-      ro: "Jab koi tumhein salam ya akhlaq ka kalma kahe to tum us se behtar kalmay ke sath us ka jawab do ya kam az kam waisa hi lauta do; aur tamam logon se bhali aur shaista baat kaha karo.",
-      en: "When you are greeted with a courteous greeting, respond with one even more gracious, or at least return it equally; and speak kindly and politely to all people."
+      ur: "وَإِذَا حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا ۗ وَقُولُوا لِلنَّاسِ حُسْنًا\n\nترجمہ: اور جب کوئی تمہیں سلام یا اخلاق کا کلمہ کہے تو تم اس سے بہتر کلمے کے ساتھ اس کا جواب دو یا کم از کم ویسا ہی لوٹا دو؛ اور تمام لوگوں سے بھلی اور شائستہ بات کہا کرو۔",
+      ro: "وَإِذَا حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا ۗ وَقُولُوا لِلنَّاسِ حُسْنًا\n\nTarjuma: Aur jab koi tumhein salam ya akhlaq ka kalma kahe to tum us se behtar kalmay ke sath us ka jawab do ya kam az kam waisa hi lauta do; aur tamam logon se bhali aur shaista baat kaha karo.",
+      en: "وَإِذَا حُيِّيتُم بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا ۗ وَقُولُوا لِلنَّاسِ حُسْنًا\n\nTranslation: And when you are greeted with a courteous greeting, respond with one even more gracious, or at least return it equally; and speak kindly and politely to all people."
     },
     tashreeh: {
-      ur: "محبت اور احترام کا جواب اس سے بڑھ کر گرمجوشی سے دینا اعلیٰ اخلاق کا تقاضا ہے، اور بلا تفریق ہر انسان کے ساتھ شائستہ گفتگو کرنا معاشرے میں امن و آشتی پھیلاتا ہے۔",
-      ro: "Mohabbat aur ehtiram ka jawab us se barh kar garm-joshi se dena aala akhlaq ka taqaza hai, aur bila-tafreeq har insan ke sath shaista guftugu karna muashray mein aman-o-aashti phailata hai.",
-      en: "Reciprocating courtesy with even greater warmth and speaking respectfully to every human being creates a culture of mutual dignity and peace."
+      ur: "پسِ منظر و تشریح: قرآن مجید نے یہاں 'قولوا للناس حسنا' فرما کر تمام انسانوں کے ساتھ شائستہ، نرم اور خیر خواہانہ گفتگو کرنے کا عالمگیر حکم دیا ہے۔ اسی طرح کسی کے سلام یا تحفے کا جواب اس سے بڑھ کر گرمجوشی سے دینا اسلامی تہذیب کا خاصہ ہے۔ آج کا عملی سبق یہ ہے کہ ہر ملنے والے کو مسکرا کر پورا سلام و جواب دیں اور اپنی زبان سے کبھی کسی انسان کی دل شکنی نہ ہونے دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran Majeed ne yahan 'Qooloo lin-naasi husna' farma kar tamam انسانوں ke sath shaista, naram aur khair-khwahana guftugu karne ka aalamgeer hukm diya hai. Isi tarah kisi ke salam ya tohfay ka jawab us se barh kar garm-joshi se dena Islami tehzeeb ka khassa hai. Aaj ka amli sabaq yeh hai ke har milne wale ko muskura kar poora salam o jawab dein aur apni zaban se kabhi kisi insan ki dil-shikni na hone dein.",
+      en: "Context & Practical Lesson: Reciprocating courtesy with even greater warmth and speaking respectfully to every human being creates a culture of mutual dignity and peace."
     },
     tags: [
       { ur: "حسنِ خطاب", ro: "Husn-e-Khitab", en: "Courteous Speech" },
@@ -8665,10 +8665,10 @@ export const batch20Quotes: QuoteItem[] = [
     id: "ma-286",
     slug: "amanatein-haqdaron-ko-pohanchana-aur-adal-se-faisla",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 11",
+    bookRef: "Surah An-Nisa (4:58) | Makhzan-e-Akhlaq - Page 11",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8677,14 +8677,14 @@ export const batch20Quotes: QuoteItem[] = [
       en: "Restoring Trusts to Their Owners and Judging with Justice"
     },
     quote: {
-      ur: "بے شک اللہ تمہیں حکم دیتا ہے کہ امانتیں ان کے اہل اور حقداروں کے سپرد کرو؛ اور جب لوگوں کے درمیان فیصلہ کرنے لگو تو عدل اور انصاف کے ساتھ فیصلہ کرو، بے شک اللہ تمہیں بہت عمدہ نصیحت فرماتا ہے۔",
-      ro: "Be-shak Allah tumhein hukm deta hai ke amanatein un ke ahl aur haqdaron ke supurd karo; aur jab logon ke darmiyan faisla karne lago to adal aur insaf ke sath faisla karo, be-shak Allah tumhein bohot umda nasihat farmata hai.",
-      en: "Indeed, Allah commands you to render trusts to whom they are due, and when you judge between people, to judge with fairness and justice; how excellent is the instruction Allah gives you."
+      ur: "إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُم بِهِ\n\nترجمہ: بے شک اللہ تمہیں حکم دیتا ہے کہ امانتیں ان کے اہل اور حقداروں کے سپرد کرو؛ اور جب لوگوں کے درمیان فیصلہ کرنے لگو تو عدل اور انصاف کے ساتھ فیصلہ کرو، بے شک اللہ تمہیں بہت عمدہ نصیحت فرماتا ہے۔",
+      ro: "إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُم بِهِ\n\nTarjuma: Be-shak Allah tumhein hukm deta hai ke amanatein un ke ahl aur haqdaron ke supurd karo; aur jab logon ke darmiyan faisla karne lago to adal aur insaf ke sath faisla karo, be-shak Allah tumhein bohot umda nasihat farmata hai.",
+      en: "إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُم بِهِ\n\nTranslation: Indeed, Allah commands you to render trusts to whom they are due, and when you judge between people, to judge with fairness and justice; how excellent is the instruction Allah gives you."
     },
     tashreeh: {
-      ur: "امانت صرف مال و زر تک محدود نہیں بلکہ عہدہ، ذمہ داری، مشورہ اور راز بھی امانت ہیں۔ ہر حق کو اس کے اصل حقدار تک پہنچانا اور فیصلوں میں طرفداری سے پاک انصاف کرنا پرامن معاشرے کی روح ہے۔",
-      ro: "Amanat sirf maal-o-zar tak mehdood nahi balkay ohda, zimmedari, mashwara aur raaz bhi amanat hain. Har haq ko us ke asal haqdar tak pohanchana aur faislon mein tarafdari se paak insaf karna pur-aman muashray ki rooh hai.",
-      en: "Trust encompasses not only wealth, but also positions of responsibility, honest counsel, and impartiality in judgment—forming the bedrock of a just society."
+      ur: "پسِ منظر و تشریح: سورۃ النساء کی یہ عظیم آیت اسلامی نظامِ عدل کی اساس ہے۔ امانت صرف نقد رقم تک محدود نہیں بلکہ عہدہ، ملازمت کا وقت، راز اور مشورہ سب امانت ہیں، اور انہیں ان کے اہل حقداروں تک پہنچانا فرض ہے۔ آج کا عملی سبق یہ ہے کہ اپنے سپرد کیے گئے ہر کام اور ذمہ داری کو امانت سمجھ کر نبھائیں اور گھریلو یا کاروباری فیصلوں میں کبھی طرفداری نہ کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah An-Nisa ki yeh azeem aayat Islami nizam-e-adal ki asas hai. Amanat sirf naqd raqam tak mehdood nahi balkay ohda, mulazmat ka waqt, raaz aur mashwara sab amanat hain, aur unhein un ke ahl haqdaron tak pohanchana farz hai. Aaj ka amli sabaq yeh hai ke apne supurd kiye gaye har kaam aur zimmedari ko amanat samajh kar nibhayein aur ghareloo ya karobari faislon mein kabhi tarafdari na karein.",
+      en: "Context & Practical Lesson: Surah An-Nisa establishes that trust encompasses wealth, professional duties, confidential advice, and fair judgment—forming the bedrock of a just society."
     },
     tags: [
       { ur: "ادائے امانت", ro: "Ada-e-Amanat", en: "Fulfilling Trusts" },
@@ -8695,10 +8695,10 @@ export const batch20Quotes: QuoteItem[] = [
     id: "ma-287",
     slug: "dushmani-mein-bhi-insaf-ka-daman-na-chhorna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 12-13",
+    bookRef: "Surah Al-Ma'idah (5:8) | Makhzan-e-Akhlaq - Page 12-13",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8707,14 +8707,14 @@ export const batch20Quotes: QuoteItem[] = [
       en: "Never Letting Enmity Cause You to Swerve from Justice"
     },
     quote: {
-      ur: "اے ایمان والو! اللہ کے واسطے حق پر قائم رہنے والے اور انصاف کی گواہی دینے والے بنو؛ اور کسی قوم کی عداوت اور دشمنی تمہیں اس بات پر آمادہ نہ کرے کہ تم بے انصافی کر بیٹھو؛ عدل کیا کرو کہ وہی پرہیزگاری کے سب سے زیادہ قریب ہے۔",
-      ro: "Aye eman walo! Allah ke wastay haq par qayam rehne wale aur insaf ki gawahi dene wale bano; aur kisi qoum ki adawat aur dushmani tumhein is baat par aamada na kare ke tum be-insafi kar baitho; adal kiya karo ke wahi parhezgari ke sab se zyada qareeb hai.",
-      en: "O believers! Stand firmly for Allah as witnesses to fair dealing, and do not let the hatred or enmity of any people lead you to deviate from justice; be just—that is closest to true piety."
+      ur: "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ\n\nترجمہ: اے ایمان والو! اللہ کے واسطے حق پر قائم رہنے والے اور انصاف کی گواہی دینے والے بنو؛ اور کسی قوم کی عداوت اور دشمنی تمہیں اس بات پر آمادہ نہ کرے کہ تم بے انصافی کر بیٹھو؛ عدل کیا کرو کہ وہی پرہیزگاری کے سب سے زیادہ قریب ہے۔",
+      ro: "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ\n\nTarjuma: Aye eman walo! Allah ke wastay haq par qayam rehne wale aur insaf ki gawahi dene wale bano; aur kisi qoum ki adawat aur dushmani tumhein is baat par aamada na kare ke tum be-insafi kar baitho; adal kiya karo ke wahi parhezgari ke sab se zyada qareeb hai.",
+      en: "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ\n\nTranslation: O believers! Stand firmly for Allah as witnesses to fair dealing, and do not let the hatred or enmity of any people lead you to deviate from justice; be just—that is closest to true piety."
     },
     tashreeh: {
-      ur: "اپنے دوستوں کے ساتھ انصاف کرنا آسان ہے، لیکن کردار کا اصل امتحان تب ہوتا ہے جب مقابلے پر کوئی مخالف یا ناپسندیدہ شخص کھڑا ہو۔ دشمن کے حق میں بھی سچی گواہی دینا اور زیادتی نہ کرنا تقویٰ کی معراج ہے۔",
-      ro: "Apne doston ke sath insaf karna asan hai, لیکن kirdar ka asal imtihan tab hota hai jab muqable par koi mukhalif ya napasandeeda shakhs khara ho. Dushman ke haq mein bhi sachi gawahi dena aur ziyadati na karna taqwa ki meraj hai.",
-      en: "True morality is tested when dealing with opponents: refusing to let personal dislike cloud fair judgment is the highest expression of God-consciousness."
+      ur: "پسِ منظر و تشریح: اپنے دوستوں اور پسندیدہ لوگوں کے ساتھ انصاف کرنا آسان ہے، لیکن سورۃ المائدہ کی یہ آیت کردار کا اصل امتحان وہاں بتاتی ہے جہاں مقابلے پر کوئی مخالف کھڑا ہو۔ آج کا عملی سبق یہ ہے کہ ذاتی رنجش یا اختلاف کو کبھی حق گوئی کے آڑے نہ آنے دیں؛ مخالف کی خوبی کا اعتراف کرنا اور اس کے حق میں سچی گواہی دینا ہی تقویٰ کی معراج ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Apne doston aur pasandeeda logon ke sath insaf karna asan hai, lekin Surah Al-Ma'idah ki yeh aayat kirdar ka asal imtihan wahan batati hai jahan muqable par koi mukhalif khara ho. Aaj ka amli sabaq yeh hai ke zaati ranjish ya ikhtilaf ko kabhi haq-goi ke aaray na aane dein; mukhalif ki khoobi ka aitraf karna aur us ke haq mein sachi gawahi dena hi taqwa ki meraj hai.",
+      en: "Context & Practical Lesson: True morality is tested when dealing with opponents; refusing to let personal dislike cloud fair judgment is the highest expression of God-consciousness."
     },
     tags: [
       { ur: "حق پرستی", ro: "Haq-Parasti", en: "Impartiality" },
@@ -8725,10 +8725,10 @@ export const batch20Quotes: QuoteItem[] = [
     id: "ma-288",
     slug: "tangdasti-ke-bawajood-doosron-ko-apne-oopar-tarjeeh-dena",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 15",
+    bookRef: "Surah Al-Hashr (59:9) | Makhzan-e-Akhlaq - Page 15",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8737,14 +8737,14 @@ export const batch20Quotes: QuoteItem[] = [
       en: "Altruism: Preferring Others Over Oneself Even in Need"
     },
     quote: {
-      ur: "اور وہ اپنے دلوں میں اس چیز کی کوئی جلن یا کھٹک محسوس نہیں کرتے جو ان کے بھائیوں کو دی جائے، اور خود اپنی ذات پر دوسروں کو ترجیح دیتے ہیں خواہ ان کو خود بھی سخت حاجت اور تنگدستی درپیش ہو۔",
-      ro: "Aur woh apne dilon mein us cheez ki koi jalan ya khatak mehsoos nahi karte jo un ke bhaiyon ko di jaye, aur khud apni zaat par doosron ko tarjeeh dete hain khwah un ko khud bhi sakht hajat aur tangdasti darpesh ho.",
-      en: "They find no envy in their hearts for what has been given to their brothers, and they give preference to others over themselves, even though they themselves are in pressing need."
+      ur: "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ\n\nترجمہ: اور وہ اپنے دلوں میں اس چیز کی کوئی جلن یا کھٹک محسوس نہیں کرتے جو ان کے بھائیوں کو دی جائے، اور خود اپنی ذات پر دوسروں کو ترجیح دیتے ہیں خواہ ان کو خود بھی سخت حاجت اور تنگدستی درپیش ہو۔",
+      ro: "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ\n\nTarjuma: Aur woh apne dilon mein us cheez ki koi jalan ya khatak mehsoos nahi karte jo un ke bhaiyon ko di jaye, aur khud apni zaat par doosron ko tarjeeh dete hain khwah un ko khud bhi sakht hajat aur tangdasti darpesh ho.",
+      en: "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ\n\nTranslation: And they find no envy in their hearts for what has been given to their brothers, and they give preference to others over themselves, even though they themselves are in pressing need."
     },
     tashreeh: {
-      ur: "فراوانی میں خرچ کرنا سخاوت ہے، لیکن جب انسان کو خود کسی چیز کی ضرورت ہو اور وہ اپنی ضرورت دبا کر کسی زیادہ مجبور انسان کو اپنے اوپر مقدم رکھے تو اسے ’ایثار‘ کہتے ہیں جو اخلاق کا بلند ترین چوٹی کا مقام ہے۔",
-      ro: "Farawani mein kharch karna sakhawat hai, lekin jab insan ko khud kisi cheez ki zaroorat ho aur woh apni zaroorat daba kar kisi zyada majboor insan ko apne oopar muqaddam rakhe to usay 'eesar' kehte hain jo akhlaq ka buland-tareen choti ka maqam hai.",
-      en: "Giving from surplus is generosity, but sacrificing one's own pressing need to comfort someone else is altruism—the loftiest peak of human nobility."
+      ur: "پسِ منظر و تشریح: سورۃ الحشر کی یہ آیت انصارِ مدینہ کے اس بے مثال ایثار کی یادگار ہے جنہوں نے اپنے گھر کے بچوں کو سلا کر بھوکے مہمان کو کھانا کھلایا۔ مشکل الفاظ میں 'خصاصۃ' کا معنی شدید فاقہ اور حاجت ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی ترقی دیکھ کر دل کو حسد سے پاک رکھیں اور کم وسائل میں بھی کسی مجبور کا سہارا بننے کا جذبہ زندہ رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Hashr ki yeh aayat Ansar-e-Madinah ke us be-misal eesar ki yaadgar hai jinhon ne apne ghar ke bachon ko sula kar bhookay mehman ko khana khilaya. Mushkil alfaz mein 'khasasah' ka ma'ni shadeed faqa aur hajat hai. Aaj ka amli sabaq yeh hai ke doosron ki taraqqi dekh kar dil ko hasad se paak rakhein aur kam wasail mein bhi kisi majboor ka sahara banne ka jazba zinda rakhein.",
+      en: "Context & Practical Lesson: Giving from surplus is generosity, but sacrificing one's own pressing need ('khasasah') to comfort someone else is altruism—the loftiest peak of human nobility."
     },
     tags: [
       { ur: "ایثار", ro: "Eesar", en: "Altruism" },
@@ -9118,11 +9118,11 @@ export const batch21Quotes: QuoteItem[] = [
     id: "ma-301",
     slug: "thori-dunyawi-qeemat-par-usool-aur-ahad-na-bechna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    bookRef: "Surah An-Nahl (16:95) | Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Paraphrased Summary)"
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
       ur: "معمولی دنیاوی مفاد کے بدلے اپنے عہد اور ضمیر کا سودا نہ کرنا",
@@ -9130,14 +9130,14 @@ export const batch21Quotes: QuoteItem[] = [
       en: "Never Trading Moral Principles for Fleeting Worldly Gain"
     },
     quote: {
-      ur: "حقیقی استقامت یہ ہے کہ انسان اپنے رب کے عہد اور سچائی کے اصولوں کو چند روزہ دنیاوی مفادات کے بدلے ہرگز فروخت نہ کرے؛ کیونکہ دنیا کا نفع عارضی ہے اور حق پر قائم رہنے کا اجر لازوال ہے۔",
-      ro: "Haqeeqi istaqamat yeh hai ke insan apne Rab ke ahad aur sachai ke usoolon ko chand roza dunyawi mafadat ke badlay hargiz farokht na kare; kyunkeh duniya ka nafa aarzi hai aur haq par qayam rehne ka ajr la-zawal hai.",
-      en: "True steadfastness means never bartering away sacred covenants and moral integrity for temporary worldly profit, for material gain quickly fades while the reward of truth endures forever."
+      ur: "وَلَا تَشْتَرُوا بِعَهْدِ اللَّهِ ثَمَنًا قَلِيلًا ۚ إِنَّمَا عِندَ اللَّهِ هُوَ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ\n\nترجمہ: اور اللہ کے عہد کو تھوڑی سی دنیاوی قیمت کے بدلے فروخت نہ کرو؛ بے شک جو ثواب اور انعام اللہ کے پاس ہے وہی تمہارے لیے بہتر ہے اگر تم علم رکھتے ہو۔",
+      ro: "وَلَا تَشْتَرُوا بِعَهْدِ اللَّهِ ثَمَنًا قَلِيلًا ۚ إِنَّمَا عِندَ اللَّهِ هُوَ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ\n\nTarjuma: Aur Allah ke ahad ko thori si dunyawi qeemat ke badlay farokht na karo; be-shak jo sawab aur inam Allah ke paas hai wahi tumhare liye behtar hai agar tum ilm rakhte ho.",
+      en: "وَلَا تَشْتَرُوا بِعَهْدِ اللَّهِ ثَمَنًا قَلِيلًا ۚ إِنَّمَا عِندَ اللَّهِ هُوَ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ\n\nTranslation: And do not barter the covenant of Allah for a small worldly price; indeed, what is with Allah is far better for you, if only you knew."
     },
     tashreeh: {
-      ur: "زندگی میں بارہا ایسے مواقع آتے ہیں جہاں جھوٹ یا بے انصافی سے فوری مالی فائدہ نظر آتا ہے۔ ایسے وقت میں لالچ کو ٹھکرا کر اپنے ایمان اور وعدے کی لاج رکھنا ہی انسان کی اصل قیمت طے کرتا ہے۔",
-      ro: "Zindagi mein barha aise mawaqe aate hain jahan jhoot ya be-insafi se fori maali faida nazar aata hai. Aise waqt mein lalach ko thukra kar apne eman aur waday ki laaj rakhna hi insan ki asal qeemat tay karta hai.",
-      en: "Temptations often promise quick profit at the expense of honesty; choosing integrity over expediency defines a person's true moral worth."
+      ur: "پسِ منظر و تشریح: سورۃ النحل کی اس آیت میں دنیا کی پوری دولت کو بھی آخرت کے مقابلے میں 'ثمن قلیل' (تھوڑی قیمت) قرار دیا گیا ہے۔ زندگی میں بارہا ایسے مواقع آتے ہیں جہاں جھوٹی قسم یا وعدہ خلافی سے فوری مالی فائدہ نظر آتا ہے۔ آج کا عملی سبق یہ ہے کہ وقتی لالچ کو ٹھکرا کر اپنے ایمان اور وعدے کی لاج رکھیں کیونکہ حلال اور سچائی کی برکت ہمیشہ باقی رہتی ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah An-Nahl ki is aayat mein duniya ki poori daulat ko bhi akhirat ke muqable mein 'samanan qaleela' (thori qeemat) qarar diya gaya hai. Zindagi mein barha aise mawaqe aate hain jahan jhooti qasam ya wada-khilafi se fori maali faida nazar aata hai. Aaj ka amli sabaq yeh hai ke waqti lalach ko thukra kar apne eman aur waday ki laaj rakhein kyunkeh halal aur sachai ki barkat hamesha baqi rehti hai.",
+      en: "Context & Practical Lesson: Surah An-Nahl reminds us that all worldly gain is a 'small price' compared to eternal integrity. Choosing honesty over quick, unethical profit preserves lasting blessing."
     },
     tags: [
       { ur: "استقامت", ro: "Istaqamat", en: "Integrity" },
@@ -9148,26 +9148,26 @@ export const batch21Quotes: QuoteItem[] = [
     id: "ma-302",
     slug: "sail-aur-zaroorat-mand-ko-jhirakne-se-parhez",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    bookRef: "Surah Ad-Duha (93:9-11) | Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Paraphrased Summary)"
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "سائل کو نہ جھڑکنا اور رب کی نعمتوں کا شکرانہ",
-      ro: "Sail Ko Na Jhirakna Aur Rab Ki Nematon Ka Shukrana",
-      en: "Never Scolding the Petitioner and Expressing Gratitude"
+      ur: "یتیم پر سختی نہ کرنا، سائل کو نہ جھڑکنا اور شکرِ نعمت",
+      ro: "Yateem Par Sakhti Na Karna, Sail Ko Na Jhirakna Aur Shukr-e-Nemat",
+      en: "Honoring the Orphan, Never Scolding the Petitioner, and Gratitude"
     },
     quote: {
-      ur: "اپنے پروردگار کے احسانات کے جواب میں کبھی کسی بے سہارا پر سختی نہ کرو اور نہ کسی سوال کرنے والے کو جھڑک کر لوٹاؤ؛ بلکہ اپنے رب کی عطا کردہ نعمتوں کا شکر عمل اور عاجزی سے ظاہر کرو۔",
-      ro: "Apne Parwardigar ke ehsanat ke jawab mein kabhi kisi be-sahara par sakhti na karo aur na kisi sawal karne wale ko jhirak kar lautao; balkay apne Rab ki ata karda nematon ka shukr amal aur aajizi se zahir karo.",
-      en: "In gratitude for your Lord's favors, never oppress the vulnerable nor turn away a petitioner with harshness; rather, proclaim the blessings of your Creator through humility and service."
+      ur: "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ  وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ  وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ\n\nترجمہ: پس آپ یتیم پر ہرگز سختی نہ کریں، اور مانگنے والے (سائل) کو مت جھڑکیں، اور اپنے پروردگار کی نعمت کا خوب تذکرہ اور شکر کیا کریں۔",
+      ro: "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ  وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ  وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ\n\nTarjuma: Pas aap yateem par hargiz sakhti na karein, aur mangne wale (sail) ko mat jhirkein, aur apne Parwardigar ki nemat ka khoob tazkira aur shukr kiya karein.",
+      en: "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ  وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ  وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ\n\nTranslation: So as for the orphan, do not oppress them; and as for the petitioner, do not repulse or scold them; and as for the favor of your Lord, proclaim it with gratitude."
     },
     tashreeh: {
-      ur: "مجبوری میں ہاتھ پھیلانے والا یا علم کی بات پوچھنے والا دونوں شفقت کے مستحق ہیں۔ اگر انسان کسی کی مالی مدد نہ بھی کر سکے تو کم از کم عزت اور نرمی سے معذرت کرے تاکہ کسی کا دل نہ ٹوٹے۔",
-      ro: "Majboori mein hath phailane wala ya ilm ki baat poochne wala dono shafqat ke mustahiq hain. Agar insan kisi ki maali madad na bhi kar sake to kam az kam izzat aur narmi se maazrat kare taake kisi ka dil na tootay.",
-      en: "Whether someone seeks financial help or guidance in knowledge, they deserve kindness and dignity; if you cannot fulfill their need, respond with gentle respect."
+      ur: "پسِ منظر و تشریح: سورۃ الضحیٰ کی یہ تین مختصر آیات شکرِ نعمت کے عملی طریقے سکھاتی ہیں: بے سہارا یتیم کے مال اور عزت کی حفاظت کرنا، اور دروازے پر آنے والے حاجت مند یا علم پوچھنے والے طالبِ علم کو کبھی نہ ڈانٹنا۔ آج کا عملی سبق یہ ہے کہ اگر آپ کسی سائل کی مالی مدد نہ بھی کر سکیں تو کم از کم مسکرا کر اور عزت سے معذرت کریں تاکہ کسی کا دل نہ ٹوٹے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Ad-Duha ki yeh teen mukhtasar aayatein shukr-e-nemat ke amli tareeqay sikhati hain: be-sahara yateem ke maal aur izzat ki hifazat karna, aur darwazay par aane wale hajat-mand ya ilm poochne wale talib-e-ilm ko kabhi na dantna. Aaj ka amli sabaq yeh hai ke agar aap kisi sail ki maali madad na bhi kar sakein to kam az kam muskura kar aur izzat se maazrat karein taake kisi ka dil na tootay.",
+      en: "Context & Practical Lesson: Surah Ad-Duha teaches that gratitude for God's favors is expressed by protecting orphans and treating every petitioner or seeker of knowledge with gentle dignity."
     },
     tags: [
       { ur: "شفقت", ro: "Shafqat", en: "Compassion" },
@@ -9178,26 +9178,26 @@ export const batch21Quotes: QuoteItem[] = [
     id: "ma-303",
     slug: "tazkiya-e-nafs-hi-haqeeqi-kamyabi-ka-miyar-hai",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Moral Summary (Ahkam Section)",
+    bookRef: "Surah Ash-Shams (91:8-10) | Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (ماخوذ خلاصہ)",
-      ro: "Ahkam-e-Khuda (Makhooz Khulasa)",
-      en: "Divine Teachings (Paraphrased Summary)"
+      ur: "احکامِ خدا (القرآن الحکیم)",
+      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "اپنے باطن کو سنوارنے والا ہی حقیقی کامیاب ہے",
-      ro: "Apne Batin Ko Sanwarne Wala Hi Haqeeqi Kamyab Hai",
+      ur: "اپنے نفس کو پاکیزہ بنانے والا ہی حقیقی کامیاب ہے",
+      ro: "Apne Nafs Ko Pakeeza Banane Wala Hi Haqeeqi Kamyab Hai",
       en: "True Success Belongs to the One Who Purifies the Soul"
     },
     quote: {
-      ur: "انسان کے دل کو نیکی اور بدی دونوں کی پہچان دے دی گئی ہے؛ پس یقیناً وہ شخص کامیاب ہو گیا جس نے اپنے نفس کو برائیوں کی آلائش سے پاک کر کے نیکی سے پروان چڑھایا، اور وہ نامراد ہوا جس نے اسے گناہوں میں دبا دیا۔",
-      ro: "Insan ke dil ko neki aur badi dono ki pehchan de di gayi hai; pas yaqeenan woh shakhs kamyab ho gaya jis ne apne nafs ko buraiyon ki aalaish se paak kar ke neki se parwan charhaya, aur woh namurad huwa jis ne usay gunahon mein daba diya.",
-      en: "The human soul is inspired with the discernment of right and wrong: truly successful is the one who purifies it through virtue, and truly lost is the one who buries its light beneath corruption."
+      ur: "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا  قَدْ أَفْلَحَ مَن زَكَّاهَا  وَقَدْ خَابَ مَن دَسَّاهَا\n\nترجمہ: پس اللہ نے انسانی نفس کو اس کی بدکاری اور پرہیزگاری کی سمجھ الہام فرما دی؛ بے شک وہ شخص فلاح پا گیا جس نے اپنے نفس کو پاک اور آراستہ کر لیا، اور وہ نامراد ہوا جس نے اسے گناہوں میں دبا دیا۔",
+      ro: "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا  قَدْ أَفْلَحَ مَن زَكَّاهَا  وَقَدْ خَابَ مَن دَسَّاهَا\n\nTarjuma: Pas Allah ne insani nafs ko us ki bad-kari aur parhezgari ki samajh ilham farma di; be-shak woh shakhs falah pa gaya jis ne apne nafs ko paak aur aarasta kar liya, aur woh namurad huwa jis ne usay gunahon mein daba diya.",
+      en: "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا  قَدْ أَفْلَحَ مَن زَكَّاهَا  وَقَدْ خَابَ مَن دَسَّاهَا\n\nTranslation: And He inspired the soul with discernment of its wickedness and its righteousness: truly successful is the one who purifies it, and truly lost is the one who corrupts and buries it."
     },
     tashreeh: {
-      ur: "ہماری اصل ذمہ داری دوسروں کا حساب کتاب رکھنا نہیں بلکہ اپنے اندر کی زمین سے حسد، جھوٹ اور تکبر کی جھاڑیاں صاف کر کے اخلاص اور رحم دلی کے پودے لگانا ہے۔",
-      ro: "Hamari asal zimmedari doosron ka hisab-kitab rakhna nahi balkay apne andar ki zameen se hasad, jhoot aur takabbur ki jhariyan saaf kar ke ikhlas aur reham-dili ke poday lagana hai.",
-      en: "Our primary duty in life is inner cultivation: weeding out malice, deceit, and ego from our own hearts so that sincerity and compassion may flourish."
+      ur: "پسِ منظر و تشریح: سورۃ الشمس میں اللہ تعالیٰ نے گیارہ قسمیں کھانے کے بعد انسانی کامیابی کا یہ اٹل قانون بیان فرمایا ہے کہ فلاح کا دارومدار تزکیۂ نفس (اپنے اندر کو حسد، تکبر اور خیانت سے پاک کرنے) پر ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی خامیوں کا حساب رکھنے کے بجائے روزانہ اپنے دل کی زمین سے ایک برائی نکال کر اخلاص کا پودا لگائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Ash-Shams mein Allah Ta'ala ne gyarah qasmein khane ke baad insani kamyabi ka yeh atal qanoon bayan farmaya hai ke falah ka daromadar tazkiya-e-nafs (apne andar ko hasad, takabbur aur khyanat se paak karne) par hai. Aaj ka amli sabaq yeh hai ke doosron ki khamiyon ka hisab rakhne ke bajaye rozana apne dil ki zameen se aik burai nikal kar ikhlas ka poda lagayein.",
+      en: "Context & Practical Lesson: Surah Ash-Shams declares after eleven cosmic oaths that human success rests on inner purification ('Tazkiyah')—weeding out malice and pride so sincerity can flourish."
     },
     tags: [
       { ur: "تزکیۂ نفس", ro: "Tazkiya-e-Nafs", en: "Self-Purification" },
