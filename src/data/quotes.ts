@@ -7304,10 +7304,10 @@ export const batch17Quotes: QuoteItem[] = [
     id: "ma-241",
     slug: "ehsan-jatla-kar-sadqat-zaya-na-karna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 11-12",
+    bookRef: "Surah Al-Baqarah (2:262-263) & Makhzan-e-Akhlaq - Page 11-12",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -7321,9 +7321,9 @@ export const batch17Quotes: QuoteItem[] = [
       en: "O believers! Do not render your charities worthless by reminders of your generosity or by injury; a kind word and forgiveness are far better than charity followed by hurt."
     },
     tashreeh: {
-      ur: "کسی غریب کی مدد کرنے کے بعد بار بار اس کا ذکر کرنا یا اس سے ذلت آمیز رویہ رکھنا ساری نیکی کو خاک میں ملا دیتا ہے۔ اگر انسان کچھ نہ دے سکے تو کم از کم نرم لفظ بول کر سائل کی عزتِ نفس محفوظ رکھے۔",
-      ro: "Kisi ghareeb ki madad karne ke baad bar bar us ka zikr karna ya us se zillat-aamez rawaiya rakhna sari neki ko khak mein mila deta hai. Agar insan kuch na de sake to kam az kam naram lafz bol kar sail ki izzat-e-nafs mehfooz rakhe.",
-      en: "Boasting about a favor or humiliating a recipient destroys the spiritual value of charity; preserving human dignity with a gentle word outweighs any material gift."
+      ur: "پسِ منظر و تشریح: کسی غریب کی مدد کرنے کے بعد بار بار اس کا ذکر کرنا یا اس سے ذلت آمیز رویہ رکھنا ساری نیکی کو خاک میں ملا دیتا ہے۔ اگر انسان کچھ نہ دے سکے تو کم از کم نرم لفظ بول کر سائل کی عزتِ نفس محفوظ رکھے۔ آج کا عملی سبق یہ ہے کہ خیرات دینے کے بعد اسے طعنہ بننے نہ دیں اور ہمیشہ عاجزی اختیار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Kisi ghareeb ki madad karne ke baad bar bar us ka zikr karna ya us se zillat-aamez rawaiya rakhna sari neki ko khak mein mila deta hai. Agar insan kuch na de sake to kam az kam naram lafz bol kar sail ki izzat-e-nafs mehfooz rakhe. Aaj ka amli sabaq yeh hai ke khairat dene ke baad usay taana banne na dein aur hamesha aajizi ikhtiyar karein.",
+      en: "Context & Practical Lesson: Boasting about a favor or humiliating a recipient destroys the spiritual value of charity; preserving human dignity with a gentle word outweighs any material gift."
     },
     tags: [
       { ur: "آدابِ انفاق", ro: "Aadab-e-Infaq", en: "Dignified Charity" },
@@ -7334,10 +7334,10 @@ export const batch17Quotes: QuoteItem[] = [
     id: "ma-242",
     slug: "momin-bhaiyon-ke-darmiyan-insaf-se-sulah-karana",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    bookRef: "Surah Al-Hujurat (49:9-10) & Makhzan-e-Akhlaq - Page 13",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -7351,9 +7351,9 @@ export const batch17Quotes: QuoteItem[] = [
       en: "The believers are but brothers, so make peace between your brothers with fairness and justice; and revere Allah so that you may be shown mercy."
     },
     tashreeh: {
-      ur: "جب دو افراد یا خاندانوں میں اختلاف پیدا ہو تو تیسرے فرد کا کام آگ بھڑکانا نہیں بلکہ غیر جانبداری اور انصاف کے ساتھ دونوں کے دلوں کو جوڑنا ہے۔ صلح کرانے سے معاشرے پر اللہ کی رحمت نازل ہوتی ہے۔",
-      ro: "Jab do afrad ya khandanon mein ikhtilaf paida ho to teesre fard ka kaam aag bharkana nahi balkay ghair-janibdari aur insaf ke sath dono ke dilon ko jorna hai. Sulah karane se muashray par Allah ki rehmat nazil hoti hai.",
-      en: "When disputes arise between people, true brotherhood calls for impartial mediation and peacemaking rather than taking sides or fueling division."
+      ur: "پسِ منظر و تشریح: سورۃ الحجرات کا یہ اصول معاشرے کی بقا کے لیے ضامن ہے۔ جب دو افراد یا خاندانوں میں اختلاف پیدا ہو تو تیسرے فرد کا کام آگ بھڑکانا نہیں بلکہ غیر جانبداری اور انصاف کے ساتھ دونوں کے دلوں کو جوڑنا ہے۔ آج کا عملی سبق یہ ہے کہ لڑائی جھگڑے بڑھانے کے بجائے ہمیشہ صلح اور امن کی کوشش کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Hujurat ka yeh usool muashray ki baqa ke liye zaman hai. Jab do afrad ya khandanon mein ikhtilaf paida ho to teesre fard ka kaam aag bharkana nahi balkay ghair-janibdari aur insaf ke sath dono ke dilon ko jorna hai. Aaj ka amli sabaq yeh hai ke larai-jhagray barhane ke bajaye hamesha sulah aur aman ki koshish karein.",
+      en: "Context & Practical Lesson: When disputes arise between people, true brotherhood calls for impartial mediation and peacemaking rather than taking sides or fueling division."
     },
     tags: [
       { ur: "اصلاحِ ذات البین", ro: "Islah-e-Zatul-Bain", en: "Peacemaking" },
@@ -7364,10 +7364,10 @@ export const batch17Quotes: QuoteItem[] = [
     id: "ma-243",
     slug: "burai-ko-behtareen-bhalai-se-door-karna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 14",
+    bookRef: "Surah Fussilat (41:34) & Makhzan-e-Akhlaq - Page 14",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -7381,16 +7381,16 @@ export const batch17Quotes: QuoteItem[] = [
       en: "Good and evil are never equal; repel evil with that which is finest, and thereupon the one between whom and you there was enmity will become as though he were a devoted friend—and none is granted this character except the patient."
     },
     tashreeh: {
-      ur: "نفرت کو نفرت سے ختم نہیں کیا جا سکتا۔ جب انسان صبر کا گھونٹ پی کر زیادتی کے جواب میں حسنِ سلوک کرتا ہے تو مخالف کا ضمیر جاگ اٹھتا ہے اور پرانی عداوت گہری دوستی میں بدل جاتی ہے۔",
-      ro: "Nafrat ko nafrat se khatam nahi kiya ja sakta. Jab insan sabr ka ghoont pee kar ziyadati ke jawab mein husn-e-sulook karta hai to mukhalif ka zameer jaag uthta hai aur purani adawat gehri dosti mein badal jati hai.",
-      en: "Hatred cannot extinguish hatred; responding to hostility with unexpected grace and patience disarms the opponent and turns animosity into lasting respect."
+      ur: "پسِ منظر و تشریح: نفرت کو نفرت سے ختم نہیں کیا جا سکتا۔ جب انسان صبر کا گھونٹ پی کر زیادتی کے جواب میں حسنِ سلوک کرتا ہے تو مخالف کا ضمیر جاگ اٹھتا ہے اور پرانی عداوت گہری دوستی میں بدل جاتی ہے۔ آج کا عملی سبق یہ ہے کہ تلخی کا جواب نرمی سے دے کر دشمنیوں کو مٹانے کی عادت ڈالیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Nafrat ko nafrat se khatam nahi kiya ja sakta. Jab insan sabr ka ghoont pee kar ziyadati ke jawab mein husn-e-sulook karta hai to mukhalif ka zameer jaag uthta hai aur purani adawat gehri dosti mein badal jati hai. Aaj ka amli sabaq yeh hai ke talkhi ka jawab narmi se de kar dushmaniyon ko mitane ki aadat dalein.",
+      en: "Context & Practical Lesson: Responding to hostility with unexpected grace and patience disarms the opponent and turns animosity into lasting respect."
     },
     tags: [
       { ur: "دفعِ شر", ro: "Dafa-e-Shar", en: "Overcoming Evil" },
       { ur: "اعلیٰ اخلاق", ro: "Aala Akhlaq", en: "Noble Conduct" }
     ]
   },
-  {
+{
     id: "ma-244",
     slug: "bewa-aur-miskeen-ki-kafalat-mujahid-ki-manind",
     categorySlug: "irshadat-e-nabawi",
