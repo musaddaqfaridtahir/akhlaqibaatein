@@ -8660,6 +8660,459 @@ export const batch19Quotes: QuoteItem[] = [
   }
 ];
 
+export const batch20Quotes: QuoteItem[] = [
+  {
+    id: "ma-286",
+    slug: "amanatein-haqdaron-ko-pohanchana-aur-adal-se-faisla",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 11",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "امانتیں حقداروں کو سونپنا اور عدل کے ساتھ فیصلہ کرنا",
+      ro: "Amanatein Haqdaron Ko Sonpna Aur Adal Ke Sath Faisla Karna",
+      en: "Restoring Trusts to Their Owners and Judging with Justice"
+    },
+    quote: {
+      ur: "بے شک اللہ تمہیں حکم دیتا ہے کہ امانتیں ان کے اہل اور حقداروں کے سپرد کرو؛ اور جب لوگوں کے درمیان فیصلہ کرنے لگو تو عدل اور انصاف کے ساتھ فیصلہ کرو، بے شک اللہ تمہیں بہت عمدہ نصیحت فرماتا ہے۔",
+      ro: "Be-shak Allah tumhein hukm deta hai ke amanatein un ke ahl aur haqdaron ke supurd karo; aur jab logon ke darmiyan faisla karne lago to adal aur insaf ke sath faisla karo, be-shak Allah tumhein bohot umda nasihat farmata hai.",
+      en: "Indeed, Allah commands you to render trusts to whom they are due, and when you judge between people, to judge with fairness and justice; how excellent is the instruction Allah gives you."
+    },
+    tashreeh: {
+      ur: "امانت صرف مال و زر تک محدود نہیں بلکہ عہدہ، ذمہ داری، مشورہ اور راز بھی امانت ہیں۔ ہر حق کو اس کے اصل حقدار تک پہنچانا اور فیصلوں میں طرفداری سے پاک انصاف کرنا پرامن معاشرے کی روح ہے۔",
+      ro: "Amanat sirf maal-o-zar tak mehdood nahi balkay ohda, zimmedari, mashwara aur raaz bhi amanat hain. Har haq ko us ke asal haqdar tak pohanchana aur faislon mein tarafdari se paak insaf karna pur-aman muashray ki rooh hai.",
+      en: "Trust encompasses not only wealth, but also positions of responsibility, honest counsel, and impartiality in judgment—forming the bedrock of a just society."
+    },
+    tags: [
+      { ur: "ادائے امانت", ro: "Ada-e-Amanat", en: "Fulfilling Trusts" },
+      { ur: "عدل و انصاف", ro: "Adal o Insaf", en: "Justice" }
+    ]
+  },
+  {
+    id: "ma-287",
+    slug: "dushmani-mein-bhi-insaf-ka-daman-na-chhorna",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 12-13",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "مخالف کی دشمنی میں بھی انصاف کا دامن نہ چھوڑنا",
+      ro: "Mukhalif Ki Dushmani Mein Bhi Insaf Ka Daman Na Chhorna",
+      en: "Never Letting Enmity Cause You to Swerve from Justice"
+    },
+    quote: {
+      ur: "اے ایمان والو! اللہ کے واسطے حق پر قائم رہنے والے اور انصاف کی گواہی دینے والے بنو؛ اور کسی قوم کی عداوت اور دشمنی تمہیں اس بات پر آمادہ نہ کرے کہ تم بے انصافی کر بیٹھو؛ عدل کیا کرو کہ وہی پرہیزگاری کے سب سے زیادہ قریب ہے۔",
+      ro: "Aye eman walo! Allah ke wastay haq par qayam rehne wale aur insaf ki gawahi dene wale bano; aur kisi qoum ki adawat aur dushmani tumhein is baat par aamada na kare ke tum be-insafi kar baitho; adal kiya karo ke wahi parhezgari ke sab se zyada qareeb hai.",
+      en: "O believers! Stand firmly for Allah as witnesses to fair dealing, and do not let the hatred or enmity of any people lead you to deviate from justice; be just—that is closest to true piety."
+    },
+    tashreeh: {
+      ur: "اپنے دوستوں کے ساتھ انصاف کرنا آسان ہے، لیکن کردار کا اصل امتحان تب ہوتا ہے جب مقابلے پر کوئی مخالف یا ناپسندیدہ شخص کھڑا ہو۔ دشمن کے حق میں بھی سچی گواہی دینا اور زیادتی نہ کرنا تقویٰ کی معراج ہے۔",
+      ro: "Apne doston ke sath insaf karna asan hai, لیکن kirdar ka asal imtihan tab hota hai jab muqable par koi mukhalif ya napasandeeda shakhs khara ho. Dushman ke haq mein bhi sachi gawahi dena aur ziyadati na karna taqwa ki meraj hai.",
+      en: "True morality is tested when dealing with opponents: refusing to let personal dislike cloud fair judgment is the highest expression of God-consciousness."
+    },
+    tags: [
+      { ur: "حق پرستی", ro: "Haq-Parasti", en: "Impartiality" },
+      { ur: "تقویٰ", ro: "Taqwa", en: "Piety" }
+    ]
+  },
+  {
+    id: "ma-288",
+    slug: "tangdasti-ke-bawajood-doosron-ko-apne-oopar-tarjeeh-dena",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Makhzan-e-Akhlaq - Page 15",
+    author: {
+      ur: "احکامِ خدا (القرآن)",
+      ro: "Ahkam-e-Khuda (Al-Quran)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "مقامِ ایثار: اپنی ضرورت پر دوسرے بھائی کو ترجیح دینا",
+      ro: "Maqam-e-Eesar: Apni Zaroorat Par Doosre Bhai Ko Tarjeeh Dena",
+      en: "Altruism: Preferring Others Over Oneself Even in Need"
+    },
+    quote: {
+      ur: "اور وہ اپنے دلوں میں اس چیز کی کوئی جلن یا کھٹک محسوس نہیں کرتے جو ان کے بھائیوں کو دی جائے، اور خود اپنی ذات پر دوسروں کو ترجیح دیتے ہیں خواہ ان کو خود بھی سخت حاجت اور تنگدستی درپیش ہو۔",
+      ro: "Aur woh apne dilon mein us cheez ki koi jalan ya khatak mehsoos nahi karte jo un ke bhaiyon ko di jaye, aur khud apni zaat par doosron ko tarjeeh dete hain khwah un ko khud bhi sakht hajat aur tangdasti darpesh ho.",
+      en: "They find no envy in their hearts for what has been given to their brothers, and they give preference to others over themselves, even though they themselves are in pressing need."
+    },
+    tashreeh: {
+      ur: "فراوانی میں خرچ کرنا سخاوت ہے، لیکن جب انسان کو خود کسی چیز کی ضرورت ہو اور وہ اپنی ضرورت دبا کر کسی زیادہ مجبور انسان کو اپنے اوپر مقدم رکھے تو اسے ’ایثار‘ کہتے ہیں جو اخلاق کا بلند ترین چوٹی کا مقام ہے۔",
+      ro: "Farawani mein kharch karna sakhawat hai, lekin jab insan ko khud kisi cheez ki zaroorat ho aur woh apni zaroorat daba kar kisi zyada majboor insan ko apne oopar muqaddam rakhe to usay 'eesar' kehte hain jo akhlaq ka buland-tareen choti ka maqam hai.",
+      en: "Giving from surplus is generosity, but sacrificing one's own pressing need to comfort someone else is altruism—the loftiest peak of human nobility."
+    },
+    tags: [
+      { ur: "ایثار", ro: "Eesar", en: "Altruism" },
+      { ur: "فراخ دلی", ro: "Farakh-Dili", en: "Magnanimity" }
+    ]
+  },
+  {
+    id: "ma-289",
+    slug: "allah-sooraton-aur-maal-ko-nahi-balkay-dilon-aur-aamaal-ko-dekhta-hai",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 20",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "اللہ تمہاری صورتوں کو نہیں بلکہ دلوں اور اعمال کو دیکھتا ہے",
+      ro: "Allah Tumhari Sooraton Ko Nahi Balkay Dilon Aur Aamaal Ko Dekhta Hai",
+      en: "God Looks Not at Outward Forms, But at Hearts and Deeds"
+    },
+    quote: {
+      ur: "بے شک اللہ تعالیٰ تمہاری ظاہری صورتوں اور تمہارے مال و دولت کی طرف نہیں دیکھتا، بلکہ وہ تمہارے دلوں کے اخلاص اور تمہارے اعمال کی طرف دیکھتا ہے۔",
+      ro: "Be-shak Allah Ta'ala tumhari zahiri sooraton aur tumhare maal-o-daulat ki taraf nahi dekhta, balkay Woh tumhare dilon ke ikhlas aur tumhare aamaal ki taraf dekhta hai.",
+      en: "Indeed, Allah does not look at your outward appearances or your wealth; rather, He looks at the sincerity of your hearts and the quality of your deeds."
+    },
+    tashreeh: {
+      ur: "دنیا کے لوگ کپڑوں، گاڑیوں اور چہروں سے مرعوب ہوتے ہیں، لیکن خالقِ کائنات کے ہاں قبولیت کا پیمانہ صرف دل کی نیت کی صفائی اور عمل کی سچائی ہے۔ اس لیے اپنے ظاہر کے ساتھ باطن کو سنوارنا اصل کام ہے۔",
+      ro: "Duniya ke log kapron, gariyon aur chehron se mar'oob hote hain, lekin Khaliq-e-Kainat ke haan qubooliyat ka paimana sirf dil ki niyat ki safai aur amal ki sachai hai. Is liye apne zahir ke sath batin ko sanwarna asal kaam hai.",
+      en: "While society judges by appearances and bank accounts, divine evaluation rests entirely on the purity of intention and the uprightness of action."
+    },
+    tags: [
+      { ur: "خلوصِ نیت", ro: "Khuloos-e-Niyat", en: "Sincerity" },
+      { ur: "باطنی حسن", ro: "Batini Husn", en: "Inner Beauty" }
+    ]
+  },
+  {
+    id: "ma-290",
+    slug: "shak-wali-cheez-chhor-kar-be-shak-cheez-ikhtiyar-karna",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 24",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "شک والی چیز چھوڑ دینا اور سچائی کا اطمینانِ قلب",
+      ro: "Shak Wali Cheez Chhor Dena Aur Sachai Ka Itminan-e-Qalb",
+      en: "Leaving What Causes Doubt for What Brings Peace of Mind"
+    },
+    quote: {
+      ur: "جو چیز تجھے شک اور کھٹک میں ڈالے اسے چھوڑ دے اور اس چیز کو اختیار کر جس میں تجھے کوئی شک نہ ہو؛ کیونکہ سچائی دل کا چین اور اطمینان ہے اور جھوٹ بے چینی اور تردد ہے۔",
+      ro: "Jo cheez tujhe shak aur khatak mein dalay usay chhor de aur us cheez ko ikhtiyar kar jis mein tujhe koi shak na ho; kyunkeh sachai dil ka chain aur itminan hai aur jhoot be-chaini aur taraddud hai.",
+      en: "Leave that which makes you doubt for that which does not make you doubt; for indeed, truth brings tranquility to the heart, whereas falsehood breeds anxiety and hesitation."
+    },
+    tashreeh: {
+      ur: "جب کسی کمائی یا کام کے بارے میں ضمیر میں کھٹک پیدا ہو اور انسان نہ چاہے کہ لوگوں کو اس کی خبر ہو، تو سمجھ لینا چاہیے کہ اس میں کچھ گڑبڑ ہے۔ مشکوک راستے چھوڑ کر صاف اور بے داغ راستہ چننا دل کو سکون دیتا ہے۔",
+      ro: "Jab kisi kamai ya kaam ke baray mein zameer mein khatak paida ho aur insan na chahe ke logon ko us ki khabar ho, to samajh lena chahiye ke us mein kuch garbar hai. Mashkook rastay chhor kar saaf aur be-daagh rasta chunna dil ko sukoon deta hai.",
+      en: "A healthy conscience feels uneasy around questionable dealings; stepping away from doubtful matters preserves spiritual clarity and inner peace."
+    },
+    tags: [
+      { ur: "احتیاط و تقویٰ", ro: "Ehtiyat o Taqwa", en: "Scrupulousness" },
+      { ur: "اطمینانِ قلب", ro: "Itminan-e-Qalb", en: "Peace of Mind" }
+    ]
+  },
+  {
+    id: "ma-291",
+    slug: "oopar-wala-hath-neechay-wale-hath-se-behtar-hai",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 26",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "دینے والا ہاتھ لینے والے ہاتھ سے بہتر ہے اور استغنا کی برکت",
+      ro: "Dene Wala Hath Lene Wale Hath Se Behtar Hai Aur Istighna Ki Barkat",
+      en: "The Giving Hand is Better Than the Receiving Hand"
+    },
+    quote: {
+      ur: "اوپر والا ہاتھ نیچے والے ہاتھ سے بہتر ہے؛ اوپر والا ہاتھ خرچ اور عطا کرنے والا ہے اور نیچے والا ہاتھ مانگنے والا ہے۔ جو شخص سوال سے بچنا چاہتا ہے اللہ اسے پاک دامن رکھتا ہے، اور جو بے نیازی چاہتا ہے اللہ اسے غنی کر دیتا ہے۔",
+      ro: "Oopar wala hath neechay wale hath se behtar hai; oopar wala hath kharch aur ata karne wala hai aur neechay wala hath mangne wala hai. Jo shakhs sawal se bachna chahta hai Allah usay paak-daman rakhta hai, aur jo be-niyazi chahta hai Allah usay ghani kar deta hai.",
+      en: "The upper hand is better than the lower hand—the upper hand is the one that gives, and the lower hand is the one that begs. Whoever strives to abstain from asking others, Allah grants them dignity, and whoever seeks self-sufficiency, Allah enriches them."
+    },
+    tashreeh: {
+      ur: "یہ فرمان ہر نوجوان اور محنت کش میں خودداری کی روح پھونکتا ہے کہ انسان محنت کر کے اس مقام پر آئے کہ دوسروں کو دینے والا بنے۔ جو شخص اپنا عزتِ نفس بچا کر محنت کرتا ہے اللہ اس کے لیے غنا کے دروازے کھول دیتا ہے۔",
+      ro: "Yeh farman har naujawan aur mehnat-kash mein khuddari ki rooh phoonkta hai ke insan mehnat kar ke us maqam par aaye ke doosron ko dene wala banay. Jo shakhs apna izzat-e-nafs bacha kar mehnat karta hai Allah us ke liye ghina ke darwazay khol deta hai.",
+      en: "Striving through hard work to become a giver rather than a taker builds self-respect and invites divine abundance."
+    },
+    tags: [
+      { ur: "استغنا", ro: "Istighna", en: "Self-Sufficiency" },
+      { ur: "سخاوت", ro: "Sakhawat", en: "Generosity" }
+    ]
+  },
+  {
+    id: "ma-292",
+    slug: "huzoor-ki-kamil-haya-aur-nagawar-baat-par-sukoot",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 35-36",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "حضور اکرم ﷺ کی کامل حیا اور ناگواری کے وقت باوقار سکوت",
+      ro: "Huzoor Akram ﷺ Ki Kamil Haya Aur Nagawari Ke Waqt Ba-Waqar Sukoot",
+      en: "The Prophet's ﷺ Profound Modesty and Dignified Silence"
+    },
+    quote: {
+      ur: "حضور اکرم ﷺ پردہ نشین کنواری دوشیزہ سے بھی زیادہ باحیا تھے؛ جب آپ ﷺ کو کوئی بات ناگوار گزرتی تو زبان مبارک سے سخت کلمہ نہ فرماتے، بلکہ آپ ﷺ کے چہرۂ انور کے آثار سے صحابہؓ جان لیتے کہ یہ بات آپ کو پسند نہیں آئی۔",
+      ro: "Huzoor Akram ﷺ parda-nasheen kunwari dosheeza se bhi zyada ba-haya thay; jab Aap ﷺ ko koi baat nagawar guzarti to zaban mubarak se sakht kalma na farmate, balkay Aap ﷺ ke chehra-e-anwar ke aasar se Sahaba (R.A) jaan lete ke yeh baat Aap ko pasand nahi aayi.",
+      en: "The Prophet ﷺ possessed deeper modesty than a veiled maiden; whenever something displeased him, he never uttered a harsh word, and his companions would recognize his disapproval simply from the expression on his noble face."
+    },
+    tashreeh: {
+      ur: "شرم و حیا اور ضبطِ نفس کی یہ اعلیٰ ترین مثال ہے کہ ناپسندیدگی کے باوجود زبان بے قابو نہ ہو۔ باوقار انسان کی خاموشی اور سنجیدگی ہی سامنے والے کو اپنی غلطی کا احساس دلانے کے لیے کافی ہوتی ہے۔",
+      ro: "Sharm-o-haya aur zabt-e-nafs ki yeh aala-tareen misal hai ke napasandeedgi ke bawajood zaban be-qaboo na ho. Ba-waqar insan ki khamoshi aur sanjeedgi hi samne wale ko apni ghalti ka ehsas dilane ke liye kafi hoti hai.",
+      en: "True refinement expresses disapproval through composed dignity rather than angry outbursts, inspiring respect and immediate self-correction."
+    },
+    tags: [
+      { ur: "حیائے نبوی ﷺ", ro: "Haya-e-Nabawi ﷺ", en: "Prophetic Modesty" },
+      { ur: "وقار", ro: "Waqar", en: "Composure" }
+    ]
+  },
+  {
+    id: "ma-293",
+    slug: "majlis-mein-har-sharik-ko-poori-tawajjo-dena",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 41-42",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "مجلس کے ہر شریک کو پوری توجہ اور عزت بخشنے کا نبوی انداز",
+      ro: "Majlis Ke Har Sharik Ko Poori Tawajjo Aur Izzat Bakhshne Ka Nabawi Andaz",
+      en: "Giving Every Companion Full Attention in a Gathering"
+    },
+    quote: {
+      ur: "آپ ﷺ اپنی مجلس میں بیٹھے ہوئے تمام شرکاء پر یکساں توجہ اور التفات کی نظر فرماتے، اور جب کسی سے گفتگو فرماتے تو پورا رخِ انور اس کی طرف پھیر لیتے؛ یہاں تک کہ ہر بیٹھنے والا یہی سمجھتا کہ حضور ﷺ کے نزدیک سب سے زیادہ عزت والا وہی ہے۔",
+      ro: "Aap ﷺ apni majlis mein baithe huye tamam shuraka par yaksan tawajjo aur iltifat ki nazar farmate, aur jab kisi se guftugu farmate to poora rukh-e-anwar us ki taraf pher lete; yahan tak ke har baithne wala yehi samajhta ke Huzoor ﷺ ke nazdeek sab se zyada izzat wala wahi hai.",
+      en: "The Prophet ﷺ distributed his attention equally among everyone in his gathering, turning his whole body toward whoever spoke to him, so that every single person felt they were the most honored individual in his sight."
+    },
+    tashreeh: {
+      ur: "محفل میں کسی ایک خاص شخص سے باتیں کرنا اور باقی لوگوں کو نظرانداز کر دینا آدابِ معاشرت کے خلاف ہے۔ ہر ملنے والے کو پوری توجہ سے سننا اور اہمیت دینا دلوں کو ہمیشہ کے لیے جیت لیتا ہے۔",
+      ro: "Mehfil mein kisi aik khaas shakhs se baatein karna aur baqi logon ko nazar-andaz kar dena aadab-e-muasharat ke khilaf hai. Har milne wale ko poori tawajjo se sunna aur ahmiyat dena dilon ko hamesha ke liye jeet leta hai.",
+      en: "Making every person in a room feel seen, heard, and valued equally is the hallmark of supreme emotional intelligence and prophetic grace."
+    },
+    tags: [
+      { ur: "آدابِ مجلس", ro: "Aadab-e-Majlis", en: "Gathering Etiquette" },
+      { ur: "تالیفِ قلب", ro: "Taleef-e-Qalb", en: "Winning Hearts" }
+    ]
+  },
+  {
+    id: "ma-294",
+    slug: "kalam-maal-aur-hilm-ki-haqeeqi-bhalai",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 68",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "کلام، مال اور بردباری کی حقیقی قدر و قیمت",
+      ro: "Kalam, Maal Aur Burdbari Ki Haqeeqi Qadr-o-Qeemat",
+      en: "The True Worth of Speech, Wealth, and Forbearance"
+    },
+    quote: {
+      ur: "اس قول اور کلام میں کوئی بھلائی نہیں جس سے رضائے الٰہی مقصود نہ ہو؛ اس مال میں کوئی خیر نہیں جو راہِ حق میں خرچ نہ ہو؛ اور اس شخص میں کوئی خوبی نہیں جس کی جہالت اور غصہ اس کے حلم اور بردباری پر غالب آ جائے۔",
+      ro: "Us qoul aur kalam mein koi bhalai nahi jis se raza-e-Ilahi maqsood na ho; us maal mein koi khair nahi jo raah-e-haq mein kharch na ho; aur us shakhs mein koi khoobi nahi jis ki jahalat aur ghussa us ke hilm aur burdbari par ghalib aa jaye.",
+      en: "There is no good in speech that does not seek the pleasure of God, no blessing in wealth that is not spent in the path of truth, and no virtue in a person whose anger overpowers their forbearance."
+    },
+    tashreeh: {
+      ur: "انسان کی گفتگو کی قیمت اس کی نیت سے ہے، مال کی قیمت اس کے صحیح مصرف سے ہے، اور شخصیت کی پختگی اس بات میں ہے کہ غصے کے وقت اس کا حلم اس کی نادانی پر حاوی رہے۔",
+      ro: "Insan ki guftugu ki qeemat us ki niyat se hai, maal ki qeemat us ke sahi masraf se hai, aur shakhsiyat ki pukhtagi is baat mein hai ke gusse ke waqt us ka hilm us ki nadani par hawi rahe.",
+      en: "Speech is measured by sincerity, wealth by generosity, and character by whether patience triumphs over anger in moments of provocation."
+    },
+    tags: [
+      { ur: "حلم و بردباری", ro: "Hilm o Burdbari", en: "Forbearance" },
+      { ur: "خیر و برکت", ro: "Khair o Barkat", en: "True Virtue" }
+    ]
+  },
+  {
+    id: "ma-295",
+    slug: "bhai-ki-baat-ka-behtareen-matlab-nikalna-husn-e-zan",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 75-77",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "اپنے بھائی کے کلام کا اچھا مطلب نکالنا اور حسنِ ظن",
+      ro: "Apne Bhai Ke Kalam Ka Acha Matlab Nikalna Aur Husn-e-Zan",
+      en: "Giving Your Brother the Benefit of the Doubt"
+    },
+    quote: {
+      ur: "اپنے مومن بھائی کے منہ سے نکلنے والے کسی کلمے کے بارے میں اس وقت تک بدگمانی نہ کرو جب تک تمہارے پاس اس کا کوئی نہ کوئی اچھا اور نیک مطلب نکالنے کی گنجائش موجود ہو۔",
+      ro: "Apne momin bhai ke munh se nikalne wale kisi kalmay ke baray mein us waqt tak bad-gumani na karo jab tak tumhare paas us ka koi na koi acha aur nek matlab nikalne ki gunjaish maujood ho.",
+      en: "Never think ill of a word uttered by your brother as long as you can find even a single good and honorable interpretation for it."
+    },
+    tashreeh: {
+      ur: "آج کے دور میں تعلقات ٹوٹنے کی سب سے بڑی وجہ یہ ہے کہ ہم سامنے والے کی بات کا بدترین مطلب نکال لیتے ہیں۔ اگر انسان اپنے دوست کی بات کو اچھے معنی پہنانے کی عادت ڈال لے تو نوے فیصد رنجشیں پیدا ہی نہ ہوں۔",
+      ro: "Aaj ke daur mein talluqat tootne ki sab se badi wajah yeh hai ke hum samne wale ki baat ka bad-tareen matlab nikal lete hain. Agar insan apne dost ki baat ko achay ma'ni pehnane ki aadat daal le to nawwe feesad ranjishein paida hi na hon.",
+      en: "Most misunderstandings vanish when we choose to interpret the words of others charitably rather than jumping to the worst conclusion."
+    },
+    tags: [
+      { ur: "حسنِ ظن", ro: "Husn-e-Zan", en: "Goodwill" },
+      { ur: "بھائی چارہ", ro: "Bhai-Chara", en: "Brotherhood" }
+    ]
+  },
+  {
+    id: "ma-296",
+    slug: "allah-ke-dekhne-ka-yaqeen-gunah-se-rokne-ke-liye-kafi",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 85-86",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "اللہ کے دیکھنے کا یقین گناہ سے رکنے کے لیے کافی ہے",
+      ro: "Allah Ke Dekhne Ka Yaqeen Gunah Se Rukne Ke Liye Kafi Hai",
+      en: "Knowing That God Sees You is Enough as a Deterrent"
+    },
+    quote: {
+      ur: "انسان کو برائی سے روکنے اور نصیحت پکڑنے کے لیے یہی یقین کافی ہے کہ اللہ تعالیٰ ہر لمحہ اس کو دیکھ رہا ہے؛ کوئی شخص جو عمل بھی چھپ کر کرتا ہے، اللہ تعالیٰ اس کا اثر اس کے چہرے اور زبان سے ظاہر فرما دیتا ہے۔",
+      ro: "Insan ko burai se rokne aur nasihat pakarne ke liye yehi yaqeen kafi hai ke Allah Ta'ala har lamha us ko dekh raha hai; koi shakhs jo amal bhi chhup kar karta hai, Allah Ta'ala us ka asar us ke chehray aur zaban se zahir farma deta hai.",
+      en: "It suffices as a moral deterrent for a person to know with certainty that God is watching them at every moment; whatever a person conceals in their inner life, God eventually clothes them with its garment in public."
+    },
+    tashreeh: {
+      ur: "انسان دنیا کی نظروں سے تو چھپ سکتا ہے لیکن اپنے خالق کی نظر سے نہیں۔ جو شخص اپنے باطن میں نیکی چھپاتا ہے اس کے چہرے پر نور آ جاتا ہے، اور جو کھوٹ چھپاتا ہے اس کی زبان اور عمل سے وہ کھوٹ بے نقاب ہو کر رہتا ہے۔",
+      ro: "Insan duniya ki nazron se to chhup sakta hai lekin apne Khaliq ki nazar se nahi. Jo shakhs apne batin mein neki chhupata hai us ke chehray par noor aa jata hai, aur jo khot chhupata hai us ki zaban aur amal se woh khot be-naqab ho kar rehta hai.",
+      en: "Inner character cannot remain hidden forever: private righteousness radiates as dignity on the face, while hidden malice eventually betrays itself."
+    },
+    tags: [
+      { ur: "احساسِ حاضری", ro: "Ehsas-e-Haziri", en: "God-Consciousness" },
+      { ur: "پاکیزگی", ro: "Pakeezgi", en: "Integrity" }
+    ]
+  },
+  {
+    id: "ma-297",
+    slug: "aqal-kamil-ho-jaye-to-guftugu-mukhtasar-ho-jati-hai",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 90-93",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "جب عقل کامل ہو جاتی ہے تو گفتگو کم ہو جاتی ہے",
+      ro: "Jab Aqal Kamil Ho Jati Hai To Guftugu Kam Ho Jati Hai",
+      en: "When Reason Becomes Complete, Speech Decreases"
+    },
+    quote: {
+      ur: "جب انسان کی عقل کامل اور پختہ ہو جاتی ہے تو اس کی گفتگو مختصر ہو جاتی ہے؛ مصیبت میں صبر کرنا خزانہ ہے، قناعت نہ ختم ہونے والی جاگیر ہے، اور سب سے بہترین رفیق اچھے اخلاق ہیں۔",
+      ro: "Jab insan ki aqal kamil aur pukhta ho jati hai to us ki guftugu mukhtasar ho jati hai; musibat mein sabr karna khazana hai, qana'at na khatam hone wali jageer hai, aur sab se behtareen rafeeq achay akhlaq hain.",
+      en: "When a person's intellect reaches maturity, their words become few; patience in hardship is a treasure, contentment is an inexhaustible estate, and the finest companion in life is noble character."
+    },
+    tashreeh: {
+      ur: "خالی برتن زیادہ شور مچاتا ہے جبکہ بھرا ہوا برتن خاموش رہتا ہے۔ جیسے جیسے انسان کا علم اور تجربہ گہرا ہوتا ہے، وہ بے مقصد بحث چھوڑ کر صرف کام اور حکمت کی بات کرتا ہے۔",
+      ro: "Khali bartan zyada shor machata hai jabkeh bhara huwa bartan khamosh rehta hai. Jaise jaise insan ka ilm aur tajurba gehra hota hai, woh be-maqsad behas chhor kar sirf kaam aur hikmat ki baat karta hai.",
+      en: "Just as a full vessel makes no noise, a mature mind speaks only when words add value, finding true wealth in patience and good manners."
+    },
+    tags: [
+      { ur: "پختگیٔ عقل", ro: "Pukhtagi-e-Aqal", en: "Mature Wisdom" },
+      { ur: "کم گوئی", ro: "Kam-Goi", en: "Concise Speech" }
+    ]
+  },
+  {
+    id: "ma-298",
+    slug: "taqwa-ko-tijarat-banao-baghair-sarmaye-ke-nafa-milega",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 98-100",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "تقویٰ کو اپنی تجارت بناؤ، بغیر مال کے نفع ملے گا",
+      ro: "Taqwa Ko Apni Tijarat Banao, Baghair Maal Ke Nafa Milega",
+      en: "Make Piety Your Trade and Profit Will Come Without Capital"
+    },
+    quote: {
+      ur: "اے بیٹے! تقویٰ اور پرہیزگاری کو اپنی تجارت بنا لے، تیرے پاس بغیر کسی دنیاوی مال و اسباب کے نفع آتا رہے گا؛ اور جب دیکھے کہ کسی مجلس میں اللہ کا ذکر اور خیر کی بات ہو رہی ہے تو ان لوگوں کے ساتھ بیٹھ جا، کیونکہ اگر تو عالم ہے تو تیرا علم کام آئے گا اور اگر نادان ہے تو وہ تجھے سکھا دیں گے۔",
+      ro: "Aye betay! Taqwa aur parhezgari ko apni tijarat bana le, tere paas baghair kisi dunyawi maal-o-asbab ke nafa aata rahega; aur jab dekhe ke kisi majlis mein Allah ka zikr aur khair ki baat ho rahi hai to un logon ke sath baith ja, kyunkeh agar tu aalim hai to tera ilm kaam aayega aur agar nadan hai to woh tujhe sikha denge.",
+      en: "O my son! Make piety your commerce and profit will come to you without worldly merchandise; and whenever you find a gathering where God is remembered and wisdom is shared, sit with them—for if you are knowledgeable, your knowledge will benefit you, and if you are unaware, they will teach you."
+    },
+    tashreeh: {
+      ur: "تقویٰ اور ایمانداری ایسی پونجی ہے جس میں کبھی گھاٹا نہیں پڑتا۔ نیک اور صاحبِ علم لوگوں کی محفل میں بیٹھنا ہر حال میں نفع بخش ہے کیونکہ وہاں سے انسان علم، دعا اور برکت لے کر اٹھتا ہے۔",
+      ro: "Taqwa aur emandari aisi poonji hai jis mein kabhi ghata nahi parta. Nek aur sahib-e-ilm logon ki mehfil mein baithna har haal mein nafa-bakhsh hai kyunkeh wahan se insan ilm, dua aur barkat le kar uthta hai.",
+      en: "Integrity is a capital that never suffers loss, and keeping company with the wise enriches both the scholar and the seeker."
+    },
+    tags: [
+      { ur: "حکمتِ لقمان", ro: "Hikmat-e-Luqman", en: "Luqman's Wisdom" },
+      { ur: "صحبتِ خیر", ro: "Suhbat-e-Khair", en: "Blessed Company" }
+    ]
+  },
+  {
+    id: "ma-299",
+    slug: "dil-aaine-ki-manind-hai-usay-keena-ke-zang-se-bachao",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 258",
+    author: {
+      ur: "اقوالِ حکماء و بزرگان",
+      ro: "Aqwal-e-Hukama o Buzurgan",
+      en: "Wisdom of Sages"
+    },
+    title: {
+      ur: "دل آئینے کی مانند ہے، اسے کینے کے زنگ سے صاف رکھو",
+      ro: "Dil Aaine Ki Manind Hai, Usay Keenay Ke Zang Se Saaf Rakho",
+      en: "The Heart is Like a Mirror: Keep It Free from the Rust of Malice"
+    },
+    quote: {
+      ur: "انسان کا دل لوہے کے آئینے کی مانند ہے؛ کینہ، حسد اور بدخواہی اس آئینے کو زنگ لگا دیتے ہیں جس سے حق کا عکس نظر آنا بند ہو جاتا ہے، جبکہ معاف کر دینا، شکر ادا کرنا اور مخلوق کی خیر چاہنا اس آئینے کو صیقل کر کے چمکا دیتے ہیں۔",
+      ro: "Insan ka dil lohay ke aaine ki manind hai; keena, hasad aur bad-khwahi us aaine ko zang laga dete hain jis se haq ka aks nazar aana band ho jata hai, jabkeh maaf kar dena, shukr ada karna aur makhlooq ki khair chahna us aaine ko saiqal kar ke chamka dete hain.",
+      en: "The human heart is like a polished mirror: malice, envy, and ill-will cover it with rust until it can no longer reflect the truth, whereas forgiveness, gratitude, and goodwill polish it bright."
+    },
+    tashreeh: {
+      ur: "جب انسان دل میں لوگوں کے خلاف بغض اور نفرت پالتا ہے تو اس کی اپنی سوچ دھندلا جاتی ہے۔ رات کو سونے سے پہلے سب کو معاف کر کے اپنے دل کا آئینہ صاف کر لینا روحانی سکون کا سب سے بڑا راز ہے۔",
+      ro: "Jab insan dil mein logon ke khilaf bughz aur nafrat palta hai to us ki apni soch dhundla jati hai. Raat ko sonay se pehle sab ko maaf kar ke apne dil ka aaina saaf kar lena roohani sukoon ka sab se bada raaz hai.",
+      en: "Holding onto grudges clouds one's own judgment and peace; cleansing the heart through forgiveness restores clarity and spiritual joy."
+    },
+    tags: [
+      { ur: "صفائے قلب", ro: "Safa-e-Qalb", en: "Pure Heart" },
+      { ur: "بے کینگی", ro: "Be-Keenagi", en: "Freedom from Malice" }
+    ]
+  },
+  {
+    id: "ma-300",
+    slug: "insan-ki-haqeeqi-miras-tootay-dilon-ko-jorna-hai",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 340",
+    author: {
+      ur: "اخلاقی جواہر و حکایات",
+      ro: "Akhlaqi Jawahir o Hikayat",
+      en: "Moral Gems & Parables"
+    },
+    title: {
+      ur: "انسان کی لازوال میراث ٹوٹے ہوئے دلوں کو جوڑنا ہے",
+      ro: "Insan Ki La-Zawal Miras Tootay Huye Dilon Ko Jorna Hai",
+      en: "A Person's Eternal Legacy is Mending Broken Hearts"
+    },
+    quote: {
+      ur: "پتھر اور اینٹ کے بنے ہوئے محلات وقت کے ساتھ کھنڈر بن جاتے ہیں، لیکن کسی ٹوٹے ہوئے دل کو تسلی دے کر اور کسی بے سہارا کے آنسو پونچھ کر جو محبت کا گھر تعمیر کیا جاتا ہے، اس کی بنیادیں زمین سے لے کر آسمان تک ہمیشہ سلامت رہتی ہیں۔",
+      ro: "Pathar aur eent ke banay huye mahallat waqt ke sath khandar ban jate hain, lekin kisi tootay huye dil ko tasalli de kar aur kisi be-sahara ke aansoo ponchh kar jo mohabbat ka ghar tameer kiya jata hai, us ki bunyadein zameen se le kar asman tak hamesha salamat rehti hain.",
+      en: "Palaces built of stone and brick eventually crumble into ruins, but the sanctuary built by comforting a broken heart and wiping away the tears of the helpless stands eternal from earth to heaven."
+    },
+    tashreeh: {
+      ur: "تین سو اقوال کے اس سفر کا نچوڑ یہی ہے کہ انسان دنیا سے رخصت ہوتے وقت اپنی عمارتیں اور خزانے یہیں چھوڑ جاتا ہے، اور اس کا نام صرف ان دلوں کی دعاؤں میں زندہ رہتا ہے جنہیں اس نے اپنی زندگی میں سہارا دیا ہو۔",
+      ro: "Teen so aqwal ke is safar ka nichor yehi hai ke insan duniya se rukhsat hote waqt apni imaratein aur khazanay yahin chhor jata hai, aur us ka naam sirf un dilon ki duaon mein zinda rehta hai jinhein us ne apni zindagi mein sahara diya ho.",
+      en: "The ultimate lesson of moral wisdom is that material monuments fade, while every act of kindness that uplifts a human soul echoes forever in eternity."
+    },
+    tags: [
+      { ur: "دلجوئی", ro: "Dil-Joi", en: "Comforting Hearts" },
+      { ur: "باقیاتِ صالحات", ro: "Baqiyat-e-Salihat", en: "Eternal Legacy" }
+    ]
+  }
+];
+
 
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
@@ -8681,6 +9134,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch17Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 5 || idx === 12)), // ma-241 (Ehsan jatla kar sadqat zaya na karna), ma-246 (Narmi har cheez ko zeenat deti hai), ma-253 (Duniya ko akhirat ke badlay becho) featured
   ...batch18Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 5 || idx === 13)), // ma-256 (Kharch mein bukhl aur israf ke darmiyan aitdaal), ma-261 (Panch nematon ko panch halaton se pehle ghaneemat jano), ma-269 (Ilm aur maal ka farq) featured
   ...batch19Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 4 || idx === 13)), // ma-272 (Muamlat mein mashwara), ma-275 (Asani paida karo tangi na karo), ma-284 (Chaar cheezein kabhi wapis nahi laut saktein) featured
+  ...batch20Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 11 || idx === 14)), // ma-286 (Amanatein o Adal), ma-289 (Dilon o Aamaal), ma-297 (Hazrat Ali - Aqal kamil), ma-300 (Tootay dilon ko jorna) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
