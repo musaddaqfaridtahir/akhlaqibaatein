@@ -9118,10 +9118,10 @@ export const batch21Quotes: QuoteItem[] = [
     id: "ma-301",
     slug: "thori-dunyawi-qeemat-par-usool-aur-ahad-na-bechna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah An-Nahl (16:95) | Makhzan-e-Akhlaq",
+    bookRef: "Surah An-Nahl (16:95) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -9130,9 +9130,9 @@ export const batch21Quotes: QuoteItem[] = [
       en: "Never Trading Moral Principles for Fleeting Worldly Gain"
     },
     quote: {
-      ur: "وَلَا تَشْتَرُوا بِعَهْدِ اللَّهِ ثَمَنًا قَلِيلًا ۚ إِنَّمَا عِندَ اللَّهِ هُوَ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ\n\nترجمہ: اور اللہ کے عہد کو تھوڑی سی دنیاوی قیمت کے بدلے فروخت نہ کرو؛ بے شک جو ثواب اور انعام اللہ کے پاس ہے وہی تمہارے لیے بہتر ہے اگر تم علم رکھتے ہو۔",
-      ro: "وَلَا تَشْتَرُوا بِعَهْدِ اللَّهِ ثَمَنًا قَلِيلًا ۚ إِنَّمَا عِندَ اللَّهِ هُوَ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ\n\nTarjuma: Aur Allah ke ahad ko thori si dunyawi qeemat ke badlay farokht na karo; be-shak jo sawab aur inam Allah ke paas hai wahi tumhare liye behtar hai agar tum ilm rakhte ho.",
-      en: "وَلَا تَشْتَرُوا بِعَهْدِ اللَّهِ ثَمَنًا قَلِيلًا ۚ إِنَّمَا عِندَ اللَّهِ هُوَ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ\n\nTranslation: And do not barter the covenant of Allah for a small worldly price; indeed, what is with Allah is far better for you, if only you knew."
+      ur: "اور اللہ کے عہد کو تھوڑی سی دنیاوی قیمت کے بدلے فروخت نہ کرو؛ بے شک جو ثواب اور انعام اللہ کے پاس ہے وہی تمہارے لیے بہتر ہے اگر تم علم رکھتے ہو۔",
+      ro: "Aur Allah ke ahad ko thori si dunyawi qeemat ke badlay farokht na karo; be-shak jo sawab aur inam Allah ke paas hai wahi tumhare liye behtar hai agar tum ilm rakhte ho.",
+      en: "And do not barter the covenant of Allah for a small worldly price; indeed, what is with Allah is far better for you, if only you knew."
     },
     tashreeh: {
       ur: "پسِ منظر و تشریح: سورۃ النحل کی اس آیت میں دنیا کی پوری دولت کو بھی آخرت کے مقابلے میں 'ثمن قلیل' (تھوڑی قیمت) قرار دیا گیا ہے۔ زندگی میں بارہا ایسے مواقع آتے ہیں جہاں جھوٹی قسم یا وعدہ خلافی سے فوری مالی فائدہ نظر آتا ہے۔ آج کا عملی سبق یہ ہے کہ وقتی لالچ کو ٹھکرا کر اپنے ایمان اور وعدے کی لاج رکھیں کیونکہ حلال اور سچائی کی برکت ہمیشہ باقی رہتی ہے۔",
@@ -9148,25 +9148,25 @@ export const batch21Quotes: QuoteItem[] = [
     id: "ma-302",
     slug: "sail-aur-zaroorat-mand-ko-jhirakne-se-parhez",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah Ad-Duha (93:9-11) | Makhzan-e-Akhlaq",
+    bookRef: "Surah Ad-Duha (93:9-11) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
       ur: "یتیم پر سختی نہ کرنا، سائل کو نہ جھڑکنا اور شکرِ نعمت",
-      ro: "Yateem Par Sakhti Na Karna, Sail Ko Na Jhirakna Aur Shukr-e-Nemat",
+      ro: "Yateem Par Sakhti Na Karna, Sail Na Jhirakna Aur Shukr-e-Nemat",
       en: "Honoring the Orphan, Never Scolding the Petitioner, and Gratitude"
     },
     quote: {
-      ur: "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ  وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ  وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ\n\nترجمہ: پس آپ یتیم پر ہرگز سختی نہ کریں، اور مانگنے والے (سائل) کو مت جھڑکیں، اور اپنے پروردگار کی نعمت کا خوب تذکرہ اور شکر کیا کریں۔",
-      ro: "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ  وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ  وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ\n\nTarjuma: Pas aap yateem par hargiz sakhti na karein, aur mangne wale (sail) ko mat jhirkein, aur apne Parwardigar ki nemat ka khoob tazkira aur shukr kiya karein.",
-      en: "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ  وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ  وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ\n\nTranslation: So as for the orphan, do not oppress them; and as for the petitioner, do not repulse or scold them; and as for the favor of your Lord, proclaim it with gratitude."
+      ur: "پس آپ یتیم پر ہرگز سختی نہ کریں، اور مانگنے والے (سائل) کو مت جھڑکیں، اور اپنے پروردگار کی نعمت کا خوب تذکرہ اور شکر کیا کریں۔",
+      ro: "Pas aap yateem par hargiz sakhti na karein, aur mangne wale (sail) ko mat jhirkein, aur apne Parwardigar ki nemat ka khoob tazkira aur shukr kiya karein.",
+      en: "So as for the orphan, do not oppress them; and as for the petitioner, do not repulse or scold them; and as for the favor of your Lord, proclaim it with gratitude."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: سورۃ الضحیٰ کی یہ تین مختصر آیات شکرِ نعمت کے عملی طریقے سکھاتی ہیں: بے سہارا یتیم کے مال اور عزت کی حفاظت کرنا، اور دروازے پر آنے والے حاجت مند یا علم پوچھنے والے طالبِ علم کو کبھی نہ ڈانٹنا۔ آج کا عملی سبق یہ ہے کہ اگر آپ کسی سائل کی مالی مدد نہ بھی کر سکیں تو کم از کم مسکرا کر اور عزت سے معذرت کریں تاکہ کسی کا دل نہ ٹوٹے۔",
-      ro: "Pas-e-Manzar o Tashreeh: Surah Ad-Duha ki yeh teen mukhtasar aayatein shukr-e-nemat ke amli tareeqay sikhati hain: be-sahara yateem ke maal aur izzat ki hifazat karna, aur darwazay par aane wale hajat-mand ya ilm poochne wale talib-e-ilm ko kabhi na dantna. Aaj ka amli sabaq yeh hai ke agar aap kisi sail ki maali madad na bhi kar sakein to kam az kam muskura kar aur izzat se maazrat karein taake kisi ka dil na tootay.",
+      ur: "پسِ منظر و تشریح: سورۃ الضحیٰ کی یہ آیات شکرِ نعمت کے عملی طریقے سکھاتی ہیں: بے سہارا یتیم کے مال اور عزت کی حفاظت کرنا، اور دروازے پر آنے والے حاجت مند یا علم پوچھنے والے طالبِ علم کو کبھی نہ ڈانٹنا۔ آج کا عملی سبق یہ ہے کہ اگر آپ کسی سائل کی مالی مدد نہ بھی کر سکیں تو کم از کم مسکرا کر اور عزت سے معذرت کریں تاکہ کسی کا دل نہ ٹوٹے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Ad-Duha ki yeh aayatein shukr-e-nemat ke amli tareeqay sikhati hain: be-sahara yateem ke maal aur izzat ki hifazat karna, aur darwazay par aane wale hajat-mand ya ilm poochne wale talib-e-ilm ko kabhi na dantna. Aaj ka amli sabaq yeh hai ke agar aap kisi sail ki maali madad na bhi kar sakein to kam az kam muskura kar aur izzat se maazrat karein taake kisi ka dil na tootay.",
       en: "Context & Practical Lesson: Surah Ad-Duha teaches that gratitude for God's favors is expressed by protecting orphans and treating every petitioner or seeker of knowledge with gentle dignity."
     },
     tags: [
@@ -9178,10 +9178,10 @@ export const batch21Quotes: QuoteItem[] = [
     id: "ma-303",
     slug: "tazkiya-e-nafs-hi-haqeeqi-kamyabi-ka-miyar-hai",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah Ash-Shams (91:8-10) | Makhzan-e-Akhlaq",
+    bookRef: "Surah Ash-Shams (91:8-10) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -9190,14 +9190,14 @@ export const batch21Quotes: QuoteItem[] = [
       en: "True Success Belongs to the One Who Purifies the Soul"
     },
     quote: {
-      ur: "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا  قَدْ أَفْلَحَ مَن زَكَّاهَا  وَقَدْ خَابَ مَن دَسَّاهَا\n\nترجمہ: پس اللہ نے انسانی نفس کو اس کی بدکاری اور پرہیزگاری کی سمجھ الہام فرما دی؛ بے شک وہ شخص فلاح پا گیا جس نے اپنے نفس کو پاک اور آراستہ کر لیا، اور وہ نامراد ہوا جس نے اسے گناہوں میں دبا دیا۔",
-      ro: "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا  قَدْ أَفْلَحَ مَن زَكَّاهَا  وَقَدْ خَابَ مَن دَسَّاهَا\n\nTarjuma: Pas Allah ne insani nafs ko us ki bad-kari aur parhezgari ki samajh ilham farma di; be-shak woh shakhs falah pa gaya jis ne apne nafs ko paak aur aarasta kar liya, aur woh namurad huwa jis ne usay gunahon mein daba diya.",
-      en: "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا  قَدْ أَفْلَحَ مَن زَكَّاهَا  وَقَدْ خَابَ مَن دَسَّاهَا\n\nTranslation: And He inspired the soul with discernment of its wickedness and its righteousness: truly successful is the one who purifies it, and truly lost is the one who corrupts and buries it."
+      ur: "پس اللہ نے انسانی نفس کو اس کی بدکاری اور پرہیزگاری کی سمجھ الہام فرما دی؛ بے شک وہ شخص فلاح پا گیا جس نے اپنے نفس کو پاک اور آراستہ کر لیا، اور وہ نامراد ہوا جس نے اسے گناہوں میں دبا دیا۔",
+      ro: "Pas Allah ne insani nafs ko us ki bad-kari aur parhezgari ki samajh ilham farma di; be-shak woh shakhs falah pa gaya jis ne apne nafs ko paak aur aarasta kar liya, aur woh namurad huwa jis ne usay gunahon mein daba diya.",
+      en: "And He inspired the soul with discernment of its wickedness and its righteousness: truly successful is the one who purifies it, and truly lost is the one who corrupts and buries it."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: سورۃ الشمس میں اللہ تعالیٰ نے گیارہ قسمیں کھانے کے بعد انسانی کامیابی کا یہ اٹل قانون بیان فرمایا ہے کہ فلاح کا دارومدار تزکیۂ نفس (اپنے اندر کو حسد، تکبر اور خیانت سے پاک کرنے) پر ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی خامیوں کا حساب رکھنے کے بجائے روزانہ اپنے دل کی زمین سے ایک برائی نکال کر اخلاص کا پودا لگائیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Surah Ash-Shams mein Allah Ta'ala ne gyarah qasmein khane ke baad insani kamyabi ka yeh atal qanoon bayan farmaya hai ke falah ka daromadar tazkiya-e-nafs (apne andar ko hasad, takabbur aur khyanat se paak karne) par hai. Aaj ka amli sabaq yeh hai ke doosron ki khamiyon ka hisab rakhne ke bajaye rozana apne dil ki zameen se aik burai nikal kar ikhlas ka poda lagayein.",
-      en: "Context & Practical Lesson: Surah Ash-Shams declares after eleven cosmic oaths that human success rests on inner purification ('Tazkiyah')—weeding out malice and pride so sincerity can flourish."
+      ur: "پسِ منظر و تشریح: سورۃ الشمس میں اللہ تعالیٰ نے انسانی کامیابی کا یہ اٹل قانون بیان فرمایا ہے کہ فلاح کا دارومدار تزکیۂ نفس (اپنے اندر کو حسد، تکبر اور خیانت سے پاک کرنے) پر ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی خامیوں کا حساب رکھنے کے بجائے روزانہ اپنے دل کی زمین سے ایک برائی نکال کر اخلاص کا پودا لگائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Ash-Shams mein Allah Ta'ala ne insani kamyabi ka yeh atal qanoon bayan farmaya hai ke فلاح کا دارومدار تزکیۂ نفس (اپنے اندر کو حسد، تکبر اور خیانت سے پاک کرنے) پر ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی خامیوں کا حساب رکھنے کے بجائے روزانہ اپنے دل کی زمین سے ایک برائی نکال کر اخلاص کا پودا لگائیں۔",
+      en: "Context & Practical Lesson: Surah Ash-Shams declares that human success rests on inner purification ('Tazkiyah')—weeding out malice and pride so sincerity can flourish."
     },
     tags: [
       { ur: "تزکیۂ نفس", ro: "Tazkiya-e-Nafs", en: "Self-Purification" },
