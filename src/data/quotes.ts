@@ -8665,10 +8665,10 @@ export const batch20Quotes: QuoteItem[] = [
     id: "ma-286",
     slug: "amanatein-haqdaron-ko-pohanchana-aur-adal-se-faisla",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah An-Nisa (4:58) | Makhzan-e-Akhlaq - Page 11",
+    bookRef: "Surah An-Nisa (4:58) & Makhzan-e-Akhlaq - Page 11",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8677,9 +8677,9 @@ export const batch20Quotes: QuoteItem[] = [
       en: "Restoring Trusts to Their Owners and Judging with Justice"
     },
     quote: {
-      ur: "إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُم بِهِ\n\nترجمہ: بے شک اللہ تمہیں حکم دیتا ہے کہ امانتیں ان کے اہل اور حقداروں کے سپرد کرو؛ اور جب لوگوں کے درمیان فیصلہ کرنے لگو تو عدل اور انصاف کے ساتھ فیصلہ کرو، بے شک اللہ تمہیں بہت عمدہ نصیحت فرماتا ہے۔",
-      ro: "إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُم بِهِ\n\nTarjuma: Be-shak Allah tumhein hukm deta hai ke amanatein un ke ahl aur haqdaron ke supurd karo; aur jab logon ke darmiyan faisla karne lago to adal aur insaf ke sath faisla karo, be-shak Allah tumhein bohot umda nasihat farmata hai.",
-      en: "إِنَّ اللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ ۚ إِنَّ اللَّهَ نِعِمَّا يَعِظُكُم بِهِ\n\nTranslation: Indeed, Allah commands you to render trusts to whom they are due, and when you judge between people, to judge with fairness and justice; how excellent is the instruction Allah gives you."
+      ur: "بے شک اللہ تمہیں حکم دیتا ہے کہ امانتیں ان کے اہل اور حقداروں کے سپرد کرو؛ اور جب لوگوں کے درمیان فیصلہ کرنے لگو تو عدل اور انصاف کے ساتھ فیصلہ کرو، بے شک اللہ تمہیں بہت عمدہ نصیحت فرماتا ہے۔",
+      ro: "Be-shak Allah tumhein hukm deta hai ke amanatein un ke ahl aur haqdaron ke supurd karo; aur jab logon ke darmiyan faisla karne lago to adal aur insaf ke sath faisla karo, be-shak Allah tumhein bohot umda nasihat farmata hai.",
+      en: "Indeed, Allah commands you to render trusts to whom they are due, and when you judge between people, to judge with fairness and justice; how excellent is the instruction Allah gives you."
     },
     tashreeh: {
       ur: "پسِ منظر و تشریح: سورۃ النساء کی یہ عظیم آیت اسلامی نظامِ عدل کی اساس ہے۔ امانت صرف نقد رقم تک محدود نہیں بلکہ عہدہ، ملازمت کا وقت، راز اور مشورہ سب امانت ہیں، اور انہیں ان کے اہل حقداروں تک پہنچانا فرض ہے۔ آج کا عملی سبق یہ ہے کہ اپنے سپرد کیے گئے ہر کام اور ذمہ داری کو امانت سمجھ کر نبھائیں اور گھریلو یا کاروباری فیصلوں میں کبھی طرفداری نہ کریں۔",
@@ -8695,10 +8695,10 @@ export const batch20Quotes: QuoteItem[] = [
     id: "ma-287",
     slug: "dushmani-mein-bhi-insaf-ka-daman-na-chhorna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah Al-Ma'idah (5:8) | Makhzan-e-Akhlaq - Page 12-13",
+    bookRef: "Surah Al-Ma'idah (5:8) & Makhzan-e-Akhlaq - Page 12-13",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8707,13 +8707,13 @@ export const batch20Quotes: QuoteItem[] = [
       en: "Never Letting Enmity Cause You to Swerve from Justice"
     },
     quote: {
-      ur: "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ\n\nترجمہ: اے ایمان والو! اللہ کے واسطے حق پر قائم رہنے والے اور انصاف کی گواہی دینے والے بنو؛ اور کسی قوم کی عداوت اور دشمنی تمہیں اس بات پر آمادہ نہ کرے کہ تم بے انصافی کر بیٹھو؛ عدل کیا کرو کہ وہی پرہیزگاری کے سب سے زیادہ قریب ہے۔",
-      ro: "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ\n\nTarjuma: Aye eman walo! Allah ke wastay haq par qayam rehne wale aur insaf ki gawahi dene wale bano; aur kisi qoum ki adawat aur dushmani tumhein is baat par aamada na kare ke tum be-insafi kar baitho; adal kiya karo ke wahi parhezgari ke sab se zyada qareeb hai.",
-      en: "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ\n\nTranslation: O believers! Stand firmly for Allah as witnesses to fair dealing, and do not let the hatred or enmity of any people lead you to deviate from justice; be just—that is closest to true piety."
+      ur: "اے ایمان والو! اللہ کے واسطے حق پر قائم رہنے والے اور انصاف کی گواہی دینے والے بنو؛ اور کسی قوم کی عداوت اور دشمنی تمہیں اس بات پر آمادہ نہ کرے کہ تم بے انصافی کر بیٹھو؛ عدل کیا کرو کہ وہی پرہیزگاری کے سب سے زیادہ قریب ہے۔",
+      ro: "Aye eman walo! Allah ke wastay haq par qayam rehne wale aur insaf ki gawahi dene wale bano; aur kisi qoum ki adawat aur dushmani tumhein is baat par aamada na kare ke tum be-insafi kar baitho; adal kiya karo ke wahi parhezgari ke sab se zyada qareeb hai.",
+      en: "O believers! Stand firmly for Allah as witnesses to fair dealing, and do not let the hatred or enmity of any people lead you to deviate from justice; be just—that is closest to true piety."
     },
     tashreeh: {
       ur: "پسِ منظر و تشریح: اپنے دوستوں اور پسندیدہ لوگوں کے ساتھ انصاف کرنا آسان ہے، لیکن سورۃ المائدہ کی یہ آیت کردار کا اصل امتحان وہاں بتاتی ہے جہاں مقابلے پر کوئی مخالف کھڑا ہو۔ آج کا عملی سبق یہ ہے کہ ذاتی رنجش یا اختلاف کو کبھی حق گوئی کے آڑے نہ آنے دیں؛ مخالف کی خوبی کا اعتراف کرنا اور اس کے حق میں سچی گواہی دینا ہی تقویٰ کی معراج ہے۔",
-      ro: "Pas-e-Manzar o Tashreeh: Apne doston aur pasandeeda logon ke sath insaf karna asan hai, lekin Surah Al-Ma'idah ki yeh aayat kirdar ka asal imtihan wahan batati hai jahan muqable par koi mukhalif khara ho. Aaj ka amli sabaq yeh hai ke zaati ranjish ya ikhtilaf ko kabhi haq-goi ke aaray na aane dein; mukhalif ki khoobi ka aitraf karna aur us ke haq mein sachi gawahi dena hi taqwa ki meraj hai.",
+      ro: "Pas-e-Manzar o Tashreeh: Apne doston aur pasandeeda logon ke sath insaf karna asan hai, لیکن Surah Al-Ma'idah ki yeh aayat kirdar ka asal imtihan wahan batati hai jahan muqable par koi mukhalif khara ho. Aaj ka amli sabaq yeh hai ke zaati ranjish ya ikhtilaf ko kabhi haq-goi ke aaray na aane dein; mukhalif ki khoobi ka aitraf karna aur us ke haq mein sachi gawahi dena hi taqwa ki meraj hai.",
       en: "Context & Practical Lesson: True morality is tested when dealing with opponents; refusing to let personal dislike cloud fair judgment is the highest expression of God-consciousness."
     },
     tags: [
@@ -8725,10 +8725,10 @@ export const batch20Quotes: QuoteItem[] = [
     id: "ma-288",
     slug: "tangdasti-ke-bawajood-doosron-ko-apne-oopar-tarjeeh-dena",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah Al-Hashr (59:9) | Makhzan-e-Akhlaq - Page 15",
+    bookRef: "Surah Al-Hashr (59:9) & Makhzan-e-Akhlaq - Page 15",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -8737,13 +8737,13 @@ export const batch20Quotes: QuoteItem[] = [
       en: "Altruism: Preferring Others Over Oneself Even in Need"
     },
     quote: {
-      ur: "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ\n\nترجمہ: اور وہ اپنے دلوں میں اس چیز کی کوئی جلن یا کھٹک محسوس نہیں کرتے جو ان کے بھائیوں کو دی جائے، اور خود اپنی ذات پر دوسروں کو ترجیح دیتے ہیں خواہ ان کو خود بھی سخت حاجت اور تنگدستی درپیش ہو۔",
-      ro: "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ\n\nTarjuma: Aur woh apne dilon mein us cheez ki koi jalan ya khatak mehsoos nahi karte jo un ke bhaiyon ko di jaye, aur khud apni zaat par doosron ko tarjeeh dete hain khwah un ko khud bhi sakht hajat aur tangdasti darpesh ho.",
-      en: "وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ\n\nTranslation: And they find no envy in their hearts for what has been given to their brothers, and they give preference to others over themselves, even though they themselves are in pressing need."
+      ur: "اور وہ اپنے دلوں میں اس چیز کی کوئی جلن یا کھٹک محسوس نہیں کرتے جو ان کے بھائیوں کو دی جائے، اور خود اپنی ذات پر دوسروں کو ترجیح دیتے ہیں خواہ ان کو خود بھی سخت حاجت اور تنگدستی درپیش ہو۔",
+      ro: "Aur woh apne dilon mein us cheez ki koi jalan ya khatak mehsoos nahi karte jo un ke bhaiyon ko di jaye, aur khud apni zaat par doosron ko tarjeeh dete hain khwah un ko khud bhi sakht hajat aur tangdasti darpesh ho.",
+      en: "They find no envy in their hearts for what has been given to their brothers, and they give preference to others over themselves, even though they themselves are in pressing need."
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: سورۃ الحشر کی یہ آیت انصارِ مدینہ کے اس بے مثال ایثار کی یادگار ہے جنہوں نے اپنے گھر کے بچوں کو سلا کر بھوکے مہمان کو کھانا کھلایا۔ مشکل الفاظ میں 'خصاصۃ' کا معنی شدید فاقہ اور حاجت ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی ترقی دیکھ کر دل کو حسد سے پاک رکھیں اور کم وسائل میں بھی کسی مجبور کا سہارا بننے کا جذبہ زندہ رکھیں۔",
-      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Hashr ki yeh aayat Ansar-e-Madinah ke us be-misal eesar ki yaadgar hai jinhon ne apne ghar ke bachon ko sula kar bhookay mehman ko khana khilaya. Mushkil alfaz mein 'khasasah' ka ma'ni shadeed faqa aur hajat hai. Aaj ka amli sabaq yeh hai ke doosron ki taraqqi dekh kar dil ko hasad se paak rakhein aur kam wasail mein bhi kisi majboor ka sahara banne ka jazba zinda rakhein.",
+      ur: "پسِ منظر و تشریح: سورۃ الحشر کی یہ آیت انصارِ مدینہ کے اس بے مثال ایثار کی یادگار ہے جنہوں نے اپنی ضرورت کے باوجود دوسرے کو مقدم رکھا۔ مشکل الفاظ میں 'خصاصۃ' کا معنی شدید فاقہ اور حاجت ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی ترقی دیکھ کر دل کو حسد سے پاک رکھیں اور کم وسائل میں بھی کسی مجبور کا سہارا بننے کا جذبہ زندہ رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Hashr ki yeh aayat Ansar-e-Madinah ke us be-misal eesar ki yaadgar hai jinhon ne apni zaroorat ke bawajood doosre ko muqaddam rakha. Mushkil alfaz mein 'khasasah' ka ma'ni shadeed faqa aur hajat hai. Aaj ka amli sabaq yeh hai ke doosron ki taraqqi dekh kar dil ko hasad se paak rakhein aur kam wasail mein bhi kisi majboor ka sahara banne ka jazba zinda rakhein.",
       en: "Context & Practical Lesson: Giving from surplus is generosity, but sacrificing one's own pressing need ('khasasah') to comfort someone else is altruism—the loftiest peak of human nobility."
     },
     tags: [
