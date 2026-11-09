@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { Sparkles, ShieldCheck, Target } from 'lucide-react';
-import AdSlot from '@/components/AdSlot';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function AboutPage() {
@@ -50,9 +49,6 @@ export default function AboutPage() {
 
   return (
     <div className="max-w-4xl mx-auto space-y-12">
-      {/* Top Banner AdSlot */}
-      <AdSlot position="header" />
-
       {/* Hero Header */}
       <section className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-white via-emerald-50/40 to-amber-50/30 dark:from-emerald-950 dark:via-emerald-900 dark:to-slate-950 text-slate-900 dark:text-white shadow-md dark:shadow-xl border border-stone-200/90 dark:border-amber-500/30">
         <div className="space-y-3 sm:space-y-4">
@@ -127,9 +123,6 @@ export default function AboutPage() {
           </ul>
         </div>
       </section>
-
-      {/* In-Article AdSlot */}
-      <AdSlot position="in-article" />
     </div>
   );
 }

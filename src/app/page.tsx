@@ -83,6 +83,7 @@ export default function HomePage() {
     'aqwal-e-sahaba': <ShieldCheck className="w-6 h-6 text-amber-500" />,
     'ambiya-o-hukama': <Compass className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />,
     'sabaq-aamoz-waqiat': <ScrollText className="w-6 h-6 text-amber-500" />,
+    'naat-sharif': <Sparkles className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />,
   };
 
   return (

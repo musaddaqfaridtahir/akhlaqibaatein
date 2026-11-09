@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { FileText, CheckCircle } from 'lucide-react';
-import AdSlot from '@/components/AdSlot';
 
 export const metadata: Metadata = {
   title: 'Terms & Conditions (شرائط و ضوابط) | AkhlaqiBaatein.com',
@@ -15,8 +14,6 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="max-w-4xl mx-auto space-y-10">
-      <AdSlot position="header" />
-
       <header className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
         <div className="space-y-3">
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold font-urdu leading-[2.1] break-words">
@@ -69,8 +66,6 @@ export default function TermsPage() {
           </p>
         </div>
       </section>
-
-      <AdSlot position="in-article" />
     </div>
   );
 }

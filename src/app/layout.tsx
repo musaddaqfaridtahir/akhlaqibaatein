@@ -69,6 +69,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const isAdsenseConfigured =
+    Boolean(adsenseClientId) &&
+    typeof adsenseClientId === 'string' &&
+    adsenseClientId.startsWith('ca-pub-') &&
+    !adsenseClientId.includes('XXXX');
+
   return (
     <html lang="ur" dir="rtl" className="lang-ur">
       <head>
@@ -78,6 +85,13 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        {isAdsenseConfigured && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
+            crossOrigin="anonymous"
+          />
+        )}
         <JsonLd type="website" />
       </head>
       <body className="min-h-screen flex flex-col antialiased bg-[#FAF8F5] dark:bg-slate-950 text-slate-900 dark:text-slate-100 selection:bg-amber-400 selection:text-slate-950 font-body-lang overflow-x-hidden max-w-[100vw] w-full">

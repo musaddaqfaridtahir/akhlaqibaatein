@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { AlertCircle, BookOpen, Shield } from 'lucide-react';
-import AdSlot from '@/components/AdSlot';
 
 export const metadata: Metadata = {
   title: 'Disclaimer (اعلانِ لاتعلقی و علمی وضاحت) | AkhlaqiBaatein.com',
@@ -15,8 +14,6 @@ export const metadata: Metadata = {
 export default function DisclaimerPage() {
   return (
     <div className="max-w-4xl mx-auto space-y-10">
-      <AdSlot position="header" />
-
       <header className="rounded-2xl sm:rounded-3xl py-6 px-4 sm:py-10 sm:px-12 bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-950 text-white shadow-xl border border-amber-500/30">
         <div className="space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">
@@ -60,8 +57,6 @@ export default function DisclaimerPage() {
           </p>
         </div>
       </section>
-
-      <AdSlot position="in-article" />
     </div>
   );
 }

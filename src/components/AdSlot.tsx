@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useRef } from 'react';
 
 interface AdSlotProps {
   position: 'header' | 'in-article' | 'sidebar';
@@ -14,9 +16,36 @@ export default function AdSlot({
   className = '',
 }: AdSlotProps) {
   const clientId = adClient || process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const pushedRef = useRef(false);
 
-  // If no valid AdSense Client ID is configured, do not render any placeholder or empty container
-  if (!clientId || clientId.trim() === '' || clientId.includes('XXXX') || clientId === 'ca-pub-XXXXXXXXXXXXXXXX') {
+  const isValidClient =
+    Boolean(clientId) &&
+    typeof clientId === 'string' &&
+    clientId.trim() !== '' &&
+    !clientId.includes('XXXX') &&
+    clientId !== 'ca-pub-XXXXXXXXXXXXXXXX' &&
+    clientId.startsWith('ca-pub-');
+
+  useEffect(() => {
+    if (!isValidClient || pushedRef.current) return;
+
+    try {
+      if (typeof window !== 'undefined') {
+        // @ts-expect-error Google AdSense global script object
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+        pushedRef.current = true;
+      }
+    } catch (err) {
+      // Ignore adsbygoogle race condition / blocked errors
+      if (process.env.NODE_ENV === 'development') {
+        console.warn('AdSense push notice:', err);
+      }
+    }
+  }, [isValidClient]);
+
+  // If no valid approved AdSense Client ID is configured, return null completely.
+  // Never render empty boxes, dashed borders, or blank heights that trigger AdSense policy rejections.
+  if (!isValidClient) {
     return null;
   }
 
@@ -29,7 +58,7 @@ export default function AdSlot({
 
   return (
     <div
-      className={`mx-auto w-full flex flex-col items-center justify-center p-3 rounded-xl border border-stone-200 dark:border-slate-800 bg-white dark:bg-slate-900 transition-all ${dimensionStyles} ${className}`}
+      className={`mx-auto w-full flex flex-col items-center justify-center p-2 rounded-xl border border-stone-200 dark:border-slate-800 bg-white dark:bg-slate-900 transition-all ${dimensionStyles} ${className}`}
       aria-label="Advertisement"
     >
       <ins
