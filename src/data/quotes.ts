@@ -293,92 +293,92 @@ export const batch1Quotes: QuoteItem[] = [
   },
   {
     id: "ma-010",
-    slug: "burhon-ki-tazeem-ka-badla",
+    slug: "behtareen-insan-woh-hai-jiska-akhlaq-acha-ho",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 16",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "بزرگوں کی تعظیم کا دنیاوی و اخروی صلہ",
-      ro: "Buzurgon Ki Tazeem Ka Dunyawi O Ukhrawi Sila",
-      en: "The Reward of Honoring the Elderly"
+      ur: "تم میں سے بہترین وہ ہے جس کے اخلاق سب سے اچھے ہوں",
+      ro: "Tum Mein Se Behtareen Woh Hai Jis Ke Akhlaq Sab Se Achay Hon",
+      en: "The Best Among You Possess the Finest Character"
     },
     quote: {
-      ur: "تو بوڑھوں کی تعظیم کر، اللہ تعالیٰ نوجوانوں کو توفیق دے گا کہ تیری تعظیم کریں جبکہ تو بوڑھا ہو گا۔",
-      ro: "Tu burhon ki tazeem kar, Allah Ta'ala naujawanon ko taufiq dega ke teri tazeem karein jabkeh tu burha hoga.",
-      en: "Honor the elderly in your youth, and Allah will appoint young people to honor you when you reach old age."
+      ur: "تم میں سے بہترین وہ لوگ ہیں جن کے اخلاق سب سے اچھے ہیں۔",
+      ro: "Tum mein se behtareen woh log hain jin ke akhlaq sab se achay hain.",
+      en: "The best among you are those who have the best manners and character."
     },
     tashreeh: {
-      ur: "جوانی میں بزرگوں کا ادب اور خدمت کرنے والا انسان جب خود بڑھاپے کی دہلیز پر پہنچتا ہے تو قدرت اس کے لیے عزت اور خدمت کرنے والے ہاتھ مہیا فرما دیتی ہے۔",
-      ro: "Jawani mein buzurgon ka adab aur khidmat karne wala insan jab khud burhapay ki dehleez par pohanchta hai to qudrat us ke liye izzat aur khidmat karne wale hath muhayya farma deti hai.",
-      en: "Life returns what we give. A youth who respects and serves elders will be blessed with respect and care when they grow old themselves."
+      ur: "پسِ منظر و تشریح: عبادات کے ساتھ ساتھ حسنِ اخلاق وہ وزن دار نیکی ہے جو توازنِ حیات کو قائم رکھتی ہے۔ ایک خوش اخلاق انسان لوگوں کے دلوں میں گھر کر لیتا ہے۔ آج کا عملی سبق یہ ہے کہ گھر اور باہر سب کے ساتھ نرمی اور اچھے اخلاق سے پیش آئیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Ibadaton ke sath sath husn-e-akhlaq woh wazan-dar neki hai jo tawazun-e-hayat ko qayam rakhti hai. Aik khush-akhlaq insan logon ke dilon mein ghar kar leta hai. Aaj ka amli sabaq yeh hai ke ghar aur bahar sab ke sath narmi aur achay akhlaq se pesh aayein.",
+      en: "Context & Practical Lesson: Noble character and sweet manners carry immense weight on the scale of righteous deeds."
     },
     tags: [
-      { ur: "ادب", ro: "Adab", en: "Respect" },
-      { ur: "بزرگ", ro: "Buzurg", en: "Elders" }
+      { ur: "حسنِ اخلاق", ro: "Husn-e-Akhlaq", en: "Noble Character" },
+      { ur: "کردار", ro: "Kirdar", en: "Virtuous Conduct" }
     ]
   },
   {
     id: "ma-011",
-    slug: "kushada-roi-aur-shireen-zabani",
+    slug: "sacha-aur-diya-dar-tajir-nabi-aur-siddiqin-ke-sath-hoga",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 16",
+    bookRef: "Sunan Tirmidhi & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "مغفرت کا سب سے بڑا سبب",
-      ro: "Maghfirat Ka Sab Se Bada Sabab",
-      en: "The Greatest Cause of Forgiveness"
+      ur: "سچا اور دیانت دار تاجر انبیاء اور صدیقین کے ساتھ ہوگا",
+      ro: "Sacha Aur Diyanat-Dar Tajir Anbiya Aur Siddiqeen Ke Sath Hoga",
+      en: "The Honest Merchant Will Be with Prophets and Truthful Souls"
     },
     quote: {
-      ur: "جو کام سب سے زیادہ سببِ مغفرت ہو گا وہ کشادہ روئی اور شیریں زبانی ہے۔",
-      ro: "Jo kaam sab se zyada sabab-e-maghfirat hoga woh kushada-roi aur shireen-zabani hai.",
-      en: "The qualities most likely to earn forgiveness are a cheerful countenance and sweet, gentle speech."
+      ur: "سچا اور امانت دار تاجر قیامت کے دن انبیاء، صدیقین اور شہداء کے ساتھ ہوگا۔",
+      ro: "Sacha aur amanat-dar tajir qayamat ke din anbiya, siddiqeen aur shuhada ke sath hoga.",
+      en: "The truthful, honest merchant is associated with the prophets, the truthful, and the martyrs."
     },
     tashreeh: {
-      ur: "لوگوں سے مسکرا کر ملنا اور میٹھے الفاظ میں گفتگو کرنا بظاہر چھوٹا عمل لگتا ہے، لیکن یہ دلوں کو جوڑتا ہے اور روزِ قیامت بخشش کا بڑا ذریعہ بنتا ہے۔",
-      ro: "Logon se muskura kar milna aur meethay alfaz mein guftugu karna bazahir chota amal lagta hai, lekin yeh dilon ko jorta hai aur roz-e-qayamat bakhshish ka bada zariya banta hai.",
-      en: "Meeting people with a warm smile and speaking gently may seem small, yet it unites hearts and serves as a major means of divine forgiveness."
+      ur: "پسِ منظر و تشریح: کاروبار اور تجارت میں دیانت داری، سچائی اور ناپ تول پورا رکھنا اتنی بڑی نیکی ہے کہ اسلام نے اسے بلند ترین روحانی مقام سے نوازا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے ہر کاروباری لین دین میں ایمانداری کو شعار بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Karobar aur tijarat mein diyanat-dari, sachai aur naap-tol poora rakhna itni badi neki hai ke Islam ne isay buland tareen roohani maqam se nawaza hai. Aaj ka amli sabaq yeh hai ke apne har karobari lain-dain mein imandari ko shiar banayein.",
+      en: "Context & Practical Lesson: Financial integrity and absolute honesty in trade elevate a working person to the highest spiritual ranks."
     },
     tags: [
-      { ur: "خوش اخلاقی", ro: "Khush Akhlaqi", en: "Good Character" },
-      { ur: "گفتگو", ro: "Guftugu", en: "Speech" }
+      { ur: "دیانت داری", ro: "Diyanat-Dari", en: "Honesty in Business" },
+      { ur: "حلال تجارت", ro: "Halal Tijarat", en: "Ethical Trade" }
     ]
   },
   {
     id: "ma-012",
-    slug: "teen-baaton-mein-dair-na-kar",
+    slug: "dua-ibadat-ka-maghaz-hai",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 17",
+    bookRef: "Sunan Tirmidhi & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "تین کاموں میں کبھی تاخیر نہ کرو",
-      ro: "Teen Kaamon Mein Kabhi Takheer Na Karo",
-      en: "Never Delay These Three Matters"
+      ur: "دعا عبادت کا مغز اور روح ہے",
+      ro: "Dua Ibadat Ka Maghaz Hai",
+      en: "Supplication is the Core of Worship"
     },
     quote: {
-      ur: "تین باتوں میں دیر نہ کر: نماز جب وقت ہو جائے، جنازہ جب تیار ہو، اور بیوہ کا نکاح جب اس کا جوڑ مل جائے۔",
-      ro: "Teen baaton mein dair na kar: Namaz jab waqt ho jaye, Janaza jab tayyar ho, aur Bewa ka nikah jab us ka jor mil jaye.",
-      en: "Do not delay three things: prayer when its time arrives, the funeral when it is ready, and marriage when a suitable match is found."
+      ur: "دعا ہی اصل عبادت (اور اس کا مغز) ہے۔",
+      ro: "Dua hi asal ibadat (aur us ka maghaz) hai.",
+      en: "Supplication is [the essence of] worship."
     },
     tashreeh: {
-      ur: "ان تینوں امور میں تاخیر کرنے سے دینی اور سماجی نقصان پیدا ہوتا ہے۔ عبادت اور معاشرتی ذمہ داریوں کو ان کے مقررہ وقت پر فوراً ادا کرنا کامیابی کی علامت ہے۔",
-      ro: "In teenon umoor mein takheer karne se deeni aur samaji nuqsan paida hota hai. Ibadat aur muasharti zimmedariyon ko un ke muqarrara waqt par foran ada karna kamiyabi ki alamat hai.",
-      en: "Delaying these three responsibilities leads to spiritual and social harm. Fulfilling worship and family duties promptly brings peace and order to society."
+      ur: "پسِ منظر و تشریح: انسان کا اپنی بے بسی اور احتیاج کو رب کے سامنے رکھنا ہی بندگی کی معراج ہے۔ دعا تقدیر کو بدلنے اور دل کو سکون دینے کا سب سے بڑا ذریعہ ہے۔ آج کا عملی سبق یہ ہے کہ اپنے ہر معاملے میں اللہ سے دعا کا اہتمام کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan ka apni be-basi aur ehtiaj ko Rab ke samne rakhna hi bandagi ki meraj hai. Dua taqdeer ko badalne aur dil ko sukoon dene ka sab se bada zariya hai. Aaj ka amli sabaq yeh hai ke apne har muamlay mein Allah se dua ka ehtimam karein.",
+      en: "Context & Practical Lesson: Expressing complete dependency on the Almighty through heartfelt supplication is the very heart of worship."
     },
     tags: [
-      { ur: "وقت کی پابندی", ro: "Waqt Ki Pabandi", en: "Punctuality" },
-      { ur: "ذمہ داری", ro: "Zimmedari", en: "Responsibility" }
+      { ur: "دعا", ro: "Dua", en: "Supplication" },
+      { ur: "عجز و انکسار", ro: "Ajz o Inksar", en: "Supplication & Submission" }
     ]
   },
   {
