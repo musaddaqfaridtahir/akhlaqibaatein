@@ -11832,6 +11832,459 @@ export const batch26Quotes: QuoteItem[] = [
 ];
 
 
+export const batch27Quotes: QuoteItem[] = [
+  {
+    id: "ma-391",
+    slug: "allah-kisi-jaan-par-us-ki-taqat-se-zyada-bojh-nahi-dalta",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Baqarah (2:286) & Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "اللہ کسی جان پر اس کی طاقت سے زیادہ بوجھ نہیں ڈالتا",
+      ro: "Allah Kisi Jaan Par Us Ki Taqat Se Zyada Bojh Nahi Dalta",
+      en: "Allah Does Not Burden Any Soul Beyond Its Capacity"
+    },
+    quote: {
+      ur: "اللہ کسی جان پر اس کی طاقت اور وسعت سے بڑھ کر بوجھ نہیں ڈالتا؛ اس نے جو نیکی کمائی اس کا فائدہ بھی اسی کے لیے ہے اور جو برائی کمائی اس کا وبال بھی اسی پر ہے؛ اے ہمارے رب! اگر ہم سے بھول چوک یا خطا ہو جائے تو ہماری گرفت نہ فرما۔",
+      ro: "Allah kisi jaan par us ki taqat aur wus'at se barh kar bojh nahi dalta; us ne jo neki kamai us ka faida bhi usi ke liye hai aur jo burai kamai us ka wabal bhi usi par hai; aye hamare Rab! Agar hum se bhool-chook ya khata ho jaye to hamari girift na farma.",
+      en: "Allah does not burden any soul beyond what it can bear: every good it earns is to its own credit, and every evil it incurs is to its own account. 'Our Lord, do not take us to task if we forget or make a mistake.'"
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سورۃ البقرہ کی یہ آخری آیت انسانی دل کو بے پناہ حوصلہ دیتی ہے کہ شریعت کا کوئی حکم اور زندگی کی کوئی آزمائش انسان کی برداشت سے باہر نہیں ہوتی۔ اگر آپ پر کوئی مشکل وقت آیا ہے تو اس کا مطلب ہے کہ اللہ نے آپ کے اندر اس سے گزرنے کی ہمت بھی رکھی ہے۔ آج کا عملی سبق یہ ہے کہ مشکلات میں ہمت ہارنے کے بجائے اپنے رب سے عافیت اور استقامت کی دعا مانگیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Baqarah ki yeh aakhri aayat insani dil ko be-panah hausla deti hai ke shariyat ka koi hukm aur zindagi ki koi aazmaish insan ki bardasht se bahar nahi hoti. Agar aap par koi mushkil waqt aaya hai to is ka matlab hai ke Allah ne aap ke andar us se guzarne ki himmat bhi rakhi hai. Aaj ka amli sabaq yeh hai ke mushkilat mein himmat harne ke bajaye apne Rab se aafiyat aur istaqamat ki dua mangein.",
+      en: "Context & Practical Lesson: The closing verse of Surah Al-Baqarah reassures the believer that neither divine commandments nor life's trials ever exceed our inner capacity to endure and overcome."
+    },
+    tags: [
+      { ur: "رحمتِ الٰہی", ro: "Rehmat-e-Ilahi", en: "Divine Mercy" },
+      { ur: "حوصلہ و دعا", ro: "Hausla o Dua", en: "Resilience & Prayer" }
+    ]
+  },
+  {
+    id: "ma-392",
+    slug: "eman-walon-ke-sath-narmi-aur-aajizi-se-pesh-aana",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Ash-Shu'ara (26:215) & Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "اہلِ ایمان اور اپنے ساتھیوں کے لیے شفقت کا بازو جھکا کر رکھنا",
+      ro: "Ahl-e-Eman Aur Apne Sathiyon Ke Liye Shafqat Ka Bazu Jhuka Kar Rakhna",
+      en: "Lowering Your Wing of Humility and Kindness to the Believers"
+    },
+    quote: {
+      ur: "اور اپنے رب ہی کو پکارو، اور جو اہلِ ایمان تمہاری پیروی اور رفاقت اختیار کریں ان کے لیے اپنا بازو نرمی اور شفقت سے جھکا کر رکھو۔",
+      ro: "Aur apne Rab hi ko pukaro, aur jo ahl-e-eman tumhari pairwi aur rafaqat ikhtiyar karein un ke liye apna bazu narmi aur shafqat se jhuka kar rakho.",
+      en: "And invoke none besides Allah, and lower your wing of tenderness and humility toward the believers who follow you."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: جس طرح پرندہ اپنے بچوں کو سردی یا خطرے سے بچانے کے لیے اپنے پر جھکا کر انہیں سمیٹ لیتا ہے، قرآن کریم نے اسی تشبیہ کے ذریعے حکم دیا ہے کہ اپنے مخلص ساتھیوں، ماتحتوں اور اہلِ ایمان کے ساتھ انتہائی نرمی اور شفقت کا برتاؤ کیا جائے۔ آج کا عملی سبق یہ ہے کہ اپنے سے وابستہ لوگوں کے لیے سخت گیر افسر نہیں بلکہ شفیق سایہ بنیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jis tarah parinda apne bachon ko sardi ya khatray se bachane ke liye apne par jhuka kar unhein sameet leta hai, Quran-e-Kareem ne isi tashbeeh ke zariye hukm diya hai ke apne mukhlis sathiyon, matehton aur ahl-e-eman ke sath intehai narmi aur shafqat ka bartao kiya jaye. Aaj ka amli sabaq yeh hai ke apne se wabasta logon ke liye sakht-geer afsar nahi balkay shafeeq saya banein.",
+      en: "Context & Practical Lesson: Like a bird spreading its wing to shelter its young, true leadership protects, comforts, and treats companions and subordinates with gentle humility."
+    },
+    tags: [
+      { ur: "شفقت و تواضع", ro: "Shafqat o Tawazu", en: "Tenderness & Humility" },
+      { ur: "رفاقت", ro: "Rafaqat", en: "Kind Companionship" }
+    ]
+  },
+  {
+    id: "ma-393",
+    slug: "zameen-mein-islah-ke-baad-fasad-na-phailao-khauf-o-umeed",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-A'raf (7:56) & Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "معاشرے میں فساد نہ پھیلانا اور خوف و امید کے ساتھ رب کو پکارنا",
+      ro: "Muashray Mein Fasad Na Phailana Aur Khauf o Umeed Ke Sath Rab Ko Pukarna",
+      en: "Do Not Cause Corruption on Earth: Call Upon God in Fear and Hope"
+    },
+    quote: {
+      ur: "اور زمین میں اس کی اصلاح ہو جانے کے بعد بگاڑ اور فساد مت پھیلاؤ، اور اللہ کو خوف اور امید دونوں کے ساتھ پکارا کرو؛ بے شک اللہ کی رحمت نیکی کرنے والوں کے بہت قریب ہے۔",
+      ro: "Aur zameen mein us ki islah ho jane ke baad bigaar aur fasad mat phailao, aur Allah ko khauf aur umeed dono ke sath pukara karo; be-shak Allah ki rehmat neki karne walon ke bohot qareeb hai.",
+      en: "And do not cause corruption upon the earth after it has been set in order, and call upon Him in both reverence and hope; indeed, the mercy of Allah is ever near to the doers of good."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: مومن کا کام دنیا میں امن، صفائی اور اصلاح کو فروغ دینا ہے، نہ کہ جھگڑے اور بدامنی پھیلانا۔ ساتھ ہی بندگی کا توازن یہ ہے کہ انسان نہ تو اپنے گناہوں سے بے خوف ہو اور نہ رب کی رحمت سے مایوس ہو۔ آج کا عملی سبق یہ ہے کہ اپنے ماحول اور معاشرے میں امن و اصلاح کا سبب بنیں اور ہمیشہ احسان کی روش اختیار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Momin ka kaam duniya mein aman, safai aur islah ko farogh dena hai, na ke jhagray aur bad-amni phailana. Sath hi bandagi ka tawazun yeh hai ke insan na to apne gunahon se be-khauf ho aur na Rab ki rehmat se mayous ho. Aaj ka amli sabaq yeh hai ke apne mahool aur muashray mein aman o islah ka sabab banein aur hamesha ihsan ki rawish ikhtiyar karein.",
+      en: "Context & Practical Lesson: A righteous believer preserves social peace and environmental order while walking between reverent accountability and hopeful trust in God's mercy."
+    },
+    tags: [
+      { ur: "اصلاحِ معاشرہ", ro: "Islah-e-Muashra", en: "Social Reform" },
+      { ur: "خوف و رجاء", ro: "Khauf o Raja", en: "Reverence & Hope" }
+    ]
+  },
+  {
+    id: "ma-394",
+    slug: "kisi-majboor-ki-tangdasti-door-karna-aur-parda-poshi",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Muslim & Makhzan-e-Akhlaq - Page 28",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "مصیبت زدہ کی مشکل آسان کرنا اور مسلمان کی پردہ پوشی",
+      ro: "Museebat-Zada Ki Mushkil Asan Karna Aur Musalman Ki Parda-Poshi",
+      en: "Relieving the Distressed and Concealing the Faults of Others"
+    },
+    quote: {
+      ur: "جو شخص کسی مومن سے دنیا کی بے چینیوں میں سے کوئی بے چینی دور کر دے، اللہ تعالیٰ اس سے قیامت کے دن کی سختیوں میں سے کوئی سختی دور فرمائے گا؛ اور جو کسی مسلمان کے عیب کی پردہ پوشی کرے گا، اللہ دنیا اور آخرت میں اس کا پردہ رکھے گا۔",
+      ro: "Jo shakhs kisi momin se duniya ki be-chainiyon mein se koi be-chaini door kar de, Allah Ta'ala us se qayamat ke din ki sakhtiyon mein se koi sakhti door farmayega; aur jo kisi musalman ke aib ki parda-poshi karega, Allah duniya aur akhirat mein us ka parda rakhega.",
+      en: "Whoever relieves a believer of a worldly distress, Allah will relieve them of a distress on the Day of Judgment; and whoever conceals the fault of another, Allah will conceal their faults in this world and the Hereafter."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: اللہ تعالیٰ اس وقت تک بندے کی مدد میں رہتا ہے جب تک بندہ اپنے بھائی کی مدد میں لگا رہتا ہے۔ کسی نادان انسان کی غلطی کا ڈھنڈورا پیٹنے کے بجائے اس کی اصلاح کرنا اور پردہ رکھنا اللہ کی ستاری کو متوجہ کرتا ہے۔ آج کا عملی سبق یہ ہے کہ کسی کے راز یا کمزوری کو تماشا نہ بنائیں اور جہاں تک ممکن ہو پریشان حال لوگوں کا بوجھ بانٹیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Allah Ta'ala us waqt tak banday ki madad mein rehta hai jab tak banda apne bhai ki madad mein laga rehta hai. Kisi nadan insan ki ghalti ka dhandhora peetne ke bajaye us ki islah karna aur parda rakhna Allah ki Sattari ko mutawajjah karta hai. Aaj ka amli sabaq yeh hai ke kisi ke raaz ya kamzori ko tamasha na banayein aur jahan tak mumkin ho pareshan-haal logon ka bojh bantein.",
+      en: "Context & Practical Lesson: Divine help flows continuously to those who ease the burdens of others and shield their private mistakes from public humiliation."
+    },
+    tags: [
+      { ur: "پردہ پوشی", ro: "Parda-Poshi", en: "Concealing Faults" },
+      { ur: "اعانتِ خلق", ro: "I'anat-e-Khalq", en: "Helping Others" }
+    ]
+  },
+  {
+    id: "ma-395",
+    slug: "hasad-nekiyon-ko-is-tarah-khata-hai-jaise-aag-lakri-ko",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sunan Abi Dawud & Makhzan-e-Akhlaq - Page 29",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "حسد سے بچو کیونکہ حسد نیکیوں کو آگ کی طرح کھا جاتا ہے",
+      ro: "Hasad Se Bacho Kyunkeh Hasad Nekiyon Ko Aag Ki Tarah Kha Jata Hai",
+      en: "Beware of Envy, for It Consumes Good Deeds Like Fire Consumes Wood"
+    },
+    quote: {
+      ur: "حسد اور جلن سے اپنے آپ کو بچاؤ، کیونکہ حسد انسان کی نیکیوں کو اس طرح کھا کر راکھ کر دیتا ہے جیسے آگ سوکھی لکڑیوں کو جلا کر خاکستر کر دیتی ہے۔",
+      ro: "Hasad aur jalan se apne aap ko bachao, kyunkeh hasad insan ki nekiyon ko is tarah kha kar rakh kar deta hai jaise aag sookhi lakriyon ko jala kar khakistar kar deti hai.",
+      en: "Beware of envy and jealousy, for indeed envy consumes good deeds just as fire consumes dry firewood."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: کسی دوسرے کو ملنے والی نعمت دیکھ کر یہ چاہنا کہ وہ نعمت اس سے چھن جائے ’حسد‘ ہے، جو درحقیقت اللہ کی تقسیم پر اعتراض کرنے کے مترادف ہے۔ حاسد انسان دوسرے کا کچھ نہیں بگاڑ پاتا مگر اپنے ہی دل کا سکون اور اپنی نیکیاں جلا بیٹھتا ہے۔ آج کا عملی سبق یہ ہے کہ کسی کی خوشحالی دیکھیں تو فوراً ’ماشاء اللہ، اللہ اسے مزید برکت دے‘ کہنے کی عادت ڈالیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Kisi doosre ko milne wali nemat dekh kar yeh chahna ke woh nemat us se chhin jaye 'hasad' hai, jo dar-haqeeqat Allah ki taqseem par aitraz karne ke mutaradif hai. Hasid insan doosre ka kuch nahi bigar pata magar apne hi dil ka sukoon aur apni nekiyan jala baithta hai. Aaj ka amli sabaq yeh hai ke kisi ki khushhali dekhein to foran 'MashaAllah, Allah usay mazeed barkat de' kehne ki aadat dalein.",
+      en: "Context & Practical Lesson: Envy never diminishes another person's blessing, but it destroys the envier's own inner peace and spiritual credit. Cure envy by praying for blessing whenever you see someone succeed."
+    },
+    tags: [
+      { ur: "ردِّ حسد", ro: "Radd-e-Hasad", en: "Overcoming Envy" },
+      { ur: "سلامتیٔ صدر", ro: "Salamati-e-Sadr", en: "Pure Heart" }
+    ]
+  },
+  {
+    id: "ma-396",
+    slug: "teen-din-se-zyada-bol-chaal-band-rakhna-jaiz-nahi",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq - Page 30",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "تین دن سے زیادہ قطع تعلقی حرام ہے اور سلام میں پہل کرنے والا افضل",
+      ro: "Teen Din Se Zyada Qata-Talluqi Haram Hai Aur Salam Mein Pehal Karne Wala Afzal",
+      en: "Do Not Sever Ties Over Three Days: The Best is the First to Greet"
+    },
+    quote: {
+      ur: "کسی مسلمان کے لیے یہ حلال نہیں کہ وہ اپنے بھائی سے تین دن سے زیادہ بول چال بند رکھے کہ دونوں آمنے سامنے آئیں تو یہ ادھر منہ پھیر لے اور وہ ادھر منہ پھیر لے؛ اور ان دونوں میں سب سے افضل اور بہترین وہ ہے جو سلام کرنے میں پہل کرے۔",
+      ro: "Kisi musalman ke liye yeh halal nahi ke woh apne bhai se teen din se zyada bol-chaal band rakhe ke dono aamne-samne aayein to yeh idhar munh pher le aur woh udhar munh pher le; aur un dono mein sab se afzal aur behtareen woh hai jo salam karne mein pehal kare.",
+      en: "It is not lawful for a believer to boycott their brother beyond three days, turning away whenever they meet; and the better of the two is the one who initiates the greeting of peace."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: انسانی طبیعت کے پیشِ نظر وقتی غصہ ٹھنڈا ہونے کے لیے شریعت نے تین دن کی مہلت رکھی ہے، لیکن اس کے بعد بھی انا کی خاطر بول چال بند رکھنا گناہ ہے۔ پہل کرنے والا چھوٹا نہیں ہوتا بلکہ اللہ کے نزدیک سب سے بڑا بن جاتا ہے۔ آج کا عملی سبق یہ ہے کہ اگر کسی رشتہ دار یا دوست سے ناراضگی چل رہی ہو تو آج ہی سلام میں پہل کر کے یہ گرہ کھول دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insani tabiyat ke pesh-e-nazar waqti ghussa thanda hone ke liye shariyat ne teen din ki mohlat rakhi hai, lekin us ke baad bhi ana ki khatir bol-chaal band rakhna gunah hai. Pehal karne wala chota nahi hota balkay Allah ke nazdeek sab se bada ban jata hai. Aaj ka amli sabaq yeh hai ke agar kisi rishtedar ya dost se narazgi chal rahi ho to aaj hi salam mein pehal kar ke yeh girah khol dein.",
+      en: "Context & Practical Lesson: Letting pride prolong a family or social feud beyond three days poisons the soul; taking the first step to say 'Assalamu Alaikum' elevates one's rank before God."
+    },
+    tags: [
+      { ur: "صلہ رحمی", ro: "Sila-Rehmi", en: "Mending Ties" },
+      { ur: "سبقتِ سلام", ro: "Sabqat-e-Salam", en: "Initiating Peace" }
+    ]
+  },
+  {
+    id: "ma-397",
+    slug: "bachon-par-be-panah-shafqat-aur-namaz-mein-un-ka-khayal",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq - Page 51",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "بچوں پر بے پناہ شفقت اور بچے کے رونے پر نماز مختصر فرمانا",
+      ro: "Bachon Par Be-Panah Shafqat Aur Bachay Ke Rone Par Namaz Mukhtasar Farmana",
+      en: "Profound Tenderness Toward Children and Shortening Prayer at a Child's Cry"
+    },
+    quote: {
+      ur: "رسول اللہ ﷺ بچوں سے بے حد شفقت فرماتے، انہیں گود میں اٹھاتے اور پیار فرماتے؛ آپ ﷺ نے فرمایا کہ میں طویل نماز پڑھانے کے ارادے سے کھڑا ہوتا ہوں، لیکن جب کسی بچے کے رونے کی آواز سنتا ہوں تو نماز مختصر کر دیتا ہوں تاکہ اس کی ماں کو مشقت اور بے چینی نہ ہو۔",
+      ro: "Rasool Allah ﷺ bachon se be-had shafqat farmate, unhein god mein uthate aur pyar farmate; Aap ﷺ ne farmaya ke main taweel namaz parhane ke iraday se khara hota hoon, lekin jab kisi bachay ke rone ki aawaz sunta hoon to namaz mukhtasar kar deta hoon taake us ki maa ko mushaqqat aur be-chaini na ho.",
+      en: "The Messenger of Allah ﷺ showed immense affection to children, holding and kissing them; he said: 'I stand in prayer intending to lengthen it, but when I hear a child crying, I shorten the prayer lest its mother be distressed.'"
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: قربان جائیے اس رحمت و شفقت پر کہ عین فرض نماز کی امامت میں بھی آپ ﷺ کو ایک ننھے بچے کی تکلیف اور اس کی ماں کے دل کی بے قراری کا احساس رہتا تھا۔ آج کا عملی سبق یہ ہے کہ اپنے بچوں کو ڈانٹ ڈپٹ اور خوف سے نہیں بلکہ پیار، گلے لگانے اور شفقت کے ساتھ تربیت دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Qurban jaiye us rehmat o shafqat par ke ain farz namaz ki imamat mein bhi Aap ﷺ ko aik nanhay bachay ki takleef aur us ki maa ke dil ki be-qarari ka ehsas rehta tha. Aaj ka amli sabaq yeh hai ke apne bachon ko dant-dapat aur khauf se nahi balkay pyar, galay lagane aur shafqat ke sath tarbiyat dein.",
+      en: "Context & Practical Lesson: Caring for a child's comfort and a mother's peace of mind even during congregational prayer demonstrates that compassion lies at the very heart of worship."
+    },
+    tags: [
+      { ur: "شفقتِ اطفال", ro: "Shafqat-e-Atfal", en: "Love for Children" },
+      { ur: "رحمتِ نبوی ﷺ", ro: "Rehmat-e-Nabawi ﷺ", en: "Prophetic Mercy" }
+    ]
+  },
+  {
+    id: "ma-398",
+    slug: "do-kaamon-mein-hamesha-asani-wale-pehlon-ka-intikhab",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq - Page 52",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "دو جائز راستوں میں ہمیشہ آسان ترین راستے کا انتخاب فرمانا",
+      ro: "Do Jaiz Raston Mein Hamesha Asan-Tareen Rastay Ka Intikhab Farmana",
+      en: "Always Choosing the Easier of Two Lawful Options"
+    },
+    quote: {
+      ur: "ام المؤمنین حضرت عائشہ رضی اللہ عنہا فرماتی ہیں کہ رسول اللہ ﷺ کو جب بھی دو کاموں کے درمیان اختیار دیا گیا تو آپ ﷺ نے ہمیشہ اس کام کو منتخب فرمایا جو زیادہ آسان اور سہولت والا ہوتا، بشرطیکہ اس میں گناہ کا کوئی پہلو نہ ہو۔",
+      ro: "Umm-ul-Momineen Hazrat Aisha (R.A) farmati hain ke Rasool Allah ﷺ ko jab bhi do kaamon ke darmiyan ikhtiyar diya gaya to Aap ﷺ ne hamesha us kaam ko muntakhib farmaya jo zyada asan aur sahulat wala hota, bashartekeh us mein gunah ka koi pehlu na ho.",
+      en: "Hazrat Aisha (R.A) reported: 'Whenever the Messenger of Allah ﷺ was given a choice between two matters, he always chose the easier and more convenient of the two, so long as it involved no sin.'"
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: بعض لوگ سمجھتے ہیں کہ چیزوں کو جتنا مشکل اور پیچیدہ بنایا جائے اتنا ہی ثواب زیادہ ملتا ہے، جبکہ سنتِ نبوی ﷺ یہ ہے کہ جہاں جائز اور آسان راستہ موجود ہو وہاں خود کو اور گھر والوں کو بلاوجہ مشقت میں نہ ڈالا جائے۔ آج کا عملی سبق یہ ہے کہ اپنے گھریلو، سماجی اور کاروباری فیصلوں میں غیر ضروری پیچیدگی چھوڑ کر سہولت کا راستہ اپنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Baaz log samajhte hain ke cheezon ko jitna mushkil aur pecheeda banaya jaye utna hi sawab zyada milta hai, jabkeh Sunnat-e-Nabawi ﷺ yeh hai ke jahan jaiz aur asan rasta mojood ho wahan khud ko aur ghar walon ko bila-wajah mushaqqat mein na dala jaye. Aaj ka amli sabaq yeh hai ke apne ghareloo, samaji aur karobari faislon mein ghair-zaroori pecheedgi chhor kar sahulat ka rasta apnayein.",
+      en: "Context & Practical Lesson: Making life needlessly complicated is not piety; choosing simplicity and ease in lawful matters is the authentic prophetic way."
+    },
+    tags: [
+      { ur: "یسرو سہولت", ro: "Yusr o Sahulat", en: "Simplicity & Ease" },
+      { ur: "سنتِ اعتدال", ro: "Sunnat-e-Aitdaal", en: "Balanced Sunnah" }
+    ]
+  },
+  {
+    id: "ma-399",
+    slug: "tareef-par-maghroor-na-hona-aur-dua-e-siddiq",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 74",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "لوگوں کی تعریف پر پھولنے کے بجائے اپنے رب سے عاجزی کی دعا",
+      ro: "Logon Ki Tareef Par Phoolne Ke Bajaye Apne Rab Se Aajizi Ki Dua",
+      en: "Remaining Humble When Praised by People"
+    },
+    quote: {
+      ur: "جب کوئی شخص سیدنا ابوبکر صدیق رضی اللہ عنہ کی تعریف کرتا تو آپؓ فوراً فرماتے: اے میرے اللہ! تو مجھے مجھ سے بھی زیادہ جانتا ہے اور میں اپنے نفس کو ان لوگوں سے زیادہ جانتا ہوں؛ اے اللہ! مجھے ویسا اور اس سے بہتر بنا دے جیسا یہ لوگ گمان کرتے ہیں، اور میری ان خامیوں کو معاف فرما دے جنہیں یہ نہیں جانتے۔",
+      ro: "Jab koi shakhs Sayyiduna Abu Bakr Siddiq (R.A) ki tareef karta to Aap (R.A) foran farmate: Aye mere Allah! Tu mujhe mujh se bhi zyada jaanta hai aur main apne nafs ko in logon se zyada jaanta hoon; aye Allah! Mujhe waisa aur us se behtar bana de jaisa yeh log guman karte hain, aur meri un khamiyon ko maaf farma de jinhein yeh nahi jaante.",
+      en: "Whenever praised by people, Hazrat Abu Bakr Siddiq (R.A) would pray: 'O Allah, You know me better than I know myself, and I know myself better than they know me; O Allah, make me better than what they assume of me, and forgive me for what they do not know of me.'"
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: تعریف وہ میٹھا زہر ہے جو بڑے بڑے نیک لوگوں کو خود پسندی میں مبتلا کر دیتا ہے۔ صدیقِ اکبرؓ کی یہ دعا ہمیں سکھاتی ہے کہ لوگ ہمارے ظاہر کی تعریف کرتے ہیں کیونکہ اللہ نے ہمارے باطنی عیب ڈھانپ رکھے ہیں۔ آج کا عملی سبق یہ ہے کہ جب کوئی آپ کی تعریف کرے تو دل میں غرور لانے کے بجائے رب کا شکر اور استغفار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Tareef woh meetha zehar hai jo bade bade nek logon ko khud-pasandi mein mubtala kar deta hai. Siddiq-e-Akbar (R.A) ki yeh dua humein sikhati hai ke log hamare zahir ki tareef karte hain kyunkeh Allah ne hamare batini aib dhanp rakhe hain. Aaj ka amli sabaq yeh hai ke jab koi aap ki tareef kare to dil mein ghuroor lane ke bajaye Rab ka shukr aur istighfar karein.",
+      en: "Context & Practical Lesson: Public praise can easily inflate the ego; turning compliments into a quiet prayer for forgiveness and genuine betterment keeps the soul grounded."
+    },
+    tags: [
+      { ur: "تواضع و اخلاص", ro: "Tawazu o Ikhlas", en: "Humility & Sincerity" },
+      { ur: "خود آگاہی", ro: "Khud-Aagahi", en: "Self-Awareness" }
+    ]
+  },
+  {
+    id: "ma-400",
+    slug: "zaban-ke-baghair-amal-se-sacha-dawa-karne-ki-talqeen",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 80",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "زبان کے دعوؤں کے بجائے خاموش عمل سے خیر کے داعی بنو",
+      ro: "Zaban Ke Daawon Ke Bajaye Khamosh Amal Se Khair Ke Da'i Bano",
+      en: "Call People to Goodness Through Your Actions Even Without Speaking"
+    },
+    quote: {
+      ur: "لوگوں کو اپنی زبان سے وعظ سنانے کے بجائے اپنے سچے کردار اور خاموش عمل کے ذریعے خیر کی طرف بلاؤ؛ کیونکہ انسان کا کھرا عمل اس کی لچھے دار گفتگو سے کہیں زیادہ اثر رکھتا ہے۔",
+      ro: "Logon ko apni zaban se wa'z sunane ke bajaye apne sachay kirdar aur khamosh amal ke zariye khair ki taraf bulao; kyunkeh insan ka khara amal us ki lachhay-dar guftugu se kahin zyada asar rakhta hai.",
+      en: "Call people toward goodness through your conduct even without speaking with your tongue, for upright action speaks far louder and reaches deeper than eloquent words."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: آج کے دور میں نصیحت کرنے والے بہت ہیں مگر عمل کرنے والے کم، اسی لیے باتوں کا اثر ختم ہو گیا ہے۔ جب آپ کا بیٹا، شاگرد یا گاہک آپ کو عملاً سچ بولتے اور امانت نبھاتے دیکھتا ہے تو وہ بغیر کسی تقریر کے آپ سے متاثر ہو جاتا ہے۔ آج کا عملی سبق یہ ہے کہ جو اچھائی آپ دوسروں میں دیکھنا چاہتے ہیں، پہلے خود اس کا عملی نمونہ بنیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Aaj ke daur mein nasihat karne wale bohot hain magar amal karne wale kam, isi liye baaton ka asar khatam ho gaya hai. Jab aap ka beta, shagird ya gahak aap ko amalan sach bolte aur amanat nibhate dekhta hai to woh baghair kisi taqreer ke aap se mutasir ho jata hai. Aaj ka amli sabaq yeh hai ke jo achai aap doosron mein dekhna chahte hain, pehle khud us ka amli namoona banein.",
+      en: "Context & Practical Lesson: Children, colleagues, and society learn far more from what we consistently practice than from what we preach. Let your integrity be your message."
+    },
+    tags: [
+      { ur: "کردار کی طاقت", ro: "Kirdar Ki Taqat", en: "Power of Example" },
+      { ur: "عملی نمونہ", ro: "Amli Namoona", en: "Leading by Action" }
+    ]
+  },
+  {
+    id: "ma-401",
+    slug: "khalwat-ki-pakeezgi-aur-posheeda-amal-ka-zahir-hona",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 90",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "تنہائی کے عمل کا لباس انسان کے ظاہر پر ضرور نمایاں ہوتا ہے",
+      ro: "Tanhai Ke Amal Ka Libas Insan Ke Zahir Par Zaroor Numayan Hota Hai",
+      en: "What One Conceals in Secret Will Eventually Clothe Their Public Character"
+    },
+    quote: {
+      ur: "کوئی انسان اپنے دل اور اپنی تنہائی میں جو بھی بھلائی یا برائی چھپاتا ہے، اللہ تعالیٰ اس کا چغہ (اثر اور پہچان) اس کے چہرے اور اس کی زبان پر ضرور ظاہر فرما دیتا ہے؛ پس اپنی تنہائی کو سنوار لو، اللہ تمہاری محفل کو سنوار دے گا۔",
+      ro: "Koi insan apne dil aur apni tanhai mein jo bhi bhalai ya burai chhupata hai, Allah Ta'ala us ka chugha (asar aur pehchan) us ke chehray aur us ki zaban par zaroor zahir farma deta hai; pas apni tanhai ko sanwar lo, Allah tumhari mehfil ko sanwar dega.",
+      en: "Whatever secret a person conceals in their heart and private hours, Allah eventually drapes its garment over their face and tongue—whether for good or ill; so purify your solitude, and Allah will beautify your public standing."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: انسان دنیا کے سامنے تو مصنوعی نقاب پہن سکتا ہے، لیکن اس کی تنہائی کی پاکیزگی یا آلودگی آخرکار اس کے لہجے، نگاہ اور وقار سے جھلکنے لگتی ہے۔ آج کا عملی سبق یہ ہے کہ جب آپ اکیلے ہوں اور کوئی دیکھنے والا نہ ہو، اس وقت اپنے کردار اور موبائل کے استعمال کو اتنا ہی پاکیزہ رکھیں جتنا سب کے سامنے رکھتے ہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan duniya ke samne to masnooi naqab pehan sakta hai, lekin us ki tanhai ki pakeezgi ya aaloodgi aakhir-kar us ke lehjay, nigah aur waqar se jhalakne lagti hai. Aaj ka amli sabaq yeh hai ke jab aap akele hon aur koi dekhne wala na ho, us waqt apne kirdar aur mobile ke istemal ko utna hi pakeeza rakhein jitna sab ke samne rakhte hain.",
+      en: "Context & Practical Lesson: Public reputation is ultimately a reflection of private integrity. Guarding your conduct when no one is watching builds unshakeable dignity."
+    },
+    tags: [
+      { ur: "تقویٰ در خلوت", ro: "Taqwa Dar Khalwat", en: "Private Integrity" },
+      { ur: "پاکیزگیٔ باطن", ro: "Pakeezgi-e-Batin", en: "Inner Purity" }
+    ]
+  },
+  {
+    id: "ma-402",
+    slug: "qanaat-aisi-daulat-hai-jo-kabhi-khatam-nahi-hoti",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 98",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "قناعت وہ خزانہ ہے جو کبھی ختم نہیں ہوتا اور عیب پوشی کمالِ مروت ہے",
+      ro: "Qana'at Woh Khazana Hai Jo Kabhi Khatam Nahi Hota Aur Aib-Poshi Kamal-e-Murawwat Hai",
+      en: "Contentment is an Inexhaustible Treasure and Overlooking Faults is True Chivalry"
+    },
+    quote: {
+      ur: "قناعت ایک ایسا لازوال خزانہ ہے جو کبھی ختم نہیں ہوتا، اور عقل مند انسان آدھا تغافل (دوسروں کی چھوٹی باتوں کو نظر انداز کرنا) اختیار کرتا ہے؛ کیونکہ جو شخص ہر چھوٹی بات کا حساب لینے بیٹھ جائے اس کا کوئی دوست باقی نہیں رہتا۔",
+      ro: "Qana'at aik aisa la-zawal khazana hai jo kabhi khatam nahi hota, aur aqal-mand insan aadha taghaful (doosron ki choti baaton ko nazar-andaz karna) ikhtiyar karta hai; kyunkeh jo shakhs har choti baat ka hisab lene baith jaye us ka koi dost baqi nahi rehta.",
+      en: "Contentment is a treasure that never runs dry, and half of wisdom lies in gracious overlooking ('taghaful'); for whoever scrutinizes every minor flaw will be left without a single friend."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: گھر اور دوستی کو چلانے کا سب سے بڑا ہنر ’تغافل‘ ہے، یعنی سب کچھ سمجھتے بوجھتے ہوئے دوسرے کی چھوٹی موٹی لغزش کو یوں نظر انداز کر دینا جیسے دیکھا ہی نہیں۔ آج کا عملی سبق یہ ہے کہ اپنے اہلِ خانہ اور دوستوں کی ہر بات کا پوسٹ مارٹم کرنے کے بجائے درگزر سے کام لیں تاکہ محبتیں سلامت رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Ghar aur dosti ko chalane ka sab se bada hunar 'taghaful' hai, ya'ni sab kuch samajhte boojhte huye doosre ki choti-moti laghzish ko yoon nazar-andaz kar dena jaise dekha hi nahi. Aaj ka amli sabaq yeh hai ke apne ahl-e-khana aur doston ki har baat ka post-mortem karne ke bajaye darguzar se kaam lein taake mohabbatein salamat rahein.",
+      en: "Context & Practical Lesson: Healthy families and friendships thrive on the art of gracious overlooking—choosing not to nitpick every minor slip so affection can endure."
+    },
+    tags: [
+      { ur: "چشم پوشی", ro: "Chashm-Poshi", en: "Gracious Overlooking" },
+      { ur: "خزانۂ قناعت", ro: "Khazana-e-Qana'at", en: "Treasure of Contentment" }
+    ]
+  },
+  {
+    id: "ma-403",
+    slug: "pathar-aur-chattan-se-bhi-zyada-bhaari-bojh-bohtan",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 104",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "لوہے اور پتھر سے بھی زیادہ بھاری بوجھ بے گناہ پر تہمت اور برا پڑوسی ہے",
+      ro: "Lohay Aur Patthar Se Bhi Zyada Bhari Bojh Be-Gunah Par Tohmat Aur Bura Padosi Hai",
+      en: "Heavier Than Iron and Stone is False Accusation Against the Innocent"
+    },
+    quote: {
+      ur: "اے بیٹے! میں نے اپنی زندگی میں بھاری پتھر بھی اٹھائے ہیں اور لوہے کے بوجھ بھی ڈھوئے ہیں، لیکن مجھے بے گناہ انسان پر لگائے گئے بہتان اور برے ہمسائے سے زیادہ بھاری کوئی چیز محسوس نہیں ہوئی؛ اور میں نے ہر کڑواہٹ چکھی ہے مگر کسی کے آگے سوال کرنے سے زیادہ کڑوی کوئی چیز نہیں پائی۔",
+      ro: "Aye betay! Main ne apni zindagi mein bhari patthar bhi uthaye hain aur lohay ke bojh bhi dhoye hain, lekin mujhe be-gunah insan par lagaye gaye bohtan aur buray hamsaye se zyada bhari koi cheez mehsoos nahi hui; aur main ne har karwahat chakhi hai magar kisi ke aagay sawal karne se zyada karwi koi cheez nahi payi.",
+      en: "O my son! I have lifted heavy boulders and carried iron loads, yet I found nothing heavier than a false accusation against an innocent person and an ill-natured neighbor; and I have tasted every bitterness, yet found nothing more bitter than begging from people."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: جسمانی بوجھ تو کندھوں سے اتر جاتا ہے، لیکن کسی بے قصور پر لگایا گیا جھوٹا الزام روح کو کچل دیتا ہے اور قیامت کے دن پہاڑ بن کر سامنے آتا ہے۔ آج کا عملی سبق یہ ہے کہ کبھی کسی پر سنی سنائی تہمت نہ لگائیں اور محنت کی روکھی سوکھی کھا لیں مگر کسی کے آگے دستِ سوال دراز نہ کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jismani bojh to kandhon se utar jata hai, lekin kisi be-qusoor par lagaya gaya jhoota ilzam rooh ko kuchal deta hai aur qayamat ke din pahar ban kar samne aata hai. Aaj ka amli sabaq yeh hai ke kabhi kisi par suni-sunai tohmat na lagayein aur mehnat ki rookhi-sookhi kha lein magar kisi ke aagay dast-e-sawal daraz na karein.",
+      en: "Context & Practical Lesson: Physical weights rest only on the shoulders, whereas slander crushes the innocent soul. Guard your tongue from false accusations and preserve your dignity through honest labor."
+    },
+    tags: [
+      { ur: "ترکِ بہتان", ro: "Tark-e-Bohtan", en: "Avoiding Slander" },
+      { ur: "عزتِ نفس", ro: "Izzat-e-Nafs", en: "Self-Dignity" }
+    ]
+  },
+  {
+    id: "ma-404",
+    slug: "shajar-e-phal-dar-hamesha-jhuka-rehta-hai",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 274 (Hukama Summary)",
+    author: {
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
+    },
+    title: {
+      ur: "پھل دار شاخ ہمیشہ جھکی رہتی ہے اور پتھر کا جواب میوہ دے کر دیتی ہے",
+      ro: "Phal-Dar Shakh Hamesha Jhuki Rehti Hai Aur Patthar Ka Jawab Mewa De Kar Deti Hai",
+      en: "The Fruit-Bearing Branch Bows Low and Answers Stones with Sweet Fruit"
+    },
+    quote: {
+      ur: "پھل دار درخت سے دو اخلاقی سبق سیکھو: پہلا یہ کہ جتنا اس پر پھل اور کمال بڑھتا ہے اس کی شاخیں اتنی ہی عاجزی سے جھک جاتی ہیں، اور دوسرا یہ کہ لوگ اسے نیچے سے پتھر مارتے ہیں مگر وہ بدلے میں انہیں میٹھا پھل عطا کرتا ہے۔",
+      ro: "Phal-dar darakht se do akhlaqi sabaq seekho: pehla yeh ke jitna us par phal aur kamal barhta hai us ki shakhein utni hi aajizi se jhuk jati hain, aur doosra yeh ke log usay neechay se patthar marte hain magar woh badlay mein unhein meetha phal ata karta hai.",
+      en: "Learn two lessons from the fruit-bearing tree: the more laden it becomes with fruit, the lower its branches bow in humility; and when people pelt it with stones, it answers by dropping sweet fruit in return."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: بے ثمر اور سوکھے درخت ہمیشہ اکڑے کھڑے رہتے ہیں اور آندھی میں ٹوٹ جاتے ہیں، جبکہ پھلوں سے لدی شاخ جھک کر سلامت بھی رہتی ہے اور فیض بھی بانٹتی ہے۔ آج کا عملی سبق یہ ہے کہ علم، دولت یا ہنر بڑھنے کے ساتھ اپنے اندر نرمی بڑھائیں اور حاسدوں کے پتھروں کا جواب اپنی محنت کے میٹھے پھل سے دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Be-samar aur sookhay darakht hamesha akray kharay rehte hain aur aandhi mein toot jate hain, jabkeh phalon se ladi shakh jhuk kar salamat bhi rehti hai aur faiz bhi bant'ti hai. Aaj ka amli sabaq yeh hai ke ilm, daulat ya hunar barhne ke sath apne andar narmi barhayein aur hasidon ke pattharon ka jawab apni mehnat ke meethay phal se dein.",
+      en: "Context & Practical Lesson: Barren branches stand stiffly and snap in the wind, while fruitful souls grow humbler with every achievement and respond to criticism with continued excellence."
+    },
+    tags: [
+      { ur: "تواضعِ کمال", ro: "Tawazu-e-Kamal", en: "Humble Excellence" },
+      { ur: "جوابِ احسان", ro: "Jawab-e-Ihsan", en: "Responding with Good" }
+    ]
+  },
+  {
+    id: "ma-405",
+    slug: "raastay-ka-bhaari-pathar-aur-chhupa-huwa-inaam",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 364 (Hikayat Summary)",
+    author: {
+      ur: "اخلاقی جواہر و حکایات",
+      ro: "Akhlaqi Jawahir o Hikayat",
+      en: "Moral Gems & Parables"
+    },
+    title: {
+      ur: "راستے کا بھاری پتھر: خدمتِ خلق کے نیچے ہی تقدیر کا انعام چھپا ہوتا ہے",
+      ro: "Rastay Ka Bhari Patthar: Khidmat-e-Khalq Ke Neechay Hi Taqdeer Ka Inaam Chhupa Hota Hai",
+      en: "The Boulder on the Road: Opportunity Hides Beneath Every Obstacle"
+    },
+    quote: {
+      ur: "ایک منصف بادشاہ نے شاہراہ کے بیچوں بیچ ایک بھاری پتھر رکھوا دیا؛ سارا دن امیر اور مسافر شکوہ کرتے ہوئے سائیڈ سے گزرتے رہے، شام کو ایک غریب کسان نے سوچا کہ رات کے اندھیرے میں کسی مسافر کو ٹھوکر نہ لگے اور اس نے پوری طاقت لگا کر پتھر ہٹایا تو نیچے اشرفیوں کی تھیلی اور خط ملا: یہ انعام اس کے لیے ہے جو صرف شکوہ نہیں کرتا بلکہ راستے کی تکلیف ہٹاتا ہے۔",
+      ro: "Aik munsif badshah ne shahrah ke beechon-beech aik bhari patthar rakhwa diya; sara din ameer aur musafir shikwa karte huye side se guzarte rahe, sham ko aik ghareeb kisan ne socha ke raat ke andheray mein kisi musafir ko thokar na lagay aur us ne poori taqat laga kar patthar hataya to neechay ashrafiyon ki theli aur khat mila: Yeh inaam us ke liye hai jo sirf shikwa nahi karta balkay rastay ki takleef hatata hai.",
+      en: "A wise king placed a boulder in the middle of the main road; all day travelers complained and walked around it until a humble farmer pushed the heavy stone aside so night travelers would not trip—discovering beneath it a pouch of gold and a royal note: 'For the one who removes obstacles instead of merely complaining.'"
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: حدیثِ نبوی ﷺ میں بھی راستے سے تکلیف دہ چیز ہٹانے کو ایمان کا شعبہ اور مغفرت کا سبب قرار دیا گیا ہے۔ دنیا میں اکثر لوگ حالات کا رونا روتے ہیں، مگر کامیاب وہ ہوتا ہے جو ذمہ داری اٹھا کر مسئلہ حل کرتا ہے۔ آج کا عملی سبق یہ ہے کہ شکایت کرنے والوں کی صف سے نکل کر مسائل حل کرنے والوں (Problem Solvers) میں شامل ہوں، کیونکہ ہر مشقت کے نیچے کامیابی کا خزانہ چھپا ہوتا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Hadees-e-Nabawi ﷺ mein bhi rastay se takleef-deh cheez hatane ko eman ka shoba aur maghfirat ka sabab qarar diya gaya hai. Duniya mein aksar log halaat ka rona rote hain, magar kamyab woh hota hai jo zimmedari utha kar masla hal karta hai. Aaj ka amli sabaq yeh hai ke shikayat karne walon ki saff se nikal kar masail hal karne walon (Problem Solvers) mein shamil hon, kyunkeh har mushaqqat ke neechay kamyabi ka khazana chhupa hota hai.",
+      en: "Context & Practical Lesson: Removing harm from the public path is a branch of faith, and in life, every heavy challenge conceals a hidden reward for those who take initiative rather than complain."
+    },
+    tags: [
+      { ur: "خدمت و احساس", ro: "Khidmat o Ehsas", en: "Civic Responsibility" },
+      { ur: "حلِ مسائل", ro: "Hall-e-Masail", en: "Initiative" }
+    ]
+  }
+];
+
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
@@ -11863,6 +12316,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch25Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-361 (Namaz), ma-364 (Hamsaya huqooq), ma-368 (Mukhatib tawajjo), ma-372 (Adab miras), ma-375 (Sachai ahad) featured
 
   ...batch26Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-376 (Hawas pursish), ma-379 (Oopar hath), ma-383 (Muskurata chehra), ma-387 (Ilm maal), ma-390 (Boorha baghban) featured
+  ...batch27Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-391 (Wus'at-e-Jaan), ma-394 (Museebat parda), ma-398 (Aasan rasta), ma-402 (Qana'at la-zawal), ma-405 (Rastay ka pathar) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
