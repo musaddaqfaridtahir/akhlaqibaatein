@@ -959,92 +959,92 @@ export const batch2Quotes: QuoteItem[] = [
 export const batch3Quotes: QuoteItem[] = [
   {
     id: "ma-031",
-    slug: "mulaim-jawab-gusse-ko-khatam-karta-hai",
-    categorySlug: "ambiya-o-hukama",
-    bookRef: "Makhzan-e-Akhlaq - Page 60-61",
+    slug: "sabr-aur-istiqamat-ka-ajr-be-hisaab",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Az-Zumar (39:10) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حضرت سلیمان علیہ السلام",
-      ro: "Hazrat Suleman (A.S)",
-      en: "Prophet Solomon (A.S)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "نرم جواب اور جھگڑے سے پرہیز کی عزت",
-      ro: "Naram Jawab Aur Jhagray Se Parhez Ki Izzat",
-      en: "Gentle Words and the Honor of Avoiding Strife"
+      ur: "صبر کرنے والوں کو ان کا اجر بے حساب دیا جاتا ہے",
+      ro: "Sabr Karne Walon Ko Un Ka Ajr Be-Hisab Diya Jata Hai",
+      en: "The Patient Will Be Given Their Reward Without Account"
     },
     quote: {
-      ur: "ملائم جواب غصہ کو کھو دیتا ہے مگر کرخت باتیں غضب انگیز ہیں، اور آدمی کی عزت اسی میں ہے کہ جھگڑے سے باز رہے۔",
-      ro: "Mulaim jawab gusse ko kho deta hai magar karakht baatein ghazab-angez hain, aur aadmi ki izzat isi mein hai ke jhagray se baaz rahe.",
-      en: "A gentle answer turns away wrath, while harsh words stir up anger; a person's honor lies in staying away from quarrels."
+      ur: "آپ کہہ دیجیے کہ اے میرے بندو جو ایمان لائے ہو، اپنے پروردگار سے ڈرو؛ جو لوگ اس دنیا میں نیکی کرتے ہیں ان کے لیے بھلائی ہے، اور اللہ کی زمین کشادہ ہے، بے شک صبر کرنے والوں کو ان کا اجر بے حساب دیا جائے گا۔",
+      ro: "Aap keh dijiye ke aye mere bandoo jo eman laye ho, apne Parwardigar se daro; jo log is duniya mein neki karte hain un ke liye bhalai hai, aur Allah ki zameen kushada hai, be-shak sabr karne walon ko un ka ajr be-hisab diya jayega.",
+      en: "Say, 'O My servants who have believed, fear your Lord. For those who do good in this world is good, and the earth of Allah is spacious. Indeed, the patient will be given their reward without account.'"
     },
     tashreeh: {
-      ur: "غصے کی آگ کو سخت کلامی سے نہیں بلکہ نرم اور شیریں الفاظ سے بجھایا جا سکتا ہے۔ عقلمند انسان جھگڑا تیز ہونے سے پہلے ہی اسے چھوڑ کر اپنی عزت اور سکون محفوظ کر لیتا ہے۔",
-      ro: "Gusse ki aag ko sakht kalami se nahi balkay naram aur shireen alfaz se bujhaya ja sakta hai. Aqalmand insan jhagra tez hone se pehle hi usay chhor kar apni izzat aur sukoon mehfooz kar leta hai.",
-      en: "The fire of anger is extinguished not by harshness, but by soft and calm speech. A wise person preserves their dignity and peace by stepping back before a dispute escalates."
+      ur: "پسِ منظر و تشریح: مصیبتوں پر صبر کرنے کا بدلہ عام نیکیوں کی طرح گنتی کے ساتھ نہیں بلکہ بغیر کسی حساب اور حدود کے عطا کیا جاتا ہے۔ آج کا عملی سبق یہ ہے کہ زندگی کی تنگیوں اور آزمائشوں میں ہمت نہ ہاریں بلکہ صبر کا دامن تھامے رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Museebaton par sabr karne ka badla aam nekiyon ki tarah ginti ke sath nahi balkay baghair kisi hisab aur hudood ke ata kiya jata hai. Aaj ka amli sabaq yeh hai ke zindagi ki tangiyon aur aazmaishon mein himmat na harein balkay sabr ka daman thame rahein.",
+      en: "Context & Practical Lesson: Patience during hardships carries an immeasurable, boundless reward from the Almighty."
     },
     tags: [
-      { ur: "نرمی", ro: "Narmi", en: "Gentleness" },
-      { ur: "حکمت", ro: "Hikmat", en: "Wisdom" }
+      { ur: "صبر", ro: "Sabr", en: "Patience" },
+      { ur: "اجرِ بے حساب", ro: "Ajr-e-Be-Hisab", en: "Boundless Reward" }
     ]
   },
   {
     id: "ma-032",
-    slug: "cheenti-ki-mehnat-aur-daulat-ka-usool",
-    categorySlug: "ambiya-o-hukama",
-    bookRef: "Makhzan-e-Akhlaq - Page 60",
+    slug: "shukr-karoge-to-aur-zyada-nemat-milegi",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Ibrahim (14:7) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حضرت سلیمان علیہ السلام",
-      ro: "Hazrat Suleman (A.S)",
-      en: "Prophet Solomon (A.S)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "محنت کی برکت اور پیش بینی کا سبق",
-      ro: "Mehnat Ki Barkat Aur Pesh-Beeni Ka Sabaq",
-      en: "The Blessing of Hard Work and Foresight"
+      ur: "شکر گزاری کا انعام: نعمتوں میں اضافہ اور ناشکری پر عذاب",
+      ro: "Shukr-Guzari Ka Inaam: Nematon Mein Izafa Aur Nashukri Par Azab",
+      en: "Gratitude Brings Increase; Ingratitude Brings Severe Consequences"
     },
     quote: {
-      ur: "ہوشیار آدمی کا ہاتھ حکمران ہو گا اور سست آدمی خراج گزار ہو گا۔ وہ دولت جو بطالت سے حاصل کی جاتی ہے گھٹ جاتی ہے اور محنت سے فراہم کردہ بڑھے گی۔",
-      ro: "Hoshiyar aadmi ka hath hukmran hoga aur sust aadmi khiraj-guzar hoga. Woh daulat jo bitalat se hasil ki jati hai ghat jati hai aur mehnat se faraham karda barhegi.",
-      en: "The hand of the diligent will rule, while the slothful will be put to forced labor. Wealth gained hastily without effort dwindles, but whoever gathers it through hard work will see it grow."
+      ur: "اور جب تمہارے رب نے خبردار کر دیا کہ اگر تم شکر کرو گے تو میں تمہیں اور زیادہ دوں گا، اور اگر تم ناشکری کرو گے تو میرا عذاب بہت سخت ہے۔",
+      ro: "Aur jab tumhare Rab ne khabardar kar diya ke agar tum shukr karo ge to main tumhein aur zyada doonga, aur agar tum nashukri karo ge to mera azab bohot sakht hai.",
+      en: "And [remember] when your Lord proclaimed, 'If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, My punishment is severe.'"
     },
     tashreeh: {
-      ur: "جس طرح چیونٹی گرمی کے موسم میں محنت کر کے سردی کے لیے خوراک جمع کرتی ہے، اسی طرح محنتی اور بیدار مغز انسان خود کفیل رہتا ہے جبکہ کاہلی انسان کو دوسروں کا محتاج بنا دیتی ہے۔",
-      ro: "Jis tarah cheenti garmi ke mausam mein mehnat kar ke sardi ke liye khorak jama karti hai, isi tarah mehnati aur bedar-maghz insan khud-kafeel rehta hai jabkeh kahili insan ko doosron ka mohtaj bana deti hai.",
-      en: "Just as the ant works tirelessly in summer to store provisions for winter, a hardworking and proactive person achieves independence, whereas laziness leads to dependency."
+      ur: "پسِ منظر و تشریح: شکر صرف زبان سے 'الحمدللہ' کہنے کا نام نہیں، بلکہ دیے گئے وسائل کو اچھے اور جائز کاموں میں استعمال کرنا بھی شکر ہے۔ آج کا عملی سبق یہ ہے کہ اپنی چھوٹی بڑی نعمتوں پر ہمیشہ شکر گزار رہیں تاکہ رزق اور سکون میں برکت ہو۔",
+      ro: "Pas-e-Manzar o Tashreeh: Shukr sirf zaban se 'Alhamdulillah' kehne ka naam nahi, balkay diye gaye wasail ko achay aur jaiz kaamon mein istemal karna bhi shukr hai. Aaj ka amli sabaq yeh hai ke apni choti badi nematon par hamesha shukr-guzar rahein taake rizq aur sukoon mein barkat ho.",
+      en: "Context & Practical Lesson: True gratitude is expressed through both words and righteous actions, unlocking continuous divine abundance."
     },
     tags: [
-      { ur: "محنت", ro: "Mehnat", en: "Hard Work" },
-      { ur: "کامیابی", ro: "Kamyabi", en: "Success" }
+      { ur: "شکر گزاری", ro: "Shukr-Guzari", en: "Gratitude" },
+      { ur: "برکت", ro: "Barkat", en: "Abundance" }
     ]
   },
   {
     id: "ma-033",
-    slug: "makhlooq-ki-mohabbat-hi-khaliq-ki-mohabbat",
-    categorySlug: "ambiya-o-hukama",
-    bookRef: "Makhzan-e-Akhlaq - Page 62",
+    slug: "taqwa-aur-allah-par-bharosa-rizq-ka-zariya",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah At-Talaq (65:2-3) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حضرت عیسیٰ علیہ السلام",
-      ro: "Hazrat Isa (A.S)",
-      en: "Prophet Jesus (A.S)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "مخلوق کی محبت ہی خالق کی محبت ہے",
-      ro: "Makhlooq Ki Mohabbat Hi Khaliq Ki Mohabbat Hai",
-      en: "Love for Creation is Love for the Creator"
+      ur: "تقویٰ اختیار کرنے والے کے لیے غیبی رزق اور آسانیاں",
+      ro: "Taqwa Ikhtiyar Karne Wale Ke Liye Ghaibi Rizq Aur Asaniyan",
+      en: "Provision from Unexpected Sources for Those with Taqwa"
     },
     quote: {
-      ur: "اگر کوئی شخص کہتا ہے کہ میں اللہ تعالیٰ سے محبت کرتا ہوں اور اپنے بھائی سے نفرت کرتا ہے تو وہ جھوٹا ہے؛ اصل میں مخلوق کی محبت ہی خالق کی محبت ہے۔",
-      ro: "Agar koi shakhs kehta hai ke main Allah Ta'ala se mohabbat karta hoon aur apne bhai se nafrat karta hai to woh jhoota hai; asal mein makhlooq ki mohabbat hi Khaliq ki mohabbat hai.",
-      en: "If someone claims to love God yet hates their fellow brother, they are untruthful; in reality, loving creation is the true expression of loving the Creator."
+      ur: "اور جو شخص اللہ سے ڈرے (تقویٰ اختیار کرے) تو اللہ اس کے لیے مشکلات سے نکلنے کا کوئی راستہ پیدا کر دیتا ہے، اور اسے ایسی جگہ سے رزق عطا کرتا ہے جہاں سے اس کا گمان بھی نہیں ہوتا۔",
+      ro: "Aur jo shakhs Allah se dare (taqwa ikhtiyar kare) to Allah us ke liye mushkilat se nikalne ka koi rasta paida kar deta hai, aur usay aisi jagah se rizq ata karta hai jahan se us ka guman bhi nahi hota.",
+      en: "And whoever fears Allah - He will make for him a way out and will provide for him from where he does not expect."
     },
     tashreeh: {
-      ur: "جو انسان اپنے سامنے نظر آنے والے انسانوں کے ساتھ اچھا سلوک نہیں کرتا اور دل میں بغض رکھتا ہے، اس کا عشقِ الٰہی کا دعویٰ بے بنیاد ہے۔ رب تک پہنچنے کا راستہ انسانوں سے ہمدردی سے ہو کر گزرتا ہے۔",
-      ro: "Jo insan apne samne nazar aane wale insanon ke sath acha sulook nahi karta aur dil mein bughz rakhta hai, us ka ishq-e-Ilahi ka dawa be-bunyad hai. Rab tak pohanchne ka rasta insanon se hamdardi se ho kar guzarta hai.",
-      en: "One who mistreats fellow human beings whom they can see cannot truly love the Unseen Creator. Compassion toward humanity is the truest proof of devotion to God."
+      ur: "پسِ منظر و تشریح: انسان جب رزق کی تنگی یا پریشانی میں خدا ترسی کا دامن نہیں چھوڑتا اور احکام کی پابندی کرتا ہے، تو اللہ ایسے دروازے کھولتا ہے جن کا انسان تصور بھی نہیں کر سکتا۔ آج کا عملی سبق یہ ہے کہ مشکل حالات میں بھی اصولوں پر سمجھوتہ نہ کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan jab rizq ki tangi ya pareshani mein khuda-tarsi ka daman nahi chorta aur ahkam ki pabandi karta hai, to Allah aise darwaze kholta hai jin ka insan tasawwur bhi nahi kar sakta. Aaj ka amli sabaq yeh hai ke mushkil halaat mein bhi usoolon par samjhota na karein.",
+      en: "Context & Practical Lesson: Maintaining moral integrity and God-consciousness during financial trials opens unexpected doors of provision and ease."
     },
     tags: [
-      { ur: "محبت", ro: "Mohabbat", en: "Love" },
-      { ur: "انسانیت", ro: "Insaniyat", en: "Humanity" }
+      { ur: "تقویٰ اور رزق", ro: "Taqwa o Rizq", en: "Piety & Provision" },
+      { ur: "آسانی", ro: "Asani", en: "Ease" }
     ]
   },
   {
@@ -1412,92 +1412,92 @@ export const batch3Quotes: QuoteItem[] = [
 export const batch4Quotes: QuoteItem[] = [
   {
     id: "ma-046",
-    slug: "sukoot-aur-kam-goi-hikmat-ki-alamat",
-    categorySlug: "ambiya-o-hukama",
-    bookRef: "Makhzan-e-Akhlaq - Page 240",
+    slug: "insan-ghare-khasar-mein-hai-siwaye-eman-aur-sabr-walo-ke",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Asr (103:1-3) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حکیم سقراط",
-      ro: "Hakeem Suqrat",
-      en: "Socrates"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "خاموشی اور کم گوئی کی حکمت",
-      ro: "Khamoshi Aur Kam-Goi Ki Hikmat",
-      en: "The Wisdom of Silence and Few Words"
+      ur: "زمانے کی قسم: انسان خسارے میں ہے سوائے اہل ِایمان اور عملِ صالح کے",
+      ro: "Zamanay Ki Qasam: Insan Khasaray Mein Hai Siwaye Ahl-e-Eman Aur Amal-e-Saleh Ke",
+      en: "By Time, Mankind is in Loss Except the Righteous"
     },
     quote: {
-      ur: "عقل مند انسان کی خاموشی اس کا محافظ ہے اور کم گو ہونا حکمت کی سب سے بڑی علامت ہے۔",
-      ro: "Aqal-mand insan ki khamoshi us ka mohafiz hai aur kam-go hona hikmat ki sab se badi alamat hai.",
-      en: "A wise person's silence is their shield, and speaking sparingly is the greatest sign of wisdom."
+      ur: "زمانے کی قسم! بے شک انسان سراسر خسارے میں ہے، سوائے ان لوگوں کے جو ایمان لائے اور انہوں نے نیک اعمال کیے اور آپس میں حق کی وصیت کی اور ایک دوسرے کو صبر کی تلقین کی۔",
+      ro: "Zamanay ki qasam! Be-shak insan sarasar khasaray mein hai, siwaye un logon ke jo eman laye aur unhon ne nek aamal kiye aur aapas mein haq ki wasiyat ki aur aik doosre ko sabr ki talqeen ki.",
+      en: "By time, indeed, mankind is in loss, Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience."
     },
     tashreeh: {
-      ur: "زیادہ بولنے سے غلطیوں کے امکانات بڑھ جاتے ہیں، جبکہ سوچ سمجھ کر اور ضرورت کے مطابق بولنے والا انسان حماقتوں اور ندامت سے محفوظ رہتا ہے۔",
-      ro: "Zyada bolne se ghaltiyon ke imkanaat barh jaate hain, jabkeh soch samajh kar aur zaroorat ke mutabiq bolne wala insan humaqton aur nadamat se mehfooz rehta hai.",
-      en: "Talking excessively increases the likelihood of mistakes, whereas speaking thoughtfully and only when necessary protects a person from folly and regret."
+      ur: "پسِ منظر و تشریح: وقت تیزی سے گزر رہا ہے اور انسان کی زندگی گھٹ رہی ہے۔ حقیقی کامیابی صرف چار چیزوں میں ہے: پکا ایمان، اچھے اعمال، حق بات پر ڈٹ جانا اور مشکلات میں صبر کی تلقین کرنا۔ آج کا عملی سبق یہ ہے کہ اپنے وقت کو ضائع ہونے سے بچائیں اور نیکی و حق کی دعوت عام کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Waqt tezi se guzar raha hai aur insan ki zindagi ghat rahi hai. Haqeeqi kamyabi sirf chaar cheezon mein hai: pakka eman, achay aamal, haq baat par dat jana aur mushkilat mein sabr ki talqeen karna. Aaj ka amli sabaq yeh hai ke apne waqt ko zaya hone se bachayein aur neki o haq ki dawat aam karein.",
+      en: "Context & Practical Lesson: Time slips away quickly; true success belongs exclusively to those anchored in faith, good deeds, mutual truth, and perseverance."
     },
     tags: [
-      { ur: "خاموشی", ro: "Khamoshi", en: "Silence" },
-      { ur: "حکمت", ro: "Hikmat", en: "Wisdom" }
+      { ur: "قدرِ وقت", ro: "Qadr-e-Waqt", en: "Value of Time" },
+      { ur: "حق و صبر", ro: "Haq o Sabr", en: "Truth & Patience" }
     ]
   },
   {
     id: "ma-047",
-    slug: "duniya-ki-be-sbaati-aur-asal-tosha",
-    categorySlug: "sabaq-aamoz-waqiat",
-    bookRef: "Makhzan-e-Akhlaq - Page 353",
+    slug: "adal-ihsan-aur-bad-behavi-ki-mumanat",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah An-Nahl (16:90) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حقیقتِ دنیا",
-      ro: "Haqeeqat-e-Duniya",
-      en: "Reality of the World"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "دنیا کی عارضی حقیقت اور آخرت کی تیاری",
-      ro: "Duniya Ki Aarzi Haqeeqat Aur Akhirat Ki Tayari",
-      en: "The Transient Reality of the World and Preparation for the Hereafter"
+      ur: "عدل، احسان اور قریبی رشتہ داروں کی مدد کا جامع حکم",
+      ro: "Adal, Ihsan Aur Qareebi Rishtedaron Ki Madad Ka Jame Hukm",
+      en: "Comprehensive Command for Justice, Benevolence, and Helping Kin"
     },
     quote: {
-      ur: "دنیا ایک مسافر خانہ ہے جو آخرت کے مسافروں کے لیے وقف ہے، اپنا تو شہ لے لو اور جو کچھ اس سرائے میں ہے اس کا لالچ نہ کرو۔",
-      ro: "Duniya aik musafir-khana hai jo akhirat ke musafiron ke liye waqf hai, apna tosha le lo aur jo kuch is saraye mein hai us ka lalach na karo.",
-      en: "The world is a waystation dedicated to travelers of the hereafter; take your provisions and do not greedily cling to what belongs to this temporary inn."
+      ur: "بے شک اللہ عدل کا، احسان کا اور قرابت داروں کو (ان کا حق) دینے کا حکم دیتا ہے، اور بے حیائی، برے کاموں اور سرکشی سے منع کرتا ہے؛ وہ تمہیں نصیحت کرتا ہے تاکہ تم دھیان رکھو۔",
+      ro: "Be-shak Allah adal ka, ihsan ka aur qarabat-daron ko (un ka haq) dene ka hukm deta hai, aur be-hayaai, buray kaamon aur sarkashi se mana karta hai; woh tumhein nasihat karta hai taake tum dhyan rakhein.",
+      en: "Indeed, Allah orders justice and good conduct and giving to relatives and forbids immorality and bad conduct and oppression. He admonishes you that perhaps you will be reminded."
     },
     tashreeh: {
-      ur: "انسان اس دنیا میں ہمیشہ رہنے کے لیے نہیں آیا بلکہ عارضی مسافر ہے۔ اصل کامیابی اس مال و دولت میں نہیں جو یہاں چھوڑ جانا ہے، بلکہ اس نیکی میں ہے جو آخرت کے لیے ساتھ جانی ہے۔",
-      ro: "Insan is duniya mein hamesha rehne ke liye nahi aaya balkay aarzi musafir hai. Asal kamiyabi us maal-o-daulat mein nahi jo yahan chhor jana hai, balkay us neki mein hai jo akhirat ke liye sath jani hai.",
-      en: "Humanity is merely passing through this world as travelers. True success lies not in accumulated wealth left behind, but in righteousness carried forward."
+      ur: "پسِ منظر و تشریح: قرآن مجید کی یہ جامع ترین آیت ہے جسے خطبات جمعہ میں تلاوت کیا جاتا ہے۔ اس میں معاشرے کی بقا کے تمام اخلاقی اصول (عدل، احسان، صلہ رحمی) اور برائیوں کی سختی سے ممانعت موجود ہے۔ آج کا عملی سبق یہ ہے کہ اپنے روزمرہ معاملات میں ان اصولوں کو نافذ کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran Majeed ki yeh jame-tareen aayat hai jisay khutbat-e-jumuma mein tilawat kiya jata hai. Is mein muashray ki baqa ke tamam akhlaqi usool (adal, ihsan, sila-rehmi) aur buraiyon ki sakhti se mumaniat mojood hai. Aaj ka amli sabaq yeh hai ke apne rozmarra muamlat mein in usoolon ko naafiz karein.",
+      en: "Context & Practical Lesson: This verse serves as a master blueprint for human society, summarizing the highest ethical standards of justice, kindness, and moral purity."
     },
     tags: [
-      { ur: "آخرت", ro: "Akhirat", en: "Hereafter" },
-      { ur: "قناعت", ro: "Qana'at", en: "Contentment" }
+      { ur: "عدل و احسان", ro: "Adal o Ihsan", en: "Justice & Kindness" },
+      { ur: "اخلاقی ضابطہ", ro: "Akhlaqi Zabita", en: "Ethical Code" }
     ]
   },
   {
     id: "ma-048",
-    slug: "sila-rehmi-aur-rishton-ki-baqa",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 381",
+    slug: "zikr-e-ilahi-se-dilon-ka-sukoon",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Ar-Ra'd (13:28) & Makhzan-e-Akhlaq",
     author: {
-      ur: "ارشادِ نبوی ﷺ",
-      ro: "Irshad-e-Nabawi ﷺ",
-      en: "Prophetic Tradition ﷺ"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "صلہ رحمی اور رشتہ داروں کے ساتھ حسنِ سلوک",
-      ro: "Sila-Rehmi Aur Rishtedaron Ke Sath Husn-e-Sulook",
-      en: "Maintaining Family Ties and Kindness to Relatives"
+      ur: "دلوں کا حقیقی سکون صرف اللہ کی یاد اور ذکر میں ہے",
+      ro: "Dilon Ka Haqeeqi Sukoon Sirf Allah Ki Yaad Aur Zikr Mein Hai",
+      en: "True Tranquility of the Heart is Found in the Remembrance of God"
     },
     quote: {
-      ur: "صلہ رحمی عمر اور رزق میں فراخی پیدا کرتی ہے، اور رشتہ داروں سے تعلق توڑنا گھرانوں کو ویران کر دیتا ہے۔",
-      ro: "Sila-rehmi umar aur rizq mein farakhi paida karti hai, aur rishtedaron se talluq torna gharanon ko weeran kar deta hai.",
-      en: "Maintaining kinship ties expands lifespan and provision, while severing family ties destroys households."
+      ur: "جو لوگ ایمان لائے اور ان کے دلوں کو اللہ کے ذکر سے اطمینان نصیب ہوتا ہے؛ یاد رکھو کہ اللہ ہی کے ذکر سے دلوں کو سکون ملتا ہے۔",
+      ro: "Jo log eman laye aur un ke dilon ko Allah ke zikr se itminan naseeb hota hai; yaad rakho ke Allah hi ke zikr se dilon ko sukoon milta hai.",
+      en: "Those who have believed and whose hearts are assured by the remembrance of Allah. Unquestionably, by the remembrance of Allah hearts are assured."
     },
     tashreeh: {
-      ur: "اپنے خون کے رشتوں کو جوڑے رکھنا، ان کی تکلیف میں کام آنا اور قطع تعلق سے بچنا اللہ کی رحمت اور برکت کو کھینچتا ہے۔",
-      ro: "Apne khoon ke rishton ko joray rakhna, un ki takleef mein kaam aana aur qat-e-talluq se bachna Allah ki rehmat aur barkat ko kheenchta hai.",
-      en: "Cherishing family bloodlines, helping them in hardship, and avoiding alienation draw divine mercy and abundant blessings."
+      ur: "پسِ منظر و تشریح: انسان دولت، شہرت اور مادی وسائل کے پیچھے بھاگتا ہے تاکہ اسے ذہنی سکون مل سکے، مگر حقیقی اور پائیدار سکون صرف اور صرف اللہ کی یاد اور اس کے ذکر سے ہی حاصل ہوتا ہے۔ آج کا عملی سبق یہ ہے کہ روزانہ تلاوت اور اذکار کے لیے وقت نکالیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan daulat, shohrat aur maadi wasail ke peechay bhagta hai taake usay zehni sukoon mil sake, magar haqeeqi aur paidar sukoon sirf aur sirf Allah ki yaad aur us ke zikr se hi hasil hota hai. Aaj ka amli sabaq yeh hai ke rozana tilawat aur azkar ke liye waqt nikalein.",
+      en: "Context & Practical Lesson: While worldly success offers temporary comfort, enduring inner peace is exclusively attained through spiritual connection and remembrance of God."
     },
     tags: [
-      { ur: "صلہ رحمی", ro: "Sila-Rehmi", en: "Kinship" },
-      { ur: "برکت", ro: "Barkat", en: "Blessings" }
+      { ur: "ذکرِ الٰہی", ro: "Zikr-e-Ilahi", en: "Remembrance of God" },
+      { ur: "قلبی سکون", ro: "Qalbi Sukoon", en: "Inner Peace" }
     ]
   },
   {
