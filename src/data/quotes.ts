@@ -13191,6 +13191,459 @@ export const batch29Quotes: QuoteItem[] = [
   }
 ];
 
+export const batch30Quotes: QuoteItem[] = [
+  {
+    id: "ma-436",
+    slug: "har-nafs-ne-kl-ke-liye-kya-aagay-bheja-muhasaba",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Hashr (59:18) Summary | Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "فکرِ فردا: ہر انسان دیکھے کہ اس نے کل کے لیے کیا آگے بھیجا ہے",
+      ro: "Fikr-e-Farda: Har Insan Dekhe Ke Us Ne Kal Ke Liye Kya Aagay Bheja Hai",
+      en: "Self-Reflection: Let Every Soul Consider What It Has Sent Ahead for Tomorrow"
+    },
+    quote: {
+      ur: "اہلِ ایمان کو حکمِ الٰہی ہے کہ اللہ کا تقویٰ اختیار کریں اور ہر انسان غور کرے کہ اس نے اپنے آنے والے کل (آخرت) کے لیے کیا ذخیرہ آگے بھیجا ہے؛ اور یاد رکھے کہ اللہ اس کے تمام اعمال سے پوری طرح باخبر ہے۔",
+      ro: "Ahl-e-eman ko hukm-e-Ilahi hai ke Allah ka taqwa ikhtiyar karein aur har insan ghaur kare ke us ne apne aane wale kal (akhirat) ke liye kya zakhira aagay bheja hai; aur yaad rakhe ke Allah us ke tamam aamaal se poori tarah ba-khabar hai.",
+      en: "Believers are commanded to remain mindful of Allah and let every soul reflect deeply upon what good it has sent ahead for tomorrow—knowing that Allah is fully aware of all that they do."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سورۃ الحشر میں قیامت کے طویل دن کو ’کل‘ (غد) کہہ کر پکارا گیا ہے تاکہ انسان سمجھ لے کہ آخرت کا دن بالکل قریب ہے۔ دنیا میں انسان اپنے بڑھاپے اور اولاد کے مستقبل کے لیے تو برسوں منصوبہ بندی کرتا ہے، لیکن ابدی زندگی کی تیاری کو بھلا دیتا ہے۔ آج کا عملی سبق یہ ہے کہ روزانہ اپنے نامۂ اعمال میں کوئی ایسی کھری نیکی جمع کریں جو کل رب کے حضور کام آ سکے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Hashr mein qayamat ke taweel din ko 'kal' (ghad) keh kar pukara gaya hai taake insan samajh le ke akhirat ka din bilkul qareeb hai. Duniya mein insan apne burhapay aur aulad ke mustaqbil ke liye to barson mansooba-bandi karta hai, lekin abadi zindagi ki tayyari ko bhula deta hai. Aaj ka amli sabaq yeh hai ke rozana apne nama-e-aamaal mein koi aisi khari neki jama karein jo kal Rab ke huzoor kaam aa sake.",
+      en: "Context & Practical Lesson: The Quran refers to the Hereafter simply as 'tomorrow' to awaken us to how swiftly time passes. Just as we plan carefully for worldly retirement, we must invest daily in deeds that endure forever."
+    },
+    tags: [
+      { ur: "فکرِ آخرت", ro: "Fikr-e-Akhirat", en: "Preparing for Tomorrow" },
+      { ur: "تقویٰ", ro: "Taqwa", en: "Mindfulness of God" }
+    ]
+  },
+  {
+    id: "ma-437",
+    slug: "zarra-barabar-neki-aur-zarra-barabar-burai-ka-hisab",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Az-Zalzalah (99:7-8) Summary | Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "ذرہ برابر نیکی اور ذرہ برابر برائی بھی سامنے آ کر رہے گی",
+      ro: "Zarra Barabar Neki Aur Zarra Barabar Burai Bhi Samne Aa Kar Rahegi",
+      en: "Even an Atom's Weight of Good or Evil Will Be Seen"
+    },
+    quote: {
+      ur: "الٰہی قانونِ عدل کا اعلان ہے کہ جس شخص نے ایک ذرہ برابر بھی بھلائی اور نیکی کی ہوگی وہ قیامت کے دن اس کا پھل دیکھ لے گا، اور جس نے ایک ذرہ برابر بھی برائی کی ہوگی وہ اس کا انجام اپنے سامنے پا لے گا۔",
+      ro: "Ilahi qanoon-e-adal ka elaan hai ke jis shakhs ne aik zarra barabar bhi bhalai aur neki ki hogi woh qayamat ke din us ka phal dekh lega, aur jis ne aik zarra barabar bhi burai ki hogi woh us ka anjam apne samne pa lega.",
+      en: "Divine justice decrees that whoever does even an atom's weight of good shall see its reward, and whoever commits even an atom's weight of evil shall face its consequence."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سورۃ الزلزلہ کا یہ اصول انسان کو دو بڑی غلط فہمیوں سے بچاتا ہے: نہ کسی چھوٹی سی نیکی (جیسے راستے سے کانٹا ہٹانے یا مسکرا کر ملنے) کو معمولی سمجھ کر چھوڑا جائے، اور نہ کسی چھوٹے گناہ کو ہلکا جان کر کیا جائے۔ آج کا عملی سبق یہ ہے کہ ہر چھوٹی بھلائی کو غنیمت جانیں اور ہر چھوٹی زیادتی سے خود کو محفوظ رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Az-Zalzalah ka yeh usool insan ko do badi ghalat-fahmiyon se bachata hai: na kisi choti si neki (jaise rastay se kanta hatane ya muskura kar milne) ko mamooli samajh kar chhora jaye, aur na kisi chote gunah ko halka jaan kar kiya jaye. Aaj ka amli sabaq yeh hai ke har choti bhalai ko ghaneemat janein aur har choti ziyadati se khud ko mehfooz rakhein.",
+      en: "Context & Practical Lesson: No act of kindness is ever too small to matter, and no wrong is too minor to ignore. Every single choice is recorded with perfect precision."
+    },
+    tags: [
+      { ur: "میزانِ عمل", ro: "Mizan-e-Amal", en: "Scale of Deeds" },
+      { ur: "عدلِ الٰہی", ro: "Adal-e-Ilahi", en: "Divine Justice" }
+    ]
+  },
+  {
+    id: "ma-438",
+    slug: "eman-aur-amal-e-saleh-walon-ke-liye-dilon-mein-mohabbat",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Maryam (19:96) Summary | Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "ایمان اور نیک عمل کرنے والوں کے لیے دلوں میں محبت ڈال دی جاتی ہے",
+      ro: "Eman Aur Nek Amal Karne Walon Ke Liye Dilon Mein Mohabbat Daal Di Jati Hai",
+      en: "The Most Merciful Places Genuine Love in Hearts for the Righteous"
+    },
+    quote: {
+      ur: "قرآنی وعدہ ہے کہ جو لوگ سچے دل سے ایمان لاتے ہیں اور پاکیزہ و صالح اعمال اختیار کرتے ہیں، رحمٰن ان کے لیے مخلوق کے دلوں میں خود بخود سچی محبت، وقار اور مقبولیت پیدا فرما دیتا ہے۔",
+      ro: "Qurani wada hai ke jo log sache dil se eman late hain aur pakeeza o saleh aamaal ikhtiyar karte hain, Rehman un ke liye makhlooq ke dilon mein khud-ba-khud sachi mohabbat, waqar aur maqbooliyat paida farma deta hai.",
+      en: "It is a divine promise that for those who believe sincerely and perform righteous deeds, the Most Merciful places genuine love, respect, and acceptance in the hearts of creation."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: انسان پیسے اور بناوٹی طریقوں سے لوگوں کے دل جیتنا چاہتا ہے مگر ناکام رہتا ہے، جبکہ جو بندہ خلوص کے ساتھ اپنا تعلق اللہ سے جوڑ لیتا ہے اور مخلوق کے ساتھ بھلائی کرتا ہے، اللہ تعالیٰ فرشتوں اور نیک انسانوں کے دلوں میں اس کی محبت بٹھا دیتا ہے۔ آج کا عملی سبق یہ ہے کہ سچی عزت اور محبت پانے کے لیے ریاکاری چھوڑ کر اخلاص اور عملِ صالح کا راستہ اپنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan paise aur banawati tareeqon se logon ke dil jeetna chahta hai magar nakam rehta hai, jabkeh jo banda khuloos ke sath apna talluq Allah se jor leta hai aur makhlooq ke sath bhalai karta hai, Allah Ta'ala farishton aur nek insanon ke dilon mein us ki mohabbat bitha deta hai. Aaj ka amli sabaq yeh hai ke sachi izzat aur mohabbat pane ke liye riyakari chhor kar ikhlas aur amal-e-saleh ka rasta apnayein.",
+      en: "Context & Practical Lesson: True respect cannot be bought through self-promotion; when a person lives with sincerity toward God and kindness toward people, the Almighty naturally inclines hearts toward them."
+    },
+    tags: [
+      { ur: "محبت و قبولیت", ro: "Mohabbat o Qabooliyat", en: "Beloved by Hearts" },
+      { ur: "عملِ صالح", ro: "Amal-e-Saleh", en: "Righteous Conduct" }
+    ]
+  },
+  {
+    id: "ma-439",
+    slug: "insan-ki-wafat-ke-baad-jaari-rehne-wale-teen-aamaal",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Muslim Summary | Makhzan-e-Akhlaq - Page 34",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "موت کے بعد بھی ثواب پہنچانے والے تین لازوال صدقات",
+      ro: "Maut Ke Baad Bhi Sawab Pohanchane Wale Teen La-Zawal Sadqat",
+      en: "Three Deeds Whose Reward Continues Flowing After Death"
+    },
+    quote: {
+      ur: "جب انسان اس دنیا سے رخصت ہوتا ہے تو اس کے تمام اعمال کا سلسلہ منقطع ہو جاتا ہے، سوائے تین کاموں کے جن کا اجر مسلسل جاری رہتا ہے: صدقۂ جاریہ، وہ نافع علم جس سے لوگ فائدہ اٹھاتے رہیں، اور نیک و صالح اولاد جو اس کے لیے دعائے مغفرت کرتی رہے۔",
+      ro: "Jab insan is duniya se rukhsat hota hai to us ke tamam aamaal ka silsila munqata ho jata hai, siwaye teen kaamon ke jin ka ajr musalsal jari rehta hai: sadqa-e-jariya, woh naafai ilm jis se log faida uthate rahein, aur nek o saleh aulad jo us ke liye dua-e-maghfirat karti rahe.",
+      en: "When a human being departs this world, their deeds come to an end except for three enduring legacies: ongoing charity ('Sadaqah Jariyah'), beneficial knowledge that continues to help people, and a righteous child who prays for them."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: عقلمند انسان وہ ہے جو اپنی مختصر زندگی میں ایسے کام کر جائے جن کا میٹر اس کے دنیا سے جانے کے بعد بھی چلتا رہے۔ پانی کا انتظام کرنا، اخلاقی و علمی پیغام عام کرنا اور اپنے بچوں کی بہترین دینی و اخلاقی تربیت کرنا انسان کی سب سے بڑی کامیابی ہے۔ آج کا عملی سبق یہ ہے کہ ان تینوں شعبوں میں اپنا حصہ ضرور ڈالیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Aqal-mand insan woh hai jo apni mukhtasar zindagi mein aise kaam kar jaye jin ka meter us ke duniya se jane ke baad bhi chalta rahe. Pani ka intizam karna, akhlaqi o ilmi paigham aam karna aur apne bachon ki behtareen deeni o akhlaqi tarbiyat karna insan ki sab se badi kamyabi hai. Aaj ka amli sabaq yeh hai ke in teenon shobon mein apna hissa zaroor dalein.",
+      en: "Context & Practical Lesson: Building public welfare projects, spreading beneficial moral knowledge (like this platform), and raising upright children ensure your good deeds continue multiplying long after your lifetime."
+    },
+    tags: [
+      { ur: "صدقۂ جاریہ", ro: "Sadqa-e-Jariya", en: "Enduring Charity" },
+      { ur: "علمِ نافع", ro: "Ilm-e-Naafai", en: "Beneficial Knowledge" }
+    ]
+  },
+  {
+    id: "ma-440",
+    slug: "mizan-e-amal-mein-sab-se-wazandar-cheez-husn-e-akhlaq-hai",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sunan Abi Dawud Summary | Makhzan-e-Akhlaq - Page 35",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "قیامت کے دن میزانِ عمل میں سب سے بھاری نیکی حسنِ اخلاق ہے",
+      ro: "Qayamat Ke Din Mizan-e-Amal Mein Sab Se Bhari Neki Husn-e-Akhlaq Hai",
+      en: "Nothing Weighs Heavier on the Scale of Deeds Than Noble Character"
+    },
+    quote: {
+      ur: "قیامت کے دن مومن کے ترازوئے اعمال میں حسنِ اخلاق سے زیادہ بھاری اور وزنی کوئی چیز نہیں ہوگی؛ اور خوش اخلاق انسان اپنے میٹھے برتاؤ اور اعلیٰ کردار کی بدولت نفلی روزے رکھنے اور رات بھر عبادت کرنے والے کا درجہ پا لیتا ہے۔",
+      ro: "Qayamat ke din momin ke tarazu-e-aamaal mein husn-e-akhlaq se zyada bhari aur wazni koi cheez nahi hogi; aur khush-akhlaq insan apne meethay bartao aur aala kirdar ki badolat nafli rozay rakhne aur raat bhar ibadat karne wale ka darja pa leta hai.",
+      en: "Nothing placed on the Scale of Deeds on the Day of Judgment will be heavier than noble character; indeed, through gentle and upright manners, a believer attains the rank of one who fasts by day and stands in prayer by night."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: فرائض کی ادائیگی کے بعد جو چیز انسان کے درجات کو سب سے زیادہ بلند کرتی ہے وہ اس کا اپنے گھر والوں، ہمسایوں اور عام انسانوں کے ساتھ شائستہ برتاؤ ہے۔ بدتمیزی اور درشت مزاجی عبادات کے ثواب کو بھی کمزور کر دیتی ہے۔ آج کا عملی سبق یہ ہے کہ اپنے لہجے کی نرمی اور خوش اخلاقی کو اپنی سب سے بڑی عبادت سمجھ کر نبھائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Faraiz ki adaigi ke baad jo cheez insan ke darajat ko sab se zyada buland karti hai woh us ka apne ghar walon, hamsayon aur aam insanon ke sath shaista bartao hai. Bad-tameezi aur durusht-mizaji ibadaton ke sawab ko bhi kamzor kar deti hai. Aaj ka amli sabaq yeh hai ke apne lehjay ki narmi aur khush-akhlaqi ko apni sab se badi ibadat samajh kar nibhayein.",
+      en: "Context & Practical Lesson: Beyond obligatory worship, treating family, customers, and strangers with kindness and patience is the heaviest virtue on the eternal scale."
+    },
+    tags: [
+      { ur: "وزنِ اخلاق", ro: "Wazan-e-Akhlaq", en: "Weight of Character" },
+      { ur: "کمالِ کردار", ro: "Kamal-e-Kirdar", en: "Moral Excellence" }
+    ]
+  },
+  {
+    id: "ma-441",
+    slug: "paanch-nemato-ko-paanch-halato-se-pehle-ghaneemat-jano",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Mustadrak Hakim Summary | Makhzan-e-Akhlaq - Page 36",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "پانچ انمول نعمتوں کو پانچ حالات آنے سے پہلے غنیمت جانو",
+      ro: "Paanch Anmol Nematon Ko Paanch Halaat Aane Se Pehle Ghaneemat Jano",
+      en: "Treasure Five Priceless Blessings Before Five Conditions Overtake You"
+    },
+    quote: {
+      ur: "پانچ نعمتوں کو پانچ چیزوں سے پہلے غنیمت سمجھ کر ان کی قدر کر لو: اپنی جوانی کو بڑھاپے سے پہلے، اپنی صحت کو بیماری سے پہلے، اپنی خوشحالی کو تنگدستی سے پہلے، اپنی فرصت کو مصروفیت سے پہلے، اور اپنی زندگی کو موت سے پہلے۔",
+      ro: "Paanch nematon ko paanch cheezon se pehle ghaneemat samajh kar un ki qadr kar lo: apni jawani ko burhapay se pehle, apni sehat ko bimari se pehle, apni khushhali ko tangdasti se pehle, apni fursat ko masroofiyat se pehle, aur apni zindagi ko maut se pehle.",
+      en: "Value five blessings before five states overtake you: your youth before old age, your health before illness, your prosperity before need, your free time before preoccupation, and your life before death."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: انسان کو ہر نعمت کی قدر اس کے چھن جانے کے بعد آتی ہے؛ جب صحت اور جوانی کی طاقت ہوتی ہے تو وہ غفلت میں گزار دیتا ہے اور جب بیماری یا بڑھاپا آتا ہے تو حسرت کرتا ہے۔ آج کا عملی سبق یہ ہے کہ آج آپ کے پاس جو صحت، توانائی اور وقت موجود ہے اسے اپنے رب کی رضا اور اپنے خاندان کی بہتری کے لیے بھرپور استعمال کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan ko har nemat ki qadr us ke chhin jane ke baad aati hai; jab sehat aur jawani ki taqat hoti hai to woh ghaflat mein guzar deta hai aur jab bimari ya burhapa aata hai to hasrat karta hai. Aaj ka amli sabaq yeh hai ke aaj aap ke paas jo sehat, tawanai aur waqt mojood hai usay apne Rab ki raza aur apne khandan ki behtari ke liye bharpoor istemal karein.",
+      en: "Context & Practical Lesson: Youth, health, and free hours are golden capital that never return once spent; invest your present energy wisely before limitations arrive."
+    },
+    tags: [
+      { ur: "قدرِ نعمت", ro: "Qadr-e-Nemat", en: "Valuing Blessings" },
+      { ur: "نظمِ حیات", ro: "Nazm-e-Hayat", en: "Purposeful Life" }
+    ]
+  },
+  {
+    id: "ma-442",
+    slug: "fatah-e-makkah-ke-din-aam-maafi-aur-be-misal-rehmat",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Seerah & Makhzan-e-Akhlaq - Page 57",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "فتحِ مکہ کے دن کامل غلبے کے باوجود عام معافی کا بے مثال اعلان",
+      ro: "Fatah-e-Makkah Ke Din Kamil Ghalbay Ke Bawajood Aam Maafi Ka Be-Misal Elaan",
+      en: "Universal Amnesty at the Conquest of Makkah: The Pinnacle of Mercy"
+    },
+    quote: {
+      ur: "فتحِ مکہ کے دن جب برسوں تک ایذائیں دینے والے مخالفین سر جھکائے سامنے کھڑے تھے، تو رحمتِ عالم ﷺ نے کامل طاقت کے باوجود انتقام لینے کے بجائے فرمایا: آج تم پر کوئی گرفت اور ملامت نہیں، جاؤ تم سب آزاد ہو!",
+      ro: "Fatah-e-Makkah ke din jab barson tak eizayein dene wale mukhalifeen sar jhukaye samne kharay thay, to Rehmat-e-Aalam ﷺ ne kamil taqat ke bawajood intiqam lene ke bajaye farmaya: Aaj tum par koi girift aur malamat nahi, jao tum sab aazad ho!",
+      en: "On the day of the Conquest of Makkah, when bitter opponents who had persecuted the believers for years stood humbled before him, the Prophet of Mercy ﷺ chose total forgiveness over vengeance, declaring: 'No blame shall rest upon you today—go, for you are all free!'"
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: انسانی تاریخ میں ایسی کوئی دوسری مثال نہیں ملتی کہ ایک فاتح دس ہزار کے لشکر کے ساتھ شہر میں داخل ہو تو اس کا سر فخر سے تننے کے بجائے عاجزی سے اونٹنی کے کجاوے کو چھو رہا ہو اور وہ اپنے بدترین دشمنوں کو ایک جملے میں معاف فرما دے۔ آج کا عملی سبق یہ ہے کہ جب اللہ آپ کو کامیابی اور برتری عطا فرمائے تو عاجزی اختیار کریں اور پرانی رنجشوں کو دفن کر کے دل جیت لیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insani tareekh mein aisi koi doosri misal nahi milti ke aik fatih das hazar ke lashkar ke sath shehar mein dakhil ho to us ka sar fakhar se tanne ke bajaye aajizi se oontni ke kajaway ko chhoo raha ho aur woh apne bad-tareen dushmanon ko aik jumlay mein maaf farma de. Aaj ka amli sabaq yeh hai ke jab Allah aap ko kamyabi aur bartari ata farmaye to aajizi ikhtiyar karein aur purani ranjishon ko dafan kar ke dil jeet lein.",
+      en: "Context & Practical Lesson: Entering Makkah in complete victory with his head bowed in humility before God, the Prophet ﷺ conquered hearts forever through general amnesty. True triumph is crowned by humility and forgiveness."
+    },
+    tags: [
+      { ur: "رحمۃ للعالمین ﷺ", ro: "Rahmatul-lil-Aalameen ﷺ", en: "Universal Mercy" },
+      { ur: "عفوِ عام", ro: "Afw-e-Aam", en: "Grand Forgiveness" }
+    ]
+  },
+  {
+    id: "ma-443",
+    slug: "har-insan-aur-jandar-ke-dard-ka-ehsas-uswah-e-kamil",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Shamail & Makhzan-e-Akhlaq - Page 58",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "کمزور انسانوں سے لے کر بے زبان جانوروں تک ہر ذی روح پر شفقت",
+      ro: "Kamzor Insanon Se Le Kar Be-Zuban Janwaron Tak Har Zi-Rooh Par Shafqat",
+      en: "Compassion Extending to Every Living Creature and the Vulnerable"
+    },
+    quote: {
+      ur: "رسول اللہ ﷺ کی رحمت اس قدر ہمہ گیر تھی کہ آپ ﷺ بیواؤں، یتیموں اور مسکینوں کے کام خود چل کر کر دیتے، اور بے زبان جانوروں اور پرندوں کو بھی بھوکا رکھنے یا ان پر طاقت سے زیادہ بوجھ لادنے سے سختی سے منع فرماتے۔",
+      ro: "Rasool Allah ﷺ ki rehmat is qadar hama-geer thi ke Aap ﷺ bewaon, yateemon aur miskeenon ke kaam khud chal kar kar dete, aur be-zuban janwaron aur parindon ko bhi bhooka rakhne ya un par taqat se zyada bojh ladne se sakhti se mana farmate.",
+      en: "The compassion of the Messenger of Allah ﷺ encompassed all creation: he walked alongside widows, orphans, and the destitute to fulfill their needs, and strictly forbade starving or overburdening even speechless animals and birds."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: ایک بھوکے اونٹ کو دیکھ کر آپ ﷺ نے اس کے مالک کو تنبیہ فرمائی کہ ان بے زبان جانوروں کے معاملے میں اللہ سے ڈرو، اور ایک پیاسے جانور کو پانی پلانے پر مغفرت کی بشارت دی۔ آج کا عملی سبق یہ ہے کہ اپنے اردگرد موجود کمزور انسانوں کے ساتھ ساتھ بے زبان پرندوں اور جانوروں کے دانے پانی اور آرام کا بھی خیال رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Aik bhookay oont ko dekh kar Aap ﷺ ne us ke malik ko tanbeeh farmai ke in be-zuban janwaron ke muamlay mein Allah se daro, aur aik pyasay janwar ko pani pilane par maghfirat ki basharat di. Aaj ka amli sabaq yeh hai ke apne ird-gird mojood kamzor insanon ke sath sath be-zuban parindon aur janwaron ke danay-pani aur aaram ka bhi khayal rakhein.",
+      en: "Context & Practical Lesson: A heart touched by prophetic guidance shows kindness not only to needy humans, but also to birds, animals, and the natural world around us."
+    },
+    tags: [
+      { ur: "ہمہ گیر رحمت", ro: "Hama-Geer Rehmat", en: "All-Encompassing Mercy" },
+      { ur: "رحم بر مخلوق", ro: "Reham Bar Makhlooq", en: "Kindness to Creation" }
+    ]
+  },
+  {
+    id: "ma-444",
+    slug: "kamil-aqalmandi-taqwa-hai-aur-sab-se-badi-nadani-gunah",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 76",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "سب سے بڑی عقلمندی تقویٰ ہے اور سب سے بڑی نادانی نافرمانی",
+      ro: "Sab Se Badi Aqalmandi Taqwa Hai Aur Sab Se Badi Nadani Nafarman-Bani",
+      en: "The Highest Intelligence is Piety and the Greatest Folly is Sin"
+    },
+    quote: {
+      ur: "جان لو کہ سب سے بڑی دانائی اور عقلمندی پرہیزگاری ہے، سب سے بڑی حماقت اور نادانی اللہ کی نافرمانی ہے، سب سے بڑی سچائی امانت ادا کرنا ہے، اور سب سے بڑا جھوٹ خیانت کرنا ہے۔",
+      ro: "Jaan lo ke sab se badi danai aur aqalmandi parhezgari hai, sab se badi hamaqat aur nadani Allah ki nafarman-bani hai, sab se badi sachai amanat ada karna hai, aur sab se bada jhoot khyanat karna hai.",
+      en: "Know with certainty that the highest wisdom is God-consciousness, the greatest folly is disobedience, the truest honesty is fulfilling trusts, and the worst falsehood is betrayal."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سیدنا ابوبکر صدیقؓ نے خلافت کی ذمہ داری سنبھالتے ہی اپنے پہلے تاریخی خطبے میں یہ چار اصول بیان فرمائے۔ دنیا چالاکی اور فریب کو ہوشیاری سمجھتی ہے، مگر انجام کے لحاظ سے اصل ہوشیار وہ ہے جو اپنے رب کو راضی رکھے اور امانت میں کھرا رہے۔ آج کا عملی سبق یہ ہے کہ وقتی چالاکی کے بجائے دیانت اور تقویٰ کو اپنی زندگی کی پالیسی بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Sayyiduna Abu Bakr Siddiq (R.A) ne khilafat ki zimmedari sanbhalte hi apne pehle tareekhi khutbay mein yeh chaar usool bayan farmaye. Duniya chalaki aur fareeb ko hoshyari samajhti hai, magar anjam ke lihaz se asal hoshyar woh hai jo apne Rab ko razi rakhe aur amanat mein khara rahe. Aaj ka amli sabaq yeh hai ke waqti chalaki ke bajaye diyanat aur taqwa ko apni zindagi ki policy banayein.",
+      en: "Context & Practical Lesson: Delivered in his inaugural address, Hazrat Abu Bakr Siddiq's (R.A) words redefine intelligence: cleverness without ethics is folly, while honesty and piety are supreme wisdom."
+    },
+    tags: [
+      { ur: "حقیقی دانائی", ro: "Haqeeqi Danai", en: "True Wisdom" },
+      { ur: "امانت و صداقت", ro: "Amanat o Sadaqat", en: "Trust & Integrity" }
+    ]
+  },
+  {
+    id: "ma-445",
+    slug: "mazloom-ki-bad-dua-se-bacho-aur-haq-wale-ko-qawi-samjho",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 83",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "کمزور مظلوم کا حق دلانے تک وہ میرے نزدیک سب سے طاقتور ہے",
+      ro: "Kamzor Mazloom Ka Haq Dilane Tak Woh Mere Nazdeek Sab Se Taqatwar Hai",
+      en: "The Weakest Oppressed Person is Strongest Until Their Right is Restored"
+    },
+    quote: {
+      ur: "تم میں سے سب سے کمزور اور بے سہارا شخص بھی میرے نزدیک اس وقت تک سب سے زیادہ طاقتور ہے جب تک میں اسے اس کا پورا حق نہ دلا دوں؛ اور تم میں سے سب سے طاقتور شخص میرے نزدیک اس وقت تک کمزور ہے جب تک میں اس سے مظلوم کا حق وصول نہ کر لوں۔",
+      ro: "Tum mein se sab se kamzor aur be-sahara shakhs bhi mere nazdeek us waqt tak sab se zyada taqatwar hai jab tak main usay us ka poora haq na dila doon; aur tum mein se sab se taqatwar shakhs mere nazdeek us waqt tak kamzor hai jab tak main us se mazloom ka haq wasool na kar loon.",
+      en: "The weakest among you is the strongest in my sight until I restore to them their full right; and the mightiest among you is the weakest in my sight until I take from them the right due to others."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: عدلِ فاروقی کا یہ سنہرا منشور ہر گھر کے سربراہ، کاروباری مالک اور ذمہ دار کے لیے مشعلِ راہ ہے۔ جس جگہ کمزور کی بات سنی جائے اور طاقتور کو بے جا رعایت نہ ملے، وہاں اللہ کی رحمت اور امن کا نزول ہوتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے دائرۂ اختیار میں ہمیشہ بے سہارا اور حق دار کا ساتھ دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Adal-e-Farooqi ka yeh sunehra manshoor har ghar ke sarbarah, karobari malik aur zimmedar ke liye mash'al-e-raah hai. Jis jagah kamzor ki baat suni jaye aur taqatwar ko be-ja riayat na milay, wahan Allah ki rehmat aur aman ka nuzool hota hai. Aaj ka amli sabaq yeh hai ke apne daira-e-ikhtiyar mein hamesha be-sahara aur haqdar ka sath dein.",
+      en: "Context & Practical Lesson: This cornerstone of Farooqi justice teaches every leader, employer, and head of household to stand firmly behind the vulnerable until fairness prevails."
+    },
+    tags: [
+      { ur: "عدلِ فاروقی", ro: "Adal-e-Farooqi", en: "Uncompromising Justice" },
+      { ur: "نصرتِ مظلوم", ro: "Nusrat-e-Mazloom", en: "Defending the Weak" }
+    ]
+  },
+  {
+    id: "ma-446",
+    slug: "duniya-fani-sawar-gah-hai-aur-akhirat-daimi-manzil",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 92",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "فانی دنیا سے دائمی منزل کے لیے بہترین توشہ جمع کر لو",
+      ro: "Fani Duniya Se Daimi Manzil Ke Liye Behtareen Tosha Jama Kar Lo",
+      en: "Gather the Best Provision from This Passing World for the Eternal Abode"
+    },
+    quote: {
+      ur: "یہ دنیا محض گزرگاہ ہے، ٹھہرنے کا مستقل گھر نہیں؛ پس اس فانی پڑاؤ سے اپنے دائمی گھر کے لیے بہترین زادِ راہ (اخلاص، صدقہ اور حسنِ خلق) ساتھ لے لو اس سے پہلے کہ کوچ کی گھڑی آ پہنچے۔",
+      ro: "Yeh duniya mehaz guzargah hai, theharne ka mustaqil ghar nahi; pas is fani parao se apne daimi ghar ke liye behtareen zad-e-raah (ikhlas, sadqa aur husn-e-khulq) sath le lo is se pehle ke kooch ki ghari aa pohanchay.",
+      en: "This world is a passing bridge rather than a permanent residence; so gather the finest provisions—sincerity, charity, and noble character—from this temporary stop before the hour of departure arrives."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: مسافر جب کسی سرائے یا اسٹیشن پر رکتا ہے تو وہاں سہولت تو لیتا ہے مگر اپنی ساری جمع پونجی اس سرائے کو سجانے میں خرچ نہیں کر دیتا بلکہ اصل گھر کی فکر رکھتا ہے۔ آج کا عملی سبق یہ ہے کہ دنیا کی نعمتوں کو شکر کے ساتھ استعمال کریں لیکن ان میں سے اپنے ابدی گھر کا حصہ ضرور آگے بھیجتے رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Musafir jab kisi saraye ya station par rukta hai to wahan sahulat to leta hai magar apni sari jama-poonji us saraye ko sajane mein kharch nahi kar deta balkay asal ghar ki fikr rakhta hai. Aaj ka amli sabaq yeh hai ke duniya ki nematon ko shukr ke sath istemal karein lekin un mein se apne abadi ghar ka hissa zaroor aagay bhejte rahein.",
+      en: "Context & Practical Lesson: A wise traveler enjoys the rest stop gratefully without forgetting their true home; use worldly blessings to build an eternal legacy of good."
+    },
+    tags: [
+      { ur: "زادِ آخرت", ro: "Zad-e-Akhirat", en: "Eternal Provision" },
+      { ur: "حکمتِ سفر", ro: "Hikmat-e-Safar", en: "Traveler's Wisdom" }
+    ]
+  },
+  {
+    id: "ma-447",
+    slug: "har-insan-ki-qeemat-woh-bhalai-hai-jo-woh-khoobsurti-se-karta-hai",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 100",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "ہر انسان کی حقیقی قیمت وہ بھلائی ہے جسے وہ عمدگی سے انجام دیتا ہے",
+      ro: "Har Insan Ki Haqeeqi Qeemat Woh Bhalai Hai Jisay Woh Umdagi Se Anjam Deta Hai",
+      en: "The True Worth of Every Person Lies in the Good They Do with Excellence"
+    },
+    quote: {
+      ur: "ہر انسان کی اصل قدر و قیمت وہ ہنر اور وہ بھلائی ہے جسے وہ بہترین طریقے سے انجام دیتا ہے؛ لہٰذا اپنی قیمت کم نہ سمجھو اور اپنے عمل کو اخلاص کے ساتھ بلند ترین معیار پر رکھو۔",
+      ro: "Har insan ki asal qadr-o-qeemat woh hunar aur woh bhalai hai jisay woh behtareen tareeqay se anjam deta hai; lehaza apni qeemat kam na samjho aur apne amal ko ikhlas ke sath buland-tareen miyar par rakho.",
+      en: "The true worth of every person is measured by the good and skillful work they perform with excellence; so never sell your soul short, and elevate your deeds with sincerity."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سیدنا علی المرتضیٰؓ کے اس سنہری قول پر علمائے ادب نے پوری کتابیں لکھی ہیں۔ انسان کی پہچان اس کے دعوؤں سے نہیں بلکہ اس کے کام کی عمدگی (Excellence) اور اس سے مخلوق کو پہنچنے والے نفع سے ہوتی ہے۔ آج کا عملی سبق یہ ہے کہ آپ جس بھی پیشے یا خدمت میں ہیں، اس میں اتنی مہارت اور دیانت پیدا کریں کہ آپ کا کام ہی آپ کا تعارف بن جائے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Sayyiduna Ali Al-Murtaza (R.A) ke is sunehri qoul par ulama-e-adab ne poori kitabein likhi hain. Insan ki pehchan us ke daawon se nahi balkay us ke kaam ki umdagi (Excellence) aur us se makhlooq ko pohanchne wale nafa se hoti hai. Aaj ka amli sabaq yeh hai ke aap jis bhi peshay ya khidmat mein hain, us mein itni maharat aur diyanat paida karein ke aap ka kaam hi aap ka taaruf ban jaye.",
+      en: "Context & Practical Lesson: A person's value is defined not by titles, but by the mastery, integrity, and benefit they bring to their craft and community."
+    },
+    tags: [
+      { ur: "قدرِ انسان", ro: "Qadr-e-Insan", en: "Human Worth" },
+      { ur: "عمدگیٔ عمل", ro: "Umdagi-e-Amal", en: "Excellence in Craft" }
+    ]
+  },
+  {
+    id: "ma-448",
+    slug: "char-usool-jo-Poori-akhlaqi-zindagi-ka-nichor-hain",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 106",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "حکیم لقمان کی جامع وصیت: چار مقامات پر چار چیزوں کی حفاظت",
+      ro: "Hakeem Luqman Ki Jame Wasiyat: Chaar Maqamat Par Chaar Cheezon Ki Hifazat",
+      en: "Luqman's Master Advice: Guard Four Things in Four Situations"
+    },
+    quote: {
+      ur: "اے بیٹے! چار موقعوں پر چار چیزوں کی پوری حفاظت کرنا: نماز میں اپنے دل کی، لوگوں کی محفل میں اپنی زبان کی، دسترخوان پر اپنے پیٹ (حلال و اعتدال) کی، اور کسی کے گھر جاؤ تو اپنی نگاہ کی۔",
+      ro: "Aye betay! Chaar mauqon par chaar cheezon ki poori hifazat karna: namaz mein apne dil ki, logon ki mehfil mein apni zuban ki, dastarkhwan par apne pait (halal o aitdaal) ki, aur kisi ke ghar jao to apni nigah ki.",
+      en: "O my son! Guard four things vigilantly in four places: guard your heart during prayer, guard your tongue in gatherings, guard your appetite at the dining table, and guard your gaze when visiting another's home."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: یہ چار نکاتی ضابطہ پوری اسلامی اخلاقیات کا خلاصہ ہے: نماز کی روح دل کی حاضری ہے، مجلس کا وقار زبان کی حفاظت ہے، صحت و تقویٰ کی بنیاد حلال اور متوازن خوراک ہے، اور شرافت کی پہچان نگاہ کی حیا ہے۔ آج کا عملی سبق یہ ہے کہ ان چاروں پہروں کو اپنی روزمرہ عادت کا حصہ بنا لیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Yeh chaar-nukati zabita poori Islami akhlaqiyat ka khulasa hai: namaz ki rooh dil ki haziri hai, majlis ka waqar zuban ki hifazat hai, sehat o taqwa ki bunyad halal aur mutawazin khorak hai, aur sharafat ki pehchan nigah ki haya hai. Aaj ka amli sabaq yeh hai ke in chaaron pehron ko apni rozmarra aadat ka hissa bana lein.",
+      en: "Context & Practical Lesson: Presence of heart in worship, restraint of tongue in company, moderation at meals, and modesty of gaze in others' homes form the complete blueprint of a refined life."
+    },
+    tags: [
+      { ur: "جامع اخلاق", ro: "Jame Akhlaq", en: "Complete Ethics" },
+      { ur: "نگہبانیٔ نفس", ro: "Nigahbani-e-Nafs", en: "Self-Discipline" }
+    ]
+  },
+  {
+    id: "ma-449",
+    slug: "shama-ki-manind-bano-jo-khud-jal-kar-doosron-ko-roshni-deti-hai",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 280 (Hukama Summary)",
+    author: {
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
+    },
+    title: {
+      ur: "اندھیرے کا شکوہ کرنے کے بجائے اپنے حصے کا ایک چراغ جلا دو",
+      ro: "Andheray Ka Shikwa Karne Ke Bajaye Apne Hissay Ka Aik Chiragh Jala Do",
+      en: "Instead of Cursing the Darkness, Light a Single Lamp of Goodness"
+    },
+    quote: {
+      ur: "معاشرے کے اندھیرے کو بیٹھ کر کوسنے سے کبھی اجالا نہیں ہوتا، البتہ اپنے حصے کا ایک چھوٹا سا چراغ جلا دینے سے تاریکی کا سینہ چیر کر روشنی کا سفر شروع ہو جاتا ہے؛ پس اپنے اخلاق اور علم سے وہ چراغ بنو جس سے بھٹکے ہوئے راہی راستہ پائیں۔",
+      ro: "Muashray ke andheray ko baith kar kosne se kabhi ujala nahi hota, albatta apne hissay ka aik chota sa chiragh jala dene se tareeki ka seena cheer kar roshni ka safar shuru ho jata hai; pas apne akhlaq aur ilm se woh chiragh bano jis se bhatkay huye rahi rasta payein.",
+      en: "Complaining about the darkness never brings the dawn, whereas lighting even a single small lamp pierces the night and starts a chain of light; become a beacon of character and wisdom by which others find their way."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: ایک چھوٹا سا چراغ ہزاروں دوسرے بجھے ہوئے چراغوں کو روشن کر سکتا ہے اور اس کی اپنی روشنی میں ذرا بھی کمی نہیں آتی۔ یہی مثال اچھے اخلاق اور علم پھیلانے کی ہے۔ آج کا عملی سبق یہ ہے کہ زمانے کی خرابی کا شکوہ کرنے کے بجائے اپنے گھر، کاروبار اور حلقۂ احباب میں سچائی اور خیر کا چراغ روشن رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Aik chota sa chiragh hazaron doosre bujhay huye chiraghon ko roshan kar sakta hai aur us ki apni roshni mein zara bhi kami nahi aati. Yehi misal achay akhlaq aur ilm phailane ki hai. Aaj ka amli sabaq yeh hai ke zamane ki kharabi ka shikwa karne ke bajaye apne ghar, karobar aur halqa-e-ahbab mein sachai aur khair ka chiragh roshan rakhein.",
+      en: "Context & Practical Lesson: A single candle can ignite a thousand lamps without losing any of its own flame. Lead by positive action in your home and community."
+    },
+    tags: [
+      { ur: "چراغِ ہدایت", ro: "Chiragh-e-Hidayat", en: "Beacon of Light" },
+      { ur: "مثبت کردار", ro: "Musbat Kirdar", en: "Positive Impact" }
+    ]
+  },
+  {
+    id: "ma-450",
+    slug: "ikhtitami-jawahir-makhzan-e-akhlaq-ka-khulasa-aur-dua",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 380 (Final Conclusion Summary)",
+    author: {
+      ur: "اخلاقی جواہر و حکایات",
+      ro: "Akhlaqi Jawahir o Hikayat",
+      en: "Moral Gems & Parables"
+    },
+    title: {
+      ur: "خاتمۃ الکتاب: علم کی معراج عمل ہے اور عمل کی روح اخلاص",
+      ro: "Khatimat-ul-Kitab: Ilm Ki Meraj Amal Hai Aur Amal Ki Rooh Ikhlas",
+      en: "The Crown of Knowledge is Action and the Soul of Action is Sincerity"
+    },
+    quote: {
+      ur: "حکمت کے خزانے (مخزنِ اخلاق) کا آخری نچوڑ یہ ہے کہ علم اس وقت تک بے ثمر ہے جب تک وہ عمل نہ بنے، اور عمل اس وقت تک بے جان ہے جب تک اس میں اخلاص نہ ہو؛ کامیاب انسان وہ ہے جس کا دل خالق کے شکر سے آباد ہو اور جس کے ہاتھ مخلوق کی خدمت میں مصروف ہوں۔",
+      ro: "Hikmat ke khazanay (Makhzan-e-Akhlaq) ka aakhri nichor yeh hai ke ilm us waqt tak be-samar hai jab tak woh amal na banay, aur amal us waqt tak be-jaan hai jab tak us mein ikhlas na ho; kamyab insan woh hai jis ka dil Khaliq ke shukr se aabad ho aur jis ke hath makhlooq ki khidmat mein masroof hon.",
+      en: "The ultimate conclusion of the Treasury of Ethics ('Makhzan-e-Akhlaq') is this: knowledge remains fruitless until translated into action, and action remains lifeless until infused with sincerity; truly successful is the soul whose heart is filled with gratitude to the Creator and whose hands are busy serving creation."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: اس 450ویں اخلاقی موتی کے ساتھ ’مخزنِ اخلاق‘ کے تمام ابواب (احکامِ خدا، ارشاداتِ نبوی ﷺ، خصائلِ نبوی ﷺ، اقوالِ صحابہؓ، حکمتِ انبیاء و حکماء اور سبق آموز واقعات) کا یہ سفر پایۂ تکمیل کو پہنچا۔ ان تمام تعلیمات کا خلاصہ دو ہی جملے ہیں: خالق کی تعظیم اور مخلوق پر شفقت۔ اللہ تعالیٰ اس علمی و اخلاقی کاوش کو پڑھنے، سمجھنے اور آگے پھیلانے والے ہر فرد کے لیے صدقۂ جاریہ اور دارین کی سعادت کا ذریعہ بنائے۔ آمین!",
+      ro: "Pas-e-Manzar o Tashreeh: Is 450wein akhlaqi moti ke sath 'Makhzan-e-Akhlaq' ke tamam abwab (Ahkam-e-Khuda, Irshadat-e-Nabawi ﷺ, Khasail-e-Nabawi ﷺ, Aqwal-e-Sahaba R.A, Hikmat-e-Ambiya o Hukama aur Sabaq-Aamoz Waqiat) ka yeh safar paya-e-takmeel ko pohancha. In tamam taleemat ka khulasa do hi jumlay hain: Khaliq ki tazeem aur makhlooq par shafqat. Allah Ta'ala is ilmi o akhlaqi kawish ko parhne, samajhne aur aagay phailane wale har fard ke liye sadqa-e-jariya aur darain ki saadat ka zariya banaye. Aameen!",
+      en: "Context & Practical Lesson: With this 450th moral gem, our complete trilingual anthology of 'Makhzan-e-Akhlaq' reaches fulfillment. The essence of all 450 lessons rests on two pillars: reverence for the Creator and compassion toward creation. May this platform serve as a perpetual charity ('Sadaqah Jariyah') for all who read, practice, and share its light."
+    },
+    tags: [
+      { ur: "تکمیلِ مخزنِ اخلاق", ro: "Takmeel-e-Makhzan-e-Akhlaq", en: "Crown of Wisdom" },
+      { ur: "علم و اخلاص", ro: "Ilm o Ikhlas", en: "Action & Sincerity" }
+    ]
+  }
+];
+
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
@@ -13225,6 +13678,7 @@ const batchMappedQuotes: Quote[] = [
   ...batch27Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-391 (Wus'at-e-Jaan), ma-394 (Museebat parda), ma-398 (Aasan rasta), ma-402 (Qana'at la-zawal), ma-405 (Rastay ka pathar) featured
   ...batch28Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-406 (Sohbat-e-Sadiqeen), ma-409 (Tijarat narmi), ma-413 (Wada amanat), ma-417 (Zaban insan), ma-420 (Pahari bazgasht) featured
   ...batch29Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-421 (Rehmat umeed), ma-424 (Shukr-e-Mohsin), ma-428 (Jood o Sakha), ma-432 (Afw Indal-Qudrah), ma-435 (Khazana matka insaf) featured
+  ...batch30Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-436 (Fikr-e-Farda), ma-439 (Teen Sadqaat), ma-443 (Hama-geer rehmat), ma-447 (Qadr-e-Insan), ma-450 (Takmeel-e-Makhzan-e-Akhlaq) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
