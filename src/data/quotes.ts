@@ -10019,6 +10019,459 @@ export const batch22Quotes: QuoteItem[] = [
   }
 ];
 
+export const batch23Quotes: QuoteItem[] = [
+  {
+    id: "ma-331",
+    slug: "sachi-koshish-karne-walon-ke-liye-allah-ke-rastay",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Ankabut (29:69) & Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "حق کی راہ میں محنت کرنے والوں کے لیے ہدایت کے راستے کھلنا",
+      ro: "Haq Ki Raah Mein Mehnat Karne Walon Ke Liye Hidayat Ke Rastay Khulna",
+      en: "Divine Guidance Opens for Those Who Strive Sincerely"
+    },
+    quote: {
+      ur: "اور جو لوگ ہماری راہ میں پوری لگن اور محنت سے کوشش کرتے ہیں، ہم ضرور بالضرور انہیں اپنے راستے دکھا دیتے ہیں؛ اور بے شک اللہ نیکی کرنے والوں کے ساتھ ہے۔",
+      ro: "Aur jo log hamari raah mein poori lagan aur mehnat se koshish karte hain, hum zaroor bil-zaroor unhein apne rastay dikha dete hain; aur be-shak Allah neki karne walon ke sath hai.",
+      en: "And those who strive earnestly in Our cause—We will surely guide them to Our ways; and indeed, Allah is with the doers of good."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سورۃ العنکبوت کی یہ آیت مایوسی کا علاج ہے۔ جب انسان سچے دل سے اپنی اصلاح، حلال رزق یا کسی نیک مقصد کے لیے پہلا قدم اٹھاتا ہے تو اللہ تعالیٰ غیب سے اس کی رہنمائی کے دروازے کھول دیتا ہے۔ آج کا عملی سبق یہ ہے کہ وسائل کی کمی کا شکوہ کرنے کے بجائے خلوصِ نیت سے محنت کا آغاز کریں، راستے خود بخود بنتے چلے جائیں گے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Ankabut ki yeh aayat mayousi ka ilaj hai. Jab insan sache dil se apni islah, halal rizq ya kisi nek maqsad ke liye pehla qadam uthata hai to Allah Ta'ala ghaib se us ki rehnumai ke darwaze khol deta hai. Aaj ka amli sabaq yeh hai ke wasail ki kami ka shikwa karne ke bajaye khuloos-e-niyat se mehnat ka aaghaz karein, rastay khud-ba-khud bante chalay jayenge.",
+      en: "Context & Practical Lesson: Surah Al-Ankabut assures us that sincere effort never goes unanswered; taking the first honest step toward self-improvement or lawful work unlocks divine guidance and unforeseen doors."
+    },
+    tags: [
+      { ur: "جدوجہد", ro: "Jadd-o-Jehad", en: "Sincere Effort" },
+      { ur: "ہدایتِ الٰہی", ro: "Hidayat-e-Ilahi", en: "Divine Guidance" }
+    ]
+  },
+  {
+    id: "ma-332",
+    slug: "laghwiyat-se-kinara-kashi-aur-amanat-o-ahad-ki-pasdari",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Mu'minun (23:1-8) & Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "کامیاب مومنین کی پہچان: فضول باتوں سے اعراض اور امانت کی حفاظت",
+      ro: "Kamyab Momineen Ki Pehchan: Fuzool Baaton Se A'raaz Aur Amanat Ki Hifazat",
+      en: "Marks of the Successful: Shunning Vain Talk and Guarding Trusts"
+    },
+    quote: {
+      ur: "یقیناً ایمان والے فلاح پا گئے؛ وہ جو اپنی نمازوں میں خشوع و عاجزی اختیار کرتے ہیں، جو بے مقصد اور لغو باتوں سے منہ موڑ لیتے ہیں، اور جو اپنی امانتوں اور اپنے وعدوں کی پوری نگہداشت کرتے ہیں۔",
+      ro: "Yaqeenan eman wale falah pa gaye; woh jo apni namazon mein khushoo o aajizi ikhtiyar karte hain, jo be-maqsad aur laghw baaton se munh mor lete hain, aur jo apni amanaton aur apne wadon ki poori nigahdasht karte hain.",
+      en: "Successful indeed are the believers: those who humble themselves in prayer, who turn away from vain and pointless talk, and who faithfully guard their trusts and covenants."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سورۃ المؤمنون کے آغاز میں حقیقی کامیابی کا نقشہ کھینچا گیا ہے جس میں عبادت کے ساتھ وقت کی حفاظت (لغویات سے بچنا) اور معاملات کی سچائی (امانت و عہد کی پاسداری) کو لازم قرار دیا گیا ہے۔ آج کا عملی سبق یہ ہے کہ اپنا قیمتی وقت بے فائدہ بحث اور سوشل میڈیا کی فضول گفتگو میں ضائع کرنے کے بجائے بامقصد کاموں اور وعدوں کی تکمیل میں لگائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Mu'minun ke aaghaz mein haqeeqi kamyabi ka naqsha khincha gaya hai jis mein ibadat ke sath waqt ki hifazat (laghviyat se bachna) aur muamlat ki sachai (amanat o ahad ki pasdari) ko lazim qarar diya gaya hai. Aaj ka amli sabaq yeh hai ke apna qeemati waqt be-faida behas aur social media ki fuzool guftugu mein zaya karne ke bajaye ba-maqsad kaamon aur wadon ki takmeel mein lagayein.",
+      en: "Context & Practical Lesson: Surah Al-Mu'minun links spiritual devotion with practical discipline—avoiding time-wasting arguments and honoring every trust and promise."
+    },
+    tags: [
+      { ur: "ترکِ لغویات", ro: "Tark-e-Laghviyat", en: "Avoiding Vain Talk" },
+      { ur: "پاسِ امانت", ro: "Paas-e-Amanat", en: "Keeping Trusts" }
+    ]
+  },
+  {
+    id: "ma-333",
+    slug: "sabr-rabt-aur-taqwa-kamyabi-ke-chaar-sutoon",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Aal-e-Imran (3:200) & Makhzan-e-Akhlaq",
+    author: {
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
+    },
+    title: {
+      ur: "انفرادی و اجتماعی کامیابی کے چار الٰہی اصول",
+      ro: "Infiradi o Ijtimai Kamyabi Ke Chaar Ilahi Usool",
+      en: "Four Divine Principles for Personal and Collective Triumph"
+    },
+    quote: {
+      ur: "اے ایمان والو! صبر اختیار کرو، مقابلے کے وقت ڈٹے رہو، حق کی حفاظت کے لیے کمر بستہ رہو، اور اللہ سے ڈرتے رہو تاکہ تم حقیقی کامیابی حاصل کر سکو۔",
+      ro: "Aye eman walo! Sabr ikhtiyar karo, muqable ke waqt datay raho, haq ki hifazat ke liye kamar-basta raho, aur Allah se darte raho taake tum haqeeqi kamyabi hasil kar sako.",
+      en: "O believers! Patiently endure, outlast all trials with steadfastness, stand firm in mutual readiness, and be mindful of Allah so that you may succeed."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سورۃ آلِ عمران کی اس آخری آیت میں کامیابی کے چار زینے بتائے گئے ہیں: ذاتی مشکلات میں صبر، چیلنجز کے مقابلے میں ہمت نہ ہارنا، اپنے فرائض پر چوکس رہنا اور ہر حال میں خدا ترسی اختیار کرنا۔ آج کا عملی سبق یہ ہے کہ اپنے کاروبار، تعلیم اور اخلاقی تربیت میں وقتی ناکامی سے گھبرانے کے بجائے مستقل مزاجی کو اپنا شعار بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Aal-e-Imran ki is aakhri aayat mein kamyabi ke chaar zeenay bataye gaye hain: zaati mushkilat mein sabr, challenges ke muqable mein himmat na harna, apne faraiz par chokas rehna aur har haal mein khuda-tarsi ikhtiyar karna. Aaj ka amli sabaq yeh hai ke apne karobar, taleem aur akhlaqi tarbiyat mein waqti nakami se ghabrane ke bajaye mustaqil-mizaji ko apna shiar banayein.",
+      en: "Context & Practical Lesson: The closing verse of Surah Aal-e-Imran teaches that lasting success requires personal patience, resilience under pressure, vigilance in duty, and reverence for God."
+    },
+    tags: [
+      { ur: "استقامت", ro: "Istaqamat", en: "Resilience" },
+      { ur: "فلاح", ro: "Falah", en: "Ultimate Success" }
+    ]
+  },
+  {
+    id: "ma-334",
+    slug: "be-maqsad-aur-ghair-mutalliq-kaamon-ko-chhor-dena",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sunan Tirmidhi & Makhzan-e-Akhlaq - Page 21",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "حسنِ اسلام کی علامت: بے مقصد اور لایعنی باتوں کو چھوڑ دینا",
+      ro: "Husn-e-Islam Ki Alamat: Be-Maqsad Aur La-Ya'ni Baaton Ko Chhor Dena",
+      en: "The Beauty of One's Faith Lies in Leaving What Does Not Concern Them"
+    },
+    quote: {
+      ur: "آدمی کے اسلام کی خوبی اور کمال یہ ہے کہ وہ ان تمام باتوں اور کاموں کو چھوڑ دے جن کا اس کی ذات، دین یا دنیا کے نفع سے کوئی تعلق نہیں۔",
+      ro: "Aadmi ke Islam ki khoobi aur kamal yeh hai ke woh un tamam baaton aur kaamon ko chhor de jin ka us ki zaat, deen ya duniya ke nafa se koi talluq nahi.",
+      en: "Part of the perfection and beauty of a person's faith is that they leave alone that which does not concern them."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: علمائے اخلاق نے اس مختصر حدیث کو آدھے اخلاق کا خلاصہ قرار دیا ہے۔ دوسروں کے ذاتی معاملات میں دخل اندازی کرنا اور ہر غیر متعلقہ خبر کے پیچھے بھاگنا انسان کا سکون اور وقت دونوں برباد کر دیتا ہے۔ آج کا عملی سبق یہ ہے کہ کوئی بھی بات بولنے یا پوچھنے سے پہلے سوچیں کہ کیا اس کا مجھ سے کوئی تعلق ہے؟ اگر نہیں، تو خاموشی اختیار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Ulama-e-akhlaq ne is mukhtasar hadees ko aadhay akhlaq ka khulasa qarar diya hai. Doosron ke zaati muamlat mein dakhal-andazi karna aur har ghair-mutalliq khabar ke peechay bhagna insan ka sukoon aur waqt dono barbad kar deta hai. Aaj ka amli sabaq yeh hai ke koi bhi baat bolne ya poochne se pehle sochein ke kya is ka mujh se koi talluq hai? Agar nahi, to khamoshi ikhtiyar karein.",
+      en: "Context & Practical Lesson: Scholars regard this prophetic teaching as a cornerstone of ethics: minding one's own business and avoiding nosiness preserves time, dignity, and peace of mind."
+    },
+    tags: [
+      { ur: "تزکیۂ وقت", ro: "Tazkiya-e-Waqt", en: "Mindful Focus" },
+      { ur: "حسنِ کردار", ro: "Husn-e-Kirdar", en: "Refined Character" }
+    ]
+  },
+  {
+    id: "ma-335",
+    slug: "mazdoor-ki-ujrat-pasina-khushk-hone-se-pehle-ada-karna",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sunan Ibn Majah & Makhzan-e-Akhlaq - Page 23",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "مزدور کا پسینہ خشک ہونے سے پہلے اس کی مزدوری ادا کرنا",
+      ro: "Mazdoor Ka Pasina Khushk Hone Se Pehle Us Ki Mazdoori Ada Karna",
+      en: "Paying the Worker Before Their Sweat Dries"
+    },
+    quote: {
+      ur: "محنت کش اور مزدور کو اس کی مزدوری اس کا پسینہ خشک ہونے سے پہلے ادا کر دو، اور اللہ تعالیٰ قیامت کے دن اس شخص کے مقابل خود مدعی بنے گا جس نے کسی مزدور سے پورا کام لیا مگر اس کی اجرت ادا نہ کی۔",
+      ro: "Mehnat-kash aur mazdoor ko us ki mazdoori us ka pasina khushk hone se pehle ada kar do, aur Allah Ta'ala qayamat ke din us shakhs ke muqabil khud muddai banega jis ne kisi mazdoor se poora kaam liya magar us ki ujrat ada na ki.",
+      en: "Give the worker their wages before their sweat dries; for Allah Himself will be the adversary on the Day of Judgment against anyone who takes full work from a laborer and fails to pay their rightful due."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: مزدور اپنے بچوں کی بھوک مٹانے کے لیے خون پسینہ ایک کرتا ہے؛ اس کا حق روکنا یا ٹال مٹول کرنا بدترین ظلم ہے۔ آج کا عملی سبق یہ ہے کہ اپنے ملازمین، کاریگروں اور محنت کشوں کی تنخواہ یا مزدوری کام مکمل ہوتے ہی عزت اور خوش دلی کے ساتھ فوراً ادا کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Mazdoor apne bachon ki bhook mitane ke liye khoon-pasina aik karta hai; us ka haq rokna ya taal-matol karna bad-tareen zulm hai. Aaj ka amli sabaq yeh hai ke apne mulazimeen, karigaron aur mehnat-kashon ki tankhwah ya mazdoori kaam mukammal hote hi izzat aur khush-dili ke sath foran ada karein.",
+      en: "Context & Practical Lesson: Delaying or withholding a worker's hard-earned wages is a grave injustice. Promptly and respectfully compensating employees and laborers brings immense blessing to one's business."
+    },
+    tags: [
+      { ur: "حقوقِ محنت کش", ro: "Huqooq-e-Mehnat-Kash", en: "Workers' Rights" },
+      { ur: "عدل", ro: "Adal", en: "Fair Compensation" }
+    ]
+  },
+  {
+    id: "ma-336",
+    slug: "mareez-ki-ayadat-aur-bhookay-ko-khana-khilana",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq - Page 25",
+    author: {
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
+    },
+    title: {
+      ur: "مریض کی عیادت کرنے اور بھوکے کو کھلانے کی عظیم فضیلت",
+      ro: "Mareez Ki Ayadat Karne Aur Bhookay Ko Khilane Ki Azeem Fazeelat",
+      en: "The Virtue of Visiting the Sick and Feeding the Hungry"
+    },
+    quote: {
+      ur: "بھوکے کو کھانا کھلاؤ، بیمار کی مزاج پرسی (عیادت) کرو، اور مصیبت میں گھرے ہوئے قیدی یا مجبور کو چھڑاؤ؛ جو شخص کسی مریض کی عیادت کے لیے جاتا ہے وہ واپسی تک جنت کے باغوں میں چلتا رہتا ہے۔",
+      ro: "Bhookay ko khana khilao, bimar ki mizaj-pursi (ayadat) karo, aur museebat mein ghiray huye qaidi ya majboor ko chhurao; jo shakhs kisi mareez ki ayadat ke liye jata hai woh wapsi tak Jannat ke baghon mein chalta rehta hai.",
+      en: "Feed the hungry, visit the sick, and free the distressed captive; whoever visits an ill person walks among the gardens of Paradise until they return."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: بیماری اور تنگدستی میں انسان سب سے زیادہ تنہائی اور کمزوری محسوس کرتا ہے۔ ایسے وقت میں کسی کے سرہانے جا کر حوصلہ افزا بات کہنا اور اس کے لیے صحت کی دعا کرنا بہترین عبادت ہے۔ آج کا عملی سبق یہ ہے کہ اپنے بیمار رشتہ دار یا ہمسائے کی مختصر عیادت ضرور کریں اور اسے امید دلائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Bimari aur tangdasti mein insan sab se zyada tanhai aur kamzori mehsoos karta hai. Aise waqt mein kisi ke sirhanay ja kar hausla-afza baat kehna aur us ke liye sehat ki dua karna behtareen ibadat hai. Aaj ka amli sabaq yeh hai ke apne bimar rishtedar ya hamsaye ki mukhtasar ayadat zaroor karein aur usay umeed dilayein.",
+      en: "Context & Practical Lesson: Visiting the sick to offer comfort, prayer, and encouragement alleviates loneliness and stands among the noblest acts of human empathy."
+    },
+    tags: [
+      { ur: "عیادتِ مریض", ro: "Ayadat-e-Mareez", en: "Visiting the Sick" },
+      { ur: "ہمدردی", ro: "Hamdardi", en: "Empathy" }
+    ]
+  },
+  {
+    id: "ma-337",
+    slug: "majlis-mein-imtiyaz-na-rakhna-aur-masakeen-ke-sath-baithna",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Makhzan-e-Akhlaq - Page 42-43",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "مجلس میں کوئی امتیازی نشست نہ رکھنا اور غرباء کے ساتھ بیٹھنا",
+      ro: "Majlis Mein Koi Imtiyazi Nashist Na Rakhna Aur Ghuraba Ke Sath Baithna",
+      en: "Sitting Without Special Distinction Among Companions and the Poor"
+    },
+    quote: {
+      ur: "حضور اکرم ﷺ صحابہ کرامؓ کی مجلس میں اس قدر سادگی اور برابری سے تشریف فرما ہوتے کہ باہر سے آنے والا اجنبی شخص دیکھ کر پہچان نہ پاتا کہ آپ ﷺ کون ہیں؛ آپ ﷺ جہاں جگہ ملتی وہیں بیٹھ جاتے اور غریبوں و خادموں کے ساتھ ایک ہی دسترخوان پر کھانا تناول فرماتے۔",
+      ro: "Huzoor Akram ﷺ Sahaba-e-Kiram (R.A) ki majlis mein is qadar sadgi aur barabari se tashreef-farma hote ke bahar se aane wala ajnabi shakhs dekh kar pehchan na pata ke Aap ﷺ kaun hain; Aap ﷺ jahan jagah milti wahin baith jate aur ghareebon o khadimon ke sath aik hi dastarkhwan par khana tanawul farmate.",
+      en: "The Prophet ﷺ sat among his companions with such humility and equality that an arriving stranger could not tell who the leader was without asking; he sat wherever space was available and gladly shared meals with the poor and servants."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: دنیا کے حکمران اپنے لیے اونچے تخت اور الگ پروٹوکول رکھتے ہیں، مگر سرورِ کائنات ﷺ نے عملی مساوات کی وہ مثال قائم فرمائی کہ مجلس کے آخر میں جہاں جگہ ملتی وہیں تشریف رکھ لیتے۔ آج کا عملی سبق یہ ہے کہ اپنے عہدے یا مال کی وجہ سے خصوصی برتاؤ کی توقع نہ رکھیں بلکہ سادگی اور مساوات کو اپنا وقار بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Duniya ke hukmaran apne liye oonchay takht aur alag protocol rakhte hain, magar Sarwar-e-Kainat ﷺ ne amli masawat ki woh misal qayam farmai ke majlis ke aakhir mein jahan jagah milti wahin tashreef rakh lete. Aaj ka amli sabaq yeh hai ke apne ohday ya maal ki wajah se khusoosi bartao ki tawaqqa na rakhein balkay sadgi aur masawat ko apna waqar banayein.",
+      en: "Context & Practical Lesson: True leadership rejects pomp and privilege; treating every person as an equal at the table and in gatherings wins lasting reverence."
+    },
+    tags: [
+      { ur: "تواضع و مساوات", ro: "Tawazu o Masawat", en: "Humility & Equality" },
+      { ur: "سادگی", ro: "Sadgi", en: "Simplicity" }
+    ]
+  },
+  {
+    id: "ma-338",
+    slug: "khane-mein-kabhi-aib-na-nikalna-uswah-e-nabawi",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq - Page 44",
+    author: {
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail-o-Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Characteristics ﷺ"
+    },
+    title: {
+      ur: "کھانے میں کبھی عیب نہ نکالنے کی سنتِ مبارکہ",
+      ro: "Khane Mein Kabhi Aib Na Nikalne Ki Sunnat-e-Mubaraka",
+      en: "The Prophetic Habit of Never Criticizing Food"
+    },
+    quote: {
+      ur: "رسول اللہ ﷺ نے پوری زندگی کسی کھانے میں کبھی کوئی عیب نہیں نکالا؛ اگر آپ ﷺ کو کھانا مرغوب ہوتا تو تناول فرما لیتے، اور اگر طبیعت کو پسند نہ آتا تو بغیر کوئی شکوہ کیے خاموشی سے چھوڑ دیتے۔",
+      ro: "Rasool Allah ﷺ ne poori zindagi kisi khane mein kabhi koi aib nahi nikala; agar Aap ﷺ ko khana marghoob hota to tanawul farma lete, aur agar tabiyat ko pasand na aata to baghair koi shikwa kiye khamoshi se chhor dete.",
+      en: "The Messenger of Allah ﷺ never criticized any food throughout his entire life: if he desired it, he ate it with gratitude, and if he did not, he simply left it without a single word of complaint."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: کھانے میں نمک مرچ کی کمی بیشی پر غصہ کرنا جہاں رزقِ الٰہی کی ناشکری ہے، وہیں کھانا پکانے والے کی محنت اور دل کو ٹھیس پہنچانا بھی ہے۔ آج کا عملی سبق یہ ہے کہ دسترخوان پر جو حلال رزق سامنے آئے اس پر اللہ کا شکر ادا کریں اور گھر والوں کی محنت کی قدردانی کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Khane mein namak-mirch ki kami-beshi par ghussa karna jahan rizq-e-Ilahi ki nashukri hai, wahin khana pakane wale ki mehnat aur dil ko thees pohanchana bhi hai. Aaj ka amli sabaq yeh hai ke dastarkhwan par jo halal rizq samne aaye us par Allah ka shukr ada karein aur ghar walon ki mehnat ki qadr-dani karein.",
+      en: "Context & Practical Lesson: Complaining about meals shows ingratitude for God's provision and hurts the feelings of the person who cooked it. Practice thankfulness at every table."
+    },
+    tags: [
+      { ur: "آدابِ طعام", ro: "Aadab-e-Ta'am", en: "Dining Etiquette" },
+      { ur: "شکرِ نعمت", ro: "Shukr-e-Nemat", en: "Gratitude" }
+    ]
+  },
+  {
+    id: "ma-339",
+    slug: "sachai-amanat-hai-aur-sabr-mein-kamyabi",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 69-70",
+    author: {
+      ur: "حضرت ابوبکر صدیق رضی اللہ عنہ",
+      ro: "Hazrat Abu Bakr Siddiq (R.A)",
+      en: "Hazrat Abu Bakr Siddiq (R.A)"
+    },
+    title: {
+      ur: "سچائی امانت ہے اور صبر میں کبھی کوئی نقصان نہیں",
+      ro: "Sachai Amanat Hai Aur Sabr Mein Kabhi Koi Nuqsan Nahi",
+      en: "Truth is a Sacred Trust and Patience Never Brings Loss"
+    },
+    quote: {
+      ur: "سچائی سب سے بڑی امانت ہے اور جھوٹ سب سے بڑی خیانت؛ صبر میں کوئی نقصان نہیں اور بے صبری و جزع فزع میں کوئی فائدہ نہیں، اور تقویٰ سے بڑھ کر کوئی ہوشمندی نہیں۔",
+      ro: "Sachai sab se badi amanat hai aur jhoot sab se badi khyanat; sabr mein koi nuqsan nahi aur be-sabri o jaza-faza mein koi faida nahi, aur taqwa se barh kar koi hoshmandi nahi.",
+      en: "Truthfulness is a sacred trust and falsehood is treachery; there is no loss in patience and no benefit in anxious complaining, and there is no wisdom greater than piety."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: سیدنا صدیقِ اکبرؓ نے زندگی کے تجربے کو تین جملوں میں سمو دیا ہے: سچ بولنے والا ہمیشہ معتبر رہتا ہے، مصیبت میں واویلا کرنے سے مصیبت کم نہیں ہوتی البتہ صبر سے اجر اور وقار بچ جاتا ہے۔ آج کا عملی سبق یہ ہے کہ ہر حال میں سچائی اور صبر کا دامن تھامے رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Sayyiduna Siddiq-e-Akbar (R.A) ne zindagi ke tajurbay ko teen jumlon mein samo diya hai: sach bolne wala hamesha mo'tabar rehta hai, museebat mein wawaila karne se museebat kam nahi hoti albatta sabr se ajr aur waqar bach jata hai. Aaj ka amli sabaq yeh hai ke har haal mein sachai aur sabr ka daman thamay rakhein.",
+      en: "Context & Practical Lesson: Panic and complaining never solve a crisis, whereas truthfulness and composed patience preserve both one's honor and spiritual reward."
+    },
+    tags: [
+      { ur: "صداقت", ro: "Sadaqat", en: "Truthfulness" },
+      { ur: "صبر و وقار", ro: "Sabr o Waqar", en: "Composed Patience" }
+    ]
+  },
+  {
+    id: "ma-340",
+    slug: "hunar-seekho-aur-doosron-ke-mohtaj-na-bano",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 75-76",
+    author: {
+      ur: "حضرت عمر فاروق رضی اللہ عنہ",
+      ro: "Hazrat Umar Farooq (R.A)",
+      en: "Hazrat Umar Farooq (R.A)"
+    },
+    title: {
+      ur: "ہنر اور پیشہ سیکھ کر خود کفیل بننے کی تلقین",
+      ro: "Hunar Aur Pesha Seekh Kar Khud-Kafeel Banne Ki Talqeen",
+      en: "Learning a Skill and Profession to Remain Self-Reliant"
+    },
+    quote: {
+      ur: "کوئی نہ کوئی ہنر اور پیشہ ضرور سیکھو کیونکہ کسی کو معلوم نہیں کہ اسے کب اپنے ہنر کی ضرورت پڑ جائے؛ مجھے وہ جوان سخت ناپسند ہے جو نہ دین کے علم میں لگا ہو اور نہ دنیا کے کسی حلال کام اور محنت میں مصروف ہو۔",
+      ro: "Koi na koi hunar aur pesha zaroor seekho kyunkeh kisi ko maloom nahi ke usay kab apne hunar ki zaroorat par jaye; mujhe woh jawan sakht napasand hai jo na deen ke ilm mein laga ho aur na duniya ke kisi halal kaam aur mehnat mein masroof ho.",
+      en: "Learn a trade and practical skill, for none of you knows when you may need it to sustain your dignity; truly, I dislike seeing a healthy person idle—engaged neither in the work of this world nor in preparation for the Hereafter."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: حضرت عمر فاروقؓ کسی تندرست انسان کو بیکار بیٹھا دیکھتے تو اس کی قدر آپؓ کی نظر میں گر جاتی۔ ہاتھ کا ہنر انسان کو زمانے کی محتاجی سے بچاتا ہے۔ آج کا عملی سبق یہ ہے کہ خود بھی جدید اور نفع بخش ہنر سیکھیں اور اپنی اولاد کو بھی باعزت روزگار کے قابل بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Hazrat Umar Farooq (R.A) kisi tandurust insan ko bekar baitha dekhte to us ki qadr Aap (R.A) ki nazar mein gir jati. Hath ka hunar insan ko zamane ki mohtaji se bachata hai. Aaj ka amli sabaq yeh hai ke khud bhi jadeed aur nafa-bakhsh hunar seekhein aur apni aulad ko bhi ba-izzat rozgar ke qabil banayein.",
+      en: "Context & Practical Lesson: Idleness erodes character, whereas mastering practical skills safeguards self-respect and financial independence in every season of life."
+    },
+    tags: [
+      { ur: "ہنر مندی", ro: "Hunar-Mandi", en: "Skill & Craft" },
+      { ur: "خود داری", ro: "Khud-Dari", en: "Self-Reliance" }
+    ]
+  },
+  {
+    id: "ma-341",
+    slug: "dil-ki-safai-aur-ibadat-ki-halawat-pane-ka-raaz",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 86-87",
+    author: {
+      ur: "حضرت عثمان غنی رضی اللہ عنہ",
+      ro: "Hazrat Usman Ghani (R.A)",
+      en: "Hazrat Usman Ghani (R.A)"
+    },
+    title: {
+      ur: "عبادت کی حلاوت اور دل کا نور پانے کا راز",
+      ro: "Ibadat Ki Halawat Aur Dil Ka Noor Pane Ka Raaz",
+      en: "The Secret to Tasting the Sweetness of Worship and Inner Light"
+    },
+    quote: {
+      ur: "اگر تمہارے دل گناہوں اور کینہ و حسد سے پاک ہو جائیں تو تمہارا جی اللہ کے کلام (قرآن) کی تلاوت سے کبھی سیر نہ ہو؛ جو شخص اپنی نگاہ اور زبان کی حفاظت کرتا ہے اللہ اس کے دل کو حکمت اور سکون سے بھر دیتا ہے۔",
+      ro: "Agar tumhare dil gunahon aur keena o hasad se paak ho jayein to tumhara jee Allah ke kalam (Quran) ki tilawat se kabhi sair na ho; jo shakhs apni nigah aur zaban ki hifazat karta hai Allah us ke dil ko hikmat aur sukoon se bhar deta hai.",
+      en: "If your hearts were purified from malice and sin, you would never tire of reciting the words of your Lord; whoever guards their gaze and their tongue, Allah fills their heart with wisdom and tranquility."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: جس طرح بیمار انسان کو عمدہ کھانے کا ذائقہ محسوس نہیں ہوتا، اسی طرح حسد اور گناہوں سے آلودہ دل کو عبادت اور تلاوت میں لذت نہیں ملتی۔ آج کا عملی سبق یہ ہے کہ دل کی یکسوئی پانے کے لیے اپنی آنکھوں کو بے جا نظاروں اور زبان کو فضول باتوں سے بچائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jis tarah bimar insan ko umda khane ka zaiqa mehsoos nahi hota, isi tarah hasad aur gunahon se aalooda dil ko ibadat aur tilawat mein lazzat nahi milti. Aaj ka amli sabaq yeh hai ke dil ki yaksooi pane ke liye apni aankhon ko be-ja nazaron aur zaban ko fuzool baaton se bachayein.",
+      en: "Context & Practical Lesson: Just as illness dulls the taste for fine food, envy and heedlessness dull spiritual joy. Guarding one's eyes and speech restores the heart's natural serenity."
+    },
+    tags: [
+      { ur: "طہارتِ قلب", ro: "Taharat-e-Qalb", en: "Purity of Heart" },
+      { ur: "حلاوتِ ایمان", ro: "Halawat-e-Eman", en: "Spiritual Sweetness" }
+    ]
+  },
+  {
+    id: "ma-342",
+    slug: "zaban-darinday-ki-manind-hai-aur-achi-sohbat",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Makhzan-e-Akhlaq - Page 94-95",
+    author: {
+      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
+      ro: "Hazrat Ali (R.A)",
+      en: "Hazrat Ali (R.A)"
+    },
+    title: {
+      ur: "زبان کو قابو میں رکھنا اور مخلص دوست کی پہچان",
+      ro: "Zaban Ko Qaboo Mein Rakhna Aur Mukhlis Dost Ki Pehchan",
+      en: "Mastering the Tongue and Recognizing a True Friend"
+    },
+    quote: {
+      ur: "انسان کی زبان ایک درندے کی مانند ہے، اگر اسے بے قابو چھوڑ دیا جائے تو وہ خود اپنے ہی مالک کو پھاڑ کھاتی ہے؛ اور تمہارا سچا دوست وہ ہے جو تمہاری موجودگی میں تمہاری اصلاح کرے اور تمہاری غیر موجودگی میں تمہاری عزت کی حفاظت کرے۔",
+      ro: "Insan ki zaban aik darinday ki manind hai, agar usay be-qaboo chhor diya jaye to woh khud apne hi malik ko phar khati hai; aur tumhara sacha dost woh hai jo tumhari mojoodgi mein tumhari islah kare aur tumhari ghair-mojoodgi mein tumhari izzat ki hifazat kare.",
+      en: "The tongue is like a wild beast: if left unrestrained, it turns upon its own master; and your truest friend is the one who advises you sincerely to your face and defends your honor behind your back."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: کمان سے نکلا ہوا تیر اور منہ سے نکلا ہوا لفظ واپس نہیں آتا۔ بے قابو زبان انسان کی برسوں کی کمائی ہوئی عزت ایک لمحے میں خاک میں ملا دیتی ہے۔ آج کا عملی سبق یہ ہے کہ بولنے سے پہلے تولیں اور ایسے دوستوں کی قدر کریں جو تنہائی میں آپ کو آئینہ دکھائیں اور محفل میں آپ کا پردہ رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Kaman se nikla huwa teer aur munh se nikla huwa lafz wapis nahi aata. Be-qaboo zaban insan ki barson ki kamai hui izzat aik lamhay mein khak mein mila deti hai. Aaj ka amli sabaq yeh hai ke bolne se pehle tolein aur aise doston ki qadr karein jo tanhai mein aap ko aaina dikhayein aur mehfil mein aap کا parda rakhein.",
+      en: "Context & Practical Lesson: Unchecked words destroy years of hard-earned respect, while a loyal friend corrects you privately and shields your reputation publicly."
+    },
+    tags: [
+      { ur: "حفاظتِ زبان", ro: "Hifazat-e-Zaban", en: "Guarding the Tongue" },
+      { ur: "مخلص دوستی", ro: "Mukhlis Dosti", en: "True Friendship" }
+    ]
+  },
+  {
+    id: "ma-343",
+    slug: "agar-bolna-chandi-hai-to-khamoshi-sona-hai",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 101-102",
+    author: {
+      ur: "حکیم لقمان علیہ السلام",
+      ro: "Hakeem Luqman (A.S)",
+      en: "Luqman the Wise"
+    },
+    title: {
+      ur: "حکمت بھری خاموشی ہزار بے جا باتوں سے افضل ہے",
+      ro: "Hikmat Bhari Khamoshi Hazar Be-Ja Baaton Se Afzal Hai",
+      en: "Thoughtful Silence Outweighs a Thousand Careless Words"
+    },
+    quote: {
+      ur: "اے بیٹے! میں اپنی خاموشی پر کبھی نادم نہیں ہوا، البتہ بولنے پر مجھے بارہا پچھتانا پڑا ہے؛ پس اگر بے وقت بولنا چاندی ہے تو موقع کی خاموشی خالص سونا ہے۔",
+      ro: "Aye betay! Main apni khamoshi par kabhi nadim nahi huwa, albatta bolne par mujhe barha pachtana para hai; pas agar be-waqt bolna chandi hai to mauqay ki khamoshi khalis sona hai.",
+      en: "O my son! I have never regretted remaining silent, whereas I have often regretted speaking; if speech is silver, then timely silence is pure gold."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: جب تک انسان خاموش رہتا ہے بات اس کے قابو میں ہوتی ہے، اور جب وہ بول پڑتا ہے تو وہ اپنی بات کے نتائج کا قیدی بن جاتا ہے۔ آج کا عملی سبق یہ ہے کہ ہر بحث میں اپنی رائے دینا ضروری نہ سمجھیں؛ جہاں بولنے سے فائدہ نہ ہو وہاں باوقار خاموشی اختیار کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jab tak insan khamosh rehta hai baat us ke qaboo mein hoti hai, aur jab woh bol parta hai to woh apni baat ke nataij ka qaidi ban jata hai. Aaj ka amli sabaq yeh hai ke har behas mein apni raaye dena zaroori na samjhein; jahan bolne se faida na ho wahan ba-waqar khamoshi ikhtiyar karein.",
+      en: "Context & Practical Lesson: Before you speak, you own your words; once spoken, your words own you. Practicing strategic silence prevents needless disputes."
+    },
+    tags: [
+      { ur: "حکمتِ خاموشی", ro: "Hikmat-e-Khamoshi", en: "Wisdom of Silence" },
+      { ur: "تدبر", ro: "Tadabbur", en: "Prudence" }
+    ]
+  },
+  {
+    id: "ma-344",
+    slug: "khushhali-mein-tawazu-aur-tangdasti-mein-khuddari",
+    categorySlug: "ambiya-o-hukama",
+    bookRef: "Makhzan-e-Akhlaq - Page 264 (Hukama Summary)",
+    author: {
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
+    },
+    title: {
+      ur: "خوشحالی میں عاجزی اور تنگدستی میں خودداری کی عظمت",
+      ro: "Khushhali Mein Aajizi Aur Tangdasti Mein Khuddari Ki Azmat",
+      en: "Humility in Prosperity and Dignity in Hardship"
+    },
+    quote: {
+      ur: "چار چیزیں انسان کے اعلیٰ ظرف ہونے کی گواہ ہیں: دولت اور اقتدار ملنے پر عاجزی اختیار کرنا، تنگدستی میں سفید پوشی اور خودداری نبھانا، غصے کی حالت میں انصاف نہ چھوڑنا، اور احسان کر کے بھول جانا۔",
+      ro: "Chaar cheezein insan ke aala-zarf hone ki gawah hain: daulat aur iqtidar milne par aajizi ikhtiyar karna, tangdasti mein safaid-poshi aur khuddari nibhana, gusse ki halat mein insaf na chhorna, aur ehsan kar ke bhool jana.",
+      en: "Four qualities prove a noble soul: remaining humble when blessed with wealth and authority, maintaining quiet dignity during hardship, staying fair when angry, and forgetting the favors one has done for others."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: عام انسان دولت پا کر مغرور ہو جاتا ہے اور غربت میں گِڑگِڑانے لگتا ہے، جبکہ باوقار انسان ہر موسم میں اپنا توازن برقرار رکھتا ہے۔ آج کا عملی سبق یہ ہے کہ اچھے دنوں میں غریبوں کو نہ بھولیں اور مشکل دنوں میں اپنے وقار اور حلال محنت کا دامن نہ چھوڑیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Aam insan daulat pa kar maghroor ho jata hai aur ghurbat mein girgirane lagta hai, jabkeh ba-waqar insan har mausam mein apna tawazun barqarar rakhta hai. Aaj ka amli sabaq yeh hai ke achay dinon mein ghareebon ko na bhoolein aur mushkil dinon mein apne waqar aur halal mehnat ka daman na chhorein.",
+      en: "Context & Practical Lesson: Seasons of wealth and scarcity test inner character; staying grounded during success and dignified during trials marks true nobility."
+    },
+    tags: [
+      { ur: "اعلیٰ ظرفی", ro: "Aala-Zarfi", en: "Noble Character" },
+      { ur: "توازنِ کردار", ro: "Tawazun-e-Kirdar", en: "Poise" }
+    ]
+  },
+  {
+    id: "ma-345",
+    slug: "maimar-ka-aakhri-makan-apne-kaam-mein-ikhlas",
+    categorySlug: "sabaq-aamoz-waqiat",
+    bookRef: "Makhzan-e-Akhlaq - Page 348 (Hikayat Summary)",
+    author: {
+      ur: "اخلاقی جواہر و حکایات",
+      ro: "Akhlaqi Jawahir o Hikayat",
+      en: "Moral Gems & Parables"
+    },
+    title: {
+      ur: "بوڑھے معمار کا آخری مکان: اپنے کام میں بددلی کا نتیجہ",
+      ro: "Boorhay Maimar Ka Aakhri Makan: Apne Kaam Mein Bad-Dili Ka Nateeja",
+      en: "The Carpenter's Final House: Your Work Builds Your Own Future"
+    },
+    quote: {
+      ur: "ایک ماہر معمار نے ریٹائر ہونے سے پہلے مالک کی فرمائش پر آخری مکان بے دلی اور ناقص سامان سے تیار کر دیا، مگر جب مکان مکمل ہوا تو مالک نے چابی اسی معمار کے ہاتھ میں تھماتے ہوئے کہا: یہ مکان تمہاری عمر بھر کی خدمات کا تحفہ ہے؛ معمار پچھتایا کہ کاش میں جانتا کہ میں اپنا ہی گھر بنا رہا ہوں۔",
+      ro: "Aik mahir maimar ne retire hone se pehle malik ki farmaish par aakhri makan be-dili aur naqis saman se tayyar kar diya, magar jab makan mukammal huwa to malik ne chabi usi maimar ke hath mein thamate huye kaha: Yeh makan tumhari umar bhar ki khidmat ka tohfa hai; maimar pachtaya ke kash main janta ke main apna hi ghar bana raha hoon.",
+      en: "An aging master builder, asked by his employer to construct one final house before retiring, worked carelessly and used inferior materials; upon completion, the employer handed him the keys as a retirement gift—leaving the builder wishing he had known he was building his own home."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: یہ حکایت ہماری روزمرہ زندگی کی ہو بہو تصویر ہے۔ ہم جو نماز پڑھتے ہیں، جو کام اپنی دکان یا دفتر میں کرتے ہیں اور جو رویہ لوگوں کے ساتھ رکھتے ہیں، درحقیقت ہم اسی سے اپنے مستقبل اور آخرت کا گھر تعمیر کر رہے ہوتے ہیں۔ آج کا عملی سبق یہ ہے کہ اپنے ہر کام کو پوری دیانت اور عمدگی (اتقان) کے ساتھ انجام دیں کیونکہ اس کا پھل خود آپ ہی کو ملنا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Yeh hikayat hamari rozmarra zindagi ki hu-ba-hu tasveer hai. Hum jo namaz parhte hain, jo kaam apni dukan ya daftar mein karte hain aur jo rawaiya logon ke sath rakhte hain, dar-haqeeqat hum usi se apne mustaqbil aur akhirat ka ghar tameer kar rahe hote hain. Aaj ka amli sabaq yeh hai ke apne har kaam ko poori diyanat aur umdagi (itqan) ke sath anjam dein kyunkeh us ka phal khud aap hi ko milna hai.",
+      en: "Context & Practical Lesson: Every daily deed, professional task, and moral choice is a brick in the house we ourselves will inhabit tomorrow. Perform every duty with excellence and sincerity."
+    },
+    tags: [
+      { ur: "اتقانِ عمل", ro: "Itqan-e-Amal", en: "Excellence in Work" },
+      { ur: "مکافات", ro: "Mukafat", en: "Self-Accountability" }
+    ]
+  }
+];
+
 
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
@@ -10043,6 +10496,8 @@ const batchMappedQuotes: Quote[] = [
   ...batch20Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 11 || idx === 14)), // ma-286 (Amanatein o Adal), ma-289 (Dilon o Aamaal), ma-297 (Hazrat Ali - Aqal kamil), ma-300 (Tootay dilon ko jorna) featured
   ...batch21Quotes.map((q, idx) => quoteItemToQuote(q, idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-304 (Qana'at), ma-308 (Nazm-e-Auqat), ma-312 (Hazrat Ali - Sabr dhal), ma-315 (Choti amanatein) featured
   ...batch22Quotes.map((q, idx) => quoteItemToQuote(q, idx === 3 || idx === 4 || idx === 11 || idx === 14)), // ma-319 (Ghussa na karo), ma-320 (Kasb-e-Halal), ma-327 (Husn-e-akhlaq), ma-330 (Aamaal ki bazgasht) featured
+
+  ...batch23Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-331 (Sachi koshish), ma-334 (Be-maqsad kam), ma-338 (Khana aib), ma-342 (Zaban darinda), ma-345 (Maimar makan) featured
 ];
 
 const classicAdditionalQuotes: Quote[] = [
@@ -10392,8 +10847,16 @@ export const quotes: Quote[] = [
   ),
 ];
 
+const slugAliases: Record<string, string> = {
+  "majlis-mein-امتیاز-na-rakhna-aur-masakeen-ke-sath-baithna": "majlis-mein-imtiyaz-na-rakhna-aur-masakeen-ke-sath-baithna",
+  "sachai-amanat-hai-aur-sabr-mein-kاميابی": "sachai-amanat-hai-aur-sabr-mein-kamyabi",
+  "meعمار-ka-aakhri-makan-apne-kaam-mein-ikhlas": "maimar-ka-aakhri-makan-apne-kaam-mein-ikhlas",
+};
+
 export function getQuoteBySlug(slug: string): Quote | undefined {
-  return quotes.find((q) => q.slug === slug);
+  const normalized = slugAliases[slug] || slug;
+  const decoded = decodeURIComponent(normalized);
+  return quotes.find((q) => q.slug === normalized || q.slug === decoded);
 }
 
 export function getQuotesByCategory(categorySlug: string): Quote[] {
