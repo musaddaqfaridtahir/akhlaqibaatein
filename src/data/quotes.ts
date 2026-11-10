@@ -113,92 +113,92 @@ export const batch1Quotes: QuoteItem[] = [
   },
   {
     id: "ma-004",
-    slug: "neki-kar-ke-ehsan-na-jatao",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 8",
+    slug: "musalman-woh-hai-jiski-zaban-aur-hath-se-doosre-mehfooz-rahein",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "احسان جتا کر نیکی ضائع نہ کرو",
-      ro: "Ehsan Jata Kar Neki Zaya Na Karo",
-      en: "Do Not Ruin Charity by Reminders of Generosity"
+      ur: "حقیقی مسلمان وہ ہے جس کی زبان اور ہاتھ سے دوسرے محفوظ رہیں",
+      ro: "Haqeeqi Musalman Woh Hai Jis Ki Zaban Aur Hath Se Doosre Mehfooz Rahein",
+      en: "A True Muslim is One Who Harms No One with Tongue or Hand"
     },
     quote: {
-      ur: "خبردار! نیک کام میں خرچ کیے ہوئے روپے کو احسان جتا جتا کر دکھ دینے والے کلمات کہہ کر ضائع نہ کرو۔",
-      ro: "Khabardar! Nek kaam mein kharch kiye huye rupay ko ehsan jata jata kar dukh dene wale kalmaat keh kar zaya na karo.",
-      en: "Beware! Do not nullify your charity by reminders of your generosity and by hurtful words."
+      ur: "سچا مسلمان وہ ہے جس کی زبان اور ہاتھ سے دوسرے مسلمان محفوظ رہیں، اور سچا مہاجر وہ ہے جو ان چیزوں کو چھوڑ دے جن سے اللہ نے منع فرمایا ہے۔",
+      ro: "Sacha musalman woh hai jis ki zaban aur hath se doosre musalman mehfooz rahein, aur sacha muhajir woh hai jo un cheezon ko chhor de jin se Allah ne mana farmaya hai.",
+      en: "A Muslim is the one from whose tongue and hands the Muslims are safe; and a Muhajir (emigrant) is the one who forsakes what Allah has forbidden."
     },
     tashreeh: {
-      ur: "صدقہ اور خیرات کا مقصد اللہ کی رضا اور غریب کی عزتِ نفس کی حفاظت ہے۔ اگر مدد کرنے کے بعد بار بار جتایا جائے یا تکلیف دہ بات کہی جائے تو سارا ثواب ضائع ہو جاتا ہے۔",
-      ro: "Sadqa aur khairat ka maqsad Allah ki raza aur ghareeb ki izzat-e-nafs ki hifazat hai. Agar madad karne ke baad bar bar jataya jaye ya takleef-deh baat kahi jaye to sara sawab zaya ho jata hai.",
-      en: "The purpose of charity is to seek Allah's pleasure while preserving the dignity of the needy. Reminding someone of a favor or hurting their feelings erases the spiritual reward of giving."
+      ur: "پسِ منظر و تشریح: کسی کو تکلیف نہ دینا، گالی گلوچ، غیبت یا جسمانی نقصان سے بچنا کامل ایمان کی علامت ہے۔ آج کا عملی سبق یہ ہے کہ اپنی زبان کو قابو میں رکھیں اور اپنے عمل سے کسی کو دکھ نہ پہنچائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Kisi ko takleef na dena, gaali-galoch, gheebat ya jismani nuqsan se bachna kamil eman ki alamat hai. Aaj ka amli sabaq yeh hai ke apni zaban ko qaboo mein rakhein aur apne amal se kisi ko dukh na pohanchayein.",
+      en: "Context & Practical Lesson: Guarding our tongue and hands from hurting others is the core test of practicing true Islamic character."
     },
     tags: [
-      { ur: "صدقہ", ro: "Sadqa", en: "Charity" },
-      { ur: "اخلاص", ro: "Ikhlas", en: "Sincerity" }
+      { ur: "سلامتی", ro: "Salamati", en: "Peacefulness" },
+      { ur: "حفظِ زبان", ro: "Hifz-e-Zaban", en: "Guarding Speech" }
     ]
   },
   {
     id: "ma-005",
-    slug: "taqwa-aur-tawakkul-ki-barkat",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 8",
+    slug: "apne-bhai-ke-liye-wahi-pasand-karo-jo-apne-liye-karte-ho",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "تقویٰ اور اللہ پر بھروسے کا پھل",
-      ro: "Taqwa Aur Allah Par Bharosay Ka Phal",
-      en: "The Reward of Piety and Trust in Allah"
+      ur: "اپنے بھائی کے لیے وہی پسند کرو جو اپنے لیے کرتے ہو",
+      ro: "Apne Bhai Ke Liye Wahi Pasand Karo Jo Apne Liye Karte Ho",
+      en: "Love for Your Brother What You Love for Yourself"
     },
     quote: {
-      ur: "جو اللہ تعالیٰ سے ڈرتا رہے گا اللہ تعالیٰ اس کے سب کام آسان کر دے گا، اور جو اللہ پر بھروسہ رکھے اللہ تعالیٰ اس کے لیے کافی ہے۔",
-      ro: "Jo Allah Ta'ala se darta rahega Allah Ta'ala us ke sab kaam asan kar dega, aur jo Allah par bharosa rakhe Allah Ta'ala us ke liye kafi hai.",
-      en: "Whoever fears Allah, He will make a way of ease for him in all his affairs; and whoever puts his trust in Allah, He is sufficient for him."
+      ur: "تم میں سے کوئی اس وقت تک کامل مومن نہیں ہو سکتا جب تک کہ وہ اپنے بھائی کے لیے بھی وہی کچھ پسند نہ کرے جو اپنے لیے پسند کرتا ہے۔",
+      ro: "Tum mein se koi us waqt tak kamil momin nahi ho sakta jab tak ke woh apne bhai ke liye bhi wahi kuch pasand na kare jo apne liye pasand karta hai.",
+      en: "None of you truly believes until he wishes for his brother what he wishes for himself."
     },
     tashreeh: {
-      ur: "مشکلات اور پریشانیوں سے نکلنے کا سب سے مضبوط راستہ تقویٰ اختیار کرنا ہے۔ جب بندہ حرام سے بچتا ہے اور اپنے رب پر کامل یقین رکھتا ہے تو غیب سے اس کے لیے آسانیاں پیدا ہو جاتی ہیں۔",
-      ro: "Mushkilat aur pareshaniyon se nikalne ka sab se mazboot rasta taqwa ikhtiyar karna hai. Jab banda haram se bachta hai aur apne Rab par kamil yaqeen rakhta hai to ghaib se us ke liye asaniyan paida ho jati hain.",
-      en: "The surest way out of hardships is righteousness. When a person avoids wrongdoing and places complete trust in the Creator, unforeseen doors of ease and sustenance open up."
+      ur: "پسِ منظر و تشریح: یہ اصول انسانی محبت اور اخوت کی معراج ہے۔ جب انسان خود غرضی سے نکل کر دوسروں کی بھلائی کو اپنی طرح عزیز رکھتا ہے تو معاشرے سے حسد اور بغض ختم ہو جاتا ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کے ساتھ وہی معاملہ کریں جو آپ اپنے ساتھ چاہتے ہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Yeh usool insani mohabbat aur ukhuwwat ki meraj hai. Jab insan khud-gharzi se nikal kar doosron ki bhalai ko apni tarah azeez rakhta hai to muashray se hasad aur bughz khatam ho jata hai. Aaj ka amli sabaq yeh hai ke doosron ke sath wahi muamla karein jo aap apne sath chahte hain.",
+      en: "Context & Practical Lesson: Eradicating selfishness by wishing well for others fosters a deeply harmonious and supportive society."
     },
     tags: [
-      { ur: "توکل", ro: "Tawakkul", en: "Trust in God" },
-      { ur: "تقویٰ", ro: "Taqwa", en: "Piety" }
+      { ur: "اخوت", ro: "Ukhuwwat", en: "Brotherhood" },
+      { ur: "باہمی محبت", ro: "Bahami Mohabbat", en: "Mutual Affection" }
     ]
   },
   {
     id: "ma-006",
-    slug: "salam-ka-behtar-jawab-dena",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 9",
+    slug: "jo-shakhs-reham-nahi-karta-us-par-reham-nahi-kiya-jata",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "سلام اور دعا کا بہترین جواب",
-      ro: "Salam Aur Dua Ka Behtareen Jawab",
-      en: "Responding to Greetings with Greater Kindness"
+      ur: "مخلوق پر رحم کرنے والے پر رب کی رحمت ہوتی ہے",
+      ro: "Makhlooq Par Reham Karne Wale Par Rab Ki Rehmat Hoti Hai",
+      en: "Those Who Show Mercy Will Receive Divine Mercy"
     },
     quote: {
-      ur: "جب تمہیں سلام کے ذریعے سے دعا دی جائے تو تم اس کے جواب میں بہتر دعا دو یا وہی کلمہ جواب میں کہہ دو۔",
-      ro: "Jab tumhein salam ke zariye se dua di jaye to tum us ke jawab mein behtar dua do ya wahi kalma jawab mein keh do.",
-      en: "When you are greeted with a prayer of peace, respond with a better greeting or at least return the same."
+      ur: "جو شخص لوگوں پر رحم نہیں کرتا، اللہ تعالیٰ اس پر رحم نہیں فرماتا۔",
+      ro: "Jo shakhs logon par reham nahi karta, Allah Ta'ala us par reham nahi farmata.",
+      en: "He who does not show mercy to people, Allah will not show mercy to him."
     },
     tashreeh: {
-      ur: "سلامتی کی دعا معاشرے میں محبت اور امن پھیلانے کا ذریعہ ہے۔ اگر کوئی آپ کے لیے خیر کا کلمہ کہے تو اخلاقی فرض ہے کہ اس سے بڑھ کر محبت اور خوش اخلاقی سے جواب دیا جائے۔",
-      ro: "Salamti ki dua muashray mein mohabbat aur aman phailane ka zariya hai. Agar koi aap ke liye khair ka kalma kahe to akhlaqi farz hai ke us se barh kar mohabbat aur khush-akhlaqi se jawab diya jaye.",
-      en: "Exchanging greetings of peace spreads harmony in society. When someone wishes well for you, moral excellence demands responding with even greater warmth and goodwill."
+      ur: "پسِ منظر و تشریح: رحمت اور شفقت مومن کا بنیادی زیور ہیں۔ جب ہم کمزوروں، ماتحتوں اور حیوانات پر نرمی کرتے ہیں تو آسمان والے کی رحمت ہمارے شاملِ حال ہوتی ہے۔ آج کا عملی سبق یہ ہے کہ اپنے دل میں نرمی پیدا کریں اور ہر ذی روح کے ساتھ شفقت سے پیش آئیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Rehmat aur shafqat momin ka bunyadi zewar hain. Jab hum kamzoron, matehton aur haywanon par narmi karte hain to asman wale ki rehmat hamare shamil-e-haal hoti hai. Aaj ka amli sabaq yeh hai ke apne dil mein narmi paida karein aur har zi-rooh ke sath shafqat se pesh aayein.",
+      en: "Context & Practical Lesson: Showing tenderness and compassion to creation unlocks the boundless mercy of the Creator."
     },
     tags: [
-      { ur: "سلام", ro: "Salam", en: "Greetings" },
-      { ur: "معاشرت", ro: "Muasharat", en: "Social Etiquette" }
+      { ur: "رحمدلی", ro: "Reham-Dili", en: "Compassion" },
+      { ur: "شفقت", ro: "Shafqat", en: "Tenderness" }
     ]
   },
   {
