@@ -9571,10 +9571,10 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-316",
     slug: "be-gharz-ehsan-aur-dunyawi-badlay-ki-tawaqqa-na-rakhna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah Al-Insan (76:8-9) | Makhzan-e-Akhlaq",
+    bookRef: "Surah Al-Insan (76:8-9) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -9583,14 +9583,14 @@ export const batch22Quotes: QuoteItem[] = [
       en: "Feeding Others Purely for God's Pleasure Without Expecting Return"
     },
     quote: {
-      ur: "وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا  إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا\n\nترجمہ: اور وہ اللہ کی محبت میں مسکین، یتیم اور قیدی کو کھانا کھلاتے ہیں (اور کہتے ہیں کہ) ہم تمہیں صرف اللہ کی رضا کے لیے کھلاتے ہیں، ہم تم سے نہ کوئی بدلہ چاہتے ہیں اور نہ شکر گزاری۔",
-      ro: "وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا  إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا\n\nTarjuma: Aur woh Allah ki mohabbat mein miskeen, yateem aur qaidi ko khana khilate hain (aur kehte hain ke) hum tumhein sirf Allah ki raza ke liye khilate hain, hum tum se na koi badla chahte hain aur na shukr-guzari.",
-      en: "وَيُطْعِمُونَ الطَّعَامَ عَلَىٰ حُبِّهِ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا  إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ اللَّهِ لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا\n\nTranslation: And they give food, in spite of their love for it, to the needy, the orphan, and the captive, [saying], 'We feed you only for the countenance of Allah; we wish not from you any reward or gratitude.'"
+      ur: "اور وہ اللہ کی محبت میں مسکین، یتیم اور قیدی کو کھانا کھلاتے ہیں (اور کہتے ہیں کہ) ہم تمہیں صرف اللہ کی رضا کے لیے کھلاتے ہیں، ہم تم سے نہ کوئی بدلہ چاہتے ہیں اور نہ شکر گزاری۔",
+      ro: "Aur woh Allah ki mohabbat mein miskeen, yateem aur qaidi ko khana khilate hain (aur kehte hain ke) hum tumhein sirf Allah ki raza ke liye khilate hain, hum tum se na koi badla chahte hain aur na shukr-guzari.",
+      en: "And they give food, in spite of their love for it, to the needy, the orphan, and the captive, saying: 'We feed you only for the countenance of Allah; we wish not from you any reward or gratitude.'"
     },
     tashreeh: {
-      ur: "پسِ منظر و تشریح: سورۃ الدہر (الانسان) کی یہ آیات نیک بندوں کے اس بلند ترین اخلاق کو بیان کرتی ہیں کہ وہ خود ضرورت اور رغبت ہونے کے باوجود مسکین، یتیم اور بے بس کو کھانا کھلاتے ہیں اور دل میں ذرا بھی یہ طمع نہیں رکھتے کہ سامنے والا ان کا احسان مانے گا۔ آج کا عملی سبق یہ ہے کہ اپنی ہر نیکی کا کھاتہ براہِ راست اللہ کے ساتھ رکھیں؛ جب آپ لوگوں سے تعریف اور شکریے کی امید ختم کر دیتے ہیں تو نہ کبھی آپ کا دل ٹوٹتا ہے اور نہ ہی آپ کے عمل کا اجر ضائع ہوتا ہے۔",
-      ro: "Pas-e-Manzar o Tashreeh: Surah Ad-Dahr (Al-Insan) ki yeh aayatein nek bandon ke us buland-tareen akhlaq ko bayan karti hain ke woh khud zaroorat aur raghbat hone ke bawajood miskeen, yateem aur be-bas ko khana khilate hain aur dil mein zara bhi yeh tama nahi rakhte ke samne wala un ka ehsan manega. Aaj ka amli sabaq yeh hai ke apni har neki ka khata barah-e-raast Allah ke sath rakhein; jab aap logon se tareef aur shukriye ki umeed khatam kar dete hain to na kabhi aap ka dil tootta hai aur na hi aap ke amal ka ajr zaya hota hai.",
-      en: "Context & Practical Lesson: These verses of Surah Al-Insan honor the righteous who share their cherished food with the needy, orphans, and captives without seeking applause or repayment. Today's moral lesson is to anchor every act of kindness directly with the Creator so your peace of mind and eternal reward remain intact."
+      ur: "پسِ منظر و تشریح: سورۃ الدہر کی یہ آیات نیک بندوں کے اس بلند ترین اخلاق کو بیان کرتی ہیں کہ وہ خود رغبت ہونے کے باوجود مسکین، یتیم اور بے بس کو کھانا کھلاتے ہیں اور دل میں ذرا بھی یہ طمع نہیں رکھتے کہ سامنے والا ان کا احسان مانے گا۔ آج کا عملی سبق یہ ہے کہ اپنی ہر نیکی کا کھاتہ براہِ راست اللہ کے ساتھ رکھیں؛ جب آپ لوگوں سے تعریف اور شکریے کی امید ختم کر دیتے ہیں تو نہ کبھی آپ کا دل ٹوٹتا ہے اور نہ ہی آپ کے عمل کا اجر ضائع ہوتا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Ad-Dahr ki yeh aayatein nek bandon ke us buland-tareen akhlaq ko bayan karti hain ke woh khud raghbat hone ke bawajood miskeen, yateem aur be-bas ko khana khilate hain aur dil mein zara bhi yeh tama nahi rakhte ke samne wala un ka ehsan manega. Aaj ka amli sabaq yeh hai ke apni har neki ka khata barah-e-raast Allah ke sath rakhein; jab aap logon se tareef aur shukriye ki umeed khatam kar dete hain to na kabhi aap ka dil tootta hai aur na hi aap کے amal ka ajr zaya hota hai.",
+      en: "Context & Practical Lesson: These verses of Surah Al-Insan honor the righteous who share their cherished food with the needy without seeking applause or repayment. Anchor every act of kindness directly with the Creator so your peace of mind and eternal reward remain intact."
     },
     tags: [
       { ur: "اخلاص", ro: "Ikhlas", en: "Pure Sincerity" },
@@ -9601,10 +9601,10 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-317",
     slug: "bheer-ki-pairwi-ke-bajaye-haq-aur-daleel-ka-sath-dena",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah Al-An'am (6:116) | Makhzan-e-Akhlaq",
+    bookRef: "Surah Al-An'am (6:116) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -9613,14 +9613,14 @@ export const batch22Quotes: QuoteItem[] = [
       en: "Standing by Truth Instead of Blindly Following the Crowd"
     },
     quote: {
-      ur: "وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ\n\nترجمہ: اور اگر تو زمین پر بسنے والے اکثر لوگوں کے کہنے پر چلے گا تو وہ تجھے اللہ کی راہ سے بھٹکا دیں گے؛ وہ تو محض گمان کے پیچھے چلتے ہیں اور صرف قیاس آرائیاں کرتے ہیں۔",
-      ro: "وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ\n\nTarjuma: Aur agar tu zameen par basne wale aksar logon ke kehne par chalega to woh tujhe Allah ki raah se bhatka denge; woh to mehaz guman ke peechay chalte hain aur sirf qiyas-aaraiyan karte hain.",
-      en: "وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ\n\nTranslation: And if you obey most of those upon the earth, they will mislead you from the way of Allah. They follow nothing but assumption, and they do nothing but falsify."
+      ur: "اور اگر تو زمین پر بسنے والے اکثر لوگوں کے کہنے پر چلے گا تو وہ تجھے اللہ کی راہ سے بھٹکا دیں گے؛ وہ تو محض گمان کے پیچھے چلتے ہیں اور صرف قیاس آرائیاں کرتے ہیں۔",
+      ro: "Aur agar tu zameen par basne wale aksar logon ke kehne par chalega to woh tujhe Allah ki raah se bhatka denge; woh to mehaz guman ke peechay chalte hain aur sirf qiyas-aaraiyan karte hain.",
+      en: "And if you obey most of those upon the earth, they will mislead you from the way of Allah. They follow nothing but assumption, and they do nothing but falsify."
     },
     tashreeh: {
       ur: "پسِ منظر و تشریح: سورۃ الانعام کی یہ آیت واضح فرماتی ہے کہ حق اور باطل کا معیار لوگوں کی بھیڑ نہیں ہے۔ معاشرے میں اکثر غلط رسم و رواج، کاروباری بددیانتی اور فضول خرچی صرف یہ کہہ کر اپنائی جاتی ہے کہ 'آج کل سب لوگ یہی کر رہے ہیں'۔ آج کا عملی سبق یہ ہے کہ کسی غلط کام کے عام ہو جانے سے وہ درست نہیں بن جاتا؛ باضمیر انسان دیکھا دیکھی چلنے کے بجائے علم، دلیل اور سچائی پر قائم رہتا ہے۔",
       ro: "Pas-e-Manzar o Tashreeh: Surah Al-An'am ki yeh aayat wazeh farmati hai ke haq aur batil ka miyar logon ki bheer nahi hai. Muashray mein aksar ghalat rasm-o-riwaj, karobari bad-diyanati aur fuzool-kharchi sirf yeh keh kar apnai jati hai ke 'aaj kal sab log yehi kar rahe hain'. Aaj ka amli sabaq yeh hai ke kisi ghalat kaam ke aam ho jane se woh durust nahi ban jata; ba-zameer insan dekha-dekhi chalne ke bajaye ilm, daleel aur sachai par qayam rehta hai.",
-      en: "Context & Practical Lesson: This verse of Surah Al-An'am warns that truth is never determined by majority vote or social trends. Today's takeaway is that popularity never turns a wrong into a right; a person of integrity evaluates choices by moral truth rather than crowd pressure."
+      en: "Context & Practical Lesson: This verse of Surah Al-An'am warns that truth is never determined by majority vote or social trends. Popularity never turns a wrong into a right; a person of integrity evaluates choices by moral truth rather than crowd pressure."
     },
     tags: [
       { ur: "حق پرستی", ro: "Haq-Parasti", en: "Upholding Truth" },
@@ -9631,10 +9631,10 @@ export const batch22Quotes: QuoteItem[] = [
     id: "ma-318",
     slug: "intiqam-ke-bajaye-sabr-aur-maafi-mein-azmat",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Surah Ash-Shura (42:40) | Makhzan-e-Akhlaq",
+    bookRef: "Surah Ash-Shura (42:40) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن الحکیم)",
-      ro: "Ahkam-e-Khuda (Al-Quran Al-Hakeem)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
@@ -9643,9 +9643,9 @@ export const batch22Quotes: QuoteItem[] = [
       en: "The Greatness of Choosing Forgiveness and Reconciliation Over Revenge"
     },
     quote: {
-      ur: "وَجَزَاءُ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُ عَلَى اللَّهِ ۚ إِنَّهُ لَا يُحِبُّ الظَّالِمِينَ\n\nترجمہ: اور برائی کا بدلہ اسی کے مثل برائی ہے، پھر جو شخص معاف کر دے اور اصلاح کر لے تو اس کا اجر اللہ کے ذمے ہے؛ بے شک وہ ظالموں کو پسند نہیں کرتا۔",
-      ro: "وَجَزَاءُ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُ عَلَى اللَّهِ ۚ إِنَّهُ لَا يُحِبُّ الظَّالِمِينَ\n\nTarjuma: Aur burai ka badla usi ke misl burai hai, phir jo shakhs maaf kar de aur islah kar le to us ka ajr Allah ke zimmay hai; be-shak Woh zalimon ko pasand nahi karta.",
-      en: "وَجَزَاءُ سَيِّئَةٍ سَيِّئَةٌ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُ عَلَى اللَّهِ ۚ إِنَّهُ لَا يُحِبُّ الظَّالِمِينَ\n\nTranslation: The recompense for an injury is an injury equal to it; but whoever pardons and makes reconciliation, their reward rests with Allah. Indeed, He does not love the wrongdoers."
+      ur: "اور برائی کا بدلہ اسی کے مثل برائی ہے، پھر جو شخص معاف کر دے اور اصلاح کر لے تو اس کا اجر اللہ کے ذمے ہے؛ بے شک وہ ظالموں کو پسند نہیں کرتا۔",
+      ro: "Aur burai ka badla usi ke misl burai hai, phir jo shakhs maaf kar de aur islah kar le to us ka ajr Allah ke zimmay hai; be-shak Woh zalimon ko pasand nahi karta.",
+      en: "The recompense for an injury is an injury equal to it; but whoever pardons and makes reconciliation, their reward rests with Allah. Indeed, He does not love the wrongdoers."
     },
     tashreeh: {
       ur: "پسِ منظر و تشریح: سورۃ الشوریٰ کی یہ آیت قانونِ عدل کے ساتھ قانونِ احسان سکھاتی ہے کہ مظلوم کو برابر کا حق لینے کی اجازت تو ہے، لیکن اگر وہ معاف کر کے معاملے کی اصلاح کر لے تو اس کا بے حساب اجر براہِ راست اللہ کے ذمے ہے۔ آج کا عملی سبق یہ ہے کہ جہاں معاف کرنے سے رشتے جڑتے ہوں اور فتنہ ختم ہوتا ہو، وہاں انتقام کے بجائے درگزر کا راستہ اختیار کریں۔",
