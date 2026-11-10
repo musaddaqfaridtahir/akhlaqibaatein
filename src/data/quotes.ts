@@ -6396,92 +6396,92 @@ export const batch14Quotes: QuoteItem[] = [
 export const batch15Quotes: QuoteItem[] = [
   {
     id: "ma-211",
-    slug: "naap-tol-mein-insaf-aur-kami-se-parhez",
+    slug: "bila-tahqeeq-khabar-phailane-se-parhez",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 11-12",
+    bookRef: "Surah Al-Hujurat (49:6) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "ناپ تول میں انصاف اور ڈنڈی مارنے کی مذمت",
-      ro: "Naap-Tol Mein Insaf Aur Dandi Marne Ki Mazammat",
-      en: "Honesty in Weights and Measures"
+      ur: "بغیر تحقیق کے سنی سنائی خبر پھیلانے سے پرہیز کا حکم",
+      ro: "Baghair Tahqeeq Ke Suni Sunai Khabar Phailane Se Parhez Ka Hukm",
+      en: "Verifying News Before Acting or Spreading It"
     },
     quote: {
-      ur: "جب ناپنے لگو تو پورا پورا ناپو اور سیدھی ترازو سے تولا کرو؛ خرابی ہے کم تولنے والوں کے لیے کہ جب لوگوں سے ناپ کر لیتے ہیں تو پورا لیتے ہیں اور جب ان کو ناپ یا تول کر دیتے ہیں تو گھٹا کر دیتے ہیں۔",
-      ro: "Jab naapne lago to poora poora naapo aur seedhi tarazu se tola karo; kharabi hai kam tolne walon ke liye ke jab logon se naap kar lete hain to poora lete hain aur jab un ko naap ya tol kar dete hain to ghata kar dete hain.",
-      en: "Give full measure when you measure, and weigh with an even, honest balance; woe to those who give less in measure—who demand full measure when receiving from people, yet give less when measuring or weighing for them."
+      ur: "اے ایمان والو! اگر کوئی غیر معتبر شخص تمہارے پاس کوئی خبر لے کر آئے تو اس کی خوب تحقیق کر لیا کرو، کہیں ایسا نہ ہو کہ تم نادانی میں کسی قوم کو نقصان پہنچا بیٹھو اور پھر اپنے کیے پر پشیمان ہوتے رہو۔",
+      ro: "Aye eman walo! Agar koi ghair-mo'tabar shakhs tumhare paas koi khabar le kar aaye to us ki khoob tahqeeq kar liya karo, kahin aisa na ho ke tum nadani mein kisi qoum ko nuqsan pohancha baitho aur phir apne kiye par pasheman hote raho.",
+      en: "O believers! If an unreliable person brings you any news, verify it thoroughly, lest you harm people out of ignorance and then become regretful for what you have done."
     },
     tashreeh: {
-      ur: "صرف ترازو ہی نہیں بلکہ ہر کاروبار، ملازمت اور معاملے میں اپنا حق پورا وصول کرنا اور دوسرے کا حق دیتے وقت کمی کر دینا بدترین خیانت ہے جو رزق کی برکت ختم کر دیتی ہے۔",
-      ro: "Sirf tarazu hi nahi balkay har karobar, mulazmat aur muamlay mein apna haq poora wasool karna aur doosre ka haq dete waqt kami kar dena bad-tareen khyanat hai jo rizq ki barkat khatam kar deti hai.",
-      en: "Fairness extends beyond physical scales to every service and contract: demanding one's full right while shortchanging others destroys commercial blessing and social trust."
+      ur: "پسِ منظر و تشریح: سورۃ الحجرات کا یہ زریں اصول آج کے سوشل میڈیا اور تیز رفتار معلومات کے دور میں سب سے زیادہ اہمیت رکھتا ہے۔ سنی سنائی بات پر یقین کر کے کسی کے خلاف رائے قائم کر لینا یا افواہ آگے پھیلا دینا، بے گناہ انسانوں کی عزت اور تعلقات کو تباہ کر دیتا ہے۔ آج کا عملی سبق یہ ہے کہ جب تک کسی بات کی سچائی کی مکمل تصدیق نہ ہو جائے، اسے ہرگز آگے بیان نہ کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Hujurat ka yeh zareen usool aaj ke social media aur tez-raftar maloomat ke daur mein sab se zyada ahmiyat rakhta hai. Suni sunai baat par yaqeen kar ke kisi ke khilaf raaye qayam kar lena ya afwah aagay phaila dena, be-gunah insanon ki izzat aur talluqat ko tabah kar deta hai. Aaj ka amli sabaq yeh hai ke jab tak kisi baat ki sachai ki mukammal tasdeeq na ho jaye, usay hargiz aagay bayan na karein.",
+      en: "Context & Practical Lesson: In an era of instant messaging and rumors, Surah Al-Hujurat establishes the golden rule of information ethics: never forward or act upon unverified claims lest you destroy innocent reputations."
     },
     tags: [
-      { ur: "تجارتی دیانت", ro: "Tijarati Diyanat", en: "Fair Trade" },
-      { ur: "انصاف", ro: "Insaf", en: "Justice" }
+      { ur: "تحقیق و تصدیق", ro: "Tahqeeq o Tasdeeq", en: "Verification" },
+      { ur: "ذمہ داری", ro: "Zimmedari", en: "Responsibility" }
     ]
   },
   {
     id: "ma-212",
-    slug: "neki-aur-taqwa-mein-taawun-gunah-mein-nahi",
+    slug: "bad-gumani-tajassus-aur-gheebat-ki-mumaniat",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    bookRef: "Surah Al-Hujurat (49:12) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "نیکی اور تقویٰ میں تعاون کا عالمگیر اصول",
-      ro: "Neki Aur Taqwa Mein Taawun Ka Aalamgeer Usool",
-      en: "Cooperating in Goodness and Piety, Not in Sin"
+      ur: "بہت زیادہ گمان کرنے، ٹوہ لگانے اور غیبت سے اجتناب",
+      ro: "Bohot Zyada Guman Karne, Toh Lagane Aur Gheebat Se Ijtinab",
+      en: "Avoiding Suspicion, Spying, and Backbiting"
     },
     quote: {
-      ur: "نیکی اور پرہیزگاری کے کاموں میں ایک دوسرے کی مدد کیا کرو، اور گناہ اور ظلم و زیادتی کے کاموں میں کسی کا ساتھ مت دو؛ اور اللہ سے ڈرتے رہو۔",
-      ro: "Neki aur parhezgari ke kaamon mein aik doosre ki madad kiya karo, aur gunah aur zulm-o-ziyadati ke kaamon mein kisi ka sath mat do; aur Allah se darte raho.",
-      en: "Cooperate with one another in goodness and righteousness, and do not cooperate in sin and aggression; and remain ever mindful of Allah."
+      ur: "اے ایمان والو! بہت سے گمانوں سے بچا کرو کیونکہ بعض گمان صریح گناہ ہوتے ہیں، اور کسی کے پوشیدہ عیبوں کی ٹوہ نہ لگایا کرو، اور نہ تم میں سے کوئی کسی کی پیٹھ پیچھے برائی (غیبت) کرے۔",
+      ro: "Aye eman walo! Bohot se gumanon se bacha karo kyunkeh baaz guman sareeh gunah hote hain, aur kisi ke posheeda aibon ki toh na lagaya karo, aur na tum mein se koi kisi ki peeth peechay burai (gheebat) kare.",
+      en: "O believers! Avoid much negative assumption, for indeed some assumption is a sin; and do not spy on one another, nor backbite one another behind their backs."
     },
     tashreeh: {
-      ur: "یہ حکم اسلامی معاشرت کی بنیاد ہے کہ دوستی، رشتہ داری یا برادری کی خاطر کبھی کسی ظلم اور ناجائز کام میں مددگار نہ بنو، بلکہ ہر اس کام میں ہاتھ بٹاؤ جس سے مخلوق کو بھلائی پہنچے۔",
-      ro: "Yeh hukm Islami muasharat ki bunyad hai ke dosti, rishtedari ya biradari ki khatir kabhi kisi zulm aur najaiz kaam mein madadgar na bano, balkay har us kaam mein hath batao jis se makhlooq ko bhalai pohanche.",
-      en: "True loyalty is anchored in moral truth: support every initiative that promotes welfare and righteousness, and refuse to aid injustice regardless of personal ties."
+      ur: "پسِ منظر و تشریح: معاشرتی بگاڑ کی جڑ تین بیماریاں ہیں: پہلے دل میں کسی کے بارے میں بدگمانی پیدا ہوتی ہے، پھر انسان اس کی جاسوسی اور ٹوہ (تجسس) میں لگتا ہے، اور آخر میں محفلوں میں اس کی غیبت شروع کر دیتا ہے۔ آج کا عملی سبق یہ ہے کہ دوسروں کی بات کا اچھا پہلو نکالیں، لوگوں کی ذاتی زندگی میں جھانکنا چھوڑ دیں اور اپنی زبان کو پیٹھ پیچھے برائی کرنے سے محفوظ رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Maasharati bigaar ki jarr teen bimariyan hain: pehle dil mein kisi ke baray mein bad-gumani paida hoti hai, phir insan us ki jasoosi aur toh (tajassus) mein lagta hai, aur aakhir mein mehfilon mein us ki gheebat shuru kar deta hai. Aaj ka amli sabaq yeh hai ke doosron ki baat ka acha pehlu nikalein, logon ki zaati zindagi mein jhankna chhor dein aur apni zaban ko peeth peechay burai karne se mehfooz rakhein.",
+      en: "Context & Practical Lesson: Suspicion breeds spying, and spying leads to backbiting. Protecting your heart from negative assumptions and respecting others' privacy keeps both soul and society at peace."
     },
     tags: [
-      { ur: "تعاون", ro: "Taawun", en: "Cooperation" },
-      { ur: "پرہیزگاری", ro: "Parhezgari", en: "Righteousness" }
+      { ur: "حسنِ ظن", ro: "Husn-e-Zan", en: "Good Assumption" },
+      { ur: "ترکِ غیبت", ro: "Tark-e-Gheebat", en: "Avoiding Backbiting" }
     ]
   },
   {
     id: "ma-213",
-    slug: "suni-sunai-khabar-ki-tehqeeq-karna",
+    slug: "insani-barabari-aur-izzat-ka-miyar-sirf-taqwa",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 14-15",
+    bookRef: "Surah Al-Hujurat (49:13) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "سنی سنائی خبر کی تحقیق اور نادانی سے بچاؤ",
-      ro: "Suni-Sunai Khabar Ki Tehqeeq Aur Nadani Se Bachao",
-      en: "Verifying News Before Acting to Prevent Regret"
+      ur: "نسل و قبیلے کے بجائے عزت کا حقیقی معیار صرف تقویٰ ہے",
+      ro: "Nasal o Qabeelay Ke Bajaye Izzat Ka Haqeeqi Miyar Sirf Taqwa Hai",
+      en: "True Honor in the Sight of God Rests Solely on Piety"
     },
     quote: {
-      ur: "اے ایمان والو! اگر کوئی غیر معتبر شخص تمہارے پاس کوئی خبر لے کر آئے تو خوب تحقیق کر لیا کرو، کہیں ایسا نہ ہو کہ تم نادانی میں کسی قوم کو نقصان پہنچا بیٹھو اور پھر اپنے کیے پر پشیمان ہو۔",
-      ro: "Aye eman walo! Agar koi ghair-mo'tabar shakhs tumhare paas koi khabar le kar aaye to khoob tehqeeq kar liya karo, kahin aisa na ho ke tum nadani mein kisi qoum ko nuqsan pohancha baitho aur phir apne kiye par pasheman ho.",
-      en: "O believers! If an unreliable person brings you any news, verify it thoroughly, lest you harm people out of ignorance and then become regretful over what you have done."
+      ur: "اے لوگو! ہم نے تم سب کو ایک مرد اور ایک عورت سے پیدا کیا ہے اور تمہاری قومیں اور قبیلے اس لیے بنائے ہیں تاکہ تم ایک دوسرے کو پہچان سکو؛ بے شک اللہ کے نزدیک تم میں سب سے زیادہ عزت والا وہ ہے جو تم میں سب سے زیادہ پرہیزگار (متقی) ہے۔",
+      ro: "Aye logo! Hum ne tum sab ko aik mard aur aik aurat se paida kiya hai aur tumhari qoumein aur qabeelay is liye banaye hain taake tum aik doosre ko pehchan sako; be-shak Allah ke nazdeek tum mein sab se zyada izzat wala woh hai jo tum mein sab se zyada parhezgar (muttaqi) hai.",
+      en: "O mankind! Indeed, We created you from a single male and female, and made you into nations and tribes so that you may know one another; surely the most noble of you in the sight of Allah is the most righteous of you."
     },
     tashreeh: {
-      ur: "افواہوں اور کچی خبروں پر یقین کر کے فوری ردِعمل دینا خاندانوں اور معاشروں کو تباہ کر دیتا ہے۔ عقلمندی کا تقاضا ہے کہ کسی کے خلاف رائے قائم کرنے سے پہلے سچائی کی پوری تصدیق کی جائے۔",
-      ro: "Afwahon aur kachi khabron par yaqeen kar ke fori radd-e-amal dena khandanon aur muashron ko tabah kar deta hai. Aqalmandi ka taqaza hai ke kisi ke khilaf raaye qayam karne se pehle sachai ki poori tasdeeq ki jaye.",
-      en: "Acting upon unverified rumors ruins relationships and causes grave injustice; verifying facts before passing judgment protects everyone from lasting regret."
+      ur: "پسِ منظر و تشریح: ذات پات، رنگ، زبان اور قبیلے صرف باہمی تعارف اور پہچان کے لیے ہیں، ان کی بنیاد پر فخر کرنا یا کسی کو کم تر سمجھنا جہالت ہے۔ رب کی بارگاہ میں انسان کی قیمت اس کے خاندان یا دولت سے نہیں بلکہ اس کے پاکیزہ کردار اور تقویٰ سے لگتی ہے۔ آج کا عملی سبق یہ ہے کہ ہر انسان کے ساتھ برابری اور احترام کا برتاؤ کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Zaat-paat, rang, zaban aur qabeelay sirf bahami taaruf aur pehchan ke liye hain, un ki bunyad par fakhar karna ya kisi ko kam-tar samajhna jahalat hai. Rab ki bargah mein insan ki qeemat us ke khandan ya daulat se nahi balkay us ke pakeeza kirdar aur taqwa se lagti hai. Aaj ka amli sabaq yeh hai ke har insan ke sath barabari aur ehtiram ka bartao karein.",
+      en: "Context & Practical Lesson: Lineage, wealth, and ethnicity exist only for mutual recognition, never for superiority. Moral character and God-consciousness are the sole measures of human worth."
     },
     tags: [
-      { ur: "تحقیق", ro: "Tehqeeq", en: "Verification" },
-      { ur: "احتیاط", ro: "Ehtiyat", en: "Caution" }
+      { ur: "مساواتِ انسانی", ro: "Masawat-e-Insani", en: "Human Equality" },
+      { ur: "تقویٰ", ro: "Taqwa", en: "Righteousness" }
     ]
   },
   {
