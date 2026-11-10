@@ -2771,92 +2771,92 @@ export const batch6Quotes: QuoteItem[] = [
 export const batch7Quotes: QuoteItem[] = [
   {
     id: "ma-091",
-    slug: "udhar-ka-lain-dain-likhna-aur-haq-baat",
+    slug: "sabr-aur-namaz-se-madad-hasil-karna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 11-12",
+    bookRef: "Surah Al-Baqarah (2:45) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "ادھار کا لین دین لکھنا اور حق کو نہ چھپانا",
-      ro: "Udhar Ka Lain Dain Likhna Aur Haq Ko Na Chhupana",
-      en: "Recording Financial Debts and Upholding the Truth"
+      ur: "مشکلات میں صبر اور نماز کے ذریعے مدد طلب کرنا",
+      ro: "Mushkilat Mein Sabr Aur Namaz Ke Zariye Madad Talab Karna",
+      en: "Seeking Help Through Patience and Prayer"
     },
     quote: {
-      ur: "جب تم ایک میعاد مقرر تک کے لیے ادھار کا لین دین کرو تو اس کو انصاف کے ساتھ لکھ لیا کرو، اور سچ کو جھوٹ کے ساتھ مخلوط نہ کرو اور جان بوجھ کر حق بات کو نہ چھپاؤ۔",
-      ro: "Jab tum aik miyad-e-muqarrar tak ke liye udhar ka lain dain karo to us ko insaf ke sath likh liya karo, aur sach ko jhoot ke sath makhloot na karo aur jaan boojh kar haq baat ko na chhupao.",
-      en: "When you contract a debt for a specified term, write it down with fairness; and do not mix truth with falsehood or knowingly conceal the truth."
+      ur: "اور صبر اور نماز کے ساتھ (اللہ کی) مدد حاصل کرو؛ اور بے شک یہ (نماز) بہت بھاری ہے مگر ان لوگوں پر جو (خدا سے) ڈرنے والے ہیں۔",
+      ro: "Aur sabr aur namaz ke sath (Allah ki) madad hasil karo; aur be-shak yeh (namaz) bohot bhari hai magar un logon par jo (Khuda se) darne wale hain.",
+      en: "And seek help through patience and prayer, and indeed, it is difficult except for the humbly submissive [to Allah]."
     },
     tashreeh: {
-      ur: "کاروباری اور مالی معاملات میں تحریری معاہدہ کر لینا مستقبل کے جھگڑوں اور بدگمانیوں کا دروازہ بند کر دیتا ہے۔ اسی طرح گواہی اور معاملات میں سچ کو جھوٹ سے پاک رکھنا عدل کی بنیاد ہے۔",
-      ro: "Karobari aur maali muamlat mein tehreeri muahida kar lena mustaqbil ke jhagron aur bad-gumaniyon ka darwaza band kar deta hai. Isi tarah gawahi aur muamlat mein sach ko jhoot se paak rakhna adal ki bunyad hai.",
-      en: "Documenting financial transactions prevents future disputes and misunderstandings, while keeping testimony and dealings free from falsehood upholds social justice."
+      ur: "پسِ منظر و تشریح: زندگی میں جب بھی کوئی مصیبت یا بحران آئے تو انسان کو گھبرانے کے بجائے صبر اور نماز کا سہارا لینا چاہیے۔ نماز انسان کو رب سے جوڑتی ہے اور صبر اسے مضبوطی دیتا ہے۔ آج کا عملی سبق یہ ہے کہ پریشانی کے عالم میں دو نفل ادا کر کے اپنے دل کا بوجھ ہلکا کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Zindagi mein jab bhi koi museebat ya buhran aaye to insan ko ghabrane ke bajaye sabr aur namaz ka sahara lena chahiye. Namaz insan ko Rab se jorti hai aur sabr usay mazbooti deta hai. Aaj ka amli sabaq yeh hai ke pareshani ke aalam mein do nafal ada kar ke apne dil ka bojh halka karein.",
+      en: "Context & Practical Lesson: Whenever trials strike, turning to patience and prayer reconnects the heart with divine strength and relief."
     },
     tags: [
-      { ur: "معاملات", ro: "Muamlat", en: "Financial Ethics" },
-      { ur: "سچائی", ro: "Sachai", en: "Truthfulness" }
+      { ur: "صبر و نماز", ro: "Sabr o Namaz", en: "Patience & Prayer" },
+      { ur: "توکل", ro: "Tawakkul", en: "Reliance" }
     ]
   },
   {
     id: "ma-092",
-    slug: "gusse-ke-waqt-intiqam-se-pehle-insaf",
+    slug: "haq-ko-batil-ke-sath-mix-mat-karo",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 12",
+    bookRef: "Surah Al-Baqarah (2:42) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "غصے کے وقت بدلہ لینے سے پہلے کا سنہرا اصول",
-      ro: "Gusse Ke Waqt Badla Lene Se Pehle Ka Sunehra Usool",
-      en: "The Golden Rule Before Seeking Retaliation in Anger"
+      ur: "حق اور باطل کو خلط ملط نہ کرنا اور سچائی کو نہ چھپانا",
+      ro: "Haq Aur Batil Ko Khalt-Malt Na Karna Aur Sachai Ko Na Chhupana",
+      en: "Not Mixing Truth with Falsehood or Concealing the Truth"
     },
     quote: {
-      ur: "غصہ کے وقت اپنے قصور وار سے بدلہ لینے سے اول یہ ضرور خیال کر لیا کر کہ تو اپنے رب کا اس کی نسبت زیادہ قصور وار ہے یا کم؛ پھر جو معاملہ اپنے رب کی طرف سے اپنے لیے پسند آئے وہی فیصلہ اس کے لیے تجویز کر۔",
-      ro: "Gusse ke waqt apne qusoor-war se badla lene se awwal yeh zaroor khayal kar liya kar ke tu apne Rab ka us ki nisbat zyada qusoor-war hai ya kam; phir jo muamla apne Rab ki taraf se apne liye pasand aaye wahi faisla us ke liye tajweez kar.",
-      en: "Before punishing someone who wronged you in anger, reflect on how much more you have erred before your Lord; then choose for them the same treatment—forgiveness or justice—that you wish from God for yourself."
+      ur: "اور حق کو باطل کے ساتھ خلط ملط نہ کرو، اور نہ ہی جانتے بوجھتے سچائی کو چھپاؤ۔",
+      ro: "Aur haq ko batil ke sath khalt-malt na karo, aur na hi jaante boojhte sachai ko chhupao.",
+      en: "And do not mix the truth with falsehood or conceal the truth while you know [it]."
     },
     tashreeh: {
-      ur: "جب انسان کسی کی غلطی پر غضب ناک ہو تو اسے اپنی خطائیں یاد کرنی چاہئیں جن پر اللہ تعالیٰ پردہ ڈالتا ہے۔ جو شخص اپنے لیے رب کی معافی چاہتا ہے اسے مخلوق کو بھی معاف کرنا چاہیے۔",
-      ro: "Jab insan kisi ki ghalti par ghazab-naak ho to usay apni khatayein yaad karni chahiyein jin par Allah Ta'ala parda dalta hai. Jo shakhs apne liye Rab ki maafi chahta hai usay makhlooq ko bhi maaf karna chahiye.",
-      en: "Remembering one's own shortcomings before the Creator softens the heart toward others. One who hopes for divine pardon should readily pardon fellow human beings."
+      ur: "پسِ منظر و تشریح: سچ اور جھوٹ کو ملا کر پیش کرنا یا مفاد کی خاطر حق بات کو دبا دینا معاشرتی بگاڑ کی بڑی وجہ ہے۔ مومن کا شیوہ یہ ہے کہ وہ دوٹوک انداز میں سچ کا ساتھ دے اور فریب سے بچے جو کہ باطل کی علامات ہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Sach aur jhoot ko mila kar pesh karna ya mufad ki khatir haq baat ko daba dena maasharati bigaar ki badi wajah hai. Momin ka shewa yeh hai ke woh do-took andaz mein sach ka sath de aur fareeb se bache jo ke batil ki alamaat hain.",
+      en: "Context & Practical Lesson: Integrity requires presenting the truth clearly without adulterating it with deceit or convenient silence."
     },
     tags: [
-      { ur: "عفو و درگزر", ro: "Afw-o-Darguzar", en: "Forgiveness" },
-      { ur: "انصاف", ro: "Insaf", en: "Fairness" }
+      { ur: "سچائی", ro: "Sachai", en: "Truthfulness" },
+      { ur: "شفافیت", ro: "Shafafiyat", en: "Transparency" }
     ]
   },
   {
     id: "ma-093",
-    slug: "insani-barabari-aur-sharafat-ka-miyar-taqwa",
+    slug: "kisiko-zabardasti-deen-mein-dakhil-mat-karo",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 13",
+    bookRef: "Surah Al-Baqarah (2:256) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "ذات برادری کی حقیقت اور شرافت کا اصل معیار",
-      ro: "Zaat Biradari Ki Haqeeqat Aur Sharafat Ka Asal Miyar",
-      en: "The Purpose of Tribes and the True Measure of Nobility"
+      ur: "دین کے معاملے میں کوئی زبردستی یا جبر نہیں ہے",
+      ro: "Deen Ke Mamlay Mein Koi Zabardasti Ya Jabr Nahi Hai",
+      en: "No Compulsion in Religion"
     },
     quote: {
-      ur: "لوگو! ہم نے تم سب کو ایک مرد (آدم) اور ایک عورت (حوا) سے پیدا کیا ہے اور پھر تمہاری ذاتیں اور برادریاں ٹھہرائیں تاکہ ایک دوسرے کو شناخت کر سکو، ورنہ اللہ کے نزدیک تم میں شریف وہی ہے جو زیادہ پرہیزگار ہے۔",
-      ro: "Logo! Hum ne tum sab ko aik mard (Aadam) aur aik aurat (Hawwa) se paida kiya hai aur phir tumhari zaatein aur biradariyan thehrayein taake aik doosre ko shanakht kar sako, warna Allah ke nazdeek tum mein shareef wahi hai jo zyada parhezgar hai.",
-      en: "O mankind! We created you from a single male and female and made you into peoples and tribes so that you may know one another; indeed, the most noble of you in the sight of Allah is the most righteous."
+      ur: "دین میں کوئی زبردستی نہیں ہے؛ ہدایت گمراہی سے بالکل واضح ہو چکی ہے، لہٰذا جو شخص طاغوت کا انکار کرے اور اللہ پر ایمان لے آئے تو اس نے ایسا مضبوط دستہ تھام لیا جو کبھی ٹوٹنے والا نہیں۔",
+      ro: "Deen mein koi zabardasti nahi hai; hidayat gumrahi se bilkul wazeh ho chuki hai, lehaza jo shakhs taghoot ka inkar kare aur Allah par eman le aaye to us ne aisa mazboot dasta tham liya jo kabhi tootne wala nahi.",
+      en: "There is no compulsion in religion. Right is clear from wrong. So whoever disbelieves in false deities and believes in Allah has grasped the most trustworthy handhold with no break in it."
     },
     tashreeh: {
-      ur: "خاندان، قبیلے اور ذات پات صرف باہمی تعارف اور پہچان کے لیے ہیں، فخر و غرور کے لیے نہیں۔ اللہ کی بارگاہ میں عزت اور شرافت کا معیار صرف تقویٰ اور پاکیزہ کردار ہے۔",
-      ro: "Khandan, qabeelay aur zaat-paat sirf bahami taaruf aur pehchan ke liye hain, fakhr-o-ghuroor ke liye nahi. Allah ki bargah mein izzat aur sharafat ka miyar sirf taqwa aur pakeeza kirdar hai.",
-      en: "Lineage and tribes exist solely for mutual recognition, never for arrogance. True nobility before the Creator is determined exclusively by piety and moral conduct."
+      ur: "پسِ منظر و تشریح: اسلام اخلاقی اقدار اور دعوت کا دین ہے جو دلیل اور اچھے اخلاق کے ذریعے دلوں میں اترتا ہے، نہ کہ زبردستی سے۔ آج کا عملی سبق یہ ہے کہ دوسروں کو اپنی بات منوانے کے لیے مجبور کرنے کے بجائے اچھے کردار سے ان کی رہنمائی کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Islam akhlaqi aqdar aur dawat ka deen hai jo daleel aur achay akhlaq ke zariye dilon mein utarta hai, na ke zabardasti se. Aaj ka amli sabaq yeh hai ke doosron ko apni baat manwane ke liye majboor karne ke bajaye achay kirdar se un ki rehnumai karein.",
+      en: "Context & Practical Lesson: Faith is a matter of conviction and heart, not coercion; true guidance is communicated through beautiful character and wisdom."
     },
     tags: [
-      { ur: "مساوات", ro: "Masawat", en: "Equality" },
-      { ur: "تقویٰ", ro: "Taqwa", en: "Piety" }
+      { ur: "رواداری", ro: "Rawadari", en: "Tolerance" },
+      { ur: "آزادیٔ ضمیر", ro: "Aazadi-e-Zameer", en: "Freedom of Conscience" }
     ]
   },
   {
@@ -3224,92 +3224,92 @@ export const batch7Quotes: QuoteItem[] = [
 export const batch8Quotes: QuoteItem[] = [
   {
     id: "ma-106",
-    slug: "allah-ki-maslehat-aur-dil-ki-baseerat",
+    slug: "wada-wafa-karna-aur-ahed-ka-pas-rakhna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 7",
+    bookRef: "Surah Al-Baqarah (2:177) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "تقدیر کی مصلحت اور دل کی حقیقی بصیرت",
-      ro: "Taqdeer Ki Maslehat Aur Dil Ki Haqeeqi Baseerat",
-      en: "Divine Wisdom and the True Insight of the Heart"
+      ur: "نیکی کی حقیقت اور اپنے وعدوں و عہود کو پورا کرنا",
+      ro: "Neki Ki Haqeeqat Aur Apne Wadon o Ahood Ko Poora Karna",
+      en: "The Reality of Righteousness and Fulfilling Pledges"
     },
     quote: {
-      ur: "شاید کہ تم برا مانو کسی شے کو حالانکہ وہ تمہارے لیے اچھی ہو، اور شاید کہ تم محبت کرو کسی چیز سے حالانکہ وہ تمہارے لیے مضر ہو؛ اور اللہ تعالیٰ جانتا ہے اور تم نہیں جانتے۔ تحقیق وہ آنکھیں اندھی نہیں، بلکہ وہ دل جو سینے میں ہیں اندھے ہیں۔",
-      ro: "Shayad ke tum bura mano kisi shay ko halankeh woh tumhare liye achi ho, aur shayad ke tum mohabbat karo kisi cheez se halankeh woh tumhare liye muzir ho; aur Allah Ta'ala janta hai aur tum nahi jante. Tehqeeq woh ankhein andhi nahi, balkay woh dil jo seenay mein hain andhe hain.",
-      en: "Perhaps you dislike something which is actually good for you, and perhaps you love something which is harmful for you; Allah knows, while you do not know. Indeed, it is not the eyes that grow blind, but the hearts within the chests."
+      ur: "اور جب وہ کوئی وعدہ کریں تو اسے پورا کرنے والے ہوں، اور تنگی، مصیبت اور جنگ کے وقت میں صبر کرنے والے ہوں؛ یہی لوگ ہیں جو سچے ہیں اور یہی متقی ہیں۔",
+      ro: "Aur jab woh koi wada karein to usay poora karne wale hon, aur tangi, museebat aur jang ke waqt mein sabr karne wale hon; yehi log hain jo sache hain aur yehi muttaqi hain.",
+      en: "And those who fulfill their promise when they promise and those who are patient in poverty and hardship and during battle. Those are the ones who have been true, and it is those who are the righteous."
     },
     tashreeh: {
-      ur: "انسان کی نظر صرف ظاہر کو دیکھتی ہے جبکہ رب کائنات انجام اور مستقبل کے بھیدوں سے واقف ہے۔ جب کوئی خواہش پوری نہ ہو تو مایوس ہونے کے بجائے اللہ کی حکمت پر بھروسہ رکھنا ہی دل کی بینائی ہے۔",
-      ro: "Insan ki nazar sirf zahir ko dekhti hai jabkeh Rab-e-Kainat anjam aur mustaqbil ke bhedon se waqif hai. Jab koi khuwaish poori na ho to mayous hone ke bajaye Allah ki hikmat par bharosa rakhna hi dil ki beenai hai.",
-      en: "Human perception is limited to the surface, whereas the Creator knows the ultimate outcome of every affair. Trusting divine wisdom when plans change is the true vision of an awakened heart."
+      ur: "پسِ منظر و تشریح: صرف ظاہری عبادات ہی نیکی نہیں ہے، بلکہ اپنے ہر وعدے اور معاہدے کو سختی سے نبھانا اور مشکل حالات میں استقامت دکھانا ہی سچے ایمان اور تقویٰ کی اصل علامت ہے۔ آج کا عملی سبق یہ ہے کہ دی گئی زبان کے پکے رہیں چاہے حالات کتنے ہی سخت کیوں نہ ہوں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Sirf zahiri ibadatein hi neki nahi hai, balkay apne har waday aur muahiday ko sakhti se nibhana aur mushkil halaat mein istaqamat dikhana hi sache eman aur taqwa ki asal alamat hai. Aaj ka amli sabaq yeh hai ke di gayi zaban ke pakke rahein chahe halaat kitne hi sakht kyon na hon.",
+      en: "Context & Practical Lesson: True righteousness goes beyond rituals; honoring promises and staying steadfast through hardships define a person of integrity."
     },
     tags: [
-      { ur: "بصیرت", ro: "Baseerat", en: "Insight" },
-      { ur: "حکمتِ الٰہی", ro: "Hikmat-e-Ilahi", en: "Divine Wisdom" }
+      { ur: "وفائے عہد", ro: "Wafa-e-Ahad", en: "Fulfilling Pledges" },
+      { ur: "سچائی", ro: "Sachai", en: "Truthfulness" }
     ]
   },
   {
     id: "ma-107",
-    slug: "taqat-ke-mutabiq-bojh-aur-apne-bhale-ki-mehnat",
+    slug: "roza-farz-kiya-gaya-taake-taqwa-mile",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 9",
+    bookRef: "Surah Al-Baqarah (2:183) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "طاقت کے مطابق آزمائش اور اپنی بھلائی کی محنت",
-      ro: "Taqat Ke Mutabiq Aazmaish Aur Apni Bhalai Ki Mehnat",
-      en: "No Burden Beyond Capacity and Striving for One's Own Good"
+      ur: "روزے کی فرضیت کا مقصد اور خدا ترسی کا حصول",
+      ro: "Rozay Ki Farziyat Ka Maqsad Aur Khuda-Tarsi Ka Husool",
+      en: "The Purpose of Fasting: Achieving God-Consciousness"
     },
     quote: {
-      ur: "ہم کسی شخص کی طاقت سے زیادہ اس پر بوجھ نہیں ڈالتے؛ اگر تم اللہ تعالیٰ پر ایمان رکھتے ہو تو شرطِ فرمانبرداری یہ ہے کہ اس پر بھروسہ رکھو۔ جو شخص اللہ کے لیے محنت اٹھاتا ہے اپنے ہی بھلے کے لیے اٹھاتا ہے۔",
-      ro: "Hum kisi shakhs ki taqat se zyada us par bojh nahi dalte; agar tum Allah Ta'ala par eman rakhte ho to shart-e-farmanbardari yeh hai ke us par bharosa rakho. Jo shakhs Allah ke liye mehnat uthata hai apne hi bhalay ke liye uthata hai.",
-      en: "We never place a burden on any soul beyond its capacity; if you truly believe in Allah, then place your trust in Him. Whoever strives in the path of righteousness strives only for the benefit of their own soul."
+      ur: "اے ایمان والو! تم پر روزے فرض کیے گئے جیسے تم سے پہلے لوگوں پر فرض کیے گئے تھے تاکہ تم تقویٰ اختیار کرو۔",
+      ro: "Aye eman walo! Tum par rozay farz kiye gaye jaise tum se pehle logon par farz kiye gaye thay taake tum taqwa ikhtiyar karo.",
+      en: "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous."
     },
     tashreeh: {
-      ur: "یہ الٰہی وعدہ انسان کو ہر مشکل میں حوصلہ دیتا ہے کہ کوئی بھی پریشانی اس کی برداشت سے باہر نہیں ہوتی۔ نیکی اور محنت کا فائدہ لوٹ کر خود انسان ہی کی ذات کو ملتا ہے۔",
-      ro: "Yeh ilahi wada insan ko har mushkil mein hausla deta hai ke koi bhi pareshani us ki bardasht se bahar nahi hoti. Neki aur mehnat ka faida laut kar khud insan hi ki zaat ko milta hai.",
-      en: "This divine assurance gives strength during every trial: no hardship exceeds our ability to endure it, and every righteous effort ultimately enriches our own soul."
+      ur: "پسِ منظر و تشریح: روزے کا مقصد صرف بھوکا پیاسا رہنا نہیں ہے، بلکہ اس کا بنیادی ہدف انسان کے اندر خدا ترسی (تقویٰ) پیدا کرنا ہے تاکہ وہ پوشیدہ اور ظاہر ہر حال میں گناہوں سے بچ سکے۔ آج کا عملی سبق یہ ہے کہ عبادات کی روح کو سمجھیں اور ان کے ذریعے اپنے اخلاق کو سنواریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Rozay ka maqsad sirf bhooka pyasa rehna nahi hai, balkay is ka bunyadi hadaf insan ke andar khuda-tarsi (taqwa) paida karna hai taake woh posheeda aur zahir har haal mein gunahon se bach sake. Aaj ka amli sabaq yeh hai ke ibadaton ki rooh ko samjhein aur un ke zariye apne akhlaq ko sanwarein.",
+      en: "Context & Practical Lesson: Fasting is designed to cultivate inner restraint and God-consciousness, inspiring moral discipline in both public and private life."
     },
     tags: [
-      { ur: "توکل", ro: "Tawakkul", en: "Trust in God" },
-      { ur: "حوصلہ", ro: "Hausla", en: "Resilience" }
+      { ur: "فلسفۂ روزہ", ro: "Falsafa-e-Roza", en: "Philosophy of Fasting" },
+      { ur: "تقویٰ", ro: "Taqwa", en: "Righteousness" }
     ]
   },
   {
     id: "ma-108",
-    slug: "maal-o-mata-ki-misal-barish-ki-manind",
+    slug: "qarz-ka-len-den-aur-likh-lena",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 10",
+    bookRef: "Surah Al-Baqarah (2:282) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن و حکمت)",
-      ro: "Ahkam-e-Khuda (Al-Quran o Hikmat)",
-      en: "Divine Injunctions & Wisdom"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "مال و دولت کی مثال بارش کے پانی جیسی ہے",
-      ro: "Maal-o-Daulat Ki Misal Barish Ke Pani Jaisi Hai",
-      en: "Wealth is Like Rainwater: Beneficial in Moderation"
+      ur: "معاشی معاملات میں شفافیت: قرض کا لین دین لکھ لینا",
+      ro: "Maashi Muamlat Mein Shafafiyat: Qarz Ka Lain-Dain Likh Lena",
+      en: "Financial Transparency: Documenting Debts and Transactions"
     },
     quote: {
-      ur: "انسان کا مال و متاع مثل آبِ باراں کے ہے؛ یعنی بارش ضرورت کے موافق برسے تو نافع ہے اور اگر زیادہ برسے تو باعثِ بربادی۔ اسی طرح مال بقدرِ ضرورت فائدہ مند ہے اور زائد از ضرورت باعثِ گرفتاریِ معصیت ہے۔",
-      ro: "Insan ka maal-o-mata misl aab-e-baran ke hai; yani barish zaroorat ke muwafiq barsay to nafe hai aur agar zyada barsay to baas-e-barbadi. Isi tarah maal ba-qadr-e-zaroorat faida-mand hai aur zaid az zaroorat baas-e-giriftari-e-ma'siyat hai.",
-      en: "Worldly wealth is like rainwater: when it falls according to need, it nourishes life, but when it floods excessively, it brings ruin. Likewise, wealth in moderation is a blessing, whereas unrestrained excess leads to spiritual destruction."
+      ur: "اے ایمان والو! جب تم ایک مقررہ مدت تک آپس میں قرض کا لین دین کرو تو اسے لکھ لیا کرو؛ اور لکھنے والے کو چاہیے کہ وہ انصاف کے ساتھ لکھے۔",
+      ro: "Aye eman walo! Jab tum aik muqarrara muddat tak aapas mein qarz ka lain-dain karo to usay likh liya karo; aur likhne wale ko chahiye ke woh insaf ke sath likhe.",
+      en: "O you who have believed, when you contract a debt for a specified term, write it down. And let a scribe write [it] between you in justice."
     },
     tashreeh: {
-      ur: "دولت بذاتِ خود بری نہیں بشرطیکہ وہ انسان کی ضرورت پوری کرے اور خیر کے کاموں میں خرچ ہو، لیکن جب مال جمع کرنے کی ہوس حد سے بڑھ جائے تو وہ طغیانی بن کر اخلاق و ایمان کو بہا لے جاتی ہے۔",
-      ro: "Daulat bazat-e-khud buri nahi bashart-e-ke woh insan ki zaroorat poori kare aur khair ke kaamon mein kharch ho, lekin jab maal jama karne ki hawas had se barh jaye to woh tughyani ban kar akhlaq o eman ko baha le jati hai.",
-      en: "Wealth serves well when kept within ethical bounds and shared generously, but when hoarding turns into an obsession, it floods the heart with heedlessness."
+      ur: "پسِ منظر و تشریح: قرآن کریم نے مالی معاملات کو انتہائی شفاف رکھنے کی ہدایت دی ہے تاکہ بعد میں کسی غلط فہمی یا جھگڑے کی گنجائش نہ رہے۔ آج کا عملی سبق یہ ہے کہ کاروبار اور ادھار کے معاملات میں لکھ پڑھ اور حساب کتاب کا پکا نظام رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran-e-Kareem ne maashi muamlat ko intehai shafaf rakhne ki hidayat di hai taake baad mein kisi ghalat-fahmi ya jhagray ki gunjaish na rahe. Aaj ka amli sabaq yeh hai ke karobar aur udhar ke muamlat mein likh-parh aur hisab-kitab ka pakka nizam rakhein.",
+      en: "Context & Practical Lesson: Maintaining transparent written records for financial debts prevents disputes and preserves mutual trust in business."
     },
     tags: [
-      { ur: "اعتدال", ro: "Aitdaal", en: "Moderation" },
-      { ur: "مال و دولت", ro: "Maal-o-Daulat", en: "Wealth" }
+      { ur: "شفافیت", ro: "Shafafiyat", en: "Transparency" },
+      { ur: "مالی آداب", ro: "Maali Aadab", en: "Financial Ethics" }
     ]
   },
   {
