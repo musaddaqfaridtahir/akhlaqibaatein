@@ -1865,92 +1865,92 @@ export const batch4Quotes: QuoteItem[] = [
 export const batch5Quotes: QuoteItem[] = [
   {
     id: "ma-061",
-    slug: "harkat-aur-barkat-ka-usool",
-    categorySlug: "ambiya-o-hukama",
-    bookRef: "Makhzan-e-Akhlaq - Page 119",
+    slug: "allah-ki-raah-mein-kharch-karna-aur-ihsan",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Baqarah (2:195) & Makhzan-e-Akhlaq",
     author: {
-      ur: "دنیائے مزدور",
-      ro: "Duniya-e-Mazdoor",
-      en: "The World of Labor"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "محنت میں عظمت اور روزی کی برکت",
-      ro: "Mehnat Mein Azmat Aur Rozi Ki Barkat",
-      en: "Greatness in Labor and Blessings in Sustenance"
+      ur: "اللہ کی راہ میں مال خرچ کرنا اور احسان کا اسوہ",
+      ro: "Allah Ki Raah Mein Maal Kharch Karna Aur Ihsan Ka Uswah",
+      en: "Spending in the Way of Allah and Practicing Excellence"
     },
     quote: {
-      ur: "جو شخص اپنے ہاتھ کی محنت سے روٹی کماتا ہے، وہ خدا کا دوست ہے۔ ہاتھ کی کمائی رزق میں وسعت پیدا کرتی ہے۔",
-      ro: "Jo shakhs apne hath ki mehnat se roti kamata hai, woh Khuda ka dost hai. Hath ki kamai rizq mein wus'at paida karti hai.",
-      en: "The person who earns their bread through the labor of their hands is a friend of God. Earnings from one's own labor expand sustenance."
+      ur: "اور اللہ کی راہ میں خرچ کرو، اور اپنے آپ کو ہلاکت میں نہ ڈالو، اور احسان کرو؛ بے شک اللہ احسان کرنے والوں کو پسند کرتا ہے۔",
+      ro: "Aur Allah ki raah mein kharch karo, aur apne aap ko halakat mein na dalo, aur ihsan karo; be-shak Allah ihsan karne walon ko pasand karta hai.",
+      en: "And spend in the way of Allah and do not throw yourselves with your own hands into destruction. And do good; indeed, Allah loves the doers of good."
     },
     tashreeh: {
-      ur: "کاہلی چھوڑ کر محنت اور حلال مزدوری کرنا انسان کو خودمختار بناتا ہے اور معاشرے میں اسے عزت و وقار عطا کرتا ہے۔",
-      ro: "Kahili chhor kar mehnat aur halal mazdoori karna insan ko khud-mukhtar banata hai aur muashray mein usay izzat o waqar ata karta hai.",
-      en: "Abandoning laziness to pursue honest labor grants independence and earns dignity and respect in society."
+      ur: "پسِ منظر و تشریح: مال کو صرف اپنے ذات تک محدود رکھنا یا راہِ خدا میں خرچ کرنے سے ہاتھ کھینچ لینا درحقیقت خود کو مالی اور اخلاقی تباہی میں دھکیلنا ہے۔ نیکی اور احسان کا جذبہ معاشرے میں توازن پیدا کرتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنی استطاعت کے مطابق فلاحی کاموں اور امداد میں بڑھ چڑھ کر حصہ لیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Maal ko sirf apni zaat tak mehdood rakhna ya raah-e-khuda mein kharch karne se hath khinch lena dar-haqeeqat khud ko maali aur akhlaqi tabahi mein dhakelna hai. Neki aur ihsan ka jazba muashray mein tawazun paida karta hai. Aaj ka amli sabaq yeh hai ke apni istitaat ke mutabiq falahi kaamon aur madad mein barh charh kar hissa lein.",
+      en: "Context & Practical Lesson: Withholding charity and hoarding wealth leads to societal and spiritual ruin; true security comes from generous giving and excellence in character."
     },
     tags: [
-      { ur: "محنت", ro: "Mehnat", en: "Labor" },
-      { ur: "عظمت", ro: "Azmat", en: "Dignity" }
+      { ur: "انفاق فی سبیل اللہ", ro: "Infaq Fi Sabilillah", en: "Charity" },
+      { ur: "احسان", ro: "Ihsan", en: "Excellence" }
     ]
   },
   {
     id: "ma-062",
-    slug: "apne-nafs-ka-muhasba",
-    categorySlug: "aqwal-e-sahaba",
-    bookRef: "Makhzan-e-Akhlaq - Page 73",
+    slug: "hajj-ke-safar-mein-behtareen-tosha-taqwa-hai",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Baqarah (2:197) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حضرت عمر فاروق رضی اللہ عنہ",
-      ro: "Hazrat Umar Farooq (R.A)",
-      en: "Hazrat Umar Farooq (R.A)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "اپنے احتساب کا حکم",
-      ro: "Apne Ehtisab Ka Hukm",
-      en: "The Command of Self-Accountability"
+      ur: "سفرِ آخرت اور دنیا کا سب سے بہترین توشہ پرہیزگاری ہے",
+      ro: "Safar-e-Akhirat Aur Duniya Ka Sab Se Behtareen Tosha Parhezgari Hai",
+      en: "The Best Provision for Every Journey is Taqwa"
     },
     quote: {
-      ur: "اپنا حساب خود لینے سے پہلے کہ تمہارا حساب لیا جائے، اپنے اعمال کا محاسبہ کرو اور اپنی تول خود کرو قبل اس کے کہ تمہاری تول کی جائے۔",
-      ro: "Apna hisab khud lene se pehle ke tumhara hisab liya jaye, apne aamaal ka muhasba karo aur apni tol khud karo qabl is ke ke tumhari tol ki jaye.",
-      en: "Call yourselves to account before you are called to account, and weigh your deeds before they are weighed for you."
+      ur: "اور زادِ راہ (سفر کا توشہ) ساتھ لے لیا کرو، کیونکہ سب سے بہترین توشہ تقویٰ اور پرہیزگاری ہے؛ اور اے عقل والو! مجھ سے ڈرتے رہو۔",
+      ro: "Aur zad-e-raah (safar ka tosha) sath le liya karo, kyunkeh sab se behtareen tosha taqwa aur parhezgari hai; aur aye aqal walo! Mujh se darte raho.",
+      en: "And take provisions, but indeed, the best provision is fear of Allah [Taqwa]. And fear Me, O you of understanding."
     },
     tashreeh: {
-      ur: "دنیا میں رہتے ہوئے انسان کو روزانہ اپنے اچھے اور برے اعمال کا جائزہ لینا چاہیے تاکہ آخرت کی پیشی آسان ہو سکے۔",
-      ro: "Duniya mein rehte huye insan ko rozana apne achay aur buray aamaal ka jaiza lena chahiye taake akhirat ki peshi asan ho sake.",
-      en: "While living in this world, a person should daily evaluate their good and bad deeds to make the final reckoning in the hereafter easy."
+      ur: "پسِ منظر و تشریح: ظاہری سفر کے لیے وسائل کا انتظام کرنا جتنا ضروری ہے، اس سے کہیں زیادہ لازمی آخرت کے طویل سفر کے لیے نیکی اور تقویٰ کا توشہ اکٹھا کرنا ہے۔ آج کا عملی سبق یہ ہے کہ دنیاوی وسائل کے ساتھ اپنے اخلاق اور اعمال کو بہتر بنانے کی مستقل فکر رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Zahiri safar ke liye wasail ka intezam karna jitna zaroori hai, us se kahin zyada lazmi akhirat ke taweel safar ke liye neki aur taqwa ka tosha ikattha karna hai. Aaj ka amli sabaq yeh hai ke dunyawi wasail ke sath apne akhlaq aur aamaal ko behtar banane ki mustaqil fikr rakhein.",
+      en: "Context & Practical Lesson: While material provisions are needed for worldly travel, spiritual preparedness and moral piety remain the ultimate provisions for eternity."
     },
     tags: [
-      { ur: "محاسبہ", ro: "Muhasba", en: "Self-Accountability" },
-      { ur: "آخرت", ro: "Akhirat", en: "Hereafter" }
+      { ur: "تقویٰ", ro: "Taqwa", en: "Piety" },
+      { ur: "توشۂ آخرت", ro: "Tosha-e-Akhirat", en: "Provision for Hereafter" }
     ]
   },
   {
     id: "ma-063",
-    slug: "burai-ka-badla-bhalai",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 16",
+    slug: "jo-kuch-zarat-se-bach-jaye-woh-allah-ki-rah-mein-do",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Baqarah (2:219) & Makhzan-e-Akhlaq",
     author: {
-      ur: "ارشادِ نبوی ﷺ",
-      ro: "Irshad-e-Nabawi ﷺ",
-      en: "Prophetic Tradition ﷺ"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "برائی کا جواب نیکی سے دینا",
-      ro: "Burai Ka Jawab Neki Se Dena",
-      en: "Responding to Evil with Goodness"
+      ur: "ضرورت سے زائد مال (العفو) راہِ خدا میں خرچ کرنے کا حکم",
+      ro: "Zaroorat Se Zaid Maal (Al-Afw) Raah-e-Khuda Mein Kharch Karne Ka Hukm",
+      en: "Spending Surplus Wealth in the Way of Allah"
     },
     quote: {
-      ur: "ہر نیک و بد کے ساتھ نیکی کر۔ اگر وہ نیکی کرنے کے قابل نہیں تو تو اس لائق ہے۔",
-      ro: "Har nek o bad ke sath neki kar. Agar woh neki karne ke qabil nahi to tu us layeq hai.",
-      en: "Treat everyone—righteous or wicked—with goodness. If they are not worthy of goodness, you certainly are worthy of upholding it."
+      ur: "اور وہ آپ سے پوچھتے ہیں کہ کیا خرچ کریں؟ آپ کہہ دیجیے کہ جو کچھ ضرورت سے زائد ہو (وہ راہِ خدا میں دو)۔",
+      ro: "Aur woh aap se poochte hain ke kya kharch karein? Aap keh dijiye ke jo kuch zaroorat se zaid ho (woh raah-e-khuda mein do).",
+      en: "And they ask you what they should spend. Say, 'The excess [beyond needs].'"
     },
     tashreeh: {
-      ur: "اعلیٰ اخلاق یہ نہیں کہ صرف اچھے لوگوں سے اچھا سلوک کیا جائے، بلکہ اصل کمال یہ ہے کہ برے رویے کے باوجود اپنا اعلیٰ ظرف نہ چھوڑا جائے۔",
-      ro: "Aala akhlaq yeh nahi ke sirf achay logon se acha sulook kiya jaye, balkay asal kamal yehi hai ke buray rawaiye ke bawajood apna aala zarf na chhora jaye.",
-      en: "True nobility is not merely treating good people well, but maintaining your high character even when facing poor behavior."
+      ur: "پسِ منظر و تشریح: اسلام اپنے ماننے والوں کو کنجوسی سے بچنے اور ضرورت سے بچ جانے والا مال غریبوں، یتیموں اور محتاجوں میں بانٹنے کی ترغیب دیتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنی ضرورت پوری کرنے کے بعد فاضل رقم کو فلاحی کاموں اور ضرورت مندوں کی مدد میں صرف کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Islam apne manne walon ko kanjoosi se bachne aur zaroorat se bach jane wala maal ghareebon, yateemon aur mohtajon mein bantne ki targheeb deta hai. Aaj ka amli sabaq yeh hai ke apni zaroorat poori karne ke baad fazil raqam ko falahi kaamon aur zaroorat-mandon ki madad mein sarf karein.",
+      en: "Context & Practical Lesson: True generosity means sharing whatever surplus wealth remains after fulfilling one's honest, modest needs with those who are less fortunate."
     },
     tags: [
-      { ur: "حسنِ سلوک", ro: "Husn-e-Sulook", en: "Good Conduct" },
-      { ur: "اخلاق", ro: "Akhlaq", en: "Character" }
+      { ur: "سخاوت", ro: "Sakhawat", en: "Generosity" },
+      { ur: "انفاق", ro: "Infaq", en: "Charitable Spending" }
     ]
   },
   {
@@ -2318,92 +2318,92 @@ export const batch5Quotes: QuoteItem[] = [
 export const batch6Quotes: QuoteItem[] = [
   {
     id: "ma-076",
-    slug: "tajurba-aur-aqalmand-insan",
-    categorySlug: "ambiya-o-hukama",
-    bookRef: "Makhzan-e-Akhlaq - Page 236",
+    slug: "us-din-se-daroo-jis-din-koi-kharid-o-frocht-nahi-hogi",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Baqarah (2:254) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حکیم افلاطون",
-      ro: "Hakeem Aflatoon",
-      en: "Plato"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "تجربہ عقل مند کا سب سے بڑا استاد ہے",
-      ro: "Tajurba Aqal-mand Ka Sab Se Bada Ustad Hai",
-      en: "Experience is the Greatest Teacher of the Wise"
+      ur: "قیامت کے دن سے پہلے راہِ خدا میں مال خرچ کرنے کی ترغیب",
+      ro: "Qayamat Ke Din Se Pehle Raah-e-Khuda Mein Maal Kharch Karne Ki Targheeb",
+      en: "Spending in Charity Before the Day of Reckoning Arrives"
     },
     quote: {
-      ur: "عقل مند انسان اپنے تجربات سے سیکھتا ہے، اور نادان انسان صرف اپنی غلطیوں سے ٹھوکر کھا کر سمجھتا ہے۔",
-      ro: "Aqal-mand insan apne tajurbat se seekhta hai, aur nadan insan sirf apni ghaltiyon se thokar kha kar samajhta hai.",
-      en: "A wise person learns from experiences, while a foolish person understands only after stumbling through their own mistakes."
+      ur: "اے ایمان والو! اس دن کے آنے سے پہلے پہلے اس رزق میں سے خرچ کر لو جو ہم نے تمہیں دیا ہے جس میں نہ کوئی خرید و فروخت ہوگی، اور نہ کوئی دوستی کام آئے گی اور نہ سفارش۔",
+      ro: "Aye eman walo! Us din ke aane se pehle pehle us rizq mein se kharch kar lo jo hum ne tumhein diya hai jis mein na koi khareed-o-frocht hogi, aur na koi dosti kaam aayegi aur na sifarish.",
+      en: "O you who have believed, spend from that which We have provided for you before there comes a Day in which there is no exchange and no friendship and no intercession."
     },
     tashreeh: {
-      ur: "حالات اور ماضی کے واقعات سے سبق حاصل کرنا انسان کو دوبارہ نقصان اٹھانے سے بچاتا ہے۔",
-      ro: "Halaat aur maazi ke waqiyat se sabq hasil karna insan ko dobara nuqsan uthane se bachata hai.",
-      en: "Drawing lessons from past events and circumstances prevents a person from repeating the same errors."
+      ur: "پسِ منظر و تشریح: انسان دنیا کی دولت کو جمع کرنے میں لگا رہتا ہے، لیکن موت کے بعد یہ مال کسی کام نہیں آتا جب تک کہ اسے نیک کاموں میں نہ لگایا گیا ہو۔ آج کا عملی سبق یہ ہے کہ زندگی کے اس قیمتی موقع کو غنیمت جانیں اور آخرت کے لیے صدقاتِ جاریہ کا بندوبست کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insan duniya ki daulat ko jama karne mein laga rehta hai, lekin maut ke baad yeh maal kisi kaam nahi aata jab tak ke usay nek kaamon mein na lagaya gaya ho. Aaj ka amli sabaq yeh hai ke zindagi ke is qeemati mauqay ko ghaneemat janein aur akhirat ke liye sadqat-e-jariya ka bandobast karein.",
+      en: "Context & Practical Lesson: Wealth holds no value in the Hereafter unless invested in charity and good deeds while living in this world."
     },
     tags: [
-      { ur: "تجربہ", ro: "Tajurba", en: "Experience" },
-      { ur: "حکمت", ro: "Hikmat", en: "Wisdom" }
+      { ur: "صدقہ جاریه", ro: "Sadqa-e-Jariya", en: "Ongoing Charity" },
+      { ur: "فکرِ آخرت", ro: "Fikr-e-Akhirat", en: "Hereafter Awareness" }
     ]
   },
   {
     id: "ma-077",
-    slug: "bura-dost-aur-sachi-dosti",
-    categorySlug: "aqwal-e-sahaba",
-    bookRef: "Makhzan-e-Akhlaq - Page 90",
+    slug: "allah-ki-rah-mein-kharch-ka-asil-700-guna-ajr",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Baqarah (2:261) & Makhzan-e-Akhlaq",
     author: {
-      ur: "حضرت علی المرتضیٰ رضی اللہ عنہ",
-      ro: "Hazrat Ali (R.A)",
-      en: "Hazrat Ali (R.A)"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "برے دوست کی صحبت سے پرہیز",
-      ro: "Bure Dost Ki Suhbat Se Parhez",
-      en: "Avoiding the Company of Bad Friends"
+      ur: "راہِ خدا میں خرچ کرنے کی مثال: ایک دانے سے سات سو دانے",
+      ro: "Raah-e-Khuda Mein Kharch Karne Ki Misaal: Aik Danay Se Saat Sau Danay",
+      en: "The Parable of Spending in God's Path: One Grain Yields Seven Hundred"
     },
     quote: {
-      ur: "برے دوست سے بچو کیونکہ وہ لوہار کی بھٹی کی طرح ہے، اگر تجھے جلائے نہیں تو اس کی سیاہی تجھے ضرور لگ جائے گی۔",
-      ro: "Bure dost se bacho kyunkeh woh lohar ki bhatti ki tarah hai, agar tujhe jalaye nahi to us ki siyahi tujhe zaroor lag jayegi.",
-      en: "Beware of a bad friend, for he is like a blacksmith's furnace; even if his sparks do not burn you, his soot will surely stain you."
+      ur: "جو لوگ اپنے مال اللہ کی راہ میں خرچ کرتے ہیں ان کی مثال اس دانے جیسی ہے جس نے سات بالیں اگائیں، ہر بال میں سو دانے ہوں؛ اور اللہ جس کے لیے چاہتا ہے کئی گناہ بڑھا دیتا ہے۔",
+      ro: "Jo log apne maal Allah ki raah mein kharch karte hain un ki misal us danay jaisi hai jis ne saat baalein ugayin, har baal mein sau danay hon؛ aur Allah jis ke liye chahta hai kai guna barha deta hai.",
+      en: "The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills."
     },
     tashreeh: {
-      ur: "انسان کی طبیعت اور اخلاق پر اس کے دوستوں کا گہرا اثر پڑتا ہے۔ اس لیے ہمیشہ اچھے اور باوقار لوگوں کی صحبت اختیار کرنی چاہیے۔",
-      ro: "Insan ki tabiyat aur akhlaq par us ke doston ka gehra asar parta hai. Is liye hamesha achay aur ba-waqar logon ki suhbat ikhtiyar karni chahiye.",
-      en: "Friends profoundly influence one's character and habits, which is why keeping righteous and noble company is essential."
+      ur: "پسِ منظر و تشریح: سخی انسان کا مال کبھی کم نہیں ہوتا بلکہ اللہ اس میں کئی گناہ برکت عطا فرماتا ہے۔ ایک دانے سے سات سو دانے نکلنے کا یہ انوکھا تمثیل بیان کرتا ہے کہ اخلاص سے دیا گیا تھوڑا سا صدقہ بھی آخرت میں پہاڑ جتنا اجر بن جاتا ہے۔ آج کا عملی سبق یہ ہے کہ راہِ خدا میں دینے سے کبھی ہاتھ نہ کھینچیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Sakhi insan ka maal kabhi kam nahi hota balkay Allah us mein kai guna barkat ata farmata hai. Aik danay se saat sau danay nikalne ka yeh anokha tamseel bayan karta hai ke ikhlas se diya gaya thora sa sadqa bhi akhirat mein pahad jitna ajr ban jata hai. Aaj ka amli sabaq yeh hai ke raah-e-khuda mein dene se kabhi hath na khinchein.",
+      en: "Context & Practical Lesson: Charity never depletes wealth; rather, sincere giving multiplies exponentially in spiritual blessings and rewards."
     },
     tags: [
-      { ur: "دوستی", ro: "Dosti", en: "Friendship" },
-      { ur: "صحبت", ro: "Suhbat", en: "Company" }
+      { ur: "برکتِ انفاق", ro: "Barkat-e-Infaq", en: "Blessing of Charity" },
+      { ur: "کثیر اجر", ro: "Kaseer Ajr", en: "Multiplied Reward" }
     ]
   },
   {
     id: "ma-078",
-    slug: "sabar-aur-mushkilat-ka-hal",
+    slug: "ehsan-jata-kar-aur-tazheek-kar-ke-sadqa-zaya-karna",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 11",
+    bookRef: "Surah Al-Baqarah (2:264) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "مشکلات میں صبر کا دامن",
-      ro: "Mushkilat Mein Sabr Ka Daman",
-      en: "Holding Onto Patience in Hardships"
+      ur: "احسان جتلا کر اور طعنہ دے کر صدقے کو خاک میں ملانا",
+      ro: "Ehsan Jata Kar Aur Taana De Kar Sadqay Ko Khak Mein Milana",
+      en: "Destroying Charity Through Reminders of Generosity and Insult"
     },
     quote: {
-      ur: "بے شک مشکل کے ساتھ آسانی ہے، ہاں ہر مشکل کے ساتھ آسانی وابستہ ہے۔",
-      ro: "Be-shakh mushkil ke sath asani hai, haan har mushkil ke sath asani wabasta hai.",
-      en: "Indeed, with hardship comes ease; indeed, with hardship comes ease."
+      ur: "اے ایمان والو! اپنے صدقات کو احسان جتا کر اور تکلیف دے کر اس شخص کی طرح ضائع مت کرو جو اپنا مال لوگوں کو دکھانے کے لیے خرچ کرتا ہے اور نہ اللہ پر ایمان رکھتا ہے اور نہ یومِ آخرت پر۔",
+      ro: "Aye eman walo! Apne sadqat ko ehsan jata kar aur takleef de kar us shakhs ki tarah zaya mat karo jo apna maal logon ko dikhane ke liye kharch karta hai aur na Allah par eman rakhta hai aur na yaum-e-akhirat par.",
+      en: "O you who have believed, do not invalidate your charities with reminders [of it] or injury as does one who spends his wealth [only] to be seen by the people and does not believe in Allah and the Last Day."
     },
     tashreeh: {
-      ur: "زندگی کا ہر طوفان عارضی ہے۔ مصیبت کے بعد رحمت کے دن ضرور آتے ہیں، بشرطیکہ انسان ہمت نہ ہارے۔",
-      ro: "Zindagi ka har toofan aarzi hai. Musibat ke baad rehmat ke din zaroor aate hain, bashart-e-ke insan himmat na haare.",
-      en: "Every storm in life is temporary. Days of relief always follow hardship, provided one does not lose heart."
+      ur: "پسِ منظر و تشریح: نیکی کر کے جتلا دینا یا غریب کی عزتِ نفس مجروح کرنا اس صدقے کی ساری کمائی کو ضائع کر دیتا ہے۔ یہ اس چکنے پتھر کی طرح ہے جس پر مٹی جمی ہو اور زور دار بارش اسے صاف کر کے بالکل ننگا پتھر چھوڑ جائے۔ آج کا عملی سبق یہ ہے کہ نیکی کو ہمیشہ صیغۂ راز میں رکھیں اور دکھاوے سے بچیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Neki kar ke jatla dena ya ghareeb ki izzat-e-nafs majrooh karna us sadqay ki sari kamai ko zaya kar deta hai. Yeh us chikne patthar ki tarah hai jis par mitti jami ho aur zor daar barish usay saaf kar ke bilkul nanga patthar chor jaye. Aaj ka amli sabaq yeh hai ke neki ko hamesha sigha-e-raaz mein rakhein aur dikhave se bachein.",
+      en: "Context & Practical Lesson: Reminding recipients of your favors or humiliating them completely erases the spiritual merit of charity, much like rain washing soil off a bare rock."
     },
     tags: [
-      { ur: "آسانی", ro: "Asani", en: "Ease" },
-      { ur: "امید", ro: "Umeed", en: "Hope" }
+      { ur: "آدابِ صدقہ", ro: "Aadab-e-Sadqa", en: "Etiquette of Charity" },
+      { ur: "ریاکاری سے پرہیز", ro: "Riyakari Se Parhez", en: "Avoiding Ostentation" }
     ]
   },
   {
