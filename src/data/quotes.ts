@@ -383,92 +383,92 @@ export const batch1Quotes: QuoteItem[] = [
   },
   {
     id: "ma-013",
-    slug: "do-nematein-tandrusti-aur-faraghat",
+    slug: "asani-paida-karo-tangi-mein-na-dalo",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 17",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "صحت اور فرصت کی قدر",
-      ro: "Sehat Aur Fursat Ki Qadr",
-      en: "Valuing Good Health and Free Time"
+      ur: "لوگوں کے لیے آسانیاں پیدا کرو، مشکلات کھڑی نہ کرو",
+      ro: "Logon Ke Liye Asaniyan Paida Karo, Mushkilat Khari Na Karo",
+      en: "Make Things Easy for People and Do Not Make Them Difficult"
     },
     quote: {
-      ur: "دو نعمتیں ہیں کہ ان میں اکثر لوگ نقصان اٹھاتے ہیں: ایک تندرستی، دوسرے کاروبار میں فراغت۔",
-      ro: "Do nematein hain ke un mein aksar log nuqsan uthate hain: aik tandrusti, doosre karobar mein faraghat.",
-      en: "There are two blessings in which many people suffer loss through neglect: good health and free time."
+      ur: "لوگوں کے لیے آسانی پیدا کرو اور سختی و تنگی پیدا نہ کرو؛ لوگوں کو خوشخبری دو اور انہیں متنفر نہ کرو۔",
+      ro: "Logon ke liye asani paida karo aur sakhti o tangi paida na karo; logon ko khush-khabri do aur unhein mutanaffir na karo.",
+      en: "Facilitate things for people and do not make things difficult for them; give them glad tidings and do not drive them away."
     },
     tashreeh: {
-      ur: "انسان کو جب صحت اور فارغ وقت ملتا ہے تو وہ اکثر غفلت میں پڑ کر انہیں ضائع کر دیتا ہے، اور جب بیماری یا مصروفیت آ گھیرتی ہے تب اسے ان کی قیمت یاد آتی ہے۔",
-      ro: "Insan ko jab sehat aur farigh waqt milta hai to woh aksar ghaflat mein par kar unhein zaya kar deta hai, aur jab bimari ya masroofiyat aa gherti hai tab usay un ki qeemat yaad aati hai.",
-      en: "People often waste their health and leisure in heedlessness, realizing their true value only after illness or busyness overtakes them."
+      ur: "پسِ منظر و تشریح: دینِ اسلام فطرت اور آسانی کا دین ہے۔ بعض لوگ اپنے سخت مزاج اور بے جا شرائط سے دوسروں کے لیے دین اور دنیا دونوں کو بوجھل بنا دیتے ہیں۔ آج کا عملی سبق یہ ہے کہ اپنے گھر، کاروبار اور نصیحت کے انداز میں نرمی اور سہولت پیدا کریں تاکہ لوگ آپ کے قریب آئیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Deen-e-Islam fitrat aur asani ka deen hai. Baaz log apne sakht mizaj aur be-ja sharait se doosron ke liye deen aur duniya dono ko bojhal bana dete hain. Aaj ka amli sabaq yeh hai ke apne ghar, karobar aur nasihat ke andaz mein narmi aur sahulat paida karein taake log aap ke qareeb aayein.",
+      en: "Context & Practical Lesson: True wisdom facilitates ease and inspires hope; harshness and rigidness only alienate hearts."
     },
     tags: [
-      { ur: "صحت", ro: "Sehat", en: "Health" },
-      { ur: "وقت", ro: "Waqt", en: "Time Management" }
+      { ur: "تیسیر و آسانی", ro: "Taiseer o Asani", en: "Ease & Facilitation" },
+      { ur: "نرم خوئی", ro: "Naram-Khoi", en: "Gentleness" }
     ]
   },
   {
     id: "ma-014",
-    slug: "aulad-ke-liye-behtareen-tohfa-taleem",
+    slug: "narmi-jis-cheez-mein-hoti-hai-usay-khoobsurat-bana-deti-hai",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 19",
+    bookRef: "Sahih Muslim & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "اولاد کے لیے باپ کا بہترین عطیہ",
-      ro: "Aulad Ke Liye Baap Ka Behtareen Atiya",
-      en: "A Father's Greatest Gift to His Child"
+      ur: "نرمی ہر معاملے کو زینت بخشتی ہے اور سختی بگاڑ دیتی ہے",
+      ro: "Narmi Har Muamlay Ko Zeenat Bakhshati Hai Aur Sakhti Bigar Deti Hai",
+      en: "Gentleness Beautifies Everything It Touches"
     },
     quote: {
-      ur: "باپ کا کوئی عطیہ بیٹے کے لیے اس سے بڑھ کر نہیں کہ اس کی تعلیم و تربیت اچھی کرے۔",
-      ro: "Baap ka koi atiya betay ke liye is se barh kar nahi ke us ki taleem-o-tarbiyat achi kare.",
-      en: "No father can give his child a gift more valuable than good education and noble moral upbringing."
+      ur: "نرمی جس چیز میں بھی پائی جائے اسے خوبصورت اور آراستہ بنا دیتی ہے، اور جس چیز سے نرمی نکال لی جائے وہ بدصورت اور عیب دار ہو جاتی ہے۔",
+      ro: "Narmi jis cheez mein bhi payi jaye usay khoobsurat aur aarasta bana deti hai, aur جس چیز سے نرمی نکال لی جائے وہ بدصورت اور عیب دار ہو جاتی ہے۔",
+      en: "Gentleness is not found in anything except that it beautifies it, and it is not removed from anything except that it disgraces it."
     },
     tashreeh: {
-      ur: "اولاد کے لیے صرف پیسہ اور جائیداد چھوڑ جانا کافی نہیں۔ اگر بچوں کو اچھا علم اور اعلیٰ اخلاق سکھا دیے جائیں تو وہ دنیا و آخرت دونوں میں سرخرو رہتے ہیں۔",
-      ro: "Aulad ke liye sirf paisa aur jaidad chhor jana kafi nahi. Agar bachon ko acha ilm aur aala akhlaq sikha diye jayein to woh duniya-o-akhirat dono mein surkhuru rehte hain.",
-      en: "Leaving behind wealth alone is never enough. Instilling sound knowledge and strong moral character equips children to succeed in both worlds."
+      ur: "پسِ منظر و تشریح: تلخ لہجہ اور درشت رویہ سچی بات کی تاثیر بھی ختم کر دیتا ہے، جبکہ نرمی اور شائستگی بگڑے ہوئے کام بھی سنوار دیتی ہے۔ آج کا عملی سبق یہ ہے کہ اولاد کی تربیت ہو یا کاروباری لین دین، ہر جگہ نرمی (رفق) کو اپنا ہتھیار بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Talkh lehja aur durusht rawaiya sachi baat ki taseer bhi khatam kar deta hai, jabkeh narmi aur shaistagi bigray huye kaam bhi sanwar deti hai. Aaj ka amli sabaq yeh hai ke aulad ki tarbiyat ho ya karobari lain-dain, har jagah narmi (rifq) ko apna hathyar banayein.",
+      en: "Context & Practical Lesson: Gentleness ('Rifq') unlocks doors that force can never open, bringing grace and effectiveness to parenting, leadership, and daily speech."
     },
     tags: [
-      { ur: "تربیت", ro: "Tarbiyat", en: "Upbringing" },
-      { ur: "تعلیم", ro: "Taleem", en: "Education" }
+      { ur: "رفق و نرمی", ro: "Rifq o Narmi", en: "Gentleness" },
+      { ur: "حسنِ سلوک", ro: "Husn-e-Sulook", en: "Kind Conduct" }
     ]
   },
   {
     id: "ma-015",
-    slug: "kharid-o-farokht-mein-narmi",
+    slug: "behtareen-insan-woh-hai-jo-dosron-ko-nafa-pohanchaye",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 19",
+    bookRef: "Al-Mu'jam Al-Awsat & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "کاروبار اور لین دین میں نرمی کی برکت",
-      ro: "Karobar Aur Lain Dain Mein Narmi Ki Barkat",
-      en: "Blessings of Gentleness in Business Transactions"
+      ur: "سب سے بہترین انسان وہ ہے جو دوسرے انسانوں کے لیے نفع بخش ہو",
+      ro: "Sab Se Behtareen Insan Woh Hai Jo Doosre Insanon Ke Liye Nafa-Bakhsh Ho",
+      en: "The Best of People Are Those Most Beneficial to Others"
     },
     quote: {
-      ur: "اللہ اس شخص پر مہربانی کرتا ہے جو خرید و فروخت اور قیمت وصول کرنے کے تقاضے میں نرمی اختیار کرے۔",
-      ro: "Allah us shakhs par mehrbani karta hai jo kharid-o-farokht aur qeemat wasool karne ke taqazay mein narmi ikhtiyar kare.",
-      en: "May Allah show mercy to a person who is gentle and fair when selling, when buying, and when asking for payment of dues."
+      ur: "تمام انسانوں میں اللہ کے نزدیک سب سے بہترین وہ شخص ہے جو لوگوں کو سب سے زیادہ نفع پہنچانے والا ہو۔",
+      ro: "Tamam insanon mein Allah ke nazdeek sab se behtareen woh shakhs hai jo logon ko sab se zyada nafa pohanchane wala ho.",
+      en: "The best of people are those who bring the most benefit to the rest of mankind."
     },
     tashreeh: {
-      ur: "اسلامی تجارت کا سنہرا اصول یہ ہے کہ بیچتے وقت، خریدتے وقت اور قرض یا رقم کا تقاضا کرتے وقت سختی کے بجائے نرمی اور عفو و درگزر سے کام لیا جائے۔",
-      ro: "Islami tijarat ka sunehra usool yeh hai ke bechte waqt, kharidte waqt aur qarz ya raqam ka taqaza karte waqt sakhti ke bajaye narmi aur afw-o-darguzar se kaam liya jaye.",
-      en: "The golden rule of ethical commerce is practicing fairness, patience, and kindness when buying, selling, or collecting payments."
+      ur: "پسِ منظر و تشریح: اپنے لیے تو ہر جاندار جیتا ہے، لیکن اشرف المخلوقات ہونے کی معراج یہ ہے کہ انسان کے علم، ہنر، مال اور اخلاق سے دوسرے انسانوں کو فائدہ پہنچے۔ آج کا عملی سبق یہ ہے کہ روزانہ اپنے ہنر یا وقت کے ذریعے کم از کم ایک شخص کی مشکل آسان کرنے کی کوشش کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Apne liye to har jandar jeeta hai, لیکن Ashraf-ul-Makhlooqat hone ki meraj yeh hai ke insan ke ilm, hunar, maal aur akhlaq se doosre insanon ko faida pohanche. Aaj ka amli sabaq yeh hai ke rozana apne hunar ya waqt ke zariye kam az kam aik shakhs ki mushkil asan karne ki koshish karein.",
+      en: "Context & Practical Lesson: A meaningful life is measured by how much value, relief, and benefit we contribute to the people around us."
     },
     tags: [
-      { ur: "تجارت", ro: "Tijarat", en: "Business Ethics" },
-      { ur: "رحمت", ro: "Rehmat", en: "Mercy" }
+      { ur: "نفع بخشی", ro: "Nafa-Bakhshi", en: "Serving Humanity" },
+      { ur: "خدمتِ خلق", ro: "Khidmat-e-Khalq", en: "Public Benefit" }
     ]
   }
 ];
