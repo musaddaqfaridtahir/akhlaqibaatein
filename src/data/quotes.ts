@@ -203,92 +203,92 @@ export const batch1Quotes: QuoteItem[] = [
   },
   {
     id: "ma-007",
-    slug: "sail-se-narmi-ka-bartao",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 11",
+    slug: "muskurana-bhi-sadqa-hai",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sunan Tirmidhi & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "سائل کے ساتھ نرمی اور درگزر",
-      ro: "Sail Ke Sath Narmi Aur Darguzar",
-      en: "Kind Words and Forgiveness Toward the Needy"
+      ur: "اپنے بھائی کے سامنے مسکرانا بھی صدقہ ہے",
+      ro: "Apne Bhai Ke Samne Muskurana Bhi Sadqa Hai",
+      en: "Smiling in the Face of Your Brother is Charity"
     },
     quote: {
-      ur: "سائل کو نرمی سے جواب دے دینا اور سائل کے اصرار سے درگزر کرنا اس خیرات سے بہت بہتر ہے جس کے پیچھے سائل کو کسی طرح کی ایذا ہو۔",
-      ro: "Sail ko narmi se jawab de dena aur sail ke israr se darguzar karna us khairat se bohot behtar hai jis ke peechay sail ko kisi tarah ki eiza ho.",
-      en: "A kind word and forgiveness toward a persistent beggar are far better than charity followed by hurt and humiliation."
+      ur: "اپنے بھائی کے سامنے تمہارا مسکرانا تمہارے لیے صدقہ ہے، اور تمہارا نیکی کا حکم دینا اور برائی سے روکنا صدقہ ہے۔",
+      ro: "Apne bhai ke samne tumhara muskurana tumhare liye sadqa hai, aur tumhara neki ka hukm dena aur burai se rokna sadqa hai.",
+      en: "Your smile for your brother is charity for you, your commanding good and forbidding evil is charity."
     },
     tashreeh: {
-      ur: "اگر کسی وقت مالی مدد کرنے کی طاقت نہ ہو تو مانگنے والے کو ڈانٹنے کے بجائے میٹھے بول سے معذرت کر لینی چاہیے، کیونکہ میٹھا بول دل دکھانے والی خیرات سے افضل ہے۔",
-      ro: "Agar kisi waqt maali madad karne ki taqat na ho to mangne wale ko dantne ke bajaye meethay bol se maazrat kar leni chahiye, kyunkeh meetha bol dil dukhane wali khairat se afzal hai.",
-      en: "If one is unable to help financially, apologizing politely to a person in need is far nobler than giving money while insulting their dignity."
+      ur: "پسِ منظر و تشریح: اسلام نے نیکی کو صرف مال خرچ کرنے تک محدود نہیں رکھا، بلکہ ایک خوبصورت مسکراہٹ اور خوش اخلاقی کو بھی صدقہ قرار دیا ہے۔ آج کا عملی سبق یہ ہے کہ ملنے والے ہر شخص سے خندہ پیشانی اور مسکراتے ہوئے ملیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Islam ne neki ko sirf maal kharch karne tak mehdood nahi rakha, balkay aik khoobsurat muskurahat aur khush-akhlaqi ko bhi sadqa qarar diya hai. Aaj ka amli sabaq yeh hai ke milne wale har shakhs se khanda-peshani aur muskurate hue milein.",
+      en: "Context & Practical Lesson: Charity in Islam is accessible to everyone; a warm, cheerful smile brightens lives and earns spiritual reward."
     },
     tags: [
-      { ur: "نرمی", ro: "Narmi", en: "Kindness" },
-      { ur: "ہمدردی", ro: "Hamdardi", en: "Compassion" }
+      { ur: "خوش اخلاقی", ro: "Khush-Akhlaqi", en: "Good Manners" },
+      { ur: "صدقہ", ro: "Sadqa", en: "Charity" }
     ]
   },
   {
     id: "ma-008",
-    slug: "musalman-bhai-ka-dil-khush-karna",
+    slug: "takatwar-woh-hai-jo-gusse-par-qaboo-rakhe",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 15",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "کسی کا دل خوش کرنا عظیم عبادت ہے",
-      ro: "Kisi Ka Dil Khush Karna Azeem Ibadat Hai",
-      en: "Bringing Joy to a Heart is Supreme Worship"
+      ur: "اصل طاقتور وہ ہے جو غصے کے وقت خود پر قابو رکھے",
+      ro: "Asal Taqatwar Woh Hai Jo Gusse Ke Waqt Khud Par Qaboo Rakhe",
+      en: "The Strong Man Controls Himself When Angry"
     },
     quote: {
-      ur: "اللہ تعالیٰ کے نزدیک اس سے زیادہ کوئی عبادت نہیں کہ تو کسی مسلمان بھائی کا دل خوش کر دے۔",
-      ro: "Allah Ta'ala ke nazdeek is se zyada koi ibadat nahi ke tu kisi Musalman bhai ka dil khush kar de.",
-      en: "There is no act of worship dearer to Allah Almighty than bringing happiness to the heart of a fellow believer."
+      ur: "طاقتور وہ نہیں جو دنگل میں سب کو پچھاڑ دے، بلکہ اصل طاقتور وہ ہے جو غصے کے وقت اپنے نفس پر قابو رکھے۔",
+      ro: "Taqatwar woh nahi jo dangal mein sab ko pachhar de, balkay asal taqatwar woh hai jo gusse ke waqt apne nafs par qaboo rakhe.",
+      en: "The strong is not the one who overcomes the people by his strength, but the strong is the one who controls himself while in anger."
     },
     tashreeh: {
-      ur: "دکھی انسانوں کے کام آنا، کسی پریشان حال کی مدد کرنا اور اپنے رویے سے دوسروں کو مسرت پہنچانا اللہ کے ہاں سب سے محبوب عمل ہے۔",
-      ro: "Dukhi insanon ke kaam aana, kisi pareshan-haal ki madad karna aur apne rawaiye se doosron ko masarrat pohanchana Allah ke haan sab se mehboob amal hai.",
-      en: "Helping those in distress, easing someone's burden, and spreading joy through kind behavior are among the most beloved deeds to the Creator."
+      ur: "پسِ منظر و تشریح: جسمانی زور آزمائی عارضی ہوتی ہے، لیکن اپنے غصے اور جذبات پر فتح پانا سب سے بڑی روحانی اور اخلاقی فتح ہے۔ آج کا عملی سبق یہ ہے کہ اشتعال انگیزی کے وقت خاموشی اختیار کریں اور جذبات کو قابو میں رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jismani zor-aazmai aarzi hoti hai, lekin apne gusse aur jazbaat par fateh pana sab se badi roohani aur akhlaqi fateh hai. Aaj ka amli sabaq yeh hai ke ishtial-angezi ke waqt khamoshi ikhtiyar karein aur jazbaat ko qaboo mein rakhein.",
+      en: "Context & Practical Lesson: True power lies in emotional self-mastery during moments of extreme provocation."
     },
     tags: [
-      { ur: "خدمتِ خلق", ro: "Khidmat-e-Khalq", en: "Humanity" },
-      { ur: "عبادت", ro: "Ibadat", en: "Worship" }
+      { ur: "ضبطِ نفس", ro: "Zabt-e-Nafs", en: "Self-Control" },
+      { ur: "غصے پر قابو", ro: "Gusse Par Qaboo", en: "Managing Anger" }
     ]
   },
   {
     id: "ma-009",
-    slug: "makhlooq-ko-aram-pohanchana-afzal-neki",
+    slug: "haya-iman-ka-hissa-hai",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 15",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "مخلوق کو آرام پہنچانا افضل نیکی ہے",
-      ro: "Makhlooq Ko Aram Pohanchana Afzal Neki Hai",
-      en: "Bringing Comfort to Creation is the Best Virtue"
+      ur: "حیا ایمان کا بنیادی اور لازمی حصہ ہے",
+      ro: "Haya Eman Ka Bunyadi Aur Lazmi Hissa Hai",
+      en: "Modesty is an Integral Part of Faith"
     },
     quote: {
-      ur: "شرک کے بعد بدترین گناہ ایذا رسانیِ خلق ہے۔ ایمان کے بعد افضل نیکی خلق کو آرام دینا ہے۔",
-      ro: "Shirk ke baad bad-tareen gunah eiza-rasani-e-khalq hai. Eman ke baad afzal neki khalq ko aram dena hai.",
-      en: "After polytheism, the worst sin is harming people; and after faith, the noblest virtue is bringing comfort to creation."
+      ur: "حیا ایمان کا ایک اہم حصہ ہے، اور ایمان کا ٹھکانہ جنت میں ہے۔",
+      ro: "Haya eman ka aik ahem hissa hai, aur eman ka thikana Jannat mein hai.",
+      en: "Modesty is a branch of faith, and faith leads to Paradise."
     },
     tashreeh: {
-      ur: "یہ فرمان دین کا پورا خلاصہ بیان کرتا ہے کہ سچا مومن وہی ہے جس کی ذات سے لوگوں کو راحت پہنچے اور کسی بھی جاندار کو تکلیف نہ ملے۔",
-      ro: "Yeh farman deen ka poora khulasa bayan karta hai ke sacha momin wahi hai jis ki zaat se logon ko rahat pohanche aur kisi bhi jandar ko takleef na mile.",
-      en: "This saying summarizes the essence of faith: a true believer is a source of peace and relief for others and never causes harm to any living being."
+      ur: "پسِ منظر و تشریح: حیا انسان کو برائی اور بے حیائی سے روکنے والی سب سے بڑی اخلاقی ڈھال ہے۔ جس دل میں حیا مر جائے وہاں اخلاقی زوال شروع ہو جاتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنی گفتگو، لباس اور رویے میں حیا کو نمایاں رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Haya insan ko burai aur be-hayaai se rokne wali sab se badi akhlaqi dhal hai. Jis dil mein haya mar jaye wahan akhlaqi zawal shuru ho jata hai. Aaj ka amli sabaq yeh hai ke apni guftugu, libas aur rawaiye mein haya ko numayan rakhein.",
+      en: "Context & Practical Lesson: Modesty acts as an internal moral compass, protecting character from vulgarity and steering the soul toward righteousness."
     },
     tags: [
-      { ur: "حقوق العباد", ro: "Huqooq-ul-Ibaad", en: "Human Rights" },
-      { ur: "نیکی", ro: "Neki", en: "Virtue" }
+      { ur: "حیا و پاکدامنی", ro: "Haya o Pakdamani", en: "Modesty & Purity" },
+      { ur: "اخلاق", ro: "Akhlaq", en: "Morality" }
     ]
   },
   {
