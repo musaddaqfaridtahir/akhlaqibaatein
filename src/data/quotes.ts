@@ -23,92 +23,92 @@ export interface QuoteItem {
 export const batch1Quotes: QuoteItem[] = [
   {
     id: "ma-001",
-    slug: "qoum-ki-halat-ki-tabdeeli",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 7",
+    slug: "amal-ka-daromadar-niyaton-par-hai",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "قوم کی حالت بدلنے کا الٰہی قانون",
-      ro: "Qoum Ki Halat Badalne Ka Ilahi Qanoon",
-      en: "The Divine Law of Changing a Nation's Condition"
+      ur: "تمام اعمال کا دارومدار نیتوں پر ہے",
+      ro: "Tamam Aamaal Ka Daromadar Niyaton Par Hai",
+      en: "Actions Are Judged by Intentions"
     },
     quote: {
-      ur: "اللہ تعالیٰ کسی قوم کی حالت نہیں بدلتا جب تک وہ خود اپنی حالت نہ بدلے۔",
-      ro: "Allah Ta'ala kisi qoum ki halat nahi badalta jab tak woh khud apni halat na badle.",
-      en: "Allah Almighty does not change the condition of a people until they change what is within themselves."
+      ur: "تمام اعمال کا دارومدار نیتوں پر ہے، اور ہر انسان کو وہی ملے گا جس کی اس نے نیت کی ہو۔",
+      ro: "Tamam aamaal ka daromadar niyaton par hai, aur har insan ko wahi milega jis ki us ne niyat ki ho.",
+      en: "Actions are but by intention and every man shall have but that which he intended."
     },
     tashreeh: {
-      ur: "یہ اصول واضح کرتا ہے کہ ترقی اور خوشحالی صرف تمناؤں سے حاصل نہیں ہوتی۔ جب تک انسان اپنے اخلاق، اعمال اور سوچ کو درست نہیں کرتا، اس وقت تک اس کے ظاہری حالات میں بہتری نہیں آتی۔",
-      ro: "Yeh usool wazeh karta hai ke taraqqi aur khushhali sirf tamannaon se hasil nahi hoti. Jab tak insan apne akhlaq, aamaal aur soch ko durust nahi karta, us waqt tak us ke zahiri halat mein behtari nahi aati.",
-      en: "This principle clarifies that progress and prosperity are not achieved through mere wishes. Until individuals reform their character, actions, and mindset, their external circumstances will not improve."
+      ur: "پسِ منظر و تشریح: نیت کسی بھی عمل کی روح ہوتی ہے۔ اگر نیت خالص اللہ کی رضا کے لیے ہو تو چھوٹا سا کام بھی عبادت بن جاتا ہے، اور اگر دکھاوا ہو تو بڑے سے بڑے عمل کا بھی کوئی اجر نہیں ملتا۔ آج کا عملی سبق یہ ہے کہ ہر نیک کام سے پہلے اپنے دل کی نیت کو ضرور خالص کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Niyat kisi bhi amal ki rooh hoti hai. Agar niyat khalis Allah ki raza ke liye ho to chota sa kaam bhi ibadat ban jata hai, aur agar dikhawa ho to bade se bade amal ka bhi koi ajr nahi milta. Aaj ka amli sabaq yeh hai ke har nek kaam se pehle apne dil ki niyat ko zaroor khalis karein.",
+      en: "Context & Practical Lesson: Intention is the soul of every action; purity of purpose elevates even the smallest deed into profound worship."
     },
     tags: [
-      { ur: "اصلاح", ro: "Islah", en: "Self-Reform" },
-      { ur: "محنت", ro: "Mehnat", en: "Hard Work" }
+      { ur: "اخلاص", ro: "Ikhlas", en: "Sincerity" },
+      { ur: "نیت", ro: "Niyat", en: "Intention" }
     ]
   },
   {
     id: "ma-002",
-    slug: "zameen-par-itra-kar-na-chal",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 7",
+    slug: "behtareen-insan-woh-hai-jo-quran-sikhe-aur-sikhaye",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "تکبر اور شیخی خوری کی مذمت",
-      ro: "Takabbur Aur Shekhi Khori Ki Mazammat",
-      en: "Condemnation of Arrogance and Boasting"
+      ur: "تم میں سے بہترین انسان وہ ہے جو قرآن سیکھے اور سکھائے",
+      ro: "Tum Mein Se Behtareen Insan Woh Hai Jo Quran Sikhe Aur Sikhaye",
+      en: "The Best Among You is the One Who Learns and Teaches the Quran"
     },
     quote: {
-      ur: "لوگوں سے بے رخی نہ کر اور زمین پر اترا کر نہ چل، کیونکہ اللہ تعالیٰ کسی اترانے والے شیخی خور کو پسند نہیں کرتا۔",
-      ro: "Logon se be-rukhi na kar aur zameen par itra kar na chal, kyunkeh Allah Ta'ala kisi itrane wale shekhi khor ko pasand nahi karta.",
-      en: "Do not turn your face away from people in contempt, nor walk arrogantly upon the earth; indeed, Allah does not like any arrogant boaster."
+      ur: "تم میں سے بہترین وہ شخص ہے جو قرآن سیکھے اور دوسروں کو سکھائے۔",
+      ro: "Tum mein se behtareen woh shakhs hai jo Quran sikhe aur doosron ko sikhaye.",
+      en: "The best of you are those who learn the Quran and teach it."
     },
     tashreeh: {
-      ur: "عاجزی اور انکساری مومن کی پہچان ہے۔ مال یا عہدے کی وجہ سے دوسروں کو حقیر سمجھنا اور اکڑ کر چلنا اللہ کی ناراضگی کا سبب بنتا ہے، جبکہ نرم مزاجی انسان کی عزت بڑھاتی ہے۔",
-      ro: "Aajizi aur inkisari momin ki pehchan hai. Maal ya ohday ki wajah se doosron ko haqeer samajhna aur akar kar chalna Allah ki narazgi ka sabab banta hai, jabkeh naram mizaji insan ki izzat barhati hai.",
-      en: "Humility is the hallmark of a believer. Looking down upon others due to wealth or status invites divine displeasure, whereas gentleness elevates a person's honor."
+      ur: "پسِ منظر و تشریح: قرآنِ کریم اللہ کا کلام ہے اور اس سے جڑنا انسان کو دنیا اور آخرت میں بلند مقام عطا کرتا ہے۔ علمِ نافع کو دوسروں تک پہنچانا صدقۂ جاریہ ہے۔ آج کا عملی سبق یہ ہے کہ روزانہ قرآن کی تلاوت کو اپنا معمول بنائیں اور اس کا پیغام دوسروں تک پہنچائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran-e-Kareem Allah ka kalam hai aur is se jurna insan ko duniya aur akhirat mein buland maqam ata karta hai. Ilm-e-naafai ko doosron tak pohanchana sadqa-e-jariya hai. Aaj ka amli sabaq yeh hai ke rozana Quran ki tilawat ko apna mamool banayein aur us ka paigham doosron tak pohanchayein.",
+      en: "Context & Practical Lesson: Connecting with the Quran and sharing its wisdom with others brings ultimate honor and serves as a continuous charity."
     },
     tags: [
-      { ur: "عاجزی", ro: "Aajizi", en: "Humility" },
-      { ur: "اخلاق", ro: "Akhlaq", en: "Manners" }
+      { ur: "قرآن فہمی", ro: "Quran Fehmi", en: "Quranic Wisdom" },
+      { ur: "علم", ro: "Ilm", en: "Knowledge" }
     ]
   },
   {
     id: "ma-003",
-    slug: "qoul-aur-amal-mein-tazaad",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 7",
+    slug: "din-khair-khwahi-ka-nam-hai",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Muslim & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "قول اور عمل میں یکسانیت",
-      ro: "Qoul Aur Amal Mein Yaksaniyat",
-      en: "Consistency Between Words and Deeds"
+      ur: "دین سراسر خیر خواہی اور بھلائی کا نام ہے",
+      ro: "Deen Sarasar Khair-Khwahi Aur Bhalai Ka Naam Hai",
+      en: "Religion is Sincere Advice and Benevolence"
     },
     quote: {
-      ur: "بہت بڑا گناہ یہ ہے کہ تم وہ بات کہو جو تم خود نہیں کرتے۔",
-      ro: "Bohot bada gunah yeh hai ke tum woh baat kaho jo tum khud nahi karte.",
-      en: "It is a grave sin in the sight of Allah that you say what you do not practice yourselves."
+      ur: "دین خیر خواہی کا نام ہے؛ ہم نے عرض کیا: کس کے ساتھ؟ آپ ﷺ نے فرمایا: اللہ کے ساتھ، اس کی کتاب کے ساتھ، اس کے رسول کے ساتھ، اور مسلمانوں کے ائمہ اور عام لوگوں کے ساتھ۔",
+      ro: "Deen khair-khwahi ka naam hai; hum ne arz kiya: Kis ke sath? Aap ﷺ ne farmaya: Allah ke sath, us ki kitab ke sath, us ke Rasool ke sath, aur musalmanon ke aimmah aur aam logon ke sath.",
+      en: "Religion is sincerity. We said: To whom? He said: To Allah, His Book, His Messenger, and to the leaders of the Muslims and their common folk."
     },
     tashreeh: {
-      ur: "دوسروں کو نصیحت کرنے سے پہلے انسان کا خود اس پر عمل پیرا ہونا ضروری ہے۔ جب انسان کے قول اور فعل میں تضاد ہوتا ہے تو اس کی بات سے تاثیر ختم ہو جاتی ہے۔",
-      ro: "Doosron ko nasihat karne se pehle insan ka khud us par amal-paira hona zaroori hai. Jab insan ke qoul aur fe'l mein tazaad hota hai to us ki baat se taseer khatam ho jati hai.",
-      en: "Before advising others, one must practice those virtues oneself. When there is a contradiction between a person's words and actions, their speech loses all impact and credibility."
+      ur: "پسِ منظر و تشریح: خیر خواہی کا مفہوم یہ ہے کہ انسان ہر ایک کے ساتھ بھلائی چاہے، احکام کی پابندی کرے اور کسی کے ساتھ فریب یا دھوکہ نہ کرے۔ آج کا عملی سبق یہ ہے کہ اپنے تمام تعلقات میں سچائی اور خیر خواہی کا جذبہ پیدا کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Khair-khwahi ka mafhoom yeh hai ke insan har aik ke sath bhalai chahe, ahkam ki pabandi kare aur kisi ke sath fareeb ya dhoka na kare. Aaj ka amli sabaq yeh hai ke apne tamam talluqat mein sachai aur khair-khwahi ka jazba paida karein.",
+      en: "Context & Practical Lesson: Sincere benevolence toward God, His scripture, His Prophet, and fellow humans forms the complete framework of faith."
     },
     tags: [
-      { ur: "کردار", ro: "Kirdar", en: "Character" },
-      { ur: "سچائی", ro: "Sachai", en: "Integrity" }
+      { ur: "خیر خواہی", ro: "Khair-Khwahi", en: "Sincere Goodwill" },
+      { ur: "اخلاق", ro: "Akhlaq", en: "Ethics" }
     ]
   },
   {
