@@ -202,8 +202,8 @@ export default function ChahalHadithTracker({
               key={hadith.id}
               className={`relative rounded-2xl sm:rounded-3xl p-4 sm:p-7 border transition-all duration-300 flex flex-col justify-between ${
                 isMemorized
-                  ? 'bg-emerald-50/70 dark:bg-emerald-950/30 border-emerald-500/50 shadow-md ring-1 ring-emerald-500/30'
-                  : 'bg-white dark:bg-slate-900 border-stone-200/90 dark:border-slate-800 shadow-sm hover:shadow-md'
+                  ? 'bg-emerald-50/70 dark:bg-emerald-950/40 border-emerald-500/50 shadow-md ring-1 ring-emerald-500/30'
+                  : 'bg-white dark:bg-[#11221c] border-stone-200/90 dark:border-emerald-800/60 shadow-sm hover:shadow-md'
               }`}
             >
               {/* Top Bar with Number & Memorized Checkbox */}

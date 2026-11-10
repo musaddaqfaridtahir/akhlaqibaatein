@@ -53,10 +53,10 @@ export default function StatusImageModal({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-sm animate-fadeIn">
-      <div className="relative w-[94vw] max-w-md max-h-[88vh] overflow-y-auto bg-white dark:bg-slate-900 rounded-2xl shadow-2xl border border-emerald-800/30 dark:border-emerald-500/30 flex flex-col">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-sm animate-fadeIn">
+      <div className="relative w-[94vw] max-w-md max-h-[92vh] overflow-y-auto bg-white dark:bg-[#11221c] rounded-2xl shadow-2xl border border-emerald-800/40 dark:border-emerald-700/60 flex flex-col">
         {/* Header */}
-        <div className="flex items-center justify-between p-3.5 sm:p-4 px-4 sm:px-6 border-b border-slate-200 dark:border-slate-800 bg-emerald-950 text-white shrink-0">
+        <div className="flex items-center justify-between p-3.5 sm:p-4 px-4 sm:px-6 border-b border-slate-200 dark:border-emerald-800/60 bg-emerald-950 text-white shrink-0">
           <div className="flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-amber-400 shrink-0" />
             <h3 className="font-semibold text-xs sm:text-base truncate">
@@ -72,34 +72,34 @@ export default function StatusImageModal({
           </button>
         </div>
 
-        {/* Preview Container */}
-        <div className="p-3.5 sm:p-5 flex flex-col items-center justify-center bg-slate-50 dark:bg-slate-950 flex-1">
+        {/* Preview Container: 9:16 Vertical HD Status */}
+        <div className="p-3.5 sm:p-5 flex flex-col items-center justify-center bg-slate-50 dark:bg-[#0a1411] flex-1">
           {isGenerating ? (
-            <div className="w-full aspect-square max-w-[280px] sm:max-w-[340px] flex flex-col items-center justify-center rounded-xl bg-emerald-950 text-amber-300 animate-pulse">
+            <div className="w-full aspect-[9/16] max-w-[240px] sm:max-w-[270px] max-h-[55vh] flex flex-col items-center justify-center rounded-xl bg-emerald-950 text-amber-300 animate-pulse border-2 border-amber-600/40">
               <Sparkles className="w-8 h-8 animate-spin mb-2" />
               <p className="text-xs sm:text-sm font-medium">{t.statusCardDownloading}</p>
             </div>
           ) : (
-            <div className="relative w-full max-w-[280px] sm:max-w-[340px] aspect-square rounded-xl overflow-hidden shadow-xl border-2 border-amber-600/40">
+            <div className="relative w-full max-w-[240px] sm:max-w-[270px] aspect-[9/16] max-h-[55vh] rounded-xl overflow-hidden shadow-2xl border-2 border-amber-600/40 bg-black flex items-center justify-center">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={imageUrl}
                 alt="Status Preview"
-                className="w-full h-auto aspect-square object-contain rounded-xl"
+                className="w-full h-full object-contain rounded-xl"
               />
             </div>
           )}
-          {/* Status Preview with clean whitespace-pre-line */}
-          <p className="text-[11px] sm:text-xs text-slate-500 dark:text-slate-400 mt-2.5 text-center">
-            {t.statusCardResolution}
+          {/* Status Preview with clean resolution label */}
+          <p className="text-[11px] sm:text-xs text-slate-500 dark:text-emerald-300/80 mt-2.5 text-center font-medium">
+            1080 × 1920 HD Status • 9:16 Story
           </p>
-          <div className="w-full max-w-[280px] sm:max-w-[340px] mt-3 p-2.5 sm:p-3 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-800 dark:text-slate-200 text-xs text-center whitespace-pre-line max-h-24 overflow-y-auto">
+          <div className="w-full max-w-[260px] sm:max-w-[300px] mt-2.5 p-2.5 sm:p-3 rounded-xl bg-slate-100 dark:bg-[#0d1b16] border border-stone-200 dark:border-emerald-700/50 text-slate-800 dark:text-emerald-100 text-xs text-center whitespace-pre-line max-h-20 overflow-y-auto">
             {data.text}
           </div>
         </div>
 
         {/* Action Buttons */}
-        <div className="p-3.5 sm:p-4 px-4 sm:px-6 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row gap-2.5 shrink-0">
+        <div className="p-3.5 sm:p-4 px-4 sm:px-6 bg-white dark:bg-[#11221c] border-t border-stone-200 dark:border-emerald-800/60 flex flex-col sm:flex-row gap-2.5 shrink-0">
           <button
             onClick={handleDownload}
             disabled={isGenerating}
@@ -111,7 +111,7 @@ export default function StatusImageModal({
 
           <button
             onClick={handleShareWhatsApp}
-            className="min-h-[44px] flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-emerald-900/10 dark:bg-emerald-500/10 hover:bg-emerald-900/20 text-emerald-800 dark:text-emerald-300 font-medium text-xs sm:text-sm transition"
+            className="min-h-[44px] flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-emerald-900/10 dark:bg-emerald-900/60 hover:bg-emerald-900/20 text-emerald-800 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/50 font-medium text-xs sm:text-sm transition"
           >
             <Share2 className="w-4 h-4 shrink-0" />
             <span>{t.shareBtn}</span>

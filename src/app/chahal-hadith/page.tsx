@@ -6,7 +6,7 @@ import ChahalHadithTracker from '@/components/ChahalHadithTracker';
 import AdSlot from '@/components/AdSlot';
 
 export const metadata: Metadata = {
-  title: 'چَہل حدیث (40 Hadith) حفظ ٹریکر | AkhlaqiBaatein.com',
+  title: 'چَہل حدیث (40 Hadith) حفظ ٹریکر',
   description:
     'رسول اللہ ﷺ کی چالیس جامع، مختصر اور مستند احادیثِ مبارکہ (اربعین) کا حفظ ٹریکر۔ عربی متن، اردو ترجمہ، رومن اردو اور مختصر اخلاقی سبق کے ساتھ۔',
   keywords: [

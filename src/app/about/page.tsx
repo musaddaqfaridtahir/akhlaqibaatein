@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, ShieldCheck, Target } from 'lucide-react';
+import { Sparkles, ShieldCheck, Target, BookOpen } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function AboutPage() {
@@ -76,7 +76,7 @@ export default function AboutPage() {
       </section>
 
       {/* Main Content Box */}
-      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-6 sm:space-y-8 text-slate-800 dark:text-slate-200">
+      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-[#11221c] border border-slate-200/80 dark:border-emerald-800/60 shadow-xl space-y-6 sm:space-y-8 text-slate-800 dark:text-[#f0fdf4]">
         <div className="space-y-4">
           <h2
             className={`text-2xl font-bold text-emerald-900 dark:text-emerald-300 flex items-center gap-2 ${
@@ -96,8 +96,25 @@ export default function AboutPage() {
           </p>
         </div>
 
+        {/* Scholarly Credit & Classical Sources */}
+        <div className="p-4 sm:p-6 rounded-2xl bg-emerald-50/80 dark:bg-[#0d1b16] border border-emerald-200 dark:border-emerald-700/50 space-y-2">
+          <div className="flex items-center gap-2 text-emerald-950 dark:text-emerald-300 font-bold text-sm sm:text-base">
+            <BookOpen className="w-5 h-5 text-amber-600 dark:text-amber-400 shrink-0" />
+            <span className={isUrdu ? 'font-urdu' : ''}>
+              {isUrdu ? 'علمی مآخذ و کلاسیکی استفادہ' : language === 'ro' ? 'Ilmi Maakhiz o Classic Istifada' : 'Scholarly Sources & Classical Heritage'}
+            </span>
+          </div>
+          <p className={isUrdu ? 'font-urdu text-base sm:text-lg leading-[2.2] text-slate-800 dark:text-emerald-100/90' : 'text-xs sm:text-sm leading-relaxed text-slate-700 dark:text-emerald-100/90'}>
+            {isUrdu
+              ? 'اس پلیٹ فارم کے اخلاقی مضامین و انتخاب میں مستند کتبِ تفسیر و حدیث، نہج البلاغہ، حلیۃ الاولیاء اور کلاسیکی اخلاقی تالیف ’مخزنِ اخلاق‘ سے استفادہ کیا گیا ہے۔'
+              : language === 'ro'
+              ? 'Is platform ke akhlaqi mazameen aur intekhab mein mustanad kutub-e-tafseer o hadith, Nahj al-Balagha, Hilyat al-Awliya aur classical akhlaqi taleef ’Makhzan-e-Akhlaq‘ se istifada kiya gaya hai.'
+              : 'The ethical insights and selections on this platform draw directly from authoritative commentaries of the Quran, authentic Hadith collections, Nahj al-Balagha, Hilyat al-Awliya, and the classical moral masterpiece "Makhzan-e-Akhlaq".'}
+          </p>
+        </div>
+
         {/* Editorial Standards */}
-        <div className="space-y-4 pt-4 border-t border-slate-100 dark:border-slate-800">
+        <div className="space-y-4 pt-4 border-t border-slate-100 dark:border-emerald-800/40">
           <h2
             className={`text-2xl font-bold text-emerald-900 dark:text-emerald-300 flex items-center gap-2 ${
               isUrdu ? 'font-urdu' : ''

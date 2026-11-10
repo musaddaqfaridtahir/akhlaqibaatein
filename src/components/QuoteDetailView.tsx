@@ -23,6 +23,7 @@ import {
   getQuoteAmliSabaq,
   getQuoteSource,
   getQuoteTags,
+  formatBookRef,
 } from '@/data/quotes';
 import { getCategoryTitle } from '@/data/categories';
 import { useLanguage } from '@/context/LanguageContext';
@@ -53,6 +54,7 @@ export default function QuoteDetailView({
   const quoteTashreeh = getQuoteTashreeh(quote, language);
   const quoteAmliSabaq = getQuoteAmliSabaq(quote, language);
   const quoteSource = getQuoteSource(quote, language);
+  const cleanSource = formatBookRef(quoteSource, quote.category);
   const quoteTags = getQuoteTags(quote, language);
   const categoryTitle = category ? getCategoryTitle(category, language) : quote.category;
 
@@ -63,6 +65,7 @@ export default function QuoteDetailView({
   const urduTashreeh = getQuoteTashreeh(quote, 'ur');
   const urduAmli = getQuoteAmliSabaq(quote, 'ur');
   const urduSource = getQuoteSource(quote, 'ur');
+  const cleanUrduSource = formatBookRef(urduSource, quote.category);
   const urduTags = getQuoteTags(quote, 'ur');
 
   const romanTitle = getQuoteTitle(quote, 'ro') || quote.title?.ro || '';
@@ -71,6 +74,7 @@ export default function QuoteDetailView({
   const romanTashreeh = getQuoteTashreeh(quote, 'ro');
   const romanAmli = getQuoteAmliSabaq(quote, 'ro');
   const romanSource = getQuoteSource(quote, 'ro');
+  const cleanRomanSource = formatBookRef(romanSource, quote.category);
   const romanTags = getQuoteTags(quote, 'ro');
 
   const englishTitle = getQuoteTitle(quote, 'en') || quote.title?.en || '';
@@ -79,11 +83,12 @@ export default function QuoteDetailView({
   const englishTashreeh = getQuoteTashreeh(quote, 'en');
   const englishAmli = getQuoteAmliSabaq(quote, 'en');
   const englishSource = getQuoteSource(quote, 'en');
+  const cleanEnglishSource = formatBookRef(englishSource, quote.category);
   const englishTags = getQuoteTags(quote, 'en');
 
   const handleCopy = () => {
     const quoteUrl = `https://akhlaqibaatein.com/quote/${quote.slug}`;
-    const textToCopy = `"${quoteText}"\n\n— ${quoteAuthor} (${quoteSource})\n\n${quoteUrl}`;
+    const textToCopy = `"${quoteText}"\n\n— ${quoteAuthor}${cleanSource ? ` (${cleanSource})` : ''}\n\n${quoteUrl}`;
 
     navigator.clipboard.writeText(textToCopy);
     setCopied(true);
@@ -124,10 +129,16 @@ export default function QuoteDetailView({
           : `Who is the author of this wisdom and what is its authentic reference?`,
       answer:
         language === 'ur'
-          ? `یہ پرحکمت ارشاد ${quoteAuthor} کی مبارک تعلیمات میں سے ہے اور یہ مستند اسلامی کتاب "${quoteSource}" سے ماخوذ ہے۔ یہ قول ${categoryTitle} کے تحت اخلاقی اصلاح کا اہم ستون ہے۔`
+          ? cleanSource
+            ? `یہ پرحکمت ارشاد ${quoteAuthor} کی مبارک تعلیمات میں سے ہے اور یہ مستند اسلامی ماخذ "${cleanSource}" سے ماخوذ ہے۔ یہ قول ${categoryTitle} کے تحت اخلاقی اصلاح کا اہم ستون ہے۔`
+            : `یہ پرحکمت ارشاد ${quoteAuthor} کی مبارک تعلیمات میں سے ہے۔ یہ قول ${categoryTitle} کے تحت اخلاقی اصلاح کا اہم ستون ہے۔`
           : language === 'ro'
-          ? `Yeh pur-hikmat irshad ${quoteAuthor} ki mubarak taleemat mein se hai aur yeh mustanad kitaab "${quoteSource}" se maakhuz hai. Yeh qoul ${categoryTitle} ke tehat akhlaqi islah ka ahem sabaq hai.`
-          : `This profound teaching is attributed to ${quoteAuthor} and is faithfully cited from the classical reference "${quoteSource}". It serves as a foundational pillar within ${categoryTitle}.`,
+          ? cleanSource
+            ? `Yeh pur-hikmat irshad ${quoteAuthor} ki mubarak taleemat mein se hai aur yeh mustanad maakhuz "${cleanSource}" se liya gaya hai. Yeh qoul ${categoryTitle} ke tehat akhlaqi islah ka ahem sabaq hai.`
+            : `Yeh pur-hikmat irshad ${quoteAuthor} ki mubarak taleemat mein se hai. Yeh qoul ${categoryTitle} ke tehat akhlaqi islah ka ahem sabaq hai.`
+          : cleanSource
+          ? `This profound teaching is attributed to ${quoteAuthor} and is faithfully cited from "${cleanSource}". It serves as a foundational pillar within ${categoryTitle}.`
+          : `This profound teaching is attributed to ${quoteAuthor}. It serves as a foundational pillar within ${categoryTitle}.`,
     },
     {
       question:
@@ -182,7 +193,7 @@ export default function QuoteDetailView({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <article className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-12 bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-sm space-y-6 sm:space-y-8 overflow-hidden">
+      <article className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-12 bg-white dark:bg-[#11221c] border border-stone-200/90 dark:border-emerald-800/60 shadow-sm space-y-6 sm:space-y-8 overflow-hidden">
         {/* Category & Author Badge */}
         <div className="flex items-center justify-between gap-2.5 flex-wrap">
           <div className="flex items-center gap-2">
@@ -199,7 +210,7 @@ export default function QuoteDetailView({
           {category && (
             <Link
               href={`/category/${category.slug}`}
-              className={`text-xs px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 hover:bg-emerald-100 transition font-medium ${
+              className={`text-xs px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium ${
                 isUrdu ? 'font-urdu' : ''
               }`}
             >
@@ -209,10 +220,10 @@ export default function QuoteDetailView({
         </div>
 
         {/* Primary Quote Display in User's Active Language */}
-        <div className="py-3 sm:py-4 border-y border-stone-200 dark:border-slate-800 space-y-3">
+        <div className="py-3 sm:py-4 border-y border-stone-200 dark:border-emerald-800/40 space-y-3">
           {quoteTitle && (
             <h2
-              className={`font-bold text-slate-900 dark:text-slate-100 break-words ${
+              className={`font-bold text-slate-900 dark:text-emerald-300 break-words ${
                 isUrdu
                   ? 'font-urdu text-base sm:text-xl md:text-2xl leading-[1.8] sm:leading-[2.0] text-right'
                   : 'text-base sm:text-lg md:text-xl text-left'
@@ -222,7 +233,7 @@ export default function QuoteDetailView({
             </h2>
           )}
           <h1
-            className={`font-normal text-slate-900 dark:text-slate-50 break-words whitespace-pre-line ${
+            className={`font-normal text-slate-900 dark:text-[#f0fdf4] break-words whitespace-pre-line ${
               isUrdu
                 ? 'font-urdu text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-[1.9] sm:leading-[2.2] md:leading-[2.4] text-right'
                 : 'text-lg sm:text-xl md:text-2xl lg:text-3xl italic leading-relaxed text-left'
@@ -236,7 +247,7 @@ export default function QuoteDetailView({
         <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center pt-2">
           <button
             onClick={handleCopy}
-            className={`col-span-1 min-h-[42px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
+            className={`col-span-1 min-h-[42px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-emerald-900/60 dark:hover:bg-emerald-800/80 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
               isUrdu ? 'font-urdu' : ''
             }`}
           >
@@ -255,7 +266,7 @@ export default function QuoteDetailView({
 
           <button
             onClick={handleWhatsAppShare}
-            className={`col-span-1 min-h-[42px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-slate-800 dark:hover:bg-emerald-900/60 dark:text-emerald-300 border border-stone-300 dark:border-slate-700 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
+            className={`col-span-1 min-h-[42px] px-3.5 py-2.5 rounded-xl bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-emerald-900/60 dark:hover:bg-emerald-800/80 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition active:scale-95 ${
               isUrdu ? 'font-urdu' : ''
             }`}
           >
@@ -283,9 +294,9 @@ export default function QuoteDetailView({
             </h3>
           </div>
 
-          <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-emerald-50/60 dark:bg-slate-800/60 border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-slate-700 space-y-3">
+          <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-emerald-50/60 dark:bg-[#0d1b16] border-s-4 border-emerald-700 dark:border-emerald-500 border border-emerald-100 dark:border-emerald-700/50 space-y-3">
             <p
-              className={`text-slate-800 dark:text-slate-200 whitespace-pre-line ${
+              className={`text-slate-800 dark:text-emerald-100/90 whitespace-pre-line ${
                 isUrdu
                   ? 'font-urdu text-xs sm:text-sm md:text-base leading-[1.85] sm:leading-[2.0]'
                   : 'text-xs sm:text-sm leading-relaxed'
@@ -307,18 +318,20 @@ export default function QuoteDetailView({
           </div>
         </div>
 
-        {/* Authentic Citation */}
-        <div
-          className={`flex items-center gap-2 p-4 rounded-2xl bg-stone-100 dark:bg-slate-800/60 text-xs sm:text-sm text-slate-700 dark:text-slate-200 border border-stone-200 dark:border-slate-700 ${
-            isUrdu ? 'font-urdu' : ''
-          }`}
-        >
-          <BookOpen className="w-4 h-4 text-emerald-700 dark:text-emerald-500 shrink-0" />
-          <span>
-            <strong>{t.sourceHeading} </strong>
-            {quoteSource}
-          </span>
-        </div>
+        {/* Authentic Citation - Only shown if canonical reference exists */}
+        {cleanSource && (
+          <div
+            className={`flex items-center gap-2 p-4 rounded-2xl bg-stone-100 dark:bg-[#0d1b16] text-xs sm:text-sm text-slate-700 dark:text-emerald-200 border border-stone-200 dark:border-emerald-700/50 ${
+              isUrdu ? 'font-urdu' : ''
+            }`}
+          >
+            <BookOpen className="w-4 h-4 text-emerald-700 dark:text-emerald-400 shrink-0" />
+            <span>
+              <strong>{t.sourceHeading} </strong>
+              {cleanSource}
+            </span>
+          </div>
+        )}
 
         {/* Tags */}
         <div className="flex items-center gap-2 flex-wrap pt-2">
@@ -414,31 +427,33 @@ export default function QuoteDetailView({
               )}
             </div>
 
-            <div className="pt-2 text-[11px] text-slate-500 dark:text-slate-400 font-urdu border-t border-stone-200 dark:border-slate-800">
-              ماخذ: {urduSource}
-            </div>
+            {cleanUrduSource && (
+              <div className="pt-2 text-[11px] text-slate-500 dark:text-emerald-300/80 font-urdu border-t border-stone-200 dark:border-emerald-800/60">
+                ماخذ: {cleanUrduSource}
+              </div>
+            )}
           </div>
 
           {/* 2. Roman Urdu Edition Card */}
           <div
             dir="ltr"
-            className="flex flex-col justify-between p-5 sm:p-6 rounded-2xl bg-[#FAF8F5] dark:bg-slate-950/80 border border-stone-200 dark:border-slate-800 space-y-4 shadow-2xs"
+            className="flex flex-col justify-between p-5 sm:p-6 rounded-2xl bg-[#FAF8F5] dark:bg-[#11221c] border border-stone-200 dark:border-emerald-800/60 space-y-4 shadow-2xs"
           >
             <div className="space-y-3">
-              <div className="flex items-center justify-between gap-2 border-b border-stone-200/80 dark:border-slate-800 pb-2">
+              <div className="flex items-center justify-between gap-2 border-b border-stone-200/80 dark:border-emerald-800/40 pb-2">
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-100 dark:bg-amber-950 text-amber-950 dark:text-amber-300">
                   Roman Urdu
                 </span>
-                <span className="text-xs text-slate-500 font-medium">{romanAuthor}</span>
+                <span className="text-xs text-slate-500 dark:text-emerald-300/70 font-medium">{romanAuthor}</span>
               </div>
 
               {romanTitle && (
-                <h3 className="font-bold text-slate-900 dark:text-white text-sm sm:text-base leading-snug">
+                <h3 className="font-bold text-slate-900 dark:text-emerald-300 text-sm sm:text-base leading-snug">
                   {romanTitle}
                 </h3>
               )}
 
-              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-l-4 border-amber-500 text-slate-900 dark:text-slate-100 text-xs sm:text-sm italic leading-relaxed whitespace-pre-line">
+              <blockquote className="p-3 rounded-xl bg-white dark:bg-[#0d1b16] border-l-4 border-amber-500 text-slate-900 dark:text-[#f0fdf4] text-xs sm:text-sm italic leading-relaxed whitespace-pre-line">
                 “{romanText}”
               </blockquote>
 
@@ -446,7 +461,7 @@ export default function QuoteDetailView({
                 <h4 className="text-xs font-bold text-emerald-800 dark:text-emerald-400">
                   Tafseel o Akhlaqi Pegham:
                 </h4>
-                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
+                <p className="text-xs sm:text-sm text-slate-700 dark:text-emerald-100/90 leading-relaxed whitespace-pre-line">
                   {romanTashreeh}
                 </p>
               </div>
@@ -459,31 +474,33 @@ export default function QuoteDetailView({
               )}
             </div>
 
-            <div className="pt-2 text-[11px] text-slate-500 dark:text-slate-400 border-t border-stone-200 dark:border-slate-800">
-              Source: {romanSource}
-            </div>
+            {cleanRomanSource && (
+              <div className="pt-2 text-[11px] text-slate-500 dark:text-emerald-300/80 border-t border-stone-200 dark:border-emerald-800/60">
+                Source: {cleanRomanSource}
+              </div>
+            )}
           </div>
 
           {/* 3. English Edition Card */}
           <div
             dir="ltr"
-            className="flex flex-col justify-between p-5 sm:p-6 rounded-2xl bg-[#FAF8F5] dark:bg-slate-950/80 border border-stone-200 dark:border-slate-800 space-y-4 shadow-2xs"
+            className="flex flex-col justify-between p-5 sm:p-6 rounded-2xl bg-[#FAF8F5] dark:bg-[#11221c] border border-stone-200 dark:border-emerald-800/60 space-y-4 shadow-2xs"
           >
             <div className="space-y-3">
-              <div className="flex items-center justify-between gap-2 border-b border-stone-200/80 dark:border-slate-800 pb-2">
+              <div className="flex items-center justify-between gap-2 border-b border-stone-200/80 dark:border-emerald-800/40 pb-2">
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-100 dark:bg-blue-950 text-blue-900 dark:text-blue-300">
                   English Translation
                 </span>
-                <span className="text-xs text-slate-500 font-medium">{englishAuthor}</span>
+                <span className="text-xs text-slate-500 dark:text-emerald-300/70 font-medium">{englishAuthor}</span>
               </div>
 
               {englishTitle && (
-                <h3 className="font-bold text-slate-900 dark:text-white text-sm sm:text-base leading-snug">
+                <h3 className="font-bold text-slate-900 dark:text-emerald-300 text-sm sm:text-base leading-snug">
                   {englishTitle}
                 </h3>
               )}
 
-              <blockquote className="p-3 rounded-xl bg-white dark:bg-slate-900 border-l-4 border-blue-600 text-slate-900 dark:text-slate-100 text-xs sm:text-sm italic leading-relaxed whitespace-pre-line">
+              <blockquote className="p-3 rounded-xl bg-white dark:bg-[#0d1b16] border-l-4 border-blue-600 text-slate-900 dark:text-[#f0fdf4] text-xs sm:text-sm italic leading-relaxed whitespace-pre-line">
                 “{englishText}”
               </blockquote>
 
@@ -491,7 +508,7 @@ export default function QuoteDetailView({
                 <h4 className="text-xs font-bold text-emerald-800 dark:text-emerald-400">
                   Moral Commentary & Meaning:
                 </h4>
-                <p className="text-xs sm:text-sm text-slate-700 dark:text-slate-300 leading-relaxed whitespace-pre-line">
+                <p className="text-xs sm:text-sm text-slate-700 dark:text-emerald-100/90 leading-relaxed whitespace-pre-line">
                   {englishTashreeh}
                 </p>
               </div>
@@ -504,9 +521,11 @@ export default function QuoteDetailView({
               )}
             </div>
 
-            <div className="pt-2 text-[11px] text-slate-500 dark:text-slate-400 border-t border-stone-200 dark:border-slate-800">
-              Reference: {englishSource}
-            </div>
+            {cleanEnglishSource && (
+              <div className="pt-2 text-[11px] text-slate-500 dark:text-emerald-300/80 border-t border-stone-200 dark:border-emerald-800/60">
+                Reference: {cleanEnglishSource}
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -576,6 +595,7 @@ export default function QuoteDetailView({
           category: categoryTitle,
           slug: quote.slug,
           lang: language,
+          title: quoteTitle,
         }}
       />
     </>

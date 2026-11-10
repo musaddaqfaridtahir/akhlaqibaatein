@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { AlertCircle, BookOpen, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer (اعلانِ لاتعلقی و علمی وضاحت) | AkhlaqiBaatein.com',
+  title: 'Disclaimer (اعلانِ لاتعلقی و علمی وضاحت)',
   description:
     'Islamic, religious, and educational content disclaimer for AkhlaqiBaatein.com.',
   alternates: {
@@ -29,7 +29,20 @@ export default function DisclaimerPage() {
         </div>
       </header>
 
-      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-8 text-slate-800 dark:text-slate-200 text-sm leading-relaxed">
+      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-[#11221c] border border-slate-200/80 dark:border-emerald-800/60 shadow-xl space-y-8 text-slate-800 dark:text-[#f0fdf4] text-sm leading-relaxed">
+        {/* Scholarly Credit Box */}
+        <div className="p-4 sm:p-6 rounded-2xl bg-emerald-50/80 dark:bg-[#0d1b16] border border-emerald-200 dark:border-emerald-700/50 space-y-2">
+          <div className="flex items-center gap-2 text-emerald-950 dark:text-emerald-300 font-bold text-sm sm:text-base">
+            <BookOpen className="w-5 h-5 text-amber-600 dark:text-amber-400 shrink-0" />
+            <span className="font-urdu">
+              علمی مآخذ و کتبِ استفادہ (Scholarly Reference)
+            </span>
+          </div>
+          <p className="font-urdu leading-[2.2] text-slate-800 dark:text-emerald-100/90 text-base">
+            اس پلیٹ فارم کے اخلاقی مضامین و انتخاب میں مستند کتبِ تفسیر و حدیث، نہج البلاغہ، حلیۃ الاولیاء اور کلاسیکی اخلاقی تالیف ’مخزنِ اخلاق‘ سے استفادہ کیا گیا ہے۔
+          </p>
+        </div>
+
         <div className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white font-urdu">
             1. اخلاقی و دعوتی حیثیت (Educational & Moral Nature)

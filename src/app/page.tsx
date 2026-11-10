@@ -190,7 +190,7 @@ export default function HomePage() {
               <Link
                 key={cat.slug}
                 href={`/category/${cat.slug}`}
-                className="group p-5 sm:p-6 rounded-3xl bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
+                className="group p-5 sm:p-6 rounded-3xl bg-white dark:bg-[#11221c] border border-stone-200/90 dark:border-emerald-800/60 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
@@ -279,7 +279,7 @@ export default function HomePage() {
             return (
               <article
                 key={art.slug}
-                className="group bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-6 border border-stone-200/90 dark:border-slate-800 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
+                className="group bg-white dark:bg-[#11221c] rounded-3xl p-5 sm:p-6 border border-stone-200/90 dark:border-emerald-800/60 shadow-sm hover:shadow-md hover:border-emerald-600 transition-all duration-300 flex flex-col justify-between"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between text-xs text-slate-500">

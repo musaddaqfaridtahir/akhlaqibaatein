@@ -88,7 +88,7 @@ export default function ArticleDetailView({
       </header>
 
       {/* Table of Contents Box */}
-      <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-slate-50 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800 space-y-3">
+      <div className="p-4 sm:p-6 rounded-2xl sm:rounded-3xl bg-slate-50 dark:bg-[#11221c] border border-stone-200 dark:border-emerald-800/60 space-y-3">
         <h3 className={`font-semibold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2 ${isUrdu ? 'font-urdu text-lg' : ''}`}>
           <ListOrdered className="w-4 h-4 text-amber-500" />
           <span>{t.tableOfContents}</span>
@@ -142,7 +142,7 @@ export default function ArticleDetailView({
             <section
               key={idx}
               id={`section-${idx}`}
-              className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-md space-y-6 scroll-mt-24"
+              className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 bg-white dark:bg-[#11221c] border border-stone-200/80 dark:border-emerald-800/60 shadow-md space-y-6 scroll-mt-24"
             >
               <div className="border-b border-slate-100 dark:border-slate-800 pb-3 flex items-center justify-between flex-wrap gap-2">
                 <h2

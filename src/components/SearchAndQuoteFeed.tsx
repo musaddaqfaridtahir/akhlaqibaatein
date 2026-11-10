@@ -105,7 +105,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
     <section className="w-full space-y-4 sm:space-y-6">
       {/* Search Input Bar with Strict Isolation */}
       <div className="relative max-w-3xl mx-auto">
-        <div className="relative flex items-center h-12 shadow-sm rounded-2xl overflow-hidden border border-stone-300 dark:border-emerald-500/30 bg-white dark:bg-slate-900 focus-within:ring-2 focus-within:ring-emerald-800/60 transition">
+        <div className="relative flex items-center h-12 shadow-sm rounded-2xl overflow-hidden border border-stone-300 dark:border-emerald-800/60 bg-white dark:bg-[#11221c] focus-within:ring-2 focus-within:ring-emerald-800/60 transition">
           <div className="px-3.5 text-emerald-800 dark:text-emerald-400 shrink-0">
             <Search className="w-5 h-5" />
           </div>

@@ -99,6 +99,23 @@ export default function BooksPage() {
       {/* Top Banner AdSlot */}
       <AdSlot position="header" />
 
+      {/* Scholarly Credit Box */}
+      <section className="p-4 sm:p-6 rounded-2xl bg-emerald-50/80 dark:bg-[#0d1b16] border border-emerald-200 dark:border-emerald-700/50 space-y-2">
+        <div className="flex items-center gap-2 text-emerald-950 dark:text-emerald-300 font-bold text-sm sm:text-base">
+          <BookOpen className="w-5 h-5 text-amber-600 dark:text-amber-400 shrink-0" />
+          <span className={isUrdu ? 'font-urdu' : ''}>
+            {isUrdu ? 'علمی مآخذ و کتبِ استفادہ' : language === 'ro' ? 'Ilmi Maakhiz aur Mustanad Kutub' : 'Scholarly Foundations & Textual Sources'}
+          </span>
+        </div>
+        <p className={isUrdu ? 'font-urdu text-base sm:text-lg leading-[2.2] text-slate-800 dark:text-emerald-100/90' : 'text-xs sm:text-sm leading-relaxed text-slate-700 dark:text-emerald-100/90'}>
+          {isUrdu
+            ? 'اس پلیٹ فارم کے اخلاقی مضامین و انتخاب میں مستند کتبِ تفسیر و حدیث، نہج البلاغہ، حلیۃ الاولیاء اور کلاسیکی اخلاقی تالیف ’مخزنِ اخلاق‘ سے استفادہ کیا گیا ہے۔'
+            : language === 'ro'
+            ? 'Is platform ke akhlaqi mazameen aur intekhab mein mustanad kutub-e-tafseer o hadith, Nahj al-Balagha, Hilyat al-Awliya aur classical akhlaqi taleef ’Makhzan-e-Akhlaq‘ se istifada kiya gaya hai.'
+            : 'The ethical insights and selections on this platform draw directly from authoritative commentaries of the Quran, authentic Hadith collections, Nahj al-Balagha, Hilyat al-Awliya, and the classical moral masterpiece "Makhzan-e-Akhlaq".'}
+        </p>
+      </section>
+
       {/* Primary Available Book: Makhzan-e-Akhlaq */}
       {availableBooks.map((book) => {
         const bookTitle = getBookTitle(book, language);
@@ -108,7 +125,7 @@ export default function BooksPage() {
         return (
           <section
             key={book.slug}
-            className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-emerald-900/10 dark:border-emerald-500/20 shadow-xl space-y-6 sm:space-y-8"
+            className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-[#11221c] border border-emerald-900/10 dark:border-emerald-800/60 shadow-xl space-y-6 sm:space-y-8"
           >
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100 dark:border-slate-800">
               <div>

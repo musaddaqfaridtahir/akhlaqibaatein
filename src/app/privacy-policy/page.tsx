@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Shield, Lock, Eye, FileText } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy (پرائیویسی پالیسی) | AkhlaqiBaatein.com',
+  title: 'Privacy Policy (پرائیویسی پالیسی)',
   description:
     'Complete Google AdSense-compliant Privacy Policy for AkhlaqiBaatein.com, explaining our usage of cookies, DART cookies, and third-party advertising partners.',
   alternates: {
@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
         </div>
       </header>
 
-      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 shadow-xl space-y-8 text-slate-800 dark:text-slate-200 text-sm leading-relaxed">
+      <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-[#11221c] border border-slate-200/80 dark:border-emerald-800/60 shadow-xl space-y-8 text-slate-800 dark:text-[#f0fdf4] text-sm leading-relaxed">
         <div className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white">
             1. Introduction & Overview

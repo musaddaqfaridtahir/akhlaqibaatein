@@ -25,11 +25,11 @@ export async function generateMetadata({
 
   if (!article) {
     return {
-      title: 'Article Not Found | AkhlaqiBaatein.com',
+      title: 'Article Not Found',
     };
   }
 
-  const title = `${article.titleUrdu} | AkhlaqiBaatein.com`;
+  const title = article.titleUrdu;
   const description = `${article.summaryRoman} — ${article.summaryUrdu.slice(0, 150)}...`;
 
   return {

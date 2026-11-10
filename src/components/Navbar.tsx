@@ -29,7 +29,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-white/95 dark:bg-slate-950/90 border-b border-stone-200 dark:border-emerald-500/20 transition-colors">
+    <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-white/95 dark:bg-[#0a1411]/95 border-b border-stone-200 dark:border-emerald-800/40 transition-colors">
       <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
         {/* Row 1: Brand Logo & Desktop Nav or Mobile Action Icons */}
         <div className="flex items-center justify-between h-14 sm:h-20 gap-2">
@@ -49,20 +49,20 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-1">
+          {/* Desktop Navigation Links (whitespace-nowrap & compact gap to prevent 2-line wrap) */}
+          <nav className="hidden lg:flex items-center gap-1 xl:gap-2 whitespace-nowrap">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`px-3 py-2 rounded-xl text-sm font-semibold transition flex items-center gap-1.5 ${
-                    language === 'ur' ? 'font-urdu text-base' : ''
+                  className={`px-2.5 xl:px-3 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-semibold transition flex items-center gap-1 whitespace-nowrap shrink-0 ${
+                    language === 'ur' ? 'font-urdu text-sm xl:text-base' : ''
                   } ${
                     isActive
-                      ? 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-300 font-bold shadow-xs'
-                      : 'text-slate-700 dark:text-slate-300 hover:text-emerald-800 dark:hover:text-emerald-400 hover:bg-stone-100 dark:hover:bg-slate-900'
+                      ? 'bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 font-bold shadow-xs'
+                      : 'text-slate-700 dark:text-emerald-100/80 hover:text-emerald-800 dark:hover:text-emerald-300 hover:bg-stone-100 dark:hover:bg-[#11221c]'
                   }`}
                 >
                   <span>{link.label}</span>
@@ -79,8 +79,8 @@ export default function Navbar() {
           {/* Right Action Icons */}
           <div className="flex items-center gap-2 shrink-0">
             {/* Desktop 3-Language Strict Switcher */}
-            <div className="hidden md:flex items-center bg-stone-100 dark:bg-slate-900 p-1 rounded-2xl border border-stone-200 dark:border-emerald-500/20 shadow-xs">
-              <div className="flex items-center px-2 text-slate-500 dark:text-slate-400">
+            <div className="hidden md:flex items-center bg-stone-100 dark:bg-[#11221c] p-1 rounded-2xl border border-stone-200 dark:border-emerald-800/50 shadow-xs">
+              <div className="flex items-center px-2 text-slate-500 dark:text-emerald-300/70">
                 <Languages className="w-3.5 h-3.5 text-amber-600 dark:text-amber-500" />
               </div>
               {languageOptions.map((opt) => {
@@ -105,7 +105,7 @@ export default function Navbar() {
             {/* Dark/Light Mode Toggle (Min 40x40px touch target on mobile) */}
             <button
               onClick={toggleTheme}
-              className="w-10 h-10 flex items-center justify-center rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 transition"
+              className="w-10 h-10 flex items-center justify-center rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-[#11221c] dark:hover:bg-emerald-950 border border-transparent dark:border-emerald-800/40 text-slate-700 dark:text-emerald-200 transition"
               title="Toggle Theme"
               aria-label="Toggle Theme"
             >
@@ -119,7 +119,7 @@ export default function Navbar() {
             {/* Mobile Hamburger Trigger (Min 40x40px touch target on mobile) */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 transition"
+              className="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-[#11221c] dark:hover:bg-emerald-950 border border-transparent dark:border-emerald-800/40 text-slate-800 dark:text-emerald-200 transition"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -129,7 +129,7 @@ export default function Navbar() {
 
         {/* Row 2 (Mobile Only): Full-Width Segmented Language Switcher */}
         <div className="md:hidden pb-2.5 pt-0.5">
-          <div className="grid grid-cols-3 gap-1 p-1 bg-stone-100 dark:bg-slate-800/90 rounded-lg text-xs sm:text-sm border border-stone-200 dark:border-slate-700/60 shadow-xs">
+          <div className="grid grid-cols-3 gap-1 p-1 bg-stone-100 dark:bg-[#11221c] rounded-lg text-xs sm:text-sm border border-stone-200 dark:border-emerald-800/40 shadow-xs">
             {languageOptions.map((opt) => {
               const isActive = language === opt.code;
               return (
@@ -139,7 +139,7 @@ export default function Navbar() {
                   className={`py-1.5 px-2 rounded-md font-bold transition-all text-center flex items-center justify-center ${
                     isActive
                       ? 'bg-emerald-800 text-white shadow-xs'
-                      : 'text-slate-700 dark:text-slate-300 hover:bg-stone-200 dark:hover:bg-slate-700'
+                      : 'text-slate-700 dark:text-slate-300 hover:bg-stone-200 dark:hover:bg-emerald-950'
                   } ${opt.code === 'ur' ? 'font-urdu text-xs leading-normal' : ''}`}
                 >
                   {opt.label}
@@ -152,7 +152,7 @@ export default function Navbar() {
 
       {/* Mobile Slide-Down Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-white dark:bg-slate-950 border-b border-stone-200 dark:border-slate-800 px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn">
+        <div className="lg:hidden bg-white dark:bg-[#0a1411] border-b border-stone-200 dark:border-emerald-800/40 px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
             return (
@@ -164,8 +164,8 @@ export default function Navbar() {
                   language === 'ur' ? 'font-urdu text-lg' : ''
                 } ${
                   isActive
-                    ? 'bg-emerald-50 dark:bg-emerald-950/70 text-emerald-800 dark:text-emerald-300 font-bold'
-                    : 'text-slate-700 dark:text-slate-200 hover:bg-stone-100 dark:hover:bg-slate-900'
+                    ? 'bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 font-bold'
+                    : 'text-slate-700 dark:text-emerald-100/90 hover:bg-stone-100 dark:hover:bg-[#11221c]'
                 }`}
               >
                 <span>{link.label}</span>

@@ -79,9 +79,9 @@ export default function CategoryDetailView({
             ))}
           </div>
         ) : (
-          <div className="text-center py-12 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800">
-            <BookOpen className="w-10 h-10 text-slate-400 mx-auto mb-2" />
-            <p className={`text-sm text-slate-600 dark:text-slate-400 ${isUrdu ? 'font-urdu' : ''}`}>
+          <div className="text-center py-12 bg-white dark:bg-[#11221c] rounded-3xl border border-stone-200 dark:border-emerald-800/60">
+            <BookOpen className="w-10 h-10 text-emerald-400 mx-auto mb-2" />
+            <p className={`text-sm text-slate-600 dark:text-emerald-300 ${isUrdu ? 'font-urdu' : ''}`}>
               {t.noResultsTitle}
             </p>
           </div>
@@ -90,8 +90,8 @@ export default function CategoryDetailView({
 
       {/* Articles in Category (if any) */}
       {articles.length > 0 && (
-        <section className="space-y-6 pt-6 border-t border-slate-200 dark:border-slate-800">
-          <h2 className={`text-2xl font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu' : ''}`}>
+        <section className="space-y-6 pt-6 border-t border-slate-200 dark:border-emerald-800/40">
+          <h2 className={`text-2xl font-bold text-slate-900 dark:text-[#f0fdf4] ${isUrdu ? 'font-urdu' : ''}`}>
             {t.featuredArticles}
           </h2>
 
@@ -104,10 +104,10 @@ export default function CategoryDetailView({
               return (
                 <article
                   key={art.slug}
-                  className="bg-white dark:bg-slate-900 rounded-3xl p-6 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg transition flex flex-col justify-between"
+                  className="bg-white dark:bg-[#11221c] rounded-3xl p-6 border border-stone-200 dark:border-emerald-800/60 shadow-sm hover:shadow-lg transition flex flex-col justify-between"
                 >
                   <div className="space-y-3">
-                    <div className="flex items-center justify-between text-xs text-slate-500">
+                    <div className="flex items-center justify-between text-xs text-slate-500 dark:text-emerald-300/70">
                       <span className="flex items-center gap-1">
                         <Clock className="w-3 h-3 text-amber-500" />
                         <span>{artReadTime}</span>
@@ -116,7 +116,7 @@ export default function CategoryDetailView({
                     </div>
 
                     <h3
-                      className={`text-xl font-bold text-slate-900 dark:text-white ${
+                      className={`text-xl font-bold text-slate-900 dark:text-[#f0fdf4] ${
                         isUrdu ? 'font-urdu leading-[2.1]' : 'leading-snug'
                       }`}
                     >
@@ -124,7 +124,7 @@ export default function CategoryDetailView({
                     </h3>
 
                     <p
-                      className={`text-xs sm:text-sm text-slate-600 dark:text-slate-400 line-clamp-2 ${
+                      className={`text-xs sm:text-sm text-slate-600 dark:text-emerald-100/90 line-clamp-2 ${
                         isUrdu ? 'font-urdu leading-[2.0]' : 'leading-relaxed'
                       }`}
                     >
@@ -132,7 +132,7 @@ export default function CategoryDetailView({
                     </p>
                   </div>
 
-                  <div className="mt-4 pt-4 border-t border-slate-100 dark:border-slate-800 flex justify-end">
+                  <div className="mt-4 pt-4 border-t border-stone-100 dark:border-emerald-800/40 flex justify-end">
                     <Link
                       href={`/articles/${art.slug}`}
                       className={`text-xs font-semibold text-emerald-700 dark:text-emerald-400 flex items-center gap-1 ${

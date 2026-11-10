@@ -23,13 +23,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!quote) {
     return {
-      title: 'Quote Not Found | AkhlaqiBaatein.com',
+      title: 'Quote Not Found',
     };
   }
 
   const title = quote.title?.ur
-    ? `${quote.title.ur} — ${quote.authorUrdu} | AkhlaqiBaatein.com`
-    : `${quote.urdu.slice(0, 50)}... (${quote.author}) | AkhlaqiBaatein.com`;
+    ? `${quote.title.ur} — ${quote.authorUrdu}`
+    : `${quote.urdu.slice(0, 50)}... (${quote.author})`;
   const description = `${quote.roman} — ${quote.tashreeh.slice(0, 150)}...`;
 
   return {
