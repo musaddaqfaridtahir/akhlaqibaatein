@@ -506,92 +506,92 @@ export function quoteItemToQuote(item: QuoteItem, featured = false): Quote {
 export const batch2Quotes: QuoteItem[] = [
   {
     id: "ma-016",
-    slug: "musalman-ke-musalman-par-panch-huqooq",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 20",
+    slug: "neki-aur-taqwa-mein-aik-doosre-ki-madad-karo",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Ma'idah (5:2) & Makhzan-e-Akhlaq",
     author: {
-      ur: "ارشادِ نبوی ﷺ",
-      ro: "Irshad-e-Nabawi ﷺ",
-      en: "Prophetic Tradition ﷺ"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "ایک مسلمان کے دوسرے مسلمان پر پانچ حقوق",
-      ro: "Aik Musalman Ke Doosre Musalman Par Panch Huqooq",
-      en: "Five Mutual Rights of a Believer"
+      ur: "نیکی اور پرہیزگاری کے کاموں میں باہمی تعاون کا حکم",
+      ro: "Neki Aur Parhezgari Ke Kaamon Mein Bahami Taawun Ka Hukm",
+      en: "Cooperating in Righteousness and Piety, Not in Sin"
     },
     quote: {
-      ur: "ایک مسلمان کے دوسرے مسلمان پر پانچ حق ہیں: سلام کا جواب دینا، بیمار پرسی کرنا، جنازہ کے ساتھ جانا، بلاوے کو قبول کرنا اور چھینک کا جواب دینا۔",
-      ro: "Aik Musalman ke doosre Musalman par panch haq hain: salam ka jawab dena, bimar-pursi karna, janaza ke sath jana, bulaway ko qubool karna aur chheenk ka jawab dena.",
-      en: "A believer owes five duties to another believer: returning greetings, visiting the sick, attending funerals, accepting invitations, and praying for one who sneezes."
+      ur: "اور نیکی اور پرہیزگاری کے کاموں میں ایک دوسرے کے ساتھ تعاون کیا کرو، اور گناہ اور زیادتی کے کاموں میں کسی کا ساتھ مت دو؛ اور اللہ سے ڈرتے رہو۔",
+      ro: "Aur neki aur parhezgari ke kaamon mein aik doosre ke sath taawun kiya karo, aur gunah aur ziyadati ke kaamon mein kisi ka sath mat do; aur Allah se darte raho.",
+      en: "And cooperate with one another in goodness and righteousness, and do not cooperate in sin and transgression; and be mindful of Allah."
     },
     tashreeh: {
-      ur: "یہ پانچ اصول معاشرے میں باہمی محبت، ہمدردی اور بھائی چارے کی مضبوط بنیاد رکھتے ہیں۔ خوشی اور غمی میں ایک دوسرے کا ساتھ دینا ہی سچی معاشرتی زندگی ہے۔",
-      ro: "Yeh panch usool muashray mein bahami mohabbat, hamdardi aur bhai-charay ki mazboot bunyad rakhte hain. Khushi aur ghami mein aik doosre ka sath dena hi sachi muasharti zindagi hai.",
-      en: "These five social duties build a strong foundation of mutual love, empathy, and brotherhood, uniting the community in times of both joy and sorrow."
+      ur: "پسِ منظر و تشریح: سورۃ المائدہ کی یہ آیت اجتماعی زندگی کا سنہرا قانون طے کرتی ہے کہ دوستی یا رشتہ داری کی خاطر کسی کے غلط کام یا ظلم میں مددگار بننا حرام ہے، البتہ بھلائی اور خیر کا کام جہاں بھی ہو اس میں بڑھ چڑھ کر ہاتھ بٹانا فرض ہے۔ آج کا عملی سبق یہ ہے کہ ہر اچھے اور فلاحی کام میں لوگوں کا بازو بنیں اور ناجائز کاموں سے صاف معذرت کر لیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Ma'idah ki yeh aayat ijtimai zindagi ka sunehra qanoon tay karti hai ke dosti ya rishtedari ki khatir kisi ke ghalat kaam ya zulm mein madadgar banna haram hai, albatta bhalai aur khair ka kaam jahan bhi ho us mein barh charh kar hath batana farz hai. Aaj ka amli sabaq yeh hai ke har achay aur falahi kaam mein logon ka bazu banein aur najaiz kaamon se saaf maazrat kar lein.",
+      en: "Context & Practical Lesson: True loyalty never means backing a friend or relative in wrongdoing; rather, a principled person supports every noble cause while refusing to participate in injustice."
     },
     tags: [
-      { ur: "حقوق", ro: "Huqooq", en: "Social Rights" },
-      { ur: "بھائی چارہ", ro: "Bhai Chara", en: "Brotherhood" }
+      { ur: "تعاون علی البر", ro: "Taawun Alal-Birr", en: "Mutual Cooperation" },
+      { ur: "اصول پسندی", ro: "Usool-Pasandi", en: "Principled Conduct" }
     ]
   },
   {
     id: "ma-017",
-    slug: "dosti-aur-dushmani-mein-aitdaal",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 21",
+    slug: "ghussa-peena-aur-logon-ko-maaf-karna-muttaqeen-ki-shan",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Aal-e-Imran (3:134) & Makhzan-e-Akhlaq",
     author: {
-      ur: "ارشادِ نبوی ﷺ",
-      ro: "Irshad-e-Nabawi ﷺ",
-      en: "Prophetic Tradition ﷺ"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "دوستی اور دشمنی میں اعتدال کا اصول",
-      ro: "Dosti Aur Dushmani Mein Aitdaal Ka Usool",
-      en: "Moderation in Friendship and Enmity"
+      ur: "تنگدستی و خوشحالی میں خرچ کرنا اور غصہ پی جانا",
+      ro: "Tangdasti o Khushhali Mein Kharch Karna Aur Ghussa Pee Jana",
+      en: "Spending in Prosperity and Adversity and Restraining Anger"
     },
     quote: {
-      ur: "دوست کے ساتھ محبت اعتدال کے ساتھ رکھو کیونکہ ممکن ہے کبھی بگاڑ ہو جائے، اسی طرح دشمن کے ساتھ دشمنی حد سے زیادہ نہ کرو کیونکہ ممکن ہے کبھی تمہاری محبت ہو جائے۔",
-      ro: "Dost ke sath mohabbat aitdaal ke sath rakho kyunkeh mumkin hai kabhi bigaar ho jaye, isi tarah dushman ke sath dushmani had se zyada na karo kyunkeh mumkin hai kabhi tumhari mohabbat ho jaye.",
-      en: "Be moderate in your love for a friend, as misunderstandings may arise one day; and be moderate in your dislike of an opponent, as they may become your friend one day."
+      ur: "متقی وہ لوگ ہیں جو خوشحالی اور تنگدستی دونوں حالتوں میں (اللہ کی راہ میں) خرچ کرتے ہیں، اور غصے کو پی جانے والے ہیں اور لوگوں کے قصور معاف کرنے والے ہیں؛ اور اللہ احسان کرنے والوں سے محبت فرماتا ہے۔",
+      ro: "Muttaqi woh log hain jo khushhali aur tangdasti dono halaton mein (Allah ki raah mein) kharch karte hain, aur gusse ko pee jane wale hain aur logon ke qusoor maaf karne wale hain; aur Allah ihsan karne walon se mohabbat farmata hai.",
+      en: "The righteous are those who spend in charity during ease and hardship, who restrain their anger, and who pardon the people—and Allah loves the doers of good."
     },
     tashreeh: {
-      ur: "تعلقات میں توازن رکھنا اعلیٰ دانائی کی علامت ہے۔ جذبات میں آ کر کبھی ایسی حد پار نہیں کرنی چاہیے کہ کل کو صلح یا واپسی کا راستہ ہی باقی نہ رہے۔",
-      ro: "Ta'alluqat mein tawazun rakhna aala danai ki alamat hai. Jazbat mein aa kar kabhi aisi had paar nahi karni chahiye ke kal ko sulah ya wapsi ka rasta hi baqi na rahe.",
-      en: "Maintaining balance in human relationships is a sign of deep wisdom. Never cross boundaries in emotion that leave no room for future reconciliation."
+      ur: "پسِ منظر و تشریح: جنت کے وارث بننے والے متقی بندوں کی تین عملی نشانیاں بتائی گئی ہیں: مال کم ہو یا زیادہ مخلوقِ خدا پر خرچ کرنا، طیش کے وقت اپنا غصہ پی جانا، اور بدلہ لینے کی طاقت کے باوجود معاف کر کے احسان کا معاملہ کرنا۔ آج کا عملی سبق یہ ہے کہ غصے کا گھونٹ پی کر درگزر کرنے کی عادت اپنائیں کیونکہ اللہ کی محبت اسی میں پوشیدہ ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jannat ke waris banne wale muttaqi bandon ki teen amli nishaniyan batai gayi hain: maal kam ho ya zyada makhlooq-e-Khuda par kharch karna, taish ke waqt apna ghussa pee jana, aur badla lene ki taqat ke bawajood maaf kar ke ihsan ka muamla karna. Aaj ka amli sabaq yeh hai ke gusse ka ghoont pee kar darguzar karne ki aadat apnayein kyunkeh Allah ki mohabbat isi mein posheeda hai.",
+      en: "Context & Practical Lesson: Generosity in all seasons, swallowing anger when provoked, and graciously pardoning others are the three hallmarks of souls beloved by God."
     },
     tags: [
-      { ur: "اعتدال", ro: "Aitdaal", en: "Moderation" },
-      { ur: "تعلقات", ro: "Ta'alluqat", en: "Relationships" }
+      { ur: "کظمِ غیظ", ro: "Kazm-e-Ghaiz", en: "Restraining Anger" },
+      { ur: "عفو و احسان", ro: "Afw o Ihsan", en: "Forgiveness & Grace" }
     ]
   },
   {
     id: "ma-018",
-    slug: "aaj-aur-kal-barabar-hone-ka-nuqsan",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 21",
+    slug: "naap-tol-mein-kami-karne-walon-ke-liye-halakat",
+    categorySlug: "ahkam-e-khuda",
+    bookRef: "Surah Al-Mutaffifin (83:1-3) & Makhzan-e-Akhlaq",
     author: {
-      ur: "ارشادِ نبوی ﷺ",
-      ro: "Irshad-e-Nabawi ﷺ",
-      en: "Prophetic Tradition ﷺ"
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
+      en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "ہر آنے والے دن کو پچھلے دن سے بہتر بنانا",
-      ro: "Har Aane Wale Din Ko Pichle Din Se Behtar Banana",
-      en: "Making Every New Day Better Than Yesterday"
+      ur: "ناپ تول اور حقوق کی ادائیگی میں ڈنڈی مارنے کی سخت وعید",
+      ro: "Naap-Tol Aur Huqooq Ki Adaigi Mein Dandi Marne Ki Sakht Waeed",
+      en: "Woe to Those Who Give Less in Measure and Weight"
     },
     quote: {
-      ur: "جس شخص کے دونوں دن یعنی آج اور کل گزشتہ برابر ہو جائیں وہ نقصان زدہ ہے، اور جس شخص کا گزشتہ کل آج سے اچھا تھا وہ محروم ہے۔",
-      ro: "Jis shakhs ke dono din yani aaj aur kal-guzashta barabar ho jayein woh nuqsan-zada hai, aur jis shakhs ka guzashta kal aaj se acha tha woh mehroom hai.",
-      en: "Whoever's two days—today and yesterday—are equal in growth has suffered a loss; and whoever's yesterday was better than today is truly deprived."
+      ur: "بڑی ہلاکت اور تباہی ہے ناپ تول میں کمی کرنے والوں کے لیے؛ جن کا حال یہ ہے کہ جب لوگوں سے ناپ کر لیتے ہیں تو پورا پورا وصول کرتے ہیں، اور جب انہیں ناپ کر یا تول کر دیتے ہیں تو گھٹا کر دیتے ہیں۔",
+      ro: "Badi halakat aur tabahi hai naap-tol mein kami karne walon ke liye; jin ka haal yeh hai ke jab logon se naap kar lete hain to poora poora wasool karte hain, aur jab unhein naap kar ya tol kar dete hain to ghata kar dete hain.",
+      en: "Woe to those who give less in measure and weight—those who, when they take a measure from people, demand it in full, but when they measure or weigh for others, give less than due."
     },
     tashreeh: {
-      ur: "انسان کی زندگی کا مقصد مسلسل علمی اور اخلاقی ترقی ہے۔ ہر نئے سورج کے ساتھ انسان کے علم، عمل اور کردار میں پچھلے دن کے مقابلے میں بہتری آنی چاہیے۔",
-      ro: "Insan ki zindagi ka maqsad musalsal ilmi aur akhlaqi taraqqi hai. Har naye sooraj ke sath insan ke ilm, amal aur kirdar mein pichle din ke muqable mein behtari aani chahiye.",
-      en: "The purpose of life is continuous moral and intellectual growth. Every new day should bring improvement in one's knowledge, character, and good deeds."
+      ur: "پسِ منظر و تشریح: سورۃ المطففین میں تطفيف (ڈنڈی مارنے) سے مراد صرف ترازو کا وزن کم کرنا نہیں، بلکہ زندگی کے ہر معاملے میں اپنا حق پورا مانگنا اور دوسرے کا حق ادا کرتے وقت کوتاہی کرنا ہے۔ آج کا عملی سبق یہ ہے کہ دکان، کاروبار، ملازمت کی ڈیوٹی اور گھریلو حقوق میں ہمیشہ پورا اور کھرا انصاف کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Surah Al-Mutaffifin mein tatfeef (dandi marne) se murad sirf tarazu ka wazan kam karna nahi, balkay zindagi ke har muamlay mein apna haq poora mangna aur doosre ka haq ada karte waqt kotahi karna hai. Aaj ka amli sabaq yeh hai ke dukan, karobar, mulazmat ki duty aur ghareloo huqooq mein hamesha poora aur khara insaf karein.",
+      en: "Context & Practical Lesson: Fraud in weights and measures extends to every double standard where a person demands their full rights while shortchanging others in work, trade, or family duties."
     },
     tags: [
-      { ur: "وقت", ro: "Waqt", en: "Time" },
-      { ur: "ترقی", ro: "Taraqqi", en: "Self-Growth" }
+      { ur: "دیانت داری", ro: "Diyanat-Dari", en: "Fair Dealing" },
+      { ur: "حقوق کی ادائیگی", ro: "Huqooq Ki Adaigi", en: "Fulfilling Rights" }
     ]
   },
   {
