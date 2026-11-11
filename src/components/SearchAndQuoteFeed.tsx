@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
-import { Search, X, Sparkles, BookOpen } from 'lucide-react';
+import { Search, X, BookOpen, ChevronDown } from 'lucide-react';
 import { Quote } from '@/data/types';
 import QuoteCard from './QuoteCard';
 import { useLanguage } from '@/context/LanguageContext';
@@ -17,10 +17,14 @@ interface SearchAndQuoteFeedProps {
   initialQuotes: Quote[];
 }
 
+const INITIAL_VISIBLE_COUNT = 18;
+const LOAD_MORE_STEP = 24;
+
 export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeedProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTag, setSelectedTag] = useState<string>('All');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [visibleCount, setVisibleCount] = useState<number>(INITIAL_VISIBLE_COUNT);
   const { language, t } = useLanguage();
 
   const isUrdu = language === 'ur';
@@ -101,6 +105,13 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
     });
   }, [initialQuotes, searchQuery, selectedTag, selectedCategory, language]);
 
+  const visibleQuotes = useMemo(() => {
+    return filteredQuotes.slice(0, visibleCount);
+  }, [filteredQuotes, visibleCount]);
+
+  const remainingCount = Math.max(0, filteredQuotes.length - visibleQuotes.length);
+  const nextBatchCount = Math.min(LOAD_MORE_STEP, remainingCount);
+
   return (
     <section className="w-full space-y-4 sm:space-y-6">
       {/* Search Input Bar with Strict Isolation */}
@@ -112,7 +123,10 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
           <input
             type="text"
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              setVisibleCount(INITIAL_VISIBLE_COUNT);
+            }}
             placeholder={t.searchPlaceholder}
             className={`w-full h-full py-0 px-2 text-sm sm:text-base bg-transparent text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none ${
               isUrdu ? 'font-urdu leading-normal' : ''
@@ -121,7 +135,10 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
           />
           {searchQuery && (
             <button
-              onClick={() => setSearchQuery('')}
+              onClick={() => {
+                setSearchQuery('');
+                setVisibleCount(INITIAL_VISIBLE_COUNT);
+              }}
               className="px-3.5 text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 shrink-0"
               aria-label="Clear search"
             >
@@ -146,7 +163,10 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
             return (
               <button
                 key={pill.key}
-                onClick={() => setSelectedTag(pill.key)}
+                onClick={() => {
+                  setSelectedTag(pill.key);
+                  setVisibleCount(INITIAL_VISIBLE_COUNT);
+                }}
                 className={`px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${
                   isUrdu ? 'font-urdu text-xs leading-normal' : ''
                 } ${
@@ -173,6 +193,7 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
               setSearchQuery('');
               setSelectedTag('All');
               setSelectedCategory('All');
+              setVisibleCount(INITIAL_VISIBLE_COUNT);
             }}
             className={`text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1 ${
               isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
@@ -185,10 +206,59 @@ export default function SearchAndQuoteFeed({ initialQuotes }: SearchAndQuoteFeed
 
       {/* Quotes Cards Grid */}
       {filteredQuotes.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6">
-          {filteredQuotes.map((quote) => (
-            <QuoteCard key={quote.id} quote={quote} />
-          ))}
+        <div className="space-y-6 sm:space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6">
+            {visibleQuotes.map((quote) => (
+              <QuoteCard key={quote.id} quote={quote} />
+            ))}
+          </div>
+
+          {remainingCount > 0 && (
+            <div className="pt-2 pb-2 flex flex-col items-center justify-center gap-3">
+              <p
+                className={`text-xs sm:text-sm text-slate-500 dark:text-slate-400 ${
+                  isUrdu ? 'font-urdu leading-normal' : ''
+                }`}
+              >
+                {isUrdu
+                  ? `اس وقت ${visibleQuotes.length} از ${filteredQuotes.length} اقوال دکھائے جا رہے ہیں`
+                  : language === 'ro'
+                  ? `Abhi ${visibleQuotes.length} / ${filteredQuotes.length} aqwal dikhaye ja rahe hain`
+                  : `Showing ${visibleQuotes.length} of ${filteredQuotes.length} sayings`}
+              </p>
+
+              <div className="w-52 h-1.5 rounded-full bg-stone-200 dark:bg-emerald-950 overflow-hidden">
+                <div
+                  className="h-full bg-emerald-700 dark:bg-amber-400 transition-all duration-300 rounded-full"
+                  style={{
+                    width: `${Math.min(100, (visibleQuotes.length / filteredQuotes.length) * 100)}%`,
+                  }}
+                />
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setVisibleCount((prev) => prev + LOAD_MORE_STEP)}
+                className={`inline-flex items-center justify-center gap-2 px-6 py-3.5 sm:px-8 sm:py-4 rounded-2xl bg-emerald-800 hover:bg-emerald-900 text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 font-bold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all active:scale-95 cursor-pointer ${
+                  isUrdu ? 'font-urdu leading-normal' : ''
+                }`}
+              >
+                {isUrdu ? (
+                  <>
+                    <span>مزید اقوال دیکھیں</span>
+                    <span dir="ltr" className="font-sans text-xs sm:text-sm opacity-95">
+                      (Load More — {nextBatchCount} More)
+                    </span>
+                  </>
+                ) : language === 'ro' ? (
+                  <span>Mazeed Aqwal Dekhein (Load More — {nextBatchCount} More)</span>
+                ) : (
+                  <span>Load More Sayings ({nextBatchCount} More)</span>
+                )}
+                <ChevronDown className="w-4 h-4 shrink-0" />
+              </button>
+            </div>
+          )}
         </div>
       ) : (
         <div className="text-center py-16 px-4 bg-white dark:bg-slate-900 rounded-3xl border border-dashed border-slate-300 dark:border-slate-800">

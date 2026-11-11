@@ -1506,9 +1506,9 @@ export const batch4Quotes: QuoteItem[] = [
     categorySlug: "ambiya-o-hukama",
     bookRef: "Makhzan-e-Akhlaq - Page 426",
     author: {
-      ur: "علم و اخلاق",
-      ro: "Ilm o Akhlaq",
-      en: "Knowledge and Morality"
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
     },
     title: {
       ur: "علم اور اخلاق کا باہمی رشتہ",
@@ -1536,9 +1536,9 @@ export const batch4Quotes: QuoteItem[] = [
     categorySlug: "sabaq-aamoz-waqiat",
     bookRef: "Makhzan-e-Akhlaq - Page 532",
     author: {
-      ur: "قدر و قیمتِ وقت",
-      ro: "Qadr o Qeemat-e-Waqt",
-      en: "The Value of Time"
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
     },
     title: {
       ur: "وقت کی قدر اور قیمتی لمحات",
@@ -1562,62 +1562,62 @@ export const batch4Quotes: QuoteItem[] = [
   },
   {
     id: "ma-051",
-    slug: "ghussa-aur-bardasht-ki-taqat",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 304",
+    slug: "iyadat-ke-adab-aur-mareez-ki-diljoi",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Sunan Ibn Majah (1441) & Makhzan-e-Akhlaq",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "غصے پر قابو پانے کی عظمت",
-      ro: "Gusse Par Qaboo Pane Ki Azmat",
-      en: "The Greatness of Controlling Anger"
+      ur: "عیادت کے آداب: مریض کے پاس مختصر قیام اور دعا کی درخواست",
+      ro: "Iyadat Ke Adab: Mareez Ke Paas Mukhtasar Qiyam Aur Dua Ki Darkhwast",
+      en: "Etiquette of Visiting the Sick: Brevity, Comfort, and Seeking Prayers"
     },
     quote: {
-      ur: "طاقتور وہ نہیں جو کشتی میں حریف کو پچھاڑ دے، بلکہ اصل طاقتور وہ ہے جو غصے کے وقت اپنے آپ پر قابو رکھے۔",
-      ro: "Taqatwar woh nahi jo kushti mein hareef ko pachhaar de, balkay asal taqatwar woh hai jo gusse ke waqt apne aap par qaboo rakhe.",
-      en: "The strong person is not the one who overpowers others in physical wrestling, but the one who controls themselves when angry."
+      ur: "جب تم کسی بیمار کی عیادت کے لیے جاؤ تو اس کے پاس بیٹھنے میں اختصار کرو تاکہ اسے تکلیف نہ ہو، اس کی دلجوئی اور حوصلہ افزائی کرو، اور اس سے اپنے لیے دعا کی درخواست کرو کیونکہ بیمار کی دعا فرشتوں کی دعا کی طرح مقبول ہوتی ہے۔",
+      ro: "Jab tum kisi bimar ki iyadat ke liye jao to us ke paas baithne mein ikhtisar karo taake usay takleef na ho, us ki diljoi aur hosla-afzai karo, aur us se apne liye dua ki darkhwast karo kyunkeh bimar ki dua farishton ki dua ki tarah maqbool hoti hai.",
+      en: "When you visit a sick person, keep your stay brief so as not to burden them, comfort and encourage their heart, and ask them to pray for you, for the supplication of a patient is answered like that of the angels."
     },
     tashreeh: {
-      ur: "جسمانی طاقت عارضی ہے، لیکن غصے کے تیز طوفان میں اپنی زبان اور ہاتھ کو روک لینا سب سے بڑی داخلی فتح اور شجاعت ہے۔",
-      ro: "Jismani taqat aarzi hai, lekin gusse ke tez toofan mein apni zaban aur hath ko rok lena sab se badi dakhli fateh aur shuja'at hai.",
-      en: "Physical strength is fleeting, but restraining one's impulses during a storm of anger is the highest form of inner courage and conquest."
+      ur: "پسِ منظر و تشریح: بیمار پرسی کا مقصد مریض کا دل بہلانا اور بوجھ ہلکا کرنا ہوتا ہے، نہ کہ گھنٹوں بیٹھ کر یا خوفناک بیماریوں کے قصے سنا کر اسے مزید تھکا دینا۔ سنتِ نبوی ﷺ ہمیں بتاتی ہے کہ بیمار کے قریب جا کر محبت سے حال پوچھیں اور امید دلائیں۔ آج کا عملی سبق یہ ہے کہ ہسپتال یا گھر میں کسی بیمار کی عیادت کریں تو صرف چند منٹ رک کر محبت اور دعا کے ساتھ اجازت لیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Bimar-pursi ka maqsad mareez ka dil behlana aur bojh halka karna hota hai, na ke ghanton baith kar ya khaufnak bimariyon ke qissay suna kar usay mazeed thaka dena. Sunnat-e-Nabawi ﷺ hamein batati hai ke bimar ke qareeb ja kar muhabbat se haal poochein aur umeed dilayein. Aaj ka amli sabaq yeh hai ke hospital ya ghar mein kisi bimar ki iyadat karein to sirf chand minute ruk kar muhabbat aur dua ke sath ijazat lein.",
+      en: "Context & Practical Lesson: Visiting the sick is meant to uplift their spirit, not exhaust them with lengthy stays or grim anecdotes. Keep hospital and home visits brief, gentle, and reassuring."
     },
     tags: [
-      { ur: "غصہ", ro: "Ghussa", en: "Anger Management" },
-      { ur: "صبر", ro: "Sabr", en: "Self-Control" }
+      { ur: "عیادت کے آداب", ro: "Iyadat Ke Adab", en: "Visiting the Sick" },
+      { ur: "ہمدردی", ro: "Hamdardi", en: "Compassion" }
     ]
   },
   {
     id: "ma-052",
-    slug: "shukar-aur-nematon-ki-ziyadati",
+    slug: "halal-aur-pakeeza-nawalay-ki-taseer-aur-amal-e-salih",
     categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 28",
+    bookRef: "Surah Al-Mu'minun (23:51) & Sahih Muslim",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
+      ur: "احکامِ خدا (قرآن و احکامِ الٰہی)",
+      ro: "Ahkam-e-Khuda (Quran o Ahkam-e-Ilahi)",
       en: "Divine Injunctions (Al-Quran)"
     },
     title: {
-      ur: "شکر گزاری سے نعمتوں کا دوام",
-      ro: "Shukr-Guzari Se Nematon Ka Dawam",
-      en: "Perpetuating Blessings Through Gratitude"
+      ur: "حلال نوالے کی تاثیر: پاکیزہ رزق اور نیک اعمال کا گہرا رشتہ",
+      ro: "Halal Nawalay Ki Taseer: Pakeeza Rizq Aur Nek Aamaal Ka Gehra Rishta",
+      en: "The Power of a Lawful Morsel: Pure Sustenance and Righteous Action"
     },
     quote: {
-      ur: "اگر تم شکر ادا کرو گے تو میں تمہیں اور زیادہ دوں گا، اور اگر ناشکری کرو گے تو میرا عذاب بھی بہت سخت ہے۔",
-      ro: "Agar tum shukr ada karo ge to main tumhein aur zyada doonga, aur agar nash-kari karo ge to mera azaab bhi bohat sakht hai.",
-      en: "If you are grateful, I will surely increase you [in blessing]; but if you deny, indeed, My punishment is severe."
+      ur: "اے پیغمبرو! پاکیزہ اور حلال چیزیں کھاؤ اور نیک عمل کرو؛ بے شک میں ان تمام کاموں سے خوب واقف ہوں جو تم کرتے ہو۔",
+      ro: "Aye Paighambaro! Pakeeza aur halal cheezein khao aur nek amal karo; be-shak Main un tamam kaamon se khoob waqif hoon jo tum karte ho.",
+      en: "O Messengers, eat from the good and lawful foods and work righteousness. Indeed, I am fully Knowing of what you do."
     },
     tashreeh: {
-      ur: "اللہ کی دی ہوئی چھوٹی یا بڑی نعمت پر دل اور زبان سے شکر ادا کرنا اس نعمت میں برکت اور اضافے کا سب سے بڑا ذریعہ ہے۔",
-      ro: "Allah ki di hui choti ya badi nemat par dil aur zaban se shukr ada karna us nemat mein barkat aur izafay ka sab se bada zariya hai.",
-      en: "Expressing gratitude to God for every blessing, big or small, is the surest way to secure abundance and sustained favor."
+      ur: "پسِ منظر و تشریح: اللہ تعالیٰ نے اس آیت میں حلال رزق کو نیک عمل سے پہلے ذکر فرمایا ہے، کیونکہ حلال نوالہ دل میں نور، عبادت میں لذت اور دعاؤں میں قبولیت کی تاثیر پیدا کرتا ہے؛ جبکہ حرام کمائی دل کو سخت اور دعا کو مردود بنا دیتی ہے۔ آج کا عملی سبق یہ ہے کہ اپنے دسترخوان پر آنے والے ہر لقمے کی تحقیق کریں کہ آیا وہ دیانت داری اور حلال کمائی سے آیا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Allah Ta'ala ne is ayat mein halal rizq ko nek amal se pehle zikr farmaya hai, kyunkeh halal nawala dil mein noor, ibadat mein lazzat aur duaon mein qubooliyat ki taseer paida karta hai; jabkeh haram kamai dil ko sakht aur dua ko mardood bana deti hai. Aaj ka amli sabaq yeh hai ke apne dastarkhwan par aane wale har luqmay ki tehqeeq karein ke aaya woh diyanat-dari aur halal kamai se aaya hai.",
+      en: "Context & Practical Lesson: Placing lawful nourishment before righteous deeds shows that pure income fuels spiritual vitality and answered prayers, whereas unlawful earnings harden the heart."
     },
     tags: [
-      { ur: "شکر", ro: "Shukr", en: "Gratitude" },
-      { ur: "نعمت", ro: "Nemat", en: "Blessings" }
+      { ur: "حلال رزق", ro: "Halal Rizq", en: "Lawful Sustenance" },
+      { ur: "قبولیتِ دعا", ro: "Qubooliyat-e-Dua", en: "Accepted Prayer" }
     ]
   },
   {
@@ -1713,12 +1713,12 @@ export const batch4Quotes: QuoteItem[] = [
   {
     id: "ma-056",
     slug: "rizq-ki-talash-aur-tawakkul",
-    categorySlug: "ambiya-o-hukama",
-    bookRef: "Makhzan-e-Akhlaq - Page 119",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq - Page 119",
     author: {
-      ur: "دنیائے مزدور",
-      ro: "Duniya-e-Mazdoor",
-      en: "The World of Labor"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
       ur: "حلال رزق کے لیے محنت اور توکل",
@@ -1742,32 +1742,32 @@ export const batch4Quotes: QuoteItem[] = [
   },
   {
     id: "ma-057",
-    slug: "amna-o-amaan-aur-sachi-dosti",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 18",
+    slug: "safar-ke-adab-aur-ahle-khana-ki-taraf-jald-wapsi",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Sahih Bukhari (1804) & Sunan Tirmidhi (3443)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "حقیقی مومن اور امن کی علامت",
-      ro: "Haqeeqi Momin Aur Aman Ki Alamat",
-      en: "The True Believer as a Symbol of Safety"
+      ur: "سفر کے آداب: دعا، رفقاء کا خیال اور اہلِ خانہ کی طرف جلد واپسی",
+      ro: "Safar Ke Adab: Dua, Rufaqa Ka Khayal Aur Ahl-e-Khana Ki Taraf Jald Wapsi",
+      en: "Etiquette of Travel: Farewell Prayers, Care for Companions, and Swift Return"
     },
     quote: {
-      ur: "حقیقی مسلمان وہ ہے جس کی زبان اور ہاتھ سے دوسرے مسلمان محفوظ رہیں، اور سچا مہاجر وہ ہے جو گناہوں کو چھوڑ دے۔",
-      ro: "Haqeeqi Musalman woh hai jis ki zaban aur hath se doosre Musalman mehfooz rahein, aur sacha muhajir woh hai jo gunahon ko chhor de.",
-      en: "A true Muslim is one from whose tongue and hands other people are safe, and a true emigrant is one who abandons what Allah has forbidden."
+      ur: "سفر مشقت اور عذاب کا ایک ٹکڑا ہے جو انسان کو کھانے، پینے اور آرام سے روک دیتا ہے؛ لہٰذا جب تم میں سے کوئی اپنے سفر کی حاجت اور کام پورا کر لے تو فوراً اپنے اہلِ خانہ کے پاس لوٹ آئے اور راستے میں اپنے ہم سفروں کے ساتھ نرمی اور خیر خواہی سے پیش آئے۔",
+      ro: "Safar mashaqqat aur azaab ka aik tukra hai jo insan ko khane, peene aur aaram se rok deta hai; lehaza jab tum mein se koi apne safar ki hajat aur kaam poora kar le to foran apne ahl-e-khana ke paas laut aaye aur rastay mein apne hum-safaron ke sath narmi aur khair-khwahi se pesh aaye.",
+      en: "Travel is a piece of hardship that deprives one of normal food, drink, and rest; therefore, once you finish the purpose of your journey, hasten back to your family and always treat your fellow travelers with kindness and forbearance."
     },
     tashreeh: {
-      ur: "اسلام امن اور سلامتی کا دین ہے۔ جس انسان کے رویے سے معاشرے کے لوگ خوفزدہ ہوں، اس کا ایمان ناقص ہے۔",
-      ro: "Islam aman aur salamti ka deen hai. Jis insan ke rawaiye se muashray ke log khaufzada hon, us ka eman naqis hai.",
-      en: "Islam is a religion of peace. Anyone whose behavior causes fear or harm to others falls short of complete faith."
+      ur: "پسِ منظر و تشریح: سفر انسان کے اصل مزاج اور اخلاق کا امتحان ہوتا ہے۔ اسلامی آدابِ سفر میں بزرگوں اور گھر والوں سے دعا لے کر نکلنا، سواری اور ساتھیوں کا خیال رکھنا، اور کام نمٹا کر بلاوجہ آوارہ گردی کے بجائے گھر لوٹ آنا شامل ہے۔ آج کا عملی سبق یہ ہے کہ سفر پر نکلتے وقت دعا پڑھ کر جائیں اور راستے میں دوسروں کے لیے آسانی پیدا کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Safar insan ke asal mizaj aur akhlaq ka imtihan hota hai. Islami adab-e-safar mein buzurgan aur ghar walon se dua le kar nikalna, sawari aur sathiyon ka khayal rakhna, aur kaam nimta kar bila-wajah waqt zaya karne ke bajaye ghar laut aana shamil hai. Aaj ka amli sabaq yeh hai ke safar par nikalte waqt dua parh kar jayein aur rastay mein doosron ke liye asani paida karein.",
+      en: "Context & Practical Lesson: Travel reveals true character. Islamic etiquette teaches bidding farewell with prayers, showing patience toward fellow travelers, and returning to family responsibly once business concludes."
     },
     tags: [
-      { ur: "امن", ro: "Aman", en: "Peace" },
-      { ur: "مومن", ro: "Momin", en: "Believer" }
+      { ur: "سفر کے آداب", ro: "Safar Ke Adab", en: "Travel Etiquette" },
+      { ur: "رفقائے سفر", ro: "Rufaqa-e-Safar", en: "Companionship" }
     ]
   },
   {
@@ -2075,62 +2075,62 @@ export const batch5Quotes: QuoteItem[] = [
   },
   {
     id: "ma-068",
-    slug: "shukar-aur-sabir-banda",
-    categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 18",
+    slug: "bimar-pursi-ki-masnoon-dua-aur-shifa-ki-umeed",
+    categorySlug: "khasail-e-nabawi",
+    bookRef: "Sahih Bukhari (5656) & Sunan Abi Dawud (3106)",
     author: {
-      ur: "ارشادِ نبوی ﷺ",
-      ro: "Irshad-e-Nabawi ﷺ",
-      en: "Prophetic Tradition ﷺ"
+      ur: "خصائل و شمائلِ نبوی ﷺ",
+      ro: "Khasail o Shamail-e-Nabawi ﷺ",
+      en: "Prophetic Character & Manners ﷺ"
     },
     title: {
-      ur: "مومن کا ہر حال میں خیر پر ہونا",
-      ro: "Momin Ka Har Haal Mein Khair Par Hona",
-      en: "The Believer is Always in a State of Good"
+      ur: "بیمار پرسی کی دعا: تسلی، ہمدردی اور شفا کی التجا",
+      ro: "Bimar-Pursi Ki Dua: Tasalli, Hamdardi Aur Shifa Ki Iltija",
+      en: "Prayer When Visiting the Sick: Comfort, Empathy, and Supplication for Recovery"
     },
     quote: {
-      ur: "مومن کا معاملہ بھی عجیب ہے، اس کے لیے ہر حال میں بھلائی ہے۔ خوشی ملے تو شکر کرتا ہے (جو اس کے لیے بہتر ہے) اور تکلیف پہنچے تو صبر کرتا ہے (جو بھی اس کے لیے بہتر ہے)۔",
-      ro: "Momin ka mamla bhi ajeeb hai, us ke liye har haal mein bhalai hai. Khushi milay to shukr karta hai aur takleef pohanche to sabr karta hai.",
-      en: "Wondrous is the affair of a believer; there is good for him in every matter. If joy comes, he is grateful; if adversity strikes, he is patient."
+      ur: "جب نبی کریم ﷺ کسی مریض کی عیادت کے لیے تشریف لے جاتے تو شفقت سے اس کی پیشانی پر ہاتھ رکھ کر فرماتے: کوئی گھبرانے کی بات نہیں، ان شاء اللہ یہ بیماری گناہوں سے پاکیزگی اور طہارت کا ذریعہ ہے؛ اور فرماتے کہ سات مرتبہ عظیم عرش کے رب اللہ سے اس کی شفا کی دعا مانگو۔",
+      ro: "Jab Nabi Kareem ﷺ kisi mareez ki iyadat ke liye tashreef le jatay to shafqat se us ki peshani par hath rakh kar farmate: koi ghabrane ki baat nahi, In sha Allah yeh bimari gunahon se pakeezgi aur taharat ka zariya hai; aur farmate ke saat martaba Azeem Arsh ke Rab Allah se us ki shifa ki dua mango.",
+      en: "Whenever the Prophet ﷺ visited a patient, he would gently place his hand upon them and offer the comforting prayer: 'No harm; it will be a purification from sins, if Allah wills,' and he taught praying seven times to the Lord of the Mighty Throne for the patient's complete healing."
     },
     tashreeh: {
-      ur: "مومن زندگی کے نشیب و فراز میں گھبراتا نہیں بلکہ ہر حالت کو الٰہی آزمائش سمجھ کر مثبت رویہ اپناتا ہے۔",
-      ro: "Momin zindagi ke nasheb o faraz mein ghabrata nahi balkay har halat ko ilahi aazmaish samajh kar musbat rawaiya apnata hai.",
-      en: "A believer does not despair amid life's ups and downs, viewing every situation through the lens of gratitude or patience."
+      ur: "پسِ منظر و تشریح: بیمار پرسی محض ایک رسمی حاضری نہیں بلکہ ٹوٹے ہوئے دل کو حوصلہ دینے اور رب کے حضور شفا کی صدقِ دل سے التجا کرنے کا نام ہے۔ نبی کریم ﷺ کی دعا مریض کو یہ یقین دلاتی تھی کہ تکلیف بھی مومن کے لیے درجات کی بلندی اور کفارۂ گناہ بن جاتی ہے۔ آج کا عملی سبق یہ ہے کہ کسی بیمار سے ملیں تو مایوسی پھیلانے کے بجائے مسنون دعا پڑھیں اور اسے شفا کی یقینی امید دلائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Bimar-pursi mehez aik rasmi haazri nahi balkay tootay huye dil ko hosla dene aur Rab ke huzoor shifa ki sidq-e-dil se iltija karne ka naam hai. Nabi Kareem ﷺ ki dua mareez ko yeh yaqeen dilati thi ke takleef bhi momin ke liye darajaat ki bulandi aur kaffara-e-gunah ban jati hai. Aaj ka amli sabaq yeh hai ke kisi bimar se milein to mayousi phailane ke bajaye masnoon dua parhein aur usay shifa ki yaqeeni umeed dilayein.",
+      en: "Context & Practical Lesson: Visiting the sick is a spiritual service of reassurance and heartfelt prayer, reminding the patient that endurance elevates rank and wipes away faults. Always speak hope and pray sincerely at a bedside."
     },
     tags: [
-      { ur: "شکر و صبر", ro: "Shukr o Sabr", en: "Gratitude and Patience" },
-      { ur: "مومن", ro: "Momin", en: "Believer" }
+      { ur: "بیمار پرسی کی دعا", ro: "Bimar-Pursi Ki Dua", en: "Healing Prayer" },
+      { ur: "سنتِ عیادت", ro: "Sunnat-e-Iyadat", en: "Sunnah of Visiting" }
     ]
   },
   {
     id: "ma-069",
-    slug: "tehfooz-e-sharmgah-o-zaban",
+    slug: "aulad-ke-darmiyan-insaf-aur-barabari-ka-hukm",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 17",
+    bookRef: "Sahih Bukhari (2587) & Sahih Muslim (1623)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "زبان اور شرمگاہ کی حفاظت کی ضمانت",
-      ro: "Zaban Aur Sharmgah Ki Hifazat Ki Zamanat",
-      en: "Guarantee of Paradise Through Guarding Speech and Chastity"
+      ur: "اولاد کے درمیان انصاف: محبت، عطیات اور برتاؤ میں برابری",
+      ro: "Aulad Ke Darmiyan Insaf: Muhabbat, Atiyyat Aur Bartao Mein Barabari",
+      en: "Justice Among Children: Fairness in Gifts, Love, and Treatment"
     },
     quote: {
-      ur: "جس شخص نے اپنی زبان اور شرمگاہ کی حفاظت کی ذمہ داری لی، میں اس کے لیے جنت کا ضامن بنتا ہوں۔",
-      ro: "Jis shakhs ne apni zaban aur sharmgah ki hifazat ki zimmedari li, main us ke liye Jannat ka zamin banta hoon.",
-      en: "Whoever guarantees for me what is between their jaws [tongue] and what is between their legs [chastity], I guarantee Paradise for them."
+      ur: "اللہ تعالیٰ سے ڈرو اور اپنی تمام اولاد کے درمیان عدل و انصاف اور برابری کا سلوک کرو؛ جس طرح تم یہ پسند کرتے ہو کہ تمہارے تمام بچے تمہارے ساتھ حسنِ سلوک اور فرمانبرداری میں برابر رہیں، اسی طرح تم بھی ان سب کے ساتھ برابر رہو۔",
+      ro: "Allah Ta'ala se daro aur apni tamam aulad ke darmiyan adal o insaf aur barabari ka sulook karo; jis tarah tum yeh pasand karte ho ke tumhare tamam bachay tumhare sath husn-e-sulook aur farman-bardari mein barabar rahein, isi tarah tum bhi un sab ke sath barabar raho.",
+      en: "Fear Allah and treat all of your children with equal justice and fairness; just as you wish for all of them to honor and care for you equally, show impartiality among them."
     },
     tashreeh: {
-      ur: "انسان کی تباہی کا بیشتر حصہ ان دو اعضاء کے غلط استعمال سے ہوتا ہے۔ ان پر قابو پانا دین کا نصف حصہ ہے۔",
-      ro: "Insan ki tabaahi ka beshtar hissa in do azaa ke ghalat istemal se hota hai. In par qaboo pana deen ka nisf hissa hai.",
-      en: "Most human destruction stems from the misuse of these two faculties; mastering them secures spiritual salvation."
+      ur: "پسِ منظر و تشریح: جب حضرت بشیرؓ نے اپنے ایک بیٹے کو خاص عطیہ دے کر حضور اکرم ﷺ کو گواہ بنانا چاہا تو آپ ﷺ نے یہ کہہ کر گواہ بننے سے انکار فرما دیا کہ میں ظلم پر گواہ نہیں بنتا۔ بیٹے اور بیٹیوں میں تفریق یا ایک بچے کو بے جا نوازنا بہن بھائیوں میں زندگی بھر کے حسد اور نفرت کا بیج بو دیتا ہے۔ آج کا عملی سبق یہ ہے کہ تحفے تحائف، توجہ اور وراثت کے معاملات میں اپنی اولاد کے درمیان مکمل انصاف قائم رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jab Hazrat Basheer (R.A) ne apne aik betay ko khaas atiya de kar Huzoor Akram ﷺ ko gawah banana chaha to Aap ﷺ ne yeh keh kar gawah ban'ne se inkar farma diya ke main zulm par gawah nahi banta. Betay aur betiyon mein tafreeq ya aik bachay ko be-ja nawazna behan bhaiyon mein zindagi bhar ke hasad aur nafrat ka beej bo deta hai. Aaj ka amli sabaq yeh hai ke tohfay tahaif, tawajjo aur wirasat ke muamlat mein apni aulad ke darmiyan mukammal insaf qayam rakhein.",
+      en: "Context & Practical Lesson: Favoritism among children—whether between sons and daughters or siblings—plants lifelong resentment within families. Maintain strict fairness in gifts, attention, and kindness."
     },
     tags: [
-      { ur: "حفاظت", ro: "Hifazat", en: "Protection" },
-      { ur: "جنت", ro: "Jannat", en: "Paradise" }
+      { ur: "اولاد میں انصاف", ro: "Aulad Mein Insaf", en: "Family Justice" },
+      { ur: "تربیتِ اولاد", ro: "Tarbiyat-e-Aulad", en: "Parenting Ethics" }
     ]
   },
   {
@@ -2165,62 +2165,62 @@ export const batch5Quotes: QuoteItem[] = [
   },
   {
     id: "ma-071",
-    slug: "tijarat-aur-diyaanat-dari",
+    slug: "ustad-ka-ihtiram-aur-ibn-abbas-ka-adab",
     categorySlug: "aqwal-e-sahaba",
-    bookRef: "Makhzan-e-Akhlaq - Page 138",
+    bookRef: "Al-Mustadrak al-Hakim (5812) & Makhzan-e-Akhlaq",
     author: {
-      ur: "اقوالِ حکماء",
-      ro: "Aqwal-e-Hukama",
-      en: "Sayings of Sages"
+      ur: "حضرت عبداللہ بن عباس رضی اللہ عنہ",
+      ro: "Hazrat Abdullah bin Abbas (R.A)",
+      en: "Hazrat Abdullah bin Abbas (R.A)"
     },
     title: {
-      ur: "تجارتی دیانت اور سچا تاجر",
-      ro: "Tijarati Diyanat Aur Sacha Tajir",
-      en: "Commercial Honesty and the Truthful Merchant"
+      ur: "استاد کا احترام: علم والوں کی تعظیم اور عاجزی کا سنہرا اصول",
+      ro: "Ustad Ka Ihtiram: Ilm Walon Ki Tazeem Aur Aajizi Ka Sunehra Usool",
+      en: "Honoring Teachers: Humility Before Scholars and Bearers of Knowledge"
     },
     quote: {
-      ur: "سچا اور دیانت دار تاجر قیامت کے دن انبیاء اور شہداء کے ساتھ ہو گا، کیونکہ تجارت میں سچائی بہت بڑا جہاد ہے۔",
-      ro: "Sacha aur diyanat-dar tajir qayamat ke din Ambiya aur Shohada ke sath hoga, kyunkeh tijarat mein sachai bohat bada jihad hai.",
-      en: "The truthful, honest merchant will be with the Prophets and martyrs on the Day of Judgment, for business integrity is a great struggle."
+      ur: "جب حضرت عبداللہ بن عباس رضی اللہ عنہ نے اپنے استاد حضرت زید بن ثابت رضی اللہ عنہ کی سواری کی لگام تھام لی اور انہوں نے فرمایا کہ اے رسول اللہ ﷺ کے چچا زاد بھائی ایسا نہ کیجیے، تو ابنِ عباسؓ نے جواب دیا: ہمیں حکم دیا گیا ہے کہ ہم اپنے اساتذہ اور اہلِ علم کے ساتھ اسی طرح ادب و احترام کا برتاؤ کریں۔",
+      ro: "Jab Hazrat Abdullah bin Abbas (R.A) ne apne ustad Hazrat Zaid bin Thabit (R.A) ki sawari ki lagam tham li aur unhon ne farmaya ke aye Rasool Allah ﷺ ke chacha-zad bhai aisa na kijiye, to Ibn-e-Abbas (R.A) ne jawab diya: hamein hukm diya gaya hai ke hum apne asatiza aur ahl-e-ilm ke sath isi tarah adab o ehtiram ka bartao karein.",
+      en: "When Hazrat Abdullah ibn Abbas (R.A) held the reins of his teacher Zaid bin Thabit's mount and Zaid protested, 'O cousin of the Messenger of Allah ﷺ, please do not do this,' Ibn Abbas (R.A) replied: 'This is how we have been commanded to honor our teachers and scholars.'"
     },
     tashreeh: {
-      ur: "مال بیچتے وقت عیب چھپانا اور جھوٹی قسمیں کھانا دنیا کی عارضی کمائی تو دے سکتا ہے لیکن آخرت برباد کر دیتا ہے۔",
-      ro: "Maal bechte waqt aib chhupana aur jhooti qasmein khana duniya ki aarzi kamai to de sakta hai lekin akhirat barbad kar deta hai.",
-      en: "Hiding defects or swearing false oaths in business may bring temporary worldly profit, but it ruins the hereafter."
+      ur: "پسِ منظر و تشریح: حضرت عبداللہ بن عباسؓ خاندانِ نبوت کے چشم و چراغ اور 'حبر الامۃ' (امت کے بہت بڑے عالم) ہونے کے باوجود اپنے استاد کی سواری کی رکاب تھام کر یہ پیغام دے گئے کہ علم حسب نسب سے نہیں بلکہ استاد کے ادب سے ملتا ہے؛ جواباً حضرت زید بن ثابتؓ نے بھی ان کے ہاتھ چوم کر اہلِ بیت کی تعظیم کی۔ آج کا عملی سبق یہ ہے کہ اپنے اساتذہ کا احترام دل سے کریں اور ان کے سامنے تکبر یا بحث سے گریز کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Hazrat Abdullah bin Abbas (R.A) khandan-e-nubuwat ke chashm-o-chiragh aur 'Habr-ul-Ummah' hone ke bawajood apne ustad ki sawari ki rikab tham kar yeh paigham de gaye ke ilm hasab-nasab se nahi balkay ustad ke adab se milta hai; jawab-an Hazrat Zaid bin Thabit (R.A) ne bhi un ke hath choom kar ahl-e-bait ki tazeem ki. Aaj ka amli sabaq yeh hai ke apne asatiza ka ehtiram dil se karein aur un ke samne takabbur ya behas se gurez karein.",
+      en: "Context & Practical Lesson: True scholarship begins with humility. Holding a teacher's stirrup demonstrates that blessed knowledge is earned through reverence, sincere service, and deep gratitude toward one's mentors."
     },
     tags: [
-      { ur: "تجارت", ro: "Tijarat", en: "Commerce" },
-      { ur: "دیانت", ro: "Diyanat", en: "Honesty" }
+      { ur: "استاد کا احترام", ro: "Ustad Ka Ihtiram", en: "Respecting Teachers" },
+      { ur: "ادب و علم", ro: "Adab o Ilm", en: "Academic Humility" }
     ]
   },
   {
     id: "ma-072",
-    slug: "hasad-aag-ki-tarah",
+    slug: "amanat-ki-wapsi-aur-khayanat-ka-badla-khayanat-se-na-dena",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 20",
+    bookRef: "Sunan Abi Dawud (3534) & Sunan al-Tirmidhi (1264)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "حسد نیکیوں کو اس طرح کھاتا ہے جیسے آگ لکڑی کو",
-      ro: "Hasad Nekiyon Ko Is Tarah Khata Hai Jaise Aag Lakri Ko",
-      en: "Envy Consumes Good Deeds Just as Fire Consumes Wood"
+      ur: "امانت کی واپسی: خائن کے ساتھ بھی خیانت نہ کرنے کا حکم",
+      ro: "Amanat Ki Wapsi: Khain Ke Sath Bhi Khayanat Na Karne Ka Hukm",
+      en: "Returning Trusts: Never Betray Even the One Who Betrayed You"
     },
     quote: {
-      ur: "حسد سے بچو کیونکہ حسد نیکیوں کو اس طرح کھا جاتا ہے جیسے آگ خشک لکڑی کو جلا دیتی ہے۔",
-      ro: "Hasad se bacho kyunkeh hasad nekiyon ko is tarah kha jata hai jaise aag khushk lakri ko jala deti hai.",
-      en: "Beware of envy, for envy consumes good deeds just as fire consumes dry wood."
+      ur: "اس شخص کو بھی اس کی امانت پوری واپس لوٹاؤ جس نے تم پر بھروسہ کر کے تمہیں امین بنایا، اور اس شخص کے ساتھ بھی خیانت مت کرو جس نے تمہارے ساتھ خیانت کی ہو۔",
+      ro: "Us shakhs ko bhi us ki amanat poori wapis lautao jis ne tum par bharosa kar ke tumhein ameen banaya, aur us shakhs ke sath bhi khayanat mat karo jis ne tumhare sath khayanat ki ho.",
+      en: "Return the trust faithfully to the one who entrusted it to you, and do not betray even the one who has betrayed you."
     },
     tashreeh: {
-      ur: "دوسروں کی نعمتوں پر جلنا اور ان کے زوال کی تمنا کرنا انسان کے اپنے اعمالِ صالحہ کو نیست و نابود کر دیتا ہے۔",
-      ro: "Doosron ki nematon par jalna aur un ke zawal ki tamna karna insan ke apne aamaal-e-saliha ko nest-o-nabood kar deta hai.",
-      en: "Resenting the blessings of others and wishing for their demise destroys a person's own spiritual achievements."
+      ur: "پسِ منظر و تشریح: عام دنیاوی اصول 'اینٹ کا جواب پتھر سے' ہوتا ہے، مگر اسلامی اخلاقیات ہمیں سکھاتی ہیں کہ کسی دوسرے کی بددیانتی ہمیں بے ایمان بننے کا جواز نہیں دیتی۔ امانت خواہ پیسوں کی ہو، کسی کے راز کی یا ذمہ داری کی، اسے بغیر کمی بیشی کے لوٹانا ایمان کی علامت ہے۔ آج کا عملی سبق یہ ہے کہ اگر کسی نے آپ کا حق مارا بھی ہو تو آپ کے پاس اس کی رکھی امانت یا حق کو ہرگز مت روکیں بلکہ اصول پر قائم رہیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Aam duniyawi usool 'eent ka jawab patthar se' hota hai, magar islami akhlaqiyat hamein sikhati hain ke kisi doosre ki bad-diyanati hamein be-iman ban'ne ka jawaz nahi deti. Amanat khwah paison ki ho, kisi ke raaz ki ya zimmedari ki, usay baghair kami-beshi ke lautana eman ki alamat hai. Aaj ka amli sabaq yeh hai ke agar kisi ne aap ka haq mara bhi ho to aap ke paas us ki rakhi amanat ya haq ko hargiz mat rokein balkay usool par qayam rahein.",
+      en: "Context & Practical Lesson: Islamic integrity rises above retaliation. Another person's dishonesty never justifies compromising your own trustworthiness—always fulfill deposits, secrets, and responsibilities in full."
     },
     tags: [
-      { ur: "حسد", ro: "Hasad", en: "Envy" },
-      { ur: "نیکیاں", ro: "Nekiyan", en: "Good Deeds" }
+      { ur: "امانت کی واپسی", ro: "Amanat Ki Wapsi", en: "Returning Trusts" },
+      { ur: "دیانت داری", ro: "Diyanat-dari", en: "Integrity" }
     ]
   },
   {
@@ -2229,9 +2229,9 @@ export const batch5Quotes: QuoteItem[] = [
     categorySlug: "aqwal-e-sahaba",
     bookRef: "Makhzan-e-Akhlaq - Page 140",
     author: {
-      ur: "اقوالِ حکماء",
-      ro: "Aqwal-e-Hukama",
-      en: "Wisdom of Philosophers"
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
     },
     title: {
       ur: "سچائی اور بلند کردار کی طاقت",
@@ -2255,32 +2255,32 @@ export const batch5Quotes: QuoteItem[] = [
   },
   {
     id: "ma-074",
-    slug: "musibat-mein-sabar-aur-dua",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 12",
+    slug: "waqt-ki-pabandi-aur-har-guzartay-din-ka-muhasaba",
+    categorySlug: "aqwal-e-sahaba",
+    bookRef: "Hilyat al-Awliya (Ibn Mas'ud) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "حضرت عبداللہ بن مسعود رضی اللہ عنہ",
+      ro: "Hazrat Abdullah bin Mas'ud (R.A)",
+      en: "Hazrat Abdullah bin Mas'ud (R.A)"
     },
     title: {
-      ur: "مشکلات میں دعا اور صبر کا سہارا",
-      ro: "Mushkilat Mein Dua Aur Sabr Ka Sahara",
-      en: "The Support of Prayer and Patience in Hardship"
+      ur: "وقت کی پابندی اور ہر ڈوبتے سورج پر اعمال کا محاسبہ",
+      ro: "Waqt Ki Pabandi Aur Har Doobtay Sooraj Par Aamaal Ka Muhasaba",
+      en: "Valuing Every Passing Day: Accounting for Time Before Sunset"
     },
     quote: {
-      ur: "مصیبت اور پریشانی کے وقت صبر اور نماز کے ذریعے اللہ سے مدد طلب کرو، بے شک اللہ صبر کرنے والوں کے ساتھ ہے۔",
-      ro: "Musibat aur pareshani ke waqt sabr aur namaz ke zariye Allah se madad talab karo, be-shakh Allah sabr karne wale ke sath hai.",
-      en: "Seek help through patience and prayer during hardships; indeed, Allah is with those who patiently persevere."
+      ur: "مجھے کبھی کسی چیز پر اتنا پچھتاوا نہیں ہوا جتنا اس دن پر جس کا سورج ڈوب گیا اور میری مقررہ عمر کا ایک دن کم ہو گیا، مگر اس دن میرے نیک اعمال میں کوئی اضافہ نہ ہو سکا۔",
+      ro: "Mujhe kabhi kisi cheez par itna pachtawa nahi huwa jitna us din par jis ka sooraj doob gaya aur meri muqarrara umar ka aik din kam ho gaya, magar us din mere nek aamaal mein koi izafa na ho saka.",
+      en: "I have never regretted anything as deeply as a day whose sun has set, shortening my appointed lifespan while my store of good deeds did not grow."
     },
     tashreeh: {
-      ur: "انسان جب تمام زمینی اسباب سے مایوس ہو جاتا ہے تب نماز اور صبر کا رابطہ اسے آسمانی سکون اور غیبی مدد عطا کرتا ہے۔",
-      ro: "Insan jab tamam zamini asbab se mayous ho jata hai tab namaz aur sabr ka rabta usay asmani sukoon aur ghaibi madad ata karta hai.",
-      en: "When all earthly means fail, the spiritual connection of patience and prayer brings heavenly tranquility and unseen divine aid."
+      ur: "پسِ منظر و تشریح: جلیل القدر صحابی حضرت عبداللہ بن مسعودؓ وقت کی پابندی اور قدر کا ایسا معیار بیان فرماتے ہیں جو انسان کو غفلت سے جگا دیتا ہے؛ ہر گزرتا دن دراصل ہماری زندگی کے کھاتے سے ایک ورق کم کرتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے دن کا آغاز واضح منصوبہ بندی سے کریں اور سورج غروب ہونے سے پہلے کم از کم ایک مستقل نیکی یا مفید علمی کام ضرور مکمل کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jaleel-ul-Qadr sahabi Hazrat Abdullah bin Mas'ud (R.A) waqt ki pabandi aur qadr ka aisa mayar bayan farmate hain jo insan ko ghaflat se jaga deta hai; har guzarta din dar-asal hamari zindagi ke khatay se aik waraq kam karta hai. Aaj ka amli sabaq yeh hai ke apne din ka aaghaz wazeh mansooba-bandi se karein aur sooraj ghuroob hone se pehle kam az kam aik mustaqil neki ya mufeed ilmi kaam zaroor mukammal karein.",
+      en: "Context & Practical Lesson: Every sunset marks one fewer day in our earthly life. Live intentionally by planning your daily hours carefully and ensuring each day adds lasting spiritual or productive value."
     },
     tags: [
-      { ur: "دعا", ro: "Dua", en: "Prayer" },
-      { ur: "صبر", ro: "Sabr", en: "Patience" }
+      { ur: "وقت کی پابندی", ro: "Waqt Ki Pabandi", en: "Punctuality" },
+      { ur: "محاسبۂ نفس", ro: "Muhasaba-e-Nafs", en: "Self-Accounting" }
     ]
   },
   {
@@ -2562,9 +2562,9 @@ export const batch6Quotes: QuoteItem[] = [
     categorySlug: "sabaq-aamoz-waqiat",
     bookRef: "Makhzan-e-Akhlaq - Page 355",
     author: {
-      ur: "حقیقتِ دنیا",
-      ro: "Haqeeqat-e-Duniya",
-      en: "Reality of the World"
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
     },
     title: {
       ur: "دنیا ایک فریب ہے",
@@ -2588,32 +2588,32 @@ export const batch6Quotes: QuoteItem[] = [
   },
   {
     id: "ma-085",
-    slug: "maano-ki-qadr-o-manzilat",
+    slug: "qarz-jald-ada-karne-ki-fazilat-aur-tal-matol-ki-muzammatt",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 28",
+    bookRef: "Sahih Bukhari (2305, 2387) & Sunan Ibn Majah (2413)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "ماں باپ کے حقوق اور فرماں برداری",
-      ro: "Maa Baap Ke Huqooq Aur Farman-bardari",
-      en: "Rights and Obedience to Parents"
+      ur: "قرض جلد ادا کرنے کی فضیلت اور سچی نیت میں غیبی مدد",
+      ro: "Qarz Jald Ada Karne Ki Fazilat Aur Sachi Niyat Mein Ghaibi Madad",
+      en: "Virtue of Prompt Debt Repayment and Unseen Aid for Sincere Borrowers"
     },
     quote: {
-      ur: "والدین کی رضا میں رب کی رضا ہے اور ان کی ناراضگی میں رب کی ناراضگی ہے۔",
-      ro: "Walideen ki raza mein Rab ki raza hai aur un ki narazgi mein Rab ki narazgi hai.",
-      en: "The pleasure of God lies in the pleasure of parents, and the displeasure of God lies in the displeasure of parents."
+      ur: "تم میں سے سب سے بہترین لوگ وہ ہیں جو قرض کی ادائیگی میں سب سے اچھے اور وقت کے پابند ہیں؛ اور جو شخص لوگوں کا مال ادا کرنے کی سچی نیت سے قرض لیتا ہے اللہ اس کی طرف سے ادائیگی کے اسباب پیدا فرما دیتا ہے، جبکہ استطاعت کے باوجود ادائیگی میں ٹال مٹول کرنا ظلم ہے۔",
+      ro: "Tum mein se sab se behtareen log woh hain jo qarz ki adaigi mein sab se achay aur waqt ke paband hain; aur jo shakhs logon ka maal ada karne ki sachi niyat se qarz leta hai Allah us ki taraf se adaigi ke asbab paida farma deta hai, jabkeh istita'at ke bawajood adaigi mein taal-matol karna zulm hai.",
+      en: "The best among you are those finest and promptest in repaying their debts; whoever borrows with the sincere resolve to pay back, Allah opens pathways for their repayment, whereas delaying payment despite having means is injustice."
     },
     tashreeh: {
-      ur: "ماں باپ کی خدمت اور ان کا دل خوش کرنا اللہ کی خوشنودی حاصل کرنے کا سب سے آسان اور بڑا ذریعہ ہے۔",
-      ro: "Maa baap ki khidmat aur un ka dil khush karna Allah ki khushnoodi hasil karne ka sab se asan aur bada zariya hai.",
-      en: "Serving parents and bringing joy to their hearts is the easiest and greatest path to winning divine pleasure."
+      ur: "پسِ منظر و تشریح: قرض ایک ایسی ذمہ داری ہے جس کی معافی اللہ کے نزدیک بھی صاحبِ حق کی ادائیگی یا معافی سے مشروط ہے۔ جو شخص ادھار لیتے وقت واپسی کا پختہ ارادہ رکھے اللہ اس کے رزق میں برکت ڈالتا ہے، مگر پیسے ہونے کے باوجود قرض خواہ کو چکر لگوانا کبیرہ ظلم اور بے برکتی کی جڑ ہے۔ آج کا عملی سبق یہ ہے کہ جب بھی ہاتھ میں رقم آئے، اپنے شوق اور فضول خرچی سے پہلے دوسروں کا قرض فوری ادا کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Qarz aik aisi zimmedari hai jis ki maafi Allah ke nazdeek bhi sahib-e-haq ki adaigi ya maafi se mashroot hai. Jo shakhs udhar lete waqt wapsi ka pukhta irada rakhay Allah us ke rizq mein barkat dalta hai, magar paisay hone ke bawajood qarz-khwah ko chakkar lagwana kabeera zulm aur be-barkati ki jarr hai. Aaj ka amli sabaq yeh hai ke jab bhi hath mein raqam aaye, apne shouq aur fuzool-kharchi se pehle doosron ka qarz fori ada karein.",
+      en: "Context & Practical Lesson: Sincere intent to repay invites divine assistance, whereas deliberately delaying repayment despite having the ability destroys trust and constitutes oppression. Always prioritize settling debts over personal luxuries."
     },
     tags: [
-      { ur: "والدین", ro: "Walideen", en: "Parents" },
-      { ur: "فرماں برداری", ro: "Farman-bardari", en: "Filial Piety" }
+      { ur: "قرض کی ادائیگی", ro: "Qarz Ki Adaigi", en: "Debt Repayment" },
+      { ur: "معاشی دیانت", ro: "Maashi Diyanat", en: "Financial Ethics" }
     ]
   },
   {
@@ -2678,32 +2678,32 @@ export const batch6Quotes: QuoteItem[] = [
   },
   {
     id: "ma-088",
-    slug: "shukriya-aur-insani-talluqat",
+    slug: "sulah-karane-ki-fazilat-nafli-roze-aur-namaz-se-afzal",
     categorySlug: "irshadat-e-nabawi",
-    bookRef: "Makhzan-e-Akhlaq - Page 19",
+    bookRef: "Sunan Abi Dawud (4919) & Sunan al-Tirmidhi (2509)",
     author: {
       ur: "ارشادِ نبوی ﷺ",
       ro: "Irshad-e-Nabawi ﷺ",
       en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "لوگوں کا شکریہ ادا کرنا",
-      ro: "Logon Ka Shukriya Ada Karna",
-      en: "Expressing Gratitude to People"
+      ur: "صلح کرانے کی فضیلت: آپس کی رنجشیں مٹانا عظیم عبادت ہے",
+      ro: "Sulah Karane Ki Fazilat: Aapas Ki Ranjishein Mitana Azeem Ibadat Hai",
+      en: "Virtue of Reconciliation: Mending Broken Hearts Surpasses Voluntary Worship"
     },
     quote: {
-      ur: "جو شخص لوگوں کا شکریہ ادا نہیں کرتا، وہ اللہ کا بھی شکر ادا نہیں کرتا۔",
-      ro: "Jo shakhs logon ka shukriya ada nahi karta, woh Allah ka bhi shukr ada nahi karta.",
-      en: "Whoever does not thank people has not thanked Allah."
+      ur: "کیا میں تمہیں نفلی روزے، نفلی نماز اور صدقے کے درجے سے بھی افضل عمل نہ بتاؤں؟ وہ لوگوں کے درمیان بگڑے ہوئے تعلقات درست کر کے صلح کرانا ہے، کیونکہ آپس کی پھوٹ اور فساد دین کی جڑ کو مونڈ کر رکھ دیتا ہے۔",
+      ro: "Kya main tumhein nafli roze, nafli namaz aur sadqay ke darjay se bhi afzal amal na bataoon? Woh logon ke darmiyan bigray huye talluqat durust kar ke sulah karana hai, kyunkeh aapas ki phoot aur fasad deen ki jarr ko moond kar rakh deta hai.",
+      en: "Shall I not tell you of a deed higher in rank than voluntary fasting, prayer, and charity? It is reconciling people and mending strained relationships, for mutual discord shaves away the very roots of faith."
     },
     tashreeh: {
-      ur: "کسی کی نیکی یا احسان کا اعتراف کرنا اور اس کا شکریہ ادا کرنا اچھے اخلاق اور شکر گزار طبیعت کی علامت ہے۔",
-      ro: "Kisi ki neki ya ehsan ka aitraf karna aur us ka shukriya ada karna achay akhlaq aur shukr-guzar tabiyat ki alamat hai.",
-      en: "Acknowledging kindness and expressing appreciation to others reflects a noble character and a grateful disposition."
+      ur: "پسِ منظر و تشریح: جب دو بھائیوں، دوستوں یا رشتہ داروں میں ناراضگی پیدا ہوتی ہے تو شیطان سب سے زیادہ خوش ہوتا ہے اور نیکیوں کی رونق ختم ہو جاتی ہے۔ حضور اکرم ﷺ نے دو روٹھے ہوئے دلوں کو جوڑنے کا اجر نفلی عبادات سے بھی بڑھا کر بیان فرمایا۔ آج کا عملی سبق یہ ہے کہ اپنے خاندان یا حلقۂ احباب میں غلط فہمی کی آگ بھڑکانے کے بجائے محبت اور حکمت سے صلح کا پل بنیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jab do bhaiyon, doston ya rishtedaron mein narazgi paida hoti hai to shaitan sab se zyada khush hota hai aur nekiyon ki raunaq khatam ho jati hai. Huzoor Akram ﷺ ne do roothay huye dilon ko jorne ka ajr nafli ibadat se bhi barha kar bayan farmaya. Aaj ka amli sabaq yeh hai ke apne khandan ya halqa-e-ahbab mein ghalat-fahmi ki aag bharkane ke bajaye muhabbat aur hikmat se sulah ka pul banein.",
+      en: "Context & Practical Lesson: Fractured relationships drain spiritual life from a community. Becoming a bridge-builder who heals misunderstandings through empathy and discretion earns reward beyond voluntary devotions."
     },
     tags: [
-      { ur: "شکریہ", ro: "Shukriya", en: "Gratitude" },
-      { ur: "اخلاق", ro: "Akhlaq", en: "Character" }
+      { ur: "صلح کرانا", ro: "Sulah Karana", en: "Peacemaking" },
+      { ur: "اتحاد و اخوت", ro: "Ittihad o Ukhuwat", en: "Unity" }
     ]
   },
   {
@@ -2742,9 +2742,9 @@ export const batch6Quotes: QuoteItem[] = [
     categorySlug: "sabaq-aamoz-waqiat",
     bookRef: "Makhzan-e-Akhlaq - Page 356",
     author: {
-      ur: "حقیقتِ دنیا",
-      ro: "Haqeeqat-e-Duniya",
-      en: "Reality of the World"
+      ur: "اقوالِ حکماء و دانشوراں",
+      ro: "Aqwal-e-Hukama o Danishwaran",
+      en: "Wisdom of Sages"
     },
     title: {
       ur: "غفلت کی نیند سے بیداری",
@@ -2861,62 +2861,62 @@ export const batch7Quotes: QuoteItem[] = [
   },
   {
     id: "ma-094",
-    slug: "tangdast-maqrooz-ko-mohlat-dena",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 14",
+    slug: "hamsaye-ki-amanat-izzat-o-maal-ki-hifazat",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sunan al-Tirmidhi (1944) & Sahih Muslim (46)",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "تنگدست مقروض کو مہلت دینا اور قرض بخشنا",
-      ro: "Tangdast Maqrooz Ko Mohlat Dena Aur Qarz Bakhshna",
-      en: "Granting Respite or Forgiving a Debtor in Hardship"
+      ur: "ہمسائے کی امانت: پڑوسی کی عزت، گھر اور راز کی حفاظت",
+      ro: "Hamsaye Ki Amanat: Padosi Ki Izzat, Ghar Aur Raaz Ki Hifazat",
+      en: "Neighborly Trust: Guarding Your Neighbor's Honor, Home, and Secrets"
     },
     quote: {
-      ur: "اگر کوئی تنگدست تمہارا مقروض ہو تو اس کو فراخی تک مہلت دو، اور اگر تم سمجھو تو تمہارے حق میں یہ زیادہ بہتر ہے کہ اس کو اصل قرضہ ہی بخش دو۔",
-      ro: "Agar koi tangdast tumhara maqrooz ho to us ko farakhi tak mohlat do, aur agar tum samjho to tumhare haq mein yeh zyada behtar hai ke us ko asal qarza hi bakhsh do.",
-      en: "If a debtor is in financial distress, grant them respite until a time of ease; and if you remit the debt as charity, it is far better for you, if you only knew."
+      ur: "اللہ تعالیٰ کے نزدیک سب سے بہترین ساتھی وہ ہے جو اپنے ساتھی کے لیے خیر خواہ ہو، اور اللہ کے نزدیک سب سے بہترین ہمسایہ وہ ہے جو اپنے ہمسائے کے لیے سب سے زیادہ امانت دار اور بہتر ہو؛ اور سچا مومن وہ ہے جس کی ہمسائیگی میں لوگ اپنی جان، مال اور عزت کو محفوظ سمجھیں۔",
+      ro: "Allah Ta'ala ke nazdeek sab se behtareen sathi woh hai jo apne sathi ke liye khair-khwah ho, aur Allah ke nazdeek sab se behtareen hamsaya woh hai jo apne hamsaye ke liye sab se zyada amanat-dar aur behtar ho; aur sacha momin woh hai jis ki hamsaigi mein log apni jaan, maal aur izzat ko mehfooz samjhein.",
+      en: "The best companion in the sight of Allah is the one best to their companion, and the best neighbor in the sight of Allah is the one most trustworthy and caring toward their neighbor; true faith shines when neighbors feel completely safe in their lives, property, and honor beside you."
     },
     tashreeh: {
-      ur: "مجبور اور پریشان حال قرض دار پر سختی کرنے کے بجائے اسے آسانی ہونے تک وقت دینا، یا استطاعت ہو تو قرض معاف کر دینا دنیا و آخرت میں عظیم اجر اور برکت کا باعث ہے۔",
-      ro: "Majboor aur pareshan-haal qarz-dar par sakhti karne ke bajaye usay asani hone tak waqt dena, ya istita'at ho to qarz maaf kar dena duniya-o-akhirat mein azeem ajr aur barkat ka baas hai.",
-      en: "Showing leniency to a struggling debtor by extending their time—or waiving the debt altogether—brings immense spiritual reward and blessings in both worlds."
+      ur: "پسِ منظر و تشریح: ہمسایہ صرف دیوار کے اس پار رہنے والا اجنبی نہیں بلکہ اس کے گھر کا پردہ، اس کی عدم موجودگی میں اس کے بچوں اور سامان کی حفاظت، اور اس کے گھریلو معاملات کی رازداری ہمارے اوپر ایک بھاری امانت ہے۔ پڑوسی کے گھر کی ٹوہ میں رہنا یا اس کی غیبت کرنا اس امانت میں بدترین خیانت ہے۔ آج کا عملی سبق یہ ہے کہ اپنے پڑوسی کی غیر حاضری میں بھی اس کے گھر اور عزت کے خاموش محافظ بنیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Hamsaya sirf deewar ke us paar rehne wala ajnabi nahi balkay us ke ghar ka parda, us ki adam-maujoodgi mein us ke bachon aur saman ki hifazat, aur us ke gharelu muamlat ki raaz-dari hamare oopar aik bhari amanat hai. Padosi ke ghar ki toh mein rehna ya us ki gheebat karna is amanat mein bad-tareen khayanat hai. Aaj ka amli sabaq yeh hai ke apne padosi ki ghair-haazri mein bhi us ke ghar aur izzat ke khamosh muhafiz banein.",
+      en: "Context & Practical Lesson: A neighbor's privacy, family security in their absence, and dignity are sacred trusts upon those living next door. Guard their honor silently and never pry or gossip about their household."
     },
     tags: [
-      { ur: "رحمدلی", ro: "Reham-dili", en: "Compassion" },
-      { ur: "قرض", ro: "Qarz", en: "Debt Relief" }
+      { ur: "ہمسائے کی امانت", ro: "Hamsaye Ki Amanat", en: "Neighborly Trust" },
+      { ur: "پردہ پوشی", ro: "Parda-Poshi", en: "Protecting Privacy" }
     ]
   },
   {
     id: "ma-095",
-    slug: "muttaqeen-ki-sifat-ghussa-peena-aur-darguzar",
-    categorySlug: "ahkam-e-khuda",
-    bookRef: "Makhzan-e-Akhlaq - Page 15",
+    slug: "buzurgon-ka-ikram-aur-burhapay-mein-izzt-ka-wada",
+    categorySlug: "irshadat-e-nabawi",
+    bookRef: "Sunan al-Tirmidhi (2022) & Makhzan-e-Akhlaq",
     author: {
-      ur: "احکامِ خدا (القرآن)",
-      ro: "Ahkam-e-Khuda (Al-Quran)",
-      en: "Divine Injunctions (Al-Quran)"
+      ur: "ارشادِ نبوی ﷺ",
+      ro: "Irshad-e-Nabawi ﷺ",
+      en: "Prophetic Tradition ﷺ"
     },
     title: {
-      ur: "متقین کی پہچان: سخاوت، ضبطِ غضب اور درگزر",
-      ro: "Muttaqeen Ki Pehchan: Sakhawat, Zabt-e-Ghazab Aur Darguzar",
-      en: "Traits of the Pious: Generosity, Restraining Anger, and Pardon"
+      ur: "بزرگوں کا اکرام: بڑی عمر والوں کی عزت پر رب کا انعام",
+      ro: "Buzurgon Ka Ikram: Bari Umar Walon Ki Izzat Par Rab Ka Inam",
+      en: "Honoring the Elderly: A Divine Promise for Respecting Seniors"
     },
     quote: {
-      ur: "متقی وہ لوگ ہیں جو خوشحالی اور تنگدستی دونوں حالتوں میں اللہ کی راہ میں خرچ کرتے ہیں، غصے کو روکتے ہیں اور لوگوں کے قصوروں سے درگزر کرتے ہیں، اور اللہ نیکی کرنے والوں کو دوست رکھتا ہے۔",
-      ro: "Muttaqi woh log hain jo khushhali aur tangdasti dono halaton mein Allah ki raah mein kharch karte hain, gusse ko rokte hain aur logon ke qusooron se darguzar karte hain, aur Allah neki karne walon ko dost rakhta hai.",
-      en: "The righteous are those who spend in charity during both prosperity and adversity, who restrain their anger, and who pardon people; indeed, Allah loves the doers of good."
+      ur: "جو نوجوان کسی بزرگ کی بڑی عمر کے احترام میں اس کی عزت و تکریم کرتا ہے، اللہ تعالیٰ اس کے بڑھاپے کے وقت ایسے لوگ مقرر فرما دیتا ہے جو اس کی عزت و خدمت کریں۔",
+      ro: "Jo naujawan kisi buzurg ki bari umar ke ehtiram mein us ki izzat o takreem karta hai, Allah Ta'ala us ke burhapay ke waqt aisay log muqarrar farma deta hai jo us ki izzat o khidmat karein.",
+      en: "Whenever a young person honors an elderly person out of respect for their age, Allah appoints people to honor and care for them when they reach old age."
     },
     tashreeh: {
-      ur: "حقیقی پرہیزگاری صرف عبادت گاہ تک محدود نہیں بلکہ ہر حال میں سخاوت کرنے، غصے کا گھونٹ پی جانے اور لوگوں کی غلطیوں کو معاف کر کے ان کے ساتھ احسان کرنے کا نام ہے۔",
-      ro: "Haqeeqi parhezgari sirf ibadat-gah tak mehdood nahi balkay har haal mein sakhawat karne, gusse ka ghoont pee jane aur logon ki ghaltiyon ko maaf kar ke un ke sath ehsan karne ka naam hai.",
-      en: "True piety extends beyond ritual worship into generosity in all circumstances, swallowing one's anger, and graciously forgiving the faults of others."
+      ur: "پسِ منظر و تشریح: جوانی کا غرور بعض اوقات انسان کو بوڑھے والدین، ضعیف رشتہ داروں اور بڑی عمر کے لوگوں سے بیزار کر دیتا ہے، حالانکہ ہر جوان کو کل اسی کمزوری کے دور سے گزرنا ہے۔ یہ حدیث ایک الٰہی قانونِ مکافات بیان کرتی ہے کہ آج ہم بزرگوں کے لیے جگہ خالی کریں گے اور ان کی بات محبت سے سنیں گے تو کل ہمارا بڑھاپا بھی باعزت گزرے گا۔ آج کا عملی سبق یہ ہے کہ محفل، سفر یا قطار میں ہر ضعیف بزرگ کو آگے بڑھ کر عزت و ترجیح دیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Jawani ka ghuroor baaz auqat insan ko boorhay walideen, zaeef rishtedaron aur bari umar ke logon se bezar kar deta hai, halankeh har jawan ko kal isi kamzori ke dor se guzarna hai. Yeh hadith aik Ilahi qanoon-e-mukafaat bayan karti hai ke aaj hum buzurgon ke liye jagah khali karein ge aur un ki baat muhabbat se sunein ge to kal hamara burhapa bhi ba-izzat guzray ga. Aaj ka amli sabaq yeh hai ke mehfil, safar ya qatar mein har zaeef buzurg ko aagay barh kar izzat o tarjeeh dein.",
+      en: "Context & Practical Lesson: Respecting senior citizens is both a moral duty and an investment in your own future. Yielding your seat, listening patiently, and greeting elders warmly ensures dignity returns to you in old age."
     },
     tags: [
-      { ur: "متقین", ro: "Muttaqeen", en: "The Righteous" },
-      { ur: "احسان", ro: "Ehsan", en: "Benevolence" }
+      { ur: "بزرگوں کا اکرام", ro: "Buzurgon Ka Ikram", en: "Honoring Elders" },
+      { ur: "معاشرتی ادب", ro: "Muasharti Adab", en: "Social Respect" }
     ]
   },
   {
@@ -11471,7 +11471,7 @@ export const batch26Quotes: QuoteItem[] = [
   },
   {
     id: "ma-379",
-    slug: "oopar-wala-hath-neechay-wale-hath-se-behtar-hai",
+    slug: "dene-wala-hath-aur-ghar-walon-ki-kafalat",
     categorySlug: "irshadat-e-nabawi",
     bookRef: "Sahih Bukhari & Makhzan-e-Akhlaq - Page 26",
     author: {
@@ -13648,10 +13648,10 @@ const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
   ...batch3Quotes.map((q, idx) => quoteItemToQuote(q, idx === 4 || idx === 12)), // ma-035 (Hazrat Abu Bakr), ma-043 (Hazrat Ali) featured
-  ...batch4Quotes.map((q, idx) => quoteItemToQuote(q, idx === 6 || idx === 9)), // ma-052 (Surah Ibrahim), ma-055 (Mother) featured
-  ...batch5Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 7)), // ma-062 (Hazrat Umar muhasba), ma-068 (Momin affair) featured
-  ...batch6Quotes.map((q, idx) => quoteItemToQuote(q, idx === 2 || idx === 9)), // ma-078 (Inna Ma'al Usri Yusra), ma-085 (Walideen) featured
-  ...batch7Quotes.map((q, idx) => quoteItemToQuote(q, idx === 2 || idx === 4)), // ma-093 (Taqwa & Humanity), ma-095 (Muttaqeen & Forgiveness) featured
+  ...batch4Quotes.map((q, idx) => quoteItemToQuote(q, idx === 6 || idx === 9)), // ma-052 (Halal Nawalay Ki Taseer), ma-055 (Mother) featured
+  ...batch5Quotes.map((q, idx) => quoteItemToQuote(q, idx === 1 || idx === 7)), // ma-062 (Hazrat Umar muhasba), ma-068 (Bimar-pursi ki dua) featured
+  ...batch6Quotes.map((q, idx) => quoteItemToQuote(q, idx === 2 || idx === 9)), // ma-078 (Ehsan jatana), ma-085 (Qarz ki adaigi) featured
+  ...batch7Quotes.map((q, idx) => quoteItemToQuote(q, idx === 2 || idx === 4)), // ma-093 (No Compulsion), ma-095 (Buzurgon ka ikram) featured
   ...batch8Quotes.map((q, idx) => quoteItemToQuote(q, idx === 5 || idx === 8)), // ma-111 (Maqam-e-Ehsan), ma-114 (Uswah-e-Hasanah) featured
   ...batch9Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 4)), // ma-121 (Infaq & Mehboob cheez), ma-125 (Meezan-e-Amal & Husn-e-Khulq) featured
   ...batch10Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 10)), // ma-136 (Qaza par Raza & Zikr), ma-146 (3 companions) featured

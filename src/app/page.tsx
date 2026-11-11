@@ -185,6 +185,23 @@ export default function HomePage() {
           {categories.map((cat) => {
             const catTitle = getCategoryTitle(cat, language);
             const catDesc = getCategoryDesc(cat, language);
+            const catQuoteCount = quotes.filter((q) => q.category === cat.slug).length;
+            const catArticleCount = articles.filter((art) => art.category === cat.slug).length;
+
+            const countLabel =
+              catQuoteCount > 0
+                ? language === 'ur'
+                  ? `${catQuoteCount} اقوال`
+                  : language === 'ro'
+                  ? `${catQuoteCount} Aqwal`
+                  : `${catQuoteCount} Quotes`
+                : catArticleCount > 0
+                ? language === 'ur'
+                  ? `${catArticleCount} ${catArticleCount === 1 ? 'مضمون' : 'مضامین'}`
+                  : language === 'ro'
+                  ? `${catArticleCount} ${catArticleCount === 1 ? 'Mazmoon' : 'Mazameen'}`
+                  : `${catArticleCount} ${catArticleCount === 1 ? 'Article' : 'Articles'}`
+                : '0';
 
             return (
               <Link
@@ -197,8 +214,12 @@ export default function HomePage() {
                     <div className="p-3 rounded-2xl bg-emerald-50 dark:bg-emerald-950/60 group-hover:bg-amber-500/10 transition-colors">
                       {categoryIcons[cat.slug] || <BookOpen className="w-6 h-6 text-emerald-600" />}
                     </div>
-                    <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
-                      {cat.quoteCount}+
+                    <span
+                      className={`text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 ${
+                        isUrdu ? 'font-urdu leading-normal' : ''
+                      }`}
+                    >
+                      {countLabel}
                     </span>
                   </div>
 
