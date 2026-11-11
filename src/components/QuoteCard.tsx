@@ -52,7 +52,7 @@ export default function QuoteCard({
   const quoteTashreeh = getQuoteTashreeh(quote, language);
   const quoteAmliSabaq = getQuoteAmliSabaq(quote, language);
   const quoteSource = getQuoteSource(quote, language);
-  const cleanSource = formatBookRef(quoteSource, quote.category);
+  const cleanSource = formatBookRef(quoteSource, quote.category, language);
   const quoteTags = getQuoteTags(quote, language);
   const categoryTitle = category ? getCategoryTitle(category, language) : quote.category;
 

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Sparkles, ChevronRight } from 'lucide-react';
+import { Sparkles, ChevronRight, Mail } from 'lucide-react';
 import { categories, getCategoryTitle } from '@/data/categories';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -115,6 +115,15 @@ export default function Footer() {
                 <Link href="/contact" className={`hover:text-amber-400 transition ${isUrdu ? 'font-urdu' : ''}`}>
                   {t.contact}
                 </Link>
+              </li>
+              <li className="pt-1">
+                <a
+                  href="mailto:info@akhlaqibaatein.com"
+                  className="inline-flex items-center gap-1.5 text-emerald-300 hover:text-amber-400 transition break-all"
+                >
+                  <Mail className="w-3.5 h-3.5 shrink-0" />
+                  <span>info@akhlaqibaatein.com</span>
+                </a>
               </li>
             </ul>
           </div>

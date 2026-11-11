@@ -15,16 +15,17 @@ export default function AdSlot({
   adSlotId,
   className = '',
 }: AdSlotProps) {
-  const clientId = adClient || process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const clientId = (adClient || process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || '').trim();
+  const slotId = (adSlotId || '').trim();
   const pushedRef = useRef(false);
 
   const isValidClient =
     Boolean(clientId) &&
-    typeof clientId === 'string' &&
-    clientId.trim() !== '' &&
+    /^ca-pub-\d{10,}$/.test(clientId) &&
     !clientId.includes('XXXX') &&
-    clientId !== 'ca-pub-XXXXXXXXXXXXXXXX' &&
-    clientId.startsWith('ca-pub-');
+    !/ca-pub-0{6,}/i.test(clientId) &&
+    !clientId.includes('123456') &&
+    !slotId.includes('XXXX');
 
   useEffect(() => {
     if (!isValidClient || pushedRef.current) return;
@@ -65,7 +66,7 @@ export default function AdSlot({
         className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client={clientId}
-        data-ad-slot={adSlotId || ''}
+        data-ad-slot={slotId}
         data-ad-format="auto"
         data-full-width-responsive="true"
       />

@@ -130,8 +130,8 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     keyTakeaways: 'اہم اخلاقی و عملی اسباق',
     publishedOn: 'شائع ہوا:',
     backToHome: 'سرورق پر واپس جائیں',
-    statusCardHeader: 'واٹس ایپ اور سوشل اسٹیٹس کارڈ',
-    statusCardResolution: 'ایچ ڈی 1080x1080 ریزولوشن • واٹس ایپ اسٹیٹس کے لیے موزوں',
+    statusCardHeader: 'سوشل پوسٹ اور واٹس ایپ اسٹیٹس کارڈ',
+    statusCardResolution: 'ایچ ڈی 1080×1350 پوسٹ • واٹس ایپ و سوشل میڈیا کے لیے موزوں',
     statusCardDownloading: 'خوبصورت کارڈ تیار ہو رہا ہے...',
   },
   ro: {
@@ -196,8 +196,8 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     keyTakeaways: 'Ahem Akhlaqi o Amli Asbaaq',
     publishedOn: 'Shaya Hua:',
     backToHome: 'Home par wapas jayein',
-    statusCardHeader: 'WhatsApp & Social Status Card',
-    statusCardResolution: 'HD 1080x1080 Resolution • WhatsApp Status ke liye tayyar',
+    statusCardHeader: 'Social Post & WhatsApp Status Card',
+    statusCardResolution: 'HD 1080×1350 Post & 9:16 Status Ready',
     statusCardDownloading: 'Card ban raha hai...',
   },
   en: {
@@ -262,8 +262,8 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     keyTakeaways: 'Key Moral & Practical Takeaways',
     publishedOn: 'Published:',
     backToHome: 'Back to Home',
-    statusCardHeader: 'WhatsApp & Social Status Card',
-    statusCardResolution: 'HD 1080x1080 Square • Perfect for WhatsApp, Instagram & Facebook',
+    statusCardHeader: 'Social Post & WhatsApp Status Card',
+    statusCardResolution: 'HD 1080×1350 Portrait & 9:16 Story • Ready for Social Sharing',
     statusCardDownloading: 'Generating Royal Card...',
   },
 };

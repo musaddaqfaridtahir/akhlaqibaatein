@@ -13644,6 +13644,314 @@ export const batch30Quotes: QuoteItem[] = [
   }
 ];
 
+export const batch31Quotes: QuoteItem[] = [
+  {
+    id: "ma-451",
+    slug: "mustafa-jaan-e-rehmat-pe-lakhon-salam-naat-sharif",
+    categorySlug: "naat-sharif",
+    bookRef: "Hadaiq-e-Bakhshish (Imam Ahmad Raza Khan)",
+    author: {
+      ur: "امام احمد رضا خانؒ",
+      ro: "Imam Ahmad Raza Khan (R.A)",
+      en: "Imam Ahmad Raza Khan (R.A)"
+    },
+    title: {
+      ur: "مصطفیٰ جانِ رحمت پہ لاکھوں سلام، شمعِ بزمِ ہدایت پہ لاکھوں سلام",
+      ro: "Mustafa Jaan-e-Rehmat Pe Lakhon Salam, Shama-e-Bazm-e-Hidayat Pe Lakhon Salam",
+      en: "Countless Salutations Upon Mustafa, the Essence of Mercy and Lamp of Guidance"
+    },
+    quote: {
+      ur: "مصطفیٰ جانِ رحمت پہ لاکھوں سلام\nشمعِ بزمِ ہدایت پہ لاکھوں سلام",
+      ro: "Mustafa jaan-e-rehmat pe lakhon salam\nShama-e-bazm-e-hidayat pe lakhon salam",
+      en: "Millions of salutations upon al-Mustafa ﷺ, the very soul of mercy;\nMillions of salutations upon the shining lamp of the assembly of guidance."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: برصغیر و عالمِ اسلام کی معروف ترین سلامیہ نظم ’سلامِ رضا‘ کا یہ مطلع رسولِ اکرم ﷺ کی دو عظیم صفات یعنی ’رحمۃ للعالمین‘ اور ’ہادیِ برحق‘ کا حسین مرقع ہے۔ ’جانِ رحمت‘ اس حقیقت کی طرف اشارہ ہے کہ کائنات میں خدا کی تمام رحمتوں کا محور ذاتِ مصطفیٰ ﷺ ہے اور آپ ﷺ کی سیرت بھٹکی ہوئی انسانیت کے لیے شمعِ ہدایت ہے۔ آج کا عملی سبق یہ ہے کہ روزانہ کثرت سے درود و سلام پڑھیں اور مخلوقِ خدا کے ساتھ رحمت و خیر خواہی کا معاملہ اپنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Bar-e-Sagheer aur aalam-e-Islam ki mashhoor-tareen salam-o-naat ka yeh matla Rasool-e-Akram ﷺ ki do azeem sifat yaani Rehmat-ul-Lil-Alameen aur Haadi-e-Barhaq ko bayan karta hai. 'Jaan-e-Rehmat' se murad yeh hai ke Aap ﷺ poori kainat ke liye sarapa rehmat hain aur Aap ﷺ ki seerat insan ke liye hidayat ki shama hai. Aaj ka amli sabaq yeh hai ke rozana kasrat se Durood o Salam parhein aur logon ke sath narmi o shafqat ka rawaiyya ikhtiyar karein.",
+      en: "Context & Practical Lesson: This iconic opening couplet from 'Hadaiq-e-Bakhshish' celebrates Prophet Muhammad ﷺ under two foundational Quranic dimensions: absolute mercy to all creation ('Rahmatan lil-'Alamin') and the luminous lamp of moral guidance ('Sirajan Munira'). Send abundant salutations (Durood) daily and reflect prophetic gentleness toward others."
+    },
+    tags: [
+      { ur: "درود و سلام", ro: "Durood o Salam", en: "Salutations" },
+      { ur: "نعتِ رسول ﷺ", ro: "Naat-e-Rasool ﷺ", en: "Prophetic Praise" },
+      { ur: "رحمۃ للعالمین", ro: "Rehmat-ul-Lil-Alameen", en: "Universal Mercy" }
+    ]
+  },
+  {
+    id: "ma-452",
+    slug: "ki-muhammad-se-wafa-tu-ne-to-hum-tere-hain-iqbal",
+    categorySlug: "naat-sharif",
+    bookRef: "Kulliyat-e-Iqbal (Jawab-e-Shikwa)",
+    author: {
+      ur: "علامہ محمد اقبالؒ",
+      ro: "Allama Muhammad Iqbal (R.A)",
+      en: "Allama Muhammad Iqbal (R.A)"
+    },
+    title: {
+      ur: "کی محمد ﷺ سے وفا تُو نے تو ہم تیرے ہیں",
+      ro: "Ki Muhammad ﷺ Se Wafa Tu Ne To Hum Tere Hain",
+      en: "Stay Faithful to Muhammad ﷺ, and the Entire Universe Shall Be Yours"
+    },
+    quote: {
+      ur: "کی محمد ﷺ سے وفا تُو نے تو ہم تیرے ہیں\nیہ جہاں چیز ہے کیا، لوح و قلم تیرے ہیں",
+      ro: "Ki Muhammad ﷺ se wafa tu ne to hum tere hain\nYeh jahan cheez hai kya, lauh o qalam tere hain",
+      en: "If you stay steadfast and faithful to Muhammad ﷺ, We are wholly yours;\nWhat is this fleeting world—even the Tablet and Pen of destiny belong to you."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: شاعرِ مشرق علامہ اقبالؒ نے اپنی معروف نظم ’جوابِ شکوہ‘ کے اس اختتامی اور لازوال شعر میں امتِ مسلمہ کے عروج و زوال کا پورا فلسفہ سمیٹ دیا ہے۔ نبی کریم ﷺ سے سچی وفا کا مطلب محض زبانی دعویٰ نہیں بلکہ آپ ﷺ کی سنت، امانت، دیانت، عدل اور حسنِ اخلاق کو اپنی عملی زندگی میں نافذ کرنا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے تمام معاملات، عبادات اور اخلاق میں اسوۂ رسول ﷺ سے سچی وفاداری قائم کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Shair-e-Mashriq Allama Iqbal (R.A) ne 'Jawab-e-Shikwa' ke is aakhri shair mein ummat ke urooj ka raaz bayan farmaya hai. Nabi Kareem ﷺ se sachi wafa ka matlab sirf zubani dawa nahi balkeh Aap ﷺ ki sunnat, amanatdari, adal aur husn-e-akhlaq par amli amal hai. Aaj ka amli sabaq yeh hai ke apni zindagi ke har shobay mein Uswah-e-Rasool ﷺ ki sachai se pairwi karein.",
+      en: "Context & Practical Lesson: In the crowning couplet of 'Jawab-e-Shikwa', Allama Iqbal reveals the secret of spiritual and worldly dignity: true fidelity to Prophet Muhammad ﷺ. Loyalty to the Prophet means embodying his integrity, justice, compassion, and Sunnah in daily life—unlocking divine support in every endeavor."
+    },
+    tags: [
+      { ur: "عشقِ رسول ﷺ", ro: "Ishq-e-Rasool ﷺ", en: "Devotion" },
+      { ur: "کلامِ اقبالؒ", ro: "Kalam-e-Iqbal", en: "Allama Iqbal" },
+      { ur: "وفاداری و سنت", ro: "Wafadari o Sunnat", en: "Fidelity to Sunnah" }
+    ]
+  },
+  {
+    id: "ma-453",
+    slug: "woh-nabiyon-mein-rehmat-laqab-panay-wala-hali",
+    categorySlug: "naat-sharif",
+    bookRef: "Musaddas-e-Hali (Maulana Altaf Hussain Hali)",
+    author: {
+      ur: "مولانا الطاف حسین حالیؒ",
+      ro: "Maulana Altaf Hussain Hali (R.A)",
+      en: "Maulana Altaf Hussain Hali (R.A)"
+    },
+    title: {
+      ur: "وہ نبیوں میں رحمت لقب پانے والا، مرادیں غریبوں کی بر لانے والا",
+      ro: "Woh Nabiyon Mein Rehmat Laqab Panay Wala, Muradein Ghareebon Ki Bar Lanay Wala",
+      en: "He Who Earned the Title of Mercy Among Prophets and Lifted the Humble"
+    },
+    quote: {
+      ur: "وہ نبیوں میں رحمت لقب پانے والا\nمرادیں غریبوں کی بر لانے والا\nمصیبت میں غیروں کے کام آنے والا\nوہ اپنے پرائے کا غم کھانے والا",
+      ro: "Woh nabiyon mein rehmat laqab panay wala\nMuradein ghareebon ki bar lanay wala\nMuseebat mein ghairon ke kaam aanay wala\nWoh apne paraye ka gham khanay wala",
+      en: "He who was titled 'Mercy' among all Prophets;\nHe who fulfilled the hopes of the destitute and poor;\nHe who rushed to aid even strangers in times of distress;\nAnd felt the sorrow of friend and stranger alike."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: مولانا الطاف حسین حالیؒ کی تاریخی تصنیف ’مسدسِ حالی (مد و جزرِ اسلام)‘ کی یہ نعتیہ رباعی سیرتِ طیبہ کے سماجی اور انسانی پہلو کا حسین بیان ہے۔ حضور اکرم ﷺ کی شفقت صرف اپنوں تک محدود نہ تھی بلکہ غریبوں، یتیموں، مسکینوں اور یہاں تک کہ مخالفین کی تکلیف پر بھی آپ ﷺ کا دل تڑپ اٹھتا تھا۔ آج کا عملی سبق یہ ہے کہ ضرورت مندوں کی خاموشی سے مدد کریں اور رنگ و نسل یا تعلق سے بالاتر ہو کر انسانیت کے دکھ درد بانٹیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Maulana Altaf Hussain Hali (R.A) ki mashhoor kitaab 'Musaddas-e-Hali' ki yeh naatiya rubai Seerat-e-Tayyiba ke samaji aur insani pehlu ko ujaagar karti hai. Huzoor ﷺ ki shafqat sirf apnon tak mehdood na thi balkeh ghareebon, yateemon aur ajnabiyon ki takleef mein bhi Aap ﷺ sab se pehle madad ko aate thay. Aaj ka amli sabaq yeh hai ke kisi bhi be-kas aur zarooratmand ki madad mein pehal karein.",
+      en: "Context & Practical Lesson: From the classic 'Musaddas-e-Hali', these beloved stanzas portray the universal humanitarian grace of Prophet Muhammad ﷺ. His compassion transcended tribal and personal boundaries, offering immediate relief to the marginalized and distressed. True emulation requires caring actively for widows, orphans, and struggling neighbors."
+    },
+    tags: [
+      { ur: "مسدسِ حالیؒ", ro: "Musaddas-e-Hali", en: "Musaddas-e-Hali" },
+      { ur: "غم خواریِ امت", ro: "Gham-Khwari", en: "Humanitarian Mercy" },
+      { ur: "خدمتِ خلق", ro: "Khidmat-e-Khalq", en: "Serving the Poor" }
+    ]
+  },
+  {
+    id: "ma-454",
+    slug: "nigah-e-ishq-o-masti-mein-wahi-awwal-wahi-aakhir-iqbal",
+    categorySlug: "naat-sharif",
+    bookRef: "Kulliyat-e-Iqbal (Bal-e-Jibril)",
+    author: {
+      ur: "علامہ محمد اقبالؒ",
+      ro: "Allama Muhammad Iqbal (R.A)",
+      en: "Allama Muhammad Iqbal (R.A)"
+    },
+    title: {
+      ur: "نگاہِ عشق و مستی میں وہی اوّل، وہی آخر",
+      ro: "Nigah-e-Ishq o Masti Mein Wohi Awwal, Wohi Aakhir",
+      en: "In the Gaze of Spiritual Love, He is the Living Embodiment of Quranic Guidance"
+    },
+    quote: {
+      ur: "نگاہِ عشق و مستی میں وہی اوّل، وہی آخر\nوہی قرآں، وہی فرقاں، وہی یٰسیں، وہی طٰہٰ",
+      ro: "Nigah-e-ishq o masti mein wohi awwal, wohi aakhir\nWohi Quran, wohi Furqan, wohi Yaseen, wohi Taha",
+      en: "In the vision of pure spiritual devotion, His example stands first and last;\nHis living character reflects the Quran, the Criterion of Truth, Yaseen, and Taha."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: ’بالِ جبریل‘ کے اس معروف شعر میں علامہ اقبالؒ نے ام المؤمنین حضرت عائشہ صدیقہؓ کے اس مستند قول ’کان خلقہ القرآن‘ (آپ ﷺ کا اخلاق سراسر قرآن تھا) کو شاعرانہ پیرائے میں بیان کیا ہے۔ قرآنِ مجید میں حضور ﷺ کو یٰسیں اور طٰہٰ جیسے پرعظمت القاب سے پکارا گیا اور آپ ﷺ کی پوری حیاتِ طیبہ وحیِ الٰہی کی عملی تفسیر تھی۔ آج کا عملی سبق یہ ہے کہ قرآنِ کریم کو سمجھ کر پڑھیں اور سیرتِ نبوی ﷺ کے آئینے میں اپنی عادات سنواریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: 'Bal-e-Jibril' ke is shair mein Allama Iqbal (R.A) ne Hazrat Aisha Siddiqa (R.A) ki mashhoor riwayat 'Aap ﷺ ka akhlaq sarasar Quran tha' ko khoobsurat andaz mein bayan kiya hai. Quran mein Aap ﷺ ko Yaseen aur Taha jaise alqaab se mukhatib kiya gaya aur Aap ﷺ ki zindagi Quran ki amli tafseer thi. Aaj ka amli sabaq yeh hai ke Quran ko samajh kar parhein aur Seerat-e-Nabawi ﷺ ke mutabiq apna kirdar sanwarein.",
+      en: "Context & Practical Lesson: Drawing inspiration from Hazrat Aisha's (R.A) famous testimony that the Prophet's character was the living Quran, Allama Iqbal illuminates how every Quranic virtue finds complete expression in Muhammad ﷺ. Read the Quran thoughtfully and shape your conduct by the Prophetic model."
+    },
+    tags: [
+      { ur: "بالِ جبریل", ro: "Bal-e-Jibril", en: "Bal-e-Jibril" },
+      { ur: "سیرت و قرآن", ro: "Seerat o Quran", en: "Living Quran" },
+      { ur: "اسوۂ حسنہ ﷺ", ro: "Uswah-e-Hasanah", en: "Prophetic Character" }
+    ]
+  },
+  {
+    id: "ma-455",
+    slug: "lauh-bhi-tu-qalam-bhi-tu-tera-wajood-al-kitab-iqbal",
+    categorySlug: "naat-sharif",
+    bookRef: "Kulliyat-e-Iqbal (Bal-e-Jibril)",
+    author: {
+      ur: "علامہ محمد اقبالؒ",
+      ro: "Allama Muhammad Iqbal (R.A)",
+      en: "Allama Muhammad Iqbal (R.A)"
+    },
+    title: {
+      ur: "لوح بھی تُو، قلم بھی تُو، تیرا وجود الکتاب",
+      ro: "Lauh Bhi Tu, Qalam Bhi Tu, Tera Wajood Al-Kitab",
+      en: "Your Radiant Being Unlocks the Book of Divine Wisdom and Hope"
+    },
+    quote: {
+      ur: "لوح بھی تُو، قلم بھی تُو، تیرا وجود الکتاب\nگنبدِ آبگینۂ رنگ تیرے محیط میں حباب",
+      ro: "Lauh bhi tu, qalam bhi tu, tera wajood Al-Kitab\nGumbad-e-aabgeena-rang tere muheet mein hubab",
+      en: "You are the keeper of the Sacred Message, your blessed life the living Book;\nBeneath the vast azure dome of heaven, all creation reflects the ocean of your mercy."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: اس بلیغ نعتیہ شعر میں اقبالؒ بارگاہِ رسالت ﷺ میں عرض کرتے ہیں کہ حضور ﷺ کا وجودِ اقدس علم و ہدایت کی زندہ کتاب ہے، اور یہ وسیع نیلا آسمان اور پوری کائنات آپ ﷺ کی عطا کردہ روحانی وسعت اور رحمت کے سامنے ایک قطرہ یا بلبلے کی مانند ہے۔ دنیا کی تمام چمک دمک فانی ہے جبکہ نبوی پیغام ابدی ہے۔ آج کا عملی سبق یہ ہے کہ علم، حکمت اور عاجزی کے ذریعے اپنی روح کو فانی دنیا کی اسیری سے آزاد کریں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Is baligh shair mein Iqbal (R.A) bargah-e-risalat ﷺ mein arz karte hain ke Huzoor ﷺ ka wajood-e-aqdas ilm o hidayat ki zinda kitaab hai aur yeh wasee neela aasman Aap ﷺ ki roohani rehmat ke samandar mein aik qatray ki manind hai. Duniya ki chamak damak fani hai jabkeh nabawi paigham abadi hai. Aaj ka amli sabaq yeh hai ke ilm o hikmat aur aajzi se apne dil ko roshan karein.",
+      en: "Context & Practical Lesson: With soaring poetic metaphor, Allama Iqbal contrasts the transient shimmer of the material cosmos against the timeless spiritual ocean of Prophetic guidance. True illumination lies not in chasing worldly pride, but in grounding our hearts in lasting wisdom and humility."
+    },
+    tags: [
+      { ur: "حکمتِ نعت", ro: "Hikmat-e-Naat", en: "Spiritual Poetics" },
+      { ur: "نعتِ اقبالؒ", ro: "Naat-e-Iqbal", en: "Iqbal Poetry" }
+    ]
+  },
+  {
+    id: "ma-456",
+    slug: "sab-se-aula-o-aala-hamara-nabi-hadaiq-e-bakhshish",
+    categorySlug: "naat-sharif",
+    bookRef: "Hadaiq-e-Bakhshish (Imam Ahmad Raza Khan)",
+    author: {
+      ur: "امام احمد رضا خانؒ",
+      ro: "Imam Ahmad Raza Khan (R.A)",
+      en: "Imam Ahmad Raza Khan (R.A)"
+    },
+    title: {
+      ur: "سب سے اولیٰ و اعلیٰ ہمارا نبی ﷺ، سب سے بالا و والا ہمارا نبی ﷺ",
+      ro: "Sab Se Aula o Aala Hamara Nabi ﷺ, Sab Se Bala o Wala Hamara Nabi ﷺ",
+      en: "Most Noble in Character, Most Exalted in Grace: Our Beloved Prophet ﷺ"
+    },
+    quote: {
+      ur: "سب سے اولیٰ و اعلیٰ ہمارا نبی ﷺ\nسب سے بالا و والا ہمارا نبی ﷺ\nخلق سے اولیا، اولیا سے رسل\nاور رسولوں سے اعلیٰ ہمارا نبی ﷺ",
+      ro: "Sab se aula o aala hamara Nabi ﷺ\nSab se bala o wala hamara Nabi ﷺ\nKhalq se awliya, awliya se rusul\nAur rasoolon se aala hamara Nabi ﷺ",
+      en: "Supreme in nobility and virtue is our Prophet ﷺ;\nLofty in station and grace is our Prophet ﷺ;\nAbove all creation stand the righteous, above them the Messengers,\nAnd crowning all Messengers with final perfection is our Prophet ﷺ."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: قرآنِ مجید میں اللہ تعالیٰ نے حضرت محمد ﷺ کو تمام انبیاء و رسل کا خاتم اور سب سے بلند اخلاق ’انک لعلیٰ خلق عظیم‘ کا مالک قرار دیا ہے۔ اس معروف نعتیہ کلام میں اسی قرآنی حقیقت و محبتِ رسول ﷺ کا والہانہ اور شائستہ اظہار کیا گیا ہے۔ آج کا عملی سبق یہ ہے کہ جس نبی ﷺ کا مقام تمام کائنات سے بلند ہے، ان کے نام پر ہم بھی اپنے اخلاق، معاملات اور گفتار کو اعلیٰ معیار کا بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Quran-e-Majeed mein Allah Ta'ala ne Hazrat Muhammad ﷺ ko Khatam-un-Nabiyyin aur azeem tareen akhlaq ka malik qarar diya hai. Is mashhoor naatiya kalam mein isi ilahi shaan aur mohabbat-e-Rasool ﷺ ka shaaista izhar kiya gaya hai. Aaj ka amli sabaq yeh hai ke itni azeem hasti ke ummati honay ke nate apne kirdar aur guftugu ko bhi aala meyar par rakhein.",
+      en: "Context & Practical Lesson: Celebrating the Quranic declaration that Prophet Muhammad ﷺ is the Seal of the Prophets and holds an exalted standard of character, these classical verses inspire deep reverence. Honor that spiritual bond by upholding integrity, humility, and dignity in speech and action."
+    },
+    tags: [
+      { ur: "شانِ رسالت ﷺ", ro: "Shan-e-Risalat ﷺ", en: "Prophetic Honor" },
+      { ur: "حدائقِ بخشش", ro: "Hadaiq-e-Bakhshish", en: "Classical Naat" }
+    ]
+  },
+  {
+    id: "ma-457",
+    slug: "kaabay-ke-badrud-duja-tum-pe-karoron-durood-raza",
+    categorySlug: "naat-sharif",
+    bookRef: "Hadaiq-e-Bakhshish (Imam Ahmad Raza Khan)",
+    author: {
+      ur: "امام احمد رضا خانؒ",
+      ro: "Imam Ahmad Raza Khan (R.A)",
+      en: "Imam Ahmad Raza Khan (R.A)"
+    },
+    title: {
+      ur: "کعبے کے بدر الدجیٰ تم پہ کروڑوں درود، طیبہ کے شمس الضحیٰ تم پہ کروڑوں درود",
+      ro: "Kaabay Ke Badrud-Duja Tum Pe Karoron Durood, Taiba Ke Shamsud-Duha Tum Pe Karoron Durood",
+      en: "Resplendent Full Moon of Makkah, Radiant Morning Sun of Madinah: Millions of Blessings Upon You"
+    },
+    quote: {
+      ur: "کعبے کے بدر الدجیٰ تم پہ کروڑوں درود\nطیبہ کے شمس الضحیٰ تم پہ کروڑوں درود\nشافعِ روزِ جزا تم پہ کروڑوں درود\nدافعِ جملہ بلا تم پہ کروڑوں درود",
+      ro: "Kaabay ke badrud-duja tum pe karoron durood\nTaiba ke shamsud-duha tum pe karoron durood\nShafe-e-roz-e-jaza tum pe karoron durood\nDafe-e-jumla bala tum pe karoron durood",
+      en: "O Radiant Full Moon illuminating the night around the Kaabah, millions of blessings upon you;\nO Bright Morning Sun shining over Madinah, millions of blessings upon you;\nIntercessor upon the Day of Judgment, and bringer of solace against sorrow—millions of blessings upon you."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: مکہ مکرمہ (کعبہ شریف) آپ ﷺ کی جائے ولادت و بعثت ہے جہاں جہالت کی اندھیری رات میں آپ ﷺ چودھویں کے چاند کی مانند طلوع ہوئے، اور مدینہ طیبہ آپ ﷺ کی ہجرت گاہ ہے جہاں اسلام کا آفتابِ ہدایت پوری آب و تاب سے چمکا۔ یہ اشعار صدیوں سے عاشقانِ رسول ﷺ کی زبانوں پر وردِ درود بن کر جاری ہیں۔ آج کا عملی سبق یہ ہے کہ پریشانی، خوشی اور دعا کے آغاز میں درود شریف کو لازمی اپنائیں کیونکہ درود دلوں کو سکون اور دعاؤں کو قبولیت عطا کرتا ہے۔",
+      ro: "Pas-e-Manzar o Tashreeh: Makkah Mukarrama Aap ﷺ ki paidaish aur nabuwwat ki sarzameen hai jahan jahalat ke andheray mein Aap ﷺ chaudhwein ke chaand ki tarah roshan huye, aur Madina Tayyiba mein Islam ka aaftab chamka. Yeh ashaar sadiyon se Durood Shareef ke wazeefay ke taur par parhe jate hain. Aaj ka amli sabaq yeh hai ke har dua se pehle aur pareshani ke waqt Durood Shareef ko apna mamool banayein.",
+      en: "Context & Practical Lesson: Pairing the sacred imagery of Makkah (where the Prophet emerged like a full moon piercing darkness) and Madinah (where guidance shone like the morning sun), this treasured hymn anchors the believer's heart in Durood. Beginning prayers with salutations upon the Prophet softens the heart and brings inner serenity."
+    },
+    tags: [
+      { ur: "درودِ پاک", ro: "Durood-e-Pak", en: "Durood Sharif" },
+      { ur: "مدینہ منورہ", ro: "Madinah Munawwarah", en: "Makkah & Madinah" }
+    ]
+  },
+  {
+    id: "ma-458",
+    slug: "dil-jis-se-zinda-hai-woh-tamanna-tumhein-to-ho-zafar-ali-khan",
+    categorySlug: "naat-sharif",
+    bookRef: "Baharistan (Maulana Zafar Ali Khan)",
+    author: {
+      ur: "مولانا ظفر علی خانؒ",
+      ro: "Maulana Zafar Ali Khan (R.A)",
+      en: "Maulana Zafar Ali Khan (R.A)"
+    },
+    title: {
+      ur: "دل جس سے زندہ ہے وہ تمنا تمہیں تو ہو",
+      ro: "Dil Jis Se Zinda Hai Woh Tamanna Tumhein To Ho",
+      en: "You Are the Sacred Aspiration by Which the Believer's Heart Lives"
+    },
+    quote: {
+      ur: "دل جس سے زندہ ہے وہ تمنا تمہیں تو ہو\nہم جس میں بس رہے ہیں وہ دنیا تمہیں تو ہو\nپھوٹا جو سینۂ شبِ تارِ الست سے\nاس نورِ اوّلیں کا اجالا تمہیں تو ہو",
+      ro: "Dil jis se zinda hai woh tamanna tumhein to ho\nHam jis mein bas rahe hain woh duniya tumhein to ho\nPhoota jo seena-e-shab-e-taar-e-alast se\nUs noor-e-awwalin ka ujala tumhein to ho",
+      en: "You are the noble longing that keeps the spiritual heart alive;\nThe moral world of faith and meaning we inhabit is illuminated through you;\nThe first dawn that broke across the darkness of ignorance—its radiant brilliance is your light of guidance."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: بابائے صحافت مولانا ظفر علی خانؒ کی اس مشہور اور دلگداز نعت میں اس باطنی حقیقت کا اظہار ہے کہ ایک مومن کے دل کی اصل زندگی اور روحانی دنیا کی رونق حضور اکرم ﷺ کی محبت اور سنت سے وابستہ ہے۔ جب دل میں محبتِ رسول ﷺ زندہ ہو تو انسان مایوسی، حسد اور خود غرضی کی تاریکیوں سے نکل کر امید و حوصلے کی دنیا میں سانس لیتا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے دل کی دنیا کو سیرتِ طیبہ کے مطالعے اور عملی اطاعت سے آباد رکھیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Maulana Zafar Ali Khan (R.A) ki is mashhoor naat mein is roohani haqeeqat ka izhar hai ke momin ke dil ki asal zindagi Huzoor ﷺ ki mohabbat aur sunnat se wabasta hai. Jab dil mein Nabi ﷺ ki muhabbat zinda ho to insan mayousi aur khud-gharzi se nikal kar umeed aur husn-e-akhlaq ki roshni pa leta hai. Aaj ka amli sabaq yeh hai ke Seerat-e-Tayyiba ke mutalay ko apni aadat banayein.",
+      en: "Context & Practical Lesson: Penned by the revered poet-journalist Maulana Zafar Ali Khan (R.A), this deeply moving Naat celebrates how Prophetic love breathes moral vitality into the human soul. When your inner compass aligns with the Prophet's mercy and honesty, despair gives way to purpose and hope."
+    },
+    tags: [
+      { ur: "کلامِ ظفر علی خانؒ", ro: "Kalam-e-Zafar Ali Khan", en: "Devotional Verse" },
+      { ur: "زندگیِ قلب", ro: "Zindagi-e-Qalb", en: "Spiritual Revival" }
+    ]
+  },
+  {
+    id: "ma-459",
+    slug: "woh-jo-na-thay-to-kuch-na-tha-noor-e-kainat-hadaiq-e-bakhshish",
+    categorySlug: "naat-sharif",
+    bookRef: "Hadaiq-e-Bakhshish (Imam Ahmad Raza Khan)",
+    author: {
+      ur: "امام احمد رضا خانؒ",
+      ro: "Imam Ahmad Raza Khan (R.A)",
+      en: "Imam Ahmad Raza Khan (R.A)"
+    },
+    title: {
+      ur: "وہ جو نہ تھے تو کچھ نہ تھا، جان ہیں وہ جہان کی",
+      ro: "Woh Jo Na Thay To Kuch Na Tha, Jaan Hain Woh Jahan Ki",
+      en: "His Prophetic Mission is the Spiritual Lifeblood of Creation"
+    },
+    quote: {
+      ur: "وہ جو نہ تھے تو کچھ نہ تھا، وہ جو نہ ہوں تو کچھ نہ ہو\nجان ہیں وہ جہان کی، جان ہے تو جہان ہے",
+      ro: "Woh jo na thay to kuch na tha, woh jo na hon to kuch na ho\nJaan hain woh jahan ki, jaan hai to jahan hai",
+      en: "Without his noble mission of mercy, human history had no moral anchor;\nHe is the spiritual heartbeat of the world—and with that heartbeat, life flourishes."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: انسانی تاریخ گواہ ہے کہ بعثتِ نبوی ﷺ سے قبل دنیا ظلم، جہالت، غلامی اور اخلاقی پستی کے گڑھے میں گری ہوئی تھی۔ آپ ﷺ کی تشریف آوری نے انسانیت کو توحید، مساوات، علم، حقوقِ نسواں اور رحم دلی کی نئی روح پھونکی۔ شاعر نے بڑی خوبصورتی سے سیرتِ مصطفیٰ ﷺ کو اس عالم کی روح قرار دیا ہے۔ آج کا عملی سبق یہ ہے کہ اپنے گھر اور معاشرے میں انصاف، علم اور محبتِ نبوی ﷺ کا پیغام عام کر کے دنیا کو بہتر بنائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: Insani tareekh gawah hai ke Aap ﷺ ki aamad se pehle duniya zulm aur jahalat mein doobi huyi thi. Aap ﷺ ki taleemat ne insaniyat ko tauheed, barabari, ilm aur rahamdili ki nayi rooh ataa ki. Is shair mein Seerat-e-Mustafa ﷺ ko is duniya ki jaan aur rooh qarar diya gaya hai. Aaj ka amli sabaq yeh hai ke apne ghar aur muashray mein insaf, ilm aur khush-akhlaqi ko farogh dein.",
+      en: "Context & Practical Lesson: Human civilization prior to Prophet Muhammad ﷺ was fractured by oppression and ignorance; his universal message revived dignity, equality, scholarship, and compassion. This couplet captures how Prophetic ethics act as the sustaining lifeblood of a just, humane society."
+    },
+    tags: [
+      { ur: "انسانیت کی روح", ro: "Insaniyat Ki Rooh", en: "Moral Revival" },
+      { ur: "اخلاقی انقلاب", ro: "Akhlaqi Inqilab", en: "Prophetic Transformation" }
+    ]
+  },
+  {
+    id: "ma-460",
+    slug: "quwwat-e-ishq-se-har-past-ko-bala-kar-de-iqbal",
+    categorySlug: "naat-sharif",
+    bookRef: "Kulliyat-e-Iqbal (Bang-e-Dara)",
+    author: {
+      ur: "علامہ محمد اقبالؒ",
+      ro: "Allama Muhammad Iqbal (R.A)",
+      en: "Allama Muhammad Iqbal (R.A)"
+    },
+    title: {
+      ur: "قوتِ عشق سے ہر پست کو بالا کر دے، دہر میں اسمِ محمد ﷺ سے اجالا کر دے",
+      ro: "Quwwat-e-Ishq Se Har Past Ko Bala Kar De, Dehr Mein Ism-e-Muhammad ﷺ Se Ujala Kar De",
+      en: "Uplift the Fallen Through Devotion, and Illuminate the Age With the Name of Muhammad ﷺ"
+    },
+    quote: {
+      ur: "قوتِ عشق سے ہر پست کو بالا کر دے\nدہر میں اسمِ محمد ﷺ سے اجالا کر دے",
+      ro: "Quwwat-e-ishq se har past ko bala kar de\nDehr mein ism-e-Muhammad ﷺ se ujala kar de",
+      en: "Through the power of sincere devotion, elevate every fallen soul to nobility;\nFlood the entire world with radiant light through the blessed name and character of Muhammad ﷺ."
+    },
+    tashreeh: {
+      ur: "پسِ منظر و تشریح: ’بانگِ درا‘ کی معروف نظم ’طلوعِ اسلام‘ کا یہ پرسوز دعائیہ شعر بتاتا ہے کہ سچا عشقِ رسول ﷺ انسان کو پستیوں، مایوسیوں اور کم ہمتی سے نکال کر بلندیوں تک پہنچا دیتا ہے۔ اسمِ محمد ﷺ سے اجالا کرنے کا تقاضا یہ ہے کہ ہم اپنے کردار، ایمانداری، محنت اور خدمتِ خلق سے دنیا کے سامنے اسلام کی سچی اور روشن تصویر پیش کریں۔ آج کا عملی سبق یہ ہے کہ مایوسی چھوڑ کر مثبت عمل، اخلاقی بلندی اور حسنِ سلوک کے ساتھ خیر کا پیغام پھیلائیں۔",
+      ro: "Pas-e-Manzar o Tashreeh: 'Bang-e-Dara' ki nazm 'Tulu-e-Islam' ka yeh duaiya shair batata hai ke sacha ishq-e-Rasool ﷺ insan ko mayousi aur pasti se nikal kar bulandiyon par le jata hai. Ism-e-Muhammad ﷺ se duniya mein ujala karne ka matlab yeh hai ke hum apni emandari, mehnat aur khidmat-e-khalq se Islam ka roshan chehra dikhayein. Aaj ka amli sabaq yeh hai ke mayousi chhor kar achay akhlaq aur bhalai ke sath aagay barhein.",
+      en: "Context & Practical Lesson: From Allama Iqbal's 'Tulu-e-Islam' in Bang-e-Dara, this inspiring prayer calls upon believers to overcome moral stagnation through heartfelt devotion and purposeful excellence. Shine the light of the Prophet's teachings through honest work, generosity, and noble character."
+    },
+    tags: [
+      { ur: "بانگِ درا", ro: "Bang-e-Dara", en: "Bang-e-Dara" },
+      { ur: "طلوعِ اسلام", ro: "Tulu-e-Islam", en: "Renewal & Light" },
+      { ur: "عشق و عمل", ro: "Ishq o Amal", en: "Devotion in Action" }
+    ]
+  }
+];
+
 const batchMappedQuotes: Quote[] = [
   ...batch1Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 7)),
   ...batch2Quotes.map((q, idx) => quoteItemToQuote(q, idx === 9)), // ma-025 (Hujjat-ul-Wida) featured
@@ -13679,9 +13987,86 @@ const batchMappedQuotes: Quote[] = [
   ...batch28Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-406 (Sohbat-e-Sadiqeen), ma-409 (Tijarat narmi), ma-413 (Wada amanat), ma-417 (Zaban insan), ma-420 (Pahari bazgasht) featured
   ...batch29Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-421 (Rehmat umeed), ma-424 (Shukr-e-Mohsin), ma-428 (Jood o Sakha), ma-432 (Afw Indal-Qudrah), ma-435 (Khazana matka insaf) featured
   ...batch30Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 3 || idx === 7 || idx === 11 || idx === 14)), // ma-436 (Fikr-e-Farda), ma-439 (Teen Sadqaat), ma-443 (Hama-geer rehmat), ma-447 (Qadr-e-Insan), ma-450 (Takmeel-e-Makhzan-e-Akhlaq) featured
+  ...batch31Quotes.map((q, idx) => quoteItemToQuote(q, idx === 0 || idx === 1)), // ma-451 (Mustafa Jaan-e-Rehmat), ma-452 (Ki Muhammad Se Wafa) featured
 ];
 
-export function formatBookRef(ref?: string, categorySlug?: string): string | null {
+const URDU_BOOK_NAME_MAP: Array<[RegExp, string]> = [
+  [/Sahih\s+Bukhari/gi, 'صحیح بخاری'],
+  [/Sahih\s+Muslim/gi, 'صحیح مسلم'],
+  [/Shamail\s+(?:al-)?Tirmidhi/gi, 'شمائلِ ترمذی'],
+  [/Sunan\s+(?:al-)?Tirmidhi/gi, 'جامع ترمذی'],
+  [/Sunan\s+Abi\s+Dawud/gi, 'سنن ابو داؤد'],
+  [/Sunan\s+Ibn\s+Majah/gi, 'سنن ابن ماجہ'],
+  [/Sunan\s+(?:an-)?Nasai/gi, 'سنن نسائی'],
+  [/Al-Adab\s+Al-Mufrad/gi, 'الادب المفرد'],
+  [/Al-Mu'?jam\s+Al-Awsat/gi, 'المعجم الاوسط'],
+  [/(?:Al-)?Mustadrak\s+(?:al-)?Hakim/gi, 'مستدرک حاکم'],
+  [/Hilyat\s+al-Awliya\s*\(Ibn\s+Mas'?ud\)/gi, 'حلیۃ الاولیاء (حضرت ابنِ مسعودؓ)'],
+  [/Hilyat\s+al-Awliya/gi, 'حلیۃ الاولیاء'],
+  [/Seerat-un-Nabi\s*ﷺ/gi, 'سیرت النبی ﷺ'],
+  [/Chahal\s+Hadith/gi, 'چَہل حدیث'],
+  [/Hadaiq-e-Bakhshish\s*\(Imam\s+Ahmad\s+Raza\s+Khan\)/gi, 'حدائقِ بخشش (امام احمد رضا خانؒ)'],
+  [/Hadaiq-e-Bakhshish/gi, 'حدائقِ بخشش'],
+  [/Kulliyat-e-Iqbal\s*\(Jawab-e-Shikwa\)/gi, 'کلیاتِ اقبالؒ (جوابِ شکوہ)'],
+  [/Kulliyat-e-Iqbal\s*\(Bal-e-Jibril\)/gi, 'کلیاتِ اقبالؒ (بالِ جبریل)'],
+  [/Kulliyat-e-Iqbal\s*\(Bang-e-Dara\)/gi, 'کلیاتِ اقبالؒ (بانگِ درا)'],
+  [/Kulliyat-e-Iqbal/gi, 'کلیاتِ اقبالؒ'],
+  [/Musaddas-e-Hali\s*\(Maulana\s+Altaf\s+Hussain\s+Hali\)/gi, 'مسدسِ حالیؒ (مولانا الطاف حسین حالیؒ)'],
+  [/Baharistan\s*\(Maulana\s+Zafar\s+Ali\s+Khan\)/gi, 'بہارستان (مولانا ظفر علی خانؒ)'],
+  [/Surah\s+Aal-e-Imran/gi, 'سورۃ آلِ عمران'],
+  [/Surah\s+Ad-Duha/gi, 'سورۃ الضحیٰ'],
+  [/Surah\s+Al-A'?raf/gi, 'سورۃ الاعراف'],
+  [/Surah\s+Al-Ahzab/gi, 'سورۃ الاحزاب'],
+  [/Surah\s+Al-An'?am/gi, 'سورۃ الانعام'],
+  [/Surah\s+Al-Ankabut/gi, 'سورۃ العنکبوت'],
+  [/Surah\s+Al-Asr/gi, 'سورۃ العصر'],
+  [/Surah\s+Al-Baqarah/gi, 'سورۃ البقرہ'],
+  [/Surah\s+Al-Furqan/gi, 'سورۃ الفرقان'],
+  [/Surah\s+Al-Hashr/gi, 'سورۃ الحشر'],
+  [/Surah\s+Al-Hujurat/gi, 'سورۃ الحجرات'],
+  [/Surah\s+Al-Insan/gi, 'سورۃ الانسان'],
+  [/Surah\s+Al-Isra/gi, 'سورۃ بنی اسرائیل'],
+  [/Surah\s+Al-Jumu'?ah/gi, 'سورۃ الجمعہ'],
+  [/Surah\s+Al-Ma'?idah/gi, 'سورۃ المائدہ'],
+  [/Surah\s+Al-Mu'?minun/gi, 'سورۃ المؤمنون'],
+  [/Surah\s+Al-Mutaffifin/gi, 'سورۃ المطففین'],
+  [/Surah\s+An-Nahl/gi, 'سورۃ النحل'],
+  [/Surah\s+An-Nisa/gi, 'سورۃ النساء'],
+  [/Surah\s+An-Nur/gi, 'سورۃ النور'],
+  [/Surah\s+Ar-Ra'?d/gi, 'سورۃ الرعد'],
+  [/Surah\s+Ar-Rahman/gi, 'سورۃ الرحمن'],
+  [/Surah\s+Ash-Shams/gi, 'سورۃ الشمس'],
+  [/Surah\s+Ash-Sharh/gi, 'سورۃ الم نشرح'],
+  [/Surah\s+Ash-Shu'?ara/gi, 'سورۃ الشعراء'],
+  [/Surah\s+Ash-Shura/gi, 'سورۃ الشوریٰ'],
+  [/Surah\s+At-Talaq/gi, 'سورۃ الطلاق'],
+  [/Surah\s+At-Tawbah/gi, 'سورۃ التوبہ'],
+  [/Surah\s+Az-Zalzalah/gi, 'سورۃ الزلزال'],
+  [/Surah\s+Az-Zumar/gi, 'سورۃ الزمر'],
+  [/Surah\s+Fussilat/gi, 'سورۃ حٰم السجدہ'],
+  [/Surah\s+Hud/gi, 'سورۃ ہود'],
+  [/Surah\s+Ibrahim/gi, 'سورۃ ابراہیم'],
+  [/Surah\s+Luqman/gi, 'سورۃ لقمان'],
+  [/Surah\s+Maryam/gi, 'سورۃ مریم'],
+  [/Surah\s+Taha/gi, 'سورۃ طٰہٰ'],
+];
+
+function localizeBookRefToUrdu(text: string): string {
+  let localized = text;
+  for (const [pattern, urduName] of URDU_BOOK_NAME_MAP) {
+    localized = localized.replace(pattern, urduName);
+  }
+  localized = localized
+    .replace(/^Surah\s+/i, 'سورۃ ')
+    .replace(/\s+&\s+/g, ' اور ');
+  return localized;
+}
+
+export function formatBookRef(
+  ref?: string,
+  categorySlug?: string,
+  lang: Language = 'en'
+): string | null {
   if (!ref) return null;
   const trimmed = ref.trim();
 
@@ -13694,11 +14079,12 @@ export function formatBookRef(ref?: string, categorySlug?: string): string | nul
   // Check if reference contains a canonical parenthetical source like "Makhzan-e-Akhlaq - Page 19-20 (Sahih Bukhari)"
   const parenMatch = trimmed.match(/^(?:Makhzan-e-Akhlaq|مخزنِ?\s*اخلاق)[^()]*\((Sahih [^)]+|Sunan [^)]+|Shamail [^)]+|Mustadrak [^)]+|Al-[^)]+|Surah [^)]+)\)$/i);
   if (parenMatch) {
-    return parenMatch[1].trim();
+    const res = parenMatch[1].trim();
+    return lang === 'ur' ? localizeBookRefToUrdu(res) : res;
   }
 
   // Handle patterns like "Surah Al-Hashr (59:18) Summary | Makhzan-e-Akhlaq" or "Mustadrak Hakim Summary | Makhzan-e-Akhlaq - Page 36"
-  let cleaned = trimmed
+  const cleaned = trimmed
     .replace(/\s*\|\s*(?:Makhzan-e-Akhlaq|مخزنِ?\s*اخلاق).*$/i, '')
     .replace(/\s*&\s*(?:Makhzan-e-Akhlaq|مخزنِ?\s*اخلاق).*$/i, '')
     .replace(/\s*\/\s*(?:Makhzan-e-Akhlaq|مخزنِ?\s*اخلاق).*$/i, '')
@@ -13709,7 +14095,8 @@ export function formatBookRef(ref?: string, categorySlug?: string): string | nul
   // If it's Chahal Hadith, e.g., "Makhzan-e-Akhlaq - Page 59 (Chahal Hadith #17)"
   const chahalMatch = trimmed.match(/\((Chahal Hadith\s*#[\d,\s#]+)\)/i);
   if (chahalMatch) {
-    return chahalMatch[1].trim();
+    const chahal = chahalMatch[1].trim();
+    return lang === 'ur' ? localizeBookRefToUrdu(chahal) : chahal;
   }
 
   // Check again if cleaned is just Makhzan
@@ -13717,14 +14104,14 @@ export function formatBookRef(ref?: string, categorySlug?: string): string | nul
     return null;
   }
 
-  if (cleaned.toLowerCase() === 'seerah') {
-    return 'Seerat-un-Nabi ﷺ';
-  }
-  if (cleaned.toLowerCase() === 'shamail') {
-    return 'Shamail Tirmidhi';
+  let normalized = cleaned;
+  if (normalized.toLowerCase() === 'seerah') {
+    normalized = 'Seerat-un-Nabi ﷺ';
+  } else if (normalized.toLowerCase() === 'shamail') {
+    normalized = 'Shamail Tirmidhi';
   }
 
-  return cleaned;
+  return lang === 'ur' ? localizeBookRefToUrdu(normalized) : normalized;
 }
 
 export const quotes: Quote[] = [

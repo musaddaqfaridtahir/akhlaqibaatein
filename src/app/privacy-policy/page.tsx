@@ -105,7 +105,13 @@ export default function PrivacyPolicyPage() {
           </h2>
           <p>
             By using our website, you hereby consent to our Privacy Policy and agree to its terms. If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at{' '}
-            <strong className="text-emerald-700 dark:text-emerald-400">contact@akhlaqibaatein.com</strong>.
+            <a
+              href="mailto:info@akhlaqibaatein.com"
+              className="font-bold text-emerald-700 dark:text-emerald-400 hover:underline"
+            >
+              info@akhlaqibaatein.com
+            </a>
+            .
           </p>
         </div>
       </section>

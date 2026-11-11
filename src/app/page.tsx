@@ -14,7 +14,7 @@ import {
   Clock,
   Award,
 } from 'lucide-react';
-import { categories, getCategoryTitle, getCategoryDesc } from '@/data/categories';
+import { categories, getCategoryBySlug, getCategoryTitle, getCategoryDesc } from '@/data/categories';
 import { quotes } from '@/data/quotes';
 import {
   articles,
@@ -258,7 +258,7 @@ export default function HomePage() {
 
       {/* Main Interactive Search & Quotes Feed */}
       <section className="space-y-6 pt-4">
-        <SearchAndQuoteFeed initialQuotes={quotes} />
+        <SearchAndQuoteFeed initialQuotes={quotes} excludeId={quoteOfTheDay.id} />
       </section>
 
       {/* Mid-Page AdSlot */}
@@ -296,6 +296,8 @@ export default function HomePage() {
             const artSummary = getArticleSummary(art, language);
             const artAuthor = getArticleAuthor(art, language);
             const artReadTime = getArticleReadTime(art, language);
+            const artCat = getCategoryBySlug(art.category);
+            const artCatTitle = artCat ? getCategoryTitle(artCat, language) : art.category;
 
             return (
               <article
@@ -304,8 +306,12 @@ export default function HomePage() {
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between text-xs text-slate-500">
-                    <span className="px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-medium">
-                      #{art.category}
+                    <span
+                      className={`px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-medium ${
+                        isUrdu ? 'font-urdu leading-normal' : ''
+                      }`}
+                    >
+                      #{artCatTitle}
                     </span>
                     <span className="flex items-center gap-1">
                       <Clock className="w-3 h-3 text-amber-500" />

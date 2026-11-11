@@ -12,6 +12,7 @@ import {
 } from '@/data/articles';
 import AdSlot from '@/components/AdSlot';
 import { useLanguage } from '@/context/LanguageContext';
+import { getCategoryBySlug, getCategoryTitle } from '@/data/categories';
 
 export default function ArticlesPage() {
   const { language, t } = useLanguage();
@@ -73,6 +74,8 @@ export default function ArticlesPage() {
           const artSummary = getArticleSummary(art, language);
           const artAuthor = getArticleAuthor(art, language);
           const artReadTime = getArticleReadTime(art, language);
+          const catObj = getCategoryBySlug(art.category);
+          const catTitle = catObj ? getCategoryTitle(catObj, language) : art.category;
 
           return (
             <article
@@ -81,8 +84,12 @@ export default function ArticlesPage() {
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between text-xs text-slate-500">
-                  <span className="px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 font-semibold border border-emerald-200/60 dark:border-emerald-800">
-                    #{art.category}
+                  <span
+                    className={`px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 font-semibold border border-emerald-200/60 dark:border-emerald-800 ${
+                      isUrdu ? 'font-urdu leading-normal' : ''
+                    }`}
+                  >
+                    #{catTitle}
                   </span>
                   <span className="flex items-center gap-1 font-medium">
                     <Clock className="w-3.5 h-3.5 text-amber-500" />

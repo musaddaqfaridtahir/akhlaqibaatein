@@ -45,6 +45,10 @@ export default function JsonLd(props: JsonLdProps) {
         '@type': 'Organization',
         name: 'AkhlaqiBaatein.com',
         url: 'https://akhlaqibaatein.com',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://akhlaqibaatein.com/logo.png',
+        },
       },
     };
   } else if (props.type === 'article') {
@@ -80,6 +84,15 @@ export default function JsonLd(props: JsonLdProps) {
       name: 'AkhlaqiBaatein.com',
       alternateName: 'اخلاقی باتیں',
       url: 'https://akhlaqibaatein.com',
+      publisher: {
+        '@type': 'Organization',
+        name: 'AkhlaqiBaatein.com',
+        url: 'https://akhlaqibaatein.com',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://akhlaqibaatein.com/logo.png',
+        },
+      },
       description:
         'Digitizing timeless Islamic wisdom, moral parables, prophetic virtues, and classical ethics from Makhzan-e-Akhlaq and authentic sources.',
       potentialAction: {

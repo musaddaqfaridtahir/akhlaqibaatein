@@ -83,7 +83,7 @@ export const categories: Category[] = [
     descriptionRoman: 'Huzoor Sarwar-e-Kawnain ﷺ ki bargah mein manzoom nazrana-e-aqeedat, Naat Sharif lyrics aur kalam-e-aarifeen.',
     descriptionEnglish: 'Sacred poetry, devotional lyrics, and spiritual reflections in honor of Prophet Muhammad ﷺ with moral insights.',
     iconName: 'Sparkles',
-    quoteCount: 0,
+    quoteCount: 10,
   },
 ];
 

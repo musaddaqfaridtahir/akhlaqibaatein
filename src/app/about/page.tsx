@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { Sparkles, ShieldCheck, Target, BookOpen } from 'lucide-react';
+import Link from 'next/link';
+import { Sparkles, ShieldCheck, Target, BookOpen, Mail } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function AboutPage() {
@@ -138,6 +139,45 @@ export default function AboutPage() {
               <span>{content.standard3}</span>
             </li>
           </ul>
+        </div>
+
+        {/* Official Editorial Contact */}
+        <div className="p-4 sm:p-6 rounded-2xl bg-stone-50 dark:bg-[#0d1b16] border border-stone-200 dark:border-emerald-800/50 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2 text-emerald-950 dark:text-emerald-300 font-bold text-sm sm:text-base">
+              <Mail className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
+              <span className={isUrdu ? 'font-urdu' : ''}>
+                {isUrdu
+                  ? 'ادارتی رابطہ و علمی تجاویز'
+                  : language === 'ro'
+                  ? 'Idarati Rabta aur Mashwara'
+                  : 'Official Editorial Desk & Inquiries'}
+              </span>
+            </div>
+            <p className={`text-xs sm:text-sm text-slate-600 dark:text-slate-300 ${isUrdu ? 'font-urdu leading-[1.9]' : ''}`}>
+              {isUrdu
+                ? 'کسی بھی علمی تصحیح یا مشورے کے لیے ہم سے براہِ راست ای میل یا رابطہ فارم کے ذریعے گفتگو فرمائیں:'
+                : language === 'ro'
+                ? 'Kisi bhi tasheeh ya tajweez ke liye email ya contact page ke zariye rabta karein:'
+                : 'For scholarly corrections, feedback, or general inquiries, reach our editorial desk directly:'}
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center gap-3 shrink-0">
+            <a
+              href="mailto:info@akhlaqibaatein.com"
+              className="px-4 py-2 rounded-xl bg-white dark:bg-slate-900 border border-emerald-200 dark:border-emerald-700 text-xs sm:text-sm font-semibold text-emerald-800 dark:text-emerald-300 hover:border-emerald-500 transition"
+            >
+              info@akhlaqibaatein.com
+            </a>
+            <Link
+              href="/contact"
+              className={`px-4 py-2 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-white text-xs sm:text-sm font-semibold transition ${
+                isUrdu ? 'font-urdu' : ''
+              }`}
+            >
+              {isUrdu ? 'رابطہ فارم' : language === 'ro' ? 'Rabta Karein' : 'Contact Form'}
+            </Link>
+          </div>
         </div>
       </section>
     </div>

@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import Script from 'next/script';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
 import Navbar from '@/components/Navbar';
@@ -37,6 +38,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'AkhlaqiBaatein Editorial Board' }],
   creator: 'AkhlaqiBaatein.com',
   publisher: 'AkhlaqiBaatein.com',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     type: 'website',
     locale: 'ur_PK',
@@ -45,11 +50,20 @@ export const metadata: Metadata = {
     description:
       'Explore authentic Islamic wisdom, Quranic teachings, Hadith ethics, and classic moral stories in pure Urdu, Roman Urdu, and English.',
     siteName: 'AkhlaqiBaatein.com',
+    images: [
+      {
+        url: 'https://akhlaqibaatein.com/logo.png',
+        width: 512,
+        height: 512,
+        alt: 'AkhlaqiBaatein.com Emblem',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'اخلاقی باتیں | AkhlaqiBaatein.com',
     description: 'Timeless Islamic wisdom and classical moral literature with strict language isolation.',
+    images: ['https://akhlaqibaatein.com/logo.png'],
   },
   robots: {
     index: true,
@@ -69,16 +83,39 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const gtmIdEnv = process.env.NEXT_PUBLIC_GTM_ID?.trim();
+  const gtmId =
+    gtmIdEnv && /^GTM-[A-Z0-9]+$/i.test(gtmIdEnv) ? gtmIdEnv : 'GTM-NMFV4L6F';
+
+  const gaId = process.env.NEXT_PUBLIC_GA_ID?.trim();
+  const isGaConfigured =
+    Boolean(gaId) &&
+    typeof gaId === 'string' &&
+    /^G-[A-Z0-9]+$/i.test(gaId) &&
+    !gaId.includes('XXXX');
+
+  const adsenseClientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID?.trim();
   const isAdsenseConfigured =
     Boolean(adsenseClientId) &&
     typeof adsenseClientId === 'string' &&
-    adsenseClientId.startsWith('ca-pub-') &&
-    !adsenseClientId.includes('XXXX');
+    /^ca-pub-\d{10,}$/.test(adsenseClientId) &&
+    !adsenseClientId.includes('XXXX') &&
+    !/ca-pub-0{6,}/i.test(adsenseClientId);
 
   return (
     <html lang="ur" dir="rtl" className="lang-ur">
       <head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtm.js?id=${gtmId}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());`,
+          }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -95,6 +132,22 @@ export default function RootLayout({
         <JsonLd type="website" />
       </head>
       <body className="min-h-screen flex flex-col antialiased bg-[#FAF8F5] dark:bg-slate-950 text-slate-900 dark:text-slate-100 selection:bg-amber-400 selection:text-slate-950 font-body-lang overflow-x-hidden max-w-[100vw] w-full">
+        {isGaConfigured && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics-ga4" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${gaId}');
+              `}
+            </Script>
+          </>
+        )}
         <LanguageProvider>
           <Navbar />
           <IslamicDateBar />

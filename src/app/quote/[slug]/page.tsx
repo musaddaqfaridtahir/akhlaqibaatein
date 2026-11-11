@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = quote.title?.ur
     ? `${quote.title.ur} — ${quote.authorUrdu}`
     : `${quote.urdu.slice(0, 50)}... (${quote.author})`;
-  const description = `${quote.roman} — ${quote.tashreeh.slice(0, 150)}...`;
+  const description = `${quote.urdu.slice(0, 95)} | ${quote.english.slice(0, 95)} — ${quote.tashreehEnglish.slice(0, 90)}`;
 
   return {
     title,

@@ -1,11 +1,13 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Mail, Send, CheckCircle2 } from 'lucide-react';
+import { Mail, Send, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -13,14 +15,14 @@ export default function ContactPage() {
     message: '',
   });
 
-  const { language, t } = useLanguage();
+  const { language } = useLanguage();
   const isUrdu = language === 'ur';
 
   const strings = {
     ur: {
       title: 'رابطہ و تصحیح (Contact & Corrections)',
       desc: 'اگر آپ کو پورٹل پر کسی قول، حدیث یا ترجمے میں تصحیح کروانی ہو، یا کوئی تجویز ہو، تو ہم سے بلا جھجھک رابطہ فرمائیں۔',
-      directEmail: 'براہِ راست ای میل',
+      directEmail: 'براہِ راست سرکاری ای میل',
       emailResponse: 'ہم 24 سے 48 گھنٹوں کے اندر تمام تجاویز کا جائزہ لیتے ہیں۔',
       nameLabel: 'آپ کا نام',
       namePlaceholder: 'مثلاً: محمد احمد',
@@ -30,14 +32,16 @@ export default function ContactPage() {
       messageLabel: 'تفصیلی پیغام',
       messagePlaceholder: 'اپنا پیغام یہاں تحریر فرمائیں...',
       submitBtn: 'پیغام ارسال کریں',
-      successTitle: 'آپ کا پیغام موصول ہو چکا ہے!',
-      successDesc: 'جزاک اللہ خیراً! آپ کے قیمتی وقت اور محبت کا شکریہ۔ ہماری ٹیم جلد رابطہ کرے گی۔',
+      sendingBtn: 'پیغام بھیجا جا رہا ہے...',
+      errorFallback: 'معذرت، پیغام بھیجنے میں تکنیکی دشواری پیش آئی۔ برائے مہربانی info@akhlaqibaatein.com پر براہِ راست ای میل فرمائیں۔',
+      successTitle: 'آپ کا پیغام کامیابی سے بھیج دیا گیا ہے!',
+      successDesc: 'جزاک اللہ خیراً! آپ کے قیمتی وقت اور محبت کا شکریہ۔ ہماری ادارتی ٹیم جلد آپ کے ای میل پتے پر رابطہ کرے گی۔',
       sendAnother: 'دوسرا پیغام بھیجیں',
     },
     ro: {
       title: 'Rabta aur Tasheeh (Contact & Corrections)',
       desc: 'Agar aap ko kisi qol ya hadith ke hawale mein koi tasheeh karwani ho to hum se rabta karein.',
-      directEmail: 'Direct Email',
+      directEmail: 'Official Email',
       emailResponse: 'Hum 24 se 48 ghanton mein har email ka jawab dete hain.',
       nameLabel: 'Aap Ka Naam',
       namePlaceholder: 'Misal: Muhammad Ahmed',
@@ -47,33 +51,59 @@ export default function ContactPage() {
       messageLabel: 'Tafseeli Paigham',
       messagePlaceholder: 'Apna paigham yahan likhein...',
       submitBtn: 'Paigham Bhejein',
-      successTitle: 'Aap ka paigham mil gaya hai!',
-      successDesc: 'JazakAllah! Hamari team jald hi aap se rabta karegi.',
+      sendingBtn: 'Paigham bheja ja raha hai...',
+      errorFallback: 'Maazrat, message bhejne mein masla aaya. Baraye meherbani info@akhlaqibaatein.com par email karein.',
+      successTitle: 'Aap ka paigham bhej diya gaya hai!',
+      successDesc: 'JazakAllah! Hamari team jald hi aap ke email par jawab degi.',
       sendAnother: 'Doosra paigham bhejein',
     },
     en: {
       title: 'Contact Us & Suggest Corrections',
       desc: 'Have an inquiry, feedback, or scholarly correction for a specific quotation or tradition? We welcome your message.',
-      directEmail: 'Direct Email',
+      directEmail: 'Official Editorial Email',
       emailResponse: 'We review scholarly feedback and inquiries within 24 to 48 hours.',
       nameLabel: 'Your Full Name',
-      namePlaceholder: 'e.g. John Doe',
+      namePlaceholder: 'e.g. Muhammad Ahmed',
       emailLabel: 'Email Address',
       subjectLabel: 'Subject',
       subjectPlaceholder: 'e.g. Correction regarding Quote Reference',
       messageLabel: 'Message',
       messagePlaceholder: 'Please type your message or inquiry here...',
       submitBtn: 'Send Message',
-      successTitle: 'Message Received Successfully!',
-      successDesc: 'Thank you for reaching out. Our editorial team will review your message shortly.',
+      sendingBtn: 'Sending Message...',
+      errorFallback: 'Sorry, we could not send your message automatically. Please email info@akhlaqibaatein.com directly.',
+      successTitle: 'Message Delivered Successfully!',
+      successDesc: 'Thank you for reaching out. Our editorial team will reply to your email address shortly.',
       sendAnother: 'Send Another Message',
     },
   }[language];
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (form.name && form.email && form.message) {
-      setSubmitted(true);
+    if (!form.name || !form.email || !form.subject || !form.message || isSubmitting) return;
+
+    setIsSubmitting(true);
+    setErrorMessage(null);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(form),
+      });
+
+      const data = await response.json().catch(() => null);
+      if (response.ok && data?.success) {
+        setSubmitted(true);
+      } else {
+        setErrorMessage(data?.error || strings.errorFallback);
+      }
+    } catch {
+      setErrorMessage(strings.errorFallback);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -108,7 +138,12 @@ export default function ContactPage() {
             </h3>
             <div className="flex items-center gap-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300 break-all">
               <Mail className="w-5 h-5 text-emerald-600 shrink-0" />
-              <span>contact@akhlaqibaatein.com</span>
+              <a
+                href="mailto:info@akhlaqibaatein.com"
+                className="font-semibold text-emerald-800 dark:text-emerald-300 hover:underline"
+              >
+                info@akhlaqibaatein.com
+              </a>
             </div>
             <p className={`text-xs text-slate-500 dark:text-slate-400 ${isUrdu ? 'font-urdu leading-[2.0]' : 'leading-relaxed'}`}>
               {strings.emailResponse}
@@ -196,14 +231,36 @@ export default function ContactPage() {
                   />
                 </div>
 
+                {errorMessage && (
+                  <div
+                    role="alert"
+                    className={`flex items-start gap-2.5 p-3.5 rounded-2xl bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-900/50 text-xs sm:text-sm text-red-800 dark:text-red-300 ${
+                      isUrdu ? 'font-urdu leading-[1.9]' : ''
+                    }`}
+                  >
+                    <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
+                    <span>{errorMessage}</span>
+                  </div>
+                )}
+
                 <button
                   type="submit"
-                  className={`w-full py-3.5 px-6 rounded-2xl bg-emerald-700 hover:bg-emerald-800 active:scale-[0.99] text-white font-bold text-sm shadow-md transition flex items-center justify-center gap-2 ${
+                  disabled={isSubmitting}
+                  className={`w-full py-3.5 px-6 rounded-2xl bg-emerald-700 hover:bg-emerald-800 active:scale-[0.99] text-white font-bold text-sm shadow-md transition flex items-center justify-center gap-2 disabled:opacity-60 ${
                     isUrdu ? 'font-urdu text-base' : ''
                   }`}
                 >
-                  <Send className="w-4 h-4" />
-                  <span>{strings.submitBtn}</span>
+                  {isSubmitting ? (
+                    <>
+                      <Loader2 className="w-4 h-4 animate-spin" />
+                      <span>{strings.sendingBtn}</span>
+                    </>
+                  ) : (
+                    <>
+                      <Send className="w-4 h-4" />
+                      <span>{strings.submitBtn}</span>
+                    </>
+                  )}
                 </button>
               </form>
             )}

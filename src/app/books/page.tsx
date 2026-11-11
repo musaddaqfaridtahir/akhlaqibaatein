@@ -17,6 +17,7 @@ import {
   getChapterDesc,
 } from '@/data/books';
 import AdSlot from '@/components/AdSlot';
+import { quotes } from '@/data/quotes';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function BooksPage() {
@@ -116,11 +117,28 @@ export default function BooksPage() {
         </p>
       </section>
 
-      {/* Primary Available Book: Makhzan-e-Akhlaq */}
+      {/* Primary Available Book(s) */}
       {availableBooks.map((book) => {
         const bookTitle = getBookTitle(book, language);
         const bookDesc = getBookDesc(book, language);
         const bookAuthor = getBookAuthor(book, language);
+        const bookQuoteCount = quotes.filter((q) => q.bookSlug === book.slug).length;
+
+        const chapterCategoryLinks = [
+          '/category/ahkam-e-khuda',
+          '/category/irshadat-e-nabawi',
+          '/category/aqwal-e-sahaba',
+          '/category/khasail-e-nabawi',
+          '/category/ambiya-o-hukama',
+        ];
+
+        const chapterCountsDynamic = [
+          quotes.filter((q) => q.category === 'ahkam-e-khuda').length,
+          quotes.filter((q) => q.category === 'irshadat-e-nabawi').length,
+          quotes.filter((q) => q.category === 'aqwal-e-sahaba').length,
+          quotes.filter((q) => q.category === 'khasail-e-nabawi').length,
+          quotes.filter((q) => q.category === 'ambiya-o-hukama').length,
+        ];
 
         return (
           <section
@@ -131,7 +149,9 @@ export default function BooksPage() {
               <div>
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 text-xs font-semibold mb-2">
                   <BookmarkCheck className="w-3.5 h-3.5 text-amber-500" />
-                  <span>{headers.editionBadge}</span>
+                  <span>
+                    {headers.editionBadge} • {bookQuoteCount} {headers.quotesCountLabel}
+                  </span>
                 </div>
                 <h2
                   className={`text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white ${
@@ -142,7 +162,7 @@ export default function BooksPage() {
                 </h2>
               </div>
 
-              <div className="text-xs text-slate-500 space-y-1">
+              <div className="text-xs text-slate-500 dark:text-slate-400 space-y-1">
                 <p>
                   <strong>{headers.authorLabel} </strong> {bookAuthor}
                 </p>
@@ -168,21 +188,24 @@ export default function BooksPage() {
               </h3>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {book.chapters.map((ch) => {
+                {book.chapters.map((ch, idx) => {
                   const chTitle = getChapterTitle(ch, language);
                   const chDesc = getChapterDesc(ch, language);
+                  const href = chapterCategoryLinks[idx] || '/#categories';
+                  const liveCount = chapterCountsDynamic[idx] ?? ch.quoteCount;
 
                   return (
-                    <div
+                    <Link
                       key={ch.number}
-                      className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 space-y-2 hover:border-emerald-500 transition"
+                      href={href}
+                      className="p-5 rounded-2xl bg-slate-50 dark:bg-slate-950/60 border border-slate-200/80 dark:border-slate-800 space-y-2 hover:border-emerald-500 transition block"
                     >
                       <div className="flex items-center justify-between text-xs text-slate-500">
                         <span className="font-bold text-amber-600 dark:text-amber-400">
                           #{ch.number}
                         </span>
                         <span>
-                          {ch.quoteCount} {headers.quotesCountLabel}
+                          {liveCount} {headers.quotesCountLabel}
                         </span>
                       </div>
 
@@ -200,7 +223,7 @@ export default function BooksPage() {
                       >
                         {chDesc}
                       </p>
-                    </div>
+                    </Link>
                   );
                 })}
               </div>

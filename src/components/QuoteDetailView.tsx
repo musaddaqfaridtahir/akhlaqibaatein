@@ -13,6 +13,7 @@ import {
   Globe,
   Layers,
   Compass,
+  ChevronDown,
 } from 'lucide-react';
 import { Quote, Category } from '@/data/types';
 import {
@@ -48,13 +49,13 @@ export default function QuoteDetailView({
   const isUrdu = language === 'ur';
 
   // Active language view
-  const quoteTitle = getQuoteTitle(quote, language) || quote.title?.ur || quote.urdu.slice(0, 50);
   const quoteText = getQuoteText(quote, language);
+  const quoteTitle = getQuoteTitle(quote, language) || quoteText.slice(0, 60);
   const quoteAuthor = getQuoteAuthor(quote, language);
   const quoteTashreeh = getQuoteTashreeh(quote, language);
   const quoteAmliSabaq = getQuoteAmliSabaq(quote, language);
   const quoteSource = getQuoteSource(quote, language);
-  const cleanSource = formatBookRef(quoteSource, quote.category);
+  const cleanSource = formatBookRef(quoteSource, quote.category, language);
   const quoteTags = getQuoteTags(quote, language);
   const categoryTitle = category ? getCategoryTitle(category, language) : quote.category;
 
@@ -65,7 +66,7 @@ export default function QuoteDetailView({
   const urduTashreeh = getQuoteTashreeh(quote, 'ur');
   const urduAmli = getQuoteAmliSabaq(quote, 'ur');
   const urduSource = getQuoteSource(quote, 'ur');
-  const cleanUrduSource = formatBookRef(urduSource, quote.category);
+  const cleanUrduSource = formatBookRef(urduSource, quote.category, 'ur');
   const urduTags = getQuoteTags(quote, 'ur');
 
   const romanTitle = getQuoteTitle(quote, 'ro') || quote.title?.ro || '';
@@ -74,7 +75,7 @@ export default function QuoteDetailView({
   const romanTashreeh = getQuoteTashreeh(quote, 'ro');
   const romanAmli = getQuoteAmliSabaq(quote, 'ro');
   const romanSource = getQuoteSource(quote, 'ro');
-  const cleanRomanSource = formatBookRef(romanSource, quote.category);
+  const cleanRomanSource = formatBookRef(romanSource, quote.category, 'ro');
   const romanTags = getQuoteTags(quote, 'ro');
 
   const englishTitle = getQuoteTitle(quote, 'en') || quote.title?.en || '';
@@ -83,7 +84,7 @@ export default function QuoteDetailView({
   const englishTashreeh = getQuoteTashreeh(quote, 'en');
   const englishAmli = getQuoteAmliSabaq(quote, 'en');
   const englishSource = getQuoteSource(quote, 'en');
-  const cleanEnglishSource = formatBookRef(englishSource, quote.category);
+  const cleanEnglishSource = formatBookRef(englishSource, quote.category, 'en');
   const englishTags = getQuoteTags(quote, 'en');
 
   const handleCopy = () => {
@@ -104,70 +105,70 @@ export default function QuoteDetailView({
     window.open(`https://api.whatsapp.com/send?text=${message}`, '_blank');
   };
 
-  // Dynamic FAQs tailored to the specific quote, author, and book reference
+  // Dynamic FAQs tailored to the specific quote, author, topic tags, and book reference
   const dynamicFaqs = [
     {
       question:
         language === 'ur'
-          ? `اس فرمان / قول کا بنیادی اخلاقی مفہوم اور تشریح کیا ہے؟`
+          ? `“${quoteTitle}” کا بنیادی اخلاقی مفہوم اور تشریح کیا ہے؟`
           : language === 'ro'
-          ? `"${quoteTitle}" ka bunyadi akhlaqi mafhoom aur tashreeh kya hai?`
-          : `What is the core moral meaning and explanation of "${quoteTitle}"?`,
+          ? `“${quoteTitle}” ka bunyadi akhlaqi mafhoom aur tashreeh kya hai?`
+          : `What is the core moral meaning and explanation of “${quoteTitle}”?`,
       answer:
         language === 'ur'
-          ? `${quoteTashreeh} ${quoteAmliSabaq ? `اس فرمان سے ہمیں یہ سبق ملتا ہے کہ: ${quoteAmliSabaq}` : ''}`
+          ? `${quoteTashreeh}${quoteAmliSabaq ? ` اس تعلیم سے ہمیں یہ عملی پیغام ملتا ہے کہ: ${quoteAmliSabaq}` : ''}`
           : language === 'ro'
-          ? `${quoteTashreeh} ${quoteAmliSabaq ? `Is se humein yeh amli sabaq milta hai: ${quoteAmliSabaq}` : ''}`
-          : `${quoteTashreeh} ${quoteAmliSabaq ? `The practical lesson derived from this teaching is: ${quoteAmliSabaq}` : ''}`,
+          ? `${quoteTashreeh}${quoteAmliSabaq ? ` Is taleem se humein yeh amli sabaq milta hai: ${quoteAmliSabaq}` : ''}`
+          : `${quoteTashreeh}${quoteAmliSabaq ? ` Practical takeaway: ${quoteAmliSabaq}` : ''}`,
     },
     {
       question:
         language === 'ur'
-          ? `یہ قول کس ہستی کا ہے اور اس کا مستند ماخذ کون سی کتاب ہے؟`
+          ? `“${quoteTitle}” کس کی تعلیمات میں سے ہے اور اس کا مستند ماخذ کیا ہے؟`
           : language === 'ro'
-          ? `Yeh qoul kis shakhsiyat ka hai aur is ka mustanad maakhaz kya hai?`
-          : `Who is the author of this wisdom and what is its authentic reference?`,
+          ? `“${quoteTitle}” kis shakhsiyat ki taleemat mein se hai aur is ka mustanad maakhaz kya hai?`
+          : `Who is “${quoteTitle}” attributed to and what is its authentic reference?`,
       answer:
         language === 'ur'
           ? cleanSource
-            ? `یہ پرحکمت ارشاد ${quoteAuthor} کی مبارک تعلیمات میں سے ہے اور یہ مستند اسلامی ماخذ "${cleanSource}" سے ماخوذ ہے۔ یہ قول ${categoryTitle} کے تحت اخلاقی اصلاح کا اہم ستون ہے۔`
-            : `یہ پرحکمت ارشاد ${quoteAuthor} کی مبارک تعلیمات میں سے ہے۔ یہ قول ${categoryTitle} کے تحت اخلاقی اصلاح کا اہم ستون ہے۔`
+            ? `یہ پرحکمت تعلیم ${quoteAuthor} کی مبارک روایات و اقوال میں سے ہے اور مستند ماخذ ”${cleanSource}“ میں بیان ہوئی ہے۔ یہ سبق زمرہ ”${categoryTitle}“ کے اہم اخلاقی دروس میں شامل ہے۔`
+            : `یہ پرحکمت تعلیم ${quoteAuthor} کے اخلاقی ذخیرے میں سے ہے اور زمرہ ”${categoryTitle}“ کے تحت انسانی کردار کی اصلاح کے لیے مستند علمی رہنمائی فراہم کرتی ہے۔`
           : language === 'ro'
           ? cleanSource
-            ? `Yeh pur-hikmat irshad ${quoteAuthor} ki mubarak taleemat mein se hai aur yeh mustanad maakhuz "${cleanSource}" se liya gaya hai. Yeh qoul ${categoryTitle} ke tehat akhlaqi islah ka ahem sabaq hai.`
-            : `Yeh pur-hikmat irshad ${quoteAuthor} ki mubarak taleemat mein se hai. Yeh qoul ${categoryTitle} ke tehat akhlaqi islah ka ahem sabaq hai.`
+            ? `Yeh pur-hikmat qoul ${quoteAuthor} ki mubarak taleemat mein se hai aur mustanad maakhuz "${cleanSource}" mein darj hai. Yeh dars "${categoryTitle}" ke ahem akhlaqi asbaaq mein shamil hai.`
+            : `Yeh pur-hikmat qoul ${quoteAuthor} ki mubarak taleemat mein se hai aur "${categoryTitle}" ke tehat kirdar saazi ka ahem sabaq deta hai.`
           : cleanSource
-          ? `This profound teaching is attributed to ${quoteAuthor} and is faithfully cited from "${cleanSource}". It serves as a foundational pillar within ${categoryTitle}.`
-          : `This profound teaching is attributed to ${quoteAuthor}. It serves as a foundational pillar within ${categoryTitle}.`,
+          ? `This wisdom is attributed to ${quoteAuthor} and referenced in “${cleanSource}”. It forms an essential ethical lesson within the ${categoryTitle} collection.`
+          : `This wisdom is attributed to ${quoteAuthor} and curated within our classical ${categoryTitle} collection for moral reflection and spiritual growth.`,
     },
     {
       question:
         language === 'ur'
-          ? `اس اخلاقی درس پر روزمرہ زندگی میں عملی طور پر کیسے عمل کیا جا سکتا ہے؟`
+          ? `عملی زندگی میں “${quoteTitle}” پر عمل کرنے کا بہترین طریقہ کیا ہے؟`
           : language === 'ro'
-          ? `Is akhlaqi dars par rozmarra zindagi mein amli taur par kaise amal kiya jaye?`
-          : `How can one practically apply this ethical wisdom in daily living?`,
+          ? `Rozmarra zindagi mein “${quoteTitle}” par amli taur par kaise amal kiya jaye?`
+          : `How can one practically apply the message of “${quoteTitle}” in daily life?`,
       answer:
         quoteAmliSabaq ||
         (language === 'ur'
-          ? `اس پر عمل کرنے کا بہترین طریقہ یہ ہے کہ انسان اپنی زبان، نیت اور معاملات کو پاکیزہ رکھے، دوسروں کے ساتھ حسنِ سلوک کرے، اور صبر و شکر کو اپنی مستقل عادت بنائے۔`
+          ? `${categoryTitle} کے اس روشن اصول پر عمل کرنے کے لیے انسان اپنی نیت کو خالص رکھے، روزمرہ معاملات میں سچائی و نرم خوئی اختیار کرے اور ${quoteTags.slice(0, 2).join(' و ')} کو اپنی عادت بنائے۔`
           : language === 'ro'
-          ? `Is par amal karne ka behtareen tareeqa yeh hai ke insan apni zaban, niyat aur muamlat ko pakeeza rakhe, doosron ke sath husn-e-sulook kare, aur sabr o shukr ko apni aadat banaye.`
-          : `The most effective way to practice this wisdom is by maintaining pure intentions, speaking with kindness, upholding honesty in all transactions, and embracing patience and gratitude.`),
+          ? `${categoryTitle} ke is sunehre usool par amal karne ke liye niyat khalis rakhein, muamlat mein sachai o narmi ikhtiyar karein aur ${quoteTags.slice(0, 2).join(' aur ')} ko zindagi ka hissa banayein.`
+          : `Apply this lesson from ${categoryTitle} by purifying intentions, practicing kindness and integrity in everyday dealings, and embodying ${quoteTags.slice(0, 2).join(' and ')}.`),
     },
     {
       question:
         language === 'ur'
-          ? `یہ قول کن اہم اخلاقی موضوعات اور اقدار پر روشنی ڈالتا ہے؟`
+          ? `اس ارشاد میں کن بنیادی اخلاقی اقدار اور موضوعات کو اجاگر کیا گیا ہے؟`
           : language === 'ro'
-          ? `Is qoul mein kin ahem akhlaqi mauzo'at par roshni dali gayi hai?`
-          : `What key ethical themes and virtues are highlighted in this teaching?`,
+          ? `“${quoteTitle}” mein kin ahem akhlaqi qadron aur mauzo'at par roshni dali gayi hai?`
+          : `Which core virtues and ethical themes are emphasized in “${quoteTitle}”?`,
       answer:
         language === 'ur'
-          ? `یہ قول بنیادی طور پر ${quoteTags.join('، ')} جیسے اعلیٰ اخلاقی و روحانی اوصاف کی اہمیت کو اجاگر کرتا ہے، جو ایک پرامن اور باوقار معاشرے کی بنیاد ہیں۔`
+          ? `یہ مضمون بنیادی طور پر ${quoteTags.join('، ')} جیسی اعلیٰ انسانی و اسلامی اقدار کو اجاگر کرتا ہے، جو ${categoryTitle} کے دائرۂ فکر میں انفرادی تزکیہ اور معاشرتی امن کی بنیاد بنتی ہیں۔`
           : language === 'ro'
-          ? `Yeh qoul bunyadi taur par ${quoteTags.join(', ')} jaise aala akhlaqi o roohani awsaf ki ehmiyat ko wazeh karta hai, jo ba-waqar muashray ki bunyad hain.`
-          : `This teaching primarily highlights foundational virtues such as ${quoteTags.join(', ')}, nurturing spiritual purification and communal harmony.`,
+          ? `Yeh qoul bunyadi taur par ${quoteTags.join(', ')} jaisi aala akhlaqi o roohani qadron ki ehmiyat wazeh karta hai, jo ${categoryTitle} ke tehat ba-waqar muashray ki bunyad hain.`
+          : `This teaching emphasizes core virtues including ${quoteTags.join(', ')}, strengthening character purification and social harmony under ${categoryTitle}.`,
     },
   ];
 
@@ -335,7 +336,13 @@ export default function QuoteDetailView({
 
         {/* Tags */}
         <div className="flex items-center gap-2 flex-wrap pt-2">
-          <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase">Tags:</span>
+          <span
+            className={`text-xs font-semibold text-slate-600 dark:text-slate-300 ${
+              isUrdu ? 'font-urdu text-sm' : 'uppercase'
+            }`}
+          >
+            {isUrdu ? 'ٹیگز:' : 'Tags:'}
+          </span>
           {quoteTags.map((tag) => (
             <span
               key={tag}
@@ -343,7 +350,7 @@ export default function QuoteDetailView({
                 isUrdu ? 'font-urdu' : ''
               }`}
             >
-              #{tag}
+              {isUrdu ? tag : `#${tag}`}
             </span>
           ))}
         </div>
@@ -357,36 +364,50 @@ export default function QuoteDetailView({
         aria-label="Complete Tri-Lingual Editions"
         className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-10 bg-white dark:bg-slate-900 border border-stone-200/90 dark:border-slate-800 shadow-sm space-y-6"
       >
-        <div className="flex items-center justify-between flex-wrap gap-3 pb-2 border-b border-stone-200 dark:border-slate-800">
-          <div className="flex items-center gap-2 text-slate-900 dark:text-white">
-            <Globe className="w-5 h-5 text-emerald-700 dark:text-emerald-400" />
-            <h2
-              className={`text-lg sm:text-xl font-bold ${
-                isUrdu ? 'font-urdu text-xl sm:text-2xl' : ''
-              }`}
-            >
-              {language === 'ur'
-                ? 'سہ لسانی ذخیرہ و مکمل تشریحی متون (اردو • Roman • English)'
-                : language === 'ro'
-                ? 'Seh-Lisani Zakhira o Tafseeli Matn (Urdu • Roman • English)'
-                : 'Complete Tri-Lingual Edition & Comprehensive Analysis'}
-            </h2>
-          </div>
-          <span className="text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1 font-medium">
-            <Layers className="w-3.5 h-3.5 text-amber-500" />
-            <span>3 Languages &bull; 100% Authentic Citations</span>
-          </span>
-        </div>
+        <details open className="group space-y-6">
+          <summary className="list-none cursor-pointer flex items-center justify-between flex-wrap gap-3 pb-2 border-b border-stone-200 dark:border-slate-800">
+            <div className="flex items-center gap-2 text-slate-900 dark:text-white">
+              <Globe className="w-5 h-5 text-emerald-700 dark:text-emerald-400" />
+              <h2
+                className={`text-lg sm:text-xl font-bold ${
+                  isUrdu ? 'font-urdu text-xl sm:text-2xl' : ''
+                }`}
+              >
+                {language === 'ur'
+                  ? 'سہ لسانی ذخیرہ و مکمل تشریحی متون (اردو • Roman • English)'
+                  : language === 'ro'
+                  ? 'Seh-Lisani Zakhira o Tafseeli Matn (Urdu • Roman • English)'
+                  : 'Translations & Transliteration (Urdu • Roman • English)'}
+              </h2>
+            </div>
+            <div className="flex items-center gap-2">
+              <span
+                className={`text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1 font-medium ${
+                  isUrdu ? 'font-urdu' : ''
+                }`}
+              >
+                <Layers className="w-3.5 h-3.5 text-amber-500" />
+                <span>
+                  {language === 'ur'
+                    ? 'سہ لسانی ترجمہ و مستند حوالہ جات'
+                    : language === 'ro'
+                    ? '3 Zabanon Mein • Mustanad Hawalay'
+                    : '3 Languages • Authentic Citations'}
+                </span>
+              </span>
+              <ChevronDown className="w-4 h-4 text-slate-500 transition-transform group-open:rotate-180" />
+            </div>
+          </summary>
 
-        <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
-          {language === 'ur'
-            ? 'قارئینِ کرام اور علمی محققین کی آسانی کے لیے اس قول کی مکمل اردو تشریح، رومن اردو تلفظ اور مستند انگریزی ترجمہ ایک ہی جگہ فراہم کیا گیا ہے تاکہ ہر زبان کا قاری اس حکمت سے رہنمائی پا سکے۔'
-            : language === 'ro'
-            ? 'Qari-een ki asani ke liye is qoul ki mukammal Urdu tashreeh, Roman Urdu talaffuz aur English tarjuma aik hi jagah faraham kiya gaya hai.'
-            : 'For scholarly reference and universal accessibility, this wisdom is presented below in all three editions: original Urdu script with commentary, Roman Urdu transliteration, and academic English translation.'}
-        </p>
+          <p className={`text-xs sm:text-sm text-slate-600 dark:text-slate-400 ${isUrdu ? 'font-urdu leading-[2.0]' : 'leading-relaxed'}`}>
+            {language === 'ur'
+              ? 'قارئینِ کرام اور علمی محققین کی آسانی کے لیے اس قول کی مکمل اردو تشریح، رومن اردو تلفظ اور مستند انگریزی ترجمہ ایک ہی جگہ فراہم کیا گیا ہے تاکہ ہر زبان کا قاری اس حکمت سے رہنمائی پا سکے۔'
+              : language === 'ro'
+              ? 'Qari-een ki asani ke liye is qoul ki mukammal Urdu tashreeh, Roman Urdu talaffuz aur English tarjuma aik hi jagah faraham kiya gaya hai.'
+              : 'For scholarly reference and universal accessibility, this wisdom is presented below in all three editions: original Urdu script with commentary, Roman Urdu transliteration, and academic English translation.'}
+          </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 pt-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 pt-2">
           {/* 1. Urdu Edition Card */}
           <div
             dir="rtl"
@@ -527,7 +548,8 @@ export default function QuoteDetailView({
               </div>
             )}
           </div>
-        </div>
+          </div>
+        </details>
       </section>
 
       {/* ========================================================================= */}
