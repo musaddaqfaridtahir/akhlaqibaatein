@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import IslamicDateBar from '@/components/IslamicDateBar';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
+import { Analytics } from '@vercel/analytics/next';
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -103,6 +104,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   );
