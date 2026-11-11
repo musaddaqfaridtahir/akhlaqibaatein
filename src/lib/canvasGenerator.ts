@@ -11,6 +11,7 @@ export interface CanvasData {
   slug: string;
   lang: Language;
   title?: string;
+  bookRef?: string;
   format?: PostFormat;
   showDate?: boolean;
 }
@@ -280,24 +281,43 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
   // 3. Measure Inner Compact Ornamental Card Layout
   const cardX = 60;
   const cardW = width - 120; // 960px
-  const contentMaxW = cardW - 110; // 850px inner text zone
+  const contentMaxW = cardW - 104; // 856px inner text zone
   const quoteBoxMaxW = cardW - 144; // 816px inside bordered quote card
 
   const cleanQuote = data.text.trim();
   const cleanExp = sanitizeExplanation(data.explanation);
+  const cleanBookRef = (data.bookRef || '').trim();
+  const formattedBookRef = cleanBookRef
+    ? isUrdu
+      ? `حوالہ: ${cleanBookRef}`
+      : data.lang === 'ro'
+      ? `Hawala: ${cleanBookRef}`
+      : `Source: ${cleanBookRef}`
+    : '';
   const badgeText = buildDeduplicatedBadge(data.author, data.category);
   const formattedDate = showDate ? computeFormattedDate(new Date(), data.lang) : '';
   const hasTitle = shouldShowTitle(data.title, cleanQuote);
   const cleanTitle = (data.title || '').trim();
 
-  // Adaptive typography pass (shrinks gently only if extra-long quote overflows card height)
-  const maxCardHeight = height - 96; // Leaves comfortable 48px min top/bottom canvas breathing room
-  const scaleSteps = [1.0, 0.9, 0.82];
+  // Adaptive typography pass: steps down smoothly so complete quotes, book references,
+  // and full explanation sentences (never clipped mid-sentence) fit cleanly inside the frame
+  const maxCardHeight = height - 80; // Leaves comfortable vertical breathing room
+  const scaleSteps = [1.0, 0.94, 0.88, 0.82, 0.76];
+  const expShrinkSteps = [0, 2, 3];
 
-  let chosenLayout: {
+  const splitCompleteSentences = (text: string): string[] =>
+    text
+      .split(/(?<=[۔.!?])\s+/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+
+  interface CardLayoutPlan {
     quoteSpec: FontSpec;
     quoteLines: string[];
     quoteLH: number;
+    refSpec: FontSpec;
+    refLines: string[];
+    refLH: number;
     expSpec: FontSpec;
     expLines: string[];
     expLH: number;
@@ -318,64 +338,94 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
       dateBlockH: number;
       badgeBlockH: number;
       titleBlockH: number;
+      quotePadTop: number;
       quoteBoxH: number;
       expBlockH: number;
       footerH: number;
       gap: number;
     };
-  } | null = null;
+  }
 
-  for (const scale of scaleSteps) {
+  const measureLayout = (
+    scale: number,
+    expShrink: number,
+    expTextCandidate: string
+  ): CardLayoutPlan => {
     const charCount = cleanQuote.length;
     let baseQuoteSize: number;
     if (isUrdu) {
-      baseQuoteSize = charCount < 110 ? 48 : charCount <= 220 ? 40 : charCount <= 340 ? 34 : 29;
+      baseQuoteSize = charCount < 110 ? 48 : charCount <= 220 ? 39 : charCount <= 340 ? 33 : 28;
     } else {
-      baseQuoteSize = charCount < 110 ? 38 : charCount <= 220 ? 32 : charCount <= 340 ? 27 : 23;
+      baseQuoteSize = charCount < 110 ? 38 : charCount <= 220 ? 31 : charCount <= 340 ? 26 : 22;
     }
     const qSize = Math.round(baseQuoteSize * scale);
-    const quoteLH = isUrdu ? Math.round(qSize * 2.15) : Math.round(qSize * 1.6);
+    const quoteLH = isUrdu ? Math.round(qSize * 2.12) : Math.round(qSize * 1.58);
     const quoteSpec = makeFontSpec(qSize, isUrdu, { bold: isUrdu, italic: !isUrdu });
     const quoteLines = wrapFormattedText(ctx, cleanQuote, quoteBoxMaxW, quoteSpec);
 
-    const tSize = Math.round((isUrdu ? 28 : 23) * scale);
-    const titleLH = isUrdu ? Math.round(tSize * 1.95) : Math.round(tSize * 1.4);
+    const refSize = Math.max(isUrdu ? 16 : 13, Math.round((isUrdu ? 19 : 16) * scale));
+    const refLH = isUrdu ? Math.round(refSize * 1.9) : Math.round(refSize * 1.42);
+    const refSpec = makeFontSpec(refSize, isUrdu, { bold: true });
+    const refLines = formattedBookRef
+      ? wrapFormattedText(ctx, formattedBookRef, quoteBoxMaxW, refSpec)
+      : [];
+
+    const tSize = Math.round((isUrdu ? 27 : 22) * scale);
+    const titleLH = isUrdu ? Math.round(tSize * 1.92) : Math.round(tSize * 1.38);
     const titleSpec = makeFontSpec(tSize, isUrdu, { bold: true });
-    const titleLines = hasTitle ? wrapFormattedText(ctx, cleanTitle, contentMaxW, titleSpec).slice(0, 2) : [];
+    const titleLines = hasTitle
+      ? wrapFormattedText(ctx, cleanTitle, contentMaxW, titleSpec).slice(0, 2)
+      : [];
 
     const bSize = Math.round((isUrdu ? 23 : 19) * scale);
     const badgeSpec = makeFontSpec(bSize, isUrdu, { bold: true });
     const badgeTextW = measureFormattedWidth(ctx, badgeText, badgeSpec);
     const badgeW = Math.min(contentMaxW, Math.max(badgeTextW + 76, 260));
-    const badgeH = isUrdu ? 68 : 54;
+    const badgeH = isUrdu ? 66 : 52;
 
-    const dSize = isUrdu ? 20 : 17;
+    const dSize = isUrdu ? 19 : 16;
     const dateSpec = makeFontSpec(dSize, isUrdu);
-    const dateW = showDate ? Math.min(contentMaxW, measureFormattedWidth(ctx, formattedDate, dateSpec) + 56) : 0;
-    const dateH = showDate ? (isUrdu ? 46 : 40) : 0;
+    const dateW = showDate
+      ? Math.min(contentMaxW, measureFormattedWidth(ctx, formattedDate, dateSpec) + 56)
+      : 0;
+    const dateH = showDate ? (isUrdu ? 44 : 38) : 0;
 
-    // Explanation / Amli Sabaq (include up to 3 lines when quote is concise/medium)
-    const expSize = Math.round((isUrdu ? 23 : 20) * scale);
-    const expLH = isUrdu ? Math.round(expSize * 2.0) : Math.round(expSize * 1.48);
+    // Dynamically reduce explanation font size when > 160 chars so full sentences (up to 4-5+ lines)
+    // render completely ending with '۔' / '.' without ever slicing mid-sentence
+    const trimmedExp = expTextCandidate.trim();
+    let baseExpSize: number;
+    if (trimmedExp.length > 270) {
+      baseExpSize = isUrdu ? 17 : 15;
+    } else if (trimmedExp.length > 160) {
+      baseExpSize = isUrdu ? 19 : 16;
+    } else {
+      baseExpSize = isUrdu ? 22 : 18;
+    }
+    const minExpSize = isUrdu ? 15 : 13;
+    const expSize = Math.max(minExpSize, Math.round(baseExpSize * scale) - expShrink);
+    const expLH = isUrdu
+      ? Math.round(expSize * (expSize <= 18 ? 1.85 : 1.94))
+      : Math.round(expSize * 1.44);
     const expSpec = makeFontSpec(expSize, isUrdu);
-    const canShowExp = Boolean(cleanExp && charCount <= 420 && quoteLines.length <= 6);
-    const expLines = canShowExp ? wrapFormattedText(ctx, cleanExp, quoteBoxMaxW, expSpec).slice(0, 3) : [];
+    const expLines = trimmedExp ? wrapFormattedText(ctx, trimmedExp, contentMaxW, expSpec) : [];
     const includeExp = expLines.length > 0;
 
-    const gap = Math.round(26 * Math.max(0.85, scale));
-    const topPad = 46;
-    const bismillahH = isUrdu ? 54 : 40;
-    const dateBlockH = showDate ? dateH + 18 : 0;
-    const badgeBlockH = badgeH + gap;
-    const titleBlockH = titleLines.length > 0 ? titleLines.length * titleLH + 16 : 0;
+    const gap = Math.round(22 * Math.max(0.82, scale));
+    const topPad = 40;
+    const bismillahH = isUrdu ? 52 : 38;
+    const dateBlockH = showDate ? dateH + 16 : 0;
+    const badgeBlockH = badgeH + Math.round(gap * 0.9);
+    const titleBlockH = titleLines.length > 0 ? titleLines.length * titleLH + 14 : 0;
 
-    const quotePadTop = 50; // includes decorative open quote accent
-    const quotePadBottom = 26;
-    const quoteBoxH = quotePadTop + quoteLines.length * quoteLH + quotePadBottom;
+    // Generous top padding below the decorative opening quote mark so Urdu diacritics/ؒ never touch it
+    const quotePadTop = isUrdu ? 74 : 58;
+    const refBlockH = refLines.length > 0 ? 28 + refLines.length * refLH : 0;
+    const quotePadBottom = refLines.length > 0 ? 20 : 26;
+    const quoteBoxH = quotePadTop + quoteLines.length * quoteLH + refBlockH + quotePadBottom;
 
-    const expDividerH = 40;
-    const expBlockH = includeExp ? expDividerH + expLines.length * expLH + 24 : 0;
-    const footerH = 74;
+    const expDividerH = 38;
+    const expBlockH = includeExp ? expDividerH + expLines.length * expLH + 20 : 0;
+    const footerH = 72;
 
     const totalCardH =
       topPad +
@@ -384,15 +434,17 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
       badgeBlockH +
       titleBlockH +
       quoteBoxH +
-      gap +
-      expBlockH +
+      (includeExp ? gap + expBlockH : gap) +
       footerH +
-      20;
+      16;
 
-    chosenLayout = {
+    return {
       quoteSpec,
       quoteLines,
       quoteLH,
+      refSpec,
+      refLines,
+      refLH,
       expSpec,
       expLines,
       expLH,
@@ -413,26 +465,51 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
         dateBlockH,
         badgeBlockH,
         titleBlockH,
+        quotePadTop,
         quoteBoxH,
         expBlockH,
         footerH,
         gap,
       },
     };
+  };
 
-    if (totalCardH <= maxCardHeight) {
+  let chosenLayout: CardLayoutPlan | null = null;
+
+  // Pass 1: Fit FULL explanation text cleanly without dropping a single character
+  for (const scale of scaleSteps) {
+    for (const shrink of expShrinkSteps) {
+      const candidate = measureLayout(scale, shrink, cleanExp);
+      chosenLayout = candidate;
+      if (candidate.totalCardH <= maxCardHeight) {
+        break;
+      }
+      if (!cleanExp) break;
+    }
+    if (chosenLayout && chosenLayout.totalCardH <= maxCardHeight) {
       break;
     }
   }
 
-  if (!chosenLayout) return '';
-
-  // Drop explanation if even smallest scale exceeded maxCardHeight on ultra-long quotes
-  if (chosenLayout.totalCardH > maxCardHeight && chosenLayout.includeExp) {
-    chosenLayout.totalCardH -= chosenLayout.heights.expBlockH;
-    chosenLayout.heights.expBlockH = 0;
-    chosenLayout.includeExp = false;
+  // Pass 2 (extreme outliers only): fit complete sentences ending cleanly in '۔'/'.' — never mid-sentence
+  if (chosenLayout && chosenLayout.totalCardH > maxCardHeight && cleanExp) {
+    const sentences = splitCompleteSentences(cleanExp);
+    let fitted = false;
+    for (let count = sentences.length - 1; count >= 1; count--) {
+      const sentenceSubset = sentences.slice(0, count).join(' ');
+      const candidate = measureLayout(scaleSteps[scaleSteps.length - 1], 3, sentenceSubset);
+      if (candidate.totalCardH <= maxCardHeight) {
+        chosenLayout = candidate;
+        fitted = true;
+        break;
+      }
+    }
+    if (!fitted) {
+      chosenLayout = measureLayout(scaleSteps[scaleSteps.length - 1], 0, '');
+    }
   }
+
+  if (!chosenLayout) return '';
 
   // Center the Compact Auto-Fitted Ornamental Card vertically on the Canvas!
   const cardH = Math.min(chosenLayout.totalCardH, maxCardHeight);
@@ -577,12 +654,12 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
   ctx.fill();
   ctx.stroke();
 
-  // Golden Opening Quote Mark
-  ctx.fillStyle = 'rgba(251, 191, 36, 0.55)';
-  ctx.font = 'bold 46px Georgia, serif';
+  // Golden Opening Quote Mark with Generous Clearance Above Urdu Diacritics
+  ctx.fillStyle = 'rgba(251, 191, 36, 0.52)';
+  ctx.font = 'bold 36px Georgia, serif';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText('“', centerX, qBoxY + 26);
+  ctx.fillText('“', centerX, qBoxY + 24);
 
   // Main Quote Lines with Honorific-Safe Spacing
   ctx.fillStyle = '#ffffff';
@@ -590,10 +667,31 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
   ctx.shadowBlur = 10;
   ctx.shadowOffsetY = 3;
 
-  let qLineY = qBoxY + 50 + chosenLayout.quoteLH * 0.5;
+  let qLineY = qBoxY + chosenLayout.heights.quotePadTop + chosenLayout.quoteLH * 0.5;
   for (const line of chosenLayout.quoteLines) {
     drawFormattedLine(ctx, line, centerX, qLineY, chosenLayout.quoteSpec);
     qLineY += chosenLayout.quoteLH;
+  }
+
+  // Authentic Book / Source Reference Inside Bottom of Quote Box
+  if (chosenLayout.refLines.length > 0) {
+    const refDividerY = qLineY - chosenLayout.quoteLH * 0.5 + 14;
+    ctx.shadowColor = 'transparent';
+    ctx.shadowBlur = 0;
+    ctx.shadowOffsetY = 0;
+    ctx.strokeStyle = 'rgba(245, 158, 11, 0.30)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(centerX - 80, refDividerY);
+    ctx.lineTo(centerX + 80, refDividerY);
+    ctx.stroke();
+
+    ctx.fillStyle = 'rgba(252, 211, 77, 0.90)';
+    let refLineY = refDividerY + 14 + chosenLayout.refLH * 0.5;
+    for (const rLine of chosenLayout.refLines) {
+      drawFormattedLine(ctx, rLine, centerX, refLineY, chosenLayout.refSpec);
+      refLineY += chosenLayout.refLH;
+    }
   }
   ctx.restore();
 
@@ -623,7 +721,7 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
     ctx.fillText(isUrdu ? '✦ اخلاقی درس و حکمت ✦' : '✦ MORAL LESSON & WISDOM ✦', centerX, divY);
 
     ctx.fillStyle = '#fef3c7';
-    let eLineY = cursorY + 40 + chosenLayout.expLH * 0.5;
+    let eLineY = cursorY + 38 + chosenLayout.expLH * 0.5;
     for (const line of chosenLayout.expLines) {
       drawFormattedLine(ctx, line, centerX, eLineY, chosenLayout.expSpec);
       eLineY += chosenLayout.expLH;

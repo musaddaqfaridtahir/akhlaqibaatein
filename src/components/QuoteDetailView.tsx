@@ -618,6 +618,7 @@ export default function QuoteDetailView({
           slug: quote.slug,
           lang: language,
           title: quoteTitle,
+          bookRef: cleanSource || undefined,
         }}
       />
     </>

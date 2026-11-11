@@ -43,7 +43,7 @@ export default function StatusImageModal({
 }: StatusImageModalProps) {
   const [format, setFormat] = useState<PostFormat>(data.format || '4:5');
   const [showDate, setShowDate] = useState<boolean>(data.showDate !== false);
-  const requestKey = `${data.slug}|${data.lang}|${format}|${showDate}|${data.text}`;
+  const requestKey = `${data.slug}|${data.lang}|${format}|${showDate}|${data.text}|${data.bookRef || ''}|${data.explanation || ''}`;
   const [generated, setGenerated] = useState<{ key: string; url: string }>({ key: '', url: '' });
   const { language, t, showToast } = useLanguage();
 
@@ -82,8 +82,9 @@ export default function StatusImageModal({
   };
 
   const handleShareWhatsApp = () => {
+    const refSuffix = data.bookRef ? ` (${data.bookRef})` : '';
     const text = encodeURIComponent(
-      `"${data.text}"\n\n— ${data.author}\n\nhttps://akhlaqibaatein.com/quote/${data.slug}`
+      `"${data.text}"\n\n— ${data.author}${refSuffix}\n\nhttps://akhlaqibaatein.com/quote/${data.slug}`
     );
     window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
   };

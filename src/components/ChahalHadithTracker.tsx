@@ -19,6 +19,7 @@ import {
   getHadithTheme,
 } from '@/data/chahalHadith';
 import StatusImageModal from './StatusImageModal';
+import { CanvasData } from '@/lib/canvasGenerator';
 
 interface ChahalHadithTrackerProps {
   hadithList: ChahalHadithItem[];
@@ -30,14 +31,7 @@ export default function ChahalHadithTracker({
   const [memorizedIds, setMemorizedIds] = useState<number[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTheme, setSelectedTheme] = useState<string>('All');
-  const [activeModalData, setActiveModalData] = useState<{
-    text: string;
-    explanation: string;
-    author: string;
-    category: string;
-    slug: string;
-    lang: 'ur' | 'ro' | 'en';
-  } | null>(null);
+  const [activeModalData, setActiveModalData] = useState<CanvasData | null>(null);
 
   const { language, t, showToast } = useLanguage();
   const isUrdu = language === 'ur';
@@ -294,6 +288,7 @@ export default function ChahalHadithTracker({
                         category: isUrdu ? 'چَہل حدیث' : language === 'en' ? '40 Hadith' : '40 Ahadith',
                         slug: `hadith-${hadith.id}`,
                         lang: language,
+                        bookRef: hadithRef || undefined,
                       })
                     }
                     className={`min-h-[40px] px-3 py-2 rounded-xl text-slate-950 bg-amber-500 hover:bg-amber-600 transition flex items-center justify-center gap-1.5 font-bold shadow-xs border border-amber-600/30 active:scale-95 ${

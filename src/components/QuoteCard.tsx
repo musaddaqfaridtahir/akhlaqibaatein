@@ -286,6 +286,7 @@ export default function QuoteCard({
           slug: quote.slug,
           lang: language,
           title: quoteTitle,
+          bookRef: cleanSource || undefined,
         }}
       />
     </>
