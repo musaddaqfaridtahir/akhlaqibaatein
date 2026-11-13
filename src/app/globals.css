@@ -107,23 +107,43 @@ html.lang-ur [class*="tracking-"],
   letter-spacing: normal !important;
 }
 
-/* Arabic Traditional Typography Utility */
+/* Arabic Traditional Typography Utility (Naskh / Quranic Font) */
 .font-arabic {
-  font-family: 'Amiri', 'Traditional Arabic', 'Scheherazade New', 'Noto Sans Arabic', serif;
-  line-height: 2.0;
-  letter-spacing: normal !important;
+  font-family: var(--font-amiri), 'Scheherazade New', 'Amiri', 'Traditional Arabic', serif;
+  line-height: 2.5;
+  letter-spacing: 0 !important;
   word-spacing: normal !important;
   direction: rtl;
   text-align: right;
-  font-size: 1.25rem;
   font-feature-settings: "kern" 1, "liga" 1;
   text-rendering: optimizeLegibility;
 }
 
 @media (max-width: 640px) {
   .font-arabic {
-    line-height: 1.85;
-    font-size: 1.15rem;
+    line-height: 2.3;
+  }
+}
+
+/* Print-Ready Clean Styling for Save as PDF */
+@media print {
+  nav, footer, .no-print, [role="navigation"], button, input, .ad-slot-container {
+    display: none !important;
+  }
+  body, html {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+  .print-clean-card {
+    border: 1px solid #d1d5db !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    color: #111827 !important;
+    page-break-inside: avoid;
+  }
+  .print-clean-card * {
+    color: #111827 !important;
+    text-shadow: none !important;
   }
 }
 

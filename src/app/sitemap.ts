@@ -4,6 +4,7 @@ import { categories } from '@/data/categories';
 import { articles } from '@/data/articles';
 import { seoCollections } from '@/data/collections';
 import { duroodList } from '@/data/durood';
+import { naatsList } from '@/data/naats';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://akhlaqibaatein.com';
@@ -18,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/durood`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/naat`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -140,9 +147,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
+  // Diwan-e-Naat Sharif detail routes
+  const naatRoutes: MetadataRoute.Sitemap = naatsList.map((n) => ({
+    url: `${baseUrl}/naat/${n.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.85,
+  }));
+
   return [
     ...staticRoutes,
     ...duroodRoutes,
+    ...naatRoutes,
     ...categoryRoutes,
     ...collectionRoutes,
     ...articleRoutes,

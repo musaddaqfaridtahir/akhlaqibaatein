@@ -397,14 +397,14 @@ export async function generateDuroodPdf(durood: DuroodItem): Promise<void> {
 
   ctx.fillStyle = '#d4af37';
   ctx.font = 'bold 25px "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Amiri", serif';
-  ctx.fillText(`فضیلت و برکات (${durood.reference}):`, width - 118, cursorY + 20);
+  ctx.fillText(`فضیلت و برکات (${durood.reference.ur}):`, width - 118, cursorY + 20);
 
   let fzSize = 24;
   let fzLines: string[] = [];
   let fzLineH = 48;
   while (fzSize >= 17) {
     ctx.font = `${fzSize}px "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Amiri", serif`;
-    fzLines = wrapLines(ctx, durood.fazilat, width - 240);
+    fzLines = wrapLines(ctx, durood.fazilat.ur, width - 240);
     fzLineH = Math.round(fzSize * 1.98);
     if (fzLines.length * fzLineH + 78 <= fazilatBoxH) {
       break;

@@ -121,20 +121,20 @@ export default function SupportAndResourcesCard({
 
   const labels = {
     ur: {
-      sectionTitle: 'علمی وسائل، صدقہ جاریہ اور کتابی رہنمائی',
-      sectionSub: 'دینی و اخلاقی علم کی ترویج میں شریک ہوں یا پرنٹ ایبل پوسٹرز حاصل کریں',
+      sectionTitle: 'مطالعہ اور کتبِ حوالہ',
+      sectionSub: 'اخلاقی و تربیتی موضوعات پر مستند کتب اور چَہل حدیث کے علمی مطالعے کی رہنمائی',
       supportTitle: 'ہمارے مشن میں تعاون کریں (صدقہ جاریہ)',
       supportDesc:
         'دنیا بھر میں مقیم مسلمان قارئین کے لیے مفت سہ لسانی اسلامی مواد، تحقیق اور ایچ ڈی کارڈز جاری رکھنے میں ہمارا ساتھ دیں۔',
-      supportCta: 'صدقہ جاریہ / تعاون تفصیلات',
-      pdfTitle: 'پرنٹ ایبل پی ڈی ایف (مخزنِ اخلاق / 40 حدیث پوسٹر)',
+      supportCta: 'علمی تعاون کی تفصیلات',
+      pdfTitle: 'پرنٹ ایبل نسخہ (مخزنِ اخلاق / 40 حدیث پوسٹر)',
       pdfDesc:
         'گھر، مسجد یا تعلیمی ادارے میں آویزاں کرنے کے لیے چَہل حدیث اور اخلاقی پوسٹر پرنٹ / PDF محفوظ کریں۔',
       pdfCta: 'پرنٹ / PDF محفوظ کریں',
       pdfAltLink: '40 احادیث پوسٹر کھولیں',
       bookBadge: 'تجویز کردہ مستند کتاب',
       bookCta: 'کتاب و ابواب دیکھیں',
-      disclosure: 'تحقیقی سفارش • Editorial Recommendation',
+      disclosure: 'مستند علمی و ادبی مراجع',
       modalTitle: 'صدقہ جاریہ — علمِ نافع پھیلانے میں حصہ لیں',
       modalBody:
         'اخلاقی باتیں ڈاٹ کام ایک آزاد تعلیمی و اصلاحی منصوبہ ہے۔ اوورسیز قارئین سرور ہوسٹنگ، اردو کمپوزنگ اور کتب کی ڈیجیٹائزیشن میں تعاون یا علمی شراکت کے لیے براہِ راست رابطہ صفحے یا آفیشل ای میل کے ذریعے رابطہ کر سکتے ہیں۔',
@@ -142,41 +142,41 @@ export default function SupportAndResourcesCard({
       closeLabel: 'بند کریں',
     },
     ro: {
-      sectionTitle: 'Ilmi Wasail, Sadqah-e-Jariyah aur Kitabi Rehnumai',
-      sectionSub: 'Islami taleemat aam karne ke mission mein shareek hon ya printable PDFs hasil karein',
+      sectionTitle: 'Mutalaah Aur Kitabi Hawala-Jat',
+      sectionSub: 'Islami taleemat aam karne ke mission mein shareek hon ya printable sheets hasil karein',
       supportTitle: 'Hamare Mission Mein Taawun Karein (Sadqah-e-Jariyah)',
       supportDesc:
         'Duniya bhar mein Urdu, Roman aur English readers ke liye free Islami tahqeeq aur HD status cards jari rakhne mein madad karein.',
-      supportCta: 'Support Our Mission (Sadqah-e-Jariyah)',
-      pdfTitle: 'Download Printable PDF (Makhzan-e-Akhlaq / 40 Hadith Poster)',
+      supportCta: 'Taawun Ki Tafseelat',
+      pdfTitle: 'Printable Sheet (Makhzan-e-Akhlaq / 40 Hadith Poster)',
       pdfDesc:
         'Ghar, masjid ya school ke liye saaf print-ready poster ya mukammal 40 Ahadith sheet PDF format mein save karein.',
-      pdfCta: 'Save / Print Printable PDF',
+      pdfCta: 'Print / PDF Mehfooz Karein',
       pdfAltLink: '40 Ahadith Poster Kholein',
       bookBadge: 'Mustanad Kitabi Sifarish',
       bookCta: 'Kitaab Dekhein',
-      disclosure: 'Editorial & Book Recommendation',
+      disclosure: 'Mustanad Ilmi o Kitabi Hawala',
       modalTitle: 'Sadqah-e-Jariyah — Ilm-e-Nafe Ko Aam Karein',
       modalBody:
         'AkhlaqiBaatein.com aik ghair-janibdar ilmi o islahi platform hai. Overseas qarieen hosting, digitizing aur ilmi taawun ki tafseelat ke liye hamare official contact page ke zariye rabta farma sakte hain.',
-      modalAction: 'Contact & Support Desk Kholein',
+      modalAction: 'Contact Desk Kholein',
       closeLabel: 'Band Karein',
     },
     en: {
-      sectionTitle: 'Support Our Mission & Classic Study Resources',
-      sectionSub: 'Help keep tri-lingual Islamic wisdom ad-light, open-access, and printable worldwide',
-      supportTitle: 'Support Our Mission (Sadqah-e-Jariyah)',
+      sectionTitle: 'Scholarly References & Study Resources',
+      sectionSub: 'Explore classical Islamic ethics volumes and authenticated 40 Hadith charts',
+      supportTitle: 'Support Our Mission (Enduring Charity)',
       supportDesc:
         'Empower free Urdu, Roman Urdu, and English digitization of classical Islamic ethics for families and students overseas.',
-      supportCta: 'Support Mission (Sadqah-e-Jariyah)',
-      pdfTitle: 'Download Printable PDF (Makhzan-e-Akhlaq / 40 Hadith Poster)',
+      supportCta: 'Support Details',
+      pdfTitle: 'Printable Study Sheet (Makhzan-e-Akhlaq / 40 Hadith Poster)',
       pdfDesc:
-        'Save a clean print-ready PDF edition of this page or open our 40 Hadith study poster for your home or classroom.',
-      pdfCta: 'Save as Printable PDF',
+        'Save a clean print-ready edition of this page or open our 40 Hadith study chart for your home or classroom.',
+      pdfCta: 'Print / Save as PDF',
       pdfAltLink: 'Open 40 Hadith Poster',
-      bookBadge: 'Recommended Islamic Book Reference',
+      bookBadge: 'Recommended Islamic Reference',
       bookCta: 'Explore Edition',
-      disclosure: 'Curated Scholarly & Affiliate Reference',
+      disclosure: 'Curated Scholarly Reference',
       modalTitle: 'Contribute via Sadqah-e-Jariyah (Enduring Charity)',
       modalBody:
         'AkhlaqiBaatein.com is dedicated to preserving authentic classical ethics in clean tri-lingual formats. International supporters wishing to sponsor manuscript digitization or scholarship outreach can coordinate directly with our editorial desk.',

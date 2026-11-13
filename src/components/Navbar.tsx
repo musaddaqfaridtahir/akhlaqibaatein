@@ -26,6 +26,7 @@ export default function Navbar() {
     { href: '/', label: t.home },
     { href: '/#categories', label: t.categories },
     { href: '/durood', label: t.duroodWazaif },
+    { href: '/naat', label: t.naatSharif },
     { href: '/chahal-hadith', label: t.chahalHadith, badge: '40' },
     { href: '/articles', label: t.articles },
     { href: '/books', label: t.books },

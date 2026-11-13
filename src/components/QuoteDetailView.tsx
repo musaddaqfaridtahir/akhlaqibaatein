@@ -375,6 +375,31 @@ export default function QuoteDetailView({
           </div>
         )}
 
+        {/* Diwan-e-Naat Sharif Callout Banner */}
+        {(quote.category === 'naat-sharif' || category?.slug === 'naat-sharif') && (
+          <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-900 via-[#0d221a] to-emerald-950 text-white border border-[#d4af37]/40 shadow-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <div className="flex items-center gap-2 text-[#d4af37] text-xs sm:text-sm font-bold">
+                <Sparkles className="w-4 h-4" />
+                <span>{isUrdu ? 'دیوانِ نعت شریف کا مکمل کلام' : 'Complete Classical Diwan Edition'}</span>
+              </div>
+              <p className={`text-xs sm:text-sm text-emerald-100/90 ${isUrdu ? 'font-urdu leading-relaxed' : ''}`}>
+                {isUrdu
+                  ? 'اس نعتِ مبارکہ کے تمام اشعار (6 تا 8 اشعار)، فرہنگ اور ادبی و روحانی تشریح پڑھنے کے لیے دیوانِ نعت ملاحظہ فرمائیں۔'
+                  : 'Read all stanzas (6–8 Ashaar) with vocabulary dictionary (Farhang) and literary explanation in our dedicated Naat Hub.'}
+              </p>
+            </div>
+            <Link
+              href="/naat"
+              className={`shrink-0 px-4 py-2 rounded-xl bg-[#d4af37] hover:bg-[#b8972e] text-slate-950 font-bold text-xs sm:text-sm transition flex items-center gap-1.5 shadow-sm ${
+                isUrdu ? 'font-urdu' : ''
+              }`}
+            >
+              <span>{isUrdu ? 'دیوانِ نعت شریف دیکھیں ←' : 'Explore Naat Sharif Hub →'}</span>
+            </Link>
+          </div>
+        )}
+
         {/* Tags */}
         <div className="flex items-center gap-2 flex-wrap pt-2">
           <span

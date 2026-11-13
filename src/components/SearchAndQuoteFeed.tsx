@@ -282,14 +282,9 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
                 }`}
               >
                 {isUrdu ? (
-                  <>
-                    <span>مزید اقوال دیکھیں</span>
-                    <span dir="ltr" className="font-sans text-xs sm:text-sm opacity-95">
-                      (Load More — {nextBatchCount} More)
-                    </span>
-                  </>
+                  <span>مزید اقوال دیکھیں ({nextBatchCount} مزید)</span>
                 ) : language === 'ro' ? (
-                  <span>Mazeed Aqwal Dekhein (Load More — {nextBatchCount} More)</span>
+                  <span>Mazeed Aqwal Dekhein ({nextBatchCount} aur)</span>
                 ) : (
                   <span>Load More Sayings ({nextBatchCount} More)</span>
                 )}

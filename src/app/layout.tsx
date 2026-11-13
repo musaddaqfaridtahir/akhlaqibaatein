@@ -1,11 +1,19 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
+import { Amiri } from 'next/font/google';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
 import Navbar from '@/components/Navbar';
 import IslamicDateBar from '@/components/IslamicDateBar';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
+
+const amiri = Amiri({
+  subsets: ['arabic'],
+  weight: ['400', '700'],
+  variable: '--font-amiri',
+  display: 'swap',
+});
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -103,7 +111,7 @@ export default function RootLayout({
     !/ca-pub-0{6,}/i.test(adsenseClientId);
 
   return (
-    <html lang="ur" dir="rtl" className="lang-ur">
+    <html lang="ur" dir="rtl" className={`lang-ur ${amiri.variable}`}>
       <head>
         <script
           async
