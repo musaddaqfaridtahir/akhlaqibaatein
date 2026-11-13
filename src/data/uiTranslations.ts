@@ -6,6 +6,7 @@ export interface TranslationDictionary {
   home: string;
   categories: string;
   chahalHadith: string;
+  duroodWazaif: string;
   articles: string;
   books: string;
   about: string;
@@ -19,6 +20,7 @@ export interface TranslationDictionary {
   sourceHeading: string;
   readMore: string;
   showLess: string;
+  readFullCta: string;
   fullPage: string;
   quoteOfTheDay: string;
   selectedQuote: string;
@@ -74,6 +76,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     home: 'سرورق',
     categories: 'مضامین',
     chahalHadith: 'چہل احادیث',
+    duroodWazaif: 'درود و وظائف',
     articles: 'تحقیقی مضامین',
     books: 'کتب خانہ',
     about: 'ہمارا مشن',
@@ -87,6 +90,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     sourceHeading: 'مستند حوالہ:',
     readMore: 'تفصیل پڑھیں',
     showLess: 'مختصر دیکھیں',
+    readFullCta: 'مکمل تشریح اور حوالہ پڑھیں ←',
     fullPage: 'مکمل صفحہ',
     quoteOfTheDay: 'آج کی نصیحت',
     selectedQuote: 'منتخب قول',
@@ -140,6 +144,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     home: 'Home',
     categories: 'Categories',
     chahalHadith: '40 Ahadith',
+    duroodWazaif: 'Durood & Wazaif',
     articles: 'Mazameen',
     books: 'Kutub Khana',
     about: 'Hamara Mission',
@@ -153,6 +158,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     sourceHeading: 'Hawala (Source):',
     readMore: 'Mazeed Parhein',
     showLess: 'Mukhtasar Dekhein',
+    readFullCta: 'Mukammal Tashreeh Aur Hawala Parhein →',
     fullPage: 'Mukammal Safha',
     quoteOfTheDay: 'Aaj Ki Nasihat',
     selectedQuote: 'Muntakhab Qol',
@@ -206,6 +212,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     home: 'Home',
     categories: 'Categories',
     chahalHadith: '40 Hadith',
+    duroodWazaif: 'Durood & Wazaif',
     articles: 'Articles',
     books: 'Books Library',
     about: 'Our Mission',
@@ -219,6 +226,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     sourceHeading: 'Authentic Reference:',
     readMore: 'Read Explanation',
     showLess: 'Show Less',
+    readFullCta: 'Read Full Explanation & Reference →',
     fullPage: 'Full Page',
     quoteOfTheDay: 'Quote of the Day',
     selectedQuote: 'Featured Wisdom',

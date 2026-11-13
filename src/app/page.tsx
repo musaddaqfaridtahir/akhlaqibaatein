@@ -127,7 +127,7 @@ export default function HomePage() {
             </Link>
 
             <Link
-              href="/books"
+              href="/makhzan-e-akhlaq"
               className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3.5 rounded-2xl bg-white hover:bg-stone-100 text-slate-800 border border-stone-300 dark:bg-white/10 dark:hover:bg-white/20 dark:text-white dark:border-white/15 font-semibold text-xs sm:text-sm shadow-xs backdrop-blur-md transition active:scale-95 ${
                 isUrdu ? 'font-urdu leading-normal' : ''
               }`}
@@ -397,7 +397,7 @@ export default function HomePage() {
               </p>
             </div>
             <Link
-              href="/books"
+              href="/makhzan-e-akhlaq"
               className={`w-full py-2.5 px-4 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-white dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 text-xs font-bold transition shadow-md ${
                 isUrdu ? 'font-urdu text-sm' : ''
               }`}

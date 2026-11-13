@@ -26,7 +26,21 @@ interface WebSiteSchemaProps {
   type: 'website';
 }
 
-type JsonLdProps = QuotationSchemaProps | ArticleSchemaProps | WebSiteSchemaProps;
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface FAQSchemaProps {
+  type: 'faq';
+  faqs: FAQItem[];
+}
+
+type JsonLdProps =
+  | QuotationSchemaProps
+  | ArticleSchemaProps
+  | WebSiteSchemaProps
+  | FAQSchemaProps;
 
 export default function JsonLd(props: JsonLdProps) {
   let schema = {};
@@ -50,6 +64,19 @@ export default function JsonLd(props: JsonLdProps) {
           url: 'https://akhlaqibaatein.com/logo.png',
         },
       },
+    };
+  } else if (props.type === 'faq') {
+    schema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: props.faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: f.answer,
+        },
+      })),
     };
   } else if (props.type === 'article') {
     schema = {

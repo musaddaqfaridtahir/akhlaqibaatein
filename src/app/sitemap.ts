@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next';
 import { quotes } from '@/data/quotes';
 import { categories } from '@/data/categories';
 import { articles } from '@/data/articles';
+import { seoCollections } from '@/data/collections';
+import { duroodList } from '@/data/durood';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://akhlaqibaatein.com';
@@ -13,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/durood`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/chahal-hadith`,
@@ -72,13 +80,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Individual Quote routes (Long-tail SEO goldmine)
-  const quoteRoutes: MetadataRoute.Sitemap = quotes.map((q) => ({
-    url: `${baseUrl}/quote/${q.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }));
+  // Individual Localized Quote routes (Urdu, English, Roman Urdu)
+  const quoteRoutes: MetadataRoute.Sitemap = quotes.flatMap((q) => [
+    {
+      url: `${baseUrl}/quotes/${q.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/en/quotes/${q.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/roman/quotes/${q.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+  ]);
+
+  // High-Search-Intent SEO Collection Hubs & Makhzan-e-Akhlaq
+  const collectionRoutes: MetadataRoute.Sitemap = [
+    {
+      url: `${baseUrl}/collections`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/makhzan-e-akhlaq`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    ...seoCollections.map((col) => ({
+      url: `${baseUrl}/collections/${col.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    })),
+  ];
 
   // Article routes
   const articleRoutes: MetadataRoute.Sitemap = articles.map((art) => ({
@@ -88,5 +132,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...quoteRoutes, ...articleRoutes];
+  // Durood & Wazaif detail routes
+  const duroodRoutes: MetadataRoute.Sitemap = duroodList.map((d) => ({
+    url: `${baseUrl}/durood/${d.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.85,
+  }));
+
+  return [
+    ...staticRoutes,
+    ...duroodRoutes,
+    ...categoryRoutes,
+    ...collectionRoutes,
+    ...articleRoutes,
+    ...quoteRoutes,
+  ];
 }

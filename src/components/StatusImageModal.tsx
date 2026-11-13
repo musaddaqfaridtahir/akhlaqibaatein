@@ -9,6 +9,7 @@ import {
   PostFormat,
 } from '@/lib/canvasGenerator';
 import { useLanguage } from '@/context/LanguageContext';
+import { getLocalizedQuoteUrl } from '@/lib/quoteSeo';
 
 interface StatusImageModalProps {
   isOpen: boolean;
@@ -69,7 +70,8 @@ export default function StatusImageModal({
 
   const handleDownload = () => {
     if (imageUrl) {
-      const suffix = format === '4:5' ? 'post' : 'status';
+      const suffix =
+        format === '1:1' ? 'square' : format === '4:5' ? 'post' : 'status';
       downloadImage(imageUrl, `akhlaqibaatein-${data.slug}-${data.lang}-${suffix}.png`);
       showToast(
         data.lang === 'ur'
@@ -83,20 +85,26 @@ export default function StatusImageModal({
 
   const handleShareWhatsApp = () => {
     const refSuffix = data.bookRef ? ` (${data.bookRef})` : '';
+    const quoteUrl = getLocalizedQuoteUrl(data.slug, data.lang);
     const text = encodeURIComponent(
-      `"${data.text}"\n\n— ${data.author}${refSuffix}\n\nhttps://akhlaqibaatein.com/quote/${data.slug}`
+      `"${data.text}"\n\n— ${data.author}${refSuffix}\n\n${quoteUrl}`
     );
     window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
   };
 
   const formatLabels = {
+    squareLabel: isUrdu ? 'اسکوائر (1:1)' : 'Square 1:1 (1080×1080)',
     postLabel: isUrdu ? 'سوشل پوسٹ (4:5)' : 'Social Post 4:5 (1080×1350)',
     statusLabel: isUrdu ? 'واٹس ایپ اسٹیٹس (9:16)' : 'WhatsApp Status 9:16 (1080×1920)',
     dateToggle: isUrdu
       ? 'تاریخ شامل کریں (Show Date on Post)'
       : 'Include Islamic & Gregorian Date',
     resolutionCaption:
-      format === '4:5'
+      format === '1:1'
+        ? isUrdu
+          ? '1080 × 1080 ایچ ڈی اسکوائر • انسٹاگرام و فیس بک پوسٹ (1:1)'
+          : '1080 × 1080 HD Square Post • Instagram & Facebook (1:1)'
+        : format === '4:5'
         ? isUrdu
           ? '1080 × 1350 ایچ ڈی سوشل پوسٹ • انسٹاگرام و فیس بک (4:5)'
           : '1080 × 1350 HD Social Post • 4:5 Portrait'
@@ -105,7 +113,12 @@ export default function StatusImageModal({
         : '1080 × 1920 HD WhatsApp Status • 9:16 Story',
   };
 
-  const aspectClass = format === '4:5' ? 'aspect-[4/5] max-w-[300px] sm:max-w-[330px]' : 'aspect-[9/16] max-w-[230px] sm:max-w-[260px]';
+  const aspectClass =
+    format === '1:1'
+      ? 'aspect-square max-w-[300px] sm:max-w-[330px]'
+      : format === '4:5'
+      ? 'aspect-[4/5] max-w-[280px] sm:max-w-[310px]'
+      : 'aspect-[9/16] max-w-[230px] sm:max-w-[260px]';
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-sm animate-fadeIn">
@@ -135,11 +148,23 @@ export default function StatusImageModal({
               <span>{isUrdu ? 'تصویر کا سائز:' : 'Post Size:'}</span>
             </span>
 
-            <div className="grid grid-cols-2 gap-1.5 w-full sm:w-auto">
+            <div className="grid grid-cols-3 gap-1.5 w-full sm:w-auto">
+              <button
+                type="button"
+                onClick={() => setFormat('1:1')}
+                className={`px-2.5 py-1.5 rounded-xl text-[11px] sm:text-xs font-bold transition border ${
+                  format === '1:1'
+                    ? 'bg-emerald-800 text-white border-emerald-700 shadow-xs'
+                    : 'bg-white dark:bg-[#11221c] text-slate-700 dark:text-slate-300 border-stone-300 dark:border-emerald-800 hover:border-emerald-500'
+                } ${isUrdu ? 'font-urdu' : ''}`}
+              >
+                {formatLabels.squareLabel}
+              </button>
+
               <button
                 type="button"
                 onClick={() => setFormat('4:5')}
-                className={`px-3 py-1.5 rounded-xl text-[11px] sm:text-xs font-bold transition border ${
+                className={`px-2.5 py-1.5 rounded-xl text-[11px] sm:text-xs font-bold transition border ${
                   format === '4:5'
                     ? 'bg-emerald-800 text-white border-emerald-700 shadow-xs'
                     : 'bg-white dark:bg-[#11221c] text-slate-700 dark:text-slate-300 border-stone-300 dark:border-emerald-800 hover:border-emerald-500'
@@ -151,7 +176,7 @@ export default function StatusImageModal({
               <button
                 type="button"
                 onClick={() => setFormat('9:16')}
-                className={`px-3 py-1.5 rounded-xl text-[11px] sm:text-xs font-bold transition border ${
+                className={`px-2.5 py-1.5 rounded-xl text-[11px] sm:text-xs font-bold transition border ${
                   format === '9:16'
                     ? 'bg-emerald-800 text-white border-emerald-700 shadow-xs'
                     : 'bg-white dark:bg-[#11221c] text-slate-700 dark:text-slate-300 border-stone-300 dark:border-emerald-800 hover:border-emerald-500'

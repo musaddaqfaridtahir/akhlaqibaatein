@@ -63,6 +63,12 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm text-slate-400">
               <li>
+                <Link href="/durood" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'درود و وظائف' : t.duroodWazaif}</span>
+                </Link>
+              </li>
+              <li>
                 <Link href="/chahal-hadith" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
                   <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
                   <span>{t.chahalHadith}</span>
@@ -78,6 +84,42 @@ export default function Footer() {
                 <Link href="/books" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
                   <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
                   <span>{t.books}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/makhzan-e-akhlaq" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'مخزنِ اخلاق' : 'Makhzan-e-Akhlaq'}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'موضوعاتی مجموعے' : 'Collections'}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections/jumma-mubarak" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'جمعہ مبارک اقوال' : 'Jumma Mubarak'}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections/sabr-o-shukr" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'صبر و شکر' : 'Sabr o Shukr'}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections/rizq-aur-barkat" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'رزق اور برکت' : 'Rizq aur Barkat'}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections/walidain-ke-huqooq" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'والدین کے حقوق' : 'Walidain ke Huqooq'}</span>
                 </Link>
               </li>
               <li>

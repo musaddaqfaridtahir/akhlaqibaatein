@@ -1,5 +1,8 @@
 'use client';
 
+import Link from 'next/link';
+import { seoCollections, getCollectionTitle } from '@/data/collections';
+
 import React, { useState, useMemo } from 'react';
 import { Search, X, BookOpen, ChevronDown } from 'lucide-react';
 import { Quote } from '@/data/types';
@@ -157,8 +160,8 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
       </div>
 
       {/* Quick Topic Pills Bar (Swipeable on Mobile) */}
-      <div className="w-full max-w-full overflow-hidden pt-1">
-        <div className="flex items-center gap-2 overflow-x-auto pb-2 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
+      <div className="w-full max-w-full overflow-hidden pt-1 space-y-2.5">
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
           <span
             className={`text-xs font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider px-1 hidden sm:inline shrink-0 ${
               isUrdu ? 'font-urdu text-xs' : ''
@@ -187,6 +190,33 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
               </button>
             );
           })}
+        </div>
+
+        {/* Crawlable SEO Collection Hubs Bar */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
+          <Link
+            href="/collections"
+            className={`text-xs font-bold text-amber-800 dark:text-amber-400 hover:underline px-1 shrink-0 ${
+              isUrdu ? 'font-urdu text-xs' : 'uppercase tracking-wider'
+            }`}
+          >
+            {isUrdu
+              ? 'مقبول موضوعاتی مجموعے:'
+              : language === 'ro'
+              ? 'Popular Collections:'
+              : 'Popular Collections:'}
+          </Link>
+          {seoCollections.map((col) => (
+            <Link
+              key={col.slug}
+              href={`/collections/${col.slug}`}
+              className={`px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap transition shrink-0 bg-amber-50/90 hover:bg-amber-100 dark:bg-amber-950/40 dark:hover:bg-amber-900/60 text-amber-950 dark:text-amber-300 border border-amber-300/80 dark:border-amber-700/50 ${
+                isUrdu ? 'font-urdu text-xs leading-normal' : ''
+              }`}
+            >
+              {getCollectionTitle(col, language)}
+            </Link>
+          ))}
         </div>
       </div>
 

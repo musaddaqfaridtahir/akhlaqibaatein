@@ -15,7 +15,9 @@ import {
   Compass,
   ChevronDown,
 } from 'lucide-react';
-import { Quote, Category } from '@/data/types';
+import { Quote, Category, Language } from '@/data/types';
+import { uiTranslations } from '@/data/uiTranslations';
+import { getLocalizedQuotePath, getLocalizedQuoteUrl } from '@/lib/quoteSeo';
 import {
   getQuoteText,
   getQuoteTitle,
@@ -35,29 +37,33 @@ interface QuoteDetailViewProps {
   quote: Quote;
   category?: Category;
   relatedQuotes: Quote[];
+  routeLanguage?: Language;
 }
 
 export default function QuoteDetailView({
   quote,
   category,
   relatedQuotes,
+  routeLanguage,
 }: QuoteDetailViewProps) {
-  const { language, t, showToast } = useLanguage();
+  const { language, showToast } = useLanguage();
+  const activeLang: Language = routeLanguage || language;
+  const t = uiTranslations[activeLang];
   const [copied, setCopied] = useState(false);
   const [showStatusModal, setShowStatusModal] = useState(false);
 
-  const isUrdu = language === 'ur';
+  const isUrdu = activeLang === 'ur';
 
   // Active language view
-  const quoteText = getQuoteText(quote, language);
-  const quoteTitle = getQuoteTitle(quote, language) || quoteText.slice(0, 60);
-  const quoteAuthor = getQuoteAuthor(quote, language);
-  const quoteTashreeh = getQuoteTashreeh(quote, language);
-  const quoteAmliSabaq = getQuoteAmliSabaq(quote, language);
-  const quoteSource = getQuoteSource(quote, language);
-  const cleanSource = formatBookRef(quoteSource, quote.category, language);
-  const quoteTags = getQuoteTags(quote, language);
-  const categoryTitle = category ? getCategoryTitle(category, language) : quote.category;
+  const quoteText = getQuoteText(quote, activeLang);
+  const quoteTitle = getQuoteTitle(quote, activeLang) || quoteText.slice(0, 60);
+  const quoteAuthor = getQuoteAuthor(quote, activeLang);
+  const quoteTashreeh = getQuoteTashreeh(quote, activeLang);
+  const quoteAmliSabaq = getQuoteAmliSabaq(quote, activeLang);
+  const quoteSource = getQuoteSource(quote, activeLang);
+  const cleanSource = formatBookRef(quoteSource, quote.category, activeLang);
+  const quoteTags = getQuoteTags(quote, activeLang);
+  const categoryTitle = category ? getCategoryTitle(category, activeLang) : quote.category;
 
   // Tri-lingual content for simultaneous DOM rendering (solves Google Search Console / AdSense thin-content risk)
   const urduTitle = getQuoteTitle(quote, 'ur') || quote.title?.ur || '';
@@ -88,7 +94,7 @@ export default function QuoteDetailView({
   const englishTags = getQuoteTags(quote, 'en');
 
   const handleCopy = () => {
-    const quoteUrl = `https://akhlaqibaatein.com/quote/${quote.slug}`;
+    const quoteUrl = getLocalizedQuoteUrl(quote.slug, activeLang);
     const textToCopy = `"${quoteText}"\n\n— ${quoteAuthor}${cleanSource ? ` (${cleanSource})` : ''}\n\n${quoteUrl}`;
 
     navigator.clipboard.writeText(textToCopy);
@@ -98,7 +104,7 @@ export default function QuoteDetailView({
   };
 
   const handleWhatsAppShare = () => {
-    const quoteUrl = `https://akhlaqibaatein.com/quote/${quote.slug}`;
+    const quoteUrl = getLocalizedQuoteUrl(quote.slug, activeLang);
     const message = encodeURIComponent(
       `"${quoteText}"\n\n— ${quoteAuthor}\n\n${t.tashreehHeading}:\n${quoteTashreeh}\n\n${quoteUrl}`
     );
@@ -109,31 +115,31 @@ export default function QuoteDetailView({
   const dynamicFaqs = [
     {
       question:
-        language === 'ur'
+        activeLang === 'ur'
           ? `“${quoteTitle}” کا بنیادی اخلاقی مفہوم اور تشریح کیا ہے؟`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? `“${quoteTitle}” ka bunyadi akhlaqi mafhoom aur tashreeh kya hai?`
           : `What is the core moral meaning and explanation of “${quoteTitle}”?`,
       answer:
-        language === 'ur'
+        activeLang === 'ur'
           ? `${quoteTashreeh}${quoteAmliSabaq ? ` اس تعلیم سے ہمیں یہ عملی پیغام ملتا ہے کہ: ${quoteAmliSabaq}` : ''}`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? `${quoteTashreeh}${quoteAmliSabaq ? ` Is taleem se humein yeh amli sabaq milta hai: ${quoteAmliSabaq}` : ''}`
           : `${quoteTashreeh}${quoteAmliSabaq ? ` Practical takeaway: ${quoteAmliSabaq}` : ''}`,
     },
     {
       question:
-        language === 'ur'
+        activeLang === 'ur'
           ? `“${quoteTitle}” کس کی تعلیمات میں سے ہے اور اس کا مستند ماخذ کیا ہے؟`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? `“${quoteTitle}” kis shakhsiyat ki taleemat mein se hai aur is ka mustanad maakhaz kya hai?`
           : `Who is “${quoteTitle}” attributed to and what is its authentic reference?`,
       answer:
-        language === 'ur'
+        activeLang === 'ur'
           ? cleanSource
             ? `یہ پرحکمت تعلیم ${quoteAuthor} کی مبارک روایات و اقوال میں سے ہے اور مستند ماخذ ”${cleanSource}“ میں بیان ہوئی ہے۔ یہ سبق زمرہ ”${categoryTitle}“ کے اہم اخلاقی دروس میں شامل ہے۔`
             : `یہ پرحکمت تعلیم ${quoteAuthor} کے اخلاقی ذخیرے میں سے ہے اور زمرہ ”${categoryTitle}“ کے تحت انسانی کردار کی اصلاح کے لیے مستند علمی رہنمائی فراہم کرتی ہے۔`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? cleanSource
             ? `Yeh pur-hikmat qoul ${quoteAuthor} ki mubarak taleemat mein se hai aur mustanad maakhuz "${cleanSource}" mein darj hai. Yeh dars "${categoryTitle}" ke ahem akhlaqi asbaaq mein shamil hai.`
             : `Yeh pur-hikmat qoul ${quoteAuthor} ki mubarak taleemat mein se hai aur "${categoryTitle}" ke tehat kirdar saazi ka ahem sabaq deta hai.`
@@ -143,30 +149,30 @@ export default function QuoteDetailView({
     },
     {
       question:
-        language === 'ur'
+        activeLang === 'ur'
           ? `عملی زندگی میں “${quoteTitle}” پر عمل کرنے کا بہترین طریقہ کیا ہے؟`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? `Rozmarra zindagi mein “${quoteTitle}” par amli taur par kaise amal kiya jaye?`
           : `How can one practically apply the message of “${quoteTitle}” in daily life?`,
       answer:
         quoteAmliSabaq ||
-        (language === 'ur'
+        (activeLang === 'ur'
           ? `${categoryTitle} کے اس روشن اصول پر عمل کرنے کے لیے انسان اپنی نیت کو خالص رکھے، روزمرہ معاملات میں سچائی و نرم خوئی اختیار کرے اور ${quoteTags.slice(0, 2).join(' و ')} کو اپنی عادت بنائے۔`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? `${categoryTitle} ke is sunehre usool par amal karne ke liye niyat khalis rakhein, muamlat mein sachai o narmi ikhtiyar karein aur ${quoteTags.slice(0, 2).join(' aur ')} ko zindagi ka hissa banayein.`
           : `Apply this lesson from ${categoryTitle} by purifying intentions, practicing kindness and integrity in everyday dealings, and embodying ${quoteTags.slice(0, 2).join(' and ')}.`),
     },
     {
       question:
-        language === 'ur'
+        activeLang === 'ur'
           ? `اس ارشاد میں کن بنیادی اخلاقی اقدار اور موضوعات کو اجاگر کیا گیا ہے؟`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? `“${quoteTitle}” mein kin ahem akhlaqi qadron aur mauzo'at par roshni dali gayi hai?`
           : `Which core virtues and ethical themes are emphasized in “${quoteTitle}”?`,
       answer:
-        language === 'ur'
+        activeLang === 'ur'
           ? `یہ مضمون بنیادی طور پر ${quoteTags.join('، ')} جیسی اعلیٰ انسانی و اسلامی اقدار کو اجاگر کرتا ہے، جو ${categoryTitle} کے دائرۂ فکر میں انفرادی تزکیہ اور معاشرتی امن کی بنیاد بنتی ہیں۔`
-          : language === 'ro'
+          : activeLang === 'ro'
           ? `Yeh qoul bunyadi taur par ${quoteTags.join(', ')} jaisi aala akhlaqi o roohani qadron ki ehmiyat wazeh karta hai, jo ${categoryTitle} ke tehat ba-waqar muashray ki bunyad hain.`
           : `This teaching emphasizes core virtues including ${quoteTags.join(', ')}, strengthening character purification and social harmony under ${categoryTitle}.`,
     },
@@ -195,7 +201,7 @@ export default function QuoteDetailView({
       />
 
       <article className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 lg:p-12 bg-white dark:bg-[#11221c] border border-stone-200/90 dark:border-emerald-800/60 shadow-sm space-y-6 sm:space-y-8 overflow-hidden">
-        {/* Category & Author Badge */}
+        {/* Category, Author Badge & Crawl-Friendly Edition Switcher */}
         <div className="flex items-center justify-between gap-2.5 flex-wrap">
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shrink-0" />
@@ -208,16 +214,51 @@ export default function QuoteDetailView({
             </span>
           </div>
 
-          {category && (
-            <Link
-              href={`/category/${category.slug}`}
-              className={`text-xs px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium ${
-                isUrdu ? 'font-urdu' : ''
-              }`}
-            >
-              #{categoryTitle}
-            </Link>
-          )}
+          <div className="flex items-center gap-2 flex-wrap">
+            <div className="inline-flex items-center bg-stone-100 dark:bg-emerald-950/70 p-0.5 rounded-full border border-stone-200 dark:border-emerald-800/60 text-[11px] font-semibold">
+              <Link
+                href={getLocalizedQuotePath(quote.slug, 'ur')}
+                className={`px-2.5 py-0.5 rounded-full transition font-urdu ${
+                  activeLang === 'ur'
+                    ? 'bg-emerald-800 text-white shadow-2xs'
+                    : 'text-slate-600 dark:text-emerald-200 hover:text-emerald-900'
+                }`}
+              >
+                اردو
+              </Link>
+              <Link
+                href={getLocalizedQuotePath(quote.slug, 'ro')}
+                className={`px-2.5 py-0.5 rounded-full transition ${
+                  activeLang === 'ro'
+                    ? 'bg-emerald-800 text-white shadow-2xs'
+                    : 'text-slate-600 dark:text-emerald-200 hover:text-emerald-900'
+                }`}
+              >
+                Roman
+              </Link>
+              <Link
+                href={getLocalizedQuotePath(quote.slug, 'en')}
+                className={`px-2.5 py-0.5 rounded-full transition ${
+                  activeLang === 'en'
+                    ? 'bg-emerald-800 text-white shadow-2xs'
+                    : 'text-slate-600 dark:text-emerald-200 hover:text-emerald-900'
+                }`}
+              >
+                English
+              </Link>
+            </div>
+
+            {category && (
+              <Link
+                href={`/category/${category.slug}`}
+                className={`text-xs px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium ${
+                  isUrdu ? 'font-urdu' : ''
+                }`}
+              >
+                #{categoryTitle}
+              </Link>
+            )}
+          </div>
         </div>
 
         {/* Primary Quote Display in User's Active Language */}
@@ -600,7 +641,7 @@ export default function QuoteDetailView({
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {relatedQuotes.map((rq) => (
-              <QuoteCard key={rq.id} quote={rq} />
+              <QuoteCard key={rq.id} quote={rq} displayLanguage={activeLang} />
             ))}
           </div>
         </section>
@@ -616,7 +657,7 @@ export default function QuoteDetailView({
           author: quoteAuthor,
           category: categoryTitle,
           slug: quote.slug,
-          lang: language,
+          lang: activeLang,
           title: quoteTitle,
           bookRef: cleanSource || undefined,
         }}

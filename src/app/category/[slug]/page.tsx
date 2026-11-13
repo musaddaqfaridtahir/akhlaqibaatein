@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { categories, getCategoryBySlug } from '@/data/categories';
 import { getQuotesByCategory } from '@/data/quotes';
 import { articles } from '@/data/articles';
+import { buildHreflangAlternates, BASE_URL } from '@/lib/quoteSeo';
 import CategoryDetailView from '@/components/CategoryDetailView';
 import AdSlot from '@/components/AdSlot';
 
@@ -29,21 +30,33 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${category.titleUrdu} (${category.titleRoman})`;
-  const description = `${category.descriptionRoman}`;
+  const title = `${category.titleUrdu} (${category.titleRoman}) — ${category.titleEnglish}`;
+  const description = `${category.descriptionRoman} ${category.descriptionUrdu}`.slice(0, 160);
+  const categoryUrl = `${BASE_URL}/category/${category.slug}`;
 
   return {
     title,
     description,
+    keywords: [
+      category.titleUrdu,
+      category.titleRoman,
+      category.titleEnglish,
+      `${category.titleEnglish} quotes`,
+      `${category.titleRoman} Urdu quotes`,
+      'AkhlaqiBaatein.com',
+    ],
     openGraph: {
-      title,
-      description,
+      title: `${category.titleUrdu} — ${category.titleEnglish}`,
+      description: category.descriptionUrdu,
       type: 'website',
-      url: `https://akhlaqibaatein.com/category/${category.slug}`,
+      url: categoryUrl,
     },
-    alternates: {
-      canonical: `https://akhlaqibaatein.com/category/${category.slug}`,
-    },
+    alternates: buildHreflangAlternates({
+      canonical: categoryUrl,
+      ur: categoryUrl,
+      en: categoryUrl,
+      ro: categoryUrl,
+    }),
   };
 }
 

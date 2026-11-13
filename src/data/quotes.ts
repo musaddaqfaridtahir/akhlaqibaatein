@@ -14134,10 +14134,27 @@ export function getQuotesByCategory(categorySlug: string): Quote[] {
   return quotes.filter((q) => q.category === categorySlug);
 }
 
-export function getRelatedQuotes(currentSlug: string, category: string, limit = 3): Quote[] {
+export function getRelatedQuotes(
+  currentSlug: string,
+  category: string,
+  limit = 6,
+  currentTags: string[] = []
+): Quote[] {
+  const normalizedTags = new Set(currentTags.map((t) => t.toLowerCase()));
   return quotes
-    .filter((q) => q.slug !== currentSlug && q.category === category)
-    .slice(0, limit);
+    .filter((q) => q.slug !== currentSlug)
+    .map((q) => {
+      let score = q.category === category ? 10 : 0;
+      if (normalizedTags.size > 0) {
+        const tagMatches = q.tags.filter((t) => normalizedTags.has(t.toLowerCase())).length;
+        score += tagMatches * 5;
+      }
+      return { quote: q, score };
+    })
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map((entry) => entry.quote);
 }
 
 export function getQuoteText(quote: Quote, lang: Language): string {

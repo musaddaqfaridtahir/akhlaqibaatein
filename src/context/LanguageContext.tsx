@@ -1,8 +1,10 @@
 'use client';
 
 import React, { createContext, useContext, useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 import { Language } from '@/data/types';
 import { uiTranslations, TranslationDictionary } from '@/data/uiTranslations';
+import { getRouteLanguageFromPathname } from '@/lib/quoteSeo';
 
 export type ThemeMode = 'light' | 'dark';
 
@@ -18,58 +20,67 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+function applyLanguageToDOM(lang: Language) {
+  if (typeof document === 'undefined') return;
+  const root = document.documentElement;
+  if (lang === 'ur') {
+    root.dir = 'rtl';
+    root.lang = 'ur';
+    root.classList.add('lang-ur');
+    root.classList.remove('lang-en', 'lang-ro');
+  } else if (lang === 'ro') {
+    root.dir = 'ltr';
+    root.lang = 'ur-Latn';
+    root.classList.add('lang-ro');
+    root.classList.remove('lang-ur', 'lang-en');
+  } else {
+    root.dir = 'ltr';
+    root.lang = 'en';
+    root.classList.add('lang-en');
+    root.classList.remove('lang-ur', 'lang-ro');
+  }
+}
+
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguageState] = useState<Language>('ur');
+  const pathname = usePathname() || '/';
+  const routeLang = getRouteLanguageFromPathname(pathname);
+
+  const [storedLang, setStoredLang] = useState<Language>('ur');
   const [theme, setTheme] = useState<ThemeMode>('light');
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
-  useEffect(() => {
-    // 1. Load persisted language
-    const savedLang = localStorage.getItem('ab_language') as Language | null;
-    if (savedLang && ['ur', 'ro', 'en'].includes(savedLang)) {
-      setLanguageState(savedLang);
-      applyLanguageToDOM(savedLang);
-    } else {
-      applyLanguageToDOM('ur');
-    }
+  const language: Language = routeLang || storedLang;
 
-    // 2. Load persisted theme
-    const savedTheme = localStorage.getItem('ab_theme') as ThemeMode | null;
-    if (savedTheme && ['light', 'dark'].includes(savedTheme)) {
-      setTheme(savedTheme);
-      if (savedTheme === 'dark') {
-        document.documentElement.classList.add('dark');
-      } else {
-        document.documentElement.classList.remove('dark');
+  useEffect(() => {
+    const rafId = window.requestAnimationFrame(() => {
+      const savedLang = localStorage.getItem('ab_language') as Language | null;
+      if (savedLang && ['ur', 'ro', 'en'].includes(savedLang)) {
+        setStoredLang(savedLang);
       }
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      setTheme('dark');
-      document.documentElement.classList.add('dark');
-    }
+
+      const savedTheme = localStorage.getItem('ab_theme') as ThemeMode | null;
+      if (savedTheme && ['light', 'dark'].includes(savedTheme)) {
+        setTheme(savedTheme);
+        if (savedTheme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setTheme('dark');
+        document.documentElement.classList.add('dark');
+      }
+    });
+
+    return () => window.cancelAnimationFrame(rafId);
   }, []);
 
-  const applyLanguageToDOM = (lang: Language) => {
-    const root = document.documentElement;
-    if (lang === 'ur') {
-      root.dir = 'rtl';
-      root.lang = 'ur';
-      root.classList.add('lang-ur');
-      root.classList.remove('lang-en', 'lang-ro');
-    } else if (lang === 'ro') {
-      root.dir = 'ltr';
-      root.lang = 'ur-Latn';
-      root.classList.add('lang-ro');
-      root.classList.remove('lang-ur', 'lang-en');
-    } else {
-      root.dir = 'ltr';
-      root.lang = 'en';
-      root.classList.add('lang-en');
-      root.classList.remove('lang-ur', 'lang-ro');
-    }
-  };
+  useEffect(() => {
+    applyLanguageToDOM(language);
+  }, [language]);
 
   const setLanguage = (lang: Language) => {
-    setLanguageState(lang);
+    setStoredLang(lang);
     localStorage.setItem('ab_language', lang);
     applyLanguageToDOM(lang);
   };

@@ -1,7 +1,7 @@
 import { Language } from '@/data/types';
 import { computeFormattedDate } from './dateUtils';
 
-export type PostFormat = '4:5' | '9:16';
+export type PostFormat = '1:1' | '4:5' | '9:16';
 
 export interface CanvasData {
   text: string;
@@ -235,7 +235,7 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
   const format: PostFormat = data.format || '4:5';
   const showDate = data.showDate !== false;
   const width = 1080;
-  const height = format === '9:16' ? 1920 : 1350;
+  const height = format === '9:16' ? 1920 : format === '1:1' ? 1080 : 1350;
 
   const canvas = document.createElement('canvas');
   canvas.width = width;
@@ -301,8 +301,9 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
 
   // Adaptive typography pass: steps down smoothly so complete quotes, book references,
   // and full explanation sentences (never clipped mid-sentence) fit cleanly inside the frame
-  const maxCardHeight = height - 80; // Leaves comfortable vertical breathing room
-  const scaleSteps = [1.0, 0.94, 0.88, 0.82, 0.76];
+  const isSquare = format === '1:1';
+  const maxCardHeight = height - (isSquare ? 56 : 80); // Leaves comfortable vertical breathing room
+  const scaleSteps = isSquare ? [0.92, 0.85, 0.78, 0.72] : [1.0, 0.94, 0.88, 0.82, 0.76];
   const expShrinkSteps = [0, 2, 3];
 
   const splitCompleteSentences = (text: string): string[] =>
@@ -424,8 +425,8 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
     const quoteBoxH = quotePadTop + quoteLines.length * quoteLH + refBlockH + quotePadBottom;
 
     const expDividerH = 38;
-    const expBlockH = includeExp ? expDividerH + expLines.length * expLH + 20 : 0;
-    const footerH = 72;
+    const expBlockH = includeExp ? expDividerH + expLines.length * expLH + 18 : 0;
+    const footerH = 92;
 
     const totalCardH =
       topPad +
@@ -436,7 +437,7 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
       quoteBoxH +
       (includeExp ? gap + expBlockH : gap) +
       footerH +
-      16;
+      14;
 
     return {
       quoteSpec,
@@ -729,32 +730,42 @@ export async function generateStatusImage(data: CanvasData): Promise<string> {
     ctx.restore();
   }
 
-  // 6. Crisp Brand Watermark Bar Anchored to Bottom of Ornamental Card
-  const footerBarH = 62;
+  // 6. Refined High-Contrast Emerald & Gold Branding Bar Anchored to Card Bottom
+  const footerBarH = 78;
   const footerBarY = cardY + cardH - footerBarH - 14;
   ctx.save();
-  ctx.fillStyle = 'rgba(1, 18, 12, 0.88)';
+  const footerGrad = ctx.createLinearGradient(cardX + 20, footerBarY, cardX + cardW - 20, footerBarY);
+  footerGrad.addColorStop(0, '#022c22');
+  footerGrad.addColorStop(0.5, '#011912');
+  footerGrad.addColorStop(1, '#022c22');
+  ctx.fillStyle = footerGrad;
   roundRect(ctx, cardX + 20, footerBarY, cardW - 40, footerBarH, 18);
   ctx.fill();
 
-  ctx.strokeStyle = 'rgba(217, 119, 6, 0.40)';
-  ctx.lineWidth = 1.25;
+  ctx.strokeStyle = 'rgba(245, 158, 11, 0.55)';
+  ctx.lineWidth = 1.5;
   roundRect(ctx, cardX + 20, footerBarY, cardW - 40, footerBarH, 18);
   ctx.stroke();
 
-  ctx.fillStyle = '#f8fafc';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
 
+  // Row 1: Domain Name in Gold
+  ctx.fillStyle = '#fbbf24';
+  ctx.font = 'bold 21px "Plus Jakarta Sans", system-ui, sans-serif';
+  ctx.fillText('AkhlaqiBaatein.com', centerX, footerBarY + 24);
+
+  // Row 2: Authentic Tagline in Crisp White
+  ctx.fillStyle = '#f8fafc';
   if (isUrdu) {
-    ctx.font = 'bold 22px "Noto Nastaliq Urdu", "Amiri", serif';
-    ctx.fillText('اخلاقی باتیں   •   AkhlaqiBaatein.com   •   مستند اسلامی اخلاقیات', centerX, footerBarY + footerBarH / 2 + 2);
+    ctx.font = 'bold 21px "Noto Nastaliq Urdu", "Amiri", serif';
+    ctx.fillText('مخزنِ اخلاق اور مستند اسلامی اقوال', centerX, footerBarY + 56);
   } else if (data.lang === 'ro') {
-    ctx.font = 'bold 20px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText('AkhlaqiBaatein.com   •   Mustanad Islami Akhlaqiat o Hikmat', centerX, footerBarY + footerBarH / 2);
+    ctx.font = '600 17px "Plus Jakarta Sans", system-ui, sans-serif';
+    ctx.fillText('Makhzan-e-Akhlaq aur Mustanad Islami Aqwal', centerX, footerBarY + 54);
   } else {
-    ctx.font = 'bold 20px "Plus Jakarta Sans", sans-serif';
-    ctx.fillText('AkhlaqiBaatein.com   •   Authentic Islamic Ethics & Wisdom', centerX, footerBarY + footerBarH / 2);
+    ctx.font = '600 17px "Plus Jakarta Sans", system-ui, sans-serif';
+    ctx.fillText('Makhzan-e-Akhlaq & Authentic Islamic Wisdom', centerX, footerBarY + 54);
   }
   ctx.restore();
 

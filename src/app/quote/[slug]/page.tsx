@@ -1,62 +1,28 @@
 import React from 'react';
-import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { quotes, getQuoteBySlug, getRelatedQuotes } from '@/data/quotes';
-import { getCategoryBySlug } from '@/data/categories';
-import AdSlot from '@/components/AdSlot';
-import JsonLd from '@/components/JsonLd';
-import QuoteDetailView from '@/components/QuoteDetailView';
+import { notFound } from 'next/navigation';
+import { quotes, getQuoteBySlug } from '@/data/quotes';
+import { buildQuoteMetadata } from '@/lib/quoteSeo';
+import QuoteDetailPageContent from '@/components/QuoteDetailPageContent';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+export const dynamic = 'force-static';
+
 export async function generateStaticParams() {
-  return quotes.map((q) => ({
-    slug: q.slug,
+  return quotes.map((quote) => ({
+    slug: quote.slug,
   }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const quote = getQuoteBySlug(slug);
-
-  if (!quote) {
-    return {
-      title: 'Quote Not Found',
-    };
-  }
-
-  const title = quote.title?.ur
-    ? `${quote.title.ur} — ${quote.authorUrdu}`
-    : `${quote.urdu.slice(0, 50)}... (${quote.author})`;
-  const description = `${quote.urdu.slice(0, 95)} | ${quote.english.slice(0, 95)} — ${quote.tashreehEnglish.slice(0, 90)}`;
-
-  return {
-    title,
-    description,
-    keywords: [
-      quote.author,
-      quote.category,
-      ...quote.tags,
-      'Islami Aqwal',
-      'Urdu Quote',
-      'Roman Urdu Quote',
-      'Islamic Quotes in English',
-    ],
-    openGraph: {
-      title,
-      description,
-      type: 'article',
-      url: `https://akhlaqibaatein.com/quote/${quote.slug}`,
-    },
-    alternates: {
-      canonical: `https://akhlaqibaatein.com/quote/${quote.slug}`,
-    },
-  };
+  return buildQuoteMetadata(slug, 'ur', { canonicalLang: 'ur' });
 }
 
-export default async function QuoteDetailPage({ params }: PageProps) {
+export default async function LegacyQuoteDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const quote = getQuoteBySlug(slug);
 
@@ -64,33 +30,5 @@ export default async function QuoteDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const category = getCategoryBySlug(quote.category);
-  const relatedQuotes = getRelatedQuotes(quote.slug, quote.category, 4);
-
-  return (
-    <div className="space-y-6 sm:space-y-10 max-w-4xl mx-auto overflow-hidden">
-      {/* Quotation Schema */}
-      <JsonLd
-        type="quotation"
-        quote={{
-          text: quote.urdu,
-          author: quote.author,
-          url: `https://akhlaqibaatein.com/quote/${quote.slug}`,
-        }}
-      />
-
-      {/* Top Banner AdSlot */}
-      <AdSlot position="header" />
-
-      {/* Interactive Strict Language View */}
-      <QuoteDetailView
-        quote={quote}
-        category={category}
-        relatedQuotes={relatedQuotes}
-      />
-
-      {/* In-Article AdSlot */}
-      <AdSlot position="in-article" />
-    </div>
-  );
+  return <QuoteDetailPageContent quote={quote} routeLanguage="ur" />;
 }

@@ -94,6 +94,24 @@ export default function BooksPage() {
           >
             {headers.desc}
           </p>
+
+          <div className="pt-2">
+            <Link
+              href="/makhzan-e-akhlaq"
+              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-800 hover:bg-emerald-900 dark:bg-amber-500 dark:hover:bg-amber-400 text-white dark:text-slate-950 font-bold text-xs sm:text-sm shadow-sm transition ${
+                isUrdu ? 'font-urdu leading-normal' : ''
+              }`}
+            >
+              <BookOpen className="w-4 h-4 shrink-0" />
+              <span>
+                {isUrdu
+                  ? 'مخزنِ اخلاق — مکمل ابواب و اقوال دیکھیں'
+                  : language === 'ro'
+                  ? 'Makhzan-e-Akhlaq Hub Aur Abwab Kholein'
+                  : 'Explore Makhzan-e-Akhlaq Hub & Chapters'}
+              </span>
+            </Link>
+          </div>
         </div>
       </section>
 

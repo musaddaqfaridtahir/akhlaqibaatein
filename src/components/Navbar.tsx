@@ -2,19 +2,30 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { Sparkles, Moon, Sun, Menu, X, Languages } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { Language } from '@/data/types';
+import { getLocalizedQuotePath, getQuoteSlugFromPathname } from '@/lib/quoteSeo';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
   const { language, setLanguage, t, theme, toggleTheme } = useLanguage();
+
+  const handleLanguageSwitch = (targetLang: Language) => {
+    setLanguage(targetLang);
+    const quoteSlug = pathname ? getQuoteSlugFromPathname(pathname) : null;
+    if (quoteSlug) {
+      router.push(getLocalizedQuotePath(quoteSlug, targetLang));
+    }
+  };
 
   const navLinks = [
     { href: '/', label: t.home },
     { href: '/#categories', label: t.categories },
+    { href: '/durood', label: t.duroodWazaif },
     { href: '/chahal-hadith', label: t.chahalHadith, badge: '40' },
     { href: '/articles', label: t.articles },
     { href: '/books', label: t.books },
@@ -88,7 +99,7 @@ export default function Navbar() {
                 return (
                   <button
                     key={opt.code}
-                    onClick={() => setLanguage(opt.code)}
+                    onClick={() => handleLanguageSwitch(opt.code)}
                     className={`px-3 py-1 text-xs rounded-xl font-bold transition-all ${
                       isActive
                         ? 'bg-emerald-800 text-white shadow-sm scale-105'
@@ -135,7 +146,7 @@ export default function Navbar() {
               return (
                 <button
                   key={opt.code}
-                  onClick={() => setLanguage(opt.code)}
+                  onClick={() => handleLanguageSwitch(opt.code)}
                   className={`py-1.5 px-2 rounded-md font-bold transition-all text-center flex items-center justify-center ${
                     isActive
                       ? 'bg-emerald-800 text-white shadow-xs'

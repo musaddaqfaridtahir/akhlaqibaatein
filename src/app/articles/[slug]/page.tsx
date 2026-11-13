@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { articles, getArticleBySlug } from '@/data/articles';
 import { getCategoryBySlug } from '@/data/categories';
+import { buildHreflangAlternates, BASE_URL } from '@/lib/quoteSeo';
 import AdSlot from '@/components/AdSlot';
 import JsonLd from '@/components/JsonLd';
 import ArticleDetailView from '@/components/ArticleDetailView';
@@ -29,30 +30,37 @@ export async function generateMetadata({
     };
   }
 
-  const title = article.titleUrdu;
-  const description = `${article.summaryRoman} — ${article.summaryUrdu.slice(0, 150)}...`;
+  const title = `${article.titleUrdu} | ${article.titleEnglish}`;
+  const description = `${article.summaryRoman} — ${article.summaryUrdu}`.slice(0, 160);
+  const articleUrl = `${BASE_URL}/articles/${article.slug}`;
 
   return {
     title,
     description,
     keywords: [
+      article.titleUrdu,
+      article.titleRoman,
+      article.titleEnglish,
       article.category,
       ...article.tags,
       'Seerat un Nabi',
       'Islamic Articles',
       'Akhlaqi Mazameen',
-      'Islamic History in Urdu',
+      'AkhlaqiBaatein.com',
     ],
     openGraph: {
-      title,
-      description,
+      title: article.titleUrdu,
+      description: article.summaryUrdu,
       type: 'article',
-      url: `https://akhlaqibaatein.com/articles/${article.slug}`,
+      url: articleUrl,
       publishedTime: article.publishedAt,
     },
-    alternates: {
-      canonical: `https://akhlaqibaatein.com/articles/${article.slug}`,
-    },
+    alternates: buildHreflangAlternates({
+      canonical: articleUrl,
+      ur: articleUrl,
+      en: articleUrl,
+      ro: articleUrl,
+    }),
   };
 }
 
