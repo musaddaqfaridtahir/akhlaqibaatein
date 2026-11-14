@@ -23,10 +23,10 @@ export const metadata: Metadata = {
     'درود شریف اردو ترجمہ',
   ],
   alternates: buildHreflangAlternates({
-    canonical: pageUrl,
-    ur: pageUrl,
-    en: pageUrl,
-    ro: pageUrl,
+    canonical: `${BASE_URL}/durood`,
+    ur: `${BASE_URL}/durood`,
+    en: `${BASE_URL}/en/durood`,
+    ro: `${BASE_URL}/roman/durood`,
   }),
   openGraph: {
     title: 'گوشۂ درود و وظائف | Durood o Salam & Wazaif Hub — AkhlaqiBaatein.com',

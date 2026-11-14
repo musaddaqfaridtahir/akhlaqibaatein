@@ -29,17 +29,20 @@ import { generateDuroodStatusImage } from '@/utils/duroodStatusGenerator';
 
 interface DuroodDetailViewProps {
   durood: DuroodItem;
+  routeLanguage?: Language;
 }
 
-export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
+export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetailViewProps) {
   const { language, showToast } = useLanguage();
-  const isUrdu = language === 'ur';
-  const isRoman = language === 'ro';
+  const activeLang: Language = routeLanguage || language;
+  const isUrdu = activeLang === 'ur';
+  const isRoman = activeLang === 'ro';
+  const isEnglish = activeLang === 'en';
 
   const [copied, setCopied] = useState(false);
   const [downloadingStatus, setDownloadingStatus] = useState(false);
 
-  const categoryLabel = getDuroodCategoryLabel(durood.category, language);
+  const categoryLabel = getDuroodCategoryLabel(durood.category, activeLang);
   const relatedDuroods = duroodList.filter((d) => d.slug !== durood.slug).slice(0, 4);
 
   const currentTitle = isUrdu ? durood.title.ur : isRoman ? durood.title.ro : durood.title.en;
@@ -51,8 +54,12 @@ export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
   const currentFazilat = isUrdu ? durood.fazilat.ur : isRoman ? durood.fazilat.ro : durood.fazilat.en;
   const currentRef = isUrdu ? durood.reference.ur : isRoman ? durood.reference.ro : durood.reference.en;
 
+  const hubPath = isEnglish ? '/en/durood' : isRoman ? '/roman/durood' : '/durood';
+  const getDetailPath = (slug: string) =>
+    isEnglish ? `/en/durood/${slug}` : isRoman ? `/roman/durood/${slug}` : `/durood/${slug}`;
+
   const handleCopy = () => {
-    const shareUrl = `https://akhlaqibaatein.com/durood/${durood.slug}`;
+    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(durood.slug)}`;
     const payload = `${currentTitle}\n\n${durood.arabicText}\n\n${
       isUrdu ? 'ترجمہ:' : 'Translation:'
     }\n${currentTranslation}\n\n${shareUrl}`;
@@ -63,7 +70,7 @@ export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
   };
 
   const handleWhatsAppShare = () => {
-    const shareUrl = `https://akhlaqibaatein.com/durood/${durood.slug}`;
+    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(durood.slug)}`;
     const message = encodeURIComponent(
       `*${currentTitle}*\n\n${durood.arabicText}\n\n*${
         isUrdu ? 'ترجمہ:' : 'Translation:'
@@ -84,7 +91,7 @@ export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
         durood,
         userName: savedName,
         target: durood.recommendedCount,
-        lang: language as Language,
+        lang: activeLang,
       });
       showToast(
         isUrdu
@@ -115,33 +122,69 @@ export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
 
   return (
     <div dir={isUrdu ? 'rtl' : 'ltr'} className="space-y-8">
-      {/* Breadcrumb */}
-      <nav
-        aria-label="Breadcrumb"
-        className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 flex-wrap ${
-          isUrdu ? 'font-urdu' : 'font-sans'
-        }`}
-      >
-        <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
-          {isUrdu ? 'سرورق' : isRoman ? 'Home' : 'Home'}
-        </Link>
-        {isUrdu ? (
-          <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" />
-        ) : (
-          <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />
-        )}
-        <Link href="/durood" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
-          {isUrdu ? 'درود و وظائف' : isRoman ? 'Durood o Wazaif' : 'Durood & Wazaif'}
-        </Link>
-        {isUrdu ? (
-          <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" />
-        ) : (
-          <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />
-        )}
-        <span className="text-slate-900 dark:text-white font-bold line-clamp-1">
-          {currentTitle}
-        </span>
-      </nav>
+      {/* Top Header: Breadcrumb & 3-Language Edition Switcher */}
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <nav
+          aria-label="Breadcrumb"
+          className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 flex-wrap ${
+            isUrdu ? 'font-urdu' : 'font-sans'
+          }`}
+        >
+          <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
+            {isUrdu ? 'سرورق' : 'Home'}
+          </Link>
+          {isUrdu ? (
+            <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" />
+          ) : (
+            <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />
+          )}
+          <Link href={hubPath} className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
+            {isUrdu ? 'درود و وظائف' : isRoman ? 'Durood o Wazaif' : 'Durood & Wazaif'}
+          </Link>
+          {isUrdu ? (
+            <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" />
+          ) : (
+            <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />
+          )}
+          <span className="text-slate-900 dark:text-white font-bold line-clamp-1">
+            {currentTitle}
+          </span>
+        </nav>
+
+        {/* 3-Language Edition Switcher Pills */}
+        <div className="flex items-center gap-1 bg-stone-100 dark:bg-[#11221c] p-1 rounded-xl border border-stone-200 dark:border-emerald-800/50 text-xs shadow-xs">
+          <Link
+            href={`/durood/${durood.slug}`}
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ur'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            اردو
+          </Link>
+          <Link
+            href={`/roman/durood/${durood.slug}`}
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ro'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            Roman
+          </Link>
+          <Link
+            href={`/en/durood/${durood.slug}`}
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'en'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            English
+          </Link>
+        </div>
+      </div>
 
       {/* Main Hero Card containing Arabic Text + Personalized Tasbeeh Counter inside same viewport */}
       <article className="print-clean-card rounded-3xl p-5 sm:p-8 lg:p-10 bg-white dark:bg-[#11221c] border border-stone-200/90 dark:border-[#d4af37]/35 shadow-sm space-y-6">
@@ -185,7 +228,7 @@ export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
 
         {/* Interactive Digital Tasbeeh Counter — Placed DIRECTLY below Arabic Plaque inside hero card! */}
         <div className="no-print pt-2">
-          <TasbeehCounter durood={durood} defaultTarget={durood.recommendedCount} />
+          <TasbeehCounter durood={durood} defaultTarget={durood.recommendedCount} lang={activeLang} />
         </div>
 
         {/* Clean Action Buttons Bar: Primary 9:16 HD Status + Print / Save as PDF + Copy + Share */}
@@ -334,7 +377,7 @@ export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
               : 'Related Prophetic Salawat'}
           </h2>
           <Link
-            href="/durood"
+            href={hubPath}
             className={`text-xs sm:text-sm font-bold text-emerald-800 dark:text-[#d4af37] hover:underline flex items-center gap-1 ${
               isUrdu ? 'font-urdu' : 'font-sans'
             }`}
@@ -350,13 +393,13 @@ export default function DuroodDetailView({ durood }: DuroodDetailViewProps) {
             return (
               <Link
                 key={rel.id}
-                href={`/durood/${rel.slug}`}
+                href={getDetailPath(rel.slug)}
                 className="group rounded-2xl p-4 sm:p-5 bg-white dark:bg-[#11221c] border border-stone-200/90 dark:border-emerald-800/60 hover:border-[#d4af37] transition space-y-2.5"
               >
                 <span className={`inline-block text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-[#0a1411] text-emerald-900 dark:text-[#d4af37] border border-emerald-200 dark:border-[#d4af37]/35 ${
                   isUrdu ? 'font-urdu' : 'font-sans'
                 }`}>
-                  {getDuroodCategoryLabel(rel.category, language)}
+                  {getDuroodCategoryLabel(rel.category, activeLang)}
                 </span>
                 <h3 className={`text-base font-bold text-slate-900 dark:text-white group-hover:text-emerald-800 dark:group-hover:text-[#d4af37] transition ${
                   isUrdu ? 'font-urdu' : 'font-sans'

@@ -10,6 +10,7 @@ import {
   getDuroodCategoryLabel,
 } from '@/data/durood';
 import { DUROOD_LIBRARY_CATALOG, DuroodLibraryFile } from '@/data/duroodLibrary';
+import { Language } from '@/data/types';
 import { useLanguage } from '@/context/LanguageContext';
 import AdSlot from '@/components/AdSlot';
 
@@ -57,13 +58,22 @@ const HUB_FAQS: LocalizedFaq[] = [
   },
 ];
 
-export default function DuroodHubView() {
+interface DuroodHubViewProps {
+  routeLanguage?: Language;
+}
+
+export default function DuroodHubView({ routeLanguage }: DuroodHubViewProps = {}) {
   const { language } = useLanguage();
-  const isUrdu = language === 'ur';
-  const isRoman = language === 'ro';
+  const activeLang: Language = routeLanguage || language;
+  const isUrdu = activeLang === 'ur';
+  const isRoman = activeLang === 'ro';
+  const isEnglish = activeLang === 'en';
 
   const [selectedCategory, setSelectedCategory] = useState<DuroodCategory | 'All'>('All');
   const [searchQuery, setSearchQuery] = useState('');
+
+  const getDetailPath = (slug: string) =>
+    isEnglish ? `/en/durood/${slug}` : isRoman ? `/roman/durood/${slug}` : `/durood/${slug}`;
 
   const filteredDuroods = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
@@ -78,18 +88,54 @@ export default function DuroodHubView() {
 
   return (
     <div dir={isUrdu ? 'rtl' : 'ltr'} className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-8">
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 ${
-        isUrdu ? 'font-urdu' : 'font-sans'
-      }`}>
-        <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
-          {isUrdu ? 'سرورق' : isRoman ? 'Home' : 'Home'}
-        </Link>
-        <span className="opacity-60">/</span>
-        <span className="text-slate-900 dark:text-white font-bold">
-          {isUrdu ? 'درود و وظائف' : isRoman ? 'Durood o Wazaif' : 'Durood & Wazaif Hub'}
-        </span>
-      </nav>
+      {/* Top Header: Breadcrumb & 3-Edition Language Switcher */}
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <nav aria-label="Breadcrumb" className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 ${
+          isUrdu ? 'font-urdu' : 'font-sans'
+        }`}>
+          <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
+            {isUrdu ? 'سرورق' : 'Home'}
+          </Link>
+          <span className="opacity-60">/</span>
+          <span className="text-slate-900 dark:text-white font-bold">
+            {isUrdu ? 'درود و وظائف' : isRoman ? 'Durood o Wazaif' : 'Durood & Wazaif Hub'}
+          </span>
+        </nav>
+
+        {/* 3-Language Edition Switcher Pills */}
+        <div className="flex items-center gap-1 bg-stone-100 dark:bg-[#11221c] p-1 rounded-xl border border-stone-200 dark:border-emerald-800/50 text-xs shadow-xs">
+          <Link
+            href="/durood"
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ur'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            اردو
+          </Link>
+          <Link
+            href="/roman/durood"
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ro'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            Roman
+          </Link>
+          <Link
+            href="/en/durood"
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'en'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            English
+          </Link>
+        </div>
+      </div>
 
       {/* Hero Banner */}
       <header className="relative overflow-hidden rounded-3xl p-6 sm:p-10 bg-gradient-to-br from-[#07130f] via-[#0d221a] to-[#050e0b] text-white border-2 border-[#d4af37]/45 shadow-xl space-y-5">
@@ -220,7 +266,7 @@ export default function DuroodHubView() {
                       isUrdu ? 'font-urdu' : 'font-sans'
                     }`}>
                       <Layers className="w-3.5 h-3.5 shrink-0" />
-                      <span>{getDuroodCategoryLabel(item.category, language)}</span>
+                      <span>{getDuroodCategoryLabel(item.category, activeLang)}</span>
                     </span>
 
                     <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 border border-amber-200/80 dark:border-amber-700/50 ${
@@ -234,7 +280,7 @@ export default function DuroodHubView() {
                   <h2 className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-800 dark:group-hover:text-[#d4af37] transition ${
                     isUrdu ? 'font-urdu leading-[1.85]' : 'font-sans leading-snug'
                   }`}>
-                    <Link href={`/durood/${item.slug}`}>{itemTitle}</Link>
+                    <Link href={getDetailPath(item.slug)}>{itemTitle}</Link>
                   </h2>
 
                   {/* Arabic Plaque with Crystal-Clear Naskh Font */}
@@ -271,7 +317,7 @@ export default function DuroodHubView() {
                   </span>
 
                   <Link
-                    href={`/durood/${item.slug}`}
+                    href={getDetailPath(item.slug)}
                     className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#0a1411] hover:bg-emerald-900 dark:bg-[#d4af37] dark:hover:bg-amber-400 text-[#d4af37] dark:text-[#0a1411] text-xs sm:text-sm font-bold shrink-0 transition shadow-xs ${
                       isUrdu ? 'font-urdu' : 'font-sans'
                     }`}

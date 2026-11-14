@@ -4,18 +4,28 @@ import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Search, X, Sparkles, BookOpen, ArrowLeft, ArrowRight, Feather, Layers } from 'lucide-react';
 import { naatsList, NaatItem } from '@/data/naats';
+import { Language } from '@/data/types';
 import { useLanguage } from '@/context/LanguageContext';
 import AdSlot from '@/components/AdSlot';
 
-export default function NaatHubView() {
+interface NaatHubViewProps {
+  routeLanguage?: Language;
+}
+
+export default function NaatHubView({ routeLanguage }: NaatHubViewProps = {}) {
   const { language } = useLanguage();
-  const isUrdu = language === 'ur';
-  const isRoman = language === 'ro';
+  const activeLang: Language = routeLanguage || language;
+  const isUrdu = activeLang === 'ur';
+  const isRoman = activeLang === 'ro';
+  const isEnglish = activeLang === 'en';
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
   const categories = ['All', 'Naat', 'Salam', 'Qasida', 'Hamd', 'Manqabat'];
+
+  const getDetailPath = (slug: string) =>
+    isEnglish ? `/en/naat/${slug}` : isRoman ? `/roman/naat/${slug}` : `/naat/${slug}`;
 
   const filteredNaats = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
@@ -30,18 +40,54 @@ export default function NaatHubView() {
 
   return (
     <div dir={isUrdu ? 'rtl' : 'ltr'} className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-8">
-      {/* Breadcrumb */}
-      <nav aria-label="Breadcrumb" className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 ${
-        isUrdu ? 'font-urdu' : 'font-sans'
-      }`}>
-        <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
-          {isUrdu ? 'سرورق' : 'Home'}
-        </Link>
-        <span className="opacity-60">/</span>
-        <span className="text-slate-900 dark:text-white font-bold">
-          {isUrdu ? 'دیوانِ نعت شریف' : 'Naat Sharif Hub'}
-        </span>
-      </nav>
+      {/* Top Header: Breadcrumb & 3-Edition Language Switcher */}
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <nav aria-label="Breadcrumb" className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 ${
+          isUrdu ? 'font-urdu' : 'font-sans'
+        }`}>
+          <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
+            {isUrdu ? 'سرورق' : 'Home'}
+          </Link>
+          <span className="opacity-60">/</span>
+          <span className="text-slate-900 dark:text-white font-bold">
+            {isUrdu ? 'دیوانِ نعت شریف' : isRoman ? 'Diwan-e-Naat' : 'Naat Sharif Hub'}
+          </span>
+        </nav>
+
+        {/* 3-Language Edition Switcher Pills */}
+        <div className="flex items-center gap-1 bg-stone-100 dark:bg-[#11221c] p-1 rounded-xl border border-stone-200 dark:border-emerald-800/50 text-xs shadow-xs">
+          <Link
+            href="/naat"
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ur'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            اردو
+          </Link>
+          <Link
+            href="/roman/naat"
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ro'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            Roman
+          </Link>
+          <Link
+            href="/en/naat"
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'en'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            English
+          </Link>
+        </div>
+      </div>
 
       {/* Hero Banner */}
       <header className="relative overflow-hidden rounded-3xl p-6 sm:p-10 bg-gradient-to-br from-[#07130f] via-[#0d221a] to-[#050e0b] text-white border-2 border-[#d4af37]/45 shadow-xl space-y-5">
@@ -192,7 +238,7 @@ export default function NaatHubView() {
                   <h2 className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-800 dark:group-hover:text-[#d4af37] transition ${
                     isUrdu ? 'font-urdu leading-[1.85]' : 'font-sans leading-snug'
                   }`}>
-                    <Link href={`/naat/${item.slug}`}>{itemTitle}</Link>
+                    <Link href={getDetailPath(item.slug)}>{itemTitle}</Link>
                   </h2>
 
                   {/* Poetic Opening Couplet Snippet */}
@@ -216,7 +262,7 @@ export default function NaatHubView() {
                   </span>
 
                   <Link
-                    href={`/naat/${item.slug}`}
+                    href={getDetailPath(item.slug)}
                     className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-[#0a1411] hover:bg-emerald-900 dark:bg-[#d4af37] dark:hover:bg-amber-400 text-[#d4af37] dark:text-[#0a1411] text-xs sm:text-sm font-bold shrink-0 transition shadow-xs ${
                       isUrdu ? 'font-urdu' : 'font-sans'
                     }`}

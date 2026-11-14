@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { duroodList, getDuroodBySlug } from '@/data/durood';
-import { BASE_URL, buildHreflangAlternates } from '@/lib/quoteSeo';
+import { BASE_URL, buildDuroodMetadata } from '@/lib/quoteSeo';
 import JsonLd from '@/components/JsonLd';
 import AdSlot from '@/components/AdSlot';
 import DuroodDetailView from '@/components/DuroodDetailView';
@@ -21,40 +21,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const durood = getDuroodBySlug(slug);
-
-  if (!durood) {
-    return {
-      title: 'Durood Not Found | AkhlaqiBaatein.com',
-    };
-  }
-
-  const pageUrl = `${BASE_URL}/durood/${durood.slug}`;
-  const title = `${durood.title.ur} | ${durood.title.en}`;
-  const description = `${durood.urduTranslation} — ${durood.fazilat.ur}`.slice(0, 160);
-
-  return {
-    title,
-    description,
-    keywords: [
-      ...durood.seoKeywords,
-      'Durood e Pak ki fazilat',
-      'Salat al Nabi',
-      'AkhlaqiBaatein.com',
-    ],
-    alternates: buildHreflangAlternates({
-      canonical: pageUrl,
-      ur: pageUrl,
-      en: pageUrl,
-      ro: pageUrl,
-    }),
-    openGraph: {
-      title,
-      description,
-      url: pageUrl,
-      type: 'article',
-    },
-  };
+  return buildDuroodMetadata(slug, 'ur');
 }
 
 export default async function DuroodDetailPage({ params }: PageProps) {

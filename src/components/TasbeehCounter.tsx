@@ -21,6 +21,7 @@ import { computeFormattedDate } from '@/lib/dateUtils';
 interface TasbeehCounterProps {
   durood: DuroodItem;
   defaultTarget?: number;
+  lang?: Language;
 }
 
 interface StoredTasbeehState {
@@ -33,10 +34,12 @@ const PRESET_TARGETS = [11, 41, 100, 313, 1000];
 export default function TasbeehCounter({
   durood,
   defaultTarget = 41,
+  lang,
 }: TasbeehCounterProps) {
   const { language, showToast } = useLanguage();
-  const isUrdu = language === 'ur';
-  const isRoman = language === 'ro';
+  const activeLang: Language = lang || language;
+  const isUrdu = activeLang === 'ur';
+  const isRoman = activeLang === 'ro';
 
   const slug = durood.slug;
   const storageKey = `akhlaqi_tasbeeh_${slug}`;
@@ -180,7 +183,7 @@ export default function TasbeehCounter({
 
   const progressPct = Math.min(100, Math.round((count / target) * 100));
   const isCompleted = count >= target;
-  const dateString = computeFormattedDate(new Date(), language as Language);
+  const dateString = computeFormattedDate(new Date(), activeLang);
 
   // SVG Ring metrics
   const radius = 54;

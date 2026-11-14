@@ -25,15 +25,22 @@ import { generateNaatStatusImage } from '@/utils/naatStatusGenerator';
 
 interface NaatDetailViewProps {
   naat: NaatItem;
+  routeLanguage?: Language;
 }
 
-export default function NaatDetailView({ naat }: NaatDetailViewProps) {
+export default function NaatDetailView({ naat, routeLanguage }: NaatDetailViewProps) {
   const { language, showToast } = useLanguage();
-  const isUrdu = language === 'ur';
-  const isRoman = language === 'ro';
+  const activeLang: Language = routeLanguage || language;
+  const isUrdu = activeLang === 'ur';
+  const isRoman = activeLang === 'ro';
+  const isEnglish = activeLang === 'en';
 
   const [copied, setCopied] = useState(false);
   const [downloadingStatus, setDownloadingStatus] = useState(false);
+
+  const hubPath = isEnglish ? '/en/naat' : isRoman ? '/roman/naat' : '/naat';
+  const getDetailPath = (slug: string) =>
+    isEnglish ? `/en/naat/${slug}` : isRoman ? `/roman/naat/${slug}` : `/naat/${slug}`;
 
   const currentTitle = isUrdu ? naat.title.ur : isRoman ? naat.title.ro : naat.title.en;
   const currentPoet = isUrdu ? naat.poet.ur : isRoman ? naat.poet.ro : naat.poet.en;
@@ -43,7 +50,7 @@ export default function NaatDetailView({ naat }: NaatDetailViewProps) {
   const relatedNaats = naatsList.filter((n) => n.slug !== naat.slug).slice(0, 4);
 
   const handleCopy = () => {
-    const shareUrl = `https://akhlaqibaatein.com/naat/${naat.slug}`;
+    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(naat.slug)}`;
     const allVerses = naat.ashaar
       .map((s) => `${s.misra1Ur}\n${s.misra2Ur}`)
       .join('\n\n');
@@ -55,7 +62,7 @@ export default function NaatDetailView({ naat }: NaatDetailViewProps) {
   };
 
   const handleWhatsAppShare = () => {
-    const shareUrl = `https://akhlaqibaatein.com/naat/${naat.slug}`;
+    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(naat.slug)}`;
     const excerpt = `${naat.ashaar[0]?.misra1Ur}\n${naat.ashaar[0]?.misra2Ur}`;
     const msg = encodeURIComponent(
       `*${naat.title.ur}*\nکلام: ${naat.poet.ur}\n\n${excerpt}\n\nمکمل ${naat.ashaar.length} اشعار اور تشریح پڑھیں:\n${shareUrl}`
@@ -69,7 +76,7 @@ export default function NaatDetailView({ naat }: NaatDetailViewProps) {
     try {
       await generateNaatStatusImage({
         naat,
-        lang: language as Language,
+        lang: activeLang,
       });
       showToast(
         isUrdu
@@ -95,25 +102,61 @@ export default function NaatDetailView({ naat }: NaatDetailViewProps) {
 
   return (
     <div dir={isUrdu ? 'rtl' : 'ltr'} className="space-y-8">
-      {/* Breadcrumb */}
-      <nav
-        aria-label="Breadcrumb"
-        className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 flex-wrap ${
-          isUrdu ? 'font-urdu' : 'font-sans'
-        }`}
-      >
-        <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
-          {isUrdu ? 'سرورق' : 'Home'}
-        </Link>
-        {isUrdu ? <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" /> : <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />}
-        <Link href="/naat" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
-          {isUrdu ? 'نعت شریف و کلام' : 'Naat Sharif'}
-        </Link>
-        {isUrdu ? <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" /> : <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />}
-        <span className="text-slate-900 dark:text-white font-bold line-clamp-1">
-          {currentTitle}
-        </span>
-      </nav>
+      {/* Top Header: Breadcrumb & 3-Edition Language Switcher */}
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <nav
+          aria-label="Breadcrumb"
+          className={`flex items-center gap-1.5 text-xs sm:text-sm text-slate-600 dark:text-emerald-300/80 flex-wrap ${
+            isUrdu ? 'font-urdu' : 'font-sans'
+          }`}
+        >
+          <Link href="/" className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
+            {isUrdu ? 'سرورق' : 'Home'}
+          </Link>
+          {isUrdu ? <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" /> : <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />}
+          <Link href={hubPath} className="hover:text-emerald-800 dark:hover:text-[#d4af37] font-medium transition">
+            {isUrdu ? 'نعت شریف و کلام' : isRoman ? 'Diwan-e-Naat' : 'Naat Sharif Hub'}
+          </Link>
+          {isUrdu ? <ChevronLeft className="w-3.5 h-3.5 opacity-60 shrink-0" /> : <ChevronRight className="w-3.5 h-3.5 opacity-60 shrink-0" />}
+          <span className="text-slate-900 dark:text-white font-bold line-clamp-1">
+            {currentTitle}
+          </span>
+        </nav>
+
+        {/* 3-Language Edition Switcher Pills */}
+        <div className="flex items-center gap-1 bg-stone-100 dark:bg-[#11221c] p-1 rounded-xl border border-stone-200 dark:border-emerald-800/50 text-xs shadow-xs">
+          <Link
+            href={`/naat/${naat.slug}`}
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ur'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            اردو
+          </Link>
+          <Link
+            href={`/roman/naat/${naat.slug}`}
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'ro'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            Roman
+          </Link>
+          <Link
+            href={`/en/naat/${naat.slug}`}
+            className={`px-2.5 py-1 rounded-lg transition font-medium ${
+              activeLang === 'en'
+                ? 'bg-emerald-800 text-white font-bold'
+                : 'text-slate-700 dark:text-emerald-200 hover:text-emerald-900'
+            }`}
+          >
+            English
+          </Link>
+        </div>
+      </div>
 
       {/* Main Diwan Hero Card */}
       <article className="print-clean-card rounded-3xl p-5 sm:p-8 lg:p-10 bg-white dark:bg-[#11221c] border border-stone-200/90 dark:border-[#d4af37]/35 shadow-sm space-y-6">
@@ -309,7 +352,7 @@ export default function NaatDetailView({ naat }: NaatDetailViewProps) {
               : 'Related Classical Naat Sharif'}
           </h2>
           <Link
-            href="/naat"
+            href={hubPath}
             className={`text-xs sm:text-sm font-bold text-emerald-800 dark:text-[#d4af37] hover:underline flex items-center gap-1 ${
               isUrdu ? 'font-urdu' : 'font-sans'
             }`}
@@ -326,7 +369,7 @@ export default function NaatDetailView({ naat }: NaatDetailViewProps) {
             return (
               <Link
                 key={rel.id}
-                href={`/naat/${rel.slug}`}
+                href={getDetailPath(rel.slug)}
                 className="group rounded-2xl p-4 sm:p-5 bg-white dark:bg-[#11221c] border border-stone-200/90 dark:border-emerald-800/60 hover:border-[#d4af37] transition space-y-2.5"
               >
                 <div className="flex items-center justify-between gap-2">

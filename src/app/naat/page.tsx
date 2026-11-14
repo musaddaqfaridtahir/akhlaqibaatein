@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     'نعت شریف اسٹیٹس',
   ],
   alternates: buildHreflangAlternates({
-    canonical: pageUrl,
-    ur: pageUrl,
-    en: pageUrl,
-    ro: pageUrl,
+    canonical: `${BASE_URL}/naat`,
+    ur: `${BASE_URL}/naat`,
+    en: `${BASE_URL}/en/naat`,
+    ro: `${BASE_URL}/roman/naat`,
   }),
   openGraph: {
     title: 'دیوانِ نعت شریف | Naat Sharif Hub — AkhlaqiBaatein.com',

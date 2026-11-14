@@ -1,6 +1,6 @@
 import { Language } from './types';
 
-export type DuroodCategory = 'Rozana' | 'Mushkilat' | 'Rizq' | 'Sehat';
+export type DuroodCategory = 'Rozana' | 'Mushkilat' | 'Rizq' | 'Sehat' | 'Hizb' | 'Wird' | 'Qasida' | 'Mawlid';
 
 export interface LocalizedString {
   ur: string;
@@ -98,6 +98,58 @@ export const DUROOD_CATEGORIES: {
       ur: 'جسمانی اور روحانی امراض سے شفاء',
       ro: 'Jismani aur roohani amraaz se shifa',
       en: 'Spiritual healing and physical well-being',
+    },
+  },
+  {
+    id: 'Hizb',
+    label: {
+      ur: 'احزاب و حِفاظت',
+      ro: 'Ahzab o Hifazat',
+      en: 'Protective Ahzab',
+    },
+    desc: {
+      ur: 'حزب البحر، حزب النصر اور ماثور دعائیں',
+      ro: 'Hizb al-Bahr, Hizb al-Nasr aur hifazat ke azkar',
+      en: 'Spiritual shield and divine sanctuary',
+    },
+  },
+  {
+    id: 'Wird',
+    label: {
+      ur: 'اوراد و رواتب',
+      ro: 'Awrad o Rawatib',
+      en: 'Daily Litanies & Awrad',
+    },
+    desc: {
+      ur: 'الورد اللطیف اور راتب الحداد شریف',
+      ro: 'Al-Wird al-Latif aur Ratib al-Haddad',
+      en: 'Morning and evening established litanies',
+    },
+  },
+  {
+    id: 'Qasida',
+    label: {
+      ur: 'قصائد و مدائح',
+      ro: 'Qasaid o Madaih',
+      en: 'Prophetic Odes',
+    },
+    desc: {
+      ur: 'قصیدہ بردہ، قصیدہ مضریہ اور نعتیہ قصائد',
+      ro: 'Qasida Burda aur qasaid-e-salam',
+      en: 'Devotional classical odes and poetry',
+    },
+  },
+  {
+    id: 'Mawlid',
+    label: {
+      ur: 'مولود شریف',
+      ro: 'Mawlid Sharif',
+      en: 'Mawlid Traditions',
+    },
+    desc: {
+      ur: 'مولد البرزنجی، الدیبعی اور کتبِ میلاد',
+      ro: 'Mawlid al-Barzanji aur zikr-e-wiladat',
+      en: 'Narratives of the blessed Prophetic birth',
     },
   },
 ];
@@ -628,6 +680,926 @@ export const duroodList: DuroodItem[] = [
       },
     ],
   },
+  {
+    id: "11",
+    slug: "durood-e-akbar",
+    title: {
+        ur: "درودِ اکبر شریف",
+        ro: "Durood-e-Akbar",
+        en: "Durood-e-Akbar (The Grand Salutation)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ نَبِيِّ الرَّحْمَةِ، وَشَفِيعِ الأُمَّةِ، وَكَاشِفِ الْغُمَّةِ، وَمُجْلِي الظُّلْمَةِ، وَعَلَى آلِهِ وَأَصْحَابِهِ وَسَلِّمْ تَسْلِيمًا كَثِيرًا دَائِمًا إِلَى يَوْمِ الدِّينِ.",
+    urduTranslation: "اے اللہ! درود بھیج ہمارے آقا و مولا حضرت محمد ﷺ پر جو رحمت کے نبی، امت کے شفیع، رنج و غم کو دور فرمانے والے اور تاریکیوں کو چھانٹنے والے ہیں، اور آپ کی آل و اصحاب پر خوب بکثرت اور ہمیشہ قائم رہنے والا سلام نازل فرما قیامت کے دن تک۔",
+    romanUrdu: "Allahumma salli ala sayyidina Muhammadin nabiyy-ir-rahmati, wa shafee-il-ummati, wa kaashif-il-ghummati, wa mujli-dh-dhulmati, wa ala aalihi wa as-habihi wa sallim tasleeman kaseeran daa-iman ila yawm-id-deen.",
+    englishTranslation: "O Allah! Bestow peace and blessings upon our Master Muhammad ﷺ, the Prophet of Mercy, the Intercessor of the Nation, the Dispeller of sorrow, and the Banisher of darkness; and upon his family and companions, granting them abundant, enduring peace until the Day of Judgment.",
+    fazilat: {
+        ur: "درودِ اکبر بزرگانِ دین کا نہایت پرتاثیر اور جامع وظیفہ ہے۔ دل کی صفائی، قربِ رسالت مآب ﷺ اور روحانی درجات کی بلندی کے لیے روزانہ پڑھنا اکابرین کا معمول رہا ہے۔",
+        ro: "Durood-e-Akbar roohani safai, qurb-e-risalat aur dilon ki bay-qarari door karne ke liye nihayat moasir wird hai.",
+        en: "Durood-e-Akbar is a majestic, comprehensive prayer historically recited by spiritual luminaries to attain spiritual elevation, heart purification, and deep connection with the Prophetic presence."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "مجموعہ اوراد و وظائفِ کبرا",
+        ro: "Majmooa Awrad o Wazaif-e-Kubra",
+        en: "Classical Compendiums of Grand Salawat"
+    },
+    recommendedCount: 11,
+    seoKeywords: [
+        "Durood Akbar in English",
+        "Durood Akbar Roman Urdu",
+        "درود اکبر شریف عربی متن و اردو ترجمہ",
+        "Durood e Akbar benefits and fazilat"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "درودِ اکبر کا یومیہ پڑھنے کا کیا طریقہ ہے؟",
+                ro: "Durood-e-Akbar parhne ka rozana tareeqa kya hai?",
+                en: "What is the daily recitation guideline for Durood-e-Akbar?"
+            },
+            answer: {
+                ur: "صبح یا بعد نمازِ عشاء باوضو 3 یا 11 مرتبہ پڑھنا نہایت مبارک ہے۔",
+                ro: "Subah ya Isha ke baad ba-wuzu 3 ya 11 martaba wird karein.",
+                en: "It is recommended to recite it 3 or 11 times in a state of ablution after Fajr or Isha prayers."
+            }
+        }
+    ],
+    pdfFilename: "Durood-Akbar-PDF.pdf"
+},
+  {
+    id: "12",
+    slug: "durood-e-muqaddas",
+    title: {
+        ur: "درودِ مقدس شریف",
+        ro: "Durood-e-Muqaddas",
+        en: "Durood-e-Muqaddas (The Sacred Benediction)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ صَلَاةً تُنَجِّينَا بِهَا مِنْ جَمِيعِ الأَهْوَالِ وَالآفَاتِ، وَتَقْضِي لَنَا بِهَا جَمِيعَ الحَاجَاتِ.",
+    urduTranslation: "اے اللہ! رحمت نازل فرما ہمارے سردار اور آقا حضرت محمد ﷺ پر اور ان کی آل پر ایسا درود جس کی برکت سے تو ہمیں تمام خوف اور آفات سے نجات عطا فرما دے اور ہماری تمام حاجات کو پورا فرما دے۔",
+    romanUrdu: "Allahumma salli ala sayyidina wa mawlana Muhammadin wa ala aali sayyidina wa mawlana Muhammadin salatan tunajjina biha min jamee-il-ahwali wal-aafat, wa taqdi lana biha jamee-al-hajat.",
+    englishTranslation: "O Allah! Send Your divine peace and blessings upon our Leader and Master Muhammad ﷺ, and upon his family, a benediction by which You deliver us from all terrors and calamities, and fulfill for us all righteous needs.",
+    fazilat: {
+        ur: "درودِ مقدس کا ورد ناگہانی پریشانیوں، مصائب اور دشمن کے شر سے حفاظت کے لیے آزمودہ ہے۔ جمعرات اور جمعہ کی شب اس کا ورد دل کو سکون عطا کرتا ہے۔",
+        ro: "Durood-e-Muqaddas preshaniyon aur aafat se hifazat ke liye nihayat afzal wird hai.",
+        en: "Durood-e-Muqaddas is renowned for bestowing divine sanctuary from unexpected hardships, anxiety, and adversities."
+    },
+    category: "Mushkilat",
+    reference: {
+        ur: "کتبِ دعوات و تسخیرات",
+        ro: "Kutub-e-Da’wat",
+        en: "Traditional Classical Supplications"
+    },
+    recommendedCount: 7,
+    seoKeywords: [
+        "Durood Muqaddas lyrics Urdu English",
+        "درود مقدس مکمل متن",
+        "Durood e Muqaddas Roman Urdu",
+        "Durood Muqaddas ki fazilat"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "کیا درودِ مقدس ہر قسم کی حاجت کے لیے پڑھا جا سکتا ہے؟",
+                ro: "Kya Durood Muqaddas har hajat ke liye parh saktay hain?",
+                en: "Can Durood-e-Muqaddas be recited for lawful personal needs?"
+            },
+            answer: {
+                ur: "جی ہاں، نیک اور جائز حاجات کے حصول اور آفات سے نجات کے لیے 7 یا 41 مرتبہ ورد مجرب ہے۔",
+                ro: "Jee haan, 7 ya 41 martaba rozana parhna behad ba-barkat hai.",
+                en: "Yes, reciting it 7 or 41 times with sincere intention is recommended for ease in all lawful pursuits."
+            }
+        }
+    ],
+    pdfFilename: "Durood-e-Muqaddas.pdf"
+},
+  {
+    id: "13",
+    slug: "durood-e-hazari",
+    title: {
+        ur: "درودِ ہزاری شریف",
+        ro: "Durood-e-Hazari",
+        en: "Durood-e-Hazari (Salawat al-Alfiyyah)"
+    },
+    arabicText: "الصَّلَاةُ وَالسَّلَامُ عَلَيْكَ يَا رَسُولَ اللهِ، الصَّلَاةُ وَالسَّلَامُ عَلَيْكَ يَا حَبِيبَ اللهِ، الصَّلَاةُ وَالسَّلَامُ عَلَيْكَ يَا رَحْمَةً لِلْعَالَمِينَ.",
+    urduTranslation: "درود اور سلام ہو آپ پر اے اللہ کے رسول! درود اور سلام ہو آپ پر اے اللہ کے محبوب! درود اور سلام ہو آپ پر اے تمام جہانوں کے لیے رحمت بنا کر بھیجے گئے نبی ﷺ!",
+    romanUrdu: "As-salatu was-salamu alayka ya Rasool Allah, As-salatu was-salamu alayka ya Habib Allah, As-salatu was-salamu alayka ya Rahmatan lil-Alameen.",
+    englishTranslation: "Blessings and peace be upon you, O Messenger of Allah! Blessings and peace be upon you, O Beloved of Allah! Blessings and peace be upon you, O Mercy to all the worlds!",
+    fazilat: {
+        ur: "درودِ ہزاری حضور نبی کریم ﷺ کی بارگاہِ اقدس میں کثرتِ سلام کا وہ مبارک صیغہ ہے جس کے پڑھنے والے کو ہزار درود پڑھنے کا ثواب حاصل ہوتا ہے۔ بارگاہِ رسالت کی حاضری کا شوق پیدا کرتا ہے۔",
+        ro: "Durood-e-Hazari kaseer fazeelat aur bargah-e-risalat mein qurbat hasil karne ka behtareen zariya hai.",
+        en: "Durood-e-Hazari holds the virtue of abundant salutations, imparting the spiritual reward of thousands of greetings and nurturing deep devotion in the believer’s heart."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "زادِ سعید و مجموعہ صلوات",
+        ro: "Zaad-e-Saeed",
+        en: "Classical Prophetic Salutations Compilation"
+    },
+    recommendedCount: 100,
+    seoKeywords: [
+        "Durood Hazari in English",
+        "درود ہزاری شریف عربی اردو",
+        "Durood Hazari Roman Urdu",
+        "Assalatu wassalamu alayka ya Rasool Allah lyrics"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "درودِ ہزاری کے پڑھنے کا بہترین وقت کونسا ہے؟",
+                ro: "Durood Hazari parhne ka behtareen waqt kaun sa hai?",
+                en: "When is the best time to recite Durood-e-Hazari?"
+            },
+            answer: {
+                ur: "نمازِ فجر اور نمازِ مغرب کے بعد 100 مرتبہ تسبیح کرنا روحانی فیض کا باعث ہے۔",
+                ro: "Fajr aur Maghrib ke baad 100 martaba parhna behtareen hai.",
+                en: "Reciting it 100 times after Fajr and Maghrib prayers is profoundly rewarding."
+            }
+        }
+    ],
+    pdfFilename: "durood-e-hazari-pdf.pdf"
+},
+  {
+    id: "14",
+    slug: "durood-ghousia",
+    title: {
+        ur: "درودِ غوثیہ شریف",
+        ro: "Durood-e-Ghausia",
+        en: "Durood-e-Ghausia (Salawat of Ghous al-Azam)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ مَعْدِنِ الْجُودِ وَالْكَرَمِ، وَآلِهِ وَبَارِكْ وَسَلِّمْ.",
+    urduTranslation: "اے اللہ! رحمت و درود نازل فرما ہمارے آقا حضرت محمد ﷺ پر جو سخاوت اور کرم کا سرچشمہ ہیں، اور آپ کی آل پر، اور برکت و سلامتی عطا فرما۔",
+    romanUrdu: "Allahumma salli ala sayyidina Muhammadin ma’din-il-joodi wal-karami, wa aalihi wa baarik wa sallim.",
+    englishTranslation: "O Allah! Bestow peace, blessings, and grace upon our Master Muhammad ﷺ, the very fountainhead of boundless generosity and noble grace, and upon his family.",
+    fazilat: {
+        ur: "حضور غوث الاعظم شیخ عبدالقادر جیلانیؒ کا پسندیدہ درودِ پاک ہے۔ وسعتِ رزق، باطنی کشائش اور روحانی فیوض و برکات کے حصول کے لیے اکسیر ہے۔",
+        ro: "Hazrat Ghaus-e-Azam (R.A) ka pasandeeda durood sharif hai jo wusat-e-rizq aur roohani taraqqi ke liye nihayat moasir hai.",
+        en: "Beloved litany of Sultan al-Awliya Shaykh Abdul Qadir Jilani (R.A), esteemed for opening the gates of sustenance and bestowing immense spiritual serenity."
+    },
+    category: "Rizq",
+    reference: {
+        ur: "غنیۃ الطالبین و فتوح الغیب",
+        ro: "Ghunyat al-Talibeen",
+        en: "Ghunyat al-Talibeen & Futuh al-Ghayb"
+    },
+    recommendedCount: 111,
+    seoKeywords: [
+        "Durood Ghausia in English",
+        "درود غوثیہ شریف مع ترجمہ",
+        "Durood e Ghausia Roman Urdu",
+        "Sheikh Abdul Qadir Jilani Durood Sharif"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "درودِ غوثیہ کو روزانہ کتنی بار پڑھنا چاہیے؟",
+                ro: "Durood Ghausia rozana kitni bar parhna chahiye?",
+                en: "How many times daily should Durood-e-Ghausia be recited?"
+            },
+            answer: {
+                ur: "روزانہ بعد نمازِ عشاء یا صبح 11 یا 111 بار پڑھنا برکت و کشادگی کا باعث ہے۔",
+                ro: "Rozana Isha ke baad 11 ya 111 martaba parhein.",
+                en: "Reciting it 11 or 111 times after Isha brings profound blessings and financial ease."
+            }
+        }
+    ],
+    pdfFilename: "darood-ghousia-pdf.pdf"
+},
+  {
+    id: "15",
+    slug: "durood-awaisia",
+    title: {
+        ur: "درودِ اویسیہ شریف",
+        ro: "Durood-e-Awaisia",
+        en: "Durood-e-Awaisia (Salawat of Uwais al-Qarani)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ كَمَا تُحِبُّ وَتَرْضَى لَهُ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ كَمَا أَمَرْتَنَا أَنْ نُصَلِّيَ عَلَيْهِ.",
+    urduTranslation: "اے اللہ! ہمارے آقا حضرت محمد ﷺ پر ایسا درود نازل فرما جیسا کہ تو ان کے لیے پسند فرماتا ہے اور راضی ہوتا ہے، اور ہمارے آقا حضرت محمد ﷺ پر ایسا درود بھیج جیسا تو نے ہمیں ان پر درود بھیجنے کا حکم دیا ہے۔",
+    romanUrdu: "Allahumma salli ala sayyidina Muhammadin kama tuhibbu wa tarda lahu, wa salli ala sayyidina Muhammadin kama amartana an nusalliya alayh.",
+    englishTranslation: "O Allah! Bestow peace upon our Master Muhammad ﷺ in the measure that You love and are pleased with for him; and bestow peace upon our Master Muhammad ﷺ as You have commanded us to pray for him.",
+    fazilat: {
+        ur: "حضرت اویس قرنیؒ کی نسبت سے منسوب یہ درودِ پاک رضائے الٰہی کے حصول اور حبِ رسول ﷺ کو دل میں پختہ کرنے کے لیے بے نظیر ہے۔",
+        ro: "Hazrat Uwais Qarni (R.A) ki nisbat se mashhoor yeh durood-e-pak dilon mein Ishq-e-Rasool ﷺ jagata hai.",
+        en: "Attributed to the spiritual lineage of Hazrat Uwais al-Qarani (R.A), this supplication kindles divine pleasure and deep prophetic love in the heart."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "کشف المحجوب و تذکرۃ الاولیاء",
+        ro: "Kashf al-Mahjoob",
+        en: "Classical Sufi Traditions & Biographies"
+    },
+    recommendedCount: 33,
+    seoKeywords: [
+        "Durood Awaisia English",
+        "درود اویسیہ عربی ترجمہ",
+        "Durood e Awaisia Roman Urdu",
+        "Uwais Qarni Durood"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "درودِ اویسیہ کی خاص برکت کیا ہے؟",
+                ro: "Durood Awaisia ki khas barkat kya hai?",
+                en: "What is the primary spiritual blessing of Durood-e-Awaisia?"
+            },
+            answer: {
+                ur: "اس کا متواتر ورد انسان کو اخلاص، عاجزی اور روحانی تسکین عطا فرماتا ہے۔",
+                ro: "Iska wird dil mein ikhlaas aur aajzi paida karta hai.",
+                en: "Consistent recitation purifies inward sincerity, humility, and peace of mind."
+            }
+        }
+    ],
+    pdfFilename: "durood-awaisia.pdf"
+},
+  {
+    id: "16",
+    slug: "salatul-mashishiyya",
+    title: {
+        ur: "صلاۃ المشیشیہ شریف",
+        ro: "Salat al-Mashishiyya",
+        en: "Salat al-Mashishiyya (Imam Ibn Mashish)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ عَلَى مَنْ مِنْهُ انْشَقَّتِ الأَسْرَارُ، وَانْفَلَقَتِ الأَنْوَارُ، وَفِيهِ ارْتَقَتِ الحَقَائِقُ، وَتَنَزَّلَتْ عُلُومُ آدَمَ فَأَعْجَزَ الخَلَائِقَ.",
+    urduTranslation: "اے اللہ! رحمت نازل فرما اس مبارک ذات پر جن سے معرفت کے اسرار پھوٹے، جن سے ہدایت کے انوار چمکے، جن میں حقائق نے معراج پائی، اور جن پر علومِ آدم نازل ہوئے اور تمام مخلوق ان کی معرفت کے آگے عاجز آ گئی۔",
+    romanUrdu: "Allahumma salli ala man minhun-shaqqat-il-asraar, wan-falaqat-il-anwaar, wa feehir-taqat-il-haqaa-iq, wa tanazzalat uloom-u-Aadama fa-a’jazal-khalaaiq.",
+    englishTranslation: "O Allah! Bestow peace upon him from whom divine secrets split forth, and spiritual lights burst radiant, in whom supreme realities ascended, and Adam’s knowledge descended, leaving all creation in awe.",
+    fazilat: {
+        ur: "سیدی عبد السلام بن مشیشؒ کی یہ صلاۃ تصوف و معرفت کا سب سے عظیم منشور ہے۔ دل کی تاریکیوں کو جلا بخشنے اور معرفتِ ذاتِ نبوی ﷺ کے فہم کے لیے پڑھی جاتی ہے۔",
+        ro: "Imam Abdus Salam Ibn Mashish (R.A) ki azeem salawat jo roohani baseerat aur noor-e-irfan ata karti hai.",
+        en: "The immortal prayer of Imam Abd al-Salam Ibn Mashish (R.A), universally regarded as a pinnacle of metaphysical praise and inward illumination."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "کتبِ شاذلیہ و مشائخِ طریقت",
+        ro: "Shadhili Awrad & Liturgies",
+        en: "Shadhili Spiritual Liturgies & Commentaries"
+    },
+    recommendedCount: 3,
+    seoKeywords: [
+        "Salat al Mashishiyya in English",
+        "صلاۃ المشیشیہ اردو ترجمہ",
+        "Salat al Mashishiyya Roman Urdu",
+        "Ibn Mashish prayer lyrics"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "صلاۃ المشیشیہ کب پڑھنی چاہیے؟",
+                ro: "Salat al Mashishiyya kab parhni chahiye?",
+                en: "When is Salat al-Mashishiyya traditionally recited?"
+            },
+            answer: {
+                ur: "صبح بعد نمازِ فجر یا جمعہ کے دن اس کا مطالعہ اور ورد اہل اللہ کا محبوب معمول ہے۔",
+                ro: "Subah Fajr ke baad ya Jumma ke din parhna behtareen hai.",
+                en: "Traditionally recited once after the dawn prayer or on Fridays with contemplative presence."
+            }
+        }
+    ],
+    pdfFilename: "salatul-mashishiyya.pdf"
+},
+  {
+    id: "17",
+    slug: "salat-al-yaqutiyya",
+    title: {
+        ur: "صلاۃ الیاقوتیہ شریف",
+        ro: "Salat al-Yaqutiyya",
+        en: "Salat al-Yaqutiyya (The Ruby Benediction)"
+    },
+    arabicText: "إِنَّ اللهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا. اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى مَنْ جَعَلْتَهُ سَبَبًا لِانْشِقَاقِ أَسْرَارِكَ الجَبَرُوتِيَّةِ.",
+    urduTranslation: "بے شک اللہ اور اس کے فرشتے درود بھیجتے ہیں اس نبیِ مکرم ﷺ پر، اے ایمان والو! تم بھی ان پر خوب درود و سلام بھیجو۔ اے اللہ! درود و سلام نازل فرما اس ہستی پر جنہیں تو نے اپنے اسرارِ جبروتیہ کے ظہور کا سبب بنایا۔",
+    romanUrdu: "Innallaha wa malaa-ikatahu yusalloona alan-nabi, ya ayyuhallazeena aamanu sallu alayhi wa sallimu tasleema. Allahumma salli wa sallim ala man ja’altahu sababan lin-shiqaqi asraarikal-jabarootiyyah.",
+    englishTranslation: "Indeed, Allah and His angels confer blessings upon the Prophet. O you who believe, pray for blessings upon him and salute him with peace! O Allah, bestow peace and blessings upon him whom You made the cause for the manifestation of Your celestial secrets.",
+    fazilat: {
+        ur: "امام محمد الفاسیؒ کا تصنیف کردہ یہ درود \"یاقوت\" یعنی سرخ قیمتی موتی کہلاتا ہے۔ اس کے روزانہ ورد سے گناہ مٹتے ہیں، فکر و غم دور ہوتا ہے اور دیدارِ نبی ﷺ کی سعادت نصیب ہوتی ہے۔",
+        ro: "Salat al-Yaqutiyya qeemti yaqoot ki tarah dilon ko noor bakhshnay wala azeem durood hai.",
+        en: "Composed by Imam Muhammad al-Fasi (R.A), likened to a precious ruby, this litany is celebrated for easing anxiety and illuminating the inner eye with prophetic light."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "مجمع اللطائف العرشیہ",
+        ro: "Majma al-Lataif al-Arshiyya",
+        en: "Treasury of Heavenly Liturgies"
+    },
+    recommendedCount: 3,
+    seoKeywords: [
+        "Salat al Yaqutiyya English translation",
+        "صلاۃ الیاقوتیہ عربی اردو",
+        "Salat al Yaqutiyya Roman Urdu",
+        "Ruby Salawat benefits"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "اس درود کو یاقوتیہ کیوں کہا جاتا ہے؟",
+                ro: "Is durood ko Yaqutiyya kyun kehtay hain?",
+                en: "Why is this prayer named al-Yaqutiyya (The Ruby)?"
+            },
+            answer: {
+                ur: "یاقوت انتہائی قیمتی اور چمکدار پتھر ہوتا ہے، اسی طرح یہ درود معرفت اور ثواب کے اعتبار سے روحانی جواہر کی مانند ہے۔",
+                ro: "Yaqoot qeemti heera hai, aur yeh durood roohani aitebar se nihayat qeemti hai.",
+                en: "Just as a ruby is exceedingly rare and radiant, this prayer is spiritually esteemed as a crown jewel among devotional salutations."
+            }
+        }
+    ],
+    pdfFilename: "salat-al-yaqutiyya.pdf"
+},
+  {
+    id: "18",
+    slug: "salat-al-badriyya",
+    title: {
+        ur: "صلاۃ البدریہ شریف",
+        ro: "Salat al-Badriyya",
+        en: "Salat al-Badriyya (Benediction of the Badr Champions)"
+    },
+    arabicText: "صَلَاةُ اللهِ سَلَامُ اللهِ عَلَى طٰهَ رَسُولِ اللهِ، صَلَاةُ اللهِ سَلَامُ اللهِ عَلَى يٰسٓ حَبِيبِ اللهِ، تَوَسَّلْنَا بِبِسْمِ اللهِ، وَبِالْهَادِي رَسُولِ اللهِ، وَكُلِّ مُجَاهِدٍ لِلَّهِ بِأَهْلِ الْبَدْرِ يَا أَللهُ.",
+    urduTranslation: "اللہ کی رحمت اور سلام ہو طٰہٰ رسول اللہ ﷺ پر! اللہ کی رحمت اور سلام ہو یٰسٓ حبیب اللہ ﷺ پر! ہم نے اللہ کے نام اور ہادی رسول اللہ ﷺ کے وسیلے سے دعا مانگی، اور ہر اس مجاہد کے وسیلے سے جو اللہ کی راہ میں نکلا، اور اہلِ بدر کے وسیلے سے اے اللہ!",
+    romanUrdu: "Salatullah salamullah ala Taha Rasoolillah, Salatullah salamullah ala Yaseen Habibillah. Tawassalna bi-Bismillah, wa bil-Haadi Rasoolillah, wa kulli mujaahidin lillah bi-Ahlil-Badri ya Allah.",
+    englishTranslation: "Allah’s blessings and peace be upon Taha, the Messenger of Allah! Allah’s blessings and peace be upon Yasin, the Beloved of Allah! We seek intercession through the Name of Allah, and through the Guide, the Messenger of Allah, and through every servant striving for Allah, and through the noble Companions of Badr, O Allah!",
+    fazilat: {
+        ur: "صلاۃ البدریہ عالمِ اسلام میں مصائب، جنگوں، وباؤں اور شدید مشکلات کے خاتمے کے لیے پڑھی جانے والی تاریخ ساز دعا ہے۔ شہدائے و مجاہدینِ بدر کے طفیل دعائیں فوری مستجاب ہوتی ہیں۔",
+        ro: "Salat al-Badriyya mushkilat, aafat aur beemariyon se nijat ke liye nihayat ba-asar dua hai.",
+        en: "Salat al-Badriyya is historic across the Muslim world for seeking divine protection and relief from afflictions through the noble remembrance of the Companions of Badr."
+    },
+    category: "Mushkilat",
+    reference: {
+        ur: "دیوانِ صلوات و دعواتِ بدر",
+        ro: "Diwan-e-Badriyyah",
+        en: "Litany of Badr Intercessions"
+    },
+    recommendedCount: 7,
+    seoKeywords: [
+        "Salat al Badriyya lyrics English Urdu",
+        "صلاۃ البدریہ مکمل متن",
+        "Salatullah salamullah ala Taha Rasoolillah lyrics",
+        "Ahl al Badr dua Roman Urdu"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "صلاۃ البدریہ کس پریشانی میں پڑھنی چاہیے؟",
+                ro: "Salat al-Badriyya kis preshani mein parhni chahiye?",
+                en: "For what difficulties is Salat al-Badriyya recommended?"
+            },
+            answer: {
+                ur: "کسی بھی سخت ناگہانی آفت، خوف، قرض یا بیماری کے وقت اجتماعی یا انفرادی طور پر پڑھنا بے حد مفید ہے۔",
+                ro: "Sakht preshani aur aafat ke waqt 7 martaba parhna nihayat mufeed hai.",
+                en: "It is especially efficacious during severe hardships, illness, fear, or overwhelming challenges."
+            }
+        }
+    ],
+    pdfFilename: "Salat-al-Badriyya.pdf"
+},
+  {
+    id: "19",
+    slug: "salat-al-kubra",
+    title: {
+        ur: "صلاۃ الکبریٰ (غوث الاعظمؒ)",
+        ro: "Salat al-Kubra (Jilani)",
+        en: "Salat al-Kubra (The Great Litany of Ghaus al-Azam)"
+    },
+    arabicText: "اللَّهُمَّ اجْعَلْ أَفْضَلَ صَلَوَاتِكَ أَبَدًا، وَأَنْمَى بَرَكَاتِكَ سَرْمَدًا، عَلَى أَشْرَفِ الْخَلَائِقِ الإِنْسَانِيَّةِ، مَجْمَعِ الحَقَائِقِ الإِيمَانِيَّةِ، طَوْرِ التَّجَلِّيَاتِ الإِحْسَانِيَّةِ، سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ.",
+    urduTranslation: "اے اللہ! نازل فرما اپنی افضل ترین صلوات ہمیشہ کے لیے، اور اپنی افزوں تر برکات ابد تک، اشرف الخلائق، ایمانی حقائق کے مرکز، احسانی تجلیات کے مظہر، ہمارے سردار و مولیٰ حضرت محمد ﷺ پر۔",
+    romanUrdu: "Allahummaj-al afdala salawatika abada, wa anma barakatika sarmada, ala ashrafil-khalaiq-il-insaniyyah, majma-il-haqaiq-il-eemaniyyah, tawr-it-tajalliyat-il-ihsaniyyah, sayyidina wa mawlana Muhammadin.",
+    englishTranslation: "O Allah! Bestow Your most exalted blessings forever, and Your most abundant graces perpetually, upon the noblest of human creation, the confluence of spiritual truths, the focal mount of divine manifestations, our Master and Guide Muhammad ﷺ.",
+    fazilat: {
+        ur: "حضور سیدنا غوث الاعظم شیخ عبدالقادر جیلانیؒ کی عظیم ترین صلاۃ ہے جس کا معمول انسان کو دنیاوی و اخروی امان اور بلند مراتب عطا کرتا ہے۔",
+        ro: "Hazrat Sheikh Abdul Qadir Jilani (R.A) ki azeem tareen salawat jo roohani maqamat buland karti hai.",
+        en: "The grandest litany formulated by Sultan al-Awliya Shaykh Abdul Qadir Jilani (R.A), celebrated for securing both worldly and spiritual well-being."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "الفیوضات الربانیۃ فی المآثر القادریۃ",
+        ro: "Al-Fuyudat al-Rabbaniyyah",
+        en: "Al-Fuyudat al-Rabbaniyyah fi al-Ma’athir al-Qadiriyyah"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Salat al Kubra Jilani English",
+        "صلاۃ الکبری غوث اعظم اردو",
+        "Salat al Kubra Roman Urdu",
+        "Ghaus e Azam big durood"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "صلاۃ الکبریٰ پڑھنے کی کیا شرائط ہیں؟",
+                ro: "Salat al-Kubra parhne ki kya sharait hain?",
+                en: "What are the recommended conditions for reciting Salat al-Kubra?"
+            },
+            answer: {
+                ur: "باوضو، باادب اور دلی توجہ کے ساتھ دن میں ایک مرتبہ پڑھنا کافی ہے۔",
+                ro: "Ba-wuzu aur adab ke sath din mein aik martaba parhein.",
+                en: "It is best recited once daily with complete physical cleanliness, ablution, and focused presence of heart."
+            }
+        }
+    ],
+    pdfFilename: "Salat-al-Kubra-Salawat.com_.pdf"
+},
+  {
+    id: "20",
+    slug: "salat-al-nur-al-dhati",
+    title: {
+        ur: "صلاۃ النور الذاتی (الشاذلیؒ)",
+        ro: "Salat al-Nur al-Dhati",
+        en: "Salat al-Nur al-Dhati (The Primordial Essence Light)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ النُّورِ الذَّاتِيِّ، وَالسِّرِّ السَّارِي فِي سَائِرِ الأَسْمَاءِ وَالصِّفَاتِ، وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمْ.",
+    urduTranslation: "اے اللہ! درود و سلام اور برکت نازل فرما ہمارے آقا حضرت محمد ﷺ پر جو نورِ ذاتی ہیں، اور وہ مخفی راز ہیں جو تمام اسماء و صفات میں جاری و ساری ہے، اور آپ کی آل و اصحاب پر بھی سلامتی ہو۔",
+    romanUrdu: "Allahumma salli wa sallim wa baarik ala sayyidina Muhammadin-in-noor-idh-dhaati, was-sirris-saari fee saa-iril-asmaa-i was-sifaat, wa ala aalihi wa sahbihi wa sallim.",
+    englishTranslation: "O Allah! Bestow peace, blessings, and grace upon our Master Muhammad ﷺ, the Primordial Essence of Light, the pervasive Secret flowing through all divine Names and Attributes, and upon his family and companions.",
+    fazilat: {
+        ur: "امام ابو الحسن الشاذلیؒ کا یہ درود قلب کے زنگ کو دور کرنے، روحانی انوار کو جذب کرنے اور بلاؤں کو ٹالنے کے لیے مشہور ہے۔ روزانہ 100 مرتبہ پڑھنا کشائش پیدا کرتا ہے۔",
+        ro: "Imam Shadhili (R.A) ka mashhoor durood jo dil ki bay-qarari aur andheray door karta hai.",
+        en: "Formulated by Imam Abu al-Hasan al-Shadhili (R.A), this concise litany is deeply cherished for illuminating the intellect, dispelling inner depression, and drawing divine mercy."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "افضل الصلوات علی سید السادات (امام نبہانیؒ)",
+        ro: "Afdal al-Salawat (Imam Nabhani)",
+        en: "Afdal al-Salawat of Imam Yusuf al-Nabhani"
+    },
+    recommendedCount: 100,
+    seoKeywords: [
+        "Salat al Nur al Dhati in English",
+        "صلاۃ النور الذاتی ترجمہ و فضائل",
+        "Salat al Nur al Dhati Roman Urdu",
+        "Imam Shadhili Durood Noor e Zati"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "اس درود کی خاص تعداد کیا ہے؟",
+                ro: "Is durood ki khas tadaad kya hai?",
+                en: "What is the recommended count for Salat al-Nur al-Dhati?"
+            },
+            answer: {
+                ur: "اکابرین اسے روزانہ 41 یا 100 بار معمول بنانے کا مشورہ دیتے ہیں۔",
+                ro: "Rozana 41 ya 100 martaba parhna nihayat mufeed hai.",
+                en: "Traditional scholars recommend reciting it 41 or 100 times daily for inward clarity and ease."
+            }
+        }
+    ],
+    pdfFilename: "Salat-al-Nur-al-Dhati-Salawat.com_.pdf"
+},
+  {
+    id: "21",
+    slug: "salat-imam-nawawi",
+    title: {
+        ur: "صلاۃ الامام النوویؒ",
+        ro: "Salat of Imam al-Nawawi",
+        en: "Salat of Imam al-Nawawi (The Scholar’s Litany)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ عَبْدِكَ وَرَسُولِكَ النَّبِيِّ الأُمِّيِّ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ، صَلَاةً تَكُونُ لَكَ رِضَاءً، وَلِحَقِّهِ أَدَاءً.",
+    urduTranslation: "اے اللہ! رحمت نازل فرما ہمارے سردار حضرت محمد ﷺ پر جو تیرے بندے اور تیرے رسول اور نبیِ امی ہیں، اور آلِ محمد ﷺ پر، ایسا درود جو تیری خوشنودی کا سبب بنے اور ان کے حق کی ادائیگی کا ذریعہ ہو۔",
+    romanUrdu: "Allahumma salli ala sayyidina Muhammadin abdika wa rasoolikan-nabiyy-il-ummiyy, wa ala aali sayyidina Muhammad, salatan takoonu laka ridaa, wa li-haqqihi adaa.",
+    englishTranslation: "O Allah! Bestow blessings upon our Master Muhammad ﷺ, Your servant, Your Messenger, the Unlettered Prophet, and upon the family of Muhammad ﷺ, a benediction that earns Your complete pleasure and fulfills his rightful honor.",
+    fazilat: {
+        ur: "شارحِ مسلم امام محی الدین یحییٰ بن شرف النوویؒ کا پسندیدہ درودِ پاک۔ علم میں برکت، فہمِ دین اور سنتِ نبوی پر استقامت کے لیے طلبہ اور اہل علم کا معمول رہا ہے۔",
+        ro: "Imam Nawawi (R.A) ka pasandeeda durood jo ilm aur deen ki samajh mein barkat ata karta hai.",
+        en: "Authored and loved by the illustrious jurist Imam Yahya ibn Sharaf al-Nawawi (R.A), recited by seekers of sacred knowledge to achieve clarity and firm grounding upon the Sunnah."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "الاذکار للنووی",
+        ro: "Al-Adhkar by Imam Nawawi",
+        en: "Al-Adhkar by Imam al-Nawawi"
+    },
+    recommendedCount: 33,
+    seoKeywords: [
+        "Imam Nawawi Salawat English",
+        "صلاۃ الامام النووی اردو",
+        "Imam Nawawi Durood Roman Urdu",
+        "Salawat for students and knowledge"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "علمی ترقی کے لیے یہ درود کیسا ہے؟",
+                ro: "Ilmi taraqqi ke liye yeh durood kaisa hai?",
+                en: "How does this prayer aid in academic and religious study?"
+            },
+            answer: {
+                ur: "مطالعہ سے قبل 7 یا 11 بار پڑھنے سے ذہن کھلتا ہے اور حافظہ مضبوط ہوتا ہے۔",
+                ro: "Parhai se pehle 7 ya 11 bar parhna zehan tez karta hai.",
+                en: "Reciting it 7 or 11 times before study invites divine facilitation and mental retention."
+            }
+        }
+    ],
+    pdfFilename: "Salat-al-Imam-al-Nawawi-Salawat.com_.pdf"
+},
+  {
+    id: "22",
+    slug: "salat-al-azimiyya",
+    title: {
+        ur: "صلاۃ العظیمیہ (احمد بن ادریسؒ)",
+        ro: "Salat al-Azimiyya",
+        en: "Salat al-Azimiyya (The Majestic Benediction)"
+    },
+    arabicText: "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِنُورِ وَجْهِ اللهِ الْعَظِيمِ، الَّذِي مَلأَ أَرْكَانَ عَرْشِ اللهِ الْعَظِيمِ، أَنْ تُصَلِّيَ عَلَى مَوْلَانَا مُحَمَّدٍ ذِي الْقَدْرِ الْعَظِيمِ، وَعَلَى آلِ نَبِيِّ اللهِ الْعَظِيمِ.",
+    urduTranslation: "اے اللہ! میں تجھ سے سوال کرتا ہوں اللہ عظیم کے چہرے کے اس نور کے وسیلے سے جس نے عرشِ عظیم کے تمام ارکان کو بھر دیا ہے، کہ تو رحمت نازل فرما ہمارے آقا حضرت محمد ﷺ پر جو عظیم قدر و منزلت والے ہیں، اور نبی اللہ العظیم کی آل پر۔",
+    romanUrdu: "Allahumma inni as-aluka bi-noori wajh-illahil-azeem, allazi mala-a arkaana arsh-illahil-azeem, an tusalliya ala mawlana Muhammadin zil-qadril-azeem, wa ala aali nabiyy-illahil-azeem.",
+    englishTranslation: "O Allah! I ask You by the Light of the Countenance of Allah the Magnificent, which fills the pillars of the Throne of Allah the Magnificent, to confer blessings upon our Master Muhammad of magnificent stature, and upon the family of the Prophet of Allah the Magnificent.",
+    fazilat: {
+        ur: "قطبِ زماں سیدی احمد بن ادریسؒ کا یہ عظیم درود بے پناہ برکات کا حامل ہے۔ اسے ایک بار پڑھنے کا ثواب دلائل الخیرات شریف کو کئی بار ختم کرنے کے برابر مانا گیا ہے۔",
+        ro: "Sayyidi Ahmad Ibn Idris (R.A) ka shandar durood jo dilon ko taqwa aur noor ata karta hai.",
+        en: "Celebrated litany of Sayyidi Ahmad ibn Idris (R.A), praised for carrying extraordinary spiritual weight equivalent to multiple recitations of the major salawat compendiums."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "مجموعہ احزاب و اورادِ ادریسیہ",
+        ro: "Awrad-e-Idrisiyyah",
+        en: "Litanies of Imam Ahmad ibn Idris"
+    },
+    recommendedCount: 3,
+    seoKeywords: [
+        "Salat al Azimiyya in English",
+        "صلاۃ العظیمیہ اردو ترجمہ",
+        "Salat al Azimiyya Roman Urdu",
+        "Ahmad ibn Idris Durood Sharif"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "صلاۃ العظیمیہ روزانہ کتنی مرتبہ پڑھنی چاہیے؟",
+                ro: "Salat al-Azimiyya rozana kitni martaba parhein?",
+                en: "How many times should Salat al-Azimiyya be recited daily?"
+            },
+            answer: {
+                ur: "صبح و شام 3 مرتبہ یا بعد نمازِ جمعہ باوضو پڑھنا اعلیٰ روحانی برکات لاتا ہے۔",
+                ro: "Subah o shaam 3 martaba parhna behtareen hai.",
+                en: "Reciting it 3 times morning and evening yields immense tranquility and spiritual illumination."
+            }
+        }
+    ],
+    pdfFilename: "Azeemiyya.pdf"
+},
+  {
+    id: "23",
+    slug: "hizb-al-bahr",
+    title: {
+        ur: "حزب البحر شریف (امام ابو الحسن الشاذلیؒ)",
+        ro: "Hizb al-Bahr (Imam Shadhili)",
+        en: "Hizb al-Bahr (The Litany of the Sea)"
+    },
+    arabicText: "يَا عَلِيُّ يَا عَظِيمُ يَا حَلِيمُ يَا عَلِيمُ، أَنْتَ رَبِّي وَعِلْمُكَ حَسْبِي، فَنِعْمَ الرَّبُّ رَبِّي، وَنِعْمَ الحَسْبُ حَسْبِي، تَنْصُرُ مَنْ تَشَاءُ وَأَنْتَ الْعَزِيزُ الرَّحِيمُ.",
+    urduTranslation: "اے بلند و برتر! اے عظمت والے! اے بردبار! اے سب کچھ جاننے والے! تو میرا رب ہے اور تیرا علم میرے لیے کافی ہے، پس کیا ہی اچھا رب میرا رب ہے اور کیا ہی اچھا کفایت کرنے والا میرا کفیل ہے! تو جس کی چاہے مدد فرماتا ہے اور تو ہی غالب اور نہایت رحم والا ہے۔",
+    romanUrdu: "Ya Aliyyu ya Azeemu ya Haleemu ya Aleem, Anta Rabbi wa ilmuka hasbi, fa-ni’mar-Rabbu Rabbi, wa ni’mal-hasbu hasbi, tansuru man tasha-u wa Antal-Azeez-ur-Raheem.",
+    englishTranslation: "O Exalted, O Magnificent, O Forbearing, O All-Knowing! You are my Lord and Your knowledge suffices me; excellent is the Lord my Lord, and excellent is the Sufficient One my sufficiency! You grant victory to whomsoever You will, and You are the All-Mighty, the Most Merciful.",
+    fazilat: {
+        ur: "امام شاذلیؒ کا حزب البحر دنیا بھر میں ہر قسم کے زمینی و سمندری خطرات، ظالم کے شر، سحر، جادو اور ناگہانی حادثات سے حفاظت کا سب سے موثر حصار ہے۔",
+        ro: "Hizb al-Bahr har qism ke khof, dushman aur aafat se hifazat ka azeem tareen hisaar hai.",
+        en: "Formulated by Imam Abu al-Hasan al-Shadhili (R.A), Hizb al-Bahr is globally celebrated as an impenetrable spiritual shield against perils, tyranny, and hidden harms."
+    },
+    category: "Hizb",
+    reference: {
+        ur: "الاحزاب الشاذلیۃ المبارکۃ",
+        ro: "Al-Ahzab al-Shadhiliyyah",
+        en: "The Authentic Shadhili Litanies"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Hizb al Bahr English translation",
+        "حزب البحر شریف اردو ترجمہ",
+        "Hizb al Bahr Roman Urdu lyrics",
+        "Imam Shadhili sea litany protection"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "حزب البحر پڑھنے کا صحیح وقت کیا ہے؟",
+                ro: "Hizb al-Bahr parhne ka sahih waqt kya hai?",
+                en: "When is the most auspicious time to recite Hizb al-Bahr?"
+            },
+            answer: {
+                ur: "عصر اور مغرب کے درمیانی وقت میں قبلہ رخ ہو کر پڑھنا اکابرین کا معمول ہے۔",
+                ro: "Asr aur Maghrib ke darmiyan ba-wuzu parhna behtareen hai.",
+                en: "It is traditionally recited once between the Asr and Maghrib prayers facing the Qiblah in complete ablution."
+            }
+        }
+    ],
+    pdfFilename: "HizbulBahr.pdf"
+},
+  {
+    id: "24",
+    slug: "hizb-al-nasr",
+    title: {
+        ur: "حزب النصر شریف (امام ابو الحسن الشاذلیؒ)",
+        ro: "Hizb al-Nasr (Imam Shadhili)",
+        en: "Hizb al-Nasr (The Litany of Divine Victory)"
+    },
+    arabicText: "اللَّهُمَّ بِسَطْوَةِ جَبَرُوتِ قَهْرِكَ، وَبِسُرْعَةِ إِغَاثَةِ نَصْرِكَ، وَبِغَيْرَتِكَ لِانْتِهَاكِ حُرُمَاتِكَ، نَسْأَلُكَ يَا سَمِيعُ يَا قَرِيبُ يَا مُجِيبُ أَنْ تَجْعَلَ كَيْدَ مَنْ كَادَنَا فِي نَحْرِهِ.",
+    urduTranslation: "اے اللہ! تیری جبروتی قوت کے غلبے کے واسطے، اور تیری تیز ترین نصرت و مدد کے واسطے، اور تیری غیرت کے واسطے، ہم تجھ سے سوال کرتے ہیں اے سب سننے والے، اے قریب، اے دعاؤں کے قبول فرمانے والے، کہ تو ہمارے خلاف سازش کرنے والے کی چال اسی کے گلے میں ڈال دے۔",
+    romanUrdu: "Allahumma bi-satwati jabarooti qahrik, wa bi-sur’ati ighaathati nasrik, wa bi-ghayratika lin-tihaaki hurumaatik, nas-aluka ya Samee-u ya Qareebu ya Mujeeb an taj’ala kayda man kaadana fee nahrih.",
+    englishTranslation: "O Allah! By the dominant might of Your irresistible subjugation, and by the swift dispatch of Your divine aid, and by Your protective jealousy when Your sanctities are transgressed, we ask You, O All-Hearing, O Ever-Near, O Answerer of prayers, to turn the plots of our plotters upon their own throats.",
+    fazilat: {
+        ur: "مظلوم کی داد رسی، ظالموں کے شر سے نجات اور دشمن کے مکر و فریب کو ناکام بنانے کے لیے حزب النصر شمشیرِ بے نیام کی مانند مانی جاتی ہے۔",
+        ro: "Zulm aur dushmani se hifazat ke liye Hizb al-Nasr nihayat taqatwar dua hai.",
+        en: "Renowned as the sword of the oppressed, Hizb al-Nasr is recited during times of severe hostility, oppression, or injustice for divine relief and moral vindication."
+    },
+    category: "Hizb",
+    reference: {
+        ur: "الدر المنظوم فی الاوراد",
+        ro: "Al-Durr al-Manzoom",
+        en: "Classical Shadhili Duas of Victory"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Hizb al Nasr in English",
+        "حزب النصر شریف اردو ترجمہ",
+        "Hizb al Nasr Roman Urdu",
+        "Imam Shadhili victory prayer"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "کیا حزب النصر کسی پر ناجائز بددعا کے لیے پڑھ سکتے ہیں؟",
+                ro: "Kya Hizb al-Nasr kisi par najaiz parh saktay hain?",
+                en: "Can Hizb al-Nasr ever be recited against anyone wrongfully?"
+            },
+            answer: {
+                ur: "ہرگز نہیں! یہ دعا صرف حق، عدل اور مظلومیت کے ازالے کے لیے ہے؛ ناحق پڑھنے سے انسان خود نقصان اٹھاتا ہے۔",
+                ro: "Hargiz nahi, yeh sirf haq aur adal ke liye hai.",
+                en: "Never. It is strictly reserved for lawful self-defense, truth, and relief from unprovoked injustice."
+            }
+        }
+    ],
+    pdfFilename: "Hizb-al-Nasr-Imam-Shadhili-Salawat.com_.pdf"
+},
+  {
+    id: "25",
+    slug: "ratib-al-haddad",
+    title: {
+        ur: "راتب الحداد شریف (امام عبداللہ بن علوی الحدادؒ)",
+        ro: "Ratib al-Haddad",
+        en: "Ratib al-Haddad (The Fortress of Protection)"
+    },
+    arabicText: "يَا رَبَّنَا وَاعْفُ عَنَّا وَامْحُ الَّذِي كَانَ مِنَّا. يَا ذَا الْجَلَالِ وَالإِكْرَامِ أَمِتْنَا عَلَى دِينِ الإِسْلَامِ. يَا قَوِيُّ يَا مَتِينُ اكْفِ شَرَّ الظَّالِمِينَ.",
+    urduTranslation: "اے ہمارے پروردگار! ہمیں معاف فرما اور ہم سے جو خطائیں ہوئیں انہیں مٹا دے۔ اے جلال اور عزت والے! ہمیں دینِ اسلام پر موت عطا فرما۔ اے قوی اور مضبوط ذات! ظالموں کے شر سے ہماری حفاظت فرما۔",
+    romanUrdu: "Ya Rabbana wa’fu anna wam-hul-lazi kaana minna. Ya Zal-Jalaali wal-Ikraam amitna ala deenil-Islam. Ya Qawiyyu ya Mateenu ikfi sharraz-zaalimeen.",
+    englishTranslation: "O our Lord! Pardon us and wipe away our sins. O Possessor of Majesty and Honor, cause us to die upon the faith of Islam! O Mighty, O Firm One, avert from us the malice of all oppressors.",
+    fazilat: {
+        ur: "حضرموت کے عظیم مجدد امام عبداللہ بن علوی الحدادؒ کا یہ راتب گھر میں امن و برکت لانے، فقر و محتاجی دور کرنے اور ایمان پر خاتمہ کے لیے روزانہ پڑھا جاتا ہے۔",
+        ro: "Ratib al-Haddad ghar mein aman, barkat aur eeman ki hifazat ke liye azeem wird hai.",
+        en: "Composed by Imam Abdullah ibn Alawi al-Haddad (R.A), this daily litany is world-renowned for guarding households against poverty, disasters, and loss of faith."
+    },
+    category: "Wird",
+    reference: {
+        ur: "الوسیلۃ العظمیٰ فی اوراد باعلوی",
+        ro: "Al-Waseelat al-Uzma",
+        en: "Ba’alawi Litanies & Invocations"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Ratib al Haddad English translation",
+        "راتب الحداد شریف مکمل متن",
+        "Ratib al Haddad Roman Urdu",
+        "Imam al Haddad daily litany"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "راتب الحداد کب پڑھنا سنتِ مشائخ ہے؟",
+                ro: "Ratib al-Haddad kab parhna chahiye?",
+                en: "When is Ratib al-Haddad traditionally recited?"
+            },
+            answer: {
+                ur: "نمازِ مغرب یا عشاء کے بعد گھر والوں کے ساتھ مل کر یا انفرادی طور پر روزانہ پڑھنا چاہیے۔",
+                ro: "Maghrib ya Isha ke baad rozana parhein.",
+                en: "Traditionally recited after Maghrib or Isha prayer, either individually or in family congregation."
+            }
+        }
+    ],
+    pdfFilename: "Ratib-al-Haddad.pdf"
+},
+  {
+    id: "26",
+    slug: "wird-al-latif",
+    title: {
+        ur: "الورد اللطیف (امام عبداللہ بن علوی الحدادؒ)",
+        ro: "Al-Wird al-Latif",
+        en: "Al-Wird al-Latif (The Subtle Morning & Evening Litany)"
+    },
+    arabicText: "حَسْبِيَ اللهُ لَا إِلٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ. بِسْمِ اللهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ.",
+    urduTranslation: "مجھے اللہ ہی کافی ہے، اس کے سوا کوئی عبادت کے لائق نہیں، اسی پر میں نے بھروسہ کیا اور وہی عرشِ عظیم کا مالک ہے۔ اللہ کے نام سے جس کے نام کی برکت سے زمین اور آسمان میں کوئی چیز نقصان نہیں پہنچا سکتی اور وہ خوب سننے اور جاننے والا ہے۔",
+    romanUrdu: "Hasbiyallahu la ilaha illa Huwa alayhi tawakkaltu wa Huwa Rabbul-Arshil-Azeem. Bismillahil-lazi la yadurru ma’asmihi shay-un fil-ardi wa la fis-samaa-i wa Huwas-Samee-ul-Aleem.",
+    englishTranslation: "Allah is sufficient for me; there is no deity worthy of worship except Him; upon Him I rely, and He is the Lord of the Magnificent Throne. In the Name of Allah, with Whose Name nothing in the earth or the heavens can cause harm, and He is the All-Hearing, the All-Knowing.",
+    fazilat: {
+        ur: "صبح اور شام کے مسنون نبوی اذکار پر مشتمل یہ ورد انسان کو دن بھر شیطانی وسوسوں، نظرِ بد اور ناگہانی حادثات سے محفوظ رکھتا ہے۔",
+        ro: "Al-Wird al-Latif subah aur shaam ki hifazat aur dilon ke sukoon ka nuskha hai.",
+        en: "Carefully compiled from authentic prophetic morning and evening supplications, Al-Wird al-Latif envelopes the reader in comprehensive spiritual security and inner tranquility."
+    },
+    category: "Wird",
+    reference: {
+        ur: "رسالۃ المعاونۃ والمظاہرۃ",
+        ro: "Risalat al-Mu’awanah",
+        en: "Risalat al-Mu’awanah of Imam al-Haddad"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Wird al Latif English pdf",
+        "الورد اللطیف اردو ترجمہ",
+        "Wird al Latif Roman Urdu",
+        "Morning evening prophetic azkar"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "الورد اللطیف کتنی دیر میں مکمل ہو جاتا ہے؟",
+                ro: "Al-Wird al-Latif kitni der mein parha ja sakta hai?",
+                en: "How long does it take to recite Al-Wird al-Latif?"
+            },
+            answer: {
+                ur: "اطمینان کے ساتھ صرف 10 سے 15 منٹ میں صبح یا شام پڑھا جا سکتا ہے۔",
+                ro: "10 se 15 minute mein mukammal ho jata hai.",
+                en: "It takes approximately 10 to 15 minutes of calm, reflective recitation once in the morning and once before dusk."
+            }
+        }
+    ],
+    pdfFilename: "Wird-al-Latif-Salawat.pdf"
+},
+  {
+    id: "27",
+    slug: "qasida-mudariyya",
+    title: {
+        ur: "قصیدہ مضریہ فی الصلاۃ علی خیر البریہ",
+        ro: "Qasida al-Mudariyya",
+        en: "Qasida al-Mudariyya (The Endless Prophetic Ode)"
+    },
+    arabicText: "يَا رَبِّ صَلِّ عَلَى الْمُخْتَارِ مِنْ مُضَرٍ، وَالأَنْبِيَا وَجَمِيعِ الرُّسْلِ مَا ذُكِرُوا، وَصَلِّ رَبِّ عَلَى الْهَادِي وَشِيعَتِهِ، وَصَحْبِهِ مَنْ لِدِينِ الحَقِّ قَدْ نَصَرُوا.",
+    urduTranslation: "اے میرے پروردگار! درود نازل فرما قبیلۂ مضر کے برگزیدہ رسول ﷺ پر، اور تمام انبیاء و جملہ رسولوں پر جب تک ان کا ذکر کیا جائے، اور درود بھیج اے رب ہادیِ اعظم ﷺ پر اور ان کی آل اور ان کے ان صحابہ پر جنہوں نے دینِ حق کی نصرت فرمائی۔",
+    romanUrdu: "Ya Rabbi salli alal-Mukhtaari min Mudarin, wal-Ambiya wa jamee-ir-rusli ma zukiru. Wa salli Rabbi alal-Haadi wa shee’atihi, wa sahbihi man li-deenil-haqqi qad nasaru.",
+    englishTranslation: "O Lord! Bestow blessings upon the Chosen One from the tribe of Mudar, and upon all prophets and messengers for as long as they are remembered; and bestow blessings, my Lord, upon the Guide, his blessed family, and his companions who gave victory to the True Faith.",
+    fazilat: {
+        ur: "امام شرف الدین البوصیریؒ (صاحبِ قصیدہ بردہ) کا تصنیف کردہ یہ بے مثال نعتیہ کلام بارش کے قطروں، ریت کے ذروں اور پودوں کے پتوں کی گنتی کے برابر درود بھیجنے کا ثواب سمیٹتا ہے۔",
+        ro: "Imam Busiri (R.A) ka mashhoor qasida jo bay-shumar darood bhejne ka azeem sawaab rakhta hai.",
+        en: "Composed by Imam al-Busiri (R.A), this masterpiece enumerates blessings matching raindrops, sand grains, and tree leaves, bringing boundless spiritual dividends."
+    },
+    category: "Qasida",
+    reference: {
+        ur: "دیوانِ بوصیری و مجموعہ نعت",
+        ro: "Diwan al-Busiri",
+        en: "Diwan of Imam Sharaf al-Din al-Busiri"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Qasida Mudariyya in English lyrics",
+        "قصیدہ مضریہ اردو ترجمہ",
+        "Qasida Mudariyya Roman Urdu",
+        "Imam Busiri praise ode"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "قصیدہ مضریہ پڑھنے کا کیا فائدہ ہے؟",
+                ro: "Qasida Mudariyya parhne ka kya faida hai?",
+                en: "What is the special blessing of Qasida al-Mudariyya?"
+            },
+            answer: {
+                ur: "اس کے اشعار کائنات کی گنتیوں کے برابر درود پر مشتمل ہیں جس سے قلیل وقت میں عظیم اجر حاصل ہوتا ہے۔",
+                ro: "Mukhtasar waqt mein la-tahashaa darood ka sawaab milta hai.",
+                en: "Its verses invoke blessings matching all atoms in creation, securing immense reward in brief reading."
+            }
+        }
+    ],
+    pdfFilename: "Qasida-Mudariyya.pdf"
+},
+  {
+    id: "28",
+    slug: "dalail-al-khayrat",
+    title: {
+        ur: "دلائل الخیرات شریف (امام محمد بن سلیمان الجزولیؒ)",
+        ro: "Dala’il al-Khayrat",
+        en: "Dala’il al-Khayrat (The Waymarks of Benefits)"
+    },
+    arabicText: "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ حَتَّى لَا يَبْقَى مِنَ الصَّلَاةِ شَيْءٌ، وَارْحَمْ سَيِّدَنَا مُحَمَّدًا حَتَّى لَا يَبْقَى مِنَ الرَّحْمَةِ شَيْءٌ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ حَتَّى لَا يَبْقَى مِنَ الْبَرَكَةِ شَيْءٌ.",
+    urduTranslation: "اے اللہ! رحمت نازل فرما ہمارے آقا حضرت محمد ﷺ پر یہاں تک کہ درود میں سے کچھ باقی نہ بچے، اور رحم فرما ہمارے آقا حضرت محمد ﷺ پر یہاں تک کہ رحمت میں سے کچھ باقی نہ رہے، اور برکت نازل فرما ہمارے آقا حضرت محمد ﷺ پر یہاں تک کہ برکت میں سے کچھ باقی نہ رہے۔",
+    romanUrdu: "Allahumma salli ala sayyidina Muhammadin hatta la yabqa minas-salati shay, warham sayyidina Muhammadan hatta la yabqa minar-rahmati shay, wa baarik ala sayyidina Muhammadin hatta la yabqa minal-barakati shay.",
+    englishTranslation: "O Allah! Bestow peace upon our Master Muhammad ﷺ until no praise remains ungranted; have mercy upon our Master Muhammad ﷺ until no mercy remains unextended; and bless our Master Muhammad ﷺ until no blessing remains unbestowed.",
+    fazilat: {
+        ur: "تاریخِ اسلام میں درود و سلام کی سب سے زیادہ پڑھی جانے والی لازوال کتاب۔ روزانہ ایک حزب پڑھنے والا دنیاوی پریشانیوں سے آزاد ہو کر دیدارِ مصطفیٰ ﷺ کی سعادت سے فیضیاب ہوتا ہے۔",
+        ro: "Islami tareekh ki sab se mashhoor kitaab jo dilon ko noor aur barkat se bhar deti hai.",
+        en: "Authored in Morocco by Imam Muhammad ibn Sulayman al-Jazuli (R.A), this monumental work remains the most celebrated compendium of Prophetic prayers throughout human history."
+    },
+    category: "Rozana",
+    reference: {
+        ur: "دلائل الخیرات و شوارق الانوار",
+        ro: "Dala’il al-Khayrat wa Shawariq al-Anwar",
+        en: "Dala’il al-Khayrat of Imam al-Jazuli"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Dalail al Khayrat in English",
+        "دلائل الخیرات شریف اردو ترجمہ مع پی ڈی ایف",
+        "Dalail al Khayrat Roman Urdu",
+        "Imam al Jazuli prayer book"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "دلائل الخیرات کو ہفتے کے دنوں میں کیسے تقسیم کیا گیا ہے؟",
+                ro: "Dalail al-Khayrat ko haftay ke dino mein kaisay parha jata hai?",
+                en: "How is Dala’il al-Khayrat structured for weekly reading?"
+            },
+            answer: {
+                ur: "اس کتاب میں 8 احزاب ہیں، پیر کے روز سے آغاز کر کے روزانہ ایک حزب پڑھ کر اتوار اور اگلے پیر کو مکمل کیا جاتا ہے۔",
+                ro: "Peer se shuru kar ke rozana aik hissa parha jata hai.",
+                en: "It is divided into eight daily sections (Ahzab), starting on Monday and completing on the following Monday."
+            }
+        }
+    ],
+    pdfFilename: "Jazuli_Dailail-alKhayrat_arabic-urdu.pdf"
+},
+  {
+    id: "29",
+    slug: "mawlid-al-barzanji",
+    title: {
+        ur: "مولد البرزنجی شریف (امام جعفر البرزنجیؒ)",
+        ro: "Mawlid al-Barzanji",
+        en: "Mawlid al-Barzanji (The Pearl of Prophetic Nativity)"
+    },
+    arabicText: "ابْتَدِئُ الإِمْلَاءَ بِاسْمِ الذَّاتِ الْعَلِيَّةِ، مُسْتَدِرًّا فَيْضَ الْبَرَكَاتِ عَلَى مَا أَنَالَهُ وَأَوْلَاهُ، وَأُثَنِّي بِحَمْدٍ مَوَارِدُهُ سَائِغَةٌ هَنِيَّةٌ، مُمْتَطِيًا مِنَ الشُّكْرِ الْجَمِيلِ مَطَايَاهُ.",
+    urduTranslation: "میں اس تحریر کا آغاز ذاتِ باری تعالیٰ کے بابرکت نام سے کرتا ہوں، اس کے فضل و برکات کی بارش کا طلبگار ہوتے ہوئے اس نعمت پر جو اس نے عطا فرمائی، اور حمدِ باری تعالیٰ کرتا ہوں جس کے سرچشمے خوشگوار اور شیریں ہیں، شکرِ جمیل کے راستے پر گامزن ہوتے ہوئے۔",
+    romanUrdu: "Abtadi-ul-imlaa-a bismidh-dhaatil-aliyyah, mustadirran faydal-barakaati ala ma anaalahu wa awlaah, wa usanni bi-hamdin mawaariduhu saa-ighatun haniyyah, mumtatiyan minash-shukril-jameeli mataayaah.",
+    englishTranslation: "I begin this recital in the Name of the Supreme Essence, seeking the downpour of heavenly blessings upon all that He has bestowed, and following with praise whose sweet waters are pure and delightful, traversing the paths of sincere gratitude.",
+    fazilat: {
+        ur: "مدینہ منورہ کے مفتی امام جعفر البرزنجیؒ کی یہ کتاب عالمِ اسلام میں میلاد النبی ﷺ اور اوصافِ نبوی کی تلاوت کے لیے صدیوں سے سند کی حیثیت رکھتی ہے۔",
+        ro: "Mawlid al-Barzanji milad sharif aur seerat-e-pak ki azeem tareen kitaab hai.",
+        en: "Authored in Madinah al-Munawwarah by Mufti Ja’far al-Barzanji (R.A), this rhymed narrative of the Nativity is universally recited across the Muslim world."
+    },
+    category: "Mawlid",
+    reference: {
+        ur: "عقد الجوہر فی مولد النبی الازہر",
+        ro: "Iqd al-Jawhar fi Mawlid an-Nabiyy al-Azhar",
+        en: "The Jewel Necklace of the Nativity"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "Mawlid al Barzanji English text",
+        "مولد البرزنجی شریف اردو ترجمہ",
+        "Mawlid al Barzanji Roman Urdu",
+        "Seerat and Mawlid poems"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "مولد البرزنجی کی محافل میں تلاوت کا کیا طریقہ ہے؟",
+                ro: "Mawlid al-Barzanji parhne ka kya tareeqa hai?",
+                en: "How is Mawlid al-Barzanji recited in gatherings?"
+            },
+            answer: {
+                ur: "اسے خوش الحانی اور باادب انداز میں پڑھا جاتا ہے، اور جب ولادتِ باسعادت کا ذکر آتا ہے تو تعظیماً صلوات و سلام پیش کیا جاتا ہے۔",
+                ro: "Ba-adab aur khush-ilhani ke sath parha jata hai.",
+                en: "It is chanted melodiously in respectful assemblies, culminating in the standing salutations (Qiyam) upon the Prophet ﷺ."
+            }
+        }
+    ],
+    pdfFilename: "Mawlid-al-Barzanji.pdf"
+},
+  {
+    id: "30",
+    slug: "the-shimmering-light-mawlid",
+    title: {
+        ur: "الضیاء اللامع فی ذکر مولد النبی الشافع (حبیب عمر بن حفیظ)",
+        ro: "The Shimmering Light Mawlid (Al-Dhiya al-Lami)",
+        en: "The Shimmering Light Mawlid (Habib Umar bin Hafiz)"
+    },
+    arabicText: "يَا رَبَّنَا صَلِّ وَسَلِّمْ دَائِمًا، عَلَى حَبِيبِكَ مَنْ إِلَيْكَ دَعَانَا، وَآلِهِ وَصَحْبِهِ وَمَنْ لَهُ، تَوَالَى فِي مَحَبَّتِكَ وَرَعَانَا.",
+    urduTranslation: "اے ہمارے پروردگار! ہمیشہ درود و سلام نازل فرما اپنے محبوب ﷺ پر جنہوں نے ہمیں تیری طرف بلایا، اور ان کی آل و اصحاب پر اور ہر اس شخص پر جس نے تیری محبت میں ان سے وفاداری نبھائی۔",
+    romanUrdu: "Ya Rabbana salli wa sallim daa-iman, ala Habibika man ilayka da’aana, wa aalihi wa sahbihi wa man lahu, tawaala fee mahabbatika wa ra’aana.",
+    englishTranslation: "O our Lord! Shower perpetual peace and blessings upon Your Beloved who summoned us back unto You, and upon his family, his companions, and whoever walks in their footsteps with devoted love.",
+    fazilat: {
+        ur: "عالمِ اسلام کے نامور مفکر علامہ حبیب عمر بن حفیظ کا تصنیف کردہ معاصر شاہکار جو رسول اللہ ﷺ کی ولادت، سیرت، شمائل اور معجزات کو پرتاثیر اور جدید فہم کے ساتھ پیش کرتا ہے۔",
+        ro: "Habib Umar bin Hafiz ka maqbool-e-aam mawlid jo dilon ko Ishq-e-Rasool se roshan karta hai.",
+        en: "Authored by the contemporary sage Habib Umar bin Hafiz, this radiant work combines the classical spirit of the Mawlid with deep spiritual contemplation for the modern era."
+    },
+    category: "Mawlid",
+    reference: {
+        ur: "الضیاء اللامع بدار المصطفیٰ تریم",
+        ro: "Al-Dhiya al-Lami (Tarim, Yemen)",
+        en: "Al-Dhiya al-Lami (Dar al-Mustafa, Tarim)"
+    },
+    recommendedCount: 1,
+    seoKeywords: [
+        "The Shimmering Light Mawlid in English",
+        "الضیاء اللامع حبیب عمر بن حفیظ اردو",
+        "Al Dhiya al Lami Roman Urdu",
+        "Modern Mawlid poems lyrics"
+    ],
+    faqs: [
+        {
+            question: {
+                ur: "الضیاء اللامع کا مرکزی پیغام کیا ہے؟",
+                ro: "Al-Dhiya al-Lami ka markazi paigham kya hai?",
+                en: "What is the central theme of The Shimmering Light Mawlid?"
+            },
+            answer: {
+                ur: "نبی کریم ﷺ کے اخلاقِ حسنہ کو اپنانا، باہمی محبت و اخوت کو فروغ دینا اور دلوں کو اللہ کی طرف موڑنا ہے۔",
+                ro: "Husn-e-akhlaq aur dilon ko Allah ki taraf morna hai.",
+                en: "To rekindle intense love for the Prophet ﷺ, embody his sublime character, and heal social discord."
+            }
+        }
+    ],
+    pdfFilename: "The-Shimmering-Light-Mawlid.pdf"
+}
 ];
 
 export function getDuroodBySlug(slug: string): DuroodItem | undefined {

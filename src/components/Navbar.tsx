@@ -6,7 +6,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { Sparkles, Moon, Sun, Menu, X, Languages } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import { Language } from '@/data/types';
-import { getLocalizedQuotePath, getQuoteSlugFromPathname } from '@/lib/quoteSeo';
+import { getLocalizedPath } from '@/lib/quoteSeo';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,9 +16,11 @@ export default function Navbar() {
 
   const handleLanguageSwitch = (targetLang: Language) => {
     setLanguage(targetLang);
-    const quoteSlug = pathname ? getQuoteSlugFromPathname(pathname) : null;
-    if (quoteSlug) {
-      router.push(getLocalizedQuotePath(quoteSlug, targetLang));
+    if (pathname) {
+      const newPath = getLocalizedPath(pathname, targetLang);
+      if (newPath !== pathname) {
+        router.push(newPath);
+      }
     }
   };
 

@@ -47,8 +47,16 @@ export const metadata: Metadata = {
   creator: 'AkhlaqiBaatein.com',
   publisher: 'AkhlaqiBaatein.com',
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: [
+      { url: '/favicon.png', type: 'image/png' },
+      { url: '/icon.png', type: 'image/png' },
+      { url: '/logo.png', type: 'image/png' },
+    ],
+    shortcut: '/favicon.png',
+    apple: [
+      { url: '/apple-icon.png', type: 'image/png' },
+      { url: '/logo.png', type: 'image/png' },
+    ],
   },
   openGraph: {
     type: 'website',

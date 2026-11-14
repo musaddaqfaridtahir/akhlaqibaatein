@@ -24,7 +24,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/en/durood`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/roman/durood`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/naat`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/en/naat`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/roman/naat`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -139,21 +163,49 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // Durood & Wazaif detail routes
-  const duroodRoutes: MetadataRoute.Sitemap = duroodList.map((d) => ({
-    url: `${baseUrl}/durood/${d.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.85,
-  }));
+  // Durood & Wazaif detail routes (Urdu, English, Roman Urdu)
+  const duroodRoutes: MetadataRoute.Sitemap = duroodList.flatMap((d) => [
+    {
+      url: `${baseUrl}/durood/${d.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/en/durood/${d.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/roman/durood/${d.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+  ]);
 
-  // Diwan-e-Naat Sharif detail routes
-  const naatRoutes: MetadataRoute.Sitemap = naatsList.map((n) => ({
-    url: `${baseUrl}/naat/${n.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.85,
-  }));
+  // Diwan-e-Naat Sharif detail routes (Urdu, English, Roman Urdu)
+  const naatRoutes: MetadataRoute.Sitemap = naatsList.flatMap((n) => [
+    {
+      url: `${baseUrl}/naat/${n.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/en/naat/${n.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/roman/naat/${n.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+  ]);
 
   return [
     ...staticRoutes,
