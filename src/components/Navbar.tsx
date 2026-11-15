@@ -28,6 +28,7 @@ export default function Navbar() {
     { href: '/', label: t.home },
     { href: '/#categories', label: t.categories },
     { href: '/durood', label: t.duroodWazaif },
+    { href: '/duain', label: t.masnoonDuain },
     { href: '/naat', label: t.naatSharif },
     { href: '/chahal-hadith', label: t.chahalHadith, badge: '40' },
     { href: '/articles', label: t.articles },
@@ -43,8 +44,8 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full backdrop-blur-md bg-white/95 dark:bg-[#0a1411]/95 border-b border-stone-200 dark:border-emerald-800/40 transition-colors">
-      <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-40 w-full max-w-full overflow-x-hidden backdrop-blur-md bg-white/95 dark:bg-[#0a1411]/95 border-b border-stone-200 dark:border-emerald-800/40 transition-colors">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Row 1: Brand Logo & Desktop Nav or Mobile Action Icons */}
         <div className="flex items-center justify-between h-14 sm:h-20 gap-2">
           {/* Logo & Brand in Strict Language */}
@@ -64,15 +65,15 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation Links (whitespace-nowrap & compact gap to prevent 2-line wrap) */}
-          <nav className="hidden lg:flex items-center gap-1 xl:gap-2 whitespace-nowrap">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1.5 whitespace-nowrap">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`px-2.5 xl:px-3 py-1.5 xl:py-2 rounded-xl text-xs xl:text-sm font-semibold transition flex items-center gap-1 whitespace-nowrap shrink-0 ${
-                    language === 'ur' ? 'font-urdu text-sm xl:text-base' : ''
+                  className={`px-2 xl:px-2.5 py-1.5 rounded-xl text-[11px] lg:text-xs xl:text-sm font-semibold transition flex items-center gap-1 whitespace-nowrap shrink-0 ${
+                    language === 'ur' ? 'font-urdu text-xs lg:text-sm xl:text-base leading-normal' : ''
                   } ${
                     isActive
                       ? 'bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 font-bold shadow-xs'

@@ -7,6 +7,7 @@ export interface TranslationDictionary {
   categories: string;
   chahalHadith: string;
   duroodWazaif: string;
+  masnoonDuain: string;
   naatSharif: string;
   articles: string;
   books: string;
@@ -78,6 +79,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     categories: 'مضامین',
     chahalHadith: 'چہل احادیث',
     duroodWazaif: 'درود و وظائف',
+    masnoonDuain: 'مسنون دعائیں',
     naatSharif: 'نعت شریف',
     articles: 'تحقیقی مضامین',
     books: 'کتب خانہ',
@@ -147,6 +149,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     categories: 'Categories',
     chahalHadith: '40 Ahadith',
     duroodWazaif: 'Durood & Wazaif',
+    masnoonDuain: 'Masnoon Duain',
     naatSharif: 'Naat Sharif',
     articles: 'Mazameen',
     books: 'Kutub Khana',
@@ -216,6 +219,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     categories: 'Categories',
     chahalHadith: '40 Hadith',
     duroodWazaif: 'Durood & Wazaif',
+    masnoonDuain: 'Daily Duas',
     naatSharif: 'Naat Sharif',
     articles: 'Articles',
     books: 'Books Library',

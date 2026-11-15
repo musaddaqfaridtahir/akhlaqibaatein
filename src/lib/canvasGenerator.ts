@@ -202,13 +202,9 @@ function buildDeduplicatedBadge(author: string, category: string): string {
   return `${cleanAuthor}  •  ${cleanCategory}`;
 }
 
-function shouldShowTitle(title: string | undefined, text: string): boolean {
-  if (!title) return false;
-  const cleanT = normalizeForCompare(title);
-  const cleanQ = normalizeForCompare(text);
-  if (!cleanT || cleanT.length < 4) return false;
-  if (cleanQ.startsWith(cleanT.slice(0, Math.min(20, cleanT.length)))) return false;
-  return true;
+function shouldShowTitle(_title: string | undefined, _text: string): boolean {
+  // Never render a duplicate/repetitive title line above the quote statement
+  return false;
 }
 
 function sanitizeExplanation(raw: string | undefined): string {

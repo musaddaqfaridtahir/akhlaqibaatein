@@ -24,7 +24,7 @@ import {
 } from '@/data/durood';
 import { Language } from '@/data/types';
 import { useLanguage } from '@/context/LanguageContext';
-import TasbeehCounter from '@/components/TasbeehCounter';
+import TasbeehCircle from '@/components/TasbeehCircle';
 import { generateDuroodStatusImage } from '@/utils/duroodStatusGenerator';
 
 interface DuroodDetailViewProps {
@@ -212,8 +212,8 @@ export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetail
           {currentTitle}
         </h1>
 
-        {/* Arabic Plaque (Hero Area with Crystal-Clear Naskh Font) */}
-        <div className="relative overflow-hidden rounded-3xl p-6 sm:p-10 bg-gradient-to-br from-[#07130f] via-[#0d221a] to-[#050e0b] border-2 border-[#d4af37]/70 shadow-lg text-center space-y-4">
+        {/* Arabic Plaque (Hero Area with Crystal-Clear Naskh Font + Integrated Compact Circular Tasbeeh Counter) */}
+        <div className="relative overflow-hidden rounded-3xl p-6 sm:p-10 bg-gradient-to-br from-[#07130f] via-[#0d221a] to-[#050e0b] border-2 border-[#d4af37]/70 shadow-lg text-center space-y-6">
           <p className="font-arabic text-base sm:text-lg text-[#d4af37] text-center" lang="ar" dir="rtl">
             بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
           </p>
@@ -224,11 +224,15 @@ export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetail
           >
             {durood.arabicText}
           </p>
-        </div>
 
-        {/* Interactive Digital Tasbeeh Counter — Placed DIRECTLY below Arabic Plaque inside hero card! */}
-        <div className="no-print pt-2">
-          <TasbeehCounter durood={durood} defaultTarget={durood.recommendedCount} lang={activeLang} />
+          {/* Compact Circular Tasbeeh Counter placed directly in the same view */}
+          <div className="no-print pt-2 flex flex-col items-center justify-center">
+            <TasbeehCircle
+              slug={durood.slug}
+              defaultTarget={durood.recommendedCount || 33}
+              lang={activeLang}
+            />
+          </div>
         </div>
 
         {/* Clean Action Buttons Bar: Primary 9:16 HD Status + Print / Save as PDF + Copy + Share */}

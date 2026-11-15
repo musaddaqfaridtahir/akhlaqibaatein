@@ -16,7 +16,6 @@ import {
 } from '@/data/types';
 import {
   getQuoteText,
-  getQuoteTitle,
   getQuoteAuthor,
   getQuoteTashreeh,
   getQuoteAmliSabaq,
@@ -26,8 +25,30 @@ import {
 import { getCategoryBySlug, getCategoryTitle } from '@/data/categories';
 import { uiTranslations } from '@/data/uiTranslations';
 import { useLanguage } from '@/context/LanguageContext';
-import { getLocalizedQuotePath, getLocalizedQuoteUrl } from '@/lib/quoteSeo';
+import { getLocalizedQuoteUrl } from '@/lib/quoteSeo';
 import StatusImageModal from './StatusImageModal';
+
+/**
+ * Safely renders honorific ligatures (ﷺ) in an inline non-overflowing span
+ * so Nastaleeq ligatures never clip outside compact badge borders.
+ */
+function renderBadgeText(text: string): React.ReactNode {
+  if (!text) return text;
+  const parts = text.split(/(\uFDFA|\uFDFB|ﷺ)/g);
+  if (parts.length === 1) return text;
+  return parts.map((part, i) =>
+    /^(\uFDFA|\uFDFB|ﷺ)$/.test(part) ? (
+      <span
+        key={i}
+        className="font-sans text-[0.85em] leading-none inline-block align-middle mx-0.5"
+      >
+        {part}
+      </span>
+    ) : (
+      <React.Fragment key={i}>{part}</React.Fragment>
+    )
+  );
+}
 
 interface QuoteCardProps {
   quote: Quote;
@@ -43,15 +64,19 @@ export default function QuoteCard({
   const { language, showToast } = useLanguage();
   const activeLanguage = displayLanguage || language;
   const activeT = uiTranslations[activeLanguage];
-  const quoteHref = getLocalizedQuotePath(quote.slug, activeLanguage);
   const [copied, setCopied] = useState(false);
   const [showStatusModal, setShowStatusModal] = useState(false);
 
   const category = getCategoryBySlug(quote.category);
-  const quoteTitle = getQuoteTitle(quote, activeLanguage);
   const quoteText = getQuoteText(quote, activeLanguage);
   const quoteAuthor = getQuoteAuthor(quote, activeLanguage);
-  const quoteTashreeh = getQuoteTashreeh(quote, activeLanguage);
+  const rawTashreeh = getQuoteTashreeh(quote, activeLanguage);
+  // Strip redundant prefixes so "پسِ منظر و تشریح:" never repeats under "تشریح اور عملی سبق:"
+  const cleanTashreeh = rawTashreeh
+    .replace(/^(پسِ منظر و تشریح:|تشریح و پس منظر:|تشریح:|پس منظر:|پسِ منظر:)\s*/i, '')
+    .replace(/^(Pas-e-Manzar o Tashreeh:|Tashreeh:|Explanation:)\s*/i, '')
+    .trim();
+
   const quoteAmliSabaq = getQuoteAmliSabaq(quote, activeLanguage);
   const quoteSource = getQuoteSource(quote, activeLanguage);
   const cleanSource = formatBookRef(quoteSource, quote.category, activeLanguage);
@@ -72,7 +97,7 @@ export default function QuoteCard({
   const handleWhatsAppShare = () => {
     const quoteUrl = getLocalizedQuoteUrl(quote.slug, activeLanguage);
     const message = encodeURIComponent(
-      `"${quoteText}"\n\n— ${quoteAuthor}\n\n${activeT.tashreehHeading}\n${quoteUrl}`
+      `"${quoteText}"\n\n— ${quoteAuthor}\n\n${activeT.tashreehHeading}\n${cleanTashreeh.slice(0, 120)}...\n\n${quoteUrl}`
     );
     window.open(`https://api.whatsapp.com/send?text=${message}`, '_blank');
   };
@@ -85,58 +110,43 @@ export default function QuoteCard({
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0" />
             <span
-              className={`text-xs font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-2.5 py-0.5 rounded-full uppercase ${
+              className={`text-xs font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-2.5 py-0.5 rounded-full uppercase inline-flex items-center ${
                 isUrdu ? 'font-urdu text-xs leading-normal' : 'tracking-wide'
               }`}
             >
-              {quoteAuthor}
+              {renderBadgeText(quoteAuthor)}
             </span>
           </div>
 
           {showCategoryBadge && category && (
             <Link
               href={`/category/${quote.category}`}
-              className={`text-xs px-2.5 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium ${
+              className={`text-xs px-2.5 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium inline-flex items-center ${
                 isUrdu ? 'font-urdu leading-normal' : ''
               }`}
             >
-              #{categoryTitle}
+              #{renderBadgeText(categoryTitle)}
             </Link>
           )}
         </div>
 
-        {/* STRICT ISOLATED QUOTE DISPLAY */}
+        {/* STRICT ISOLATED QUOTE DISPLAY (NO DOUBLE TITLE, COMPACT STATEMENT) */}
         <div className="space-y-3 my-1 sm:my-2">
-          {/* Quote Title Heading if available */}
-          {quoteTitle && (
-            <h3
-              className={`font-bold text-slate-900 dark:text-slate-100 hover:text-emerald-800 dark:hover:text-emerald-300 transition break-words ${
-                isUrdu ? 'font-urdu text-sm sm:text-base md:text-lg text-right leading-[1.8]' : 'text-sm sm:text-base text-left'
-              }`}
-            >
-              <Link href={quoteHref}>
-                {quoteTitle}
-              </Link>
-            </h3>
-          )}
-
-          {/* Main Quote Text with Responsive Nastaleeq sizing */}
+          {/* Main Quote Text as the Sole Clear Statement */}
           <div className="pt-0.5 pb-1">
             <p
-              className={`text-slate-900 dark:text-[#f0fdf4] font-normal sm:font-medium hover:text-emerald-800 dark:hover:text-emerald-300 transition break-words whitespace-pre-line ${
+              className={`text-slate-900 dark:text-[#f0fdf4] font-normal sm:font-medium transition break-words whitespace-pre-line ${
                 isUrdu
                   ? 'font-urdu text-base sm:text-xl md:text-2xl leading-[1.9] sm:leading-[2.2] md:leading-[2.3] text-right'
                   : 'text-sm sm:text-base md:text-lg leading-relaxed italic text-left'
               }`}
             >
-              <Link href={quoteHref}>
-                {isUrdu ? quoteText : `“${quoteText}”`}
-              </Link>
+              {isUrdu ? quoteText : `“${quoteText}”`}
             </p>
           </div>
 
-          {/* Explanation / Tashreeh in Isolated Language (Line-clamped + Pageview Multiplier CTA) */}
-          <div className="pt-1.5 text-xs sm:text-sm space-y-2.5">
+          {/* Explanation / Tashreeh in Isolated Language (Self-Contained & Compact) */}
+          <div className="pt-1.5 text-xs sm:text-sm space-y-2">
             <div className="flex items-center justify-between">
               <span
                 className={`font-bold text-emerald-900 dark:text-emerald-300 flex items-center gap-1.5 ${
@@ -153,19 +163,8 @@ export default function QuoteCard({
                 isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85] sm:leading-[1.95]' : 'text-xs sm:text-sm leading-relaxed'
               }`}
             >
-              {quoteTashreeh}
+              {cleanTashreeh}
             </p>
-
-            <div className="pt-0.5">
-              <Link
-                href={quoteHref}
-                className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/60 dark:hover:bg-emerald-900/70 border border-emerald-200/90 dark:border-emerald-700/60 text-xs sm:text-sm font-bold text-emerald-900 dark:text-amber-300 transition-colors ${
-                  isUrdu ? 'font-urdu leading-normal' : ''
-                }`}
-              >
-                <span>{activeT.readFullCta}</span>
-              </Link>
-            </div>
           </div>
 
           {/* Source Citation - Only shown if canonical reference exists */}
@@ -198,7 +197,7 @@ export default function QuoteCard({
               {copied ? (
                 <>
                   <Check className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
-                  <span className="text-emerald-700 dark:text-emerald-400 font-bold">{activeT.copiedBtn}</span>
+                  <span>{activeT.copiedBtn}</span>
                 </>
               ) : (
                 <>
@@ -237,18 +236,18 @@ export default function QuoteCard({
         </div>
       </article>
 
-      {/* Status Image Generator Modal in Active Language */}
+      {/* Status Image Generator Modal in Active Language (No duplicate title passed) */}
       <StatusImageModal
         isOpen={showStatusModal}
         onClose={() => setShowStatusModal(false)}
         data={{
           text: quoteText,
-          explanation: quoteAmliSabaq || quoteTashreeh,
+          explanation: quoteAmliSabaq || cleanTashreeh,
           author: quoteAuthor,
           category: categoryTitle,
           slug: quote.slug,
           lang: activeLanguage,
-          title: quoteTitle,
+          title: undefined,
           bookRef: cleanSource || undefined,
         }}
       />

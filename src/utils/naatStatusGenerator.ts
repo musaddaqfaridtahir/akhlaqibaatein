@@ -5,6 +5,7 @@ import { computeFormattedDate } from '@/lib/dateUtils';
 export interface NaatStatusOptions {
   naat: NaatItem;
   selectedSherIndex?: number;
+  coupletCount?: number;
   lang?: Language;
 }
 
@@ -57,6 +58,7 @@ function roundRect(
 export async function generateNaatStatusImage({
   naat,
   selectedSherIndex = 0,
+  coupletCount = 2,
   lang = 'ur',
 }: NaatStatusOptions): Promise<void> {
   if (typeof window === 'undefined') return;
@@ -175,33 +177,40 @@ export async function generateNaatStatusImage({
   ctx.lineWidth = 1;
   ctx.stroke();
 
-  // Render Ashaar
-  const displayAshaar = naat.ashaar.slice(0, 4);
-  let curY = plaqueY + 90;
+  // Render Ashaar (Selected couplets formatted with large, crystal-clear typography)
+  const validStart = Math.max(0, Math.min(selectedSherIndex, naat.ashaar.length - 1));
+  const displayAshaar = naat.ashaar.slice(validStart, validStart + (coupletCount || 2));
+  const isCompactTwo = displayAshaar.length <= 2;
+
+  let curY = isCompactTwo ? plaqueY + 280 : plaqueY + 120;
+  const misraGap = isCompactTwo ? 100 : 75;
+  const coupletGap = isCompactTwo ? 110 : 75;
 
   for (let i = 0; i < displayAshaar.length; i++) {
     const sher = displayAshaar[i];
 
     // Misra 1
     ctx.fillStyle = '#ffffff';
-    ctx.font = 'bold 32px "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif';
+    ctx.font = isCompactTwo
+      ? 'bold 38px "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif'
+      : 'bold 30px "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", serif';
     ctx.textAlign = 'center';
     ctx.direction = 'rtl';
     ctx.fillText(sher.misra1Ur, WIDTH / 2, curY);
 
     // Misra 2
-    curY += 75;
+    curY += misraGap;
     ctx.fillStyle = '#fef3c7';
     ctx.fillText(sher.misra2Ur, WIDTH / 2, curY);
 
     // Divider between couplets
     if (i < displayAshaar.length - 1) {
-      curY += 60;
+      curY += 70;
       ctx.fillStyle = '#d4af37';
       ctx.font = '22px serif';
       ctx.textAlign = 'center';
       ctx.fillText('◈ ◈ ◈', WIDTH / 2, curY);
-      curY += 75;
+      curY += coupletGap;
     }
   }
   ctx.restore();
@@ -233,7 +242,7 @@ export async function generateNaatStatusImage({
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = `${naat.slug}-status-9x16.png`;
+  link.download = `akhlaqibaatein-${naat.slug}-sher-${validStart + 1}-${validStart + displayAshaar.length}.png`;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

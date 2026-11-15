@@ -1,9 +1,9 @@
 import { MetadataRoute } from 'next';
-import { quotes } from '@/data/quotes';
 import { categories } from '@/data/categories';
 import { articles } from '@/data/articles';
 import { seoCollections } from '@/data/collections';
 import { duroodList } from '@/data/durood';
+import { duainList } from '@/data/duain';
 import { naatsList } from '@/data/naats';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -31,6 +31,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/roman/durood`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/duain`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/en/duain`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/roman/duain`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -111,28 +129,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Individual Localized Quote routes (Urdu, English, Roman Urdu)
-  const quoteRoutes: MetadataRoute.Sitemap = quotes.flatMap((q) => [
-    {
-      url: `${baseUrl}/quotes/${q.slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/en/quotes/${q.slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/roman/quotes/${q.slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.85,
-    },
-  ]);
-
   // High-Search-Intent SEO Collection Hubs & Makhzan-e-Akhlaq
   const collectionRoutes: MetadataRoute.Sitemap = [
     {
@@ -185,6 +181,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]);
 
+  // Masnoon Duain detail routes (Urdu, English, Roman Urdu)
+  const duainRoutes: MetadataRoute.Sitemap = duainList.flatMap((d) => [
+    {
+      url: `${baseUrl}/duain/${d.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/en/duain/${d.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/roman/duain/${d.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+  ]);
+
   // Diwan-e-Naat Sharif detail routes (Urdu, English, Roman Urdu)
   const naatRoutes: MetadataRoute.Sitemap = naatsList.flatMap((n) => [
     {
@@ -210,10 +228,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticRoutes,
     ...duroodRoutes,
+    ...duainRoutes,
     ...naatRoutes,
     ...categoryRoutes,
     ...collectionRoutes,
     ...articleRoutes,
-    ...quoteRoutes,
   ];
 }

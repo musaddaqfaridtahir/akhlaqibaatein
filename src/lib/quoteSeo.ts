@@ -12,6 +12,7 @@ import {
 } from '@/data/quotes';
 import { getDuroodBySlug } from '@/data/durood';
 import { getNaatBySlug } from '@/data/naats';
+import { getDuaBySlug } from '@/data/duain';
 
 export const BASE_URL = 'https://akhlaqibaatein.com';
 
@@ -33,6 +34,12 @@ export function getLocalizedNaatPath(slug: string, lang: Language): string {
   return `/naat/${slug}`;
 }
 
+export function getLocalizedDuaPath(slug: string, lang: Language): string {
+  if (lang === 'en') return `/en/duain/${slug}`;
+  if (lang === 'ro') return `/roman/duain/${slug}`;
+  return `/duain/${slug}`;
+}
+
 export function getLocalizedPath(pathname: string, targetLang: Language): string {
   if (!pathname || pathname === '/') return '/';
 
@@ -50,21 +57,35 @@ export function getLocalizedPath(pathname: string, targetLang: Language): string
     return '/durood';
   }
 
-  // 3. Naat detail: /(en|roman)/naat/[slug] or /naat/[slug]
+  // 3. Dua detail: /(en|roman)/duain/[slug] or /duain/[slug]
+  const duaDetailMatch = pathname.match(/^\/(?:(?:en|roman)\/)?duain\/([^/?#]+)/i);
+  if (duaDetailMatch) {
+    const slug = duaDetailMatch[1];
+    return getLocalizedDuaPath(slug, targetLang);
+  }
+
+  // 4. Dua hub: /(en|roman)/duain or /duain
+  if (/^\/(?:(?:en|roman)\/)?duain\/?$/i.test(pathname)) {
+    if (targetLang === 'en') return '/en/duain';
+    if (targetLang === 'ro') return '/roman/duain';
+    return '/duain';
+  }
+
+  // 5. Naat detail: /(en|roman)/naat/[slug] or /naat/[slug]
   const naatDetailMatch = pathname.match(/^\/(?:(?:en|roman)\/)?naat\/([^/?#]+)/i);
   if (naatDetailMatch) {
     const slug = naatDetailMatch[1];
     return getLocalizedNaatPath(slug, targetLang);
   }
 
-  // 4. Naat hub: /(en|roman)/naat or /naat
+  // 6. Naat hub: /(en|roman)/naat or /naat
   if (/^\/(?:(?:en|roman)\/)?naat\/?$/i.test(pathname)) {
     if (targetLang === 'en') return '/en/naat';
     if (targetLang === 'ro') return '/roman/naat';
     return '/naat';
   }
 
-  // 5. Quote detail: /(en|roman)/quotes/[slug] or /quotes/[slug]
+  // 7. Quote detail: /(en|roman)/quotes/[slug] or /quotes/[slug]
   const quoteMatch = pathname.match(/^\/(?:(?:en|roman)\/)?quotes?\/([^/?#]+)/i);
   if (quoteMatch) {
     const slug = quoteMatch[1];
@@ -89,6 +110,7 @@ export function getRouteLanguageFromPathname(pathname: string): Language | null 
   if (
     pathname.startsWith('/quotes/') ||
     pathname.startsWith('/durood') ||
+    pathname.startsWith('/duain') ||
     pathname.startsWith('/naat')
   ) {
     return 'ur';
@@ -368,6 +390,91 @@ export function buildNaatMetadata(slug: string, lang: Language): Metadata {
       ur: `${BASE_URL}/naat/${naat.slug}`,
       ro: `${BASE_URL}/roman/naat/${naat.slug}`,
       en: `${BASE_URL}/en/naat/${naat.slug}`,
+    }),
+  };
+}
+
+export function buildDuaMetadata(slug: string, lang: Language): Metadata {
+  const dua = getDuaBySlug(slug);
+
+  if (!dua) {
+    return {
+      title: lang === 'en' ? 'Dua Not Found' : lang === 'ro' ? 'Dua Dastyab Nahi' : 'دعا دستیاب نہیں',
+    };
+  }
+
+  const canonicalUrl = `${BASE_URL}${getLocalizedDuaPath(dua.slug, lang)}`;
+
+  const title =
+    lang === 'en'
+      ? `${dua.title.en} — Arabic Text, English Meaning & Virtues | AkhlaqiBaatein.com`
+      : lang === 'ro'
+      ? `${dua.title.ro} — Arabic Matn, Roman Urdu Tarjuma aur Fazilat | AkhlaqiBaatein.com`
+      : `${dua.title.ur} — عربی متن، اردو ترجمہ و فضیلت | AkhlaqiBaatein.com`;
+
+  const description =
+    lang === 'en'
+      ? `${dua.englishTranslation.slice(0, 110)} — Context & Virtues: ${dua.fazilat.en.slice(0, 110)}`
+      : lang === 'ro'
+      ? `${dua.romanUrdu.slice(0, 110)} — Fazilat: ${dua.fazilat.ro.slice(0, 110)}`
+      : `${dua.urduTranslation} — ${dua.fazilat.ur}`.slice(0, 160);
+
+  const keywords =
+    lang === 'en'
+      ? [
+          dua.title.en,
+          'Masnoon Duain in English',
+          'Daily Islamic Supplications',
+          'Prophetic Duas with translation',
+          ...dua.seoKeywords,
+        ]
+      : lang === 'ro'
+      ? [
+          dua.title.ro,
+          'Masnoon duain Roman Urdu',
+          'Dua ki fazilat',
+          'Islamic Duas in Roman',
+          ...dua.seoKeywords,
+        ]
+      : [
+          dua.title.ur,
+          'مسنون دعائیں اردو ترجمہ',
+          'قرآنی دعائیں',
+          'احادیث کی دعائیں',
+          ...dua.seoKeywords,
+        ];
+
+  return {
+    title,
+    description,
+    keywords,
+    openGraph: {
+      title,
+      description,
+      type: 'article',
+      locale: lang === 'en' ? 'en_US' : 'ur_PK',
+      url: canonicalUrl,
+      siteName: 'AkhlaqiBaatein.com',
+      images: [
+        {
+          url: `${BASE_URL}/logo.png`,
+          width: 512,
+          height: 512,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+      images: [`${BASE_URL}/logo.png`],
+    },
+    alternates: buildHreflangAlternates({
+      canonical: canonicalUrl,
+      ur: `${BASE_URL}/duain/${dua.slug}`,
+      ro: `${BASE_URL}/roman/duain/${dua.slug}`,
+      en: `${BASE_URL}/en/duain/${dua.slug}`,
     }),
   };
 }

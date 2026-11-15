@@ -16,6 +16,8 @@ import {
 } from 'lucide-react';
 import { categories, getCategoryBySlug, getCategoryTitle, getCategoryDesc } from '@/data/categories';
 import { quotes } from '@/data/quotes';
+import { duroodList } from '@/data/durood';
+import { duainList } from '@/data/duain';
 import {
   articles,
   getArticleTitle,
@@ -38,6 +40,7 @@ import { useLanguage } from '@/context/LanguageContext';
 export default function HomePage() {
   const { language, t } = useLanguage();
   const isUrdu = language === 'ur';
+  const isRoman = language === 'ro';
 
   const quoteOfTheDay = quotes.find((q) => q.featured) || quotes[0];
   const featuredArticles = articles.slice(0, 3);
@@ -182,6 +185,110 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {/* Card 1: Durood o Wazaif Hub */}
+          <Link
+            href="/durood"
+            className="group p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-emerald-50/80 via-white to-amber-50/40 dark:from-[#0d221a] dark:via-[#11221c] dark:to-[#07130f] border-2 border-[#d4af37]/60 shadow-md hover:shadow-xl hover:border-[#d4af37] transition-all duration-300 flex flex-col justify-between"
+          >
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-3 rounded-2xl bg-amber-500/15 dark:bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/30 group-hover:scale-105 transition-transform">
+                  <Sparkles className="w-6 h-6 text-[#d4af37]" />
+                </div>
+                <span
+                  className={`text-xs font-bold px-3 py-1 rounded-full bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border border-amber-300 dark:border-[#d4af37]/40 shadow-xs ${
+                    isUrdu ? 'font-urdu leading-normal' : ''
+                  }`}
+                >
+                  {duroodList.length} {isUrdu ? 'درود شریف' : isRoman ? 'Durood-e-Pak' : 'Salawat'}
+                </span>
+              </div>
+
+              <div>
+                <h3
+                  className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-[#fef3c7] group-hover:text-emerald-700 dark:group-hover:text-[#d4af37] transition-colors ${
+                    isUrdu ? 'font-urdu leading-[1.8]' : ''
+                  }`}
+                >
+                  {isUrdu ? 'درود و وظائف (Durood Hub)' : isRoman ? 'Durood & Wazaif Hub' : 'Durood & Salawat Hub'}
+                </h3>
+              </div>
+
+              <p
+                className={`text-xs sm:text-sm text-slate-600 dark:text-emerald-100/85 line-clamp-2 ${
+                  isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
+                }`}
+              >
+                {isUrdu
+                  ? 'مستند اعراب شدہ عربی متن، اردو ترجمہ، فضیلت اور ڈیجیٹل سرکلر تسبیح کاؤنٹر کے ساتھ منتخب درودِ پاک۔'
+                  : isRoman
+                  ? 'Mustanad Arabic Naskh text, Roman Urdu tarjuma, fazilat aur digital circular tasbeeh counter.'
+                  : 'Classical authenticated Salawat upon Prophet Muhammad ﷺ with Arabic text, translations, virtues, and interactive counter.'}
+              </p>
+            </div>
+
+            <div
+              className={`mt-4 pt-4 border-t border-[#d4af37]/30 flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-[#d4af37] ${
+                isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
+              }`}
+            >
+              <span>{isUrdu ? 'درود و وظائف پڑھیں' : isRoman ? 'Durood Parhein' : 'Explore Durood Hub'}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
+
+          {/* Card 2: Masnoon Duain Hub */}
+          <Link
+            href="/duain"
+            className="group p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-emerald-50/80 via-white to-amber-50/40 dark:from-[#0d221a] dark:via-[#11221c] dark:to-[#07130f] border-2 border-emerald-600/50 dark:border-emerald-600/60 shadow-md hover:shadow-xl hover:border-[#d4af37] transition-all duration-300 flex flex-col justify-between"
+          >
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-3 rounded-2xl bg-emerald-500/15 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 group-hover:scale-105 transition-transform">
+                  <HeartHandshake className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+                </div>
+                <span
+                  className={`text-xs font-bold px-3 py-1 rounded-full bg-emerald-100 dark:bg-[#07130f] text-emerald-950 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-600/40 shadow-xs ${
+                    isUrdu ? 'font-urdu leading-normal' : ''
+                  }`}
+                >
+                  {duainList.length} {isUrdu ? 'مسنون دعائیں' : isRoman ? 'Masnoon Duain' : 'Daily Duas'}
+                </span>
+              </div>
+
+              <div>
+                <h3
+                  className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-[#d4af37] transition-colors ${
+                    isUrdu ? 'font-urdu leading-[1.8]' : ''
+                  }`}
+                >
+                  {isUrdu ? 'مسنون دعائیں (Daily Duain)' : isRoman ? 'Masnoon Duain Hub' : 'Daily Masnoon Duas'}
+                </h3>
+              </div>
+
+              <p
+                className={`text-xs sm:text-sm text-slate-600 dark:text-emerald-100/85 line-clamp-2 ${
+                  isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
+                }`}
+              >
+                {isUrdu
+                  ? 'پریشانی، قرض، رزق، بیماری سے شفاء اور حفاظت کی مستند احادیث و قرآن کی دعائیں، مع ترجمہ و تسبیح۔'
+                  : isRoman
+                  ? 'Preshani, qarz, rizq aur shifa ki mustanad masnoon duain tarjuma aur circular tasbeeh counter ke sath.'
+                  : 'Authentic Quranic & Prophetic prayers for anxiety, debt relief, health, and protection with counters.'}
+              </p>
+            </div>
+
+            <div
+              className={`mt-4 pt-4 border-t border-emerald-500/30 flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-emerald-300 ${
+                isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
+              }`}
+            >
+              <span>{isUrdu ? 'تمام مسنون دعائیں پڑھیں' : isRoman ? 'Duain Parhein' : 'Explore Daily Duas'}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
+
           {categories.map((cat) => {
             const catTitle = getCategoryTitle(cat, language);
             const catDesc = getCategoryDesc(cat, language);
@@ -269,13 +376,13 @@ export default function HomePage() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
             <h2
-              className={`text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 dark:text-white ${
-                isUrdu ? 'font-urdu leading-normal' : ''
+              className={`text-xl sm:text-2xl md:text-3xl font-bold text-slate-900 dark:text-white leading-[1.8] mb-4 ${
+                isUrdu ? 'font-urdu' : ''
               }`}
             >
               {t.featuredArticles}
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400">
+            <p className={`text-xs sm:text-sm text-slate-500 dark:text-slate-400 ${isUrdu ? 'font-urdu leading-relaxed' : ''}`}>
               {t.featuredArticlesDesc}
             </p>
           </div>
