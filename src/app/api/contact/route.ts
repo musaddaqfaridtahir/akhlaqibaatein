@@ -31,7 +31,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const recipientEmail = process.env.CONTACT_RECIPIENT_EMAIL || 'gcaccirtiza@gmail.com';
+    const recipientEmail = process.env.CONTACT_RECIPIENT_EMAIL || 'info@akhlaqibaatein.com';
     const prefixedSubject = `[AkhlaqiBaatein.com Contact] ${subject}`;
 
     // Option 1: Direct Resend API delivery when RESEND_API_KEY is configured in environment

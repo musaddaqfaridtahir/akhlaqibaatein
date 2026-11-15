@@ -10,7 +10,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/tools`;
 
 export const metadata: Metadata = {
-  title: 'اسلامی ٹولز اور کیلکولیٹرز | Islamic Calculators & Utilities | AkhlaqiBaatein.com',
+  title: 'اسلامی ٹولز اور کیلکولیٹرز | Islamic Calculators & Utilities',
   description:
     'مستند اسلامی آلات: قضا نماز کیلکولیٹر، جامع زکوٰۃ کیلکولیٹر، اور کسٹم نیم 9:16 واٹس ایپ اسٹیٹس میکر۔ مفت اور فوری رسائی۔ Islamic Tools & Calculators.',
   keywords: [

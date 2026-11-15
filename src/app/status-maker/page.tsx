@@ -10,7 +10,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/status-maker`;
 
 export const metadata: Metadata = {
-  title: 'اسلامی واٹس ایپ اسٹیٹس میکر (9:16 HD کارڈز) | Islamic Status Card Generator | AkhlaqiBaatein.com',
+  title: 'اسلامی واٹس ایپ اسٹیٹس میکر (9:16 HD کارڈز) | Islamic Status Card Generator',
   description:
     'جمعہ مبارک، صبح بخیر دعائیں، درود و سلام اور سنہری اقوال کے خوبصورت 9:16 فل ایچ ڈی واٹس ایپ اسٹیٹس اپنے نام کے ساتھ تیار اور مفت ڈاؤن لوڈ کریں۔',
   keywords: [

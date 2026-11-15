@@ -101,7 +101,13 @@ export default function ZakatCalculatorView() {
       <header className="text-center space-y-3">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-900 dark:text-[#d4af37] border border-[#d4af37]/40 text-xs sm:text-sm font-bold shadow-xs">
           <Coins className="w-4 h-4 text-[#d4af37]" />
-          <span>{isUrdu ? 'مستند شرعی زکوٰۃ و نصاب گائیڈ' : 'Accurate 2.5% Zakat & Nisab Calculator'}</span>
+          <span>
+            {isUrdu
+              ? 'مستند شرعی زکوٰۃ و نصاب گائیڈ'
+              : isRoman
+              ? 'Mustanad Sharai Zakat aur Nisab Guide'
+              : 'Accurate 2.5% Zakat & Nisab Calculator'}
+          </span>
         </div>
         <h1
           className={`text-2xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-[#fef3c7] ${
@@ -111,7 +117,7 @@ export default function ZakatCalculatorView() {
           {isUrdu
             ? 'جامع شرعی زکوٰۃ کیلکولیٹر'
             : isRoman
-            ? 'Sharia Zakat Calculator & Nisab'
+            ? 'Jame Sharai Zakat Calculator'
             : 'Comprehensive Sharia Zakat Calculator'}
         </h1>
         <p
@@ -121,6 +127,8 @@ export default function ZakatCalculatorView() {
         >
           {isUrdu
             ? 'سونے، چاندی، نقدی، بینک بیلنس اور کاروباری مال کی زکوٰۃ کا درست حساب لگائیں اور شرعی نصاب کے مطابق واجب الادا زکوٰۃ معلوم کریں۔'
+            : isRoman
+            ? 'Sona, chandi, naqdi, bank balance aur karobari maal ki zakat ka sahi hisab lagayein aur sharai nisab ke mutabiq wajib-ul-ada zakat maloom karein.'
             : 'Accurately calculate your annual Zakat across gold, silver, bank balances, and commercial assets based on authentic classical Nisab standards.'}
         </p>
       </header>
@@ -131,10 +139,14 @@ export default function ZakatCalculatorView() {
         <div className="flex items-center justify-between flex-wrap gap-4 pb-4 border-b border-stone-200 dark:border-emerald-800/40">
           <div>
             <h2 className={`text-base sm:text-lg font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
-              {isUrdu ? 'کرنسی کا انتخاب کریں:' : 'Select Currency:'}
+              {isUrdu ? 'کرنسی کا انتخاب کریں:' : isRoman ? 'Currency muntakhib karein:' : 'Select Currency:'}
             </h2>
             <p className="text-xs text-slate-500 dark:text-emerald-300/70">
-              {isUrdu ? 'قیمتیں متعلقہ ملک کے تخمینی مارکیٹ ریٹ کے مطابق ہیں' : 'Rates reflect estimated standard market prices'}
+              {isUrdu
+                ? 'قیمتیں متعلقہ ملک کے تخمینی مارکیٹ ریٹ کے مطابق ہیں'
+                : isRoman
+                ? 'Rates mutaliqa mulk ke market rates ke mutabiq hain'
+                : 'Rates reflect estimated standard market prices'}
             </p>
           </div>
 
@@ -161,7 +173,11 @@ export default function ZakatCalculatorView() {
           <div className="p-4 rounded-2xl bg-amber-500/10 border border-[#d4af37]/40 flex items-center justify-between">
             <div>
               <span className="text-xs text-amber-900 dark:text-[#d4af37] font-bold">
-                {isUrdu ? 'چاندی کا نصاب (52.5 تولہ / 612.36 گرام)' : 'Silver Nisab (612.36g)'}
+                {isUrdu
+                  ? 'چاندی کا نصاب (52.5 تولہ / 612.36 گرام)'
+                  : isRoman
+                  ? 'Chandi Ka Nisab (52.5 Tola / 612.36g)'
+                  : 'Silver Nisab (612.36g)'}
               </span>
               <p className="text-lg sm:text-xl font-black text-slate-900 dark:text-white mt-0.5">
                 {curr.symbol} {Math.round(silverNisabValue).toLocaleString()}
@@ -173,7 +189,11 @@ export default function ZakatCalculatorView() {
           <div className="p-4 rounded-2xl bg-stone-100 dark:bg-[#07130f] border border-stone-200 dark:border-emerald-800/40 flex items-center justify-between">
             <div>
               <span className="text-xs text-slate-600 dark:text-emerald-300 font-bold">
-                {isUrdu ? 'سونے کا نصاب (7.5 تولہ / 87.48 گرام)' : 'Gold Nisab (87.48g)'}
+                {isUrdu
+                  ? 'سونے کا نصاب (7.5 تولہ / 87.48 گرام)'
+                  : isRoman
+                  ? 'Sonay Ka Nisab (7.5 Tola / 87.48g)'
+                  : 'Gold Nisab (87.48g)'}
               </span>
               <p className="text-lg sm:text-xl font-black text-slate-900 dark:text-white mt-0.5">
                 {curr.symbol} {Math.round(goldNisabValue).toLocaleString()}
@@ -186,13 +206,21 @@ export default function ZakatCalculatorView() {
         {/* Assets Form */}
         <div className="space-y-4">
           <h3 className={`text-base sm:text-lg font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
-            {isUrdu ? 'قابلِ زکوٰۃ اثاثے درج کریں:' : 'Enter Zakatable Assets:'}
+            {isUrdu
+              ? 'قابلِ زکوٰۃ اثاثے درج کریں:'
+              : isRoman
+              ? 'Qabil-e-Zakat Asasay darj karein:'
+              : 'Enter Zakatable Assets:'}
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="space-y-1.5">
               <label className="text-xs font-bold text-slate-700 dark:text-emerald-200">
-                {isUrdu ? `سونا گرام میں (${curr.symbol} ${curr.goldPerGram}/گرام)` : `Gold in Grams (${curr.symbol} ${curr.goldPerGram}/g)`}
+                {isUrdu
+                  ? `سونا گرام میں (${curr.symbol} ${curr.goldPerGram}/گرام)`
+                  : isRoman
+                  ? `Sona grams mein (${curr.symbol} ${curr.goldPerGram}/g)`
+                  : `Gold in Grams (${curr.symbol} ${curr.goldPerGram}/g)`}
               </label>
               <input
                 type="number"
@@ -206,7 +234,11 @@ export default function ZakatCalculatorView() {
 
             <div className="space-y-1.5">
               <label className="text-xs font-bold text-slate-700 dark:text-emerald-200">
-                {isUrdu ? `چاندی گرام میں (${curr.symbol} ${curr.silverPerGram}/گرام)` : `Silver in Grams (${curr.symbol} ${curr.silverPerGram}/g)`}
+                {isUrdu
+                  ? `چاندی گرام میں (${curr.symbol} ${curr.silverPerGram}/گرام)`
+                  : isRoman
+                  ? `Chandi grams mein (${curr.symbol} ${curr.silverPerGram}/g)`
+                  : `Silver in Grams (${curr.symbol} ${curr.silverPerGram}/g)`}
               </label>
               <input
                 type="number"
@@ -220,7 +252,11 @@ export default function ZakatCalculatorView() {
 
             <div className="space-y-1.5">
               <label className="text-xs font-bold text-slate-700 dark:text-emerald-200">
-                {isUrdu ? `نقدی رقم (Cash in Hand) — ${curr.symbol}` : `Cash in Hand (${curr.symbol})`}
+                {isUrdu
+                  ? `نقدی رقم (Cash in Hand) — ${curr.symbol}`
+                  : isRoman
+                  ? `Naqad Raqam (Cash in Hand) — ${curr.symbol}`
+                  : `Cash in Hand (${curr.symbol})`}
               </label>
               <input
                 type="number"
@@ -234,7 +270,11 @@ export default function ZakatCalculatorView() {
 
             <div className="space-y-1.5">
               <label className="text-xs font-bold text-slate-700 dark:text-emerald-200">
-                {isUrdu ? `بینک بیلنس و سیونگز — ${curr.symbol}` : `Bank Accounts & Savings (${curr.symbol})`}
+                {isUrdu
+                  ? `بینک بیلنس و سیونگز — ${curr.symbol}`
+                  : isRoman
+                  ? `Bank Balance aur Savings — ${curr.symbol}`
+                  : `Bank Accounts & Savings (${curr.symbol})`}
               </label>
               <input
                 type="number"
@@ -248,7 +288,11 @@ export default function ZakatCalculatorView() {
 
             <div className="space-y-1.5">
               <label className="text-xs font-bold text-slate-700 dark:text-emerald-200">
-                {isUrdu ? `کاروباری اسٹاک اور مالِ تجارت — ${curr.symbol}` : `Business Merchandise & Stock (${curr.symbol})`}
+                {isUrdu
+                  ? `کاروباری اسٹاک اور مالِ تجارت — ${curr.symbol}`
+                  : isRoman
+                  ? `Karobari Maal aur Stock — ${curr.symbol}`
+                  : `Business Merchandise & Stock (${curr.symbol})`}
               </label>
               <input
                 type="number"
@@ -262,7 +306,11 @@ export default function ZakatCalculatorView() {
 
             <div className="space-y-1.5">
               <label className="text-xs font-bold text-slate-700 dark:text-emerald-200">
-                {isUrdu ? `دیے گئے قابلِ وصول قرضے — ${curr.symbol}` : `Money Lent to Others / Receivables (${curr.symbol})`}
+                {isUrdu
+                  ? `دیے گئے قابلِ وصول قرضے — ${curr.symbol}`
+                  : isRoman
+                  ? `Diye gaye qabil-e-wasool qarzay — ${curr.symbol}`
+                  : `Money Lent to Others / Receivables (${curr.symbol})`}
               </label>
               <input
                 type="number"
@@ -279,13 +327,21 @@ export default function ZakatCalculatorView() {
         {/* Deductions / Liabilities */}
         <div className="space-y-4 pt-4 border-t border-stone-200 dark:border-emerald-800/40">
           <h3 className={`text-base sm:text-lg font-bold text-red-600 dark:text-red-400 ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
-            {isUrdu ? 'منہائی (واجب الادا قرضے و ادائیگیاں):' : 'Deductions (Debts Due Immediately):'}
+            {isUrdu
+              ? 'منہائی (واجب الادا قرضے و ادائیگیاں):'
+              : isRoman
+              ? 'Minhai (Wajib-ul-ada Qarzay aur Liabilities):'
+              : 'Deductions (Debts Due Immediately):'}
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="space-y-1.5">
               <label className="text-xs font-bold text-slate-700 dark:text-emerald-200">
-                {isUrdu ? `فوری واجب الادا قرضے — ${curr.symbol}` : `Immediate Debts & Liabilities (${curr.symbol})`}
+                {isUrdu
+                  ? `فوری واجب الادا قرضے — ${curr.symbol}`
+                  : isRoman
+                  ? `Fauri wajib-ul-ada qarzay — ${curr.symbol}`
+                  : `Immediate Debts & Liabilities (${curr.symbol})`}
               </label>
               <input
                 type="number"
@@ -303,7 +359,11 @@ export default function ZakatCalculatorView() {
         <div className="space-y-4 pt-4 border-t border-stone-200 dark:border-emerald-800/40">
           <div className="flex items-center justify-between flex-wrap gap-2">
             <h3 className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
-              {isUrdu ? 'حتمی زکوٰۃ کا خلاصہ:' : 'Final Zakat Calculation:'}
+              {isUrdu
+                ? 'حتمی زکوٰۃ کا خلاصہ:'
+                : isRoman
+                ? 'Hatmi Zakat Ka Khulasa:'
+                : 'Final Zakat Calculation:'}
             </h3>
             <button
               type="button"
@@ -311,14 +371,14 @@ export default function ZakatCalculatorView() {
               className="text-xs font-semibold text-slate-500 hover:text-emerald-700 dark:text-emerald-400 flex items-center gap-1 cursor-pointer"
             >
               <RotateCcw className="w-3.5 h-3.5" />
-              <span>{isUrdu ? 'دوبارہ شروع کریں' : 'Reset'}</span>
+              <span>{isUrdu ? 'دوبارہ شروع کریں' : isRoman ? 'Reset Karein' : 'Reset'}</span>
             </button>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <div className="p-4 rounded-2xl bg-stone-100 dark:bg-[#07130f] border border-stone-200 dark:border-emerald-800/50 text-center">
               <span className="text-xs text-slate-500 dark:text-emerald-300/70 font-medium">
-                {isUrdu ? 'مجموعی اثاثہ جات' : 'Gross Assets'}
+                {isUrdu ? 'مجموعی اثاثہ جات' : isRoman ? 'Kul Asasajaat' : 'Gross Assets'}
               </span>
               <p className="text-xl font-black text-slate-900 dark:text-white mt-1">
                 {curr.symbol} {Math.round(totalGrossAssets).toLocaleString()}
@@ -327,7 +387,7 @@ export default function ZakatCalculatorView() {
 
             <div className="p-4 rounded-2xl bg-stone-100 dark:bg-[#07130f] border border-stone-200 dark:border-emerald-800/50 text-center">
               <span className="text-xs text-slate-500 dark:text-emerald-300/70 font-medium">
-                {isUrdu ? 'خالص قابلِ زکوٰۃ مالیت' : 'Net Zakatable Wealth'}
+                {isUrdu ? 'خالص قابلِ زکوٰۃ مالیت' : isRoman ? 'Khalis Qabil-e-Zakat Maliyat' : 'Net Zakatable Wealth'}
               </span>
               <p className="text-xl font-black text-emerald-800 dark:text-[#d4af37] mt-1">
                 {curr.symbol} {Math.round(netZakatableWealth).toLocaleString()}
@@ -340,7 +400,7 @@ export default function ZakatCalculatorView() {
                 : 'bg-stone-100 dark:bg-[#07130f] border-stone-200 dark:border-emerald-800/50'
             }`}>
               <span className="text-xs font-bold text-amber-300">
-                {isUrdu ? 'واجب الادا زکوٰۃ (2.5%)' : 'Total Zakat Payable (2.5%)'}
+                {isUrdu ? 'واجب الادا زکوٰۃ (2.5%)' : isRoman ? 'Wajib-ul-Ada Zakat (2.5%)' : 'Total Zakat Payable (2.5%)'}
               </span>
               <p className="text-2xl font-black text-[#d4af37] mt-1">
                 {curr.symbol} {Math.round(zakatPayable).toLocaleString()}
@@ -357,16 +417,24 @@ export default function ZakatCalculatorView() {
               <p>
                 {isUrdu
                   ? `ماشاء اللہ! آپ کی خالص مالیت نصاب سے زائد ہے۔ آپ پر کل `
+                  : isRoman
+                  ? `MashaAllah! Aap ki khalis maliyat nisab se zyada hai. Aap par kul `
                   : `Your net wealth exceeds the Nisab threshold. You are required to pay `}
                 <span className="text-emerald-700 dark:text-[#d4af37] font-black underline underline-offset-4">
                   {curr.symbol} {Math.round(zakatPayable).toLocaleString()}
                 </span>{' '}
-                {isUrdu ? 'بطور زکوٰۃ غرباء و مساکین کو ادا کرنا فرض ہے۔' : 'as obligatory Zakat.'}
+                {isUrdu
+                  ? 'بطور زکوٰۃ غرباء و مساکین کو ادا کرنا فرض ہے۔'
+                  : isRoman
+                  ? 'bataur Zakat ghareebon aur mustahiqeen ko ada karna farz hai.'
+                  : 'as obligatory Zakat.'}
               </p>
             ) : (
               <p>
                 {isUrdu
                   ? `آپ کی خالص مالیت چاندی کے نصاب (${curr.symbol} ${Math.round(silverNisabValue).toLocaleString()}) سے کم ہے، اس لیے شرعاً آپ پر فی الحال زکوٰۃ فرض نہیں ہے۔`
+                  : isRoman
+                  ? `Aap ki khalis maliyat chandi ke nisab (${curr.symbol} ${Math.round(silverNisabValue).toLocaleString()}) se kam hai, is liye filhaal aap par zakat farz nahi hai.`
                   : `Your net wealth is below the silver Nisab threshold (${curr.symbol} ${Math.round(silverNisabValue).toLocaleString()}), meaning Zakat is not currently obligatory upon you.`}
               </p>
             )}
@@ -383,7 +451,11 @@ export default function ZakatCalculatorView() {
               isUrdu ? 'font-urdu leading-[1.8]' : 'font-sans'
             }`}
           >
-            {isUrdu ? 'زکوٰۃ کے بنیادی شرعی احکام و مصارف' : 'Fundamental Rules & Beneficiaries of Zakat'}
+            {isUrdu
+              ? 'زکوٰۃ کے بنیادی شرعی احکام و مصارف'
+              : isRoman
+              ? 'Zakat Ke Bunyadi Sharai Ahkam aur Masarif'
+              : 'Fundamental Rules & Beneficiaries of Zakat'}
           </h2>
         </div>
 
@@ -395,18 +467,24 @@ export default function ZakatCalculatorView() {
           <p>
             {isUrdu
               ? 'زکوٰۃ اسلام کا تیسرا بنیادی ستون اور مالی عبادت ہے۔ قرآن مجید میں نماز کے ساتھ بیاسی مقامات پر زکوٰۃ کی ادائیگی کا حکم دیا گیا ہے۔ اللہ تعالیٰ کا فرمان ہے: "خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا" (ان کے اموال سے صدقہ لیجیے جس کے ذریعے آپ انہیں پاک اور بابرکت بنائیں)۔ زکوٰۃ ادا کرنے سے مال میں کمی نہیں ہوتی بلکہ اللہ تعالیٰ اس میں خیر و برکت اور پاکیزگی عطا فرماتا ہے۔'
+              : isRoman
+              ? 'Zakat Islam ka teesra bunyadi sutoon aur maali ibadat hai. Quran Majeed mein namaz ke sath 82 muqamat par zakat ka hukum aaya hai. Zakat ada karne se maal kam nahi hota balkay Allah Ta’ala us mein barkat aur pakeezgi ata farmata hai.'
               : 'Zakat is the third pillar of Islam and a mandatory financial obligation commanded alongside prayer throughout the Holy Quran. Allah commands: "Take from their wealth a charity by which you purify them and cause them increase" (Surah At-Tawbah 9:103). Paying Zakat does not diminish wealth; it sanctifies and expands it.'}
           </p>
 
           <p>
             {isUrdu
               ? 'زکوٰۃ کا نصاب یہ ہے کہ اگر کسی شخص کے پاس ساڑھے سات تولہ (87.48 گرام) سونا، یا ساڑھے باون تولہ (612.36 گرام) چاندی، یا اس کی قیمت کے برابر نقدی رقم، شیئرز یا تجارتی مال موجود ہو اور اس پر قمری سال گزر جائے تو اس پر کل مالیت کا چالیسواں حصہ یعنی ڈھائی فیصد (2.5%) زکوٰۃ ادا کرنا فرض ہے۔ اگر سونے کے ساتھ تھوڑی سی نقدی یا چاندی بھی ہو تو احتیاطاً اور فقراء کے فائدے کے لیے چاندی کے نصاب کا اعتبار کیا جاتا ہے۔'
+              : isRoman
+              ? 'Nisab: Agar kisi ke paas 87.48g sona ya 612.36g chandi ya is ke barabar naqdi/maal-e-tijarat ho aur saal guzar jaye to kul maliyat ka 2.5% zakat ada karna farz hai. Mukhtalif asason ki soorat mein fuqaha chandi ke nisab ko tarjeeh dete hain.'
               : 'The Nisab threshold is 87.48g of gold or 612.36g of silver (or equivalent in cash/trade goods). When assets are mixed, classical jurisprudence favors the silver Nisab to ensure maximum benefit for impoverished recipients. The payable rate is strictly 2.5% (one-fortieth) of net wealth.'}
           </p>
 
           <p>
             {isUrdu
               ? 'زکوٰۃ کے مصارف قرآن مجید کی سورۂ توبہ آیت 60 میں متعین کیے گئے ہیں، جن میں فقراء، مساکین، مقروضین اور مسافر شامل ہیں۔ زکوٰۃ اپنے والدین، دادا دادی، اولاد اور شوہر یا بیوی کو نہیں دی جا سکتی۔ البتہ اپنے مستحق بھائی، بہن، چچا، پھوپھی اور دیگر قریبی رشتہ داروں کو زکوٰۃ دینا دگنے اجر (زکوٰۃ کا ثواب اور صلہ رحمی کا اجر) کا باعث ہے۔'
+              : isRoman
+              ? 'Masarif-e-Zakat: Surah At-Tawbah (9:60) mein 8 masarif bayan huay hain (fuqara, masakeen wagaira). Zakat walidain, dada dadi, aulaad aur biwi/shohar ko nahi di ja sakti. Albatta mustahiq behan, bhai aur rishtedaron ko dena dugna ajar rakhta hai.'
               : 'Surah At-Tawbah (9:60) explicitly defines the eight categories of recipients, notably the poor, the destitute, those in debt, and stranded travelers. Zakat cannot be given to direct ascendants (parents/grandparents), direct descendants (children/grandchildren), or spouses, but giving to needy siblings and relatives yields double reward.'}
           </p>
         </div>
@@ -414,28 +492,44 @@ export default function ZakatCalculatorView() {
         {/* FAQs */}
         <div className="pt-4 border-t border-stone-200 dark:border-emerald-800/40 space-y-3">
           <h3 className={`text-base sm:text-lg font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
-            {isUrdu ? 'اہم ترین سوالات و جوابات (FAQs):' : 'Frequently Asked Questions:'}
+            {isUrdu
+              ? 'اہم ترین سوالات و جوابات (FAQs):'
+              : isRoman
+              ? 'Ahem Sawalat aur Jawabat (FAQs):'
+              : 'Frequently Asked Questions:'}
           </h3>
 
           <div className="space-y-3 text-xs sm:text-sm">
             <div className="p-4 rounded-2xl bg-stone-50 dark:bg-[#07130f] border border-stone-200 dark:border-emerald-800/40">
               <p className="font-bold text-slate-900 dark:text-[#d4af37]">
-                {isUrdu ? 'س: کیا ذاتی استعمال کے زیورات پر زکوٰۃ واجب ہے؟' : 'Q: Is Zakat due on personal use jewelry?'}
+                {isUrdu
+                  ? 'س: کیا ذاتی استعمال کے زیورات پر زکوٰۃ واجب ہے؟'
+                  : isRoman
+                  ? 'Sawaal: Kya zati istemal ke zewrat par zakat wajib hai?'
+                  : 'Q: Is Zakat due on personal use jewelry?'}
               </p>
               <p className="text-slate-600 dark:text-emerald-100/80 mt-1">
                 {isUrdu
                   ? 'ج: احناف کے نزدیک سونا چاندی چاہے استعمال میں ہو یا الماری میں رکھا ہو، اگر نصاب کو پہنچ جائے تو اس پر زکوٰۃ فرض ہے۔'
+                  : isRoman
+                  ? 'Jawab: Ahnaf ke nazdeek sona chandi chahey istemal mein ho ya almari mein, nisab tak pohnch jaye to us par zakat farz hai.'
                   : 'A: According to the Hanafi school and cautious scholarly consensus, gold and silver jewelry are zakatable regardless of whether they are actively worn or stored.'}
               </p>
             </div>
 
             <div className="p-4 rounded-2xl bg-stone-50 dark:bg-[#07130f] border border-stone-200 dark:border-emerald-800/40">
               <p className="font-bold text-slate-900 dark:text-[#d4af37]">
-                {isUrdu ? 'س: کیا زکوٰۃ رمضان المبارک سے پہلے ادا کی جا سکتی ہے؟' : 'Q: Can Zakat be paid in advance before Ramadan?'}
+                {isUrdu
+                  ? 'س: کیا زکوٰۃ رمضان المبارک سے پہلے ادا کی جا سکتی ہے؟'
+                  : isRoman
+                  ? 'Sawaal: Kya zakat Ramadan se pehle ada ki ja sakti hai?'
+                  : 'Q: Can Zakat be paid in advance before Ramadan?'}
               </p>
               <p className="text-slate-600 dark:text-emerald-100/80 mt-1">
                 {isUrdu
                   ? 'ج: جی ہاں! اگر کوئی شخص نصاب کا مالک ہو تو وہ سال پورا ہونے سے پہلے بھی پیشگی زکوٰۃ ادا کر سکتا ہے۔'
+                  : isRoman
+                  ? 'Jawab: Jee haan! Agar shakhs nisab ka malik ho to woh saal pura honay se pehle bhi peshgi zakat ada kar sakta hai.'
                   : 'A: Yes, if a person possesses Nisab, they are permitted to pay Zakat months in advance to assist immediate charitable causes.'}
               </p>
             </div>

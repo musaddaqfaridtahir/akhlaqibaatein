@@ -20,7 +20,7 @@ export default function ContactPage() {
 
   const strings = {
     ur: {
-      title: 'رابطہ و تصحیح (Contact & Corrections)',
+      title: 'رابطہ و تصحیح',
       desc: 'اگر آپ کو پورٹل پر کسی قول، حدیث یا ترجمے میں تصحیح کروانی ہو، یا کوئی تجویز ہو، تو ہم سے بلا جھجھک رابطہ فرمائیں۔',
       directEmail: 'براہِ راست سرکاری ای میل',
       emailResponse: 'ہم 24 سے 48 گھنٹوں کے اندر تمام تجاویز کا جائزہ لیتے ہیں۔',
@@ -33,13 +33,14 @@ export default function ContactPage() {
       messagePlaceholder: 'اپنا پیغام یہاں تحریر فرمائیں...',
       submitBtn: 'پیغام ارسال کریں',
       sendingBtn: 'پیغام بھیجا جا رہا ہے...',
-      errorFallback: 'معذرت، پیغام بھیجنے میں تکنیکی دشواری پیش آئی۔ برائے مہربانی info@akhlaqibaatein.com پر براہِ راست ای میل فرمائیں۔',
-      successTitle: 'آپ کا پیغام کامیابی سے بھیج دیا گیا ہے!',
-      successDesc: 'جزاک اللہ خیراً! آپ کے قیمتی وقت اور محبت کا شکریہ۔ ہماری ادارتی ٹیم جلد آپ کے ای میل پتے پر رابطہ کرے گی۔',
+      errorFallback: 'معذرت، پیغام خودکار طریقے سے بھیجنے میں دقت آئی۔ برائے مہربانی نیچے دیے گئے بٹن سے براہِ راست ای میل ارسال فرمائیں۔',
+      mailtoFallbackBtn: 'ای میل ایپ میں کھولیں (info@akhlaqibaatein.com)',
+      successTitle: 'ماشاء اللہ! آپ کا پیغام موصول ہو گیا ہے۔',
+      successDesc: 'ہم جلد آپ سے رابطہ کریں گے۔ آپ کے قیمتی وقت اور تجاویز کا بہت بہت شکریہ!',
       sendAnother: 'دوسرا پیغام بھیجیں',
     },
     ro: {
-      title: 'Rabta aur Tasheeh (Contact & Corrections)',
+      title: 'Rabta aur Tasheeh',
       desc: 'Agar aap ko kisi qol ya hadith ke hawale mein koi tasheeh karwani ho to hum se rabta karein.',
       directEmail: 'Official Email',
       emailResponse: 'Hum 24 se 48 ghanton mein har email ka jawab dete hain.',
@@ -52,9 +53,10 @@ export default function ContactPage() {
       messagePlaceholder: 'Apna paigham yahan likhein...',
       submitBtn: 'Paigham Bhejein',
       sendingBtn: 'Paigham bheja ja raha hai...',
-      errorFallback: 'Maazrat, message bhejne mein masla aaya. Baraye meherbani info@akhlaqibaatein.com par email karein.',
-      successTitle: 'Aap ka paigham bhej diya gaya hai!',
-      successDesc: 'JazakAllah! Hamari team jald hi aap ke email par jawab degi.',
+      errorFallback: 'Maazrat, message bhejne mein masla aaya. Baraye meherbani neeche button par click kar ke email karein.',
+      mailtoFallbackBtn: 'Email App Kholein (info@akhlaqibaatein.com)',
+      successTitle: 'MashaAllah! Aap ka paigham masool ho gaya hai.',
+      successDesc: 'Hum jald hi aap se rabta karein ge. Aap ke qeemti waqt ka shukriya!',
       sendAnother: 'Doosra paigham bhejein',
     },
     en: {
@@ -71,12 +73,19 @@ export default function ContactPage() {
       messagePlaceholder: 'Please type your message or inquiry here...',
       submitBtn: 'Send Message',
       sendingBtn: 'Sending Message...',
-      errorFallback: 'Sorry, we could not send your message automatically. Please email info@akhlaqibaatein.com directly.',
-      successTitle: 'Message Delivered Successfully!',
-      successDesc: 'Thank you for reaching out. Our editorial team will reply to your email address shortly.',
+      errorFallback: 'We could not send your message automatically. Please click the button below to open your email app directly.',
+      mailtoFallbackBtn: 'Open Email App (info@akhlaqibaatein.com)',
+      successTitle: 'MashaAllah! Your message has been received.',
+      successDesc: 'We will get in touch with you shortly. Thank you for reaching out!',
       sendAnother: 'Send Another Message',
     },
   }[language];
+
+  const mailtoUrl = `mailto:info@akhlaqibaatein.com?subject=${encodeURIComponent(
+    form.subject ? `[AkhlaqiBaatein] ${form.subject}` : 'AkhlaqiBaatein.com Contact Inquiry'
+  )}&body=${encodeURIComponent(
+    `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+  )}`;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -85,20 +94,56 @@ export default function ContactPage() {
     setIsSubmitting(true);
     setErrorMessage(null);
 
-    try {
-      const response = await fetch('/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(form),
-      });
+    const payload = {
+      name: form.name,
+      email: form.email,
+      _replyto: form.email,
+      _subject: `[AkhlaqiBaatein] ${form.subject}`,
+      subject: form.subject,
+      message: form.message,
+      _captcha: 'false',
+      _template: 'table',
+    };
 
-      const data = await response.json().catch(() => null);
-      if (response.ok && data?.success) {
+    try {
+      // 1. Direct FormSubmit AJAX
+      let isSuccess = false;
+      try {
+        const directRes = await fetch('https://formsubmit.co/ajax/info@akhlaqibaatein.com', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify(payload),
+        });
+        const directData = await directRes.json().catch(() => null);
+        if (directRes.ok && (directData?.success === true || directData?.success === 'true')) {
+          isSuccess = true;
+        }
+      } catch {
+        // Fallback to internal API proxy
+      }
+
+      // 2. Internal proxy fallback if direct client request was blocked by ad-blocker/CORS
+      if (!isSuccess) {
+        const proxyRes = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(form),
+        });
+        const proxyData = await proxyRes.json().catch(() => null);
+        if (proxyRes.ok && proxyData?.success) {
+          isSuccess = true;
+        }
+      }
+
+      if (isSuccess) {
         setSubmitted(true);
       } else {
-        setErrorMessage(data?.error || strings.errorFallback);
+        setErrorMessage(strings.errorFallback);
       }
     } catch {
       setErrorMessage(strings.errorFallback);
@@ -234,12 +279,23 @@ export default function ContactPage() {
                 {errorMessage && (
                   <div
                     role="alert"
-                    className={`flex items-start gap-2.5 p-3.5 rounded-2xl bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-900/50 text-xs sm:text-sm text-red-800 dark:text-red-300 ${
+                    className={`p-4 rounded-2xl bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-900/50 space-y-3 text-xs sm:text-sm text-red-800 dark:text-red-300 ${
                       isUrdu ? 'font-urdu leading-[1.9]' : ''
                     }`}
                   >
-                    <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
-                    <span>{errorMessage}</span>
+                    <div className="flex items-start gap-2.5">
+                      <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
+                      <span>{errorMessage}</span>
+                    </div>
+                    <div>
+                      <a
+                        href={mailtoUrl}
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-red-600 hover:bg-red-700 text-white font-semibold text-xs transition shadow-sm"
+                      >
+                        <Mail className="w-3.5 h-3.5" />
+                        <span>{strings.mailtoFallbackBtn}</span>
+                      </a>
+                    </div>
                   </div>
                 )}
 

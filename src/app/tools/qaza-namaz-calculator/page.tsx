@@ -10,7 +10,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/tools/qaza-namaz-calculator`;
 
 export const metadata: Metadata = {
-  title: 'قضاء نماز کیلکولیٹر و ٹریکر چارٹ | Qaza Namaz Calculator & Tracker | AkhlaqiBaatein.com',
+  title: 'قضاء نماز کیلکولیٹر و ٹریکر چارٹ | Qaza Namaz Calculator & Tracker',
   description:
     'عمر بھر کی چھوٹی ہوئی نمازوں (فجر تا وتر) کا شرعی حساب لگائیں، یومیہ ادائیگی کا ہدف مقرر کریں اور مفت پرنٹ ایبل ٹریکر شیٹ حاصل کریں۔ Qaza Namaz Calculator in Urdu & English.',
   keywords: [

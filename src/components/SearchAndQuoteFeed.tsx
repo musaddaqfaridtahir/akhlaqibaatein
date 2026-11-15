@@ -21,8 +21,8 @@ interface SearchAndQuoteFeedProps {
   excludeId?: string;
 }
 
-const INITIAL_VISIBLE_COUNT = 18;
-const LOAD_MORE_STEP = 24;
+const INITIAL_VISIBLE_COUNT = 50;
+const LOAD_MORE_STEP = 50;
 
 export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchAndQuoteFeedProps) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -32,6 +32,32 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
   const { language, t } = useLanguage();
 
   const isUrdu = language === 'ur';
+  const isRoman = language === 'ro';
+
+  // 5 Essential Category Filter Pills requested by user
+  const categoryPillsByLang = {
+    ur: [
+      { key: 'All', label: 'تمام' },
+      { key: 'ahkam-e-khuda', label: 'قرآنی احکام' },
+      { key: 'irshadat-e-nabawi', label: 'احادیثِ نبوی ﷺ' },
+      { key: 'aqwal-e-sahaba', label: 'اقوالِ صحابہؓ' },
+      { key: 'ambiya-o-hukama', label: 'اقوالِ حکماء' },
+    ],
+    ro: [
+      { key: 'All', label: 'Tamam' },
+      { key: 'ahkam-e-khuda', label: 'Qurani Ahkam' },
+      { key: 'irshadat-e-nabawi', label: 'Ahadith-e-Nabwi ﷺ' },
+      { key: 'aqwal-e-sahaba', label: 'Aqwal-e-Sahaba (RA)' },
+      { key: 'ambiya-o-hukama', label: 'Aqwal-e-Hukama' },
+    ],
+    en: [
+      { key: 'All', label: 'All' },
+      { key: 'ahkam-e-khuda', label: 'Quranic Guidance' },
+      { key: 'irshadat-e-nabawi', label: 'Prophetic Hadith ﷺ' },
+      { key: 'aqwal-e-sahaba', label: 'Sayings of Sahaba (RA)' },
+      { key: 'ambiya-o-hukama', label: 'Sayings of Sages' },
+    ],
+  }[language];
 
   const quickPillsByLang = {
     ur: [
@@ -159,8 +185,40 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
         </div>
       </div>
 
-      {/* Quick Topic Pills Bar (Swipeable on Mobile) */}
+      {/* 5 Primary Category Filter Pills Bar */}
       <div className="w-full max-w-full overflow-hidden pt-1 space-y-2.5">
+        <div className="flex items-center gap-2 overflow-x-auto pb-1 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
+          <span
+            className={`text-xs font-bold text-[#d4af37] uppercase tracking-wider px-1 hidden sm:inline shrink-0 ${
+              isUrdu ? 'font-urdu text-xs' : ''
+            }`}
+          >
+            {isUrdu ? 'بنیادی اقسام:' : isRoman ? 'Aqsam:' : 'Categories:'}
+          </span>
+          {categoryPillsByLang.map((pill) => {
+            const isActive = selectedCategory === pill.key;
+            return (
+              <button
+                key={pill.key}
+                onClick={() => {
+                  setSelectedCategory(pill.key);
+                  setVisibleCount(INITIAL_VISIBLE_COUNT);
+                }}
+                className={`px-3.5 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all shrink-0 cursor-pointer ${
+                  isUrdu ? 'font-urdu text-sm leading-normal' : ''
+                } ${
+                  isActive
+                    ? 'bg-[#d4af37] text-[#0a1411] shadow-sm font-black'
+                    : 'bg-white dark:bg-[#11221c] text-slate-800 dark:text-emerald-100 border border-stone-300 dark:border-emerald-800/60 hover:border-[#d4af37]'
+                }`}
+              >
+                {pill.label}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Quick Topic Pills Bar (Swipeable on Mobile) */}
         <div className="flex items-center gap-2 overflow-x-auto pb-1 -mx-3.5 px-3.5 sm:mx-0 sm:px-0 sm:flex-wrap no-scrollbar">
           <span
             className={`text-xs font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider px-1 hidden sm:inline shrink-0 ${
@@ -178,7 +236,7 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
                   setSelectedTag(pill.key);
                   setVisibleCount(INITIAL_VISIBLE_COUNT);
                 }}
-                className={`px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${
+                className={`px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all shrink-0 cursor-pointer ${
                   isUrdu ? 'font-urdu text-xs leading-normal' : ''
                 } ${
                   isActive
@@ -242,12 +300,12 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
         )}
       </div>
 
-      {/* Quotes Cards Grid */}
+      {/* Sleek Line-by-Line List of Quotes */}
       {filteredQuotes.length > 0 ? (
-        <div className="space-y-6 sm:space-y-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6">
-            {visibleQuotes.map((quote) => (
-              <QuoteCard key={quote.id} quote={quote} />
+        <div className="space-y-4 sm:space-y-5">
+          <div className="flex flex-col gap-3">
+            {visibleQuotes.map((quote, idx) => (
+              <QuoteCard key={quote.id} quote={quote} index={idx} />
             ))}
           </div>
 

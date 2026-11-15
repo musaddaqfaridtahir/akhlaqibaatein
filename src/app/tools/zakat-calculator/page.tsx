@@ -10,7 +10,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/tools/zakat-calculator`;
 
 export const metadata: Metadata = {
-  title: 'زکوٰۃ کیلکولیٹر (سونے، چاندی اور کیش کی زکوٰۃ) | Zakat Calculator in Urdu & English | AkhlaqiBaatein.com',
+  title: 'زکوٰۃ کیلکولیٹر (سونے، چاندی اور کیش کی زکوٰۃ) | Zakat Calculator',
   description:
     'سونے، چاندی، نقدی اور تجارتی مال کی 2.5% زکوٰۃ کا درست شرعی حساب لگائیں۔ تازہ ترین نصابِ چاندی و سونا اور فقہی احکام کے ساتھ۔ Zakat Calculator Urdu.',
   keywords: [

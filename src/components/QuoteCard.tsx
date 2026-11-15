@@ -52,12 +52,14 @@ function renderBadgeText(text: string): React.ReactNode {
 
 interface QuoteCardProps {
   quote: Quote;
+  index?: number;
   showCategoryBadge?: boolean;
   displayLanguage?: Language;
 }
 
 export default function QuoteCard({
   quote,
+  index,
   showCategoryBadge = true,
   displayLanguage,
 }: QuoteCardProps) {
@@ -66,6 +68,7 @@ export default function QuoteCard({
   const activeT = uiTranslations[activeLanguage];
   const [copied, setCopied] = useState(false);
   const [showStatusModal, setShowStatusModal] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const category = getCategoryBySlug(quote.category);
   const quoteText = getQuoteText(quote, activeLanguage);
@@ -83,6 +86,7 @@ export default function QuoteCard({
   const categoryTitle = category ? getCategoryTitle(category, activeLanguage) : quote.category;
 
   const isUrdu = activeLanguage === 'ur';
+  const isRoman = activeLanguage === 'ro';
 
   const handleCopy = () => {
     const quoteUrl = getLocalizedQuoteUrl(quote.slug, activeLanguage);
@@ -97,98 +101,52 @@ export default function QuoteCard({
   const handleWhatsAppShare = () => {
     const quoteUrl = getLocalizedQuoteUrl(quote.slug, activeLanguage);
     const message = encodeURIComponent(
-      `"${quoteText}"\n\n— ${quoteAuthor}\n\n${activeT.tashreehHeading}\n${cleanTashreeh.slice(0, 120)}...\n\n${quoteUrl}`
+      `"${quoteText}"\n\n— ${quoteAuthor}\n\n${cleanTashreeh.slice(0, 120)}...\n\n${quoteUrl}`
     );
     window.open(`https://api.whatsapp.com/send?text=${message}`, '_blank');
   };
 
   return (
     <>
-      <article className="group relative bg-white dark:bg-[#11221c] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-7 border border-stone-200/90 dark:border-emerald-800/60 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col justify-between overflow-hidden">
-        {/* Top Meta Header */}
-        <div className="flex items-center justify-between gap-2.5 mb-3.5 flex-wrap">
-          <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0" />
-            <span
-              className={`text-xs font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-2.5 py-0.5 rounded-full uppercase inline-flex items-center ${
-                isUrdu ? 'font-urdu text-xs leading-normal' : 'tracking-wide'
-              }`}
-            >
-              {renderBadgeText(quoteAuthor)}
-            </span>
-          </div>
+      <article className="group relative bg-white dark:bg-[#11221c] rounded-2xl p-4 sm:p-5 border border-stone-200/90 dark:border-emerald-800/60 shadow-xs hover:border-[#d4af37]/60 hover:shadow-md transition-all duration-200 flex flex-col gap-3 overflow-hidden">
+        {/* Top Header Row: Serial, Author, Category, and Action Buttons */}
+        <div className="flex items-center justify-between gap-2.5 flex-wrap">
+          <div className="flex items-center gap-2 flex-wrap">
+            {index !== undefined && (
+              <span className="px-2 py-0.5 rounded-lg bg-amber-500/15 text-amber-900 dark:text-[#d4af37] border border-amber-500/30 text-xs font-mono font-bold">
+                #{index + 1}
+              </span>
+            )}
 
-          {showCategoryBadge && category && (
-            <Link
-              href={`/category/${quote.category}`}
-              className={`text-xs px-2.5 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium inline-flex items-center ${
-                isUrdu ? 'font-urdu leading-normal' : ''
-              }`}
-            >
-              #{renderBadgeText(categoryTitle)}
-            </Link>
-          )}
-        </div>
-
-        {/* STRICT ISOLATED QUOTE DISPLAY (NO DOUBLE TITLE, COMPACT STATEMENT) */}
-        <div className="space-y-3 my-1 sm:my-2">
-          {/* Main Quote Text as the Sole Clear Statement */}
-          <div className="pt-0.5 pb-1">
-            <p
-              className={`text-slate-900 dark:text-[#f0fdf4] font-normal sm:font-medium transition break-words whitespace-pre-line ${
-                isUrdu
-                  ? 'font-urdu text-base sm:text-xl md:text-2xl leading-[1.9] sm:leading-[2.2] md:leading-[2.3] text-right'
-                  : 'text-sm sm:text-base md:text-lg leading-relaxed italic text-left'
-              }`}
-            >
-              {isUrdu ? quoteText : `“${quoteText}”`}
-            </p>
-          </div>
-
-          {/* Explanation / Tashreeh in Isolated Language (Self-Contained & Compact) */}
-          <div className="pt-1.5 text-xs sm:text-sm space-y-2">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-amber-500 shrink-0" />
               <span
-                className={`font-bold text-emerald-900 dark:text-emerald-300 flex items-center gap-1.5 ${
-                  isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
+                className={`text-xs font-bold text-amber-950 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 border border-amber-300/80 dark:border-amber-700/50 px-2.5 py-0.5 rounded-full inline-flex items-center ${
+                  isUrdu ? 'font-urdu text-xs leading-normal' : 'tracking-wide'
                 }`}
               >
-                <Sparkles className="w-3.5 h-3.5 text-amber-600 dark:text-amber-500 shrink-0" />
-                <span>{activeT.tashreehHeading}</span>
+                {renderBadgeText(quoteAuthor)}
               </span>
             </div>
 
-            <p
-              className={`line-clamp-2 text-slate-700 dark:text-emerald-100/90 whitespace-pre-line ${
-                isUrdu ? 'font-urdu text-xs sm:text-sm leading-[1.85] sm:leading-[1.95]' : 'text-xs sm:text-sm leading-relaxed'
-              }`}
-            >
-              {cleanTashreeh}
-            </p>
+            {showCategoryBadge && category && (
+              <Link
+                href={`/category/${quote.category}`}
+                className={`text-xs px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium inline-flex items-center ${
+                  isUrdu ? 'font-urdu leading-normal' : ''
+                }`}
+              >
+                #{renderBadgeText(categoryTitle)}
+              </Link>
+            )}
           </div>
 
-          {/* Source Citation - Only shown if canonical reference exists */}
-          {cleanSource && (
-            <div
-              className={`pt-1 flex items-center gap-1.5 text-xs text-slate-600 dark:text-emerald-200/80 ${
-                isUrdu ? 'font-urdu' : ''
-              }`}
-            >
-              <BookOpen className="w-3.5 h-3.5 text-emerald-700 dark:text-emerald-400 shrink-0" />
-              <span className="truncate">
-                <strong>{activeT.sourceHeading}</strong> {cleanSource}
-              </span>
-            </div>
-          )}
-        </div>
-
-        {/* Action Buttons Bar: Mobile-Optimized Grid & Flex on Tablet/Desktop */}
-        <div className="pt-3.5 mt-2 border-t border-stone-200 dark:border-emerald-800/40 flex flex-wrap items-center gap-2.5">
-          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center w-full sm:w-auto">
+          {/* Action Buttons Toolbar */}
+          <div className="flex items-center gap-1.5 sm:gap-2">
             {/* Copy Button */}
             <button
               onClick={handleCopy}
-              className={`col-span-1 min-h-[42px] px-3 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-emerald-900/60 dark:hover:bg-emerald-800/80 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 transition flex items-center justify-center gap-1.5 active:scale-95 ${
+              className={`px-2.5 py-1.5 rounded-xl text-xs font-semibold bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-emerald-900/60 dark:hover:bg-emerald-800/80 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 transition flex items-center gap-1 active:scale-95 cursor-pointer ${
                 isUrdu ? 'font-urdu' : ''
               }`}
               title={activeT.copyBtn}
@@ -196,13 +154,13 @@ export default function QuoteCard({
             >
               {copied ? (
                 <>
-                  <Check className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
-                  <span>{activeT.copiedBtn}</span>
+                  <Check className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
+                  <span className="hidden sm:inline">{activeT.copiedBtn}</span>
                 </>
               ) : (
                 <>
-                  <Copy className="w-4 h-4" />
-                  <span>{activeT.copyBtn}</span>
+                  <Copy className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">{activeT.copyBtn}</span>
                 </>
               )}
             </button>
@@ -210,30 +168,102 @@ export default function QuoteCard({
             {/* WhatsApp Share Button */}
             <button
               onClick={handleWhatsAppShare}
-              className={`col-span-1 min-h-[42px] px-3 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-emerald-900/60 dark:hover:bg-emerald-800/80 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 transition flex items-center justify-center gap-1.5 active:scale-95 ${
+              className={`px-2.5 py-1.5 rounded-xl text-xs font-semibold bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-emerald-900/60 dark:hover:bg-emerald-800/80 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 transition flex items-center gap-1 active:scale-95 cursor-pointer ${
                 isUrdu ? 'font-urdu' : ''
               }`}
               title={activeT.shareBtn}
               aria-label={activeT.shareBtn}
             >
-              <Share2 className="w-4 h-4" />
-              <span>{activeT.shareBtn}</span>
+              <Share2 className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">{activeT.shareBtn}</span>
             </button>
 
-            {/* Status Image Generator Button: Full width on mobile row 2 */}
+            {/* Status Image Generator Button */}
             <button
               onClick={() => setShowStatusModal(true)}
-              className={`col-span-2 sm:col-span-1 sm:w-auto min-h-[44px] px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-amber-500 hover:bg-amber-600 text-slate-950 dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 border border-amber-600/30 transition flex items-center justify-center gap-2 shadow-xs active:scale-95 ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-600 text-slate-950 dark:bg-amber-500 dark:hover:bg-amber-400 dark:text-slate-950 border border-amber-600/30 transition flex items-center gap-1 shadow-xs active:scale-95 cursor-pointer ${
                 isUrdu ? 'font-urdu' : ''
               }`}
-              title={activeT.downloadBtn}
-              aria-label={activeT.downloadBtn}
+              title="9:16 HD Status Image"
+              aria-label="9:16 HD Status Image"
             >
-              <Download className="w-4 h-4" />
-              <span>{activeT.downloadBtn}</span>
+              <Download className="w-3.5 h-3.5" />
+              <span>9:16</span>
             </button>
+
+            {/* Expandable Tashreeh Toggle Button */}
+            {cleanTashreeh && (
+              <button
+                onClick={() => setIsExpanded(!isExpanded)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1 active:scale-95 cursor-pointer ${
+                  isExpanded
+                    ? 'bg-emerald-800 text-white dark:bg-[#d4af37] dark:text-[#0a1411]'
+                    : 'bg-emerald-50 hover:bg-emerald-100 text-emerald-900 dark:bg-emerald-950/60 dark:hover:bg-emerald-900/80 dark:text-emerald-300 border border-emerald-300/80 dark:border-emerald-700/50'
+                }`}
+              >
+                <span className={isUrdu ? 'font-urdu text-xs' : ''}>
+                  {isExpanded
+                    ? isUrdu
+                      ? 'تشریح بند کریں ▴'
+                      : isRoman
+                      ? 'Band karein ▴'
+                      : 'Hide ▴'
+                    : isUrdu
+                    ? 'تشریح ▾'
+                    : isRoman
+                    ? 'Tashreeh ▾'
+                    : 'Explanation ▾'}
+                </span>
+              </button>
+            )}
           </div>
         </div>
+
+        {/* Clean Single-Line / Compact Statement in Nastaleeq */}
+        <div className="pt-1 pb-1">
+          <p
+            className={`text-slate-900 dark:text-[#f0fdf4] font-normal transition break-words ${
+              isUrdu
+                ? 'font-urdu text-lg sm:text-xl md:text-2xl leading-[1.85] sm:leading-[2.1] text-right'
+                : 'text-sm sm:text-base md:text-lg leading-relaxed italic text-left'
+            }`}
+          >
+            {isUrdu ? quoteText : `“${quoteText}”`}
+          </p>
+        </div>
+
+        {/* Expandable Tashreeh Details */}
+        {isExpanded && cleanTashreeh && (
+          <div className="pt-2 border-t border-stone-200 dark:border-emerald-800/40 text-xs sm:text-sm space-y-2.5 bg-stone-50/80 dark:bg-[#07130f]/60 p-3.5 rounded-xl animate-in fade-in duration-200">
+            <div className="flex items-center gap-1.5 text-emerald-900 dark:text-[#d4af37] font-bold">
+              <Sparkles className="w-3.5 h-3.5 text-amber-600 dark:text-amber-500 shrink-0" />
+              <span className={isUrdu ? 'font-urdu text-sm' : ''}>{activeT.tashreehHeading}</span>
+            </div>
+
+            <p
+              className={`text-slate-700 dark:text-emerald-100/90 whitespace-pre-line ${
+                isUrdu
+                  ? 'font-urdu text-xs sm:text-sm leading-[1.9] sm:leading-[2.0]'
+                  : 'text-xs sm:text-sm leading-relaxed'
+              }`}
+            >
+              {cleanTashreeh}
+            </p>
+
+            {cleanSource && (
+              <div
+                className={`pt-1.5 flex items-center gap-1.5 text-xs text-slate-600 dark:text-emerald-200/80 border-t border-stone-200 dark:border-emerald-800/30 ${
+                  isUrdu ? 'font-urdu' : ''
+                }`}
+              >
+                <BookOpen className="w-3.5 h-3.5 text-emerald-700 dark:text-emerald-400 shrink-0" />
+                <span className="truncate">
+                  <strong>{activeT.sourceHeading}</strong> {cleanSource}
+                </span>
+              </div>
+            )}
+          </div>
+        )}
       </article>
 
       {/* Status Image Generator Modal in Active Language (No duplicate title passed) */}

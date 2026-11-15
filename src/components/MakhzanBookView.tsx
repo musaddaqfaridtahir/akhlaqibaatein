@@ -226,9 +226,9 @@ export default function MakhzanBookView() {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-          {visibleQuotes.map((quote) => (
-            <QuoteCard key={quote.id} quote={quote} />
+        <div className="flex flex-col gap-3">
+          {visibleQuotes.map((quote, idx) => (
+            <QuoteCard key={quote.id} quote={quote} index={idx} />
           ))}
         </div>
 

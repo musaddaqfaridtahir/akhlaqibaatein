@@ -60,11 +60,11 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full max-w-full overflow-x-hidden backdrop-blur-md bg-white/95 dark:bg-[#0a1411]/95 border-b border-stone-200 dark:border-emerald-800/40 transition-colors shadow-xs">
-      {/* Tier 1: Top Bar (Brand Logo + Language Switcher + Theme Toggle + Mobile Menu Trigger) */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between gap-3 w-full">
-        {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2 sm:gap-3 group shrink-0 min-w-0">
+    <header dir="ltr" className="sticky top-0 z-50 w-full max-w-full overflow-x-hidden backdrop-blur-md bg-white/95 dark:bg-[#0a1411]/95 border-b border-stone-200 dark:border-emerald-800/40 transition-colors shadow-xs">
+      {/* Tier 1: Top Bar (Brand Logo on Left + Action Bar on Right - Locked permanently in LTR) */}
+      <div dir="ltr" className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex items-center justify-between gap-3 w-full">
+        {/* Brand Logo (Permanently Locked on Left) */}
+        <Link href="/" dir="ltr" className="flex items-center gap-2 sm:gap-3 group shrink-0 min-w-0">
           <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-emerald-800 to-emerald-600 flex items-center justify-center text-amber-300 shadow-md group-hover:scale-105 transition-transform shrink-0">
             <Sparkles className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
@@ -87,10 +87,10 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Right Action Bar */}
-        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-          {/* Desktop 3-Language Strict Switcher */}
-          <div className="hidden md:flex items-center bg-stone-100 dark:bg-[#11221c] p-1 rounded-2xl border border-stone-200 dark:border-emerald-800/50 shadow-xs">
+        {/* Right Action Bar (Permanently Locked on Right) */}
+        <div dir="ltr" className="flex items-center gap-2 sm:gap-3 shrink-0">
+          {/* Desktop 3-Language Strict Switcher - Order strictly [اردو] [Roman] [English] */}
+          <div dir="ltr" className="hidden md:flex items-center bg-stone-100 dark:bg-[#11221c] p-1 rounded-2xl border border-stone-200 dark:border-emerald-800/50 shadow-xs">
             <div className="flex items-center px-2 text-slate-500 dark:text-emerald-300/70">
               <Languages className="w-3.5 h-3.5 text-amber-600 dark:text-amber-500" />
             </div>
@@ -101,9 +101,9 @@ export default function Navbar() {
                   key={opt.code}
                   type="button"
                   onClick={() => handleLanguageSwitch(opt.code)}
-                  className={`px-3 py-1 text-xs rounded-xl font-bold transition-all cursor-pointer ${
+                  className={`min-w-[64px] px-3 py-1 text-xs rounded-xl font-bold transition-all text-center cursor-pointer ${
                     isActive
-                      ? 'bg-emerald-800 text-white shadow-sm scale-105'
+                      ? 'bg-emerald-800 text-white shadow-sm'
                       : 'text-slate-700 dark:text-slate-300 hover:text-emerald-800 dark:hover:text-emerald-300'
                   } ${opt.code === 'ur' ? 'font-urdu text-xs leading-normal' : ''}`}
                   title={`Switch to ${opt.label}`}
