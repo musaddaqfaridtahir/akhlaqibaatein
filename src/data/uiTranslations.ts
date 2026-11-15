@@ -9,6 +9,8 @@ export interface TranslationDictionary {
   duroodWazaif: string;
   masnoonDuain: string;
   naatSharif: string;
+  islamicTools: string;
+  statusMaker: string;
   articles: string;
   books: string;
   about: string;
@@ -81,6 +83,8 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     duroodWazaif: 'درود و وظائف',
     masnoonDuain: 'مسنون دعائیں',
     naatSharif: 'نعت شریف',
+    islamicTools: 'اسلامی کیلکولیٹرز',
+    statusMaker: 'اسٹیٹس میکر',
     articles: 'تحقیقی مضامین',
     books: 'کتب خانہ',
     about: 'ہمارا مشن',
@@ -151,6 +155,8 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     duroodWazaif: 'Durood & Wazaif',
     masnoonDuain: 'Masnoon Duain',
     naatSharif: 'Naat Sharif',
+    islamicTools: 'Islamic Tools',
+    statusMaker: 'Status Maker',
     articles: 'Mazameen',
     books: 'Kutub Khana',
     about: 'Hamara Mission',
@@ -221,6 +227,8 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     duroodWazaif: 'Durood & Wazaif',
     masnoonDuain: 'Daily Duas',
     naatSharif: 'Naat Sharif',
+    islamicTools: 'Islamic Tools',
+    statusMaker: 'Status Maker',
     articles: 'Articles',
     books: 'Books Library',
     about: 'Our Mission',

@@ -72,8 +72,8 @@ export function getDuaCategoryLabel(cat: DuaCategory, lang: Language): string {
       en: 'Daily Supplications & Travel',
     },
     Ilm: {
-      ur: 'علم و نافع حکمت میں اضافہ',
-      ro: 'Ilm aur Hikmat mein Izafa',
+      ur: 'علم، ذہانت و حافظہ',
+      ro: 'Ilm aur Hafza mein Izafa',
       en: 'Knowledge, Memory & Wisdom',
     },
     Walidain: {
@@ -88,138 +88,138 @@ export function getDuaCategoryLabel(cat: DuaCategory, lang: Language): string {
 export const duainList: DuaItem[] = [
   {
     id: 'dua-1',
-    slug: 'preshani-aur-gham-se-nijat-ki-dua',
+    slug: 'preshani-aur-bechaini-ki-dua',
     title: {
-      ur: 'پریشانی، بے چینی اور غم سے نجات کی مسنون دعا',
+      ur: 'پریشانی، بے چینی اور غم سے نجات کی دعا',
       ro: 'Preshani, Bechaini aur Gham se Nijat ki Dua',
-      en: 'Dua for Relief from Anxiety, Sorrow, and Distress',
+      en: 'Dua for Relief from Anxiety, Sorrow, and Mental Distress',
     },
     arabicText:
       'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ',
     urduTranslation:
       'اے اللہ! میں غم اور فکر سے تیری پناہ مانگتا ہوں، اور عاجزی و سستی سے تیری پناہ چاہتا ہوں، اور بزدلی و کنجوسی سے تیری پناہ مانگتا ہوں، اور قرض کے بوجھ اور لوگوں کے غلبے و دباؤ سے تیری پناہ چاہتا ہوں۔',
     romanUrdu:
-      'Allahumma inni a’oodhu bika minal-hammi wal-hazan, wa a’oodhu bika minal-’ajzi wal-kasal, wa a’oodhu bika minal-jubni wal-bukhl, wa a’oodhu bika min ghalabatid-dayni wa qahrir-rijal.',
+      'Allahumma inni a’oodhu bika minal-hammi wal-hazani, wa a’oodhu bika minal-‘ajzi wal-kasali, wa a’oodhu bika minal-jubni wal-bukhli, wa a’oodhu bika min ghalabatid-dayni wa qahrir-rijal.',
     englishTranslation:
-      'O Allah, I seek refuge in You from grief and sorrow, from helplessness and laziness, from cowardice and miserliness, and from the burden of debt and the oppression of men.',
+      'O Allah! I seek refuge in You from grief and sorrow, from incapacity and laziness, from cowardice and miserliness, and from being overcome by debt and oppressed by men.',
     fazilat: {
-      ur: 'یہ جامع اور پرتاثیر دعا حضور نبی کریم ﷺ صبح و شام کثرت سے پڑھا کرتے تھے۔ حضرت انس بن مالکؓ فرماتے ہیں کہ میں رسول اللہ ﷺ کے ساتھ کثرت سے رہتا تھا اور آپ ﷺ کو اکثر یہ دعا مانگتے سنتا تھا۔ اس دعا میں انسان کو لاحق ہونے والی ہر قسم کی ذہنی بے چینی، مستقبل کے اندیشوں (الہم)، ماضی کے صدمات (الحزن)، جسمانی کمزوری، مالی بحران اور ظالموں کے دباؤ سے نجات طلب کی گئی ہے۔ علمائے ربانیین فرماتے ہیں کہ جو شخص ہر صبح و شام صدقِ دل سے اس دعا کو تین یا گیارہ مرتبہ اپنا معمول بنا لے، اللہ تعالیٰ اس کی پریشانیوں کو راحت میں بدل دیتا ہے اور اس کے دل کو سکونِ قلب عطا فرماتا ہے۔',
-      ro: 'Huzoor Nabi Kareem ﷺ subah o sham is mubarak dua ka wird bakasrat farmate thay. Is dua mein zehni bechaini, mustaqbil ke khof, maazi ke dukh, susti, qarz ke dabao aur logon ke zulm se panah mangi gayi hai. Jo shakhs subah o sham iska wird kare, Allah uske dilon ko sakoon o itminan bakhsh deta hai.',
-      en: 'This profound Prophetic invocation covers the core ailments of human life: psychological anxiety, sorrow over past events, physical indolence, financial burden, and oppression by ruthless individuals. Authentic reports confirm that Prophet Muhammad ﷺ recited it regularly in the morning and evening for complete emotional and spiritual fortitude.',
+      ur: 'یہ مبارک دعا جامع ترین نبوی اذکار میں سے ہے۔ حضرت ابو سعید خدریؓ سے روایت ہے کہ رسول اللہ ﷺ نے مسجدِ نبوی میں ایک پریشان حال انصاری صحابی حضرت ابو امامہؓ کو دیکھ کر فرمایا: "کیا میں تمہیں ایسے کلمات نہ سکھاؤں کہ جب تم انہیں پڑھو تو اللہ تمہارا غم دور فرما دے اور تمہارا قرض ادا کر دے؟" انہوں نے کہا: کیوں نہیں یا رسول اللہ! آپ ﷺ نے یہ دعا صبح و شام پڑھنے کی تلقین فرمائی۔ حضرت ابو امامہؓ فرماتے ہیں کہ میں نے یہ عمل اپنایا تو اللہ نے میرا سارا غم دور کر دیا اور میرا قرض اتار دیا۔',
+      ro: 'Yeh dua pareshani aur dukhon ke dauran qalb ko sukoon bakhshti hai. Huzoor ﷺ ne Hazrat Abu Umamah (R.A) ko yeh dua subah aur sham parhne ki hidayat farmayi jis se unke qarz aur gham door ho gaye.',
+      en: 'Reported by Sahih Bukhari, this comprehensive prophetic prayer shields the heart against anxiety, sorrow, lethargy, crippling debt, and human oppression. Scholars advise reciting it daily with unwavering faith.',
     },
     reference: {
-      ur: 'صحیح البخاری: 2893، سنن ابی داؤد: 1555',
-      ro: 'Sahih al-Bukhari: 2893, Sunan Abi Dawud: 1555',
-      en: 'Sahih al-Bukhari: 2893, Sunan Abi Dawud: 1555',
+      ur: 'صحیح بخاری: 2893، سنن ابی داؤد: 1555 (صحیح)',
+      ro: 'Sahih Bukhari: 2893, Sunan Abi Dawud: 1555',
+      en: 'Sahih Bukhari: 2893, Sunan Abi Dawud: 1555 (Sahih)',
     },
     category: 'Mushkilat',
     recommendedCount: 33,
     seoKeywords: [
       'Preshani ki dua',
       'Gham se nijat ki dua',
+      'Allahumma inni aoodhu bika minal hammi',
       'Dua for anxiety and depression Islam',
-      'Allahumma inni aoodhu bika minal hammi wal hazan',
-      'پریشانی کی دعا',
-      'بے چینی دور کرنے کی دعا',
+      'پریشانی کی مسنون دعا',
+      'غم سے نجات کی دعا',
     ],
     faqs: [
       {
         question: {
-          ur: 'یہ دعا کس وقت پڑھنا سب سے زیادہ مفید ہے؟',
-          ro: 'Yeh dua kis waqt parhna afzal hai?',
-          en: 'When is the best time to recite this supplication?',
+          ur: 'اس دعا کو دن میں کتنی مرتبہ پڑھنا مسنون ہے؟',
+          ro: 'Is dua ko din mein kitni martaba parhna chahiye?',
+          en: 'How many times should this Dua be recited daily?',
         },
         answer: {
-          ur: 'صبح کی نماز کے بعد اور عصر یا مغرب کے وقت کم از کم 3 تا 7 مرتبہ پڑھنا انتہائی مجرب اور سنتِ نبوی ہے۔',
-          ro: 'Subah Fajar ke baad aur sham Asar ya Maghrib ke waqt 3 se 7 bar parhna sunnat aur mujarrab hai.',
-          en: 'It is highly recommended following the Fajr prayer and in the evening during Maghrib supplications.',
+          ur: 'صبح و شام 3 یا 7 مرتبہ، اور شدید ذہنی تناؤ کے وقت 33 مرتبہ پڑھنا مجرب ہے۔',
+          ro: 'Subah o sham 3 ya 7 martaba, aur shadeed pareshani ke waqt 33 bar parhein.',
+          en: 'Reciting it 3 or 7 times morning and evening, or 33 times during distress, brings deep serenity.',
         },
       },
     ],
   },
   {
     id: 'dua-2',
-    slug: 'qarz-utarne-aur-kushadgi-rizq-ki-dua',
+    slug: 'qarz-se-nijat-aur-rizq-ki-dua',
     title: {
-      ur: 'قرض سے نجات اور رزق میں کشادگی و برکت کی مسنون دعا',
-      ro: 'Qarz se Nijat aur Kushadgi-e-Rizq ki Dua',
-      en: 'Dua for Payment of Debts and Abundance in Halal Sustenance',
+      ur: 'قرض کی ادائیگی اور کشادگیٔ رزق کی دعا',
+      ro: 'Qarz ki Adayegi aur Kushadgi-e-Rizq ki Dua',
+      en: 'Dua for Paying Off Debts and Attracting Abundant Halal Sustenance',
     },
     arabicText:
       'اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ',
     urduTranslation:
-      'اے اللہ! مجھے حلال رزق دے کر حرام سے بچا لے، اور اپنے فضل و کرم سے مجھے اپنے سوا ہر ایک سے بے نیاز فرما دے۔',
+      'اے اللہ! مجھے اپنے حلال کے ساتھ اپنے حرام سے بے نیاز و کافی کر دے، اور مجھے اپنے فضل و کرم کے ذریعے اپنے سوا ہر کسی سے غنی و بے پروا بنا دے۔',
     romanUrdu:
-      'Allahummak-finee bi halalika ‘an haramika, wa aghninee bi fadlika ‘amman siwak.',
+      'Allahummak-fini bi-halalika ‘an haramika, wa aghnini bi-fadlika ‘amman siwaka.',
     englishTranslation:
-      'O Allah, suffice me with Your lawful provisions against Your unlawful ones, and enrich me by Your grace from anyone other than You.',
+      'O Allah! Suffice me with what is lawful against what is unlawful, and enrich me with Your bounty so that I depend on none other than You.',
     fazilat: {
-      ur: 'جامع ترمذی کی صحیح روایت کے مطابق حضرت علی المرتضیٰ رضی اللہ عنہ کے پاس ایک مقروض شخص آیا جس پر بوجھ تھا۔ آپؓ نے فرمایا: کیا میں تمہیں وہ پرتاثیر کلمات نہ سکھاؤں جو مجھے رسول اللہ ﷺ نے سکھائے تھے؟ اگر تمہارے اوپر صِیر پہاڑ کے برابر بھی قرض کا بوجھ ہو تو اللہ تعالیٰ تمہاری طرف سے اس کی ادائیگی کا غیبی سامان فرما دے گا۔ اس دعا میں انسان اللہ سے حلال کی برکت اور غیر اللہ کی محتاجی سے استغناء مانگتا ہے۔ رزق میں حلال کی توفیق اور استقامت کا یہ سب سے مستند اور جامع وظیفہ ہے۔',
-      ro: 'Hazrat Ali (R.A) ne farmaya ke Huzoor ﷺ ne unhein yeh azeem dua sikhayi aur farmaya ke agar tum par pahar ke barabar bhi qarz ho to Allah use ada farma dega. Is dua mein halal rizq aur ghair Allah se beniyazi ki darkhwast hai.',
-      en: 'Sayyiduna Ali (R.A) related that the Prophet Muhammad ﷺ taught him this powerful supplication, stating that even if one had debts as immense as Mount Sir, Allah would facilitate their repayment through His miraculous provision of Halal sustenance.',
+      ur: 'جامع ترمذی کی صحیح روایت ہے کہ ایک مقروض شخص حضرت علی المرتضیٰؓ کے پاس حاضر ہوا اور کہا کہ میں قرض ادا کرنے سے عاجز آ گیا ہوں، میری مدد فرمائیے۔ حضرت علیؓ نے فرمایا: "کیا میں تمہیں وہ مبارک کلمات نہ سکھاؤں جو رسول اللہ ﷺ نے مجھے سکھائے تھے؟ اگر تمہارے ذمے صِیر پہاڑ کے برابر بھی قرض ہوا تو اللہ تعالیٰ تمہاری طرف سے اسے ادا فرما دے گا۔" پھر آپؓ نے یہ دعا سکھائی۔ یہ دعا مالی تنگی دور کرنے اور حلال رزق میں برکت کا نبوی وظیفہ ہے۔',
+      ro: 'Hazrat Ali (R.A) ne farmaya ke agar pahar ke barabar bhi qarz ho to Allah is dua ki barkat se ada farma dega. Yeh halal rozi aur rizq ki barakat ka mustanad azim wazifa hai.',
+      en: 'Narrated in Jami` at-Tirmidhi, Ali ibn Abi Talib (R.A) taught this prayer to an indebted individual, stating that even if a debt were the size of a great mountain, Allah would facilitate its settlement through sincere recitation.',
     },
     reference: {
-      ur: 'جامع ترمذی: 3563 (حدیث حسن)، مسند احمد: 1319',
+      ur: 'جامع ترمذی: 3563، مسند احمد: 1319 (حسن صحیح)',
       ro: 'Jami` at-Tirmidhi: 3563, Musnad Ahmad: 1319',
-      en: 'Jami` at-Tirmidhi: 3563 (Hasan), Musnad Ahmad: 1319',
+      en: 'Jami` at-Tirmidhi: 3563, Musnad Ahmad: 1319 (Hasan Sahih)',
     },
     category: 'Rizq',
     recommendedCount: 41,
     seoKeywords: [
       'Qarz utarne ki dua',
-      'Rizq mein barkat ki dua',
-      'Allahummakfini bihalalika an haramik',
+      'Rizq ki dua',
+      'Allahummakfini bi halalika',
       'Dua for paying off debt',
-      'قرض کی دعا',
-      'رزق کی کشادگی',
+      'قرض سے نجات کی دعا',
+      'رزق میں برکت کی دعا',
     ],
     faqs: [
       {
         question: {
-          ur: 'اس دعا کا روزانہ ورد کتنی تعداد میں کرنا چاہیے؟',
-          ro: 'Is dua ka wird rozana kitni bar karein?',
-          en: 'How many times should this prayer be recited daily?',
+          ur: 'کیا نماز کے بعد یہ دعا پڑھ سکتے ہیں؟',
+          ro: 'Kya namaz ke baad yeh dua parh sakte hain?',
+          en: 'Can this Dua be recited after obligatory prayers?',
         },
         answer: {
-          ur: 'ہر نماز کے بعد 11 مرتبہ اور سونے سے پہلے 33 یا 100 مرتبہ پڑھنا کشادگیِ رزق کے لیے بے حد مؤثر ہے۔',
-          ro: 'Har namaz ke baad 11 martaba aur raat ko 33 ya 100 bar parhna nihayat mufeed hai.',
-          en: 'Reciting it 11 times after obligatory prayers and 33 or 100 times before sleep brings profound openings.',
+          ur: 'جی ہاں، ہر فرض نماز کے بعد 11 یا 21 مرتبہ پڑھنا رزق کی تنگی دور کرنے میں بے حد مؤثر ہے۔',
+          ro: 'Har namaz ke baad 11 ya 21 martaba parhna nihayat faydemand hai.',
+          en: 'Reciting it 11 or 21 times after each obligatory prayer facilitates debt relief and blessed income.',
         },
       },
     ],
   },
   {
     id: 'dua-3',
-    slug: 'nazar-e-bad-aur-hifazat-ki-dua',
+    slug: 'nazar-e-bad-se-hifazat-ki-dua',
     title: {
-      ur: 'نظرِ بد، حاسدین اور ہر شر سے بچوں و گھر کی حفاظت کی دعا',
+      ur: 'نظرِ بد اور ہر شر سے حفاظت کی دعا',
       ro: 'Nazar-e-Bad aur Har Shar se Hifazat ki Dua',
-      en: 'Dua for Protection from Evil Eye, Harm, and Jealousy',
+      en: 'Dua for Protection Against the Evil Eye, Envy, and Harm',
     },
     arabicText:
-      'أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ، مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لَامَّةٍ',
+      'أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لَامَّةٍ',
     urduTranslation:
-      'میں اللہ تعالیٰ کے مکمل اور پرتاثیر کلمات کی پناہ مانگتا ہوں ہر شیطان اور زہریلے جانور سے، اور ہر نقصان پہنچانے والی نظرِ بد سے۔',
+      'میں پناہ مانگتا ہوں اللہ کے مکمل کلمات کے ساتھ، ہر شیطان سے اور ہر زہریلے جانور سے، اور ہر لگ جانے والی نظرِ بد سے۔',
     romanUrdu:
       'A’oodhu bi-kalimatil-lahit-tammati min kulli shaytanin wa hammah, wa min kulli ‘aynin lammah.',
     englishTranslation:
-      'I seek refuge in the perfect words of Allah from every devil and poisonous reptile, and from every harmful and envious evil eye.',
+      'I seek refuge in the perfect words of Allah from every devil and poisonous creature, and from every evil, envious eye.',
     fazilat: {
-      ur: 'صحیح البخاری کی مستند روایت ہے کہ حضرت ابراہیم علیہ السلام اپنے بیٹوں حضرت اسماعیل اور حضرت اسحاق علیہما السلام کو ان کلمات کے ذریعے اللہ کی پناہ میں دیا کرتے تھے۔ بعد ازاں حضور اقدس ﷺ اپنے نواسوں حضرت حسن اور حضرت حسین رضی اللہ عنہما پر دم فرماتے اور ارشاد فرماتے کہ تمہارے جدِ امجد ابراہیمؑ بھی اپنے فرزندوں کو انہی کلمات سے پناہ دیا کرتے تھے۔ یہ دعا بچوں، گھر، اہلِ خانہ اور کاروبار کو حسد، نظرِ بد اور خبیث اثرات سے محفوظ رکھنے کے لیے ایک ناقابلِ تسخیر روحانی قلعہ ہے۔',
-      ro: 'Sahih Bukhari mein marwi hai ke Huzoor ﷺ Hazrat Imam Hasan aur Imam Hussain (R.A) ko inhi mubarak kalimaat ke zariye dam farmaya karte thay. Yeh dua nazar-e-bad aur shar se hifazat ka lajawab hisar hai.',
-      en: 'Prophet Muhammad ﷺ was accustomed to seeking protection for his beloved grandsons, Al-Hasan and Al-Husayn, with these timeless words, affirming that Patriarch Abraham (A.S) used to seek refuge for Ishmael and Isaac with the exact same invocation.',
+      ur: 'صحیح بخاری کی متفق علیہ حدیث کے مطابق رسول اللہ ﷺ حضرت حسنؓ اور حضرت حسینؓ پر دم فرماتے ہوئے ارشاد فرماتے تھے: "تمہارے جدِ امجد سیدنا ابراہیم علیہ السلام اپنے دونوں بیٹوں اسماعیل اور اسحاق علیہما السلام کے لیے یہی کلمات پڑھ کر پناہ مانگا کرتے تھے۔" نظرِ بد برحق ہے اور انسان کو نقصان پہنچا سکتی ہے، لہٰذا بچوں، گھر اور کاروبار کو نظرِ بد سے بچانے کے لیے اس نبوی حصار کو روزانہ پڑھنا چاہیے۔',
+      ro: 'Huzoor ﷺ Hazrat Hassan aur Hussain (R.A) ko yeh dua parh kar dam farmate the. Bachon aur ghar walon ko nazar-e-bad se bachane ke liye yeh behtareen nabawi hisar hai.',
+      en: 'Recorded in Sahih Bukhari, the Prophet Muhammad ﷺ would seek divine protection for his grandsons Hasan and Husayn (R.A) with this supplication, affirming that Prophet Ibrahim (A.S) used the exact prayer for Ismail and Ishaq (A.S).',
     },
     reference: {
-      ur: 'صحیح البخاری: 3371، سنن ابی داؤد: 4737',
-      ro: 'Sahih al-Bukhari: 3371, Sunan Abi Dawud: 4737',
-      en: 'Sahih al-Bukhari: 3371, Sunan Abi Dawud: 4737',
+      ur: 'صحیح بخاری: 3371، سنن ابی داؤد: 4737',
+      ro: 'Sahih Bukhari: 3371, Sunan Abi Dawud: 4737',
+      en: 'Sahih Bukhari: 3371, Sunan Abi Dawud: 4737 (Sahih)',
     },
     category: 'Hifazat',
     recommendedCount: 33,
     seoKeywords: [
-      'Nazar e bad ki dua',
-      'Bachon ki hifazat ki dua',
-      'Aoodhu bikalimatillahit tammati',
+      'Nazar ki dua',
+      'Nazar e bad se bachne ki dua',
+      'Aoodhu bi kalimatillahit tammah',
       'Dua for evil eye protection',
       'نظر بد کی دعا',
       'حفاظت کی دعا',
@@ -227,227 +227,181 @@ export const duainList: DuaItem[] = [
     faqs: [
       {
         question: {
-          ur: 'کیا یہ دعا بچوں پر دم کی جا سکتی ہے؟',
-          ro: 'Kya yeh dua bachon par dam ki ja sakti hai?',
-          en: 'Can this prayer be recited and blown over children?',
+          ur: 'کیا بچوں پر اس دعا کا دم کیا جا سکتا ہے؟',
+          ro: 'Kya bachon par dam kar sakte hain?',
+          en: 'Can this be recited and blown over children?',
         },
         answer: {
-          ur: 'جی ہاں! 3 مرتبہ پڑھ کر دونوں ہاتھوں پر پھونک ماریں اور بچے کے پورے جسم پر ہاتھ پھیر لیں۔',
-          ro: 'Ji haan, 3 bar parh kar bachon par dam karna azeem sunnat-e-nabawi hai.',
-          en: 'Yes, recite it three times, blow into your hands, and pass them over the child’s body.',
+          ur: 'جی ہاں! 3 مرتبہ پڑھ کر بچوں پر پھونکنا عین سنتِ نبوی ﷺ ہے۔',
+          ro: 'Ji haan, 3 bar parh kar bachon par dam karna sunnat hai.',
+          en: 'Yes, reciting 3 times and gently blowing over infants is directly in accordance with prophetic practice.',
         },
       },
     ],
   },
   {
     id: 'dua-4',
-    slug: 'bimari-se-shifa-ki-masnoon-dua',
+    slug: 'bimari-aur-dard-se-shifa-ki-dua',
     title: {
-      ur: 'بیماری، تکلیف اور جسمانی درد سے کامل شفاء کی مسنون دعا',
-      ro: 'Bimari aur Dard se Kamil Shifa ki Dua',
-      en: 'Prophetic Supplication for Healing, Sickness, and Complete Recovery',
+      ur: 'بیماری اور جسمانی درد سے شفاء کی مسنون دعا',
+      ro: 'Bimari aur Dard se Shifa ki Masnoon Dua',
+      en: 'Prophetic Dua for Healing Sickness, Pain, and Physical Suffering',
     },
     arabicText:
-      'أَذْهِبِ الْبَأْسَ رَبَّ النَّاسِ، اشْفِ وَأَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا',
+      'اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَاسَ، اشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا',
     urduTranslation:
-      'اے تمام انسانوں کے پروردگار! تکلیف کو دور فرما دے، شفاء عطا فرما، تو ہی شفاء دینے والا ہے، تیری شفاء کے سوا کوئی شفاء نہیں، ایسی شفاء عطا فرما جو کسی بیماری اور درد کو باقی نہ چھوڑے۔',
+      'اے اللہ! لوگوں کے پالنے والے پروردگار! تکلیف کو دور فرما دے، شفاء عطا فرما، تو ہی شفاء دینے والا ہے، تیرے سوا کوئی شفاء دینے والا نہیں، ایسی شفاء نصیب فرما جو کسی بیماری کو باقی نہ چھوڑے۔',
     romanUrdu:
-      'Adh-hibil-ba’sa Rabban-nas, ishfi wa Antash-Shafi, la shifa’a illa shifa’uk, shifa’an la yughadiru saqama.',
+      'Allahumma Rabban-nasi, adh-hibil-ba’s, ishfi antash-Shafi, la shifa’a illa shifa’uk, shifa’an la yughadiru saqama.',
     englishTranslation:
-      'Remove the harm, O Lord of mankind, and heal; for You are the Healer. There is no cure except Your cure, a cure that leaves behind no sickness.',
+      'O Allah, Lord of mankind! Remove the suffering and grant cure. You are the Ultimate Healer; there is no healing except Yours—a cure that leaves behind no disease.',
     fazilat: {
-      ur: 'ام المومنین حضرت عائشہ صدیقہ رضی اللہ عنہا فرماتی ہیں کہ جب رسول اللہ ﷺ اپنے گھرانے کے کسی فرد کی تیمارداری فرماتے یا خود طبیعت ناساز ہوتی تو اپنے دائیں ہاتھ سے مریض کو چھوتے اور یہ دعا تلاوت فرماتے۔ یہ دعا توحیدِ شفاء کا ایسا شاہکار ہے جس میں اعتراف کیا گیا ہے کہ مادی دوائیں محض سبب ہیں، حقیقی شفاء بخشنے والی ذات صرف اور صرف اللہ رب العزت کی ہے۔ کسی بھی جسمانی، قلبی یا دائمی بیماری کے وقت مریض پر دم کرنا سنتِ متواترہ ہے۔',
-      ro: 'Sayyidah Aisha (R.A) farmati hain ke Rasoolullah ﷺ beemar ki ayadat ke waqt apna dayaan hath mubarak mariz par phairte aur yeh azeem dua parhte. Yeh dua har beemari ke liye azeem shifa hai.',
-      en: 'Lady Aisha (R.A) narrated that whenever the Messenger of Allah ﷺ visited the sick, he would place his right hand on the affected area and recite this sacred supplication, acknowledging Allah as the sole true Healer of all ailments.',
+      ur: 'حضرت عائشہ صدیقہؓ فرماتی ہیں کہ رسول اللہ ﷺ جب بھی اپنے گھر کے کسی بیمار کی عیادت فرماتے تو اپنا دایاں ہاتھ اس کے درد کے مقام پر رکھتے اور یہ مبارک دعا پڑھتے تھے۔ اللہ تعالیٰ ہی شافیِ مطلق ہے اور مادی ادویات کے ساتھ اس مسنون دعا کا اہتمام شفاء کی رفتار کو تیز تر کر دیتا ہے۔ کینسر، بخار، آپریشن یا دائمی امراض میں مبتلا احباب کے لیے یہ اکسیرِ اعظم ہے۔',
+      ro: 'Huzoor ﷺ mareez ki ayadat ke waqt apna daayan haath dard ki jagah rakh kar yeh dua parha karte the. Shifa ke liye yeh behtareen roohani nuskha hai.',
+      en: 'Whenever visiting the sick, Prophet Muhammad ﷺ would place his blessed right hand upon the area of pain and invoke this prayer (Sahih Bukhari & Muslim). It represents an unmatched spiritual remedy alongside medical care.',
     },
     reference: {
-      ur: 'صحیح البخاری: 5743، صحیح مسلم: 2191',
-      ro: 'Sahih al-Bukhari: 5743, Sahih Muslim: 2191',
-      en: 'Sahih al-Bukhari: 5743, Sahih Muslim: 2191',
+      ur: 'صحیح بخاری: 5743، صحیح مسلم: 2191',
+      ro: 'Sahih Bukhari: 5743, Sahih Muslim: 2191',
+      en: 'Sahih Bukhari: 5743, Sahih Muslim: 2191 (Agreed Upon)',
     },
     category: 'Sehat',
-    recommendedCount: 33,
+    recommendedCount: 41,
     seoKeywords: [
       'Bimari se shifa ki dua',
       'Dard ki dua',
-      'Adhhibil basa rabban nas',
-      'Islamic dua for health and healing',
+      'Allahumma rabban nas adhhibil bas',
+      'Dua for sick health Shifa',
       'شفا کی دعا',
       'بیماری کی دعا',
     ],
     faqs: [
       {
         question: {
-          ur: 'درد والے مقام پر ہاتھ رکھ کر پڑھنا کیسا ہے؟',
-          ro: 'Kya dard wale maqam par hath rakh kar parhein?',
-          en: 'Should one place their hand on the painful area while reciting?',
+          ur: 'کیا درد کی جگہ ہاتھ رکھ کر پڑھنا ضروری ہے؟',
+          ro: 'Kya dard wali jagah par haath rakhna zaroori hai?',
+          en: 'Should one place their hand over the painful area while reciting?',
         },
         answer: {
-          ur: 'جی ہاں، دایاں ہاتھ درد یا تکلیف والے حصے پر رکھ کر 7 مرتبہ یہ دعا پڑھنا سنت ہے۔',
-          ro: 'Ji haan, dayaan hath dard ki jagah rakh kar 7 martaba parhna sunnat-e-nabawi hai.',
-          en: 'Yes, placing the right hand over the pain and repeating it seven times follows prophetic tradition.',
+          ur: 'جی ہاں، درد کی جگہ پر دایاں ہاتھ رکھ کر 7 مرتبہ یہ دعا پڑھنا سنت ہے۔',
+          ro: 'Dard ki jagah daayan haath rakh kar 7 martaba parhna sunnat hai.',
+          en: 'Yes, resting your right hand over the pain and reciting 7 times aligns with sunnah.',
         },
       },
     ],
   },
   {
     id: 'dua-5',
-    slug: 'musibat-aur-sakhti-ke-waqt-ki-dua',
+    slug: 'sakht-musibat-ke-waqt-ki-dua',
     title: {
-      ur: 'شدید مصیبت، کرب اور بندشوں کے وقت کی قرآنی دعا (دعاۓ یونسؑ)',
-      ro: 'Musibat aur Sakhti ke Waqt ki Dua (Dua-e-Yunus)',
-      en: 'Dua of Prophet Yunus (A.S) for Overcoming Calamity and Impossible Hardships',
+      ur: 'شدید مصیبت اور کرب کے وقت آیتِ کریمہ کی دعا',
+      ro: 'Sakht Musibat aur Karb ke Waqt Ayat-e-Kareema ki Dua',
+      en: 'Ayat-e-Kareema: The Powerful Supplication for Impossible Hardships and Peril',
     },
-    arabicText: 'لَا إِلٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ',
+    arabicText:
+      'لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ',
     urduTranslation:
-      'تیرے سوا کوئی معبودِ برحق نہیں، تو ہر عیب و نقص سے پاک ہے، بے شک میں ہی اپنی جان پر زیادتی اور قصور کرنے والوں میں سے تھا۔',
-    romanUrdu: 'La ilaha illa Anta subhanaka inni kuntu minaz-zalimeen.',
+      'تیرے سوا کوئی معبود نہیں، تو ہر عیب اور نقص سے پاک ہے، بے شک میں ہی کوتاہی کرنے والوں اور قصورواروں میں سے ہوں۔',
+    romanUrdu:
+      'La ilaha illa anta subhanaka inni kuntu minaz-zalimeen.',
     englishTranslation:
-      'There is no deity worthy of worship except You; exalted are You. Indeed, I have been of the wrongdoers.',
+      'There is no deity worthy of worship except You; exalted are You! Truly, I have been among the wrongdoers.',
     fazilat: {
-      ur: 'قرآنِ حکیم میں حضرت یونس علیہ السلام کے مچھلی کے پیٹ میں پکارنے کا واقعہ بیان ہوا ہے۔ رسول اللہ ﷺ نے ارشاد فرمایا: "دعاۓ ذوالنون (یونسؑ) جو انہوں نے مچھلی کے پیٹ میں مانگی تھی، کوئی بھی مسلمان کسی بھی مشکل و مصیبت میں اس دعا کے ذریعے اللہ کو پکارے گا، اللہ تعالیٰ لازماً اس کی دعا قبول فرمائے گا۔" اس آیتِ کریمہ میں توحید، تسبیح اور اپنے گناہوں کے اعتراف (استغفار) کا ایسا سنگم ہے جو بڑی سے بڑی ناممکن مصیبت کو آنِ واحد میں ٹال دیتا ہے۔',
-      ro: 'Rasoolullah ﷺ ne farmaya ke jo musalman bhi kisi sakht musibat mein Ayat-e-Kareema parh kar Allah ko pukarega, Allah uski dua zaroor qabool farmayega.',
-      en: 'The Prophet Muhammad ﷺ declared that no Muslim supplicates with the invocation of Dhul-Nun (Prophet Jonah) during any affliction or distress except that Allah immediately answers and grants relief.',
+      ur: 'یہ حضرت یونس علیہ السلام کی وہ دعا ہے جو انہوں نے مچھلی کے پیٹ کی گھپ اندھیروں میں اپنے رب سے مانگی تھی۔ رسول اللہ ﷺ نے ارشاد فرمایا: "مچھلی والے پیغمبر (ذوالنون) کی دعا جو انہوں نے مچھلی کے پیٹ میں مانگی، کوئی بھی مسلمان کسی بھی مصیبت و مشکل میں اس دعا کے ذریعے اللہ کو پکارے گا تو اللہ اس کی دعا لازماً قبول فرمائے گا۔" عدالتی مقدمات، لاعلاج بیماریوں اور گھریلو مشکلات میں اس کا ورد بے شمار برکات کا حامل ہے۔',
+      ro: 'Hazrat Yunus (A.S) ne machhli ke pait mein yeh dua mangi thi. Huzoor ﷺ ne farmaya ke jo musalman kisi bhi mushkil mein yeh dua mangega, Allah usey zaroor nijat dega.',
+      en: 'Found in Surah Al-Anbiya (21:87) and Jami` at-Tirmidhi (3505), the Prophet ﷺ confirmed that whenever any Muslim calls upon Allah with this supplication during any severe hardship, Allah unquestionably answers their call.',
     },
     reference: {
-      ur: 'سورۃ الانبیاء: 87، جامع ترمذی: 3505 (صحیح)',
+      ur: 'القرآن الكريم، سورة الأنبياء: 87، جامع ترمذی: 3505 (صحیح)',
       ro: 'Surah Al-Anbiya: 87, Jami` at-Tirmidhi: 3505',
       en: 'Quran 21:87, Jami` at-Tirmidhi: 3505 (Sahih)',
     },
     category: 'Mushkilat',
     recommendedCount: 100,
     seoKeywords: [
-      'Ayat e kareema ki fazilat',
-      'Dua e yunus',
-      'Musibat ke waqt ki dua',
-      'La ilaha illa anta subhanaka inni kuntu minaz zalimeen',
+      'Ayat e kareema',
+      'La ilaha illa anta subhanaka',
+      'Musibat ki dua',
+      'Dua of Prophet Yunus',
       'آیت کریمہ',
-      'مشکل کشائی کی دعا',
+      'مصیبت کے وقت کی دعا',
     ],
     faqs: [
       {
         question: {
-          ur: 'آیتِ کریمہ کو کتنی بار پڑھنا افضل ہے؟',
-          ro: 'Ayat e Kareema ko kitni bar parhna afzal hai?',
-          en: 'How many times is it recommended to recite Ayat-e-Karimah?',
+          ur: 'آیتِ کریمہ کا معمول کتنی مرتبہ ہونا چاہیے؟',
+          ro: 'Ayat-e-Kareema kitni dafa parhein?',
+          en: 'How frequently should Ayat-e-Kareema be chanted?',
         },
         answer: {
-          ur: 'روزانہ 100 مرتبہ یا کسی سخت مشکل کے حل کے لیے باوضو 313 یا 1250 مرتبہ کا ختم پڑھا جاتا ہے۔',
-          ro: 'Rozana 100 bar, aur kisi ahem maqsad ke liye 313 ya 1250 bar parhna intehai mujarrab hai.',
-          en: 'Reciting it 100 times daily, or 313 times during serious crisis, brings immediate divine openings.',
+          ur: 'روزانہ 100 مرتبہ پڑھنا غموں سے نجات دلاتا ہے، اور خصوصی ضرورت پر کثرت سے ورد کرنا چاہیے۔',
+          ro: 'Rozana 100 martaba parhna ghamon se azaadi dilata hai.',
+          en: 'Reciting it 100 times daily removes immense grief and brings miraculous ease.',
         },
       },
     ],
   },
   {
     id: 'dua-6',
-    slug: 'walidain-ke-liye-maghfirat-ki-dua',
+    slug: 'sone-aur-uthne-ki-masnoon-dua',
     title: {
-      ur: 'والدین کی درازیِ عمر، مغفرت اور رحمت کے لیے قرآنی دعا',
-      ro: 'Walidain ki Maghfirat aur Rehmat ki Dua',
-      en: 'Quranic Supplication for Parents’ Mercy, Forgiveness, and Long Life',
+      ur: 'رات کو سونے اور صبح بیدار ہونے کی مسنون دعائیں',
+      ro: 'Raat ko Sone aur Subah Uthne ki Masnoon Duain',
+      en: 'Sunnah Supplications for Sleeping at Night and Waking in the Morning',
     },
-    arabicText: 'رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',
+    arabicText:
+      'بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا • الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ',
     urduTranslation:
-      'اے میرے پروردگار! میرے والدین پر اسی طرح بے پایاں رحم فرما جس طرح انہوں نے بچپن میں محبت اور شفقت کے ساتھ میری پرورش فرمائی۔',
-    romanUrdu: 'Rabbir-hamhuma kama rabbayani sagheera.',
+      'سونے کی دعا: اے اللہ! تیرے ہی نام کے ساتھ میں مرتا (سوتا) ہوں اور جیتا (جاگتا) ہوں۔ • بیدار ہونے کی دعا: تمام تعریفیں اس اللہ کے لیے ہیں جس نے ہمیں مارنے (سلانے) کے بعد زندہ کیا اور اسی کی طرف اٹھ کر جانا ہے۔',
+    romanUrdu:
+      'Sone ki dua: Bismika Allahumma amootu wa ahya. • Uthne ki dua: Alhamdu lillahilladhi ahyana ba’da ma amatana wa ilayhin-nushoor.',
     englishTranslation:
-      'My Lord, have mercy upon them both, even as they brought me up when I was small.',
+      'Before Sleep: In Your name, O Allah, I die and I live. • Upon Waking: Praise is to Allah Who gave us life after having taken it, and unto Him is the resurrection.',
     fazilat: {
-      ur: 'اللہ تعالیٰ نے قرآنِ مجید کی سورۃ الاسراء میں توحید کے بعد سب سے زیادہ تاکید والدین کے ادب، اطاعت اور احسان کی فرمائی ہے۔ اس دعا کے ذریعے اولاد اپنے والدین کے اس احسانِ عظیم کا اعتراف کرتی ہے جو انہوں نے بچپن کی بے بس حالت میں کیا۔ حدیثِ مبارکہ میں آتا ہے کہ جب انسان فوت ہو جاتا ہے تو اس کے اعمال منقطع ہو جاتے ہیں مگر نیک اولاد جو اس کے لیے دعائے مغفرت کرتی رہے اس کا ثواب مسلسل درجات بلند کرتا رہتا ہے۔ والدین حیات ہوں یا وفات پا چکے ہوں، یہ دعا ان کے لیے سب سے بڑا تحفہ ہے۔',
-      ro: 'Allah Ta’ala ne Quran-e-Pak mein walidain ke liye yeh azeem dua sikhayi hai. Sahih Hadith ke mutabiq nek aulad ki dua se marne ke baad bhi walidain ke darjaat jannat mein buland hote hain.',
-      en: 'Revealed in Surah Al-Isra, this divine supplication teaches children to repay their parents’ unconditional sacrifices with prayers for Allah’s infinite mercy, serving as an ongoing continuous charity for parents even after their passing.',
+      ur: 'نیند موت کی چھوٹی بہن ہے۔ سیدنا حذیفہ بن یمانؓ فرماتے ہیں کہ نبی کریم ﷺ جب رات کو اپنے بستر پر تشریف لے جاتے تو اپنا دایاں ہاتھ رخسارِ مبارک کے نیچے رکھتے اور "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا" پڑھتے۔ اور جب صبح بیدار ہوتے تو اللہ کی حمد و شکر کے ساتھ "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا..." کا ورد فرماتے۔ یہ عمل انسان کی نیند کو عبادت اور دن کے آغاز کو شکر گزاری میں بدل دیتا ہے۔',
+      ro: 'Neend maut ki tarah hai. Huzoor ﷺ sote waqt bismika Allahumma aur uthte waqt Alhamdu lillahilladhi ahyana parhte the. Is se raat aur din barkat se bhar jate hain.',
+      en: 'Reported in Sahih Bukhari (6312), the Prophet ﷺ taught these two sublime phrases to bracket human sleep with divine remembrance, acknowledging that every morning is a gift of resurrection and renewal.',
     },
     reference: {
-      ur: 'سورۃ الاسراء: 24، صحیح مسلم: 1631',
-      ro: 'Surah Al-Isra: 24, Sahih Muslim: 1631',
-      en: 'Quran 17:24, Sahih Muslim: 1631',
+      ur: 'صحیح بخاری: 6312، 6324، صحیح مسلم: 2711',
+      ro: 'Sahih Bukhari: 6312, Sahih Muslim: 2711',
+      en: 'Sahih Bukhari: 6312, Sahih Muslim: 2711 (Sahih)',
     },
-    category: 'Walidain',
+    category: 'Rozana',
     recommendedCount: 33,
     seoKeywords: [
-      'Walidain ke liye dua',
-      'Maa baap ki maghfirat ki dua',
-      'Rabbir hamhuma kama rabbayani sagheera',
-      'Dua for parents health and forgiveness',
-      'والدین کی دعا',
-      'ماں باپ کی مغفرت',
+      'Sone ki dua',
+      'Uthne ki dua',
+      'Bismika Allahumma amootu wa ahya',
+      'Alhamdu lillahilladhi ahyana',
+      'سونے کی دعا',
+      'جاگنے کی دعا',
     ],
     faqs: [
       {
         question: {
-          ur: 'کیا یہ دعا فوت شدہ والدین کے لیے بھی کارآمد ہے؟',
-          ro: 'Kya yeh dua marhoomeen walidain ke liye bhi mufeed hai?',
-          en: 'Does this prayer benefit parents who have passed away?',
+          ur: 'کیا وضو کر کے سونا سنت ہے؟',
+          ro: 'Kya wazu karke sona sunnat hai?',
+          en: 'Is it sunnah to perform wudhu before sleeping?',
         },
         answer: {
-          ur: 'جی ہاں! یہ دعا حیات اور فوت شدہ دونوں حالتوں میں والدین کے لیے رحمت و مغفرت کا عظیم ذریعہ ہے۔',
-          ro: 'Ji haan, marhoomeen walidain ke liye yeh sab se behtareen tofa hai.',
-          en: 'Yes, it directly benefits parents both during their life and in the grave as ongoing mercy.',
+          ur: 'جی ہاں، باوضو ہو کر دائیں کروٹ پر سونا اور یہ مسنون دعا پڑھنا سنتِ نبوی ہے۔',
+          ro: 'Ji haan, ba-wazu hokar daayin karwat sona sunnat hai.',
+          en: 'Yes, going to bed in a state of purity on one’s right side and reciting this prayer is authentic sunnah.',
         },
       },
     ],
   },
   {
     id: 'dua-7',
-    slug: 'ilm-aur-hunar-mein-izafay-ki-dua',
-    title: {
-      ur: 'علم، حافظے اور نافع حکمت میں اضافے کی قرآنی و مسنون دعا',
-      ro: 'Ilm, Hafiza aur Hikmat mein Izafay ki Dua',
-      en: 'Supplication for Expansion of Knowledge, Sharp Memory, and Useful Wisdom',
-    },
-    arabicText:
-      'رَبِّ زِدْنِي عِلْمًا، اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي، وَعَلِّمْنِي مَا يَنْفَعُنِي، وَزِدْنِي عِلْمًا',
-    urduTranslation:
-      'اے میرے رب! میرے علم میں اضافہ فرما۔ اے اللہ! جو علم تو نے مجھے عطا فرمایا ہے اس سے مجھے نفع پہنچا، اور مجھے وہ علم سکھا جو میرے لیے فائدہ مند ہو، اور میرے علم میں مزید اضافہ فرما۔',
-    romanUrdu:
-      'Rabbi zidnee ‘ilma, Allahumman-fa’nee bima ‘allamtanee, wa ‘allimnee ma yanfa’unee, wa zidnee ‘ilma.',
-    englishTranslation:
-      'My Lord, increase me in knowledge. O Allah, benefit me with what You have taught me, teach me what will benefit me, and increase me in knowledge.',
-    fazilat: {
-      ur: 'اللہ تعالیٰ نے اپنے حبیب پاک خاتم النبیین ﷺ کو دنیا کی کسی نعمت میں اضافے کی دعا کی تلقین نہیں فرمائی سوائے علم کے؛ فرمایا: "وَقُل رَّبِّ زِدْنِي عِلْمًا"۔ علم دین کی روشنی اور دنیا کے تمام مسائل کی درست فہم عطا کرتا ہے۔ اس مسنون دعا میں علمِ نافع طلب کیا گیا ہے تاکہ انسان جو کچھ پڑھے یا سیکھے وہ محض معلومات کا انبار نہ بنے بلکہ اس کے کردار، اخلاق، روزگار اور آخرت کی کامیابی کا ذریعہ بنے۔ طلبہ، اساتذہ اور محققین کے لیے اس کا یومیہ ورد بے حد مفید ہے۔',
-      ro: 'Quran mein Allah ne Rasoolullah ﷺ ko ilm mein izafay ki dua mangne ka hukm diya. Yeh dua zehen kholne, imtehan mein kamyabi aur ilm-e-nafe hasil karne ke liye behtareen hai.',
-      en: 'Allah specifically commanded the Prophet ﷺ to ask for an increase in nothing of this world except knowledge. This combined Quranic and Hadith prayer sharpens retention, eliminates intellectual confusion, and channels learned skills toward beneficial pursuits.',
-    },
-    reference: {
-      ur: 'سورۃ طہٰ: 114، جامع ترمذی: 3599، سنن ابن ماجہ: 251',
-      ro: 'Surah Ta-Ha: 114, Jami` at-Tirmidhi: 3599',
-      en: 'Quran 20:114, Jami` at-Tirmidhi: 3599, Sunan Ibn Majah: 251',
-    },
-    category: 'Ilm',
-    recommendedCount: 33,
-    seoKeywords: [
-      'Ilm mein izafay ki dua',
-      'Rabbi zidni ilma',
-      'Hafiza tez karne ki dua',
-      'Dua for exam success and memory',
-      'علم میں اضافہ کی دعا',
-      'حافظہ تیز کرنے کی دعا',
-    ],
-    faqs: [
-      {
-        question: {
-          ur: 'طلبہ امتحانات کے دوران یہ دعا کس طرح پڑھیں؟',
-          ro: 'Students exams mein yeh dua kaise parhein?',
-          en: 'How should students practice this prayer before exams?',
-        },
-        answer: {
-          ur: 'مطالعہ شروع کرنے سے پہلے 3 مرتبہ اور امتحانی پرچہ حل کرنے سے قبل 7 مرتبہ پڑھنا ذہن کو یکسو کرتا ہے۔',
-          ro: 'Parhai se pehle 3 bar aur paper se pehle 7 bar parhna zehen ko roshan karta hai.',
-          en: 'Reciting it three times prior to study and seven times before taking tests grounds the intellect.',
-        },
-      },
-    ],
-  },
-  {
-    id: 'dua-8',
     slug: 'ghar-se-nikalne-aur-safar-ki-dua',
     title: {
-      ur: 'گھر سے نکلنے، کاروبار اور سفر میں غیبی حفاظت و برکت کی مسنون دعا',
-      ro: 'Ghar se Nikalne aur Safar ki Masnoon Dua',
-      en: 'Prophetic Supplication upon Leaving Home and Traveling for Work & Safety',
+      ur: 'گھر سے نکلنے، دکان کھولنے اور سفر کی دعا',
+      ro: 'Ghar se Nikalne, Dukan Kholne aur Safar ki Dua',
+      en: 'Dua for Leaving Home, Starting Business, and Embarking on a Safe Journey',
     },
-    arabicText: 'بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ',
+    arabicText:
+      'بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ',
     urduTranslation:
       'اللہ کے نام کے ساتھ (نکلتا ہوں)، میں نے اللہ پر بھروسہ کیا، اور گناہوں سے بچنے اور نیکی کرنے کی طاقت صرف اللہ ہی کی توفیق سے ہے۔',
     romanUrdu:
@@ -489,8 +443,175 @@ export const duainList: DuaItem[] = [
       },
     ],
   },
+  {
+    id: 'dua-8',
+    slug: 'walidain-ke-liye-maghfirat-ki-dua',
+    title: {
+      ur: 'والدین کی صحت اور مغفرت کی قرآنی دعا',
+      ro: 'Walidain ki Sehat aur Maghfirat ki Qurani Dua',
+      en: 'Quranic Supplication for Parents’ Health, Mercy, and Forgiveness',
+    },
+    arabicText:
+      'رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا • رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ',
+    urduTranslation:
+      'اے میرے رب! ان دونوں (میرے والدین) پر ویسے ہی رحم فرما جیسا انہوں نے بچپن میں مجھے شفقت کے ساتھ پالا تھا۔ • اے ہمارے پروردگار! مجھے اور میرے والدین کو اور تمام مومنوں کو بخش دے جس دن حساب قائم ہوگا۔',
+    romanUrdu:
+      'Rabbir-hamhuma kama rabbayani sagheera. • Rabbanagh-fir lee wa li-walidayya wa lil-mu’mineena yawma yaqoomul-hisab.',
+    englishTranslation:
+      'My Lord, have mercy upon them both as they brought me up when I was small. • Our Lord, forgive me and my parents and the believers on the Day when the account is established.',
+    fazilat: {
+      ur: 'قرآن مجید سورۂ بنی اسرائیل میں اللہ تعالیٰ نے والدین کے ساتھ حسنِ سلوک کا حکم دیتے ہوئے اس دعا کی تلقین فرمائی ہے۔ رسول اللہ ﷺ نے فرمایا: "جب انسان مر جاتا ہے تو اس کے اعمال کا سلسلہ منقطع ہو جاتا ہے سوائے تین چیزوں کے: صدقۂ جاریہ، وہ علم جس سے نفع اٹھایا جائے، اور نیک اولاد جو اس کے لیے دعا کرے۔" والدین زندہ ہوں تو ان کی صحت و عافیت اور وفات پا چکے ہوں تو درجات کی بلندی کے لیے اس قرآنی دعا کا اہتمام اولاد کا لازمی حق ہے۔',
+      ro: 'Yeh Qurani dua har namaz ke baad walidain ke liye parhni chahiye. Huzoor ﷺ ne farmaya ke neik aulad ki dua se marhoomeen ke darjaat jannat mein buland hote hain.',
+      en: 'Revealed in Surah Al-Isra (17:24) and Surah Ibrahim (14:41), this prayer is the greatest gift a child can offer to their parents, earning them divine mercy in this life and exalted ranks in the Hereafter.',
+    },
+    reference: {
+      ur: 'القرآن الكريم، سورة الإسراء: 24، سورة إبراهيم: 41',
+      ro: 'Surah Al-Isra: 24, Surah Ibrahim: 41',
+      en: 'Quran 17:24 & 14:41',
+    },
+    category: 'Walidain',
+    recommendedCount: 33,
+    seoKeywords: [
+      'Walidain ke liye dua',
+      'Rabbir hamhuma kama rabbayani sagheera',
+      'Parents dua in Islam',
+      'Dua for mother and father',
+      'والدین کے لیے دعا',
+      'ماں باپ کی مغفرت کی دعا',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'کیا فوت شدہ والدین کے لیے یہ دعا نافع ہے؟',
+          ro: 'Kya wafat yafta walidain ke liye yeh dua faydemand hai?',
+          en: 'Does this prayer benefit deceased parents?',
+        },
+        answer: {
+          ur: 'جی ہاں! صحیح مسلم کی حدیث ہے کہ نیک اولاد کی دعا سے مرنے کے بعد بھی والدین کے درجات بلند ہوتے ہیں۔',
+          ro: 'Ji haan, Sahih Muslim ki hadith ke mutabiq walidain ko is se azeem ajar milta hai.',
+          en: 'Yes, authentic Hadith confirms that prayers from righteous children continuously elevate parents in Paradise.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-9',
+    slug: 'ilm-aur-hafzay-mein-izafay-ki-dua',
+    title: {
+      ur: 'علم، ذہانت اور مضبوط حافظے کی دعا',
+      ro: 'Ilm, Zahanat aur Mazboot Hafzay ki Dua',
+      en: 'Dua for Knowledge, Sharp Memory, Eloquence, and Intellectual Excellence',
+    },
+    arabicText:
+      'رَبِّ زِدْنِي عِلْمًا • رَبِّ اشْرَحْ لِي صَدْرِي، وَيَسِّرْ لِي أَمْرِي، وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي، يَفْقَهُوا قَوْلِي',
+    urduTranslation:
+      'اے میرے پروردگار! میرے علم میں اضافہ فرما۔ • اے میرے رب! میرا سینہ میرے لیے کھول دے، اور میرا کام میرے لیے آسان کر دے، اور میری زبان کی گرہ کھول دے تاکہ لوگ میری بات اچھی طرح سمجھ سکیں۔',
+    romanUrdu:
+      'Rabbi zidni ‘ilma. • Rabbish-rah lee sadri, wa yassir lee amri, wahlul ‘uqdatam-mil-lisani, yafqahoo qawlee.',
+    englishTranslation:
+      'My Lord, increase me in knowledge. • My Lord, expand for me my chest with assurance, ease for me my task, and untie the knot from my tongue that they may understand my speech.',
+    fazilat: {
+      ur: 'قرآن مجید میں اللہ تعالیٰ نے اپنے پیارے حبیب ﷺ کو بھی علم میں اضافے کی دعا سکھائی: "وقل رب زدنی علما"۔ اور حضرت موسیٰ علیہ السلام نے فرعون کی طرف تبلیغ کے لیے روانہ ہوتے وقت اللہ سے سینہ کشادہ کرنے، کام آسان کرنے اور زبان کی فصاحت مانگی تھی۔ طلباء و طالبات، اساتذہ، اور ہر وہ شخص جو امتحان، انٹرویو یا تقریر کی تیاری کر رہا ہو، اس کے لیے یہ قرآنی آیات کا ورد ذہنی وسعت، یادداشت کی مضبوطی اور زبان کی سلاست عطا کرتا ہے۔',
+      ro: 'Yeh do quraani duaein zahanat, hafza aur taqreer mein rawani ke liye la-jawaab hain. Students ke imtehan aur interview ke liye yeh behtareen amal hai.',
+      en: 'Combining Surah Ta-Ha (20:114) and Moses’ supplication (20:25-28), these verses are universally recited by students, teachers, and scholars to unlock deep comprehension, memory retention, and eloquent articulation.',
+    },
+    reference: {
+      ur: 'القرآن الكريم، سورة طه: 25-28 و 114',
+      ro: 'Surah Ta-Ha: 25-28 & 114',
+      en: 'Quran 20:25-28 & 20:114',
+    },
+    category: 'Ilm',
+    recommendedCount: 33,
+    seoKeywords: [
+      'Ilm mein izafay ki dua',
+      'Rabbi zidni ilma',
+      'Rabbishrah li sadri',
+      'Exam dua memory increase',
+      'علم میں اضافے کی دعا',
+      'حافظہ تیز کرنے کی دعا',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'امتحان کے پرچے سے پہلے کتنی بار پڑھنا چاہیے؟',
+          ro: 'Imtehan se pehle kitni dafa parhein?',
+          en: 'How many times should students recite this before exams?',
+        },
+        answer: {
+          ur: 'پڑھائی شروع کرتے وقت اور پرچہ حل کرنے سے قبل 7 مرتبہ پڑھنا ذہن کو یکسو اور پرسکون رکھتا ہے۔',
+          ro: 'Parhai se pehle 7 bar parhna zehan ko tez aur pur-sukoon banata hai.',
+          en: 'Reciting it 7 times before study sessions or opening an exam paper sharpens recall and calms nervousness.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-10',
+    slug: 'istikhara-aur-khair-mangne-ki-dua',
+    title: {
+      ur: 'مشکل فیصلے میں خیر مانگنے اور استخارے کی مسنون دعا',
+      ro: 'Mushkil Faislay mein Khair Mangne aur Istikhara ki Dua',
+      en: 'Dua-e-Istikhara: Prophetic Supplication for Guidance in Crucial Decisions',
+    },
+    arabicText:
+      'اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ، وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ، وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ، فَإِنَّكَ تَقْدِرُ وَلَا أَقْدِرُ، وَتَعْلَمُ وَلَا أَعْلَمُ، وَأَنْتَ عَلَّامُ الْغُيُوبِ',
+    urduTranslation:
+      'اے اللہ! میں تیرے علم کی برکت سے تجھ سے خیر طلب کرتا ہوں، اور تیری قدرت کے ذریعے تجھ سے طاقت مانگتا ہوں، اور میں تیرے عظیم فضل کا سوال کرتا ہوں، کیونکہ تو قدرت رکھتا ہے اور میں بے بس ہوں، تو سب جانتا ہے اور میں نہیں جانتا، اور تو تمام پوشیدہ باتوں کا جاننے والا ہے۔',
+    romanUrdu:
+      'Allahumma inni astakheeruka bi-‘ilmika, wa astaqdiruka bi-qudratika, wa as-aluka min fadlikal-‘azeem, fa-innaka taqdiru wa la aqdir, wa ta’lamu wa la a’lam, wa anta ‘allamul-ghuyoob.',
+    englishTranslation:
+      'O Allah, I seek Your counsel through Your knowledge, and I seek strength through Your power, and I ask of Your immense bounty; for You have power and I have none, You know and I know not, and You are the Knower of the unseen.',
+    fazilat: {
+      ur: 'صحیح بخاری میں حضرت جابر بن عبداللہؓ فرماتے ہیں کہ رسول اللہ ﷺ ہمیں تمام معاملات میں استخارہ کرنا اسی طرح سکھایا کرتے تھے جیسے قرآن کی سورت سکھاتے تھے۔ جب انسان شادی، کاروبار، سفر یا کسی بڑے فیصلے میں کشمکش کا شکار ہو تو دو رکعت نفل پڑھ کر یہ دعا مانگنا اللہ کی طرف سے بہترین خیر، دل کے اطمینان اور برکت کا راستہ ہموار کرتا ہے۔ اس دعا سے انسان پچھتاوے اور غلط فیصلوں کے نقصانات سے ہمیشہ محفوظ رہتا ہے۔',
+      ro: 'Huzoor ﷺ ne har ahem kaam se pehle Istikhara sikhaya jaisa Quran ki soorat sikhate the. Shadi, business ya career ke faisle mein yeh dua dil ko yaqeen aur khair bakhshti hai.',
+      en: 'Narrated in Sahih Bukhari (1162), the Companions recounted that the Prophet ﷺ taught Istikhara for every major affair just as he would teach a chapter of the Quran, ensuring clarity, peace of mind, and divine guidance in crucial life choices.',
+    },
+    reference: {
+      ur: 'صحیح بخاری: 1162، 6382، جامع ترمذی: 480 (صحیح)',
+      ro: 'Sahih Bukhari: 1162, Jami` at-Tirmidhi: 480',
+      en: 'Sahih Bukhari: 1162, Jami` at-Tirmidhi: 480 (Sahih)',
+    },
+    category: 'Mushkilat',
+    recommendedCount: 33,
+    seoKeywords: [
+      'Istikhara ki dua',
+      'Allahumma inni astakheeruka bi ilmika',
+      'Dua for decision making',
+      'Istikhara prayer Arabic text',
+      'استخارہ کی دعا',
+      'فیصلے میں خیر کی دعا',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'کیا استخارے کے بعد خواب آنا ضروری ہے؟',
+          ro: 'Kya Istikhara ke baad khwab aana zaroori hai?',
+          en: 'Is it necessary to see a dream after praying Istikhara?',
+        },
+        answer: {
+          ur: 'نہیں! استخارے کے بعد دل کا کسی ایک طرف مائل ہو جانا اور رکاوٹوں کا دور ہونا ہی اصل اشارہ ہے۔',
+          ro: 'Nahi, dil ka sukoon aur raste aasan hona hi asal nishani hai.',
+          en: 'No, dream is not required. Inner peace, inclination of the heart, and ease in circumstances are the true indicators.',
+        },
+      },
+    ],
+  },
 ];
 
+const slugAliases: Record<string, string> = {
+  'preshani-aur-gham-se-nijat-ki-dua': 'preshani-aur-bechaini-ki-dua',
+  'qarz-utarne-aur-kushadgi-rizq-ki-dua': 'qarz-se-nijat-aur-rizq-ki-dua',
+  'nazar-e-bad-aur-hifazat-ki-dua': 'nazar-e-bad-se-hifazat-ki-dua',
+  'bimari-se-shifa-ki-masnoon-dua': 'bimari-aur-dard-se-shifa-ki-dua',
+  'musibat-aur-sakhti-ke-waqt-ki-dua': 'sakht-musibat-ke-waqt-ki-dua',
+  'ilm-aur-hunar-mein-izafay-ki-dua': 'ilm-aur-hafzay-mein-izafay-ki-dua',
+};
+
 export function getDuaBySlug(slug: string): DuaItem | undefined {
-  return duainList.find((item) => item.slug === slug);
+  const resolved = slugAliases[slug] || slug;
+  return duainList.find((item) => item.slug === resolved);
+}
+
+export function getDuasByCategory(category: DuaCategory): DuaItem[] {
+  return duainList.filter((item) => item.category === category);
 }

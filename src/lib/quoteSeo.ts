@@ -41,58 +41,73 @@ export function getLocalizedDuaPath(slug: string, lang: Language): string {
 }
 
 export function getLocalizedPath(pathname: string, targetLang: Language): string {
-  if (!pathname || pathname === '/') return '/';
+  if (!pathname || pathname === '/' || pathname === '/en' || pathname === '/roman' || pathname === '/ur') {
+    if (targetLang === 'en') return '/en';
+    if (targetLang === 'ro') return '/roman';
+    return '/';
+  }
 
   // 1. Durood detail: /(en|roman)/durood/[slug] or /durood/[slug]
-  const duroodDetailMatch = pathname.match(/^\/(?:(?:en|roman)\/)?durood\/([^/?#]+)/i);
+  const duroodDetailMatch = pathname.match(/^\/(?:(?:en|roman|ur)\/)?durood\/([^/?#]+)/i);
   if (duroodDetailMatch) {
     const slug = duroodDetailMatch[1];
     return getLocalizedDuroodPath(slug, targetLang);
   }
 
   // 2. Durood hub: /(en|roman)/durood or /durood
-  if (/^\/(?:(?:en|roman)\/)?durood\/?$/i.test(pathname)) {
+  if (/^\/(?:(?:en|roman|ur)\/)?durood\/?$/i.test(pathname)) {
     if (targetLang === 'en') return '/en/durood';
     if (targetLang === 'ro') return '/roman/durood';
     return '/durood';
   }
 
   // 3. Dua detail: /(en|roman)/duain/[slug] or /duain/[slug]
-  const duaDetailMatch = pathname.match(/^\/(?:(?:en|roman)\/)?duain\/([^/?#]+)/i);
+  const duaDetailMatch = pathname.match(/^\/(?:(?:en|roman|ur)\/)?duain\/([^/?#]+)/i);
   if (duaDetailMatch) {
     const slug = duaDetailMatch[1];
     return getLocalizedDuaPath(slug, targetLang);
   }
 
   // 4. Dua hub: /(en|roman)/duain or /duain
-  if (/^\/(?:(?:en|roman)\/)?duain\/?$/i.test(pathname)) {
+  if (/^\/(?:(?:en|roman|ur)\/)?duain\/?$/i.test(pathname)) {
     if (targetLang === 'en') return '/en/duain';
     if (targetLang === 'ro') return '/roman/duain';
     return '/duain';
   }
 
   // 5. Naat detail: /(en|roman)/naat/[slug] or /naat/[slug]
-  const naatDetailMatch = pathname.match(/^\/(?:(?:en|roman)\/)?naat\/([^/?#]+)/i);
+  const naatDetailMatch = pathname.match(/^\/(?:(?:en|roman|ur)\/)?naat\/([^/?#]+)/i);
   if (naatDetailMatch) {
     const slug = naatDetailMatch[1];
     return getLocalizedNaatPath(slug, targetLang);
   }
 
   // 6. Naat hub: /(en|roman)/naat or /naat
-  if (/^\/(?:(?:en|roman)\/)?naat\/?$/i.test(pathname)) {
+  if (/^\/(?:(?:en|roman|ur)\/)?naat\/?$/i.test(pathname)) {
     if (targetLang === 'en') return '/en/naat';
     if (targetLang === 'ro') return '/roman/naat';
     return '/naat';
   }
 
   // 7. Quote detail: /(en|roman)/quotes/[slug] or /quotes/[slug]
-  const quoteMatch = pathname.match(/^\/(?:(?:en|roman)\/)?quotes?\/([^/?#]+)/i);
+  const quoteMatch = pathname.match(/^\/(?:(?:en|roman|ur)\/)?quotes?\/([^/?#]+)/i);
   if (quoteMatch) {
     const slug = quoteMatch[1];
     return getLocalizedQuotePath(slug, targetLang);
   }
 
-  return pathname;
+  // Strip existing locale prefix to get base path
+  const strippedPath = pathname.replace(/^\/(?:en|roman|ur)(?=\/|$)/, '') || '/';
+  if (strippedPath === '/') {
+    if (targetLang === 'en') return '/en';
+    if (targetLang === 'ro') return '/roman';
+    return '/';
+  }
+
+  // For general routes (tools, status-maker, articles, etc.)
+  if (targetLang === 'en') return `/en${strippedPath}`;
+  if (targetLang === 'ro') return `/roman${strippedPath}`;
+  return strippedPath;
 }
 
 export function getLocalizedQuoteUrl(slug: string, lang: Language): string {
@@ -107,6 +122,7 @@ export function getQuoteSlugFromPathname(pathname: string): string | null {
 export function getRouteLanguageFromPathname(pathname: string): Language | null {
   if (pathname.startsWith('/en/') || pathname === '/en') return 'en';
   if (pathname.startsWith('/roman/') || pathname === '/roman') return 'ro';
+  if (pathname.startsWith('/ur/') || pathname === '/ur') return 'ur';
   if (
     pathname.startsWith('/quotes/') ||
     pathname.startsWith('/durood') ||

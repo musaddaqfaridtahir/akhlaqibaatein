@@ -13,11 +13,15 @@ import {
   Library,
   Clock,
   Award,
+  Calculator,
+  Camera,
+  Feather,
 } from 'lucide-react';
 import { categories, getCategoryBySlug, getCategoryTitle, getCategoryDesc } from '@/data/categories';
 import { quotes } from '@/data/quotes';
 import { duroodList } from '@/data/durood';
 import { duainList } from '@/data/duain';
+import { naatsList } from '@/data/naats';
 import {
   articles,
   getArticleTitle,
@@ -285,6 +289,162 @@ export default function HomePage() {
               }`}
             >
               <span>{isUrdu ? 'تمام مسنون دعائیں پڑھیں' : isRoman ? 'Duain Parhein' : 'Explore Daily Duas'}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
+
+          {/* Card 3: Diwan-e-Naat Sharif Hub */}
+          <Link
+            href="/naat"
+            className="group p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-emerald-50/80 via-white to-amber-50/40 dark:from-[#0d221a] dark:via-[#11221c] dark:to-[#07130f] border-2 border-[#d4af37]/60 shadow-md hover:shadow-xl hover:border-[#d4af37] transition-all duration-300 flex flex-col justify-between"
+          >
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-3 rounded-2xl bg-amber-500/15 dark:bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/30 group-hover:scale-105 transition-transform">
+                  <Feather className="w-6 h-6 text-[#d4af37]" />
+                </div>
+                <span
+                  className={`text-xs font-bold px-3 py-1 rounded-full bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border border-amber-300 dark:border-[#d4af37]/40 shadow-xs ${
+                    isUrdu ? 'font-urdu leading-normal' : ''
+                  }`}
+                >
+                  {naatsList.length} {isUrdu ? 'منتخب کلام' : isRoman ? 'Naat Verses' : 'Sacred Odes'}
+                </span>
+              </div>
+
+              <div>
+                <h3
+                  className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-[#fef3c7] group-hover:text-emerald-700 dark:group-hover:text-[#d4af37] transition-colors ${
+                    isUrdu ? 'font-urdu leading-[1.8]' : ''
+                  }`}
+                >
+                  {isUrdu ? 'دیوانِ نعت شریف (Diwan-e-Naat)' : isRoman ? 'Diwan-e-Naat Sharif' : 'Sacred Naat & Diwan'}
+                </h3>
+              </div>
+
+              <p
+                className={`text-xs sm:text-sm text-slate-600 dark:text-emerald-100/85 line-clamp-2 ${
+                  isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
+                }`}
+              >
+                {isUrdu
+                  ? 'کلاسیکی دیوان، مکمل ۶ تا ۸ اشعار، اردو و رومن متن، لغت و فرہنگ اور ۹:۱۶ نعت اسٹیٹس کارڈ کے ساتھ۔'
+                  : isRoman
+                  ? 'Mukammal 6-8 ashaar, Roman Urdu lyrics, farhang aur 9:16 Naat status card ke sath classical diwan.'
+                  : 'Complete classical 6 to 8 couplets with Roman lyrics, vocabulary meanings, and 9:16 HD status card downloads.'}
+              </p>
+            </div>
+
+            <div
+              className={`mt-4 pt-4 border-t border-[#d4af37]/30 flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-[#d4af37] ${
+                isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
+              }`}
+            >
+              <span>{isUrdu ? 'مکمل دیوان پڑھیں' : isRoman ? 'Diwan Parhein' : 'Explore Naat Sharif'}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
+
+          {/* Card 4: Islamic Calculators & Tools */}
+          <Link
+            href="/tools"
+            className="group p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-emerald-50/80 via-white to-amber-50/40 dark:from-[#0d221a] dark:via-[#11221c] dark:to-[#07130f] border-2 border-emerald-600/50 dark:border-emerald-600/60 shadow-md hover:shadow-xl hover:border-[#d4af37] transition-all duration-300 flex flex-col justify-between"
+          >
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-3 rounded-2xl bg-emerald-500/15 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 border border-emerald-500/30 group-hover:scale-105 transition-transform">
+                  <Calculator className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+                </div>
+                <span
+                  className={`text-xs font-bold px-3 py-1 rounded-full bg-emerald-100 dark:bg-[#07130f] text-emerald-950 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-600/40 shadow-xs ${
+                    isUrdu ? 'font-urdu leading-normal' : ''
+                  }`}
+                >
+                  {isUrdu ? 'قضا نماز و زکوٰۃ' : 'Namaz & Zakat'}
+                </span>
+              </div>
+
+              <div>
+                <h3
+                  className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-emerald-700 dark:group-hover:text-[#d4af37] transition-colors ${
+                    isUrdu ? 'font-urdu leading-[1.8]' : ''
+                  }`}
+                >
+                  {isUrdu ? 'اسلامی کیلکولیٹرز (Islamic Tools)' : isRoman ? 'Islamic Calculators' : 'Islamic Calculators & Tools'}
+                </h3>
+              </div>
+
+              <p
+                className={`text-xs sm:text-sm text-slate-600 dark:text-emerald-100/85 line-clamp-2 ${
+                  isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
+                }`}
+              >
+                {isUrdu
+                  ? 'زندگی بھر کی قضا نمازوں کا تخمینہ و پرنٹ ایبل چارٹ، اور سونے چاندی کے نصاب پر ۲.۵ فیصد زکوٰۃ کا شرعی حساب۔'
+                  : isRoman
+                  ? 'Qaza namaz ka hisab aur printable chart, plus sona chandi ke nisab par 2.5% zakat calculator.'
+                  : 'Lifetime Qaza Namaz calculator with printable tracker sheet, and precise 2.5% Zakat calculator across 5 currencies.'}
+              </p>
+            </div>
+
+            <div
+              className={`mt-4 pt-4 border-t border-emerald-500/30 flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-emerald-300 ${
+                isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
+              }`}
+            >
+              <span>{isUrdu ? 'کیلکولیٹرز استعمال کریں' : isRoman ? 'Tools Use Karein' : 'Open Calculators'}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
+
+          {/* Card 5: Custom Name Status Maker */}
+          <Link
+            href="/status-maker"
+            className="group p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-emerald-50/80 via-white to-amber-50/40 dark:from-[#0d221a] dark:via-[#11221c] dark:to-[#07130f] border-2 border-[#d4af37]/60 shadow-md hover:shadow-xl hover:border-[#d4af37] transition-all duration-300 flex flex-col justify-between"
+          >
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="p-3 rounded-2xl bg-amber-500/15 dark:bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/30 group-hover:scale-105 transition-transform">
+                  <Camera className="w-6 h-6 text-[#d4af37]" />
+                </div>
+                <span
+                  className={`text-xs font-bold px-3 py-1 rounded-full bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border border-amber-300 dark:border-[#d4af37]/40 shadow-xs ${
+                    isUrdu ? 'font-urdu leading-normal' : ''
+                  }`}
+                >
+                  {isUrdu ? 'اپنا نام لکھیں • 9:16 HD' : 'Custom Name • 9:16'}
+                </span>
+              </div>
+
+              <div>
+                <h3
+                  className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-[#fef3c7] group-hover:text-emerald-700 dark:group-hover:text-[#d4af37] transition-colors ${
+                    isUrdu ? 'font-urdu leading-[1.8]' : ''
+                  }`}
+                >
+                  {isUrdu ? 'جمعہ و روزانہ اسٹیٹس میکر' : isRoman ? 'Jumma & Daily Status Maker' : 'Islamic Status Maker'}
+                </h3>
+              </div>
+
+              <p
+                className={`text-xs sm:text-sm text-slate-600 dark:text-emerald-100/85 line-clamp-2 ${
+                  isUrdu ? 'font-urdu leading-[1.85]' : 'leading-relaxed'
+                }`}
+              >
+                {isUrdu
+                  ? 'جمعہ مبارک، صبح بخیر دعائیں اور اقوال پر اپنا نام لکھ کر ۱۰۸۰×۱۹۲۰ فل ایچ ڈی واٹس ایپ اسٹیٹس کارڈ بنائیں۔'
+                  : isRoman
+                  ? 'Jumma Mubarak, morning duas aur aqwal par apna naam likh kar 1080x1920 Full HD WhatsApp card banayein.'
+                  : 'Create custom-named 9:16 Full HD cards for Jumma Mubarak, Morning Prayers, and Golden Sayings.'}
+              </p>
+            </div>
+
+            <div
+              className={`mt-4 pt-4 border-t border-[#d4af37]/30 flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-[#d4af37] ${
+                isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
+              }`}
+            >
+              <span>{isUrdu ? 'اپنا کارڈ بنائیں' : isRoman ? 'Card Banayein' : 'Create Custom Card'}</span>
               <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
             </div>
           </Link>

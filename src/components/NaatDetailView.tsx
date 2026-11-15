@@ -37,7 +37,6 @@ export default function NaatDetailView({ naat, routeLanguage }: NaatDetailViewPr
 
   const [copied, setCopied] = useState(false);
   const [downloadingStatus, setDownloadingStatus] = useState(false);
-  const [downloadingSherIdx, setDownloadingSherIdx] = useState<number | null>(null);
 
   const hubPath = isEnglish ? '/en/naat' : isRoman ? '/roman/naat' : '/naat';
   const getDetailPath = (slug: string) =>
@@ -92,32 +91,6 @@ export default function NaatDetailView({ naat, routeLanguage }: NaatDetailViewPr
       );
     } finally {
       setDownloadingStatus(false);
-    }
-  };
-
-  const handleDownloadSherStatus = async (sherIndex: number) => {
-    if (downloadingSherIdx !== null) return;
-    setDownloadingSherIdx(sherIndex);
-    try {
-      await generateNaatStatusImage({
-        naat,
-        selectedSherIndex: sherIndex,
-        coupletCount: 2,
-        lang: activeLang,
-      });
-      showToast(
-        isUrdu
-          ? `شعر #${sherIndex + 1} کا اسٹیٹس کارڈ محفوظ ہو گیا`
-          : `Couplet #${sherIndex + 1} status card downloaded`
-      );
-    } catch {
-      showToast(
-        isUrdu
-          ? 'تصویر تیار کرنے میں مسئلہ پیش آیا، دوبارہ کوشش کریں'
-          : 'Failed to generate status image, please retry'
-      );
-    } finally {
-      setDownloadingSherIdx(null);
     }
   };
 
@@ -315,25 +288,53 @@ export default function NaatDetailView({ naat, routeLanguage }: NaatDetailViewPr
                     )}
                   </div>
                 )}
-
-                {/* 1-Click Status Card Download for this Couplet Pair */}
-                <div className="no-print pt-2 flex items-center justify-center">
-                  <button
-                    type="button"
-                    onClick={() => handleDownloadSherStatus(idx)}
-                    disabled={downloadingSherIdx === idx}
-                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-amber-500/10 hover:bg-[#d4af37] text-amber-900 dark:text-[#d4af37] hover:text-[#0a1411] dark:hover:text-[#0a1411] border border-amber-500/30 text-xs font-bold transition active:scale-95 disabled:opacity-50 cursor-pointer"
-                  >
-                    <ImageIcon className="w-3.5 h-3.5 shrink-0" />
-                    <span className={isUrdu ? 'font-urdu' : 'font-sans'}>
-                      {downloadingSherIdx === idx
-                        ? (isUrdu ? 'کارڈ تیار ہو رہا ہے...' : 'Generating...')
-                        : (isUrdu ? 'اس شعر کا اسٹیٹس کارڈ (9:16)' : isRoman ? 'Is Sher Ka Status Card (9:16)' : 'Status Card (9:16)')}
-                    </span>
-                  </button>
-                </div>
               </div>
             ))}
+          </div>
+
+          {/* Unified Action Bar at Bottom of Diwan */}
+          <div className="no-print pt-6 border-t border-stone-200 dark:border-emerald-800/40 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+            <button
+              type="button"
+              onClick={handleDownloadStatus}
+              disabled={downloadingStatus}
+              className="flex-1 min-h-[48px] px-5 py-3 rounded-2xl bg-gradient-to-r from-[#d4af37] via-amber-400 to-[#d4af37] hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md flex items-center justify-center gap-2 transition active:scale-95 disabled:opacity-60 cursor-pointer"
+            >
+              <ImageIcon className="w-4 h-4 shrink-0 stroke-[2.2]" />
+              <span className={isUrdu ? 'font-urdu text-sm sm:text-base leading-normal' : 'font-sans'}>
+                {downloadingStatus
+                  ? isUrdu
+                    ? 'کارڈ تیار ہو رہا ہے...'
+                    : 'Generating Card...'
+                  : isUrdu
+                  ? 'نعت کارڈ ڈاؤن لوڈ کریں (9:16 HD)'
+                  : isRoman
+                  ? 'Naat Card Download Karein (9:16)'
+                  : 'Download Naat Card (9:16 HD)'}
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={handleCopy}
+              className={`min-h-[48px] px-4 py-3 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-[#0a1411] dark:hover:bg-emerald-900/70 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer ${
+                isUrdu ? 'font-urdu' : 'font-sans'
+              }`}
+            >
+              {copied ? <Check className="w-4 h-4 text-emerald-500" /> : <Copy className="w-4 h-4" />}
+              <span>{copied ? (isUrdu ? 'کاپی ہو گیا' : 'Copied') : isUrdu ? 'مکمل کلام کاپی کریں' : isRoman ? 'Mukammal Kalam Copy Karein' : 'Copy Full Kalam'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={handleWhatsAppShare}
+              className={`min-h-[48px] px-4 py-3 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-emerald-900 hover:text-white dark:bg-[#0a1411] dark:hover:bg-emerald-900/70 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer ${
+                isUrdu ? 'font-urdu' : 'font-sans'
+              }`}
+            >
+              <Share2 className="w-4 h-4" />
+              <span>{isUrdu ? 'واٹس ایپ پر شیئر کریں' : isRoman ? 'WhatsApp Par Share Karein' : 'Share on WhatsApp'}</span>
+            </button>
           </div>
         </div>
 
