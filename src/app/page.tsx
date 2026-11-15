@@ -45,6 +45,7 @@ export default function HomePage() {
   const { language, t } = useLanguage();
   const isUrdu = language === 'ur';
   const isRoman = language === 'ro';
+  const isEnglish = language === 'en';
 
   const quoteOfTheDay = quotes.find((q) => q.featured) || quotes[0];
   const featuredArticles = articles.slice(0, 3);
@@ -147,6 +148,307 @@ export default function HomePage() {
 
         {/* Decorative Golden Ambient Blur */}
         <div className="absolute top-[-50px] right-[-50px] w-96 h-96 bg-emerald-500/10 dark:bg-amber-500/15 rounded-full blur-3xl pointer-events-none" />
+      </section>
+
+      {/* Homepage First-Fold Conversion Engine: Top Wazaif, Durood & Duain with Interactive Tasbeeh */}
+      <section className="space-y-6">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+          <div className="space-y-2">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/40 text-amber-900 dark:text-[#d4af37] text-xs font-bold shadow-xs">
+              <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
+              <span className={isUrdu ? 'font-urdu' : 'font-sans'}>
+                {isUrdu
+                  ? 'آن لائن تسبیح کاؤنٹر کے ساتھ • خودکار محفوظ ہدف'
+                  : isRoman
+                  ? 'Online Tasbeeh Counter ke sath • Auto-Saving Target'
+                  : 'Interactive Digital Tasbeeh • Auto-Saved Progress'}
+              </span>
+            </div>
+
+            <h2
+              className={`text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-[#fef3c7] ${
+                isUrdu ? 'font-urdu leading-[1.8]' : 'font-sans tracking-tight'
+              }`}
+            >
+              {isUrdu
+                ? 'روزمرہ کے مقبول ترین وظائف، درودِ پاک اور مسنون اذکار (آن لائن تسبیح کے ساتھ)'
+                : isRoman
+                ? 'Rozmarra ke Maqbool Tareen Wazaif, Durood-e-Pak aur Masnoon Azkar'
+                : 'Top Daily Wazaif, Durood-e-Pak & Masnoon Supplications (with Online Tasbeeh)'}
+            </h2>
+
+            <p
+              className={`text-xs sm:text-sm text-slate-600 dark:text-emerald-100/80 max-w-3xl ${
+                isUrdu ? 'font-urdu leading-[1.85]' : 'font-sans'
+              }`}
+            >
+              {isUrdu
+                ? 'فوری تلاوت اور ڈیجیٹل تسبیح کے لیے اپنے مطلوبہ درود یا وظیفے پر کلک کریں — مستند عربی متن، ترجمہ، فضیلت اور 1-کلک 9:16 HD اسٹیٹس کارڈ کے ساتھ۔'
+                : isRoman
+                ? 'Direct 1-click access to authenticated Salawat & Quranic Azkar with real-time saving digital circular tasbeeh counter.'
+                : 'Direct 1-click access to authenticated Salawat & Quranic Azkar with real-time saving digital circular tasbeeh counter.'}
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2 shrink-0">
+            <Link
+              href={isEnglish ? '/en/durood' : isRoman ? '/roman/durood' : '/durood'}
+              className={`inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-800/10 hover:bg-emerald-800/20 text-emerald-900 dark:bg-[#d4af37]/15 dark:hover:bg-[#d4af37]/25 dark:text-[#fef3c7] border border-emerald-300 dark:border-[#d4af37]/40 text-xs sm:text-sm font-bold transition ${
+                isUrdu ? 'font-urdu' : 'font-sans'
+              }`}
+            >
+              <span>{isUrdu ? 'تمام درود و وظائف' : 'All Durood'}</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+        </div>
+
+        {/* 8 High-Conversion Fast Access Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {[
+            {
+              id: 'tanjina',
+              href: '/durood/salat-al-tanjina',
+              titleUr: 'درودِ تنجینا',
+              titleRo: 'Durood e Tanjeena',
+              titleEn: 'Salat al-Tanjina',
+              benefitUr: 'مشکلات اور پریشانیوں سے نجات کا اکسیر وظیفہ',
+              benefitRo: 'Mushkilat aur pareshaniyon se nijat (41 bar)',
+              benefitEn: 'Relief from acute distress & severe hardships',
+              target: '41× ورد',
+              categoryUr: 'مشکل کشائی',
+              categoryRo: 'Mushkilat',
+              categoryEn: 'Hardship Relief',
+              badgeColor: 'bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border-amber-300 dark:border-[#d4af37]/40',
+            },
+            {
+              id: 'taj',
+              href: '/durood/durood-e-taj',
+              titleUr: 'درودِ تاج',
+              titleRo: 'Durood-e-Taj',
+              titleEn: 'Salat al-Taj',
+              benefitUr: 'دلی مرادوں، روحانی سکون اور حصولِ برکت کا ورد',
+              benefitRo: 'Dili muradon aur roohani sukoon ka wird',
+              benefitEn: 'Spiritual peace & fulfillment of pure wishes',
+              target: '33× ورد',
+              categoryUr: 'روحانی سکون',
+              categoryRo: 'Sukoon',
+              categoryEn: 'Spiritual Peace',
+              badgeColor: 'bg-emerald-100 dark:bg-[#07130f] text-emerald-950 dark:text-emerald-400 border-emerald-300 dark:border-emerald-600/40',
+            },
+            {
+              id: 'ibrahimi',
+              href: '/durood/durood-e-ibrahimi',
+              titleUr: 'درودِ ابراہیمی',
+              titleRo: 'Durood-e-Ibrahimi',
+              titleEn: 'Durood-e-Ibrahimi',
+              benefitUr: 'نماز کا افضل ترین مسنون درود شریف اور شفاعت',
+              benefitRo: 'Namaz ka afzal tareen masnoon durood',
+              benefitEn: 'Supreme Prophetic Salawat recited in prayer',
+              target: '100× ورد',
+              categoryUr: 'افضل ترین درود',
+              categoryRo: 'Supreme',
+              categoryEn: 'Supreme Blessings',
+              badgeColor: 'bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border-amber-300 dark:border-[#d4af37]/40',
+            },
+            {
+              id: 'nariya',
+              href: '/durood/salat-al-nariya',
+              titleUr: 'درودِ ناریہ',
+              titleRo: 'Salat al-Nariya',
+              titleEn: 'Salat al-Nariya',
+              benefitUr: 'فوری مشکل کشائی اور بندشوں کے خاتمے کا مجرب ورد',
+              benefitRo: 'Fori mushkil kushai ka mujarrab wird',
+              benefitEn: 'Swift relief from afflictions and blocked paths',
+              target: '41× ورد',
+              categoryUr: 'فوری کشائش',
+              categoryRo: 'Swift Relief',
+              categoryEn: 'Swift Relief',
+              badgeColor: 'bg-emerald-100 dark:bg-[#07130f] text-emerald-950 dark:text-emerald-400 border-emerald-300 dark:border-emerald-600/40',
+            },
+            {
+              id: 'ayat-kursi',
+              href: '/duain/ayat-ul-kursi',
+              titleUr: 'آیت الکرسی',
+              titleRo: 'Ayat ul Kursi',
+              titleEn: 'Ayat al-Kursi (2:255)',
+              benefitUr: 'قرآن مجید کی اعظم ترین آیت اور حفاظت کا قرآنی حصار',
+              benefitRo: 'Quran ki azeem tareen aayat aur hisar',
+              benefitEn: 'Greatest verse of the Quran for divine protection',
+              target: '7× ورد',
+              categoryUr: 'اعظم آیات',
+              categoryRo: 'Protection',
+              categoryEn: 'Divine Shield',
+              badgeColor: 'bg-emerald-100 dark:bg-[#07130f] text-emerald-950 dark:text-emerald-400 border-emerald-300 dark:border-emerald-600/40',
+            },
+            {
+              id: 'manzil',
+              href: '/duain/manzil-dua',
+              titleUr: 'منزل شریف',
+              titleRo: 'Manzil Shareef',
+              titleEn: 'Manzil Shareef',
+              benefitUr: 'نظرِ بد، سحر، جادو اور ہر بلا سے مکمل حفاظت',
+              benefitRo: 'Nazar-e-bad, jadu aur aaseeb se hifazat',
+              benefitEn: 'Complete protection against evil eye & sorcery',
+              target: 'یومیہ 1 بار',
+              categoryUr: 'شفاء و حفاظت',
+              categoryRo: 'Ruqyah',
+              categoryEn: 'Spiritual Cure',
+              badgeColor: 'bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border-amber-300 dark:border-[#d4af37]/40',
+            },
+            {
+              id: 'sayyid-istighfar',
+              href: '/duain/sayyid-ul-istighfar',
+              titleUr: 'سید الاستغفار',
+              titleRo: 'Sayyid ul Istighfar',
+              titleEn: 'Sayyid al-Istighfar',
+              benefitUr: 'توبہ و مغفرت کا سردار — جنت کی بشارت کا نبوی نسخہ',
+              benefitRo: 'Tauba ka sardar — jannat ki basharat',
+              benefitEn: 'Master of forgiveness & divine acceptance',
+              target: '3× ورد',
+              categoryUr: 'مغفرت و رزق',
+              categoryRo: 'Forgiveness',
+              categoryEn: 'Forgiveness',
+              badgeColor: 'bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border-amber-300 dark:border-[#d4af37]/40',
+            },
+            {
+              id: 'qunoot',
+              href: '/duain/dua-e-qunoot',
+              titleUr: 'دعائے قنوت',
+              titleRo: 'Dua-e-Qunoot',
+              titleEn: 'Dua-e-Qunoot',
+              benefitUr: 'نمازِ وتر کی مسنون دعا مع اعراب و اردو ترجمہ',
+              benefitRo: 'Namaz-e-Witr ki masnoon dua',
+              benefitEn: 'Core supplication of the Witr prayer',
+              target: 'نمازِ وتر',
+              categoryUr: 'مسنون نماز',
+              categoryRo: 'Daily Prayer',
+              categoryEn: 'Witr Prayer',
+              badgeColor: 'bg-emerald-100 dark:bg-[#07130f] text-emerald-950 dark:text-emerald-400 border-emerald-300 dark:border-emerald-600/40',
+            },
+          ].map((item) => {
+            const itemHref = isEnglish
+              ? `/en${item.href}`
+              : isRoman
+              ? `/roman${item.href}`
+              : item.href;
+            const itemTitle = isUrdu ? item.titleUr : isRoman ? item.titleRo : item.titleEn;
+            const itemBenefit = isUrdu ? item.benefitUr : isRoman ? item.benefitRo : item.benefitEn;
+            const itemCat = isUrdu ? item.categoryUr : isRoman ? item.categoryRo : item.categoryEn;
+
+            return (
+              <Link
+                key={item.id}
+                href={itemHref}
+                className="group relative rounded-3xl p-5 bg-gradient-to-br from-white via-emerald-50/30 to-amber-50/20 dark:from-[#0d221a] dark:via-[#11221c] dark:to-[#07130f] border-2 border-stone-200/90 dark:border-[#d4af37]/40 shadow-sm hover:shadow-xl hover:border-[#d4af37] hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between gap-4"
+              >
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className={`px-2.5 py-0.5 rounded-full text-[11px] font-bold border ${item.badgeColor} ${
+                      isUrdu ? 'font-urdu' : 'font-sans'
+                    }`}>
+                      {itemCat}
+                    </span>
+                    <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-[#d4af37]/20 border border-[#d4af37]/40 text-amber-950 dark:text-[#fef3c7]">
+                      {item.target}
+                    </span>
+                  </div>
+
+                  <h3
+                    className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-[#fef3c7] group-hover:text-emerald-700 dark:group-hover:text-[#d4af37] transition-colors ${
+                      isUrdu ? 'font-urdu leading-[1.8]' : 'font-sans'
+                    }`}
+                  >
+                    {itemTitle}
+                  </h3>
+
+                  <p
+                    className={`text-xs text-slate-600 dark:text-emerald-100/80 line-clamp-2 ${
+                      isUrdu ? 'font-urdu leading-[1.85]' : 'font-sans leading-relaxed'
+                    }`}
+                  >
+                    {itemBenefit}
+                  </p>
+                </div>
+
+                <div
+                  className={`pt-3 border-t border-stone-200 dark:border-emerald-800/50 flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-[#d4af37] group-hover:underline ${
+                    isUrdu ? 'font-urdu' : 'font-sans'
+                  }`}
+                >
+                  <span className="flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
+                    <span>{isUrdu ? 'آن لائن تسبیح پڑھیں' : isRoman ? 'Tasbeeh Parhein' : 'Read with Tasbeeh'}</span>
+                  </span>
+                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+
+        {/* Quick Utility Action Bar */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 pt-1">
+          <Link
+            href={isEnglish ? '/en/tools/qaza-namaz-calculator' : isRoman ? '/roman/tools/qaza-namaz-calculator' : '/tools/qaza-namaz-calculator'}
+            className="flex items-center justify-between p-3.5 rounded-2xl bg-white dark:bg-[#11221c] border border-stone-200 dark:border-[#d4af37]/35 shadow-xs hover:border-[#d4af37] transition group"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-emerald-800/10 dark:bg-[#07130f] border border-[#d4af37]/40 flex items-center justify-center text-[#d4af37] shrink-0">
+                <Clock className="w-4 h-4 text-[#d4af37]" />
+              </div>
+              <div>
+                <p className={`text-xs sm:text-sm font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
+                  {isUrdu ? 'قضاء نماز کیلکولیٹر' : 'Qaza Namaz Calculator'}
+                </p>
+                <p className="text-[11px] text-slate-500 dark:text-emerald-200/70">
+                  {isUrdu ? 'چھوٹی ہوئی نمازوں کا ٹریکر' : 'Missed prayers lifetime tracker'}
+                </p>
+              </div>
+            </div>
+            <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+          </Link>
+
+          <Link
+            href={isEnglish ? '/en/status-maker' : isRoman ? '/roman/status-maker' : '/status-maker'}
+            className="flex items-center justify-between p-3.5 rounded-2xl bg-white dark:bg-[#11221c] border border-stone-200 dark:border-[#d4af37]/35 shadow-xs hover:border-[#d4af37] transition group"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-amber-500/10 dark:bg-[#07130f] border border-[#d4af37]/40 flex items-center justify-center text-[#d4af37] shrink-0">
+                <Camera className="w-4 h-4 text-[#d4af37]" />
+              </div>
+              <div>
+                <p className={`text-xs sm:text-sm font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
+                  {isUrdu ? 'اسلامی اسٹیٹس میکر (9:16 HD)' : 'Islamic Status Maker (9:16 HD)'}
+                </p>
+                <p className="text-[11px] text-slate-500 dark:text-emerald-200/70">
+                  {isUrdu ? 'اپنے نام کے ساتھ واٹس ایپ کارڈ' : 'Custom name WhatsApp card'}
+                </p>
+              </div>
+            </div>
+            <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+          </Link>
+
+          <Link
+            href={isEnglish ? '/en/duain' : isRoman ? '/roman/duain' : '/duain'}
+            className="flex items-center justify-between p-3.5 rounded-2xl bg-white dark:bg-[#11221c] border border-stone-200 dark:border-[#d4af37]/35 shadow-xs hover:border-[#d4af37] transition group sm:col-span-2 md:col-span-1"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-emerald-800/10 dark:bg-[#07130f] border border-[#d4af37]/40 flex items-center justify-center text-[#d4af37] shrink-0">
+                <BookOpen className="w-4 h-4 text-[#d4af37]" />
+              </div>
+              <div>
+                <p className={`text-xs sm:text-sm font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
+                  {isUrdu ? 'تمام مسنون دعائیں و اوراد' : 'All Masnoon Duain & Azkar'}
+                </p>
+                <p className="text-[11px] text-slate-500 dark:text-emerald-200/70">
+                  {isUrdu ? `${duainList.length} منتخب قرآنی و نبوی دعائیں` : `${duainList.length} Authenticated supplications`}
+                </p>
+              </div>
+            </div>
+            <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+          </Link>
+        </div>
       </section>
 
       {/* Quote of the Day Spotlight Card */}

@@ -22,6 +22,7 @@ import {
 import { Language } from '@/data/types';
 import { useLanguage } from '@/context/LanguageContext';
 import AdSlot from '@/components/AdSlot';
+import TasbeehCircle from '@/components/TasbeehCircle';
 
 interface DuaHubViewProps {
   routeLanguage?: Language;
@@ -36,9 +37,14 @@ export default function DuaHubView({ routeLanguage }: DuaHubViewProps = {}) {
 
   const [selectedCategory, setSelectedCategory] = useState<DuaCategory | 'All'>('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [quickReaderSlug, setQuickReaderSlug] = useState<string>('ayat-ul-kursi');
 
   const getDetailPath = (slug: string) =>
     isEnglish ? `/en/duain/${slug}` : isRoman ? `/roman/duain/${slug}` : `/duain/${slug}`;
+
+  const quickDua = useMemo(() => {
+    return duainList.find((d) => d.slug === quickReaderSlug) || duainList[0];
+  }, [quickReaderSlug]);
 
   const filteredDuas = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
@@ -226,6 +232,108 @@ export default function DuaHubView({ routeLanguage }: DuaHubViewProps = {}) {
           })}
         </div>
       </section>
+
+      {/* Instant Quick Read & Count Interactive Station */}
+      {!searchQuery && selectedCategory === 'All' && (
+        <section className="rounded-3xl p-6 sm:p-8 bg-gradient-to-br from-[#0c221a] via-[#112920] to-[#07130f] border-2 border-[#d4af37]/60 shadow-xl text-white space-y-6">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#d4af37]/15 border border-[#d4af37]/40 text-[#d4af37] text-xs font-bold">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>{isUrdu ? 'فوری ورد و قرآنی حصار (آن لائن تسبیح)' : isRoman ? 'Quick Wird & Online Tasbeeh' : 'Quick Read & Online Tasbeeh'}</span>
+              </div>
+              <h2 className={`text-xl sm:text-2xl font-bold text-[#fef3c7] ${isUrdu ? 'font-urdu leading-[1.8]' : 'font-sans'}`}>
+                {isUrdu ? 'اعظم آیات و مسنون دعاؤں کی فوری تلاوت' : 'Instant Quranic Verses & Duas Reader'}
+              </h2>
+            </div>
+
+            {/* Quick Switcher Pills */}
+            <div className="flex items-center gap-1.5 overflow-x-auto max-w-full pb-1 no-scrollbar">
+              {[
+                { slug: 'ayat-ul-kursi', label: isUrdu ? 'آیت الکرسی (7×)' : 'Ayat ul Kursi (7×)' },
+                { slug: 'sayyid-ul-istighfar', label: isUrdu ? 'سید الاستغفار (3×)' : 'Sayyidul Istighfar (3×)' },
+                { slug: 'preshani-aur-bechaini-ki-dua', label: isUrdu ? 'پریشانی کی دعا (33×)' : 'Preshani ki Dua (33×)' },
+              ].map((tab) => (
+                <button
+                  key={tab.slug}
+                  type="button"
+                  onClick={() => setQuickReaderSlug(tab.slug)}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-bold transition whitespace-nowrap cursor-pointer ${
+                    quickReaderSlug === tab.slug
+                      ? 'bg-[#d4af37] text-[#0a1411] shadow-xs'
+                      : 'bg-white/10 hover:bg-white/20 text-emerald-100 border border-white/15'
+                  } ${isUrdu ? 'font-urdu' : 'font-sans'}`}
+                >
+                  {tab.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Quick Reader Card Details */}
+          {quickDua && (
+            <div className="p-5 sm:p-7 rounded-2xl bg-[#061410]/80 border border-[#d4af37]/35 space-y-5">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h3 className={`text-lg sm:text-xl font-bold text-[#d4af37] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
+                  {isUrdu ? quickDua.title.ur : isRoman ? quickDua.title.ro : quickDua.title.en}
+                </h3>
+                <span className="px-3 py-1 rounded-full bg-[#d4af37]/20 border border-[#d4af37]/40 text-[#fef3c7] text-xs font-bold">
+                  {isUrdu ? `مسنون تعداد: ${quickDua.recommendedCount} مرتبہ` : `Target: ${quickDua.recommendedCount} times`}
+                </span>
+              </div>
+
+              {/* Arabic text */}
+              <div className="p-4 sm:p-6 rounded-2xl bg-[#020b08]/80 border border-emerald-900/60 text-center">
+                <p
+                  lang="ar"
+                  dir="rtl"
+                  className="font-arabic text-xl sm:text-2xl md:text-3xl text-[#fef3c7] leading-[2.5] tracking-wide select-text"
+                >
+                  {quickDua.arabicText}
+                </p>
+              </div>
+
+              {/* Translation */}
+              <p
+                className={`text-xs sm:text-sm text-emerald-100/90 leading-relaxed text-center max-w-3xl mx-auto ${
+                  isUrdu ? 'font-urdu leading-[2.0]' : 'font-sans'
+                }`}
+              >
+                {isUrdu
+                  ? quickDua.urduTranslation
+                  : isRoman
+                  ? quickDua.romanUrdu
+                  : quickDua.englishTranslation}
+              </p>
+
+              {/* Embedded Tasbeeh Counter & Link */}
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-5 pt-3 border-t border-emerald-900/60">
+                <div className="w-full sm:w-auto flex justify-center">
+                  <TasbeehCircle
+                    slug={quickDua.slug}
+                    defaultTarget={quickDua.recommendedCount}
+                    lang={activeLang}
+                  />
+                </div>
+
+                <Link
+                  href={getDetailPath(quickDua.slug)}
+                  className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#d4af37] to-amber-500 hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md transition active:scale-95 ${
+                    isUrdu ? 'font-urdu' : 'font-sans'
+                  }`}
+                >
+                  <span>{isUrdu ? 'مکمل فضیلت و اسٹیٹس کارڈ ڈاؤن لوڈ کریں' : 'Full Virtues & Download Status Card'}</span>
+                  {isUrdu ? (
+                    <ArrowLeft className="w-4 h-4 shrink-0" />
+                  ) : (
+                    <ArrowRight className="w-4 h-4 shrink-0" />
+                  )}
+                </Link>
+              </div>
+            </div>
+          )}
+        </section>
+      )}
 
       {/* Duas Grid */}
       {filteredDuas.length > 0 ? (

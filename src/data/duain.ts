@@ -596,12 +596,397 @@ export const duainList: DuaItem[] = [
       },
     ],
   },
+  {
+    id: 'dua-11',
+    slug: 'ayat-ul-kursi',
+    title: {
+      ur: 'آیت الکرسی — اعظم آیاتِ قرآنی مع اردو ترجمہ و فضیلت',
+      ro: 'Ayat ul Kursi — Azam Ayat-e-Qurani مع Urdu Translation',
+      en: 'Ayat al-Kursi (The Throne Verse) — Surah Al-Baqarah Verse 255',
+    },
+    arabicText:
+      'اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ',
+    urduTranslation:
+      'اللہ! اس کے سوا کوئی عبادت کے لائق نہیں، وہ ہمیشہ زندہ اور سب کو سنبھالنے والا ہے۔ اسے نہ اونگھ آتی ہے نہ نیند۔ اسی کا ہے جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے۔ کون ہے جو اس کی اجازت کے بغیر اس کے حضور سفارش کر سکے؟ وہ جانتا ہے جو کچھ بندوں کے سامنے ہے اور جو کچھ ان کے پیچھے ہے، اور وہ اس کے علم میں سے کسی چیز کا احاطہ نہیں کر سکتے مگر جتنا وہ چاہے۔ اس کی کرسی آسمانوں اور زمین کو اپنے گھیرے میں لیے ہوئے ہے، اور ان دونوں کی حفاظت اس پر گراں نہیں گزرتی، اور وہی سب سے بلند، عظمت والا ہے۔',
+    romanUrdu:
+      'Allahu laaa ilaaha illaa Huwal-Hayyul-Qayyoom; laa ta’khuzuhu sinatunw-wa laa nawm; lahu maa fis-samaawaati wa maa fil-ard; man zal-lazee yashfa’u ‘indahooo illaa bi-iznih; ya’lamu maa bayna aydeehim wa maa khalfahum, wa laa yuheetoona bi-shay’im-min ‘ilmihee illaa bimaa shaaa’; wasi’a Kursiyyuhus-samaawaati wal-arda wa laa ya’ooduhoo hifzuhumaa; wa Huwal-‘Aliyyul-‘Azeem.',
+    englishTranslation:
+      'Allah! There is no deity except Him, the Ever-Living, the Sustainer of all existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.',
+    fazilat: {
+      ur: 'آیت الکرسی قرآن مجید کی سب سے عظیم ترین آیت ہے (صحیح مسلم: 810)۔ رسول اللہ ﷺ نے فرمایا کہ جو شخص ہر فرض نماز کے بعد آیت الکرسی کی تلاوت کرے گا، اس کے اور جنت کے درمیان سوائے موت کے کوئی رکاوٹ نہیں (سنن نسائی الکبری: 9848)۔ حضرت ابوہریرہؓ کی معروف حدیث کے مطابق، رات کو سوتے وقت آیت الکرسی پڑھنے والے پر صبح تک اللہ کی طرف سے ایک محافظ مقرر کر دیا جاتا ہے اور شیطان اس کے قریب بھی نہیں پھٹکتا۔ یہ آیت حفاظتِ جان و مال، نظرِ بد کے خاتمے، اور شیطانی وسوسوں سے امان کا سب سے طاقتور حصار ہے۔',
+      ro: 'Ayat ul Kursi Quran-e-Pak ki azeem tareen aayat hai. Farz namaz ke baad parhne se jannat ki basharat aur raat ko sote waqt parhne se shaitan aur har burai se hifazat ka ilahi hisar qaim hota hai.',
+      en: 'Ayat al-Kursi is the greatest verse of the Holy Quran (Sahih Muslim: 810). The Prophet Muhammad ﷺ declared that whoever recites it after every obligatory prayer, nothing stands between him and Paradise except death, and reciting it before sleep invokes divine angels of protection from all harm and evil.',
+    },
+    reference: {
+      ur: 'القرآن الكريم، سورة البقرة: 255؛ صحيح مسلم: 810، سنن النسائي الكبرى: 9848',
+      ro: 'Surah Al-Baqarah: 255; Sahih Muslim: 810',
+      en: 'Quran 2:255; Sahih Muslim: 810, Sunan an-Nasa’i Al-Kubra: 9848',
+    },
+    category: 'Hifazat',
+    recommendedCount: 7,
+    seoKeywords: [
+      'Ayat ul Kursi',
+      'Ayat al Kursi Urdu translation',
+      'Ayat ul Kursi Arabic text',
+      'Ayat ul Kursi fazilat',
+      'آیت الکرسی',
+      'آیت الکرسی اردو ترجمہ',
+      'آیت الکرسی وظیفہ',
+      'Ayat ul Kursi Roman Urdu',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'آیت الکرسی کو روزانہ کتنی بار پڑھنا چاہیے؟',
+          ro: 'Ayat ul Kursi rozana kitni bar parhni chahiye?',
+          en: 'How many times should Ayat al-Kursi be recited daily?',
+        },
+        answer: {
+          ur: 'ہر فرض نماز کے بعد ایک مرتبہ، رات کو سونے سے قبل ایک بار اور صبح و شام 3 یا 7 مرتبہ تلاوت کرنا مسنون اور باعثِ برکت ہے۔',
+          ro: 'Har farz namaz ke baad 1 dafa, sote waqt 1 dafa, aur subah shaam 3 ya 7 bar parhna masnoon hai.',
+          en: 'It is recommended to recite it once after each of the five daily prayers, once before sleeping, and 3 or 7 times during morning and evening supplications.',
+        },
+      },
+      {
+        question: {
+          ur: 'کیا آیت الکرسی سے نظرِ بد اور سحر دور ہوتا ہے؟',
+          ro: 'Kya Ayat ul Kursi se nazar-e-bad aur jadu door hota hai?',
+          en: 'Does Ayat al-Kursi protect against evil eye and witchcraft?',
+        },
+        answer: {
+          ur: 'جی ہاں، آیت الکرسی تمام شیطانی اثرات، سحر اور حاسدین کی نظرِ بد کا سب سے مضبوط تریاق ہے۔',
+          ro: 'Ji haan, Ayat ul Kursi har qism ke jadu aur nazar-e-bad ke asraat ko zail karti hai.',
+          en: 'Yes, Ayat al-Kursi is universally recognized as the most potent divine shield against witchcraft, jinn interference, and malicious envy.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-12',
+    slug: 'sayyid-ul-istighfar',
+    title: {
+      ur: 'سید الاستغفار — توبہ و استغفار کی سب سے افضل دعا مع اردو ترجمہ و فضیلت',
+      ro: 'Sayyid ul Istighfar — Afzal Tareen Tauba ki Dua',
+      en: 'Sayyid al-Istighfar — The Master of Seeking Forgiveness',
+    },
+    arabicText:
+      'اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ',
+    urduTranslation:
+      'اے اللہ! تو ہی میرا رب ہے، تیرے سوا کوئی معبود نہیں۔ تو نے ہی مجھے پیدا کیا اور میں تیرا بندہ ہوں، اور میں اپنی استطاعت کے مطابق تیرے عہد اور وعدے پر قائم ہوں۔ میں اپنے کیے کے شر سے تیری پناہ مانگتا ہوں، اپنے اوپر تیری دی ہوئی نعمتوں کا دل و جان سے اعتراف کرتا ہوں، اور اپنے گناہوں کا اقرار کرتا ہوں، پس تو مجھے معاف فرما دے کیونکہ تیرے سوا کوئی گناہوں کو معاف کرنے والا نہیں۔',
+    romanUrdu:
+      'Allahumma Anta Rabbi, laa ilaaha illaa Anta, khalaqtanee wa ana ‘abduka, wa ana ‘alaa ‘ahdika wa wa’dika mastata’tu, a’oodhu bika min sharri maa sana’tu, aboo’u laka bi-ni’matika ‘alayya, wa aboo’u laka bi-dhambee faghfir lee fa-innahoo laa yaghfirudh-dhunooba illaa Ant.',
+    englishTranslation:
+      'O Allah, You are my Lord; none has the right to be worshipped but You. You created me and I am Your servant, and I remain upon Your covenant and promise as much as I am able. I seek refuge in You from the evil of what I have done. I completely acknowledge Your favor upon me, and I confess my sin to You, so forgive me, for none forgives sins except You.',
+    fazilat: {
+      ur: 'صحیح بخاری (6306) میں حضرت شداد بن اوسؓ سے روایت ہے کہ رسول اللہ ﷺ نے فرمایا: "یہ سید الاستغفار یعنی تمام استغفاروں کا سردار ہے۔ جس شخص نے کامل یقین کے ساتھ دن کے وقت اسے پڑھا اور شام ہونے سے پہلے اس کا انتقال ہو گیا تو وہ اہلِ جنت میں سے ہوگا، اور جس نے رات کو یقین کے ساتھ پڑھا اور صبح سے پہلے وفات پا گیا تو وہ بھی اہلِ جنت میں سے ہوگا"۔ یہ دعا بندگی کا سب سے اعلیٰ اظہار، گناہوں کی فوری بخشش اور رزق و زندگی میں برکت کا سرچشمہ ہے۔',
+      ro: 'Sahih Bukhari (6306) ke mutabiq yeh Sayyid ul Istighfar hai. Subah ya shaam yaqeen se parhne wale ke liye jannat ki qatee bashaarat hai. Yeh gunahon ki bakhshish aur dili sukoon ka azeem tareen zariya hai.',
+      en: 'In Sahih Bukhari (6306), the Prophet ﷺ declared this the paramount supplication for repentance. Whoever recites it with firm conviction during the morning or evening and passes away before the next part of the day is guaranteed to be among the people of Paradise.',
+    },
+    reference: {
+      ur: 'صحیح بخاری: 6306، 6323؛ جامع ترمذی: 3393 (صحیح)',
+      ro: 'Sahih Bukhari: 6306; Jami` at-Tirmidhi: 3393',
+      en: 'Sahih Bukhari: 6306, 6323; Jami` at-Tirmidhi: 3393',
+    },
+    category: 'Rozana',
+    recommendedCount: 3,
+    seoKeywords: [
+      'Sayyid ul Istighfar',
+      'Sayyidul Istighfar Urdu translation',
+      'Tauba ki dua',
+      'Best Istighfar dua',
+      'سید الاستغفار',
+      'توبہ کی مسنون دعا',
+      'استغفار کا وظیفہ',
+      'Sayyid al Istighfar Roman Urdu',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'سید الاستغفار پڑھنے کا بہترین وقت کون سا ہے؟',
+          ro: 'Sayyid ul Istighfar parhne ka behtareen waqt konsa hai?',
+          en: 'What is the best time to recite Sayyid al-Istighfar?',
+        },
+        answer: {
+          ur: 'صبح کی نماز کے بعد اور شام کو مغرب کے بعد روزانہ پڑھنا مسنون حدیث کے مطابق جنت کی بشارت کا سبب ہے۔',
+          ro: 'Fajr ke baad aur Maghrib ke baad rozana parhna sab se afzal hai.',
+          en: 'Daily recitation after Fajr prayer in the morning and after Maghrib in the evening is the recommended prophetic tradition.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-13',
+    slug: 'dua-e-qunoot',
+    title: {
+      ur: 'دعائے قنوت — نمازِ وتر کی مسنون دعا مع اردو ترجمہ و فضیلت',
+      ro: 'Dua e Qunoot — Namaz-e-Witr ki Masnoon Dua',
+      en: 'Dua-e-Qunoot — Supplication for Witr Prayer with English & Urdu Translation',
+    },
+    arabicText:
+      'اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ، وَنَشْكُرُكَ وَلَا نَكْفُرُكَ، وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ، اللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ، وَإِلَيْكَ نَسْعَى وَنَحْفِدُ، نَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ، إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحَقٌ',
+    urduTranslation:
+      'اے اللہ! ہم تجھ ہی سے مدد چاہتے ہیں اور تجھ سے بخشش مانگتے ہیں، تجھ پر ایمان لاتے ہیں اور تجھ ہی پر بھروسا کرتے ہیں، اور تیری بہترین تعریف کرتے ہیں، تیرا شکر ادا کرتے ہیں اور تیری ناشکری نہیں کرتے، اور ہم ہر اس شخص کو الگ کرتے اور چھوڑتے ہیں جو تیری نافرمانی کرے۔ اے اللہ! ہم تیری ہی عبادت کرتے ہیں، اور تیرے ہی لیے نماز پڑھتے اور سجدہ کرتے ہیں، اور تیری ہی طرف دوڑتے اور حاضر ہوتے ہیں، ہم تیری رحمت کے امیدوار ہیں اور تیرے عذاب سے ڈرتے ہیں، بیشک تیرا عذاب کافروں کو پہنچنے والا ہے۔',
+    romanUrdu:
+      'Allahumma innaa nasta’eenuka wa nastaghfiruka wa nu’minu bika wa natawakkalu ‘alayka wa nuthnee ‘alaykal-khayr, wa nashkuruka wa laa nakfuruk, wa nakhla’u wa natruku man yafjuruk. Allahumma iyyaaka na’budu wa laka nusallee wa nasjud, wa ilayka nas’aa wa nahfid, narjoo rahmataka wa nakhshaa ‘adhaabak, inna ‘adhaabaka bil-kuffaari mulhaq.',
+    englishTranslation:
+      'O Allah, we seek Your aid and ask Your forgiveness, we believe in You and place our trust in You, and we praise You in the finest manner. We thank You and do not display ingratitude, and we abandon and reject whoever disobeys You. O Allah, You alone do we worship, and to You we pray and prostrate; towards You we strive and rush. We hope for Your mercy and fear Your punishment; surely, Your punishment overtakes the disbelievers.',
+    fazilat: {
+      ur: 'دعائے قنوت نمازِ عشاء کے وتر میں تیسری رکعت میں رکوع سے قبل تکبیر کہہ کر ہاتھ باندھ کر پڑھی جاتی ہے۔ یہ دعا توحید، اخلاص، عاجزی اور اللہ کی بندگی کا پرشکوہ اعتراف ہے۔ امام ابن ابی شیبہ اور بیہقی نے حضرت عمر بن خطاب اور حضرت عبداللہ بن مسعود رضی اللہ عنہما سے اس کے کلمات روایت فرمائے ہیں۔ وتر میں دعائے قنوت پڑھنے سے دل کو گناہوں سے پاکیزگی نصیب ہوتی ہے اور بندہ شب کے وقت اللہ کے قرب اور حفاظت کی پناہ میں آتا ہے۔',
+      ro: 'Dua-e-Qunoot Namaz-e-Witr ki teesri rakat mein parhi jati hai. Yeh dua Allah se madad, toba, tawakkul aur rehmat talab karne ka mustanad tareeqa hai jo rooh ko itminan bakhshta hai.',
+      en: 'Dua-e-Qunoot is the cornerstone supplication of the Witr prayer after Isha. It embodies complete monotheism, submission, gratitude, and refuge in Allah’s boundless mercy while invoking divine protection from punishment.',
+    },
+    reference: {
+      ur: 'مصنف ابن أبي شيبة: 6965، السنن الكبرى للبيهقي: 2/498، سنن الترمذي: 464',
+      ro: 'Musannaf Ibn Abi Shaybah: 6965, Al-Bayhaqi: 2/498',
+      en: 'Musannaf Ibn Abi Shaybah: 6965, Sunan al-Bayhaqi: 2/498, Jami` at-Tirmidhi: 464',
+    },
+    category: 'Rozana',
+    recommendedCount: 1,
+    seoKeywords: [
+      'Dua e Qunoot',
+      'Dua Qunoot Urdu translation',
+      'Dua e Qunoot Arabic text',
+      'Dua Qunoot Witr prayer',
+      'دعائے قنوت',
+      'نماز وتر کی دعا',
+      'دعائے قنوت اردو ترجمہ',
+      'Dua e Qunoot Roman English',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'اگر کسی کو دعائے قنوت یاد نہ ہو تو وہ وتر میں کیا پڑھے؟',
+          ro: 'Agar Dua e Qunoot yaad na ho to kya parhein?',
+          en: 'What should one recite in Witr if they haven’t memorized Dua-e-Qunoot?',
+        },
+        answer: {
+          ur: 'جب تک دعائے قنوت یاد نہ ہو، اس وقت تک "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً..." یا تین مرتبہ "اللَّهُمَّ اغْفِرْ لِي" پڑھ سکتے ہیں، لیکن اسے جلد یاد کرنا چاہیے۔',
+          ro: 'Rabbana Aatina fid-dunya parh lein jab tak Dua e Qunoot yaad na ho.',
+          en: 'Until memorized, one may recite "Rabbana atina fid-dunya hasanatan..." or "Allahumma-ghfir lee" three times, while actively learning the full Qunoot.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-14',
+    slug: 'dua-e-hajat',
+    title: {
+      ur: 'دعائے حاجت — دلی مراد، مقصد میں کامیابی اور مشکل کشائی کی مسنون دعا',
+      ro: 'Dua e Hajat — Dili Murad aur Mushkil Kushai ki Dua',
+      en: 'Dua-e-Hajat — Supplication for Fulfillment of Needs and Critical Requests',
+    },
+    arabicText:
+      'لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ، سُبْحَانَ اللَّهِ رَبِّ الْعَرْشِ الْعَظِيمِ، الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، أَسْأَلُكَ مُوجِبَاتِ رَحْمَتِكَ، وَعَزَائِمَ مَغْفِرَتِكَ، وَالْغَنِيمَةَ مِنْ كُلِّ بِرٍّ، وَالسَّلَامَةَ مِنْ كُلِّ إِثْمٍ، لَا تَدَعْ لِي ذَنْبًا إِلَّا غَفَرْتَهُ، وَلَا هَمًّا إِلَّا فَرَّجْتَهُ، وَلَا حَاجَةً هِيَ لَكَ رِضًا إِلَّا قَضَيْتَهَا يَا أَرْحَمَ الرَّاحِمِينَ',
+    urduTranslation:
+      'اللہ کے سوا کوئی معبود نہیں جو بردبار اور کرم فرمانے والا ہے۔ پاک ہے اللہ جو عرشِ عظیم کا مالک ہے۔ تمام تعریفیں اللہ ہی کے لیے ہیں جو تمام جہانوں کا رب ہے۔ اے اللہ! میں تجھ سے تیری رحمت کے اسباب، تیری مغفرت کے ذرائع، ہر نیکی میں سے حصہ اور ہر گناہ سے سلامتی مانگتا ہوں۔ میرے لیے کوئی ایسا گناہ نہ چھوڑ جسے تو معاف نہ فرمائے، اور نہ کوئی ایسا غم جسے تو دور نہ کرے، اور نہ کوئی ایسی جائز حاجت جس میں تیری رضا ہو مگر اسے تو پوری فرما دے، اے تمام رحم کرنے والوں سے بڑھ کر رحم فرمانے والے!',
+    romanUrdu:
+      'Laa ilaaha illallāhul-Haleemul-Kareem, Subhanallahi Rabbil-‘Arshil-‘Azeem, Alhamdulillahi Rabbil-‘Aalameen. As-aluka moojibaati rahmatik, wa ‘azaa-ima maghfiratik, wal-ghaneemata min kulli birr, was-salaamata min kulli ithm. Laa tada’ lee dhamban illaa ghafartah, wa laa hamman illaa farrajtah, wa laa haajatan hiya laka ridan illaa qadaytahaa, yaa Arhamar-Raahimeen.',
+    englishTranslation:
+      'There is no deity except Allah, the Most Forbearing, the Most Generous. Glory be to Allah, Lord of the Magnificent Throne. All praise is due to Allah, Lord of the worlds. I ask You for the means of Your mercy, the resolves of Your forgiveness, the spoils of every virtue, and safety from every sin. Leave no sin of mine unforgiven, no distress unrelieved, and no need that is pleasing to You unfulfilled, O Most Merciful of the merciful!',
+    fazilat: {
+      ur: 'جامع ترمذی (479) اور سنن ابن ماجہ (1384) میں حضرت عبداللہ بن ابی اوفی رضی اللہ عنہ سے مروی ہے کہ رسول اللہ ﷺ نے فرمایا: جس شخص کو اللہ تعالیٰ کی بارگاہ میں یا بنی نوع انسان کے سامنے کوئی اہم ضرورت یا حاجت درپیش ہو، تو وہ اچھی طرح وضو کرے، دو رکعت نماز (صلوٰۃ الحاجت) پڑھے، پھر اللہ کی حمد و ثناء اور نبی کریم ﷺ پر درود شریف بھیجے، اس کے بعد یہ دعا مانگے۔ بزرگانِ دین نے آزمایا ہے کہ جب کوئی جائز کام اٹکا ہوا ہو یا قانونی، گھریلو و مالی رکاوٹ پیش آئے تو صلوٰۃ الحاجت کے ساتھ یہ دعا پڑھنے سے اللہ تعالیٰ بندِشوں کو ختم کر کے اسباب پیدا فرما دیتا ہے۔',
+      ro: 'Sunan Ibn Majah aur Tirmidhi ke mutabiq jab koi mushkil masla ya dili murad darpaish ho to do rakat Salat ul Hajat parh kar yeh dua mangein. Har jaiz maqsad aur rukawat door karne ke liye la-jawaab amal hai.',
+      en: 'Recorded in Jami` at-Tirmidhi (479) and Sunan Ibn Majah (1384), this supplication is recited after praying two Rakats of Salat al-Hajah when seeking divine intervention for urgent needs, health, employment, marriage, or financial relief.',
+    },
+    reference: {
+      ur: 'جامع ترمذی: 479، سنن ابن ماجہ: 1384',
+      ro: 'Jami` at-Tirmidhi: 479, Sunan Ibn Majah: 1384',
+      en: 'Jami` at-Tirmidhi: 479, Sunan Ibn Majah: 1384',
+    },
+    category: 'Mushkilat',
+    recommendedCount: 11,
+    seoKeywords: [
+      'Dua e Hajat',
+      'Dua Hajat Urdu translation',
+      'Salat ul Hajat dua',
+      'Dua for urgent wish',
+      'دعائے حاجت',
+      'مشکل کشائی کی دعا',
+      'حاجت برآری کی مسنون دعا',
+      'Dua e Hajat Roman Urdu',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'صلوٰۃ الحاجت پڑھنے کا کیا طریقہ ہے؟',
+          ro: 'Salat ul Hajat parhne ka tareeqa kya hai?',
+          en: 'How to perform Salat al-Hajah?',
+        },
+        answer: {
+          ur: 'تازہ وضو کر کے خلوص کے ساتھ 2 رکعت نفل نماز پڑھیں، سلام پھیر کر درود شریف پڑھیں اور پھر خشوع سے دعائے حاجت مانگیں۔',
+          ro: 'Taza wuzu kar ke 2 rakat nafal parhein, Durood Shareef parhein aur phir Dua e Hajat mangein.',
+          en: 'Perform fresh ablution, pray 2 Rak’ah voluntary prayer, send blessings upon the Prophet ﷺ, and sincerely supplicate with Dua-e-Hajat.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-15',
+    slug: 'manzil-dua',
+    title: {
+      ur: 'منزل شریف — نظرِ بد، سحر، جادو اور شیطانی اثرات سے مکمل حفاظت کا قرآنی حصار',
+      ro: 'Manzil Shareef — Nazar-e-Bad, Jadu aur Hifazat ka Qurani Hisar',
+      en: 'Manzil Shareef — Complete Quranic Verses for Protection against Evil Eye, Sorcery, and Harm',
+    },
+    arabicText:
+      'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿١﴾ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿٢﴾ الرَّحْمَٰنِ الرَّحِيمِ ﴿٣﴾ مَالِكِ يَوْمِ الدِّينِ ﴿٤﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٦﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٧﴾ • الم ﴿١﴾ ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ • اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ • لَا إِكْرَاهَ فِي الدِّينِ • قُلْ هُوَ اللَّهُ أَحَدٌ • قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ • قُلْ أَعُوذُ بِرَبِّ النَّاسِ',
+    urduTranslation:
+      'شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔ تمام تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا پالنے والا ہے... (منزل شریف میں سورۂ فاتحہ، سورۂ بقرہ کی ابتدائی و آخری آیات اور آیت الکرسی، سورۂ آل عمران، سورۂ اعراف، سورۂ مومنون، سورۂ جن، سورۂ صافات اور معوذتین شامل ہیں جو ہر بلا، سحر اور شیطانی فتنوں کا تریاق ہیں)۔',
+    romanUrdu:
+      'Bismillahir-Rahmanir-Raheem. Alhamdulillahi Rabbil-‘Aalameen... Manzil Shareef 33 makhsoos Qurani aayat ka mustanad majmua hai jisme Surah Al-Fatiha, Surah Al-Baqarah (1-5, 163, 255-257, 284-286), Surah Al-Imran, Al-A’raf, Al-Mu’minun, Al-Jinn, As-Saffat aur Al-Mu’awwidhatayn shamil hain.',
+    englishTranslation:
+      'In the name of Allah, the Most Gracious, the Most Merciful. All praise is for Allah, Lord of the worlds... The Manzil comprises 33 designated verses of the Holy Quran compiled from authentic Prophetic traditions as an impenetrable fortress against malevolence, witchcraft, jinns, depression, and the evil eye.',
+    fazilat: {
+      ur: 'منزل شریف قرآن مجید کی ان منتخب 33 آیات کا مجموعہ ہے جنہیں رسول اللہ ﷺ نے مریضوں اور آسیب و سحر زدہ افراد کے دم کرنے کے لیے استعمال فرمایا (مسند احمد: 21196، مستدرک حاکم: 4/216)۔ جب حضرت ابی بن کعبؓ نے ایک جناتی اثر والے دیہاتی کو بارگاہِ رسالت ﷺ میں پیش کیا تو آپ ﷺ نے یہی آیات پڑھ کر دم فرمائیں اور وہ شخص فوراً صحت یاب ہو گیا۔ روزانہ صبح یا شام ایک مرتبہ منزل شریف کی تلاوت کرنے والے گھر اور افراد پر جادو ٹونے، حاسدوں کی بری نظر، وسوسوں اور اچانک حادثات کا کوئی اثر نہیں ہوتا۔ یہ روحانی امراض اور ڈپریشن سے نجات کا لاجواب قرآنی نسخہ ہے۔',
+      ro: 'Manzil Shareef 33 Qurani aayat ka mustanad majmua hai jise Huzoor ﷺ ne jadu, aaseeb aur bimari ke ilaj ke liye dam farmaya (Musnad Ahmad: 21196). Rozana ghar mein parhne se dushman ki nazar aur shaitani shar se kamil hifazat rehti hai.',
+      en: 'Recorded in Musnad Ahmad (21196) and Al-Mustadrak (4/216), the verses of Manzil were prescribed by the Prophet ﷺ for healing, dispelling sorcery, alleviating acute anxiety, and shielding against demonic whispers and the destructive evil eye.',
+    },
+    reference: {
+      ur: 'مسند أحمد: 21196، مستدرك الحاكم: 4/216، مصنف ابن أبي شيبة: 23534',
+      ro: 'Musnad Ahmad: 21196, Mustadrak al-Hakim: 4/216',
+      en: 'Musnad Ahmad: 21196, Al-Mustadrak: 4/216, Musannaf Ibn Abi Shaybah: 23534',
+    },
+    category: 'Hifazat',
+    recommendedCount: 1,
+    seoKeywords: [
+      'Manzil Dua',
+      'Manzil Shareef Urdu',
+      'Manzil pdf reading',
+      'Manzil for jadu and nazar',
+      'منزل شریف',
+      'منزل دعا مع اردو ترجمہ',
+      'جادو اور نظر بد سے حفاظت کی منزل',
+      'Manzil Shareef full Arabic',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'کیا منزل روزانہ پڑھنا ضروری ہے؟',
+          ro: 'Kya Manzil rozana parhna zaroori hai?',
+          en: 'Should Manzil be recited on a daily basis?',
+        },
+        answer: {
+          ur: 'روزانہ صبح یا شام ایک مرتبہ پڑھنا گھر اور اہل و عیال کے لیے بے پناہ حفاظت اور برکت کا باعث ہے۔',
+          ro: 'Rozana subah ya sham 1 dafa parhna ghar aur ahl-e-khana ki hifazat ke liye behtareen hai.',
+          en: 'Reciting it once daily in the morning or evening surrounds your home and family with divine security against negative energies.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-16',
+    slug: 'surah-al-kahf-first-last-10-verses',
+    title: {
+      ur: 'سورۃ الکہف کی پہلی و آخری 10 آیات — فتنۂ دجال سے حفاظت کا مسنون نبوی وظیفہ',
+      ro: 'Surah Al-Kahf ki Pehli aur Aakhri 10 Ayaat — Fitna-e-Dajjal se Hifazat',
+      en: 'First and Last 10 Verses of Surah Al-Kahf — Protection from the Tribulation of Dajjal',
+    },
+    arabicText:
+      'الْحَمْدُ لِلَّهِ الَّذِي أَنزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ وَلَمْ يَجْعَل لَّهُ عِوَجًا ۜ ﴿١﴾ قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ الْمُؤْمِنِينَ الَّذِينَ يَعْمَلُونَ الصَّالِحَاتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا ﴿٢﴾ مَّاكِثِينَ فِيهِ أَبَدًا ﴿٣﴾ وَيُنذِرَ الَّذِينَ قَالُوا اتَّخَذَ اللَّهُ وَلَدًا ﴿٤﴾ مَّا لَهُم بِهِ مِنْ عِلْمٍ وَلَا لِآبَائِهِمْ ۚ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَاهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًا ﴿٥﴾ فَلَعَلَّكَ بَاخِعٌ نَّفْسَكَ عَلَىٰ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا بِهَٰذَا الْحَدِيثِ أَسَفًا ﴿٦﴾ إِنَّا جَعَلْنَا مَا عَلَى الْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا ﴿٧﴾ وَإِنَّا لَجَاعِلُونَ مَا عَلَيْهَا صَعِيدًا جُرُزًا ﴿٨﴾ أَمْ حَسِبْتَ أَنَّ أَصْحَابَ الْكَهْفِ وَالرَّقِيمِ كَانُوا مِنْ آيَاتِنَا عَجَبًا ﴿٩﴾ إِذْ أَوَى الْفِتْيَةُ إِلَى الْكَهْفِ فَقَالُوا رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا ﴿١٠﴾',
+    urduTranslation:
+      'تمام تعریفیں اللہ ہی کے لیے ہیں جس نے اپنے بندے پر کتاب نازل فرمائی اور اس میں کوئی کجی نہ رکھی، بالکل سیدھی اور محکم تاکہ وہ اس کی طرف سے سخت عذاب کی وعید سنائے، اور ایمان والوں کو جو نیک اعمال کرتے ہیں یہ خوشخبری دے کہ ان کے لیے بہترین اجر (جنت) ہے جس میں وہ ہمیشہ رہیں گے... اے ہمارے پروردگار! ہمیں اپنی جناب سے خاص رحمت عطا فرما اور ہمارے معاملے میں ہمارے لیے ہدایت اور بھلائی کا راستہ آسان کر دے۔',
+    romanUrdu:
+      'Alhamdu lillahil-lazeee anzala ‘alaa ‘abdihil-Kitaaba wa lam yaj’al lahoo ‘iwajaa; Qayyimal-liyundhira ba’san shadeedam-mil-ladunhu wa yubashshiral-mu’mineenal-ladheena ya’maloonas-saalihaati anna lahum ajran hasanaa; Maakitheena feehi abadaa... Iz awal-fityatu ilal-Kahfi faqaaloo Rabbanaaa aatinaa mil-ladunka rahmatanw-wa hayyi’ lanaa min amrinaa rashadaa.',
+    englishTranslation:
+      'All praise is due to Allah, who has sent down upon His Servant the Book and has not made therein any deviance. He has made it straight, to warn of severe punishment from Him and to give good tidings to the believers who do righteous deeds that they will have a good reward in which they will abide forever... [When] the youths retreated to the cave and said, "Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance."',
+    fazilat: {
+      ur: 'صحیح مسلم (809) میں حضرت ابو درداءؓ سے روایت ہے کہ نبی کریم ﷺ نے فرمایا: "جس نے سورۃ الکہف کی ابتدائی دس آیات یاد کر لیں، وہ دجال کے فتنے سے محفوظ رہے گا"، اور ایک دوسری روایت میں آخری دس آیات کا ذکر ہے۔ نیز جمعہ کے دن سورۃ الکہف پڑھنے والے کے لیے دو جمعوں کے درمیان نور روشن کر دیا جاتا ہے (مستدرک حاکم: 2/399)۔ یہ آیات مادہ پرستی، کفر، اور فتنوں کے دور میں ایمان کی استقامت اور اللہ پر توکل کے نور کا عظیم ترین ذریعہ ہیں۔',
+      ro: 'Sahih Muslim (809) ke mutabiq Surah Al-Kahf ki pehli 10 aayat yaad karne aur parhne wala Fitna-e-Dajjal se mehfooz rehta hai. Jumma ke din iski tilawat se agle jumma tak roohani noor chamakta rehta hai.',
+      en: 'In Sahih Muslim (809), Abu al-Darda reported that the Prophet ﷺ stated: "Whoever memorizes the first ten verses of Surah Al-Kahf will be protected from the trial of the Dajjal (Anti-Christ)." It is a beacon of light between two Fridays.',
+    },
+    reference: {
+      ur: 'القرآن الكريم، سورة الكهف: 1-10؛ صحيح مسلم: 809، مستدرك الحاكم: 2/399',
+      ro: 'Surah Al-Kahf: 1-10; Sahih Muslim: 809',
+      en: 'Quran 18:1-10; Sahih Muslim: 809, Al-Mustadrak: 2/399',
+    },
+    category: 'Rozana',
+    recommendedCount: 1,
+    seoKeywords: [
+      'Surah Kahf first 10 verses',
+      'Surah Kahf Urdu translation',
+      'Fitna e Dajjal se hifazat',
+      'Surah Kahf Friday wird',
+      'سورۃ الکہف کی پہلی 10 آیات',
+      'سورۃ الکہف اردو ترجمہ',
+      'فتنہ دجال کی دعا',
+      'Surah Al Kahf 10 verses Roman Urdu',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'جمعہ کے دن سورۃ الکہف پڑھنے کی کیا فضیلت ہے؟',
+          ro: 'Jumma ko Surah Kahf parhne ki kya fazilat hai?',
+          en: 'What is the virtue of reciting Surah Al-Kahf on Friday?',
+        },
+        answer: {
+          ur: 'حدیث شریف کے مطابق اس کے پڑھنے والے کے لیے اگلے جمعہ تک ایک خاص روحانی نور روشن رہتا ہے اور دجالی فتنوں سے امان ملتی ہے۔',
+          ro: 'Hadees ke mutabiq parhne wale ke liye agle jumma tak noor roshan rehta hai.',
+          en: 'According to authentic hadiths, an illuminating light shines for the reciter from one Friday to the next, protecting their faith from worldly corruption.',
+        },
+      },
+    ],
+  },
+  {
+    id: 'dua-17',
+    slug: 'surah-al-mulk-aur-waqiah-wird',
+    title: {
+      ur: 'سورۃ الملک و سورۃ الواقعہ کا وظیفہ — عذابِ قبر سے نجات اور رزق کی فراوانی کا نبوی ورد',
+      ro: 'Surah Al-Mulk aur Surah Al-Waqiah Wird — Azab-e-Qabr se Nijat aur Rizq',
+      en: 'Surah Al-Mulk & Surah Al-Waqiah Wird — Salvation from Grave Torment & Abundant Sustenance',
+    },
+    arabicText:
+      'تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ﴿١﴾ الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ الْعَزِيزُ الْغَفُورُ ﴿٢﴾ ... إِذَا وَقَعَتِ الْوَاقِعَةُ ﴿١﴾ لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ ﴿٢﴾ خَافِضَةٌ رَّافِعَةٌ ﴿٣﴾ إِذَا رُجَّتِ الْأَرْضُ رَجًّا ﴿٤﴾',
+    urduTranslation:
+      'بڑی برکت والا ہے وہ جس کے ہاتھ میں تمام بادشاہی ہے اور وہ ہر چیز پر قادر ہے۔ جس نے موت اور زندگی کو پیدا کیا تاکہ تمہیں آزمائے کہ تم میں سے کس کے عمل اچھے ہیں، اور وہ زبردست بخشنے والا ہے... جب واقع ہونے والی (قیامت) واقع ہو جائے گی، اس کے واقع ہونے میں کوئی جھوٹ نہیں، وہ کسی کو پست کرنے والی اور کسی کو بلند کرنے والی ہوگی...',
+    romanUrdu:
+      'Tabaarakal-lazee biyadihil-mulku wa Huwa ‘alaa kulli shay’in Qadeer; Allazee khalaqal-mawta wal-hayaata liyabluwakum ayyukum ahsanu ‘amalaa; wa Huwal-‘Azeezul-Ghafoor... Izaa waqa’atil-waaqi’ah; laysa liwaq’atihaa kaadhibah; khaafidatur-raafi’ah.',
+    englishTranslation:
+      'Blessed is He in whose hand is dominion, and He is over all things competent. [He] who created death and life to test you as to which of you is best in deed—and He is the Exalted in Might, the Forgiving... When the Inevitable Event befalls, there will be no denying its occurrence. It will bring down [some] and elevate [others].',
+    fazilat: {
+      ur: 'سنن ترمذی (2891) اور سنن ابوداؤد میں مروی ہے کہ رسول اللہ ﷺ نے فرمایا: "قرآن میں تیس آیتوں پر مشتمل ایک سورت ہے جس نے ایک شخص کی اس قدر سفارش کی کہ اس کی مغفرت فرما دی گئی، اور وہ سورۃ تبارک الذی بیدہ الملک ہے"۔ حضرت عبداللہ بن مسعودؓ فرماتے ہیں کہ جو شخص ہر رات سورۃ الملک پڑھے گا، اللہ تعالیٰ اس کی برکت سے اسے عذابِ قبر سے محفوظ رکھے گا۔ اور حضرت عبداللہ بن مسعودؓ ہی سے بیہقی میں مروی ہے کہ نبی ﷺ نے فرمایا: "جس نے ہر رات سورۃ الواقعہ کی تلاوت کی، اسے کبھی فاقہ کشی اور مالی تنگی نہیں پہنچے گی"۔ اس لیے مغرب و عشاء کے بعد یہ دونوں سورتیں پڑھنا دینی و دنیاوی خوشحالی کا اکسیر ہے۔',
+      ro: 'Surah Al-Mulk raat ko parhne se azaab-e-qabr se kamil najaat milti hai (Tirmidhi: 2891), aur Surah Al-Waqiah har raat parhne se faqa aur rizq ki tangi kabhi nahi aati. Yeh dono sooratein dunya o aakhirat ki kamyabi ka zariya hain.',
+      en: 'Narrated in Jami` at-Tirmidhi (2891), Surah Al-Mulk intercedes for its companion until all sins are forgiven and shields against the torment of the grave. Reciting Surah Al-Waqiah every night brings unending abundance and shields against destitution.',
+    },
+    reference: {
+      ur: 'جامع ترمذی: 2891، سنن ابن ماجہ: 3786، شعب الإيمان للبيهقي: 2269',
+      ro: 'Jami` at-Tirmidhi: 2891, Shu’ab al-Iman Al-Bayhaqi: 2269',
+      en: 'Jami` at-Tirmidhi: 2891, Sunan Ibn Majah: 3786, Shu’ab al-Iman: 2269',
+    },
+    category: 'Rizq',
+    recommendedCount: 1,
+    seoKeywords: [
+      'Surah Mulk Urdu translation',
+      'Surah Waqiah for rizq',
+      'Azab e qabr se nijat ki surah',
+      'Surah Mulk audio text',
+      'سورۃ الملک اردو ترجمہ',
+      'سورۃ الواقعہ کا وظیفہ',
+      'رزق میں برکت کی سورۃ',
+      'Surah Mulk Waqiah Roman Urdu',
+    ],
+    faqs: [
+      {
+        question: {
+          ur: 'سورۃ الملک اور سورۃ الواقعہ کب پڑھنی چاہیے؟',
+          ro: 'Surah Mulk aur Surah Waqiah kab parhein?',
+          en: 'When should Surah Al-Mulk and Surah Al-Waqiah be recited?',
+        },
+        answer: {
+          ur: 'سورۃ الواقعہ مغرب کے بعد اور سورۃ الملک عشاء کے بعد یا سونے سے قبل تلاوت کرنا مسنون روایات سے ثابت ہے۔',
+          ro: 'Surah Waqiah Maghrib ke baad aur Surah Mulk sone se pehle parhna sab se afzal hai.',
+          en: 'Surah Al-Waqiah is customarily recited after Maghrib, while Surah Al-Mulk is recited after Isha or right before sleep.',
+        },
+      },
+    ],
+  },
 ];
 
 const slugAliases: Record<string, string> = {
   'preshani-aur-gham-se-nijat-ki-dua': 'preshani-aur-bechaini-ki-dua',
+  'preshani-aur-gham-ki-dua': 'preshani-aur-bechaini-ki-dua',
   'qarz-utarne-aur-kushadgi-rizq-ki-dua': 'qarz-se-nijat-aur-rizq-ki-dua',
   'nazar-e-bad-aur-hifazat-ki-dua': 'nazar-e-bad-se-hifazat-ki-dua',
+  'nazar-e-bad-ki-dua': 'nazar-e-bad-se-hifazat-ki-dua',
   'bimari-se-shifa-ki-masnoon-dua': 'bimari-aur-dard-se-shifa-ki-dua',
   'musibat-aur-sakhti-ke-waqt-ki-dua': 'sakht-musibat-ke-waqt-ki-dua',
   'ilm-aur-hunar-mein-izafay-ki-dua': 'ilm-aur-hafzay-mein-izafay-ki-dua',

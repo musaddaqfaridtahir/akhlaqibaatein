@@ -1599,6 +1599,207 @@ export const duroodList: DuroodItem[] = [
         }
     ],
     pdfFilename: "The-Shimmering-Light-Mawlid.pdf"
+},
+{
+  id: '31',
+  slug: 'durood-e-taj',
+  title: {
+    ur: 'درودِ تاج (Durood-e-Taj in Urdu & Roman — قلبی سکون و برکت)',
+    ro: 'Durood-e-Taj in Urdu & Roman (Salat al-Taj)',
+    en: 'Durood-e-Taj (Salat al-Taj with English Translation)',
+  },
+  arabicText:
+    'اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ، صَاحِبِ التَّاجِ وَالْمِعْرَاجِ وَالْبُرَاقِ وَالْعَلَمِ، دَافِعِ الْبَلَاءِ وَالْوَبَاءِ وَالْقَحْطِ وَالْمَرَضِ وَالأَلَمِ، اسْمُهُ مَكْتُوبٌ مَرْفُوعٌ مَشْفُوعٌ مَنْقُوشٌ فِي اللَّوْحِ وَالْقَلَمِ، شَمْسِ الضُّحَى، بَدْرِ الدُّجَى، نُورِ الْهُدَى، مِصْبَاحِ الظُّلَمِ، أَبِي الْقَاسِمِ سَيِّدِ الْكَوْنَيْنِ وَشَفِيعِ الثَّقَلَيْنِ، صَلَّى اللَّهُ تَعَالَى عَلَيْهِ وَعَلَى آلِهِ وَأَصْحَابِهِ وَسَلَّمَ تَسْلِيمًا',
+  urduTranslation:
+    'اے اللہ! ہمارے آقا و مولیٰ حضرت محمد ﷺ پر رحمت نازل فرما جو تاج، معراج، براق اور پرچم والے ہیں، جو مصیبتوں، وباؤں، قحط، بیماریوں اور تکلیفوں کو دور کرنے والے ہیں۔ جن کا مبارک نام لوح و قلم میں بلند مرتبہ، شفاعت کرنے والا اور منقوش لکھا ہوا ہے۔ جو چاشت کے آفتاب، اندھیری راتوں کے چودھویں کے چاند، ہدایت کے نور اور تاریکیوں کے چراغ ہیں۔ جو ابو القاسم، دونوں جہانوں کے سردار اور جن و انس کے شفیع ہیں۔ اللہ تعالیٰ ان پر اور ان کی آل و اصحاب پر خوب سلامتی اور رحمتیں نازل فرمائے۔',
+  romanUrdu:
+    'Allahumma salli ala sayyidina wa mawlana Muhammadin, Sahibi-taji wal-Mi’raji wal-Buraqi wal-Alam, Dafi’il bala-i wal-waba-i wal-qahti wal-maradi wal-alam. Ismuhu maktoobun marfoo’un mashfoo’un manqooshun fil-lawhi wal-qalam. Sham-sid-duha, Badr-id-duja, Noor-il-huda, Misbah-iz-zulam, Abil Qasimi Sayyidil kawnayni wa Shafee’ith-thaqalayn, sallallahu alayhi wa aalihi wa as-habihi wa sallam.',
+  englishTranslation:
+    'O Allah! Send peace and blessings upon our Master and Patron Muhammad ﷺ, the possessor of the Crown, the Ascension, the Buraq, and the Standard; the repeller of affliction, pestilence, drought, sickness, and pain. His name is recorded, elevated, accepted for intercession, and inscribed upon the Preserved Tablet and the Pen. The radiant sun of forenoon, the full moon of dark nights, the light of divine guidance, the lantern amidst darkness, Father of Qasim, Master of both creations, and intercessor for mankind and jinn.',
+  fazilat: {
+    ur: 'درودِ تاج برصغیر پاک و ہند اور عالمِ اسلام میں عاشقانِ رسول ﷺ کا مقبول ترین اور دلوں کو گرما دینے والا درودِ پاک ہے۔ اس مبارک درود میں سرورِ کائنات ﷺ کے جلیل القدر اوصاف، معراجِ مصطفیٰ ﷺ، اور آپ کی شانِ شفاعت کو انتہائی پرشوق اور دلنشین پیرائے میں بیان کیا گیا ہے۔ مشائخ اور اولیاء عظام فرماتے ہیں کہ قلبی سکون، روحانی بے چینی کے خاتمے، مصائب و بلایات سے نجات، اور خواب میں زیارتِ نبوی ﷺ کے اشتیاق کے لیے درودِ تاج کا باوضو ورد بے حد مجرب ہے۔ جو شخص روزانہ رات کو سونے سے قبل یا بعد نمازِ عشاء اس درود کو 11، 21 یا 41 مرتبہ محبت اور عقیدت کے ساتھ پڑھتا ہے، اللہ تعالیٰ اس کے گھر میں برکت، حفاظت اور روحانی انوار و تجلیات عطا فرماتا ہے۔',
+    ro: 'Durood-e-Taj aalam-e-Islam mein qalb ke sukoon, roohani bechaini ke khatme aur dunya o aakhirat ki aafat se nijat ke liye parha jata hai. Is mein Huzoor ﷺ ki shaan-e-me’raj aur shafaat ka dilkash bayan hai. Rozana 11 ya 41 martaba parhne se ghar mein barkat aur hifazat rehti hai.',
+    en: 'Salat al-Taj (The Salutation of the Crown) is a renowned spiritual hymn across the Muslim world celebrating the exalted attributes of the Prophet Muhammad ﷺ—the Ascension, the celestial steed Buraq, and his divine role as intercessor. Spiritual masters recommend it for relief from anxiety, protection from harm, and drawing spiritual closeness to the Prophet ﷺ.',
+  },
+  category: 'Mushkilat',
+  reference: {
+    ur: 'مجموعہ اوراد و وظائفِ صلحاء و مشائخ',
+    ro: 'Majmooa Awrad-e-Saliheen',
+    en: 'Classical Compilations of Spiritual Litanies',
+  },
+  recommendedCount: 41,
+  pdfFilename: 'Durood-e-Taj_akhlaqibaatein.pdf',
+  seoKeywords: [
+    'Durood e Taj in Urdu and Roman',
+    'درود تاج مکمل متن اردو ترجمہ',
+    'Durood e Taj pdf download',
+    'Durood e Taj benefits fazilat',
+    'Salat al Taj full text Arabic',
+  ],
+  faqs: [
+    {
+      question: {
+        ur: 'کیا درودِ تاج روزانہ پڑھا جا سکتا ہے؟',
+        ro: 'Kya Durood-e-Taj rozana parh sakte hain?',
+        en: 'Can Durood-e-Taj be recited on a daily basis?',
+      },
+      answer: {
+        ur: 'جی ہاں! روزانہ بعد نمازِ فجر یا عشاء 11، 21 یا 41 مرتبہ پڑھنا روحانی سکون اور برکت کا باعث ہے۔',
+        ro: 'Rozana subah ya sham 11 ya 21 dafa parhna nihayat ba-barkat hai.',
+        en: 'Yes, reciting it 11, 21, or 41 times morning or night fosters immense spiritual peace and divine blessings.',
+      },
+    },
+  ],
+},
+{
+  id: '32',
+  slug: 'durood-e-lakhi',
+  title: {
+    ur: 'درودِ لکھی (Durood-e-Lakhi with Urdu Translation — برکت و ثواب)',
+    ro: 'Durood-e-Lakhi with Urdu & Roman Translation',
+    en: 'Durood-e-Lakhi (The Million-Blessing Salawat)',
+  },
+  arabicText:
+    'اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ حَتَّى تَرْضَى، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ بَعْدَ الرِّضَى، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ أَبَدًا أَبَدًا، اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ كَمَا أَمَرْتَنَا بِالصَّلَاةِ عَلَيْهِ، وَصَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ كَمَا يَنْبَغِي أَنْ يُصَلَّى عَلَيْهِ، عَدَدَ خَلْقِكَ وَرِضَا نَفْسِكَ وَزِنَةَ عَرْشِكَ وَمِدَادَ كَلِمَاتِكَ',
+  urduTranslation:
+    'اے اللہ! ہمارے آقا حضرت محمد ﷺ پر رحمت نازل فرما یہاں تک کہ تو راضی ہو جائے، اور ہمارے آقا حضرت محمد ﷺ پر راضی ہونے کے بعد بھی رحمت نازل فرما، اور ہمارے آقا حضرت محمد ﷺ پر ہمیشہ ہمیشہ رحمت نازل فرما۔ اے اللہ! ہمارے آقا حضرت محمد ﷺ پر رحمت نازل فرما جیسا تو نے ہمیں ان پر درود بھیجنے کا حکم دیا ہے، اور ان پر ایسی رحمت نازل فرما جیسا کہ ان پر درود بھیجنے کا حق ہے، اپنی مخلوق کی تعداد کے برابر، اپنی ذات کی خوشنودی کے مطابق، اپنے عرش کے وزن کے ہم پلہ اور اپنے کلمات کی سیاہی کے پیمانے کے برابر۔',
+  romanUrdu:
+    'Allahumma salli ala sayyidina Muhammadin hatta tarda, wa salli ala sayyidina Muhammadin ba’dar-rida, wa salli ala sayyidina Muhammadin abadan abada. Allahumma salli ala sayyidina Muhammadin kama amartana bis-salati alayh, wa salli ala sayyidina Muhammadin kama yambaghi an yusalla alayh, adada khalqika wa rida nafsika wa zinata arshika wa midada kalimatik.',
+  englishTranslation:
+    'O Allah! Send blessings upon our Master Muhammad ﷺ until You are pleased, and send blessings upon our Master Muhammad ﷺ after You are pleased, and send blessings upon our Master Muhammad ﷺ forever and ever. O Allah! Send blessings upon our Master Muhammad ﷺ as You commanded us to invoke blessings upon him, and send blessings upon him as befits him, to the number of Your creation, the pleasure of Your self, the weight of Your Throne, and the ink of Your words.',
+  fazilat: {
+    ur: 'درودِ لکھی اس مبارک صلوات کو کہا جاتا ہے جس کے ثواب کی کثرت کو لاکھوں رحمتوں سے تعبیر کیا گیا ہے۔ علمائے کرام نے فرمایا ہے کہ اس درود میں اللہ تعالیٰ کی رضا، کائنات کی تمام مخلوقات کی گنتی، اور کلماتِ الٰہی کے پیمانے کو شامل کر کے درود و سلام کا نذرانہ پیش کیا گیا ہے۔ اس لیے ایک مرتبہ پڑھنے پر بھی بندے کو بے حساب نیکیوں، گناہوں کی بخشش اور روحانی ترقی کا شرف نصیب ہوتا ہے۔ جمعہ کے مبارک دن یا شبِ جمعہ اس کا ورد دل کی مرادیں پوری کرنے اور قبر و آخرت کی تاریکیوں سے نجات حاصل کرنے میں انتہائی اثر انگیز مانا گیا ہے۔',
+    ro: 'Durood-e-Lakhi sawab ki kasrat aur azeem barkat ki waja se mashhoor hai. Is mein Allah ki makhlooq aur arsh ke wazan ke barabar durood bheja jata hai. Rozana ya Juma ke din iska wird dil ko noor aur ajar deta hai.',
+    en: 'Known historically as the Million-Fold Salawat, Durood-e-Lakhi encapsulates praise equal to the creation of Allah, the weight of the Throne, and the ink of divine words. Scholars commend it for immense spiritual reward and divine forgiveness.',
+  },
+  category: 'Wird',
+  reference: {
+    ur: 'کنز العمال، جواہر البحار، کتبِ اوراد',
+    ro: 'Kanz al-Ummal, Jawahir al-Bihar',
+    en: 'Jawahir al-Bihar, Classical Awrad',
+  },
+  recommendedCount: 11,
+  pdfFilename: 'Durood-e-Lakhi_akhlaqibaatein.pdf',
+  seoKeywords: [
+    'Durood e Lakhi in Urdu',
+    'Durood e Lakhi text Roman',
+    'درود لکھی اردو ترجمہ و فضیلت',
+    'Durood e Lakhi full pdf',
+  ],
+  faqs: [
+    {
+      question: {
+        ur: 'درودِ لکھی پڑھنے کا بہترین وقت کیا ہے؟',
+        ro: 'Durood-e-Lakhi parhne ka behtareen waqt kya hai?',
+        en: 'What is the best time to recite Durood-e-Lakhi?',
+      },
+      answer: {
+        ur: 'جمعہ کے دن بعد نمازِ عصر یا نمازِ فجر کے بعد 11 مرتبہ پڑھنا بے شمار برکات کا حامل ہے۔',
+        ro: 'Juma ke din Asr ke baad ya Fajr ke baad 11 martaba parhein.',
+        en: 'Reciting it 11 times following the Friday Asr prayer or Fajr prayer carries immense blessings.',
+      },
+    },
+  ],
+},
+{
+  id: '33',
+  slug: 'durood-e-mahi',
+  title: {
+    ur: 'درودِ ماہی (Durood-e-Mahi — فقر و تنگدستی سے نجات)',
+    ro: 'Durood-e-Mahi (Relief from Poverty)',
+    en: 'Durood-e-Mahi (Deliverance from Hardship)',
+  },
+  arabicText:
+    'اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، صَلَاةً تَكُونُ لَكَ رِضَاءً، وَلِحَقِّهِ أَدَاءً، وَأَعْطِهِ الْوَسِيلَةَ وَالْفَضِيلَةَ وَالدَّرَجَةَ الرَّفِيعَةَ، وَابْعَثْهُ الْمَقَامَ الْمَحْمُودَ الَّذِي وَعَدْتَهُ، يَا أَرْحَمَ الرَّاحِمِينَ',
+  urduTranslation:
+    'اے اللہ! حضرت محمد ﷺ پر اور ان کی آل پر ایسی رحمت نازل فرما جو تیری رضا مندی کا باعث ہو، اور ان کے حق کی ادائیگی کا ذریعہ بنے، اور ان کو مقامِ وسیلہ، فضیلت اور بلند مرتبہ عطا فرما، اور انہیں اس مقامِ محمود پر فائز فرما جس کا تو نے ان سے وعدہ کیا ہے، اے سب سے بڑھ کر رحم فرمانے والے!',
+  romanUrdu:
+    'Allahumma salli ala Muhammadin wa ala aali Muhammad, salatan takunu laka rida-an, wa li-haqqihi ada-an, wa a’tihil-waseelata wal-fadeelata wad-darajatar-rafee’ata, wab’ath-hul-maqamal-mahmoodalladhi wa’adtah, ya Arhamar-Rahimeen.',
+  englishTranslation:
+    'O Allah! Bestow upon Muhammad ﷺ and upon the family of Muhammad blessings that will be pleasing to You and fulfill his rightful due, and grant him the Station of Wasilah, virtue, and exalted rank, and resurrect him to the Praised Station (Maqam Mahmud) which You have promised him, O Most Merciful of the merciful!',
+  fazilat: {
+    ur: 'درودِ ماہی روایات اور اکابرین کے تجربات میں تنگدستی، غم اور لاعلاج بیماریوں سے حفاظت کے لیے آزمودہ مانا گیا ہے۔ اس مبارک درود کے کلمات حضور نبی کریم ﷺ کے شایانِ شان حق کی ادائیگی اور مقامِ محمود کی دعا پر مشتمل ہیں۔ جو شخص رزق کی تنگی یا قرضوں کے بوجھ سے نڈھال ہو، اسے چاہیے کہ فجر کے بعد یا عشاء کے بعد اس درود شریف کو 41 مرتبہ یا 100 مرتبہ اپنا معمول بنائے۔ اس کی برکت سے اللہ تعالیٰ فقر کے دروازے بند کر دیتا ہے اور غیب سے باعزت روزگار کا انتظام فرماتا ہے۔',
+    ro: 'Durood-e-Mahi tangdasti aur mushkilat se nijat ke liye salaf ka azeem nuskha hai. Is mein Huzoor ﷺ ke haq ki adayegi aur Maqam-e-Mahmud ki dua hai jo rizq mein wusat lati hai.',
+    en: 'Durood-e-Mahi has traditionally been recited by believers seeking divine deliverance from destitution, financial strain, and severe tribulations, invoking blessings that fulfill the Prophetic due.',
+  },
+  category: 'Rizq',
+  reference: {
+    ur: 'شرح الشفاء، فضائل الصلوات',
+    ro: 'Sharah al-Shifa, Fawaid al-Salawat',
+    en: 'Commentaries on Ash-Shifa, Classical Awrad',
+  },
+  recommendedCount: 41,
+  pdfFilename: 'Durood-e-Mahi_akhlaqibaatein.pdf',
+  seoKeywords: [
+    'Durood e Mahi in Urdu',
+    'Durood e Mahi Roman Urdu',
+    'درود ماہی فضیلت اور متن',
+    'Durood e Mahi pdf download',
+  ],
+  faqs: [
+    {
+      question: {
+        ur: 'درودِ ماہی کس نیت سے پڑھنا چاہیے؟',
+        ro: 'Durood-e-Mahi kis niyat se parhein?',
+        en: 'With what intention should Durood-e-Mahi be recited?',
+      },
+      answer: {
+        ur: 'رزق میں برکت، قرض کی ادائیگی اور بیماریوں سے شفاء کی نیت سے پڑھنا بے حد مفید ہے۔',
+        ro: 'Rizq mein barkat aur qarz se nijat ki niyat se parhein.',
+        en: 'Reciting with the intention of livelihood expansion and debt resolution brings immense relief.',
+      },
+    },
+  ],
+},
+{
+  id: '34',
+  slug: 'durood-e-tunajjina-short-jumma',
+  title: {
+    ur: 'جمعہ کا مسنون درود شریف (اللہم صل علی محمد النبی الامی — 80 سال کے گناہ معاف)',
+    ro: 'Jumma Ka Masnoon Durood (80 Saal Ke Gunah Maaf)',
+    en: 'Sunnah Friday Salawat (80 Years Sins Forgiven)',
+  },
+  arabicText:
+    'اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ النَّبِيِّ الأُمِّيِّ وَعَلَى آلِهِ وَسَلِّمْ تَسْلِيمًا',
+  urduTranslation:
+    'اے اللہ! حضرت محمد ﷺ پر جو نبیِ اُمّی ہیں اور ان کی آل پر رحمتیں اور خوب سلامتی نازل فرما۔',
+  romanUrdu:
+    'Allahumma salli ala Muhammadinin-nabiyyil-ummiyyi wa ala aalihi wa sallim tasleema.',
+  englishTranslation:
+    'O Allah! Send blessings and abundant peace upon Muhammad ﷺ, the unlettered Prophet, and upon his blessed family.',
+  fazilat: {
+    ur: 'سنن دارقطنی، طبرانی اور علامہ سخاویؒ کی القول البدیع میں منقول ہے کہ رسول اللہ ﷺ نے ارشاد فرمایا: "جس نے جمعہ کے دن عصر کی نماز کے بعد اپنی جگہ سے اٹھے بغیر 80 مرتبہ یہ درود پڑھا: اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ النَّبِيِّ الأُمِّيِّ وَعَلَى آلِهِ وَسَلِّمْ تَسْلِيمًا، تو اللہ تعالیٰ اس کے اسی (80) سال کے گناہ معاف فرما دیتا ہے اور اس کے لیے اسی سال کی عبادت کا ثواب لکھ دیا جاتا ہے۔" جمعہ کے بابرکت دن عصر سے مغرب کے درمیانی قبولیت کے وقت میں یہ مختصر اور جامع درود امتِ مسلمہ کے لیے عظیم ترین تحفہ ہے۔',
+    ro: 'Huzoor ﷺ ne farmaya ke jo shakhs Juma ke din Asr ke baad 80 martaba yeh durood parhe, Allah uske 80 saal ke gunah maaf farma deta hai aur 80 saal ki ibadat ka sawab likhta hai.',
+    en: 'The Holy Prophet ﷺ stated that whoever recites this specific Salawat 80 times after the Friday Asr prayer before moving from their place will have 80 years of sins forgiven and 80 years of worship recorded in their favor (Al-Qawl al-Badi, Daraqutni).',
+  },
+  category: 'Rozana',
+  reference: {
+    ur: 'القول البدیع فی الصلاة علی الحبیب الشفیع، سنن دارقطنی',
+    ro: 'Al-Qawl al-Badi, Sunan al-Daraqutni',
+    en: 'Al-Qawl al-Badi, Sunan al-Daraqutni',
+  },
+  recommendedCount: 80,
+  pdfFilename: 'Jumma-Durood-80-Years_akhlaqibaatein.pdf',
+  seoKeywords: [
+    'Jumma ka durood 80 saal ke gunah',
+    'Allahumma salli ala muhammadin nabiyyil ummiyyi',
+    'جمعہ کا مسنون درود شریف',
+    'Durood for Friday 80 times',
+  ],
+  faqs: [
+    {
+      question: {
+        ur: 'یہ درود جمعہ کے دن کس وقت پڑھنا چاہیے؟',
+        ro: 'Yeh durood Juma ke din kis waqt parhna chahiye?',
+        en: 'At what time should this Friday Durood be recited?',
+      },
+      answer: {
+        ur: 'جمعہ کے دن بعد نمازِ عصر اپنی جگہ سے اٹھے بغیر 80 مرتبہ پڑھنا حدیث کے عین مطابق ہے۔',
+        ro: 'Juma ke din Asr ki namaz ke baad usi jagah baith kar 80 martaba parhein.',
+        en: 'Directly after the Friday Asr prayer before departing from your prayer spot, exactly 80 times.',
+      },
+    },
+  ],
 }
 ];
 

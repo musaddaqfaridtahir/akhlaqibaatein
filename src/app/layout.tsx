@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import IslamicDateBar from '@/components/IslamicDateBar';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
+import AnalyticsTracker from '@/components/AnalyticsTracker';
 
 const amiri = Amiri({
   subsets: ['arabic'],
@@ -165,6 +166,7 @@ gtag('js', new Date());`,
           </>
         )}
         <LanguageProvider>
+          <AnalyticsTracker />
           <Navbar />
           <IslamicDateBar />
           <main className="flex-1 w-full max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-4 sm:py-6 overflow-x-hidden">

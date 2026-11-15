@@ -243,7 +243,7 @@ export function buildDuroodMetadata(slug: string, lang: Language): Metadata {
 
   if (!durood) {
     return {
-      title: lang === 'en' ? 'Durood Not Found' : lang === 'ro' ? 'Durood Dastyab Nahi' : 'درود دستیاب نہیں',
+      title: lang === 'en' ? 'Durood Not Found | AkhlaqiBaatein.com' : lang === 'ro' ? 'Durood Dastyab Nahi | AkhlaqiBaatein.com' : 'درود شریف دستیاب نہیں | اخلاقی باتیں',
     };
   }
 
@@ -251,40 +251,46 @@ export function buildDuroodMetadata(slug: string, lang: Language): Metadata {
 
   const title =
     lang === 'en'
-      ? `${durood.title.en} — Arabic Text, English Meaning & Benefits | AkhlaqiBaatein.com`
+      ? `${durood.title.en} (${durood.title.ro}) — Arabic Text, Translation & Benefits | AkhlaqiBaatein.com`
       : lang === 'ro'
-      ? `${durood.title.ro} — Arabic Matn, Roman Urdu Tarjuma aur Fazilat | AkhlaqiBaatein.com`
-      : `${durood.title.ur} | ${durood.title.en} — عربی متن، اردو ترجمہ و فضیلت`;
+      ? `${durood.title.ro} with Urdu Translation & Fazilat | ${durood.title.ur} | AkhlaqiBaatein.com`
+      : `${durood.title.ur} مع اردو ترجمہ و فضیلت | ${durood.title.ro} in Urdu | AkhlaqiBaatein.com`;
 
   const description =
     lang === 'en'
-      ? `${durood.englishTranslation.slice(0, 110)} — Benefits: ${durood.fazilat.en.slice(0, 110)}`
+      ? `${durood.title.en} (${durood.title.ro}): Authenticated Arabic text, English translation, spiritual virtues, and interactive online Tasbeeh counter on AkhlaqiBaatein.com.`
       : lang === 'ro'
-      ? `${durood.romanUrdu.slice(0, 110)} — Fazilat: ${durood.fazilat.ro.slice(0, 110)}`
-      : `${durood.urduTranslation} — ${durood.fazilat.ur}`.slice(0, 160);
+      ? `${durood.title.ro} (${durood.title.ur}) — Mustanad Arabic Naskh text, Roman Urdu tarjuma, fazilat aur online circular tasbeeh counter.`
+      : `${durood.title.ur} (${durood.title.ro}) — مستند اعراب شدہ عربی متن، اردو ترجمہ، فضیلت و برکات اور آن لائن ڈیجیٹل سرکلر تسبیح کاؤنٹر کے ساتھ۔`;
 
   const keywords =
     lang === 'en'
       ? [
           durood.title.en,
+          durood.title.ro,
           'Durood Sharif in English',
           'Salawat on Prophet Muhammad',
           'Benefits of Durood',
+          'Online Tasbeeh Counter',
           ...durood.seoKeywords,
         ]
       : lang === 'ro'
       ? [
           durood.title.ro,
+          durood.title.ur,
           'Durood sharif Roman Urdu',
           'Durood ki fazilat',
           'Durood o Salam roman',
+          'Online Tasbeeh counter',
           ...durood.seoKeywords,
         ]
       : [
           durood.title.ur,
+          durood.title.ro,
           durood.title.en,
           'درود شریف اردو ترجمہ',
           'درود پاک کی فضیلت',
+          'آن لائن تسبیح کاؤنٹر',
           ...durood.seoKeywords,
         ];
 
@@ -328,7 +334,7 @@ export function buildNaatMetadata(slug: string, lang: Language): Metadata {
 
   if (!naat) {
     return {
-      title: lang === 'en' ? 'Naat Not Found' : lang === 'ro' ? 'Naat Dastyab Nahi' : 'نعت دستیاب نہیں',
+      title: lang === 'en' ? 'Naat Not Found | AkhlaqiBaatein.com' : lang === 'ro' ? 'Naat Dastyab Nahi | AkhlaqiBaatein.com' : 'نعت دستیاب نہیں | اخلاقی باتیں',
     };
   }
 
@@ -336,22 +342,23 @@ export function buildNaatMetadata(slug: string, lang: Language): Metadata {
 
   const title =
     lang === 'en'
-      ? `${naat.title.en} by ${naat.poet.en} — Complete Lyrics, Commentary & Meaning`
+      ? `${naat.title.en} (${naat.title.ro}) by ${naat.poet.en} — Complete Lyrics & Meaning | AkhlaqiBaatein.com`
       : lang === 'ro'
-      ? `${naat.title.ro} — Kalam ${naat.poet.ro} (Mukammal Ashaar aur Tashreeh)`
-      : `${naat.title.ur} | ${naat.poet.ur} — مکمل اشعار، فرہنگ و تشریح`;
+      ? `${naat.title.ro} (${naat.title.ur}) — Kalam ${naat.poet.ro} Lyrics & Tashreeh | AkhlaqiBaatein.com`
+      : `${naat.title.ur} مع اردو ترجمہ و تشریح | ${naat.title.ro} Kalam ${naat.poet.ro} | AkhlaqiBaatein.com`;
 
   const description =
     lang === 'en'
-      ? `Classical prophetic devotional poetry by ${naat.poet.en} (${naat.sourceBook.en}). ${naat.tashreeh.en.slice(0, 130)}`
+      ? `Classical prophetic devotional poetry: ${naat.title.en} by ${naat.poet.en} (${naat.sourceBook.en}). Complete verified verses, English translation, and poetic commentary.`
       : lang === 'ro'
-      ? `Kalam: ${naat.poet.ro} (${naat.sourceBook.ro}). ${naat.tashreeh.ro.slice(0, 140)}`
-      : `${naat.ashaar[0]?.misra1Ur} — ${naat.ashaar[0]?.misra2Ur}۔ کلام: ${naat.poet.ur} (${naat.sourceBook.ur})۔ ${naat.tashreeh.ur}`.slice(0, 160);
+      ? `${naat.title.ro} — Kalam ${naat.poet.ro} (${naat.sourceBook.ro}). Mukammal ashaar, Roman Urdu tashreeh aur asan maani.`
+      : `${naat.title.ur} — کلام: ${naat.poet.ur} (${naat.sourceBook.ur})۔ مکمل مستند اشعار، فرہنگ و لغت، اور جامع روحانی تشریح۔`;
 
   const keywords =
     lang === 'en'
       ? [
           naat.title.en,
+          naat.title.ro,
           naat.poet.en,
           naat.sourceBook.en,
           'Naat Sharif lyrics English',
@@ -361,6 +368,7 @@ export function buildNaatMetadata(slug: string, lang: Language): Metadata {
       : lang === 'ro'
       ? [
           naat.title.ro,
+          naat.title.ur,
           naat.poet.ro,
           naat.sourceBook.ro,
           'Naat lyrics Roman Urdu',
@@ -368,11 +376,13 @@ export function buildNaatMetadata(slug: string, lang: Language): Metadata {
           ...naat.seoKeywords,
         ]
       : [
-          ...naat.seoKeywords,
           naat.title.ur,
+          naat.title.ro,
           naat.poet.ur,
           naat.sourceBook.ur,
           'نعت شریف اردو اشعار',
+          'کلام رضا تشریح',
+          ...naat.seoKeywords,
         ];
 
   return {
@@ -415,7 +425,7 @@ export function buildDuaMetadata(slug: string, lang: Language): Metadata {
 
   if (!dua) {
     return {
-      title: lang === 'en' ? 'Dua Not Found' : lang === 'ro' ? 'Dua Dastyab Nahi' : 'دعا دستیاب نہیں',
+      title: lang === 'en' ? 'Dua Not Found | AkhlaqiBaatein.com' : lang === 'ro' ? 'Dua Dastyab Nahi | AkhlaqiBaatein.com' : 'دعا دستیاب نہیں | اخلاقی باتیں',
     };
   }
 
@@ -423,40 +433,46 @@ export function buildDuaMetadata(slug: string, lang: Language): Metadata {
 
   const title =
     lang === 'en'
-      ? `${dua.title.en} — Arabic Text, English Meaning & Virtues | AkhlaqiBaatein.com`
+      ? `${dua.title.en} (${dua.title.ro}) — Arabic Text, Translation & Virtues | AkhlaqiBaatein.com`
       : lang === 'ro'
-      ? `${dua.title.ro} — Arabic Matn, Roman Urdu Tarjuma aur Fazilat | AkhlaqiBaatein.com`
-      : `${dua.title.ur} — عربی متن، اردو ترجمہ و فضیلت | AkhlaqiBaatein.com`;
+      ? `${dua.title.ro} with Urdu Translation & Fazilat | ${dua.title.ur} | AkhlaqiBaatein.com`
+      : `${dua.title.ur} مع اردو ترجمہ و فضیلت | ${dua.title.ro} in Urdu | AkhlaqiBaatein.com`;
 
   const description =
     lang === 'en'
-      ? `${dua.englishTranslation.slice(0, 110)} — Context & Virtues: ${dua.fazilat.en.slice(0, 110)}`
+      ? `${dua.title.en} (${dua.title.ro}): Authenticated Quranic and Prophetic supplication with Arabic text, English translation, spiritual context, and digital Tasbeeh counter.`
       : lang === 'ro'
-      ? `${dua.romanUrdu.slice(0, 110)} — Fazilat: ${dua.fazilat.ro.slice(0, 110)}`
-      : `${dua.urduTranslation} — ${dua.fazilat.ur}`.slice(0, 160);
+      ? `${dua.title.ro} (${dua.title.ur}) — Masnoon dua Arabic text, Roman Urdu tarjuma, fazilat aur digital circular tasbeeh counter.`
+      : `${dua.title.ur} (${dua.title.ro}) — مسنون قرآنی و نبوی دعا مع اعراب شدہ عربی متن، اردو ترجمہ، فضیلت اور آن لائن ڈیجیٹل سرکلر تسبیح کاؤنٹر۔`;
 
   const keywords =
     lang === 'en'
       ? [
           dua.title.en,
+          dua.title.ro,
           'Masnoon Duain in English',
           'Daily Islamic Supplications',
           'Prophetic Duas with translation',
+          'Online Tasbeeh Counter',
           ...dua.seoKeywords,
         ]
       : lang === 'ro'
       ? [
           dua.title.ro,
+          dua.title.ur,
           'Masnoon duain Roman Urdu',
           'Dua ki fazilat',
           'Islamic Duas in Roman',
+          'Online Tasbeeh counter',
           ...dua.seoKeywords,
         ]
       : [
           dua.title.ur,
+          dua.title.ro,
           'مسنون دعائیں اردو ترجمہ',
           'قرآنی دعائیں',
           'احادیث کی دعائیں',
+          'آن لائن تسبیح کاؤنٹر',
           ...dua.seoKeywords,
         ];
 
