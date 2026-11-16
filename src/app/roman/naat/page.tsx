@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/roman/naat`;
 
 export const metadata: Metadata = {
-  title: 'Diwan-e-Naat Sharif — Roman Urdu Ashaar, Farhang aur Tashreeh | AkhlaqiBaatein.com',
+  title: 'Diwan-e-Naat Sharif — Roman Urdu Ashaar, Farhang aur Tashreeh',
   description:
     'Mustanad Naat-e-Rasool ﷺ, Salam-e-Raza, Hamd aur Munajat ka diwan. Mustafa Jaan e Rehmat, Qasida Burda ke mukammal ashaar (6–10 ashaar), farhang, tashreeh aur 9:16 HD Status cards.',
   keywords: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     ro: pageUrl,
   }),
   openGraph: {
-    title: 'Diwan-e-Naat Sharif | Naat Sharif Hub — AkhlaqiBaatein.com',
+    title: 'Diwan-e-Naat Sharif | Naat Sharif Hub',
     description:
       'Classical Naats, Salam, Hamd aur Munajat ke mukammal 6–10 ashaar, farhang aur adabi tashreeh ke sath.',
     url: pageUrl,

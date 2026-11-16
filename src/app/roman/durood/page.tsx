@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/roman/durood`;
 
 export const metadata: Metadata = {
-  title: 'Durood o Wazaif Hub — Arabic Matn, Roman Urdu Tarjuma aur Tasbeeh | AkhlaqiBaatein.com',
+  title: 'Durood o Wazaif Hub — Arabic Matn, Roman Urdu Tarjuma aur Tasbeeh',
   description:
     'Mustanad classical Durood-e-Pak Arabic Naskh matn, Roman Urdu tarjuma, Durood-e-Tanjeena, Durood-e-Ibrahimi, Salat al-Nariya, Fazilat, interactive Digital Tasbeeh counter aur 9:16 HD Status cards.',
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ro: pageUrl,
   }),
   openGraph: {
-    title: 'Durood o Wazaif Hub — Classical Salawat & Invocations | AkhlaqiBaatein.com',
+    title: 'Durood o Wazaif Hub — Classical Salawat & Invocations',
     description:
       'Mustanad Durood-e-Pak Arabic matn ke sath, Roman Urdu tarjuma, fazilat, interactive Tasbeeh counter, aur downloadable 9:16 HD Status Cards.',
     url: pageUrl,

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import TermsPage from '@/app/terms/page';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | AkhlaqiBaatein.com',
+  title: 'Terms of Service',
   description: 'AkhlaqiBaatein.com ki terms of service.',
   alternates: {
     canonical: 'https://akhlaqibaatein.com/roman/terms',

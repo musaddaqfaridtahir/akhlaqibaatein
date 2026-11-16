@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/en/naat`;
 
 export const metadata: Metadata = {
-  title: 'Diwan-e-Naat Sharif — Prophetic Devotional Poetry, Lyrics & Commentary | AkhlaqiBaatein.com',
+  title: 'Diwan-e-Naat Sharif — Prophetic Devotional Poetry, Lyrics & Commentary',
   description:
     'Authentic classical Islamic devotional poetry, Qasida Burda, Mustafa Jaan-e-Rehmat, Kalaam-e-Raza, Hamd, and Salam with complete 6–10 verses, vocabulary (Farhang), English literary commentary, and 9:16 HD Status cards.',
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/naat`,
   }),
   openGraph: {
-    title: 'Diwan-e-Naat Sharif — Sacred Devotional Poetry | AkhlaqiBaatein.com',
+    title: 'Diwan-e-Naat Sharif — Sacred Devotional Poetry',
     description:
       'Complete classical Urdu & Arabic Naats, Salawat, Hamd, and Munajat with full multi-stanza poetry (6–10 Ashaar), vocabulary guides, literary commentaries, and 9:16 HD Status cards.',
     url: pageUrl,

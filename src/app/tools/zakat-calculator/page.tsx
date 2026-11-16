@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/tools/zakat-calculator`,
   }),
   openGraph: {
-    title: 'جامع شرعی زکوٰۃ کیلکولیٹر | Sharia Zakat Calculator — AkhlaqiBaatein.com',
+    title: 'جامع شرعی زکوٰۃ کیلکولیٹر | Sharia Zakat Calculator',
     description:
       'سونے، چاندی، بینک بیلنس اور مالِ تجارت کی زکوٰۃ کا درست شرعی حساب مع نصاب گائیڈ۔',
     url: pageUrl,

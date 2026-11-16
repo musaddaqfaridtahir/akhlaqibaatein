@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import MakhzanPage from '@/app/makhzan-e-akhlaq/page';
 
 export const metadata: Metadata = {
-  title: 'Makhzan-e-Akhlaq — Classic Islami Akhlaqiat | AkhlaqiBaatein.com',
+  title: 'Makhzan-e-Akhlaq — Classic Islami Akhlaqiat',
   description:
     'Makhzan-e-Akhlaq ke abwab, Islami taleemat aur roohani aqwal Roman Urdu mein.',
   alternates: {

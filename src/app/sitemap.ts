@@ -187,13 +187,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  // Article routes
-  const articleRoutes: MetadataRoute.Sitemap = articles.map((art) => ({
-    url: `${baseUrl}/articles/${art.slug}`,
-    lastModified: new Date(art.publishedAt),
-    changeFrequency: 'weekly',
-    priority: 0.85,
-  }));
+  // Article routes (Urdu, English, Roman Urdu)
+  const articleRoutes: MetadataRoute.Sitemap = articles.flatMap((art) => [
+    {
+      url: `${baseUrl}/articles/${art.slug}`,
+      lastModified: new Date(art.publishedAt),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/en/articles/${art.slug}`,
+      lastModified: new Date(art.publishedAt),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+    {
+      url: `${baseUrl}/roman/articles/${art.slug}`,
+      lastModified: new Date(art.publishedAt),
+      changeFrequency: 'weekly' as const,
+      priority: 0.85,
+    },
+  ]);
 
   // Durood & Wazaif detail routes (Urdu, English, Roman Urdu)
   const duroodRoutes: MetadataRoute.Sitemap = duroodList.flatMap((d) => [

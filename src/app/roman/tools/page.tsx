@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ToolsHubPage from '@/app/tools/page';
 
 export const metadata: Metadata = {
-  title: 'Islami Calculators aur Digital Tools | AkhlaqiBaatein.com',
+  title: 'Islami Calculators aur Digital Tools',
   description:
     'Mustanad Islami tools: Qaza Namaz calculator, Zakat calculator aur 9:16 status card maker.',
   alternates: {

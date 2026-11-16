@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/roman/duain`;
 
 export const metadata: Metadata = {
-  title: 'Daily Masnoon Duain — Arabic Naskh Matn, Roman Tarjuma aur Tasbeeh | AkhlaqiBaatein.com',
+  title: 'Daily Masnoon Duain — Arabic Naskh Matn, Roman Tarjuma aur Tasbeeh',
   description:
     'Mustanad Masnoon Duain: Preshani se nijat, qarz ki adaigi, rizq mein barkat, shifa aur hifazat ki duain. Roman Urdu tarjuma, fazilat, aur digital tasbeeh counter.',
   keywords: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ro: pageUrl,
   }),
   openGraph: {
-    title: 'Daily Masnoon Duain | Roman Urdu Supplications — AkhlaqiBaatein.com',
+    title: 'Daily Masnoon Duain | Roman Urdu Supplications',
     description:
       'Mustanad masnoon duain Arabic Naskh text ke sath, Roman Urdu tarjuma, fazilat aur circular digital tasbeeh counter.',
     url: pageUrl,

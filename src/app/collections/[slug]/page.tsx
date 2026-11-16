@@ -29,14 +29,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!collection) {
     return {
-      title: 'Collection Not Found | AkhlaqiBaatein.com',
+      title: 'Collection Not Found',
     };
   }
 
   const pageUrl = `${BASE_URL}/collections/${collection.slug}`;
 
   return {
-    title: `${collection.metaTitle} | AkhlaqiBaatein.com`,
+    title: `${collection.metaTitle}`,
     description: collection.metaDescription,
     keywords: collection.keywords,
     alternates: buildHreflangAlternates({

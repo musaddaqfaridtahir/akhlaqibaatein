@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/durood`,
   }),
   openGraph: {
-    title: 'گوشۂ درود و وظائف | Durood o Salam & Wazaif Hub — AkhlaqiBaatein.com',
+    title: 'گوشۂ درود و وظائف | Durood o Salam & Wazaif Hub',
     description:
       'Authentic Durood-e-Pak in Arabic with Urdu translation, Fazilat, Digital Tasbeeh counter, and downloadable 9:16 HD Status Cards.',
     url: pageUrl,

@@ -8,7 +8,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/makhzan-e-akhlaq`;
 
 export const metadata: Metadata = {
-  title: 'مخزنِ اخلاق (Makhzan-e-Akhlaq) — Chapters, Teachings & Ethics | AkhlaqiBaatein.com',
+  title: 'مخزنِ اخلاق (Makhzan-e-Akhlaq) — Chapters, Teachings & Ethics',
   description:
     'Explore chapters, Islamic moral teachings, Prophetic wisdom, and classical Urdu ethics derived from Makhzan-e-Akhlaq with Roman Urdu and English commentary.',
   keywords: [

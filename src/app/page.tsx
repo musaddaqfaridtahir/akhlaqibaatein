@@ -49,7 +49,7 @@ export default function HomePage() {
   const isEnglish = language === 'en';
 
   const quoteOfTheDay = quotes.find((q) => q.featured) || quotes[0];
-  const featuredArticles = articles.slice(0, 3);
+  const featuredArticles = [...articles].reverse().slice(0, 3);
   const primaryBook = books[0];
 
   const heroContent = {

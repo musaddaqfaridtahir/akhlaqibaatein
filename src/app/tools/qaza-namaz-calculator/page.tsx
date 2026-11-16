@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/tools/qaza-namaz-calculator`,
   }),
   openGraph: {
-    title: 'قضاء نماز کیلکولیٹر و ٹریکر چارٹ | Qaza Namaz Calculator — AkhlaqiBaatein.com',
+    title: 'قضاء نماز کیلکولیٹر و ٹریکر چارٹ | Qaza Namaz Calculator',
     description:
       'عمر بھر کی قضا نمازوں کا درست شرعی تخمینہ، یومیہ ہدف، اور مفت پرنٹ ایبل ٹریکر چارٹ۔ AkhlaqiBaatein.com',
     url: pageUrl,

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import AboutPage from '@/app/about/page';
 
 export const metadata: Metadata = {
-  title: 'Taaruf: Idara Akhlaqi Baatein | AkhlaqiBaatein.com',
+  title: 'Taaruf: Idara Akhlaqi Baatein',
   description: 'AkhlaqiBaatein.com ka vision, maqsad aur idarati meyar.',
   alternates: {
     canonical: 'https://akhlaqibaatein.com/roman/about',

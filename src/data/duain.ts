@@ -1052,6 +1052,290 @@ export const duainList: DuaItem[] = [
       },
     ],
   },
+  {
+    "id": "dua-neend-na-aane-ki",
+    "slug": "neend-na-aane-aur-be-khwabi-ki-dua",
+    "title": {
+      "ur": "نیند نہ آنے، بے خوابی اور رات کے خوف کی مسنون دعا",
+      "ro": "Neend Na Aane, Be-Khwabi aur Raat ke Khauf ki Masnoon Dua",
+      "en": "Supplication for Insomnia, Restlessness, and Peaceful Sleep"
+    },
+    "arabicText": "اللَّهُمَّ غَارَتِ النُّجُومُ، وَهَدَأَتِ الْعُيُونُ، وَأَنْتَ حَيٌّ قَيُّومٌ، لَا تَأْخُذُكَ سِنَةٌ وَلَا نَوْمٌ، يَا حَيُّ يَا قَيُّومُ، أَهْدِئْ لَيْلِي، وَأَنِمْ عَيْنِي.",
+    "urduTranslation": "اے اللہ! ستارے غروب ہو گئے اور آنکھیں پرسکون ہو گئیں، اور تو زندہ و قائم رہنے والا ہے، تجھے نہ اونگھ آتی ہے نہ نیند۔ اے زندہ و پائندہ رب! میری رات کو پرسکون بنا دے اور میری آنکھ کو پرسکون نیند عطا فرما۔",
+    "romanUrdu": "Allahumma gharatin-nujoom, wa hadaatil-uyoon, wa Anta Hayyun Qayyoom, la takhuzuka sinatuw-wa la nawm. Ya Hayyu Ya Qayyoom, ahdi layli wa anim ayni.",
+    "englishTranslation": "O Allah! The stars have set and eyes have reposed in tranquility, while You are the Ever-Living, the Eternal Sustainer. Neither drowsiness overtakes You nor sleep. O Ever-Living, O Sustainer! Tranquilize my night and grant peaceful slumber to my eyes.",
+    "fazilat": {
+      "ur": "جب حضرت زید بن ثابت رضی اللہ عنہ کو شدید بے خوابی اور بے چینی کی شکایت ہوئی تو رسول اللہ ﷺ نے انہیں یہ دعا سکھائی۔ حضرت زید فرماتے ہیں کہ میں نے یہ کلمات پڑھے تو اللہ تعالیٰ نے میری بے خوابی دور کر دی اور گہری پرسکون نیند نصیب ہوئی۔ ذہنی تناؤ، ڈراؤنے خوابوں اور بے چینی کے خاتمے کے لیے یہ تیر بہدف نبوی عمل ہے۔",
+      "ro": "Jab Hazrat Zayd bin Thabit (R.A) ko shadeed be-khwabi ki shikayat hui to Rasool Allah ﷺ ne yeh dua sikhai. Unhon ne parha to Allah ne bechaini door farma di aur pur-sukoon neend ata farmai.",
+      "en": "Taught by the Prophet ﷺ to Companion Zayd ibn Thabit (R.A) when he suffered from severe insomnia. Reciting this supplication calms racing thoughts, eliminates nocturnal anxiety, and invites deep restorative sleep."
+    },
+    "reference": {
+      "ur": "طبرانی معجم کبیر، ابن سنی، مشکوٰۃ المصابیح (حدیثِ حضرت زید بن ثابتؓ)",
+      "ro": "Tabarani Mujam Kabeer, Ibn Sunni, Mishkat (Hadith Zayd bin Thabit R.A)",
+      "en": "At-Tabarani (Al-Mu jam al-Kabir), Ibn as-Sunni, Mishkat al-Masabih"
+    },
+    "category": "Rozana",
+    "recommendedCount": 3,
+    "seoKeywords": [
+      "neend na aane ki dua",
+      "be khwabi ki dua",
+      "dua for insomnia",
+      "neend aane ka wazifa",
+      "raat ko dar lagne ki dua",
+      "sukoon ki neend ki dua"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "ur": "بے خوابی کے مریض کو یہ دعا کس وقت پڑھنی چاہیے؟",
+          "ro": "Be-khwabi ke mareez ko yeh dua kis waqt parhni chahiye?",
+          "en": "When should someone suffering from insomnia recite this supplication?"
+        },
+        "answer": {
+          "ur": "رات بستر پر لیٹ کر باوضو حالت میں دائیں کروٹ پر منہ کر کے ۳ یا ۷ مرتبہ پڑھ کر اپنے چہرے اور سینے پر دم کریں۔",
+          "ro": "Raat bistar par daayein karwat let kar ba-wuzu halat mein 3 ya 7 martaba parhein.",
+          "en": "Recite it 3 to 7 times while lying on the right side in a state of ablution before sleeping."
+        }
+      },
+      {
+        "question": {
+          "ur": "کیا رات کے خوف اور ڈراؤنے خوابوں کے لیے بھی یہ دعا مفید ہے؟",
+          "ro": "Kya raat ke khauf aur burae khwabon ke liye bhi yeh dua mufeed hai?",
+          "en": "Is this dua effective against night terrors and nightmares?"
+        },
+        "answer": {
+          "ur": "جی ہاں! اس دعا میں اللہ تعالیٰ کی صفتِ حی و قیوم کا وسیلہ ہے جو نفس کو سکون اور دل کو اطمینان بخشتا ہے۔",
+          "ro": "Jee haan, is dua mein Allah ki sifat Hayy o Qayyum ka waseela dil ko bechaini se nijat deta hai.",
+          "en": "Yes, invoking the Divine attributes of the Ever-Living and Sustainer dispels nocturnal fears and calms the heart."
+        }
+      },
+      {
+        "question": {
+          "ur": "اس دعا کے ساتھ کیا چاروں قل پڑھنا بھی مسنون ہے؟",
+          "ro": "Kya is ke sath charon Qul parhna bhi sunnat hai?",
+          "en": "Is it recommended to recite the four Quls alongside this prayer?"
+        },
+        "answer": {
+          "ur": "جی ہاں، آیت الکرسی اور آخری تین سورتیں (اخلاص، فلق، ناس) پڑھ کر ہاتھوں پر دم کر کے پورے جسم پر پھیرنا حضور ﷺ کی مستقل سنت ہے۔",
+          "ro": "Jee haan, Ayat-ul-Kursi aur Surah Ikhlas, Falaq, Naas parh kar jism par dam karna sunnat-e-nabawi hai.",
+          "en": "Yes, combining this with Ayat al-Kursi and Surah Al-Ikhlas, Al-Falaq, and An-Nas is a verified Sunnah."
+        }
+      }
+    ]
+  },
+  {
+    "id": "dua-sar-dard-aur-bukhar",
+    "slug": "sar-dard-aur-bukhar-ki-dua",
+    "title": {
+      "ur": "سر درد، بخار اور جسمانی تکلیف سے شفاء کی نبوی دعا",
+      "ro": "Sar Dard, Bukhar aur Jismani Takleef se Shifa ki Nabawi Dua",
+      "en": "Prophetic Supplication for Headache, Fever, and Physical Pain"
+    },
+    "arabicText": "بِسْمِ اللّٰهِ الْكَبِيرِ، أَعُوذُ بِاللّٰهِ الْعَظِيمِ مِنْ شَرِّ كُلِّ عِرْقٍ نَعَّارٍ، وَمِنْ شَرِّ حَرِّ النَّارِ.",
+    "urduTranslation": "بزرگ و برتر اللہ کے نام سے، میں عظمت والے اللہ کی پناہ مانگتا ہوں ہر جوش مارتی رگ کے شر سے اور جہنم کی آگ کی تپش کے شر سے۔",
+    "romanUrdu": "Bismillahil-Kabeer, aoodhu billahil-Azeemi min sharri kulli irqin naaar, wa min sharri harrin-naar.",
+    "englishTranslation": "In the Name of Allah the Great. I seek refuge in Allah the Supreme from the harm of every throbbing blood vessel, and from the afflictive heat of the Fire.",
+    "fazilat": {
+      "ur": "حضرت عبداللہ بن عباس رضی اللہ عنہما سے روایت ہے کہ نبی کریم ﷺ صحابہ کرام کو تمام دردوں اور خصوصاً بخار اور شدید سر درد کے لیے یہ دعا پڑھنے کی تعلیم فرماتے تھے۔ بخار کو احادیث میں جہنم کی تپش کا اثر فرمایا گیا ہے اور یہ مسنون دعا جسمانی حرارت اور رگوں کی تکلیف کو ٹھنڈا کرنے کے لیے اکسیر ہے۔",
+      "ro": "Hazrat Ibn Abbas (R.A) se riwayat hai ke Huzoor ﷺ tamam dardon, sar dard aur bukhar ke liye yeh dua sikhate the.",
+      "en": "Narrated by Ibn Abbas (R.A) that the Messenger of Allah ﷺ taught this prayer for relieving pains, headaches, and fevers."
+    },
+    "reference": {
+      "ur": "سنن ترمذی (حدیث ۲۰۷۵)، سنن ابن ماجہ (حدیث ۳۵۲۶)، مسند احمد",
+      "ro": "Sunan Tirmidhi (2075), Sunan Ibn Majah (3526), Musnad Ahmad",
+      "en": "Jami at-Tirmidhi (2075), Sunan Ibn Majah (3526), Musnad Ahmad"
+    },
+    "category": "Sehat",
+    "recommendedCount": 7,
+    "seoKeywords": [
+      "sar dard ki dua",
+      "bukhar ki dua",
+      "dua for headache and fever",
+      "sar dard ka dam",
+      "jismani dard ki dua",
+      "shifa ki dua"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "ur": "سر درد کے وقت یہ دعا کیسے پڑھنی چاہیے؟",
+          "ro": "Sar dard ke waqt yeh dua kaise parhni chahiye?",
+          "en": "How should one practice this supplication during a headache?"
+        },
+        "answer": {
+          "ur": "اپنا دایاں ہاتھ درد کی جگہ (پیشانی یا سر) پر رکھ کر ۳ یا ۷ مرتبہ خلوصِ دل سے پڑھیں اور پھونک ماریں۔",
+          "ro": "Apna daayan hath sar par rakh kar 3 ya 7 martaba parhein aur dam karein.",
+          "en": "Place your right hand on the forehead or aching area, recite 3 or 7 times, and gently blow over it."
+        }
+      },
+      {
+        "question": {
+          "ur": "کیا بخار کے مریض پر پانی کے چھینٹے مارنا بھی سنت ہے؟",
+          "ro": "Kya bukhar mein thanday pani se madar karna sunnat hai?",
+          "en": "Is sponging with cool water also recommended alongside this prayer?"
+        },
+        "answer": {
+          "ur": "جی ہاں! رسول اللہ ﷺ نے فرمایا کہ بخار کو ٹھنڈے پانی سے ٹھنڈا کرو (بخاری)، لہٰذا ادویات اور ٹھنڈی پٹیوں کے ساتھ یہ دعا پڑھنا سنت ہے۔",
+          "ro": "Jee haan, Huzoor ﷺ ne farmaya ke bukhar ko thanday pani se thanda karo.",
+          "en": "Yes, the Prophet ﷺ advised cooling fevers with water alongside prayer and medical care."
+        }
+      },
+      {
+        "question": {
+          "ur": "کیا یہ دعا مائیگرین (آدھے سر کے درد) کے لیے بھی مجرب ہے؟",
+          "ro": "Kya yeh dua migraine (adhe sar ke dard) ke liye bhi mufeed hai?",
+          "en": "Is this effective for chronic migraines?"
+        },
+        "answer": {
+          "ur": "جی ہاں، کیونکہ حدیث کے الفاظ \"کُلِّ عِرْقٍ نَعَّارٍ\" کا مطلب ہی پھڑکتی ہوئی رگ کی تکلیف ہے جو مائیگرین کی اصل علامت ہے۔",
+          "ro": "Jee haan, pharakti hui ragon ke dard (migraine) ke liye yeh azeem nabawi nuskha hai.",
+          "en": "Yes, the phrase specifically addresses throbbing vascular distress characteristic of migraines."
+        }
+      }
+    ]
+  },
+  {
+    "id": "dua-karobar-mein-barkat",
+    "slug": "karobar-mein-barkat-aur-tangdasti-ki-dua",
+    "title": {
+      "ur": "کاروبار میں برکت، گاہکوں کی آمد اور تنگدستی دور کرنے کی مسنون دعا",
+      "ro": "Karobar mein Barkat, Rizq aur Tangdasti Door Karne ki Masnoon Dua",
+      "en": "Supplication for Abundance in Business, Trading Blessings, and Eliminating Poverty"
+    },
+    "arabicText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا، اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ.",
+    "urduTranslation": "اے اللہ! میں تجھ سے نفع بخش علم، پاکیزہ حلال روزی، اور قبول ہونے والے عمل کا سوال کرتا ہوں۔ اے اللہ! مجھے اپنی حلال روزی کے ساتھ حرام سے بچا کر کفایت فرما، اور اپنے فضل سے اپنے سوا ہر کسی سے بے نیاز کر دے۔",
+    "romanUrdu": "Allahumma inni asaluka ilman naafian, wa rizqan tayyiban, wa amalan mutaqabbalan. Allahummak-fini bi-halalika an haramik, wa aghnini bi-fadlika amman siwak.",
+    "englishTranslation": "O Allah, I ask You for beneficial knowledge, wholesome sustenance, and accepted deeds. O Allah, suffice me with what is lawful against what is unlawful, and enrich me by Your grace so that I need none other than You.",
+    "fazilat": {
+      "ur": "یہ دعا جامع نبوی کلمات کا مجموعہ ہے جو حضور ﷺ صبح کی نماز کے بعد معمول فرماتے تھے (ابن ماجہ)۔ نیز حضرت علیؓ فرماتے ہیں کہ اگر کسی پر پہاڑ جتنا قرض بھی ہو تو اس دعا کی برکت سے اللہ تعالیٰ اس کی ادائیگی کے اسباب پیدا فرما دیتا ہے۔ دکان، تجارت اور کاروباری پریشانیوں کے حل کے لیے یہ بے مثال ورد ہے۔",
+      "ro": "Huzoor ﷺ Fajr ki namaz ke baad yeh dua maangte the. Hazrat Ali (R.A) ne farmaya ke pahaar jitna qarz bhi is dua se ada ho jata hai.",
+      "en": "The Prophet ﷺ routinely supplicated with these words after the dawn prayer. Highly praised by Ali (R.A) for overcoming mountainous debts and inviting prosperity into trade."
+    },
+    "reference": {
+      "ur": "سنن ابن ماجہ (حدیث ۹۲۵)، جامع ترمذی (حدیث ۳۵۶۳)، مسند احمد",
+      "ro": "Sunan Ibn Majah (925), Jami Tirmidhi (3563), Musnad Ahmad",
+      "en": "Sunan Ibn Majah (925), Jami at-Tirmidhi (3563), Musnad Ahmad"
+    },
+    "category": "Rizq",
+    "recommendedCount": 11,
+    "seoKeywords": [
+      "karobar mein barkat ki dua",
+      "dukan ki barkat ki dua",
+      "rizq mein barkat ka wazifa",
+      "tangdasti door karne ki dua",
+      "business success dua",
+      "halal rizq ki dua"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "ur": "کاروباری دکان یا دفتر کھولتے وقت یہ دعا کب پڑھیں؟",
+          "ro": "Karobari dukan ya office kholte waqt yeh dua kab parhein?",
+          "en": "When should a merchant recite this during business hours?"
+        },
+        "answer": {
+          "ur": "صبح دکان یا دفتر کا دروازہ کھولتے وقت اول و آخر درود شریف کے ساتھ ۱۱ مرتبہ پڑھ کر دکان کے چاروں کونوں پر دم کرنا انتہائی بابرکت ہے۔",
+          "ro": "Subah dukan kholte waqt awal o aakhir Durood ke sath 11 martaba parhein.",
+          "en": "Recite it 11 times with Durood before and after upon opening your shop or commercial venue."
+        }
+      },
+      {
+        "question": {
+          "ur": "کیا گاہک نہ آنے اور نقصان کے وقت بھی یہ دعا کارگر ہے؟",
+          "ro": "Kya mandi aur nuqsan ke waqt bhi yeh dua fayda deti hai?",
+          "en": "Does this help during periods of market recession or slump?"
+        },
+        "answer": {
+          "ur": "بے شک، استغفار کی کثرت کے ساتھ اس دعا کا ورد رزق کے بند دروازے کھول دیتا ہے۔",
+          "ro": "Beshak, kasrat-e-istighfar ke sath yeh dua rizq ke raste kholti hai.",
+          "en": "Undoubtedly, combined with regular repentance (Istighfar), it unlocks blocked channels of sustenance."
+        }
+      },
+      {
+        "question": {
+          "ur": "کیا اس دعا سے ادائے قرض میں مدد ملتی ہے؟",
+          "ro": "Kya is dua se qarz ki adayigi asan hoti hai?",
+          "en": "Does this dua assist in repaying heavy debts?"
+        },
+        "answer": {
+          "ur": "جی ہاں، حضرت علی رضی اللہ عنہ نے مقروض شخص کو یہی دعا سکھائی تھی اور اس کے اثر کی تصدیق فرمائی تھی۔",
+          "ro": "Jee haan, Hazrat Ali (R.A) ne maqrooz logon ko yahi nuskha sikhaya tha.",
+          "en": "Yes, Ali ibn Abi Talib (R.A) specifically taught this supplication to individuals struggling with debt."
+        }
+      }
+    ]
+  },
+  {
+    "id": "dua-imtihan-mein-kamyabi",
+    "slug": "imtihan-mein-kamyabi-aur-hafzay-ki-dua",
+    "title": {
+      "ur": "امتحان میں کامیابی، ذہنی سکون اور تیز حافظے کی قرآنی و نبوی دعائیں",
+      "ro": "Imtihan mein Kamyabi, Zehni Sukoon aur Tez Hafzay ki Duain",
+      "en": "Quranic and Prophetic Duas for Success in Exams, Mental Clarity, and Memory"
+    },
+    "arabicText": "رَبِّ اشْرَحْ لِي صَدْرِي، وَيَسِّرْ لِي أَمْرِي، وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي، يَفْقَهُوا قَوْلِي، رَبِّ زِدْنِي عِلْمًا، اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلًا، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلًا.",
+    "urduTranslation": "اے میرے پروردگار! میرے لیے میرا سینہ کشادہ فرما دے، اور میرا کام آسان کر دے، اور میری زبان کی گرہ کھول دے تاکہ وہ میری بات اچھی طرح سمجھ سکیں۔ اے میرے رب! میرے علم میں اضافہ فرما۔ اے اللہ! کوئی چیز آسان نہیں مگر جسے تو آسان بنا دے، اور تو جب چاہتا ہے تو مشکل کو آسان فرما دیتا ہے۔",
+    "romanUrdu": "Rabbish-rah li sadri, wa yassir li amri, wahlul uqdatam-mil-lisani yafqahoo qawli. Rabbi zidni ilma. Allahumma la sahla illa ma jaaltahu sahla, wa Anta tajalul-hazna idha shita sahla.",
+    "englishTranslation": "My Lord, expand for me my chest with assurance, ease for me my task, and untie the knot from my tongue that they may understand my speech. My Lord, increase me in knowledge. O Allah, there is nothing easy except what You make easy, and You make hardship easy whenever You will.",
+    "fazilat": {
+      "ur": "یہ دعا حضرت موسیٰ علیہ السلام کی قرآنی مناجات (سورۃ طٰہٰ) اور رسول اللہ ﷺ کی صحیح حدیث کا باوقار امتزاج ہے۔ امتحان کی تیاری، انٹرویو، تقریر اور یادداشت کی کمزوری کے لیے یہ سب سے جامع روحانی عمل ہے جو دل کی گھبراہٹ مٹا کر فہم و فراست عطا کرتا ہے۔",
+      "ro": "Hazrat Musa (A.S) ki Qurani dua aur Huzoor ﷺ ki mustanad hadith ka majmua hai jo imtihan mein kamyabi aur zehni dharas ata karta hai.",
+      "en": "A sublime synthesis of the Quranic supplication of Prophet Musa (A.S) in Surah Ta-Ha and the authentic Prophetic prayer for overcoming daunting trials. Imparts sharp focus, peace of mind, and triumph in examinations and interviews."
+    },
+    "reference": {
+      "ur": "سورۃ طٰہٰ (آیات ۲۵ تا ۲۸ و ۱۱۴)، صحیح ابن حبان (حدیث ۳۲۷)",
+      "ro": "Surah Ta-Ha (Ayaat 25-28 & 114), Sahih Ibn Hibban (327)",
+      "en": "Surah Ta-Ha (20:25-28, 114), Sahih Ibn Hibban (327)"
+    },
+    "category": "Ilm",
+    "recommendedCount": 7,
+    "seoKeywords": [
+      "imtihan mein kamyabi ki dua",
+      "dua for exams",
+      "hafza tez karne ki dua",
+      "interview pass karne ki dua",
+      "paper asan hone ki dua",
+      "rabbish rahli sadri dua"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "ur": "امتحان کے دن پرچہ حل کرنے سے قبل یہ دعا کیسے پڑھیں؟",
+          "ro": "Imtihan ke din parcha hal karne se pehle yeh dua kaise parhein?",
+          "en": "How should a student recite this on examination day?"
+        },
+        "answer": {
+          "ur": "امتحانی ہال میں بیٹھ کر قلم ہاتھ میں لیتے ہوئے ۳ مرتبہ یہ دعا پڑھیں اور دل پر ہاتھ رکھ کر بسم اللہ کے ساتھ پرچہ شروع کریں۔",
+          "ro": "Examination hall mein baith kar qalam uthate waqt 3 martaba parhein.",
+          "en": "Recite it 3 times upon taking your seat and picking up your pen before reading the exam paper."
+        }
+      },
+      {
+        "question": {
+          "ur": "کیا پڑھا ہوا سبق بھول جانے پر یہ دعا مددگار ہے؟",
+          "ro": "Kya parha hua sabaq yaad rakhne ke liye yeh dua mufeed hai?",
+          "en": "Does this help in recalling forgotten study material?"
+        },
+        "answer": {
+          "ur": "جی ہاں، یہ دعا گھبراہٹ کو دور کر کے ذہن کو متحرک کرتی ہے جس سے بھولی ہوئی باتیں یاد آ جاتی ہیں۔",
+          "ro": "Jee haan, zehni dabao kam hota hai aur bhooli hui baatein yaad aati hain.",
+          "en": "Yes, it eliminates acute test anxiety, allowing the mind to smoothly retrieve stored information."
+        }
+      },
+      {
+        "question": {
+          "ur": "کیا جاب انٹرویو یا تقریر سے پہلے بھی یہ دعا پڑھی جا سکتی ہے؟",
+          "ro": "Kya job interview ya speech se pehle bhi yeh dua parh sakte hain?",
+          "en": "Can this be recited before job interviews and public speaking?"
+        },
+        "answer": {
+          "ur": "بالکل! حضرت موسیٰ علیہ السلام نے یہ دعا فرعون کے دربار میں جانے سے پہلے زبان کی گرہ کھولنے اور بلا خوف حق بیان کرنے کے لیے مانگی تھی۔",
+          "ro": "Bilkul! Hazrat Musa (A.S) ne Firawn ke samne jane se pehle yahi dua mangi thi.",
+          "en": "Absolutely. Musa (A.S) made this exact prayer before addressing Pharaoh to gain eloquence and composure."
+        }
+      }
+    ]
+  }
 ];
 
 const slugAliases: Record<string, string> = {

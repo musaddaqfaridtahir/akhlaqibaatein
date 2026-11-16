@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/status-maker`,
   }),
   openGraph: {
-    title: 'اسلامی واٹس ایپ اسٹیٹس میکر | Islamic Status Generator — AkhlaqiBaatein.com',
+    title: 'اسلامی واٹس ایپ اسٹیٹس میکر | Islamic Status Generator',
     description:
       '9:16 HD واٹس ایپ اسٹیٹس کارڈز: جمعہ مبارک، صبح بخیر دعائیں، درود شریف اور اقوالِ زریں۔',
     url: pageUrl,

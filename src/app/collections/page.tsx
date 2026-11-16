@@ -6,7 +6,7 @@ import CollectionsIndexView from '@/components/CollectionsIndexView';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'موضوعاتی مجموعے | Islamic Quote & Hadith Collections — AkhlaqiBaatein.com',
+  title: 'موضوعاتی مجموعے | Islamic Quote & Hadith Collections',
   description:
     'Explore authentic Islamic collections on Jumma Mubarak, Sabr o Shukr, Rizq aur Barkat, and Walidain ke Huqooq in Urdu, Roman Urdu, and English.',
   alternates: buildHreflangAlternates({
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/collections`,
   }),
   openGraph: {
-    title: 'Curated Islamic Quote & Hadith Collections | AkhlaqiBaatein.com',
+    title: 'Curated Islamic Quote & Hadith Collections',
     description:
       'Jumma Mubarak, Sabr & Shukr, Rizq & Barakah, and Honoring Parents — authentic quotes with commentary & downloadable status cards.',
     url: `${BASE_URL}/collections`,

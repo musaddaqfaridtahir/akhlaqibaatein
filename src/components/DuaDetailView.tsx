@@ -52,6 +52,7 @@ export default function DuaDetailView({ dua, routeLanguage }: DuaDetailViewProps
   const categoryLabel = getDuaCategoryLabel(dua.category, activeLang);
 
   const relatedDuas = duainList.filter((d) => d.slug !== dua.slug).slice(0, 4);
+  const isLongText = (dua.arabicText || '').length > 350;
 
   const handleCopy = () => {
     const shareUrl = `https://akhlaqibaatein.com${getDetailPath(dua.slug)}`;
@@ -215,25 +216,81 @@ export default function DuaDetailView({ dua, routeLanguage }: DuaDetailViewProps
           </div>
         </div>
 
-        {/* Action Buttons Bar: Primary 9:16 HD Status + Copy + Share + Print */}
+        {/* Action Buttons Bar: Smart Primary (A4 Print if >350 chars, else 9:16 HD Status) + Secondary + Copy + Share */}
         <div className="no-print flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
-          <button
-            type="button"
-            onClick={handleDownloadStatusCard}
-            disabled={downloadingStatus}
-            className="flex-1 min-h-[48px] px-5 py-3 rounded-2xl bg-gradient-to-r from-[#d4af37] via-amber-400 to-[#d4af37] hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md flex items-center justify-center gap-2 transition active:scale-95 disabled:opacity-60 cursor-pointer"
-          >
-            <ImageIcon className="w-4 h-4 shrink-0 stroke-[2.2]" />
-            <span className={isUrdu ? 'font-urdu text-sm sm:text-base leading-normal' : 'font-sans'}>
-              {downloadingStatus
-                ? isUrdu
-                  ? 'کارڈ تیار ہو رہا ہے...'
-                  : 'Generating 9:16 Card...'
-                : isUrdu
-                ? 'اسٹیٹس کارڈ ڈاؤن لوڈ کریں (9:16 HD)'
-                : 'Download Status Card (9:16 HD)'}
-            </span>
-          </button>
+          {isLongText ? (
+            <>
+              <button
+                type="button"
+                onClick={handlePrint}
+                className="flex-1 min-h-[48px] px-5 py-3 rounded-2xl bg-gradient-to-r from-[#d4af37] via-amber-400 to-[#d4af37] hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md flex items-center justify-center gap-2 transition active:scale-95 cursor-pointer"
+              >
+                <Printer className="w-4 h-4 shrink-0 stroke-[2.2]" />
+                <span className={isUrdu ? 'font-urdu text-sm sm:text-base leading-normal' : 'font-sans'}>
+                  {isUrdu
+                    ? 'مکمل A4 پی ڈی ایف / پرنٹ شیٹ ڈاؤن لوڈ کریں'
+                    : isRoman
+                    ? 'Mukammal A4 PDF / Print Sheet Download Karein'
+                    : 'Download / Print Complete A4 Sheet'}
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={handleDownloadStatusCard}
+                disabled={downloadingStatus}
+                className={`min-h-[48px] px-4 py-3 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-[#0a1411] dark:hover:bg-emerald-900/70 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer ${
+                  isUrdu ? 'font-urdu' : 'font-sans'
+                }`}
+              >
+                <ImageIcon className="w-4 h-4 shrink-0" />
+                <span>
+                  {downloadingStatus
+                    ? isUrdu ? 'کارڈ تیار ہو رہا ہے...' : 'Generating...'
+                    : isUrdu
+                    ? 'اسٹیٹس کارڈ ڈاؤن لوڈ کریں (9:16 HD)'
+                    : isRoman
+                    ? 'Status Card (9:16 HD)'
+                    : 'Status Card (9:16 HD)'}
+                </span>
+              </button>
+            </>
+          ) : (
+            <>
+              <button
+                type="button"
+                onClick={handleDownloadStatusCard}
+                disabled={downloadingStatus}
+                className="flex-1 min-h-[48px] px-5 py-3 rounded-2xl bg-gradient-to-r from-[#d4af37] via-amber-400 to-[#d4af37] hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md flex items-center justify-center gap-2 transition active:scale-95 disabled:opacity-60 cursor-pointer"
+              >
+                <ImageIcon className="w-4 h-4 shrink-0 stroke-[2.2]" />
+                <span className={isUrdu ? 'font-urdu text-sm sm:text-base leading-normal' : 'font-sans'}>
+                  {downloadingStatus
+                    ? isUrdu
+                      ? 'کارڈ تیار ہو رہا ہے...'
+                      : 'Generating 9:16 Card...'
+                    : isUrdu
+                    ? 'اسٹیٹس کارڈ ڈاؤن لوڈ کریں (9:16 HD)'
+                    : isRoman
+                    ? 'Status Card (9:16 HD)'
+                    : 'Download Status Card (9:16 HD)'}
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={handlePrint}
+                className={`min-h-[48px] px-4 py-3 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-[#0a1411] dark:hover:bg-emerald-900/70 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer ${
+                  isUrdu ? 'font-urdu' : 'font-sans'
+                }`}
+              >
+                <Printer className="w-4 h-4 shrink-0" />
+                <span className={isUrdu ? 'font-urdu' : 'font-sans'}>
+                  {isUrdu ? 'مکمل A4 پی ڈی ایف / پرنٹ شیٹ' : isRoman ? 'A4 PDF / Print Sheet' : 'A4 PDF / Print'}
+                </span>
+              </button>
+            </>
+          )}
 
           <button
             type="button"

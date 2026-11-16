@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/en/duain`;
 
 export const metadata: Metadata = {
-  title: 'Daily Masnoon Duas — Prophetic & Quranic Prayers with English Meaning | AkhlaqiBaatein.com',
+  title: 'Daily Masnoon Duas — Prophetic & Quranic Prayers with English Meaning',
   description:
     'Authentic Islamic supplications for distress relief, debt payment, sustenance (Rizq), healing, evil eye protection, and travel with interactive digital counters and 9:16 HD Status cards.',
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/duain`,
   }),
   openGraph: {
-    title: 'Daily Masnoon Duas — Classical Islamic Prayers | AkhlaqiBaatein.com',
+    title: 'Daily Masnoon Duas — Classical Islamic Prayers',
     description:
       'Authentic prophetic prayers in Arabic Naskh text with English translation, spiritual context, interactive Tasbeeh counter, and downloadable Status cards.',
     url: pageUrl,

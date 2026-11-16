@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import ToolsHubPage from '@/app/tools/page';
 
 export const metadata: Metadata = {
-  title: 'Islamic Calculators & Utilities | AkhlaqiBaatein.com',
+  title: 'Islamic Calculators & Utilities',
   description:
     'Authentic Islamic utilities: Qaza Namaz Calculator, comprehensive Zakat Calculator, and custom 9:16 Status Maker.',
   alternates: {

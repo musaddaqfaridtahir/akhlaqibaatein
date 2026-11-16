@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/tools`,
   }),
   openGraph: {
-    title: 'اسلامی ٹولز و کیلکولیٹرز | Islamic Utilities — AkhlaqiBaatein.com',
+    title: 'اسلامی ٹولز و کیلکولیٹرز | Islamic Utilities',
     description:
       'قضا نماز کیلکولیٹر، زکوٰۃ کیلکولیٹر اور 9:16 HD واٹس ایپ اسٹیٹس جنریٹر۔',
     url: pageUrl,

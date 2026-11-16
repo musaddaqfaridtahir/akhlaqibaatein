@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import DisclaimerPage from '@/app/disclaimer/page';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer | AkhlaqiBaatein.com',
+  title: 'Disclaimer',
   description: 'Disclaimer of AkhlaqiBaatein.com.',
   alternates: {
     canonical: 'https://akhlaqibaatein.com/en/disclaimer',

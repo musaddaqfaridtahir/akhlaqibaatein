@@ -111,11 +111,10 @@ export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetail
     }
   };
 
+  const isLongText = (durood.arabicText || '').length > 350;
+
   const handlePdfDownload = () => {
-    if (durood.pdfFilename) {
-      window.open(`/api/durood-pdf?slug=${durood.slug}&file=${durood.pdfFilename}`, '_blank');
-      showToast(isUrdu ? 'واٹر مارک شدہ پی ڈی ایف ڈاؤن لوڈ ہو رہی ہے...' : 'Downloading watermarked PDF...');
-    } else if (typeof window !== 'undefined') {
+    if (typeof window !== 'undefined') {
       window.print();
     }
   };
@@ -235,40 +234,81 @@ export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetail
           </div>
         </div>
 
-        {/* Clean Action Buttons Bar: Primary 9:16 HD Status + Print / Save as PDF + Copy + Share */}
+        {/* Clean Action Buttons Bar: Smart Primary (A4 PDF if >350 chars, else 9:16 HD Status) + Secondary + Copy + Share */}
         <div className="no-print flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
-          <button
-            type="button"
-            onClick={handleDownloadStatusCard}
-            disabled={downloadingStatus}
-            className="flex-1 min-h-[48px] px-5 py-3 rounded-2xl bg-gradient-to-r from-[#d4af37] via-amber-400 to-[#d4af37] hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md flex items-center justify-center gap-2 transition active:scale-95 disabled:opacity-60 cursor-pointer"
-          >
-            <ImageIcon className="w-4 h-4 shrink-0 stroke-[2.2]" />
-            <span className={isUrdu ? 'font-urdu text-sm sm:text-base leading-normal' : 'font-sans'}>
-              {downloadingStatus
-                ? isUrdu
-                  ? 'کارڈ تیار ہو رہا ہے...'
-                  : 'Generating Card...'
-                : isUrdu
-                ? 'اسٹیٹس کارڈ ڈاؤن لوڈ کریں'
-                : isRoman
-                ? 'Status Card Download Karein'
-                : 'Download Status Card'}
-            </span>
-          </button>
+          {isLongText ? (
+            <>
+              <button
+                type="button"
+                onClick={handlePdfDownload}
+                className="flex-1 min-h-[48px] px-5 py-3 rounded-2xl bg-gradient-to-r from-[#d4af37] via-amber-400 to-[#d4af37] hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md flex items-center justify-center gap-2 transition active:scale-95 cursor-pointer"
+              >
+                <Printer className="w-4 h-4 shrink-0 stroke-[2.2]" />
+                <span className={isUrdu ? 'font-urdu text-sm sm:text-base leading-normal' : 'font-sans'}>
+                  {isUrdu
+                    ? 'مکمل A4 پی ڈی ایف / پرنٹ شیٹ ڈاؤن لوڈ کریں'
+                    : isRoman
+                    ? 'Mukammal A4 PDF / Print Sheet Download Karein'
+                    : 'Download / Print Complete A4 Sheet'}
+                </span>
+              </button>
 
-          <button
-            type="button"
-            onClick={handlePdfDownload}
-            className={`min-h-[48px] px-4 py-3 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-[#0a1411] dark:hover:bg-emerald-900/70 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer ${
-              isUrdu ? 'font-urdu' : 'font-sans'
-            }`}
-          >
-            <Printer className="w-4 h-4 shrink-0" />
-            <span>
-              {isUrdu ? 'پی ڈی ایف محفوظ کریں' : isRoman ? 'PDF Mehfooz Karein' : 'Save PDF'}
-            </span>
-          </button>
+              <button
+                type="button"
+                onClick={handleDownloadStatusCard}
+                disabled={downloadingStatus}
+                className={`min-h-[48px] px-4 py-3 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-[#0a1411] dark:hover:bg-emerald-900/70 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer ${
+                  isUrdu ? 'font-urdu' : 'font-sans'
+                }`}
+              >
+                <ImageIcon className="w-4 h-4 shrink-0" />
+                <span>
+                  {downloadingStatus
+                    ? isUrdu ? 'کارڈ تیار ہو رہا ہے...' : 'Generating...'
+                    : isUrdu
+                    ? 'اسٹیٹس کارڈ ڈاؤن لوڈ کریں (9:16 HD)'
+                    : isRoman
+                    ? 'Status Card (9:16 HD)'
+                    : 'Status Card (9:16 HD)'}
+                </span>
+              </button>
+            </>
+          ) : (
+            <>
+              <button
+                type="button"
+                onClick={handleDownloadStatusCard}
+                disabled={downloadingStatus}
+                className="flex-1 min-h-[48px] px-5 py-3 rounded-2xl bg-gradient-to-r from-[#d4af37] via-amber-400 to-[#d4af37] hover:brightness-105 text-[#0a1411] font-extrabold text-xs sm:text-sm shadow-md flex items-center justify-center gap-2 transition active:scale-95 disabled:opacity-60 cursor-pointer"
+              >
+                <ImageIcon className="w-4 h-4 shrink-0 stroke-[2.2]" />
+                <span className={isUrdu ? 'font-urdu text-sm sm:text-base leading-normal' : 'font-sans'}>
+                  {downloadingStatus
+                    ? isUrdu
+                      ? 'کارڈ تیار ہو رہا ہے...'
+                      : 'Generating Card...'
+                    : isUrdu
+                    ? 'اسٹیٹس کارڈ ڈاؤن لوڈ کریں (9:16 HD)'
+                    : isRoman
+                    ? 'Status Card (9:16 HD)'
+                    : 'Download Status Card (9:16 HD)'}
+                </span>
+              </button>
+
+              <button
+                type="button"
+                onClick={handlePdfDownload}
+                className={`min-h-[48px] px-4 py-3 rounded-2xl bg-stone-100 hover:bg-emerald-800 text-slate-800 hover:text-white dark:bg-[#0a1411] dark:hover:bg-emerald-900/70 dark:text-emerald-200 border border-stone-300 dark:border-emerald-700/60 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer ${
+                  isUrdu ? 'font-urdu' : 'font-sans'
+                }`}
+              >
+                <Printer className="w-4 h-4 shrink-0" />
+                <span>
+                  {isUrdu ? 'مکمل A4 پی ڈی ایف / پرنٹ شیٹ' : isRoman ? 'A4 PDF / Print Sheet' : 'A4 PDF / Print'}
+                </span>
+              </button>
+            </>
+          )}
 
           <button
             type="button"

@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/naat`;
 
 export const metadata: Metadata = {
-  title: 'دیوانِ نعت شریف (Naat Sharif Hub) — اردو اشعار، فرہنگ، ادبی تشریح و اسٹیٹس | AkhlaqiBaatein.com',
+  title: 'دیوانِ نعت شریف (Naat Sharif Hub) — اردو اشعار، فرہنگ، ادبی تشریح و اسٹیٹس',
   description:
     'مستند نعتِ رسولِ مقبول ﷺ، سلام، حمد اور مناجات کا مستند دیوان۔ مصطفیٰ جانِ رحمت، قصیدہ بردہ، وہ نبیوں میں رحمت لقب پانے والا کے مکمل اشعار (6–8 اشعار)، فرہنگ، تشریح اور 9:16 HD اسٹیٹس ڈاؤن لوڈ۔',
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/naat`,
   }),
   openGraph: {
-    title: 'دیوانِ نعت شریف | Naat Sharif Hub — AkhlaqiBaatein.com',
+    title: 'دیوانِ نعت شریف | Naat Sharif Hub',
     description:
       'Complete classical Urdu Naats, Salawat, Hamd, and Munajat with full multi-stanza poetry (6–8 Ashaar), vocabulary (Farhang), in-depth literary explanation (Tashreeh), and 9:16 HD Status cards.',
     url: pageUrl,

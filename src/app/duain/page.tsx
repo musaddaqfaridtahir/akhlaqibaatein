@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 const pageUrl = `${BASE_URL}/duain`;
 
 export const metadata: Metadata = {
-  title: 'مسنون دعائیں (Daily Masnoon Duain) — قرآنی و نبوی دعائیں مع ترجمہ و تسبیح | AkhlaqiBaatein.com',
+  title: 'مسنون دعائیں (Daily Masnoon Duain) — قرآنی و نبوی دعائیں مع ترجمہ و تسبیح',
   description:
     'پریشانی، قرض سے نجات، رزق میں کشادگی، نظرِ بد سے حفاظت، بیماری سے شفاء اور سفر کی مستند مسنون دعائیں۔ اعراب شدہ عربی متن، اردو ترجمہ، فضیلت، ڈیجیٹل تسبیح کاؤنٹر اور 9:16 اسٹیٹس کارڈ۔',
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ro: `${BASE_URL}/roman/duain`,
   }),
   openGraph: {
-    title: 'مسنون دعائیں | Daily Masnoon Duain — AkhlaqiBaatein.com',
+    title: 'مسنون دعائیں | Daily Masnoon Duain',
     description:
       'Authentic Quranic and Prophetic supplications with Arabic Naskh text, Urdu translation, virtues, interactive Tasbeeh counter, and 9:16 HD Status cards.',
     url: pageUrl,

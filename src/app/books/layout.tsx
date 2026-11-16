@@ -4,7 +4,7 @@ import { buildHreflangAlternates, BASE_URL } from '@/lib/quoteSeo';
 const pageUrl = `${BASE_URL}/books`;
 
 export const metadata: Metadata = {
-  title: 'کتب خانہ (Islamic Ethics Library) — Makhzan-e-Akhlaq & Classics | AkhlaqiBaatein.com',
+  title: 'کتب خانہ (Islamic Ethics Library) — Makhzan-e-Akhlaq & Classics',
   description:
     'Browse the AkhlaqiBaatein.com Islamic library featuring Makhzan-e-Akhlaq chapters, classical ethics compilations, and authentic Hadith references.',
   alternates: buildHreflangAlternates({

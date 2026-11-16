@@ -243,7 +243,7 @@ export function buildDuroodMetadata(slug: string, lang: Language): Metadata {
 
   if (!durood) {
     return {
-      title: lang === 'en' ? 'Durood Not Found | AkhlaqiBaatein.com' : lang === 'ro' ? 'Durood Dastyab Nahi | AkhlaqiBaatein.com' : 'درود شریف دستیاب نہیں | اخلاقی باتیں',
+      title: lang === 'en' ? 'Durood Not Found' : lang === 'ro' ? 'Durood Dastyab Nahi' : 'درود شریف دستیاب نہیں',
     };
   }
 
@@ -251,10 +251,10 @@ export function buildDuroodMetadata(slug: string, lang: Language): Metadata {
 
   const title =
     lang === 'en'
-      ? `${durood.title.en} (${durood.title.ro}) — Arabic Text, Translation & Benefits | AkhlaqiBaatein.com`
+      ? `${durood.title.en} (${durood.title.ro}) — Arabic Text, Translation & Benefits`
       : lang === 'ro'
-      ? `${durood.title.ro} with Urdu Translation & Fazilat | ${durood.title.ur} | AkhlaqiBaatein.com`
-      : `${durood.title.ur} مع اردو ترجمہ و فضیلت | ${durood.title.ro} in Urdu | AkhlaqiBaatein.com`;
+      ? `${durood.title.ro} with Urdu Translation & Fazilat | ${durood.title.ur}`
+      : `${durood.title.ur} مع اردو ترجمہ و فضیلت | ${durood.title.ro} in Urdu`;
 
   const description =
     lang === 'en'
@@ -334,7 +334,7 @@ export function buildNaatMetadata(slug: string, lang: Language): Metadata {
 
   if (!naat) {
     return {
-      title: lang === 'en' ? 'Naat Not Found | AkhlaqiBaatein.com' : lang === 'ro' ? 'Naat Dastyab Nahi | AkhlaqiBaatein.com' : 'نعت دستیاب نہیں | اخلاقی باتیں',
+      title: lang === 'en' ? 'Naat Not Found' : lang === 'ro' ? 'Naat Dastyab Nahi' : 'نعت دستیاب نہیں',
     };
   }
 
@@ -342,10 +342,10 @@ export function buildNaatMetadata(slug: string, lang: Language): Metadata {
 
   const title =
     lang === 'en'
-      ? `${naat.title.en} (${naat.title.ro}) by ${naat.poet.en} — Complete Lyrics & Meaning | AkhlaqiBaatein.com`
+      ? `${naat.title.en} (${naat.title.ro}) by ${naat.poet.en} — Complete Lyrics & Meaning`
       : lang === 'ro'
-      ? `${naat.title.ro} (${naat.title.ur}) — Kalam ${naat.poet.ro} Lyrics & Tashreeh | AkhlaqiBaatein.com`
-      : `${naat.title.ur} مع اردو ترجمہ و تشریح | ${naat.title.ro} Kalam ${naat.poet.ro} | AkhlaqiBaatein.com`;
+      ? `${naat.title.ro} (${naat.title.ur}) — Kalam ${naat.poet.ro} Lyrics & Tashreeh`
+      : `${naat.title.ur} مع اردو ترجمہ و تشریح | ${naat.title.ro} Kalam ${naat.poet.ro}`;
 
   const description =
     lang === 'en'
@@ -425,7 +425,7 @@ export function buildDuaMetadata(slug: string, lang: Language): Metadata {
 
   if (!dua) {
     return {
-      title: lang === 'en' ? 'Dua Not Found | AkhlaqiBaatein.com' : lang === 'ro' ? 'Dua Dastyab Nahi | AkhlaqiBaatein.com' : 'دعا دستیاب نہیں | اخلاقی باتیں',
+      title: lang === 'en' ? 'Dua Not Found' : lang === 'ro' ? 'Dua Dastyab Nahi' : 'دعا دستیاب نہیں',
     };
   }
 
@@ -433,10 +433,10 @@ export function buildDuaMetadata(slug: string, lang: Language): Metadata {
 
   const title =
     lang === 'en'
-      ? `${dua.title.en} (${dua.title.ro}) — Arabic Text, Translation & Virtues | AkhlaqiBaatein.com`
+      ? `${dua.title.en} (${dua.title.ro}) — Arabic Text, Translation & Virtues`
       : lang === 'ro'
-      ? `${dua.title.ro} with Urdu Translation & Fazilat | ${dua.title.ur} | AkhlaqiBaatein.com`
-      : `${dua.title.ur} مع اردو ترجمہ و فضیلت | ${dua.title.ro} in Urdu | AkhlaqiBaatein.com`;
+      ? `${dua.title.ro} with Urdu Translation & Fazilat | ${dua.title.ur}`
+      : `${dua.title.ur} مع اردو ترجمہ و فضیلت | ${dua.title.ro} in Urdu`;
 
   const description =
     lang === 'en'
