@@ -6,6 +6,7 @@ import {
   Sparkles,
   BookOpen,
   ArrowRight,
+  ArrowLeft,
   ShieldCheck,
   Compass,
   HeartHandshake,
@@ -344,12 +345,12 @@ export default function HomePage() {
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between gap-2">
-                    <span className={`px-2.5 py-0.5 rounded-full text-[11px] font-bold border ${item.badgeColor} ${
+                    <span className={`px-3.5 py-1.5 rounded-full text-[11px] font-bold border leading-[1.9] ${item.badgeColor} ${
                       isUrdu ? 'font-urdu' : 'font-sans'
                     }`}>
                       {itemCat}
                     </span>
-                    <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-[#d4af37]/20 border border-[#d4af37]/40 text-amber-950 dark:text-[#fef3c7]">
+                    <span className="px-3.5 py-1.5 rounded-full text-[11px] font-bold bg-[#d4af37]/20 border border-[#d4af37]/40 text-amber-950 dark:text-[#fef3c7] leading-[1.9]">
                       {item.target}
                     </span>
                   </div>
@@ -380,7 +381,11 @@ export default function HomePage() {
                     <Sparkles className="w-3.5 h-3.5 text-[#d4af37]" />
                     <span>{isUrdu ? 'آن لائن تسبیح پڑھیں' : isRoman ? 'Tasbeeh Parhein' : 'Read with Tasbeeh'}</span>
                   </span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  {isUrdu ? (
+                    <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
+                  ) : (
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  )}
                 </div>
               </Link>
             );
@@ -406,7 +411,11 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+            {isUrdu ? (
+              <ArrowLeft className="w-4 h-4 text-[#d4af37] group-hover:-translate-x-1 transition-transform" />
+            ) : (
+              <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+            )}
           </Link>
 
           <Link
@@ -426,7 +435,11 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+            {isUrdu ? (
+              <ArrowLeft className="w-4 h-4 text-[#d4af37] group-hover:-translate-x-1 transition-transform" />
+            ) : (
+              <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+            )}
           </Link>
 
           <Link
@@ -446,7 +459,11 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
-            <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+            {isUrdu ? (
+              <ArrowLeft className="w-4 h-4 text-[#d4af37] group-hover:-translate-x-1 transition-transform" />
+            ) : (
+              <ArrowRight className="w-4 h-4 text-[#d4af37] group-hover:translate-x-1 transition-transform" />
+            )}
           </Link>
         </div>
       </section>
@@ -516,7 +533,7 @@ export default function HomePage() {
                     isUrdu ? 'font-urdu leading-[1.8]' : ''
                   }`}
                 >
-                  {isUrdu ? 'درود و وظائف (Durood Hub)' : isRoman ? 'Durood & Wazaif Hub' : 'Durood & Salawat Hub'}
+                  {isUrdu ? 'درود و وظائف' : isRoman ? 'Durood & Wazaif Hub' : 'Durood & Salawat Hub'}
                 </h3>
               </div>
 
@@ -539,7 +556,11 @@ export default function HomePage() {
               }`}
             >
               <span>{isUrdu ? 'درود و وظائف پڑھیں' : isRoman ? 'Durood Parhein' : 'Explore Durood Hub'}</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              {isUrdu ? (
+                <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
+              ) : (
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              )}
             </div>
           </Link>
 
@@ -568,7 +589,7 @@ export default function HomePage() {
                     isUrdu ? 'font-urdu leading-[1.8]' : ''
                   }`}
                 >
-                  {isUrdu ? 'مسنون دعائیں (Daily Duain)' : isRoman ? 'Masnoon Duain Hub' : 'Daily Masnoon Duas'}
+                  {isUrdu ? 'مسنون دعائیں' : isRoman ? 'Masnoon Duain Hub' : 'Daily Masnoon Duas'}
                 </h3>
               </div>
 
@@ -591,7 +612,11 @@ export default function HomePage() {
               }`}
             >
               <span>{isUrdu ? 'تمام مسنون دعائیں پڑھیں' : isRoman ? 'Duain Parhein' : 'Explore Daily Duas'}</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              {isUrdu ? (
+                <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
+              ) : (
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              )}
             </div>
           </Link>
 
@@ -620,7 +645,7 @@ export default function HomePage() {
                     isUrdu ? 'font-urdu leading-[1.8]' : ''
                   }`}
                 >
-                  {isUrdu ? 'دیوانِ نعت شریف (Diwan-e-Naat)' : isRoman ? 'Diwan-e-Naat Sharif' : 'Sacred Naat & Diwan'}
+                  {isUrdu ? 'دیوانِ نعت شریف' : isRoman ? 'Diwan-e-Naat Sharif' : 'Sacred Naat & Diwan'}
                 </h3>
               </div>
 
@@ -643,7 +668,11 @@ export default function HomePage() {
               }`}
             >
               <span>{isUrdu ? 'مکمل دیوان پڑھیں' : isRoman ? 'Diwan Parhein' : 'Explore Naat Sharif'}</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              {isUrdu ? (
+                <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
+              ) : (
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              )}
             </div>
           </Link>
 
@@ -672,7 +701,7 @@ export default function HomePage() {
                     isUrdu ? 'font-urdu leading-[1.8]' : ''
                   }`}
                 >
-                  {isUrdu ? 'اسلامی کیلکولیٹرز (Islamic Tools)' : isRoman ? 'Islamic Calculators' : 'Islamic Calculators & Tools'}
+                  {isUrdu ? 'اسلامی کیلکولیٹرز' : isRoman ? 'Islamic Calculators' : 'Islamic Calculators & Tools'}
                 </h3>
               </div>
 
@@ -695,7 +724,11 @@ export default function HomePage() {
               }`}
             >
               <span>{isUrdu ? 'کیلکولیٹرز استعمال کریں' : isRoman ? 'Tools Use Karein' : 'Open Calculators'}</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              {isUrdu ? (
+                <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
+              ) : (
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              )}
             </div>
           </Link>
 
@@ -747,11 +780,15 @@ export default function HomePage() {
               }`}
             >
               <span>{isUrdu ? 'اپنا کارڈ بنائیں' : isRoman ? 'Card Banayein' : 'Create Custom Card'}</span>
-              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              {isUrdu ? (
+                <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
+              ) : (
+                <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+              )}
             </div>
           </Link>
 
-          {categories.map((cat) => {
+          {categories.filter((cat) => cat.slug !== 'naat-sharif').map((cat) => {
             const catTitle = getCategoryTitle(cat, language);
             const catDesc = getCategoryDesc(cat, language);
             const catQuoteCount = quotes.filter((q) => q.category === cat.slug).length;
@@ -817,7 +854,11 @@ export default function HomePage() {
                   }`}
                 >
                   <span>{heroContent.allCategoryQuotes}</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  {isUrdu ? (
+                    <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
+                  ) : (
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  )}
                 </div>
               </Link>
             );

@@ -358,7 +358,7 @@ export const duainList: DuaItem[] = [
     englishTranslation:
       'Before Sleep: In Your name, O Allah, I die and I live. • Upon Waking: Praise is to Allah Who gave us life after having taken it, and unto Him is the resurrection.',
     fazilat: {
-      ur: 'نیند موت کی چھوٹی بہن ہے۔ سیدنا حذیفہ بن یمانؓ فرماتے ہیں کہ نبی کریم ﷺ جب رات کو اپنے بستر پر تشریف لے جاتے تو اپنا دایاں ہاتھ رخسارِ مبارک کے نیچے رکھتے اور "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا" پڑھتے۔ اور جب صبح بیدار ہوتے تو اللہ کی حمد و شکر کے ساتھ "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا..." کا ورد فرماتے۔ یہ عمل انسان کی نیند کو عبادت اور دن کے آغاز کو شکر گزاری میں بدل دیتا ہے۔',
+      ur: 'نیند موت کی چھوٹی بہن ہے۔ سیدنا حذیفہ بن یمانؓ فرماتے ہیں کہ نبی کریم ﷺ جب رات کو اپنے بستر پر تشریف لے جاتے تو اپنا دایاں ہاتھ رخسارِ مبارک کے نیچے رکھتے اور "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا" پڑھتے۔ اور جب صبح بیدار ہوتے تو اللہ کی حمد و شکر کے ساتھ "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ" کا ورد فرماتے۔ یہ عمل انسان کی نیند کو عبادت اور دن کے آغاز کو شکر گزاری میں بدل دیتا ہے۔',
       ro: 'Neend maut ki tarah hai. Huzoor ﷺ sote waqt bismika Allahumma aur uthte waqt Alhamdu lillahilladhi ahyana parhte the. Is se raat aur din barkat se bhar jate hain.',
       en: 'Reported in Sahih Bukhari (6312), the Prophet ﷺ taught these two sublime phrases to bracket human sleep with divine remembrance, acknowledging that every morning is a gift of resurrection and renewal.',
     },
@@ -760,9 +760,9 @@ export const duainList: DuaItem[] = [
           en: 'What should one recite in Witr if they haven’t memorized Dua-e-Qunoot?',
         },
         answer: {
-          ur: 'جب تک دعائے قنوت یاد نہ ہو، اس وقت تک "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً..." یا تین مرتبہ "اللَّهُمَّ اغْفِرْ لِي" پڑھ سکتے ہیں، لیکن اسے جلد یاد کرنا چاہیے۔',
+          ur: 'جب تک دعائے قنوت یاد نہ ہو، اس وقت تک "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ" یا تین مرتبہ "اللَّهُمَّ اغْفِرْ لِي" پڑھ سکتے ہیں، لیکن اسے جلد یاد کرنا چاہیے۔',
           ro: 'Rabbana Aatina fid-dunya parh lein jab tak Dua e Qunoot yaad na ho.',
-          en: 'Until memorized, one may recite "Rabbana atina fid-dunya hasanatan..." or "Allahumma-ghfir lee" three times, while actively learning the full Qunoot.',
+          en: 'Until memorized, one may recite "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina azaban-nar" or "Allahumma-ghfir lee" three times, while actively learning the full Qunoot.',
         },
       },
     ],
@@ -829,13 +829,13 @@ export const duainList: DuaItem[] = [
       en: 'Manzil Shareef — Complete Quranic Verses for Protection against Evil Eye, Sorcery, and Harm',
     },
     arabicText:
-      'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿١﴾ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿٢﴾ الرَّحْمَٰنِ الرَّحِيمِ ﴿٣﴾ مَالِكِ يَوْمِ الدِّينِ ﴿٤﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٦﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٧﴾ • الم ﴿١﴾ ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ • اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ • لَا إِكْرَاهَ فِي الدِّينِ • قُلْ هُوَ اللَّهُ أَحَدٌ • قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ • قُلْ أَعُوذُ بِرَبِّ النَّاسِ',
+      'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿١﴾ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿٢﴾ الرَّحْمَٰنِ الرَّحِيمِ ﴿٣﴾ مَالِكِ يَوْمِ الدِّينِ ﴿٤﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٦﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٧﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • الم ﴿١﴾ ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ ﴿٢﴾ الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنفِقُونَ ﴿٣﴾ وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنزِلَ إِلَيْكَ وَمَا أُنزِلَ مِن قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ ﴿٤﴾ أُولَٰئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ ﴿٥﴾ • وَإِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ ۖ لَّا إِلَٰهَ إِلَّا هُوَ الرَّحْمَٰنُ الرَّحِيمُ ﴿١٦٣﴾ • اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ ﴿٢٥٥﴾ لَا إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ ۚ فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ لَا انفِصَامَ لَهَا ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ ﴿٢٥٦﴾ اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ ۖ وَالَّذِينَ كَفَرُوا أَوْلِيَاؤُهُمُ الطَّاغُوتُ يُخْرِجُونَهُم مِّنَ النُّورِ إِلَى الظُّلُمَاتِ ۗ أُولَٰئِكَ أَصْحَابُ النَّارِ ۖ هُمْ فِيهَا خَالِدُونَ ﴿٢٥٧﴾ • لِّلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَإِن تُبْدُوا مَا فِي أَنفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُم بِهِ اللَّهُ ۖ فَيَغْفِرُ لِمَن يَشَاءُ وَيُعَذِّبُ مَن يَشَاءُ ۗ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ﴿٢٨٤﴾ آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ ﴿٢٨٥﴾ لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا ۚ أَنتَ مَوْلَانَا فَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ ﴿٢٨٦﴾ • شَهِدَ اللَّهُ أَنَّهُ لَا إِلَٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ ۚ لَا إِلَٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ ﴿١٨﴾ قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُؤْتِي الْمُلْكَ مَن تَشَاءُ وَتَنزِعُ الْمُلْكَ مِمَّن تَشَاءُ وَتُعِزُّ مَن تَشَاءُ وَتُذِلُّ مَن تَشَاءُ ۖ بِيَدِكَ الْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ﴿٢٦﴾ تُولِجُ اللَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي اللَّيْلِ ۖ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ ۖ وَتَرْزُقُ مَن تَشَاءُ بِغَيْرِ حِسَابٍ ﴿٢٧﴾ • إِنَّ رَبَّكُمُ اللَّهُ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ ثُمَّ اسْتَوَىٰ عَلَى الْعَرْشِ يُغْشِي اللَّيْلَ النَّهَارَ يَطْلُبُهُ حَثِيثًا وَالشَّمْسَ وَالْقَمَرَ وَالنُّجُومَ مُسَخَّرَاتٍ بِأَمْرِهِ ۗ أَلَا لَهُ الْخَلْقُ وَالْأَمْرُ ۗ تَبَارَكَ اللَّهُ رَبُّ الْعَالَمِينَ ﴿٥٤﴾ ادْعُوا رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً ۚ إِنَّهُ لَا يُحِبُّ الْمُعْتَدِينَ ﴿٥٥﴾ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا وَادْعُوهُ خَوْفًا وَطَمَعًا ۚ إِنَّ رَحْمَتَ اللَّهِ قَرِيبٌ مِّنَ الْمُحْسِنِينَ ﴿٥٦﴾ • قُلِ ادْعُوا اللَّهَ أَوِ ادْعُوا الرَّحْمَٰنَ ۖ أَيًّا مَّا تَدْعُوا فَلَهُ الْأَسْمَاءُ الْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا ﴿١١٠﴾ وَقُلِ الْحَمْدُ لِلَّهِ الَّذِي لَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُ شَرِيكٌ فِي الْمُلْكِ وَلَمْ يَكُن لَّهُ وَلِيٌّ مِّنَ الذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًا ﴿١١١﴾ • أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَاكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ ﴿١١٥﴾ فَتَعَالَى اللَّهُ الْمَلِكُ الْحَقُّ ۖ لَا إِلَٰهَ إِلَّا هُوَ رَبُّ الْعَرْشِ الْكَرِيمِ ﴿١١٦﴾ وَمَن يَدْعُ مَعَ اللَّهِ إِلَٰهًا آخَرَ لَا بُرْهَانَ لَهُ بِهِ فَإِنَّمَا حِسَابُهُ عِندَ رَبِّهِ ۚ إِنَّهُ لَا يُفْلِحُ الْكَافِرُونَ ﴿١١٧﴾ وَقُل رَّبِّ اغْفِرْ وَارْحَمْ وَأَنتَ خَيْرُ الرَّاحِمِينَ ﴿١١٨﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • وَالصَّافَّاتِ صَفًّا ﴿١﴾ فَالزَّاجِرَاتِ زَجْرًا ﴿٢﴾ فَالتَّالِيَاتِ ذِكْرًا ﴿٣﴾ إِنَّ إِلَٰهَكُمْ لَوَاحِدٌ ﴿٤﴾ رَّبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ الْمَشَارِقِ ﴿٥﴾ إِنَّا زَيَّنَّا السَّمَاءَ الدُّنْيَا بِزِينَةٍ الْكَوَاكِبِ ﴿٦﴾ وَحِفْظًا مِّن كُلِّ شَيْطَانٍ مَّارِدٍ ﴿٧﴾ لَّا يَسَّمَّعُونَ إِلَى الْمَلَإِ الْأَعْلَىٰ وَيُقْذَفُونَ مِن كُلِّ جَانِبٍ ﴿٨﴾ دُحُورًا ۖ وَلَهُمْ عَذَابٌ وَاصِبٌ ﴿٩﴾ إِلَّا مَنْ خَطِفَ الْخَطْفَةَ فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ ﴿١٠﴾ • يَا مَعْشَرَ الْجِنِّ وَالْإِنسِ إِنِ اسْتَطَعْتُمْ أَن تَنفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانفُذُوا ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَانٍ ﴿٣٣﴾ فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ ﴿٣٤﴾ يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ ﴿٣٥﴾ فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ ﴿٣٦﴾ • لَوْ أَنزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ جَبَلٍ لَّرَأَيْتَهُ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللَّهِ ۚ وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ ﴿٢١﴾ هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ ۖ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ ۖ هُوَ الرَّحْمَٰنُ الرَّحِيمُ ﴿٢٢﴾ هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ ۚ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ ﴿٢٣﴾ هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ ۖ لَهُ الْأَسْمَاءُ الْحُسْنَىٰ ۚ يُسَبِّحُ لَهُ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ ۖ وَهُوَ الْعَزِيزُ الْحَكِيمُ ﴿٢٤﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِّنَ الْجِنِّ فَقَالُوا إِنَّا سَمِعْنَا قُرْآنًا عَجَبًا ﴿١﴾ يَهْدِي إِلَى الرُّشْدِ فَآمَنَّا بِهِ ۖ وَلَن نُّشْرِكَ بِرَبِّنَا أَحَدًا ﴿٢﴾ وَأَنَّهُ تَعَالَىٰ جَدُّ رَبِّنَا مَا اتَّخَذَ صَاحِبَةً وَلَا وَلَدًا ﴿٣﴾ وَأَنَّهُ كَانَ يَقُولُ سَفِيهُنَا عَلَى اللَّهِ شَطَطًا ﴿٤﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • قُلْ يَا أَيُّهَا الْكَافِرُونَ ﴿١﴾ لَا أَعْبُدُ مَا تَعْبُدُونَ ﴿٢﴾ وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ ﴿٣﴾ وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ ﴿٤﴾ وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ ﴿٥﴾ لَكُمْ دِينُكُمْ وَلِيَ دِينِ ﴿٦﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • قُلْ هُوَ اللَّهُ أَحَدٌ ﴿١﴾ اللَّهُ الصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ ﴿٤﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ﴿١﴾ مِن شَرِّ مَا خَلَقَ ﴿٢﴾ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ﴿٣﴾ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ﴿٤﴾ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ﴿٥﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • قُلْ أَعُوذُ بِرَبِّ النَّاسِ ﴿١﴾ مَلِكِ النَّاسِ ﴿٢﴾ إِلَٰهِ النَّاسِ ﴿٣﴾ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ﴿٤﴾ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ﴿٥﴾ مِنَ الْجِنَّةِ وَالنَّاسِ ﴿٦﴾',
     urduTranslation:
-      'شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔ تمام تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا پالنے والا ہے... (منزل شریف میں سورۂ فاتحہ، سورۂ بقرہ کی ابتدائی و آخری آیات اور آیت الکرسی، سورۂ آل عمران، سورۂ اعراف، سورۂ مومنون، سورۂ جن، سورۂ صافات اور معوذتین شامل ہیں جو ہر بلا، سحر اور شیطانی فتنوں کا تریاق ہیں)۔',
+      'منزل شریف قرآن کریم کی ۳۳ مستند ترین آیات پر مشتمل ایک مکمل روحانی حصار ہے۔ اس میں سورۂ فاتحہ، سورۂ بقرہ کی ابتدائی آیات، آیت الکرسی، سورۂ بقرہ کی آخری آیات، سورۂ آل عمران کی توحید و اقتدار والی آیات، سورۂ اعراف کی عظمت والی آیات، سورۂ بنی اسرائیل کی حمدیہ آیات، سورۂ مومنون کی جلیل القدر آیات، سورۂ صافات کی حفاظتی آیات، سورۂ رحمن کی جن و انس کو تنبیہی آیات، سورۂ حشر کی اسمائے حسنیٰ والی آیات، سورۂ جن کی ابتدائی آیات اور چاروں قل مبارک (کافرون، اخلاص، فلق، ناس) شامل ہیں۔ یہ آیاتِ مبارکہ توحیدِ باری تعالیٰ، عظمتِ الٰہی، شیاطین کے شر سے پناہ، اور نظرِ بد و سحر کی بندشیں توڑنے کا کامل و شافی قرآنی علاج ہیں۔ ان کی تلاوت سے اللہ تعالیٰ گھروں اور جان و مال کو ہر قسم کی شیطانی دخل اندازی اور حسد کے تیروں سے مکمل محفوظ فرما دیتا ہے۔',
     romanUrdu:
-      'Bismillahir-Rahmanir-Raheem. Alhamdulillahi Rabbil-‘Aalameen... Manzil Shareef 33 makhsoos Qurani aayat ka mustanad majmua hai jisme Surah Al-Fatiha, Surah Al-Baqarah (1-5, 163, 255-257, 284-286), Surah Al-Imran, Al-A’raf, Al-Mu’minun, Al-Jinn, As-Saffat aur Al-Mu’awwidhatayn shamil hain.',
+      'Manzil Shareef 33 muqaddas Qurani aayat ka majmua hai jisme Surah Al-Fatiha, Surah Al-Baqarah (1-5, 163, Ayat-ul-Kursi 255-257, 284-286), Surah Ali Imran, Surah Al-Araf, Surah Al-Isra, Surah Al-Muminun, Surah As-Saffat, Surah Ar-Rahman, Surah Al-Hashr, Surah Al-Jinn aur Charon Qul shamil hain. Yeh jadu, aaseeb aur dushman ki nazar se bachao ka azeem roohani hisar hai.',
     englishTranslation:
-      'In the name of Allah, the Most Gracious, the Most Merciful. All praise is for Allah, Lord of the worlds... The Manzil comprises 33 designated verses of the Holy Quran compiled from authentic Prophetic traditions as an impenetrable fortress against malevolence, witchcraft, jinns, depression, and the evil eye.',
+      'Manzil Shareef consists of 33 designated verses of the Holy Quran compiled from authentic Prophetic traditions as an impenetrable spiritual fortress. Encompassing Surah Al-Fatiha, the opening and concluding verses of Surah Al-Baqarah, Ayat al-Kursi, key passages of Ali Imran, Al-Araf, Al-Isra, Al-Muminun, As-Saffat, Ar-Rahman, Al-Hashr, Al-Jinn, and the Four Quls, it provides divine protection against evil eye, sorcery, depression, and demonic whispers.',
     fazilat: {
       ur: 'منزل شریف قرآن مجید کی ان منتخب 33 آیات کا مجموعہ ہے جنہیں رسول اللہ ﷺ نے مریضوں اور آسیب و سحر زدہ افراد کے دم کرنے کے لیے استعمال فرمایا (مسند احمد: 21196، مستدرک حاکم: 4/216)۔ جب حضرت ابی بن کعبؓ نے ایک جناتی اثر والے دیہاتی کو بارگاہِ رسالت ﷺ میں پیش کیا تو آپ ﷺ نے یہی آیات پڑھ کر دم فرمائیں اور وہ شخص فوراً صحت یاب ہو گیا۔ روزانہ صبح یا شام ایک مرتبہ منزل شریف کی تلاوت کرنے والے گھر اور افراد پر جادو ٹونے، حاسدوں کی بری نظر، وسوسوں اور اچانک حادثات کا کوئی اثر نہیں ہوتا۔ یہ روحانی امراض اور ڈپریشن سے نجات کا لاجواب قرآنی نسخہ ہے۔',
       ro: 'Manzil Shareef 33 Qurani aayat ka mustanad majmua hai jise Huzoor ﷺ ne jadu, aaseeb aur bimari ke ilaj ke liye dam farmaya (Musnad Ahmad: 21196). Rozana ghar mein parhne se dushman ki nazar aur shaitani shar se kamil hifazat rehti hai.',
@@ -871,6 +871,30 @@ export const duainList: DuaItem[] = [
           en: 'Reciting it once daily in the morning or evening surrounds your home and family with divine security against negative energies.',
         },
       },
+      {
+        question: {
+          ur: 'کیا منزل شریف پانی پر دم کر کے پی سکتے ہیں؟',
+          ro: 'Kya Manzil Shareef pani par dam kar ke pee sakte hain?',
+          en: 'Can Manzil Shareef be blown onto water for drinking?',
+        },
+        answer: {
+          ur: 'جی ہاں! منزل شریف پڑھ کر پینے کے پانی پر دم کرنا اور وہ پانی مریض کو پلانا اور گھر کے کونوں میں چھڑکنا آزمودہ مسنون روحانی علاج ہے۔',
+          ro: 'Jee haan! Manzil parh kar pani par dam karna aur peena aaseeb aur bimari se shifa ke liye nihayat mufeed hai.',
+          en: 'Yes, reciting Manzil and blowing onto drinking water for the afflicted person is an established, permissible spiritual remedy.',
+        },
+      },
+      {
+        question: {
+          ur: 'کیا منزل شریف جادو اور نظرِ بد کو ختم کرتی ہے؟',
+          ro: 'Kya Manzil Shareef jadu aur nazar-e-bad ko khatam karti hai?',
+          en: 'Does Manzil neutralize sorcery and the evil eye?',
+        },
+        answer: {
+          ur: 'احادیثِ مبارکہ کی روشنی میں یہ ۳۳ آیات شیطانی وسوسوں، کینہ پرور نظر اور جادوئی اثرات کو باطل کرنے کے لیے کامل قرآنی تریاق ہیں۔',
+          ro: 'Hadees ki roshni mein yeh ayaat jadu aur nazar-e-bad ko jarr se khatam karne ke liye kamil nuskha hain.',
+          en: 'In light of authentic traditions, these 33 verses serve as an effective divine antidote against all supernatural afflictions.',
+        },
+      },
     ],
   },
   {
@@ -882,31 +906,32 @@ export const duainList: DuaItem[] = [
       en: 'First and Last 10 Verses of Surah Al-Kahf — Protection from the Tribulation of Dajjal',
     },
     arabicText:
-      'الْحَمْدُ لِلَّهِ الَّذِي أَنزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ وَلَمْ يَجْعَل لَّهُ عِوَجًا ۜ ﴿١﴾ قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ الْمُؤْمِنِينَ الَّذِينَ يَعْمَلُونَ الصَّالِحَاتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا ﴿٢﴾ مَّاكِثِينَ فِيهِ أَبَدًا ﴿٣﴾ وَيُنذِرَ الَّذِينَ قَالُوا اتَّخَذَ اللَّهُ وَلَدًا ﴿٤﴾ مَّا لَهُم بِهِ مِنْ عِلْمٍ وَلَا لِآبَائِهِمْ ۚ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَاهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًا ﴿٥﴾ فَلَعَلَّكَ بَاخِعٌ نَّفْسَكَ عَلَىٰ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا بِهَٰذَا الْحَدِيثِ أَسَفًا ﴿٦﴾ إِنَّا جَعَلْنَا مَا عَلَى الْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا ﴿٧﴾ وَإِنَّا لَجَاعِلُونَ مَا عَلَيْهَا صَعِيدًا جُرُزًا ﴿٨﴾ أَمْ حَسِبْتَ أَنَّ أَصْحَابَ الْكَهْفِ وَالرَّقِيمِ كَانُوا مِنْ آيَاتِنَا عَجَبًا ﴿٩﴾ إِذْ أَوَى الْفِتْيَةُ إِلَى الْكَهْفِ فَقَالُوا رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا ﴿١٠﴾',
+      'الْحَمْدُ لِلَّهِ الَّذِي أَنزَلَ عَلَىٰ عَبْدِهِ الْكِتَابَ وَلَمْ يَجْعَل لَّهُ عِوَجًا ۜ ﴿١﴾ قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ الْمُؤْمِنِينَ الَّذِينَ يَعْمَلُونَ الصَّالِحَاتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا ﴿٢﴾ مَّاكِثِينَ فِيهِ أَبَدًا ﴿٣﴾ وَيُنذِرَ الَّذِينَ قَالُوا اتَّخَذَ اللَّهُ وَلَدًا ﴿٤﴾ مَّا لَهُم بِهِ مِنْ عِلْمٍ وَلَا لِآبَائِهِمْ ۚ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَاهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًا ﴿٥﴾ فَلَعَلَّكَ بَاخِعٌ نَّفْسَكَ عَلَىٰ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا بِهَٰذَا الْحَدِيثِ أَسَفًا ﴿٦﴾ إِنَّا جَعَلْنَا مَا عَلَى الْأَرْضِ زِينَةً لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًا ﴿٧﴾ وَإِنَّا لَجَاعِلُونَ مَا عَلَيْهَا صَعِيدًا جُرُزًا ﴿٨﴾ أَمْ حَسِبْتَ أَنَّ أَصْحَابَ الْكَهْفِ وَالرَّقِيمِ كَانُوا مِنْ آيَاتِنَا عَجَبًا ﴿٩﴾ إِذْ أَوَى الْفِتْيَةُ إِلَى الْكَهْفِ فَقَالُوا رَبَّنَا آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا ﴿١٠﴾ • الَّذِينَ كَانَتْ أَعْيُنُهُمْ فِي غِطَاءٍ عَن ذِكْرِي وَكَانُوا لَا يَسْتَطِيعُونَ سَمْعًا ﴿١٠١﴾ أَفَحَسِبَ الَّذِينَ كَفَرُوا أَن يَتَّخِذُوا عِبَادِي مِن دُونِي أَوْلِيَاءَ ۚ إِنَّا أَعْتَدْنَا جَهَنَّمَ لِلْكَافِرِينَ نُزُلًا ﴿١٠٢﴾ قُلْ هَلْ نُنَبِّئُكُم بِالْأَخْسَرِينَ أَعْمَالًا ﴿١٠٣﴾ الَّذِينَ ضَلَّ سَعْيُهُمْ فِي الْحَيَاةِ الدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا ﴿١٠٤﴾ أُولَٰئِكَ الَّذِينَ كَفَرُوا بِآيَاتِ رَبِّهِمْ وَلِقَائِهِ فَحَبِطَتْ أَعْمَالُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ الْقِيَامَةِ وَزْنًا ﴿١٠٥﴾ ذَٰلِكَ جَزَاؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا وَاتَّخَذُوا آيَاتِي وَرُسُلِي هُزُوًا ﴿١٠٦﴾ إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا ﴿١٠٧﴾ خَالِدِينَ فِيهَا لَا يَبْغُونَ عَنْهَا حِوَلًا ﴿١٠٨﴾ قُل لَّوْ كَانَ الْبَحْرُ مِدَادًا لِّكَلِمَاتِ رَبِّي لَنَفِدَ الْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَاتُ رَبِّي وَلَوْ جِئْنَا بِمِثْلِهِ مَدَدًا ﴿١٠٩﴾ قُلْ إِنَّمَا أَنَا بَشَرٌ مِّثْلُكُمْ يُوحَىٰ إِلَيَّ أَنَّمَا إِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ ۖ فَمَن كَانَ يَرْجُو لِقَاءَ رَبِّهِ فَلْيَعْمَلْ عَمَلًا صَالِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِ أَحَدًا ﴿١١٠﴾',
     urduTranslation:
-      'تمام تعریفیں اللہ ہی کے لیے ہیں جس نے اپنے بندے پر کتاب نازل فرمائی اور اس میں کوئی کجی نہ رکھی، بالکل سیدھی اور محکم تاکہ وہ اس کی طرف سے سخت عذاب کی وعید سنائے، اور ایمان والوں کو جو نیک اعمال کرتے ہیں یہ خوشخبری دے کہ ان کے لیے بہترین اجر (جنت) ہے جس میں وہ ہمیشہ رہیں گے... اے ہمارے پروردگار! ہمیں اپنی جناب سے خاص رحمت عطا فرما اور ہمارے معاملے میں ہمارے لیے ہدایت اور بھلائی کا راستہ آسان کر دے۔',
+      '[ابتدائی ۱۰ آیات]: تمام تعریفیں اللہ کے لیے ہیں جس نے اپنے بندے پر یہ کتاب نازل فرمائی اور اس میں کوئی کجی نہ رکھی، بالکل سیدھی کتاب تاکہ وہ اللہ کی طرف سے سخت عذاب سے ڈرائے، اور نیک اعمال کرنے والے مومنوں کو یہ خوشخبری دے کہ ان کے لیے بہترین بدلہ ہے جس میں وہ ہمیشہ رہیں گے، اور ان لوگوں کو خبردار کرے جنہوں نے کہا کہ اللہ نے اولاد بنا رکھی ہے۔ نہ انہیں اس کا علم ہے نہ ان کے بڑوں کو، یہ سخت بات ہے جو ان کے منہ سے نکلتی ہے، وہ محض جھوٹ بولتے ہیں۔ شاید آپ ان کے پیچھے غم کے مارے اپنی جان گھلا دیں گے اگر وہ اس کلام پر ایمان نہ لائے۔ بے شک ہم نے زمین پر موجود ہر چیز کو اس کے لیے زینت بنایا تاکہ ہم ان کا امتحان لیں کہ کون اچھے عمل کرتا ہے، اور یقیناً ہم اس سب کو ایک چٹیل میدان بنا دیں گے۔ جب ان نوجوانوں نے غار میں پناہ لی تو عرض کیا: اے ہمارے رب! ہمیں اپنے پاس سے رحمت عطا فرما اور ہمارے معاملے میں بھلائی اور رہنمائی پیدا فرما۔\n\n[آخری ۱۰ آیات (۱۰۱ تا ۱۱۰)]: جن کی آنکھوں پر میری یاد سے پردہ پڑا تھا اور وہ سننے کی سکت نہ رکھتے تھے۔ کیا کافر یہ سمجھتے ہیں کہ وہ میرے سوا میرے بندوں کو کارساز بنا لیں گے؟ ہم نے کافروں کی مہمانی کے لیے جہنم تیار کر رکھی ہے۔ آپ فرما دیجیے: کیا ہم تمہیں بتائیں کہ اعمال کے اعتبار سے سب سے زیادہ گھاٹے میں کون ہیں؟ جن کی ساری کوشش دنیا کی زندگی میں برباد ہو گئی اور وہ سمجھتے رہے کہ وہ اچھے کام کر رہے ہیں۔ یہی وہ ہیں جنہوں نے اپنے رب کی آیات اور اس کے حضور پیشی کا انکار کیا پس ان کے اعمال اکارت گئے اور قیامت کے دن ہم ان کا کوئی وزن قائم نہیں کریں گے۔ بے شک جو لوگ ایمان لائے اور نیک عمل کیے ان کے لیے فردوس کے باغات کی مہمانی ہے، جہاں وہ ہمیشہ رہیں گے۔ آپ فرما دیجیے کہ اگر سمندر میرے رب کے کلمات کے لیے سیاہی بن جائے تو سمندر ختم ہو جائے گا قبل اس کے کہ کلمات ختم ہوں۔ آپ فرما دیجیے کہ میں تو تمہاری ہی طرح ایک انسان ہوں میری طرف وحی کی جاتی ہے کہ تمہارا معبود ایک ہی معبود ہے، پس جو اپنے رب کی ملاقات کی امید رکھتا ہے اسے چاہیے کہ نیک عمل کرے اور اپنے رب کی عبادت میں کسی کو شریک نہ ٹھہرائے۔',
     romanUrdu:
-      'Alhamdu lillahil-lazeee anzala ‘alaa ‘abdihil-Kitaaba wa lam yaj’al lahoo ‘iwajaa; Qayyimal-liyundhira ba’san shadeedam-mil-ladunhu wa yubashshiral-mu’mineenal-ladheena ya’maloonas-saalihaati anna lahum ajran hasanaa; Maakitheena feehi abadaa... Iz awal-fityatu ilal-Kahfi faqaaloo Rabbanaaa aatinaa mil-ladunka rahmatanw-wa hayyi’ lanaa min amrinaa rashadaa.',
+      'Alhamdu lillahil-lazee anzala alaa abdihil-Kitaaba wa lam yaj-al lahoo iwajaa. Qayyimal-liyundhira basan shadeedam-mil-ladunhu wa yubashshiral-mu-mineenal-ladheena ya-maloonas-saalihaati anna lahum ajran hasanaa, maakitheena feehi abadaa. Wa yundhiralladheena qaalut-takhadhallahu waladaa. Iz awal-fityatu ilal-Kahfi faqaaloo Rabbanaa aatinaa mil-ladunka rahmatanw-wa hayyi lanaa min amrinaa rashadaa. Wa aakhiri 10 ayaat: Innal-ladheena aamanoo wa amilus-saalihaati kaanat lahum jannaatul-firdawsi nuzulaa, khaalideena feehaa laa yabghoona anhaa hiwalaa.',
     englishTranslation:
-      'All praise is due to Allah, who has sent down upon His Servant the Book and has not made therein any deviance. He has made it straight, to warn of severe punishment from Him and to give good tidings to the believers who do righteous deeds that they will have a good reward in which they will abide forever... [When] the youths retreated to the cave and said, "Our Lord, grant us from Yourself mercy and prepare for us from our affair right guidance."',
+      '[Verses 1-10 & 101-110]: All praise is due to Allah, who revealed upon His Servant the Book and made no distortion therein—upright, to give warning of a severe divine trial and impart joyful tidings to believers. When the youths sought shelter in the cave, they prayed: "Our Lord, grant us mercy from Yourself and facilitate for us upright conduct." And in the concluding verses, Allah reveals the ultimate triumph of those who believe and perform righteous deeds, promised the Gardens of Paradise forever.',
     fazilat: {
       ur: 'صحیح مسلم (809) میں حضرت ابو درداءؓ سے روایت ہے کہ نبی کریم ﷺ نے فرمایا: "جس نے سورۃ الکہف کی ابتدائی دس آیات یاد کر لیں، وہ دجال کے فتنے سے محفوظ رہے گا"، اور ایک دوسری روایت میں آخری دس آیات کا ذکر ہے۔ نیز جمعہ کے دن سورۃ الکہف پڑھنے والے کے لیے دو جمعوں کے درمیان نور روشن کر دیا جاتا ہے (مستدرک حاکم: 2/399)۔ یہ آیات مادہ پرستی، کفر، اور فتنوں کے دور میں ایمان کی استقامت اور اللہ پر توکل کے نور کا عظیم ترین ذریعہ ہیں۔',
       ro: 'Sahih Muslim (809) ke mutabiq Surah Al-Kahf ki pehli 10 aayat yaad karne aur parhne wala Fitna-e-Dajjal se mehfooz rehta hai. Jumma ke din iski tilawat se agle jumma tak roohani noor chamakta rehta hai.',
       en: 'In Sahih Muslim (809), Abu al-Darda reported that the Prophet ﷺ stated: "Whoever memorizes the first ten verses of Surah Al-Kahf will be protected from the trial of the Dajjal (Anti-Christ)." It is a beacon of light between two Fridays.',
     },
     reference: {
-      ur: 'القرآن الكريم، سورة الكهف: 1-10؛ صحيح مسلم: 809، مستدرك الحاكم: 2/399',
-      ro: 'Surah Al-Kahf: 1-10; Sahih Muslim: 809',
-      en: 'Quran 18:1-10; Sahih Muslim: 809, Al-Mustadrak: 2/399',
+      ur: 'القرآن الكريم، سورة الكهف: 1-10 و 101-110؛ صحيح مسلم: 809، مستدرك الحاكم: 2/399',
+      ro: 'Surah Al-Kahf: 1-10 & 101-110; Sahih Muslim: 809',
+      en: 'Quran 18:1-10 & 101-110; Sahih Muslim: 809, Al-Mustadrak: 2/399',
     },
     category: 'Rozana',
     recommendedCount: 1,
     seoKeywords: [
       'Surah Kahf first 10 verses',
+      'Surah Kahf last 10 verses',
       'Surah Kahf Urdu translation',
       'Fitna e Dajjal se hifazat',
       'Surah Kahf Friday wird',
-      'سورۃ الکہف کی پہلی 10 آیات',
+      'سورۃ الکہف کی پہلی اور آخری 10 آیات',
       'سورۃ الکہف اردو ترجمہ',
       'فتنہ دجال کی دعا',
       'Surah Al Kahf 10 verses Roman Urdu',
@@ -924,6 +949,30 @@ export const duainList: DuaItem[] = [
           en: 'According to authentic hadiths, an illuminating light shines for the reciter from one Friday to the next, protecting their faith from worldly corruption.',
         },
       },
+      {
+        question: {
+          ur: 'کیا دجال سے حفاظت کے لیے ابتدائی یا آخری 10 آیات یاد کرنا ضروری ہے؟',
+          ro: 'Kya Dajjal se hifazat ke liye pehli ya aakhri 10 ayaat yaad karna zaroori hai?',
+          en: 'Is memorizing the first or last 10 verses necessary for protection against Dajjal?',
+        },
+        answer: {
+          ur: 'صحیح مسلم کی روایت کے مطابق جو شخص ابتدائی ۱۰ آیات (اور ایک روایت میں آخری ۱۰ آیات) یاد کر کے باقاعدگی سے تلاوت کرے گا، وہ دجال کے بڑے فتنے سے مامون رہے گا۔',
+          ro: 'Sahih Muslim ki riwayat ke mutabiq pehli ya aakhri 10 ayaat yaad karne wala Fitna-e-Dajjal ke shar se mehfooz rahega.',
+          en: 'In Sahih Muslim, the Prophet ﷺ advised memorizing either the first ten or the last ten verses to be shielded against the grand deceit of Dajjal.',
+        },
+      },
+      {
+        question: {
+          ur: 'کیا سورۃ الکہف روزانہ بھی پڑھی جا سکتی ہے؟',
+          ro: 'Kya Surah Kahf rozana parhi ja sakti hai?',
+          en: 'Can Surah Al-Kahf be recited daily?',
+        },
+        answer: {
+          ur: 'پوری سورت جمعہ کو پڑھنا سنت ہے، جبکہ اس کی ابتدائی اور آخری دس آیات روزانہ کی بنیاد پر ورد کرنا فتنوں کے دور میں ایمان کی حفاظت کا بہترین ذریعہ ہے۔',
+          ro: 'Jumma ko mukammal surah aur rozana pehli o aakhri 10 ayaat parhna behtareen maamool hai.',
+          en: 'Reciting the full chapter on Friday is Sunnah, while reading the opening and closing ten verses daily anchors faith against modern ideological trials.',
+        },
+      },
     ],
   },
   {
@@ -935,13 +984,13 @@ export const duainList: DuaItem[] = [
       en: 'Surah Al-Mulk & Surah Al-Waqiah Wird — Salvation from Grave Torment & Abundant Sustenance',
     },
     arabicText:
-      'تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ﴿١﴾ الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ الْعَزِيزُ الْغَفُورُ ﴿٢﴾ ... إِذَا وَقَعَتِ الْوَاقِعَةُ ﴿١﴾ لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ ﴿٢﴾ خَافِضَةٌ رَّافِعَةٌ ﴿٣﴾ إِذَا رُجَّتِ الْأَرْضُ رَجًّا ﴿٤﴾',
+      'تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ﴿١﴾ الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ الْعَزِيزُ الْغَفُورُ ﴿٢﴾ الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِي خَلْقِ الرَّحْمَٰنِ مِن تَفَاوُتٍ ۖ فَارْجِعِ الْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ ﴿٣﴾ ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ ﴿٤﴾ وَلَقَدْ زَيَّنَّا السَّمَاءَ الدُّنْيَا بِمَصَابِيحَ وَجَعَلْنَاهَا رُجُومًا لِّلشَّيَاطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ السَّعِيرِ ﴿٥﴾ • بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ • إِذَا وَقَعَتِ الْوَاقِعَةُ ﴿١﴾ لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ ﴿٢﴾ خَافِضَةٌ رَّافِعَةٌ ﴿٣﴾ إِذَا رُجَّتِ الْأَرْضُ رَجًّا ﴿٤﴾ وَبُسَّتِ الْجِبَالُ بَسًّا ﴿٥﴾ فَكَانَتْ هَبَاءً مُّنبَثًّا ﴿٦﴾ وَكُنتُمْ أَزْوَاجًا ثَلَاثَةً ﴿٧﴾ فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ ﴿٨﴾ وَأَصْحَابُ الْمَشْأَمَةِ مَا أَصْحَابُ الْمَشْأَمَةِ ﴿٩﴾ وَالسَّابِقُونَ السَّابِقُونَ ﴿١٠﴾',
     urduTranslation:
-      'بڑی برکت والا ہے وہ جس کے ہاتھ میں تمام بادشاہی ہے اور وہ ہر چیز پر قادر ہے۔ جس نے موت اور زندگی کو پیدا کیا تاکہ تمہیں آزمائے کہ تم میں سے کس کے عمل اچھے ہیں، اور وہ زبردست بخشنے والا ہے... جب واقع ہونے والی (قیامت) واقع ہو جائے گی، اس کے واقع ہونے میں کوئی جھوٹ نہیں، وہ کسی کو پست کرنے والی اور کسی کو بلند کرنے والی ہوگی...',
+      'بڑی برکت والا ہے وہ ذات جس کے دستِ قدرت میں تمام کائنات کی بادشاہی ہے اور وہ ہر چیز پر قادر ہے۔ جس نے موت اور زندگی کو اس لیے پیدا کیا تاکہ تمہیں آزمائے کہ تم میں سے کون عمل کے اعتبار سے سب سے بہتر ہے، اور وہ غالب بخشنے والا ہے۔ جس نے اوپر تلے سات آسمان بنائے، تم رحمٰن کی تخلیق میں کوئی نقص یا ناہمواری نہیں پاؤ گے، پس نظر دوڑاؤ کیا تمہیں کوئی شگاف نظر آتا ہے؟ پھر دوبارہ نظر دوڑاؤ، نگاہ تھک ہار کر نامراد تمہاری طرف لوٹ آئے گی۔ اور یقیناً ہم نے قریبی آسمان کو روشن چراغوں سے آراستہ کیا اور انہیں شیاطین کو مار بھگانے کا ذریعہ بنایا، اور ان کے لیے دہکتی آگ کا عذاب تیار کر رکھا ہے۔ شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔ جب وقوع پذیر ہونے والی قیامت واقع ہو جائے گی، اس کے واقع ہونے میں کوئی شک نہیں۔ وہ کسی کو نیچا دکھانے والی اور کسی کو بلندی بخشنے والی ہوگی۔ جب زمین شدت کے ساتھ ہلائی جائے گی، اور پہاڑ ریزہ ریزہ کر دیے جائیں گے، پس وہ غبار بن کر اڑنے لگیں گے، اور تم تین گروہوں میں بٹ جاؤ گے، دائیں ہاتھ والے کیا ہی خوش نصیب ہیں، اور بائیں ہاتھ والے کیسے بد نصیب ہیں، اور نیکیوں میں آگے بڑھ جانے والے ہی مقربین ہوں گے۔',
     romanUrdu:
-      'Tabaarakal-lazee biyadihil-mulku wa Huwa ‘alaa kulli shay’in Qadeer; Allazee khalaqal-mawta wal-hayaata liyabluwakum ayyukum ahsanu ‘amalaa; wa Huwal-‘Azeezul-Ghafoor... Izaa waqa’atil-waaqi’ah; laysa liwaq’atihaa kaadhibah; khaafidatur-raafi’ah.',
+      'Tabaarakal-lazee biyadihil-mulku wa Huwa alaa kulli shay-in Qadeer. Allazee khalaqal-mawta wal-hayaata liyabluwakum ayyukum ahsanu amalaa, wa Huwal-Azeezul-Ghafoor. Allazee khalaqa sab-a samawaatin tibaaqaa, maa taraa fee khalqir-Rahmaani min tafaawut, farji-il-basara hal taraa min futoor. Thummarji-il-basara karratayni yanqalib ilaykal-basaru khaasi-anw-wa huwa haseer. Wa laqad zayyannas-samaa-ad-dunyaa bimasaabeeha wa ja-alnaahaa rujoomal-lish-shayaateen. Bismillahir-Rahmanir-Raheem. Izaa waqa-atil-waaqi-ah, laysa liwaq-atihaa kaadhibah, khaafidatur-raafi-ah.',
     englishTranslation:
-      'Blessed is He in whose hand is dominion, and He is over all things competent. [He] who created death and life to test you as to which of you is best in deed—and He is the Exalted in Might, the Forgiving... When the Inevitable Event befalls, there will be no denying its occurrence. It will bring down [some] and elevate [others].',
+      'Blessed is He in whose hand is absolute dominion, and He is over all things competent. Who created death and life to test which of you is finest in conduct, and He is the Exalted in Might, the Forgiving. Who created seven heavens layered; you see no imperfection in the creation of the Most Merciful. When the Inevitable Event occurs, no soul can deny its arrival. It will lower some and exalt others, as believers are gathered in everlasting grace.',
     fazilat: {
       ur: 'سنن ترمذی (2891) اور سنن ابوداؤد میں مروی ہے کہ رسول اللہ ﷺ نے فرمایا: "قرآن میں تیس آیتوں پر مشتمل ایک سورت ہے جس نے ایک شخص کی اس قدر سفارش کی کہ اس کی مغفرت فرما دی گئی، اور وہ سورۃ تبارک الذی بیدہ الملک ہے"۔ حضرت عبداللہ بن مسعودؓ فرماتے ہیں کہ جو شخص ہر رات سورۃ الملک پڑھے گا، اللہ تعالیٰ اس کی برکت سے اسے عذابِ قبر سے محفوظ رکھے گا۔ اور حضرت عبداللہ بن مسعودؓ ہی سے بیہقی میں مروی ہے کہ نبی ﷺ نے فرمایا: "جس نے ہر رات سورۃ الواقعہ کی تلاوت کی، اسے کبھی فاقہ کشی اور مالی تنگی نہیں پہنچے گی"۔ اس لیے مغرب و عشاء کے بعد یہ دونوں سورتیں پڑھنا دینی و دنیاوی خوشحالی کا اکسیر ہے۔',
       ro: 'Surah Al-Mulk raat ko parhne se azaab-e-qabr se kamil najaat milti hai (Tirmidhi: 2891), aur Surah Al-Waqiah har raat parhne se faqa aur rizq ki tangi kabhi nahi aati. Yeh dono sooratein dunya o aakhirat ki kamyabi ka zariya hain.',
@@ -975,6 +1024,30 @@ export const duainList: DuaItem[] = [
           ur: 'سورۃ الواقعہ مغرب کے بعد اور سورۃ الملک عشاء کے بعد یا سونے سے قبل تلاوت کرنا مسنون روایات سے ثابت ہے۔',
           ro: 'Surah Waqiah Maghrib ke baad aur Surah Mulk sone se pehle parhna sab se afzal hai.',
           en: 'Surah Al-Waqiah is customarily recited after Maghrib, while Surah Al-Mulk is recited after Isha or right before sleep.',
+        },
+      },
+      {
+        question: {
+          ur: 'کیا سورۃ الملک عذابِ قبر سے حفاظت کرتی ہے؟',
+          ro: 'Kya Surah Mulk azab-e-qabr se hifazat karti hai?',
+          en: 'Does Surah Al-Mulk protect from grave punishment?',
+        },
+        answer: {
+          ur: 'جی ہاں! صحیح احادیث میں اسے "المانعہ" (روکنے والی) اور "المنجیہ" (نجات دلانے والی) فرمایا گیا ہے جو قاری کی قبر میں مغفرت تک سفارش کرتی ہے۔',
+          ro: 'Jee haan! Hadees mein ise Al-Maniyah farmaya gaya hai jo azaab-e-qabr se bachaati hai.',
+          en: 'Yes, authentic narrations designate it as the protector and savior that intercedes until its reciter is forgiven.',
+        },
+      },
+      {
+        question: {
+          ur: 'سورۃ الواقعہ پڑھنے سے رزق میں کیسے وسعت ہوتی ہے؟',
+          ro: 'Surah Waqiah parhne se rizq mein kaise barkat hoti hai?',
+          en: 'How does Surah Al-Waqiah enhance provision?',
+        },
+        answer: {
+          ur: 'رسول اللہ ﷺ نے فرمایا کہ جو شخص ہر رات سورۃ الواقعہ کی تلاوت کرے گا وہ کبھی فاقہ اور محتاجی میں مبتلا نہیں ہوگا، یہ رزق اور برکت کا آزمودہ نبوی وظیفہ ہے۔',
+          ro: 'Huzoor ﷺ ne farmaya ke har raat Surah Waqiah parhne wale par faqa nahi aata aur rizq mein barkat hoti hai.',
+          en: 'The Prophet ﷺ stated that whoever reads Surah Al-Waqiah each night will never suffer deprivation or poverty.',
         },
       },
     ],

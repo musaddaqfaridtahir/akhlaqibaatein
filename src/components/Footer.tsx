@@ -69,6 +69,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/duain" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'مسنون دعائیں' : t.masnoonDuain}</span>
+                </Link>
+              </li>
+              <li>
                 <Link href="/naat" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
                   <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
                   <span>{isUrdu ? 'دیوانِ نعت شریف' : t.naatSharif}</span>
@@ -78,6 +84,18 @@ export default function Footer() {
                 <Link href="/chahal-hadith" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
                   <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
                   <span>{t.chahalHadith}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/tools" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'اسلامی کیلکولیٹرز' : t.islamicTools}</span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/status-maker" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
+                  <span>{isUrdu ? 'جمعہ اسٹیٹس میکر' : t.statusMaker}</span>
                 </Link>
               </li>
               <li>
