@@ -7,7 +7,7 @@ import { duainList } from '@/data/duain';
 import { naatsList } from '@/data/naats';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://akhlaqibaatein.com';
+  const baseUrl = 'https://www.akhlaqibaatein.com';
 
   // Static routes
   const staticRoutes: MetadataRoute.Sitemap = [

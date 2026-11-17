@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Disclaimer',
   description: 'Disclaimer of AkhlaqiBaatein.com.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en/disclaimer',
+    canonical: 'https://www.akhlaqibaatein.com/en/disclaimer',
   },
 };
 

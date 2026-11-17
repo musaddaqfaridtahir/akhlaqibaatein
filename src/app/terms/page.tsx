@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'Terms of use and conditions for visitors, content sharing, and educational resources on AkhlaqiBaatein.com.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/terms',
+    canonical: 'https://www.akhlaqibaatein.com/terms',
   },
 };
 

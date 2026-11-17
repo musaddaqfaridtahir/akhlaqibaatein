@@ -55,7 +55,7 @@ export default function DuaDetailView({ dua, routeLanguage }: DuaDetailViewProps
   const isLongText = (dua.arabicText || '').length > 350;
 
   const handleCopy = () => {
-    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(dua.slug)}`;
+    const shareUrl = `https://www.akhlaqibaatein.com${getDetailPath(dua.slug)}`;
     const payload = `${currentTitle}\n\n${dua.arabicText}\n\nترجمہ: ${dua.urduTranslation}\n\nحوالہ: ${dua.reference.ur}\n\n${shareUrl}`;
     navigator.clipboard.writeText(payload);
     setCopied(true);
@@ -64,7 +64,7 @@ export default function DuaDetailView({ dua, routeLanguage }: DuaDetailViewProps
   };
 
   const handleWhatsAppShare = () => {
-    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(dua.slug)}`;
+    const shareUrl = `https://www.akhlaqibaatein.com${getDetailPath(dua.slug)}`;
     const msg = encodeURIComponent(
       `*${currentTitle}*\n\n${dua.arabicText}\n\n*ترجمہ:* ${dua.urduTranslation}\n*حوالہ:* ${dua.reference.ur}\n\nمکمل مسنون دعا اور تسبیح کاؤنٹر:\n${shareUrl}`
     );

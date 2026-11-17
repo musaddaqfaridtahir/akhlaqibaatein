@@ -14,7 +14,7 @@ import { getDuroodBySlug } from '@/data/durood';
 import { getNaatBySlug } from '@/data/naats';
 import { getDuaBySlug } from '@/data/duain';
 
-export const BASE_URL = 'https://akhlaqibaatein.com';
+export const BASE_URL = 'https://www.akhlaqibaatein.com';
 
 export function getLocalizedQuotePath(slug: string, lang: Language): string {
   if (lang === 'en') return `/en/quotes/${slug}`;

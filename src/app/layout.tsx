@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://akhlaqibaatein.com'),
+  metadataBase: new URL('https://www.akhlaqibaatein.com'),
   title: {
     default: 'اخلاقی باتیں | AkhlaqiBaatein.com — Islamic Wisdom, Quotes & 40 Hadith',
     template: '%s | AkhlaqiBaatein.com',
@@ -62,14 +62,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ur_PK',
-    url: 'https://akhlaqibaatein.com',
+    url: 'https://www.akhlaqibaatein.com',
     title: 'اخلاقی باتیں | AkhlaqiBaatein.com — Islamic Moral Wisdom',
     description:
       'Explore authentic Islamic wisdom, Quranic teachings, Hadith ethics, and classic moral stories in pure Urdu, Roman Urdu, and English.',
     siteName: 'AkhlaqiBaatein.com',
     images: [
       {
-        url: 'https://akhlaqibaatein.com/logo.png',
+        url: 'https://www.akhlaqibaatein.com/logo.png',
         width: 512,
         height: 512,
         alt: 'AkhlaqiBaatein.com Emblem',
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'اخلاقی باتیں | AkhlaqiBaatein.com',
     description: 'Timeless Islamic wisdom and classical moral literature with strict language isolation.',
-    images: ['https://akhlaqibaatein.com/logo.png'],
+    images: ['https://www.akhlaqibaatein.com/logo.png'],
   },
   robots: {
     index: true,

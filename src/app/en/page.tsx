@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description:
     'Discover authentic Islamic moral quotes, 40 Hadith with English translations, Salawat upon Prophet Muhammad ﷺ, Masnoon Duas, and spiritual wisdom in English.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en',
+    canonical: 'https://www.akhlaqibaatein.com/en',
     languages: {
-      ur: 'https://akhlaqibaatein.com',
-      en: 'https://akhlaqibaatein.com/en',
-      'ro-PK': 'https://akhlaqibaatein.com/roman',
-      'x-default': 'https://akhlaqibaatein.com',
+      ur: 'https://www.akhlaqibaatein.com',
+      en: 'https://www.akhlaqibaatein.com/en',
+      'ro-PK': 'https://www.akhlaqibaatein.com/roman',
+      'x-default': 'https://www.akhlaqibaatein.com',
     },
   },
 };

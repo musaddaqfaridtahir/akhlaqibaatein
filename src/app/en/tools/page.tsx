@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Authentic Islamic utilities: Qaza Namaz Calculator, comprehensive Zakat Calculator, and custom 9:16 Status Maker.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en/tools',
+    canonical: 'https://www.akhlaqibaatein.com/en/tools',
   },
 };
 

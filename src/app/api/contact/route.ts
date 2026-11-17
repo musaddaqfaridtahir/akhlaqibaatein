@@ -68,8 +68,8 @@ export async function POST(request: Request) {
         headers: {
           'Content-Type': 'application/json',
           Accept: 'application/json',
-          Origin: 'https://akhlaqibaatein.com',
-          Referer: 'https://akhlaqibaatein.com/contact',
+          Origin: 'https://www.akhlaqibaatein.com',
+          Referer: 'https://www.akhlaqibaatein.com/contact',
         },
         body: JSON.stringify({
           name,

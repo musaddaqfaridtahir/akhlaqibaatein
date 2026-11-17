@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Sona, chandi, cash aur business maal par 2.5% zakat ka exact sharai hisab 5 international currencies mein.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/tools/zakat-calculator',
+    canonical: 'https://www.akhlaqibaatein.com/roman/tools/zakat-calculator',
   },
 };
 

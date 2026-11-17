@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Mustanad Islami tools: Qaza Namaz calculator, Zakat calculator aur 9:16 status card maker.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/tools',
+    canonical: 'https://www.akhlaqibaatein.com/roman/tools',
   },
 };
 

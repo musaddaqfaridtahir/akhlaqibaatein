@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'Islamic, religious, and educational content disclaimer for AkhlaqiBaatein.com.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/disclaimer',
+    canonical: 'https://www.akhlaqibaatein.com/disclaimer',
   },
 };
 

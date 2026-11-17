@@ -165,7 +165,7 @@ export default function TasbeehCounter({
   };
 
   const handleShareMini = () => {
-    const shareUrl = `https://akhlaqibaatein.com/durood/${durood.slug}`;
+    const shareUrl = `https://www.akhlaqibaatein.com/durood/${durood.slug}`;
     const title = isUrdu ? durood.title.ur : isRoman ? durood.title.ro : durood.title.en;
     const msg = encodeURIComponent(
       `${title}\nورد و تسبیح: ${count} / ${target} مرتبہ مکمل\n${shareUrl}`
@@ -174,7 +174,7 @@ export default function TasbeehCounter({
   };
 
   const handleCopyLink = () => {
-    const shareUrl = `https://akhlaqibaatein.com/durood/${durood.slug}`;
+    const shareUrl = `https://www.akhlaqibaatein.com/durood/${durood.slug}`;
     navigator.clipboard.writeText(shareUrl);
     setCopiedLink(true);
     showToast(isUrdu ? 'صفحے کا لنک کاپی ہو گیا' : 'Link copied to clipboard');

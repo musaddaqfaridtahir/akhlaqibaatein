@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://akhlaqibaatein.com/sitemap.xml',
+    sitemap: 'https://www.akhlaqibaatein.com/sitemap.xml',
   };
 }

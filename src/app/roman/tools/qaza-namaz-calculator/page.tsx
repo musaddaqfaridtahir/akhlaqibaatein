@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Zindagi ki qaza namazon ka hisab lagayein, daily target set karein aur free printable tracker chart download karein.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/tools/qaza-namaz-calculator',
+    canonical: 'https://www.akhlaqibaatein.com/roman/tools/qaza-namaz-calculator',
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Card par apna naam likh kar 9:16 Full HD WhatsApp Status banayein. Jumma Mubarak, Durood aur Aqwal.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/status-maker',
+    canonical: 'https://www.akhlaqibaatein.com/roman/status-maker',
   },
 };
 

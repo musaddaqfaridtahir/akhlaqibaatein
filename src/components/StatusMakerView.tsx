@@ -673,7 +673,7 @@ export default function StatusMakerView() {
 
   const handleWhatsAppShare = () => {
     const text = encodeURIComponent(
-      `*${customBadge.trim() || currentTemplate.titleUr}*\n\n${customText.trim() || currentTemplate.urdu}\n\nاپنے نام کے ساتھ 9:16 ایچ ڈی واٹس ایپ اسٹیٹس کارڈ بنائیں:\nhttps://akhlaqibaatein.com/status-maker`
+      `*${customBadge.trim() || currentTemplate.titleUr}*\n\n${customText.trim() || currentTemplate.urdu}\n\nاپنے نام کے ساتھ 9:16 ایچ ڈی واٹس ایپ اسٹیٹس کارڈ بنائیں:\nhttps://www.akhlaqibaatein.com/status-maker`
     );
     window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank');
   };

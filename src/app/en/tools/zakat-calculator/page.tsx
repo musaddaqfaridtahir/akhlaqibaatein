@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Calculate exact 2.5% Zakat on Gold, Silver, Cash, Inventory, and Receivables minus immediate debts across PKR, USD, SAR, AED, and GBP.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en/tools/zakat-calculator',
+    canonical: 'https://www.akhlaqibaatein.com/en/tools/zakat-calculator',
   },
 };
 

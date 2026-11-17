@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'احادیث مبارکہ',
   ],
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/chahal-hadith',
+    canonical: 'https://www.akhlaqibaatein.com/chahal-hadith',
   },
 };
 

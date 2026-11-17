@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Taaruf: Idara Akhlaqi Baatein',
   description: 'AkhlaqiBaatein.com ka vision, maqsad aur idarati meyar.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/about',
+    canonical: 'https://www.akhlaqibaatein.com/roman/about',
   },
 };
 

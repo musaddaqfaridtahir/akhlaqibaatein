@@ -97,7 +97,7 @@ export default function ChahalHadithTracker({
   const handleCopyHadith = (h: ChahalHadithItem) => {
     const text = getHadithText(h, language);
     const ref = getHadithRef(h, language);
-    const textToCopy = `#${h.id}\n\n${h.arabic}\n\n${text}\n\n${t.sourceHeading} ${ref}\n\nhttps://akhlaqibaatein.com/chahal-hadith`;
+    const textToCopy = `#${h.id}\n\n${h.arabic}\n\n${text}\n\n${t.sourceHeading} ${ref}\n\nhttps://www.akhlaqibaatein.com/chahal-hadith`;
     navigator.clipboard.writeText(textToCopy);
     showToast(t.copiedBtn);
   };

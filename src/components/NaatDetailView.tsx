@@ -50,7 +50,7 @@ export default function NaatDetailView({ naat, routeLanguage }: NaatDetailViewPr
   const relatedNaats = naatsList.filter((n) => n.slug !== naat.slug).slice(0, 4);
 
   const handleCopy = () => {
-    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(naat.slug)}`;
+    const shareUrl = `https://www.akhlaqibaatein.com${getDetailPath(naat.slug)}`;
     const allVerses = naat.ashaar
       .map((s) => `${s.misra1Ur}\n${s.misra2Ur}`)
       .join('\n\n');
@@ -62,7 +62,7 @@ export default function NaatDetailView({ naat, routeLanguage }: NaatDetailViewPr
   };
 
   const handleWhatsAppShare = () => {
-    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(naat.slug)}`;
+    const shareUrl = `https://www.akhlaqibaatein.com${getDetailPath(naat.slug)}`;
     const excerpt = `${naat.ashaar[0]?.misra1Ur}\n${naat.ashaar[0]?.misra2Ur}`;
     const msg = encodeURIComponent(
       `*${naat.title.ur}*\nکلام: ${naat.poet.ur}\n\n${excerpt}\n\nمکمل ${naat.ashaar.length} اشعار اور تشریح پڑھیں:\n${shareUrl}`

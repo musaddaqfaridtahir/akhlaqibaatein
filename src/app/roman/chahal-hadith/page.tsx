@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Huzoor ﷺ ki 40 mustanad ahadith-e-mubaraka ka hifz tracker. Arabic text, Urdu, Roman Urdu aur sabaq.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/chahal-hadith',
+    canonical: 'https://www.akhlaqibaatein.com/roman/chahal-hadith',
   },
 };
 

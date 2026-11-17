@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Explore chapters, Islamic moral teachings, Prophetic wisdom, and classical ethics derived from Makhzan-e-Akhlaq.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en/makhzan-e-akhlaq',
+    canonical: 'https://www.akhlaqibaatein.com/en/makhzan-e-akhlaq',
   },
 };
 

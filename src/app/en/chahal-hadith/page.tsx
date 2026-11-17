@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Memorize forty authenticated traditions (Arbaeen) of Prophet Muhammad ﷺ with Arabic text, Urdu, Roman Urdu, and English.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en/chahal-hadith',
+    canonical: 'https://www.akhlaqibaatein.com/en/chahal-hadith',
   },
 };
 

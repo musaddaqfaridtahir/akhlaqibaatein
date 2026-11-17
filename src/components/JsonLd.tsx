@@ -58,10 +58,10 @@ export default function JsonLd(props: JsonLdProps) {
       publisher: {
         '@type': 'Organization',
         name: 'AkhlaqiBaatein.com',
-        url: 'https://akhlaqibaatein.com',
+        url: 'https://www.akhlaqibaatein.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://akhlaqibaatein.com/logo.png',
+          url: 'https://www.akhlaqibaatein.com/logo.png',
         },
       },
     };
@@ -93,10 +93,10 @@ export default function JsonLd(props: JsonLdProps) {
       publisher: {
         '@type': 'Organization',
         name: 'AkhlaqiBaatein.com',
-        url: 'https://akhlaqibaatein.com',
+        url: 'https://www.akhlaqibaatein.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://akhlaqibaatein.com/logo.png',
+          url: 'https://www.akhlaqibaatein.com/logo.png',
         },
       },
       mainEntityOfPage: {
@@ -110,21 +110,21 @@ export default function JsonLd(props: JsonLdProps) {
       '@type': 'WebSite',
       name: 'AkhlaqiBaatein.com',
       alternateName: 'اخلاقی باتیں',
-      url: 'https://akhlaqibaatein.com',
+      url: 'https://www.akhlaqibaatein.com',
       publisher: {
         '@type': 'Organization',
         name: 'AkhlaqiBaatein.com',
-        url: 'https://akhlaqibaatein.com',
+        url: 'https://www.akhlaqibaatein.com',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://akhlaqibaatein.com/logo.png',
+          url: 'https://www.akhlaqibaatein.com/logo.png',
         },
       },
       description:
         'Digitizing timeless Islamic wisdom, moral parables, prophetic virtues, and classical ethics from Makhzan-e-Akhlaq and authentic sources.',
       potentialAction: {
         '@type': 'SearchAction',
-        target: 'https://akhlaqibaatein.com/?search={search_term_string}',
+        target: 'https://www.akhlaqibaatein.com/?search={search_term_string}',
         'query-input': 'required name=search_term_string',
       },
     };

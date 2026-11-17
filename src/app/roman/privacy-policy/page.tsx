@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'AkhlaqiBaatein.com ki privacy policy.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/privacy-policy',
+    canonical: 'https://www.akhlaqibaatein.com/roman/privacy-policy',
   },
 };
 

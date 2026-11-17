@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'Complete Google AdSense-compliant Privacy Policy for AkhlaqiBaatein.com, explaining our usage of cookies, DART cookies, and third-party advertising partners.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/privacy-policy',
+    canonical: 'https://www.akhlaqibaatein.com/privacy-policy',
   },
 };
 
@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
             1. Introduction & Overview
           </h2>
           <p>
-            At <strong>AkhlaqiBaatein.com</strong> (accessible from https://akhlaqibaatein.com), the privacy of our visitors is of paramount importance to us. This Privacy Policy document details the types of information that is collected and recorded by AkhlaqiBaatein.com and how we utilize it.
+            At <strong>AkhlaqiBaatein.com</strong> (accessible from https://www.akhlaqibaatein.com), the privacy of our visitors is of paramount importance to us. This Privacy Policy document details the types of information that is collected and recorded by AkhlaqiBaatein.com and how we utilize it.
           </p>
           <p className="font-urdu leading-[2.2] text-slate-700 dark:text-slate-300">
             اخلاقی باتیں ویب پورٹل پر قارئین کی ذاتی معلومات کے تحفظ کو انتہائی سنجیدگی سے لیا جاتا ہے۔ ہم کسی بھی صارف کی ذاتی معلومات کو فروخت یا غیر متعلقہ فریقوں کے حوالے نہیں کرتے۔
@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
             2. Google AdSense & DoubleClick DART Cookies
           </h2>
           <p>
-            Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to https://akhlaqibaatein.com and other sites on the internet.
+            Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to https://www.akhlaqibaatein.com and other sites on the internet.
           </p>
           <p>
             However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL:

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Huzoor ﷺ ki seerat, Sahaba Karam (R.A) ke adal aur Islami akhlaqiat par mustanad aur tafseeli tehreerein.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/articles',
+    canonical: 'https://www.akhlaqibaatein.com/roman/articles',
   },
 };
 

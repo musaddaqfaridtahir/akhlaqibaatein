@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'AkhlaqiBaatein.com ki terms of service.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/terms',
+    canonical: 'https://www.akhlaqibaatein.com/roman/terms',
   },
 };
 

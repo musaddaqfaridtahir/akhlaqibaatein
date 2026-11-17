@@ -59,7 +59,7 @@ export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetail
     isEnglish ? `/en/durood/${slug}` : isRoman ? `/roman/durood/${slug}` : `/durood/${slug}`;
 
   const handleCopy = () => {
-    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(durood.slug)}`;
+    const shareUrl = `https://www.akhlaqibaatein.com${getDetailPath(durood.slug)}`;
     const payload = `${currentTitle}\n\n${durood.arabicText}\n\n${
       isUrdu ? 'ترجمہ:' : 'Translation:'
     }\n${currentTranslation}\n\n${shareUrl}`;
@@ -70,7 +70,7 @@ export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetail
   };
 
   const handleWhatsAppShare = () => {
-    const shareUrl = `https://akhlaqibaatein.com${getDetailPath(durood.slug)}`;
+    const shareUrl = `https://www.akhlaqibaatein.com${getDetailPath(durood.slug)}`;
     const message = encodeURIComponent(
       `*${currentTitle}*\n\n${durood.arabicText}\n\n*${
         isUrdu ? 'ترجمہ:' : 'Translation:'

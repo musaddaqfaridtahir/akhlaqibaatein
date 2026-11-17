@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Create stunning 9:16 vertical HD WhatsApp Status cards featuring your personal name. Jumma Mubarak, Morning Duas, and Golden Quotes.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en/status-maker',
+    canonical: 'https://www.akhlaqibaatein.com/en/status-maker',
   },
 };
 

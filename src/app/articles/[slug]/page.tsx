@@ -81,7 +81,7 @@ export default async function ArticleDetailPage({ params }: ArticlePageProps) {
         article={{
           title: article.titleUrdu,
           description: article.summaryUrdu,
-          url: `https://akhlaqibaatein.com/articles/${article.slug}`,
+          url: `https://www.akhlaqibaatein.com/articles/${article.slug}`,
           author: article.author,
           publishedAt: article.publishedAt,
         }}

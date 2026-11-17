@@ -4,45 +4,16 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // 1. Cleanly redirect /ur or /ur/... to canonical / or /...
+  // 1. If someone accesses legacy /ur or /ur/..., cleanly redirect to canonical https://www.akhlaqibaatein.com
   if (pathname === '/ur') {
-    return NextResponse.redirect(new URL('/', request.url), 308);
+    return NextResponse.redirect(new URL('/', 'https://www.akhlaqibaatein.com'), 301);
   }
   if (pathname.startsWith('/ur/')) {
     const cleanPath = pathname.replace(/^\/ur/, '') || '/';
-    return NextResponse.redirect(new URL(cleanPath, request.url), 308);
+    return NextResponse.redirect(new URL(cleanPath, 'https://www.akhlaqibaatein.com'), 301);
   }
 
-  // 2. Exact /en and /roman pass through to their dedicated home pages
-  if (pathname === '/en' || pathname === '/en/') {
-    return NextResponse.next();
-  }
-  if (pathname === '/roman' || pathname === '/roman/') {
-    return NextResponse.next();
-  }
-
-  // 3. Intercept any path starting with /en/
-  if (pathname.startsWith('/en/')) {
-    const cleanPath = pathname.replace(/^\/en/, '') || '/';
-    const url = request.nextUrl.clone();
-    url.pathname = cleanPath;
-    url.searchParams.set('lang', 'en');
-    const response = NextResponse.rewrite(url);
-    response.headers.set('x-language', 'en');
-    return response;
-  }
-
-  // 4. Intercept any path starting with /roman/
-  if (pathname.startsWith('/roman/')) {
-    const cleanPath = pathname.replace(/^\/roman/, '') || '/';
-    const url = request.nextUrl.clone();
-    url.pathname = cleanPath;
-    url.searchParams.set('lang', 'ro');
-    const response = NextResponse.rewrite(url);
-    response.headers.set('x-language', 'ro');
-    return response;
-  }
-
+  // 2. All primary URLs (Urdu base, English, Roman Urdu, and detail pages) return direct 200 OK
   return NextResponse.next();
 }
 

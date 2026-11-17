@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     'Makhzan-e-Akhlaq ke abwab, Islami taleemat aur roohani aqwal Roman Urdu mein.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/makhzan-e-akhlaq',
+    canonical: 'https://www.akhlaqibaatein.com/roman/makhzan-e-akhlaq',
   },
 };
 

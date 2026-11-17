@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Kutub Khana aur Abwab-e-Akhlaq',
   description: 'Classic kutub aur Makhzan-e-Akhlaq ke abwab o aqwal.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman/books',
+    canonical: 'https://www.akhlaqibaatein.com/roman/books',
   },
 };
 

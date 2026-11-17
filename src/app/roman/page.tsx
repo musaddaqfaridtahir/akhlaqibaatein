@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   description:
     'Roman Urdu mein mustanad Islami aqwal-e-zareen, 40 Ahadith, Durood-e-Pak, Masnoon Duain aur roohani hikmat. Free HD status card download.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/roman',
+    canonical: 'https://www.akhlaqibaatein.com/roman',
     languages: {
-      ur: 'https://akhlaqibaatein.com',
-      en: 'https://akhlaqibaatein.com/en',
-      'ro-PK': 'https://akhlaqibaatein.com/roman',
-      'x-default': 'https://akhlaqibaatein.com',
+      ur: 'https://www.akhlaqibaatein.com',
+      en: 'https://www.akhlaqibaatein.com/en',
+      'ro-PK': 'https://www.akhlaqibaatein.com/roman',
+      'x-default': 'https://www.akhlaqibaatein.com',
     },
   },
 };

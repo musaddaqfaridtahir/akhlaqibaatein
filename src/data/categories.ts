@@ -11,7 +11,7 @@ export const categories: Category[] = [
     descriptionRoman: 'Quran-e-Majeed ke abadi akhlaqi ahkam jin mein sabr, shukr, adal aur raah-e-Khuda mein kharch karne ki hidayat hain.',
     descriptionEnglish: 'Eternal ethical and moral commandments of the Holy Quran regarding patience, gratitude, justice, and charity.',
     iconName: 'BookOpen',
-    quoteCount: 94,
+    quoteCount: 93,
   },
   {
     id: '2',
@@ -23,7 +23,7 @@ export const categories: Category[] = [
     descriptionRoman: 'Huzoor Nabi Kareem ﷺ ke sunehre irshadat jin mein hamsayon ke huqooq, sachai, haya aur khush-khalqi ki talqeen hai.',
     descriptionEnglish: 'Sacred sayings and moral teachings of Prophet Muhammad ﷺ emphasizing neighborly rights, integrity, modesty, and compassion.',
     iconName: 'Sparkles',
-    quoteCount: 136,
+    quoteCount: 108,
   },
   {
     id: '3',
@@ -35,7 +35,7 @@ export const categories: Category[] = [
     descriptionRoman: 'Khatam-un-Nabiyyin ﷺ ki pyari sunnatain, khane peene aur guftugu ke sunehre adab Faizan-e-Sunnat ki roshni mein.',
     descriptionEnglish: 'Sublime prophetic manners, daily Sunnahs of dining, greeting, humility, and lifestyle inspired by classical Shamail and Faizan-e-Sunnat.',
     iconName: 'HeartHandshake',
-    quoteCount: 46,
+    quoteCount: 44,
   },
   {
     id: '4',
@@ -47,7 +47,7 @@ export const categories: Category[] = [
     descriptionRoman: 'Hazrat Abu Bakr Siddiq, Hazrat Umar Farooq, Hazrat Usman Ghani aur Hazrat Ali (R.A) ke baseerat-afrooz aqwal.',
     descriptionEnglish: 'Profound wisdom and timeless maxims of the Rightly Guided Caliphs and noble Companions (R.A).',
     iconName: 'ShieldCheck',
-    quoteCount: 108,
+    quoteCount: 106,
   },
   {
     id: '5',

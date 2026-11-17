@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Contact Us & Suggest Corrections',
   description: 'Contact AkhlaqiBaatein.com editorial team for inquiries, feedback, or scholarly suggestions.',
   alternates: {
-    canonical: 'https://akhlaqibaatein.com/en/contact',
+    canonical: 'https://www.akhlaqibaatein.com/en/contact',
   },
 };
 
