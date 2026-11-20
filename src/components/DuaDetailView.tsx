@@ -25,6 +25,7 @@ import {
 import { Language } from '@/data/types';
 import { useLanguage } from '@/context/LanguageContext';
 import TasbeehCircle from '@/components/TasbeehCircle';
+import FloatingTasbeeh from '@/components/FloatingTasbeeh';
 import { generateDuaStatusImage } from '@/utils/duaStatusGenerator';
 
 interface DuaDetailViewProps {
@@ -488,6 +489,14 @@ export default function DuaDetailView({ dua, routeLanguage }: DuaDetailViewProps
           })}
         </div>
       </section>
+
+      {/* Moveable Floating Tasbeeh Counter for Reading & Scrolling */}
+      <FloatingTasbeeh
+        slug={dua.slug}
+        defaultTarget={dua.recommendedCount}
+        title={currentTitle}
+        lang={activeLang}
+      />
     </div>
   );
 }

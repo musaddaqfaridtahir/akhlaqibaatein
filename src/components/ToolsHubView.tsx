@@ -6,7 +6,6 @@ import {
   Calculator,
   Clock,
   Coins,
-  Camera,
   ChevronLeft,
   ChevronRight,
   ArrowRight,
@@ -63,28 +62,6 @@ export default function ToolsHubView() {
       },
       gradient: 'from-[#1a1506] via-[#241c09] to-[#0d0f0a]',
       borderColor: 'border-amber-400/50',
-    },
-    {
-      id: 'status-maker',
-      href: '/status-maker',
-      icon: Camera,
-      title: {
-        ur: 'جمعہ مبارک و روزانہ اسٹیٹس میکر (اپنا نام لکھیں)',
-        ro: 'Custom Name Jumma & Daily Status Maker',
-        en: 'Personalized Islamic & Jumma Status Maker',
-      },
-      desc: {
-        ur: 'کارڈ پر اپنا نام لکھ کر 9:16 فل ایچ ڈی واٹس ایپ اسٹیٹس بنائیں۔ جمعہ مبارک، صبح بخیر دعائیں، درود شریف اور سنہری اقوال۔',
-        ro: 'Card par apna naam likh kar 9:16 Full HD WhatsApp Status banayein. Jumma Mubarak, Durood aur Aqwal.',
-        en: 'Create stunning 9:16 vertical HD WhatsApp Status cards featuring your personal name. Jumma Mubarak, Morning Duas, and Golden Quotes.',
-      },
-      badge: {
-        ur: '1080x1920 فل ایچ ڈی',
-        ro: '9:16 HD PNG',
-        en: '9:16 HD Card',
-      },
-      gradient: 'from-emerald-950 via-[#11221c] to-[#0a1411]',
-      borderColor: 'border-emerald-500/50',
     },
   ];
 

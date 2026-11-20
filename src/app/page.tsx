@@ -15,7 +15,6 @@ import {
   Clock,
   Award,
   Calculator,
-  Camera,
   Feather,
 } from 'lucide-react';
 import { categories, getCategoryBySlug, getCategoryTitle, getCategoryDesc } from '@/data/categories';
@@ -419,19 +418,19 @@ export default function HomePage() {
           </Link>
 
           <Link
-            href={isEnglish ? '/en/status-maker' : isRoman ? '/roman/status-maker' : '/status-maker'}
-            className="flex items-center justify-between p-3.5 rounded-2xl bg-white dark:bg-[#11221c] border border-stone-200 dark:border-[#d4af37]/35 shadow-xs hover:border-[#d4af37] transition group"
+            href={isEnglish ? '/en/support' : isRoman ? '/roman/support' : '/support'}
+            className="flex items-center justify-between p-3.5 rounded-2xl bg-white dark:bg-[#11221c] border border-amber-300/80 dark:border-[#d4af37]/40 shadow-xs hover:border-[#d4af37] transition group"
           >
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-xl bg-amber-500/10 dark:bg-[#07130f] border border-[#d4af37]/40 flex items-center justify-center text-[#d4af37] shrink-0">
-                <Camera className="w-4 h-4 text-[#d4af37]" />
+                <HeartHandshake className="w-4 h-4 text-[#d4af37]" />
               </div>
               <div>
                 <p className={`text-xs sm:text-sm font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : 'font-sans'}`}>
-                  {isUrdu ? 'اسلامی اسٹیٹس میکر (9:16 HD)' : 'Islamic Status Maker (9:16 HD)'}
+                  {isUrdu ? 'ہمارا تعاون کریں (صدقہ جاریہ)' : isRoman ? 'Support Us (Sadqa-e-Jariya)' : 'Support Our Mission'}
                 </p>
                 <p className="text-[11px] text-slate-500 dark:text-emerald-200/70">
-                  {isUrdu ? 'اپنے نام کے ساتھ واٹس ایپ کارڈ' : 'Custom name WhatsApp card'}
+                  {isUrdu ? 'سائٹ کی بقا اور اشاعتِ دین میں حصہ دار بنیں' : 'Help keep Islamic wisdom free & ad-light'}
                 </p>
               </div>
             </div>
@@ -732,32 +731,32 @@ export default function HomePage() {
             </div>
           </Link>
 
-          {/* Card 5: Custom Name Status Maker */}
+          {/* Card 5: Support Us / Sadqa-e-Jariya */}
           <Link
-            href="/status-maker"
-            className="group p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-emerald-50/80 via-white to-amber-50/40 dark:from-[#0d221a] dark:via-[#11221c] dark:to-[#07130f] border-2 border-[#d4af37]/60 shadow-md hover:shadow-xl hover:border-[#d4af37] transition-all duration-300 flex flex-col justify-between"
+            href={isEnglish ? '/en/support' : isRoman ? '/roman/support' : '/support'}
+            className="group p-5 sm:p-6 rounded-3xl bg-gradient-to-br from-amber-50/80 via-white to-emerald-50/40 dark:from-[#1a1506] dark:via-[#11221c] dark:to-[#07130f] border-2 border-amber-400/60 dark:border-[#d4af37]/60 shadow-md hover:shadow-xl hover:border-[#d4af37] transition-all duration-300 flex flex-col justify-between"
           >
             <div className="space-y-3">
               <div className="flex items-center justify-between">
                 <div className="p-3 rounded-2xl bg-amber-500/15 dark:bg-[#d4af37]/20 text-[#d4af37] border border-[#d4af37]/30 group-hover:scale-105 transition-transform">
-                  <Camera className="w-6 h-6 text-[#d4af37]" />
+                  <HeartHandshake className="w-6 h-6 text-[#d4af37]" />
                 </div>
                 <span
                   className={`text-xs font-bold px-3 py-1 rounded-full bg-amber-100 dark:bg-[#07130f] text-amber-950 dark:text-[#d4af37] border border-amber-300 dark:border-[#d4af37]/40 shadow-xs ${
                     isUrdu ? 'font-urdu leading-normal' : ''
                   }`}
                 >
-                  {isUrdu ? 'اپنا نام لکھیں • 9:16 HD' : 'Custom Name • 9:16'}
+                  {isUrdu ? 'صدقہ جاریہ • Support Us' : 'Sadqa-e-Jariya'}
                 </span>
               </div>
 
               <div>
                 <h3
-                  className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-[#fef3c7] group-hover:text-emerald-700 dark:group-hover:text-[#d4af37] transition-colors ${
+                  className={`text-lg sm:text-xl font-bold text-slate-900 dark:text-[#fef3c7] group-hover:text-amber-700 dark:group-hover:text-[#d4af37] transition-colors ${
                     isUrdu ? 'font-urdu leading-[1.8]' : ''
                   }`}
                 >
-                  {isUrdu ? 'جمعہ و روزانہ اسٹیٹس میکر' : isRoman ? 'Jumma & Daily Status Maker' : 'Islamic Status Maker'}
+                  {isUrdu ? 'ہمارا تعاون کریں (صدقہ جاریہ)' : isRoman ? 'Hamara Taawun Karein (Support Us)' : 'Support Our Mission'}
                 </h3>
               </div>
 
@@ -767,19 +766,19 @@ export default function HomePage() {
                 }`}
               >
                 {isUrdu
-                  ? 'جمعہ مبارک، صبح بخیر دعائیں اور اقوال پر اپنا نام لکھ کر ۱۰۸۰×۱۹۲۰ فل ایچ ڈی واٹس ایپ اسٹیٹس کارڈ بنائیں۔'
+                  ? 'سائٹ کی بقا، سرور و کلاؤڈ اخراجات، ڈومین تجدید اور دینِ مبین کی نشر و اشاعت میں اپنا حصہ ڈالیں۔'
                   : isRoman
-                  ? 'Jumma Mubarak, morning duas aur aqwal par apna naam likh kar 1080x1920 Full HD WhatsApp card banayein.'
-                  : 'Create custom-named 9:16 Full HD cards for Jumma Mubarak, Morning Prayers, and Golden Sayings.'}
+                  ? 'Server hosting, domain renewal aur mustanad deeni mawad ko bila muawza phelane mein hissa dalein.'
+                  : 'Contribute voluntarily to support server hosting, domain renewal, and keeping authentic Islamic wisdom freely accessible.'}
               </p>
             </div>
 
             <div
-              className={`mt-4 pt-4 border-t border-[#d4af37]/30 flex items-center justify-between text-xs font-bold text-emerald-800 dark:text-[#d4af37] ${
+              className={`mt-4 pt-4 border-t border-[#d4af37]/30 flex items-center justify-between text-xs font-bold text-amber-800 dark:text-[#d4af37] ${
                 isUrdu ? 'font-urdu text-xs sm:text-sm' : ''
               }`}
             >
-              <span>{isUrdu ? 'اپنا کارڈ بنائیں' : isRoman ? 'Card Banayein' : 'Create Custom Card'}</span>
+              <span>{isUrdu ? 'تفصیل دیکھیں اور حصہ لیں' : isRoman ? 'Hissa Dalein' : 'Support Now'}</span>
               {isUrdu ? (
                 <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
               ) : (

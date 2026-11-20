@@ -11,6 +11,7 @@ export interface TranslationDictionary {
   naatSharif: string;
   islamicTools: string;
   statusMaker: string;
+  supportUs: string;
   articles: string;
   books: string;
   about: string;
@@ -85,6 +86,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     naatSharif: 'نعت شریف',
     islamicTools: 'اسلامی کیلکولیٹرز',
     statusMaker: 'اسٹیٹس میکر',
+    supportUs: 'تعاون کریں',
     articles: 'تحقیقی مضامین',
     books: 'کتب خانہ',
     about: 'ہمارا مشن',
@@ -157,6 +159,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     naatSharif: 'Naat Sharif',
     islamicTools: 'Islamic Tools',
     statusMaker: 'Status Maker',
+    supportUs: 'Support Us',
     articles: 'Mazameen',
     books: 'Kutub Khana',
     about: 'Hamara Mission',
@@ -229,6 +232,7 @@ export const uiTranslations: Record<Language, TranslationDictionary> = {
     naatSharif: 'Naat Sharif',
     islamicTools: 'Islamic Tools',
     statusMaker: 'Status Maker',
+    supportUs: 'Support Us',
     articles: 'Articles',
     books: 'Books Library',
     about: 'Our Mission',

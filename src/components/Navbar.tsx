@@ -29,14 +29,14 @@ export default function Navbar() {
     }
   };
 
-  const navLinks = [
+  const navLinks: { href: string; label: string; badge?: string; isSupport?: boolean }[] = [
     { href: '/', label: t.home },
     { href: '/#categories', label: t.categories },
     { href: '/durood', label: t.duroodWazaif },
     { href: '/duain', label: t.masnoonDuain },
     { href: '/naat', label: t.naatSharif },
     { href: '/tools', label: t.islamicTools },
-    { href: '/status-maker', label: t.statusMaker },
+    { href: '/support', label: t.supportUs, isSupport: true },
     { href: '/chahal-hadith', label: t.chahalHadith, badge: '40' },
     { href: '/articles', label: t.articles },
     { href: '/books', label: t.books },
@@ -149,6 +149,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-center flex-wrap gap-x-2 xl:gap-x-4 gap-y-1.5 text-xs xl:text-sm font-semibold">
           {navLinks.map((link) => {
             const active = isLinkActive(link.href);
+            const isSupport = link.isSupport;
             return (
               <Link
                 key={link.href}
@@ -157,7 +158,11 @@ export default function Navbar() {
                   language === 'ur' ? 'font-urdu text-sm xl:text-base leading-normal' : 'font-sans'
                 } ${
                   active
-                    ? 'bg-emerald-800 text-white font-bold shadow-xs'
+                    ? isSupport
+                      ? 'bg-amber-600 text-white font-bold shadow-xs'
+                      : 'bg-emerald-800 text-white font-bold shadow-xs'
+                    : isSupport
+                    ? 'text-amber-700 dark:text-amber-300 bg-amber-500/10 dark:bg-amber-500/15 border border-amber-500/35 hover:bg-amber-500/20 dark:hover:bg-amber-500/25 font-semibold'
                     : 'text-slate-700 dark:text-emerald-100/80 hover:text-emerald-800 dark:hover:text-emerald-300 hover:bg-stone-200/60 dark:hover:bg-[#11221c]'
                 }`}
               >
@@ -201,6 +206,7 @@ export default function Navbar() {
         <div className="lg:hidden bg-white dark:bg-[#0a1411] border-t border-stone-200 dark:border-emerald-800/40 px-4 pt-2 pb-6 space-y-1.5 animate-fadeIn max-h-[75vh] overflow-y-auto">
           {navLinks.map((link) => {
             const active = isLinkActive(link.href);
+            const isSupport = link.isSupport;
             return (
               <Link
                 key={link.href}
@@ -210,7 +216,11 @@ export default function Navbar() {
                   language === 'ur' ? 'font-urdu text-base' : 'font-sans'
                 } ${
                   active
-                    ? 'bg-emerald-800 text-white font-bold'
+                    ? isSupport
+                      ? 'bg-amber-600 text-white font-bold'
+                      : 'bg-emerald-800 text-white font-bold'
+                    : isSupport
+                    ? 'text-amber-800 dark:text-amber-300 bg-amber-500/10 dark:bg-amber-500/15 border border-amber-500/35 hover:bg-amber-500/20 font-semibold'
                     : 'text-slate-700 dark:text-emerald-100/90 hover:bg-stone-100 dark:hover:bg-[#11221c]'
                 }`}
               >

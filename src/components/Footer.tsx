@@ -93,9 +93,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/status-maker" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
-                  <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />
-                  <span>{isUrdu ? 'جمعہ اسٹیٹس میکر' : t.statusMaker}</span>
+                <Link href="/support" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                  <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
+                  <span className="text-amber-300 font-semibold">{isUrdu ? 'ہمارا تعاون کریں (صدقہ جاریہ)' : t.supportUs}</span>
                 </Link>
               </li>
               <li>

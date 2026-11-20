@@ -25,6 +25,7 @@ import {
 import { Language } from '@/data/types';
 import { useLanguage } from '@/context/LanguageContext';
 import TasbeehCircle from '@/components/TasbeehCircle';
+import FloatingTasbeeh from '@/components/FloatingTasbeeh';
 import { generateDuroodStatusImage } from '@/utils/duroodStatusGenerator';
 
 interface DuroodDetailViewProps {
@@ -462,6 +463,14 @@ export default function DuroodDetailView({ durood, routeLanguage }: DuroodDetail
           })}
         </div>
       </section>
+
+      {/* Moveable Floating Tasbeeh Counter for Reading & Scrolling */}
+      <FloatingTasbeeh
+        slug={durood.slug}
+        defaultTarget={durood.recommendedCount}
+        title={currentTitle}
+        lang={activeLang}
+      />
     </div>
   );
 }

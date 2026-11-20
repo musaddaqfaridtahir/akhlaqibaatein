@@ -104,7 +104,7 @@ export function getLocalizedPath(pathname: string, targetLang: Language): string
     return '/';
   }
 
-  // For general routes (tools, status-maker, articles, etc.)
+  // For general routes (tools, support, articles, etc.)
   if (targetLang === 'en') return `/en${strippedPath}`;
   if (targetLang === 'ro') return `/roman${strippedPath}`;
   return strippedPath;

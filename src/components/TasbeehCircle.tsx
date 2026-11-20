@@ -57,16 +57,38 @@ export default function TasbeehCircle({
   const persistState = useCallback(
     (nextCount: number, nextTarget: number) => {
       try {
-        window.localStorage.setItem(
-          storageKey,
-          JSON.stringify({ count: nextCount, target: nextTarget })
+        const payload = JSON.stringify({ count: nextCount, target: nextTarget });
+        window.localStorage.setItem(storageKey, payload);
+        window.localStorage.setItem(`akhlaqi_floating_tasbeeh_${slug}`, payload);
+        window.dispatchEvent(
+          new CustomEvent('akhlaqi_tasbeeh_sync', {
+            detail: { slug, count: nextCount, target: nextTarget },
+          })
         );
       } catch {
         // Ignore quota / privacy mode errors
       }
     },
-    [storageKey]
+    [storageKey, slug]
   );
+
+  // Sync with floating counter
+  useEffect(() => {
+    const handleSync = (e: Event) => {
+      const customEvent = e as CustomEvent;
+      if (customEvent.detail && customEvent.detail.slug === slug) {
+        if (typeof customEvent.detail.count === 'number') {
+          setCount(customEvent.detail.count);
+        }
+        if (typeof customEvent.detail.target === 'number' && PRESET_TARGETS.includes(customEvent.detail.target)) {
+          setTarget(customEvent.detail.target);
+        }
+      }
+    };
+
+    window.addEventListener('akhlaqi_tasbeeh_sync', handleSync);
+    return () => window.removeEventListener('akhlaqi_tasbeeh_sync', handleSync);
+  }, [slug]);
 
   const handleIncrement = () => {
     const nextCount = count + 1;
