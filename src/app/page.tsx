@@ -907,7 +907,10 @@ export default function HomePage() {
             const artAuthor = getArticleAuthor(art, language);
             const artReadTime = getArticleReadTime(art, language);
             const artCat = getCategoryBySlug(art.category);
-            const artCatTitle = artCat ? getCategoryTitle(artCat, language) : art.category;
+            const artCatTitle =
+              art.category === 'hikayat-e-rumi'
+                ? (language === 'ur' ? 'حکایاتِ رومیؒ' : 'Hikayat-e-Rumi')
+                : (artCat ? getCategoryTitle(artCat, language) : art.category);
 
             return (
               <article

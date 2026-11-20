@@ -17,6 +17,20 @@ import { getCategoryBySlug, getCategoryTitle } from '@/data/categories';
 export default function ArticlesPage() {
   const { language, t } = useLanguage();
   const isUrdu = language === 'ur';
+  const [selectedCategory, setSelectedCategory] = React.useState<string>('all');
+
+  const categoryFilters = [
+    { id: 'all', labelUrdu: 'تمام مقالات', labelRoman: 'Tamam Articles', labelEnglish: 'All Articles' },
+    { id: 'hikayat-e-rumi', labelUrdu: 'حکایاتِ رومیؒ', labelRoman: 'Hikayat-e-Rumi', labelEnglish: 'Rumi Stories' },
+    { id: 'khasail-e-nabawi', labelUrdu: 'سیرت و خصائلِ نبوی ﷺ', labelRoman: 'Seerat-e-Nabawi ﷺ', labelEnglish: 'Prophetic Character' },
+    { id: 'irshadat-e-nabawi', labelUrdu: 'احادیث و ارشادات', labelRoman: 'Hadith & Teachings', labelEnglish: 'Hadith & Teachings' },
+    { id: 'aqwal-e-sahaba', labelUrdu: 'اقوالِ صحابہؓ و تاریخ', labelRoman: 'Aqwal-e-Sahaba & History', labelEnglish: 'Companions & History' },
+    { id: 'ahkam-e-khuda', labelUrdu: 'قرآنی احکام و فلسفہ', labelRoman: 'Qurani Ahkam', labelEnglish: 'Quranic Injunctions' },
+  ];
+
+  const filteredArticles = selectedCategory === 'all'
+    ? articles
+    : articles.filter((art) => art.category === selectedCategory);
 
   const pageHeaders = {
     ur: {
@@ -67,15 +81,49 @@ export default function ArticlesPage() {
       {/* Top Banner AdSlot */}
       <AdSlot position="header" />
 
+      {/* Category Filter Tags */}
+      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+        {categoryFilters.map((tab) => {
+          const isActive = selectedCategory === tab.id;
+          const label = language === 'ur' ? tab.labelUrdu : language === 'en' ? tab.labelEnglish : tab.labelRoman;
+          const count = tab.id === 'all' ? articles.length : articles.filter((a) => a.category === tab.id).length;
+          if (count === 0 && tab.id !== 'all') return null;
+
+          return (
+            <button
+              key={tab.id}
+              onClick={() => setSelectedCategory(tab.id)}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold whitespace-nowrap transition-all duration-200 flex items-center gap-1.5 ${
+                isActive
+                  ? 'bg-emerald-700 text-white shadow-md shadow-emerald-900/20'
+                  : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800'
+              } ${isUrdu ? 'font-urdu' : ''}`}
+            >
+              <span>{label}</span>
+              <span
+                className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                  isActive ? 'bg-emerald-900 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500'
+                }`}
+              >
+                {count}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+
       {/* Articles Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-        {articles.map((art) => {
+        {filteredArticles.map((art) => {
           const artTitle = getArticleTitle(art, language);
           const artSummary = getArticleSummary(art, language);
           const artAuthor = getArticleAuthor(art, language);
           const artReadTime = getArticleReadTime(art, language);
           const catObj = getCategoryBySlug(art.category);
-          const catTitle = catObj ? getCategoryTitle(catObj, language) : art.category;
+          const catTitle =
+            art.category === 'hikayat-e-rumi'
+              ? (language === 'ur' ? 'حکایاتِ رومیؒ' : 'Hikayat-e-Rumi')
+              : (catObj ? getCategoryTitle(catObj, language) : art.category);
 
           return (
             <article

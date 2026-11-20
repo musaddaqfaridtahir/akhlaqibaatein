@@ -30,8 +30,8 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${article.titleUrdu} | ${article.titleEnglish}`;
-  const description = `${article.summaryRoman} — ${article.summaryUrdu}`.slice(0, 160);
+  const title = `${article.titleUrdu} — ${article.titleRoman}`;
+  const description = `${article.summaryUrdu} ${article.summaryRoman}`.slice(0, 160);
   const articleUrl = `${BASE_URL}/articles/${article.slug}`;
 
   return {
@@ -43,6 +43,9 @@ export async function generateMetadata({
       article.titleEnglish,
       article.category,
       ...article.tags,
+      'Hikayat-e-Rumi in Urdu',
+      'Masnavi Maulana Rumi',
+      'Rumi Stories in Urdu',
       'Seerat un Nabi',
       'Islamic Articles',
       'Akhlaqi Mazameen',
@@ -86,6 +89,15 @@ export default async function ArticleDetailPage({ params }: ArticlePageProps) {
           publishedAt: article.publishedAt,
         }}
       />
+      {article.faqs && article.faqs.length > 0 && (
+        <JsonLd
+          type="faq"
+          faqs={article.faqs.map((f) => ({
+            question: f.questionUrdu,
+            answer: f.answerUrdu,
+          }))}
+        />
+      )}
 
       <AdSlot position="header" />
       <ArticleDetailView article={article} category={category} />

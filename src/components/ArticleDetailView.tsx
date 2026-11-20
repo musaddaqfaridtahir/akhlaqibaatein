@@ -7,6 +7,7 @@ import {
   Sparkles,
   CheckCircle2,
   ListOrdered,
+  HelpCircle,
 } from 'lucide-react';
 import { Article, Category } from '@/data/types';
 import {
@@ -35,7 +36,10 @@ export default function ArticleDetailView({
   const summary = getArticleSummary(article, language);
   const author = getArticleAuthor(article, language);
   const readTime = getArticleReadTime(article, language);
-  const categoryTitle = category ? getCategoryTitle(category, language) : article.category;
+  let categoryTitle = category ? getCategoryTitle(category, language) : article.category;
+  if (article.category === 'hikayat-e-rumi') {
+    categoryTitle = language === 'ur' ? 'حکایاتِ رومیؒ' : language === 'en' ? 'Hikayat-e-Rumi' : 'Hikayat-e-Rumi';
+  }
 
   const takeaways =
     language === 'ur'
@@ -199,6 +203,68 @@ export default function ArticleDetailView({
           ))}
         </ul>
       </section>
+
+      {/* Frequently Asked Questions (FAQ) Card */}
+      {article.faqs && article.faqs.length > 0 && (
+        <section className="rounded-2xl sm:rounded-3xl p-4 sm:p-8 bg-white dark:bg-[#11221c] border border-stone-200/80 dark:border-emerald-800/60 shadow-md space-y-6">
+          <div className="flex items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-3">
+            <HelpCircle className="w-5 h-5 text-amber-500" />
+            <h2 className={`text-xl sm:text-2xl font-bold text-slate-900 dark:text-white ${isUrdu ? 'font-urdu' : ''}`}>
+              {isUrdu
+                ? 'اہم سوالات و جوابات (FAQ)'
+                : language === 'en'
+                ? 'Frequently Asked Questions (FAQ)'
+                : 'Ahem Sawalaat o Jawabaat (FAQ)'}
+            </h2>
+          </div>
+
+          <div className="space-y-4">
+            {article.faqs.map((faq, fIdx) => {
+              const q =
+                language === 'ur'
+                  ? faq.questionUrdu
+                  : language === 'en'
+                  ? faq.questionEnglish
+                  : faq.questionRoman;
+              const a =
+                language === 'ur'
+                  ? faq.answerUrdu
+                  : language === 'en'
+                  ? faq.answerEnglish
+                  : faq.answerRoman;
+
+              return (
+                <div
+                  key={fIdx}
+                  className="rounded-xl sm:rounded-2xl p-4 sm:p-5 bg-slate-50 dark:bg-emerald-950/20 border border-slate-200/60 dark:border-emerald-800/40 space-y-2"
+                >
+                  <h3
+                    className={`font-bold text-emerald-950 dark:text-emerald-300 flex items-start gap-2 ${
+                      isUrdu
+                        ? 'font-urdu text-base sm:text-lg leading-[1.8] text-right'
+                        : 'text-sm sm:text-base font-semibold text-left'
+                    }`}
+                  >
+                    <span className="w-6 h-6 rounded-full bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-300 text-xs flex items-center justify-center shrink-0 mt-0.5">
+                      Q{fIdx + 1}
+                    </span>
+                    <span>{q}</span>
+                  </h3>
+                  <div
+                    className={`text-slate-700 dark:text-slate-300 ps-8 ${
+                      isUrdu
+                        ? 'font-urdu text-sm sm:text-base leading-[1.85] text-right'
+                        : 'text-xs sm:text-sm leading-relaxed text-left'
+                    }`}
+                  >
+                    <p>{a}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {/* Article Tags */}
       <div className="flex items-center gap-2 flex-wrap pt-4">

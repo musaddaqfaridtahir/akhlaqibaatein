@@ -109,6 +109,14 @@ export interface Article {
   keyTakeawaysRoman: string[];
   keyTakeawaysEnglish: string[];
   tags: string[];
+  faqs?: {
+    questionUrdu: string;
+    questionRoman: string;
+    questionEnglish: string;
+    answerUrdu: string;
+    answerRoman: string;
+    answerEnglish: string;
+  }[];
 }
 
 export interface BookChapter {

@@ -1,6 +1,7 @@
 import { Article, Language } from './types';
+import { rumiArticles } from './rumiArticles';
 
-export const articles: Article[] = [
+const baseArticles: Article[] = [
   {
     id: 'art-1',
     slug: 'masawat-e-islami-aur-khasail-e-nabawi',
@@ -554,6 +555,11 @@ When sacred lyrics touch the heart, they inspire the believer to align their dai
       "Islamic-History"
     ]
   }
+];
+
+export const articles: Article[] = [
+  ...baseArticles,
+  ...rumiArticles,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
