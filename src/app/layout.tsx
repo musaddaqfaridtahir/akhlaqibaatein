@@ -8,6 +8,7 @@ import IslamicDateBar from '@/components/IslamicDateBar';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import AnalyticsTracker from '@/components/AnalyticsTracker';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const amiri = Amiri({
   subsets: ['arabic'],
@@ -174,6 +175,7 @@ gtag('js', new Date());`,
           </main>
           <Footer />
         </LanguageProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
