@@ -21,10 +21,18 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
+  themeColor: '#064e3b',
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.akhlaqibaatein.com'),
+  manifest: '/manifest.webmanifest',
+  applicationName: 'اخلاقی باتیں',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'اخلاقی باتیں',
+  },
   title: {
     default: 'اخلاقی باتیں | AkhlaqiBaatein.com — Islamic Wisdom, Quotes & 40 Hadith',
     template: '%s | AkhlaqiBaatein.com',
@@ -50,14 +58,14 @@ export const metadata: Metadata = {
   publisher: 'AkhlaqiBaatein.com',
   icons: {
     icon: [
+      { url: '/icons/icon-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icons/icon-512x512.png', sizes: '512x512', type: 'image/png' },
       { url: '/favicon.png', type: 'image/png' },
-      { url: '/icon.png', type: 'image/png' },
-      { url: '/logo.png', type: 'image/png' },
     ],
     shortcut: '/favicon.png',
     apple: [
-      { url: '/apple-icon.png', type: 'image/png' },
-      { url: '/logo.png', type: 'image/png' },
+      { url: '/icons/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
   },
   openGraph: {
@@ -123,6 +131,11 @@ export default function RootLayout({
   return (
     <html lang="ur" dir="rtl" className={`lang-ur ${amiri.variable}`}>
       <head>
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="اخلاقی باتیں" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <script
           async
           src={`https://www.googletagmanager.com/gtm.js?id=${gtmId}`}

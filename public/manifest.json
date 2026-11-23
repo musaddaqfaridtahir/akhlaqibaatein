@@ -1,0 +1,93 @@
+{
+  "name": "اخلاقی باتیں — AkhlaqiBaatein",
+  "short_name": "اخلاقی باتیں",
+  "description": "مستند درود و وظائف، مسنون دعائیں، احادیثِ نبوی ﷺ اور اسلامی کیلکولیٹرز",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#064e3b",
+  "theme_color": "#064e3b",
+  "lang": "ur",
+  "dir": "rtl",
+  "categories": [
+    "education",
+    "lifestyle",
+    "books"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "درود شریف و وظائف",
+      "short_name": "درود شریف",
+      "description": "مقبول ترین درود پاک اور مسنون وظائف مع آن لائن تسبیح کاؤنٹر",
+      "url": "/durood",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "مسنون دعائیں",
+      "short_name": "دعائیں",
+      "description": "صبح و شام اور روزمرہ کی مستند قرآنی و مسنون دعائیں",
+      "url": "/duain",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "اسلامی کیلکولیٹرز",
+      "short_name": "ٹولز",
+      "description": "قضاء نماز کیلکولیٹر اور زکوٰۃ کیلکولیٹر",
+      "url": "/tools",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "سبق آموز مضامین",
+      "short_name": "مضامین",
+      "description": "سیرت نبوی ﷺ، صحابہ کرامؓ کے واقعات اور حکایات رومیؒ",
+      "url": "/articles",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
