@@ -4,17 +4,53 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  // Determine country via Vercel geo header or dev override
+  let country = request.headers.get('x-vercel-ip-country') || 'INTL';
+  if (process.env.NODE_ENV === 'development') {
+    const geoOverride = request.nextUrl.searchParams.get('geo');
+    if (geoOverride) {
+      country = geoOverride.toUpperCase();
+    } else {
+      const existingCookie = request.cookies.get('akhlaqi_geo_pk');
+      if (existingCookie) {
+        country = existingCookie.value === '1' ? 'PK' : 'INTL';
+      }
+    }
+  }
+
+  const isPk = country === 'PK';
+  const isPkValue = isPk ? '1' : '0';
+
   // 1. If someone accesses legacy /ur or /ur/..., cleanly redirect to canonical https://www.akhlaqibaatein.com
   if (pathname === '/ur') {
-    return NextResponse.redirect(new URL('/', 'https://www.akhlaqibaatein.com'), 301);
+    const res = NextResponse.redirect(new URL('/', 'https://www.akhlaqibaatein.com'), 301);
+    res.cookies.set('akhlaqi_geo_pk', isPkValue, { path: '/', httpOnly: false, sameSite: 'lax' });
+    return res;
   }
   if (pathname.startsWith('/ur/')) {
     const cleanPath = pathname.replace(/^\/ur/, '') || '/';
-    return NextResponse.redirect(new URL(cleanPath, 'https://www.akhlaqibaatein.com'), 301);
+    const res = NextResponse.redirect(new URL(cleanPath, 'https://www.akhlaqibaatein.com'), 301);
+    res.cookies.set('akhlaqi_geo_pk', isPkValue, { path: '/', httpOnly: false, sameSite: 'lax' });
+    return res;
   }
 
   // 2. All primary URLs (Urdu base, English, Roman Urdu, and detail pages) return direct 200 OK
-  return NextResponse.next();
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set('x-user-is-pk', isPkValue);
+
+  const response = NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
+
+  response.cookies.set('akhlaqi_geo_pk', isPkValue, {
+    path: '/',
+    httpOnly: false,
+    sameSite: 'lax',
+  });
+
+  return response;
 }
 
 export const config = {

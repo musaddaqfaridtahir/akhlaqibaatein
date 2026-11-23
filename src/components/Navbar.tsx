@@ -19,7 +19,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname() || '/';
   const router = useRouter();
-  const { language, setLanguage, t, theme, toggleTheme } = useLanguage();
+  const { language, setLanguage, t, theme, toggleTheme, isPakistan } = useLanguage();
 
   const handleLanguageSwitch = (targetLang: Language) => {
     setLanguage(targetLang);
@@ -41,7 +41,7 @@ export default function Navbar() {
     { href: '/articles', label: t.articles },
     { href: '/books', label: t.books },
     { href: '/about', label: t.about },
-    { href: '/contact', label: t.contact },
+    ...(!isPakistan ? [{ href: '/contact', label: t.contact }] : []),
   ];
 
   const languageOptions: { code: Language; label: string }[] = [

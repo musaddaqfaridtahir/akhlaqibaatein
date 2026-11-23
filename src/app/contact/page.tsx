@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Mail, Send, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
+import Link from 'next/link';
+import { Mail, Send, CheckCircle2, AlertCircle, Loader2, Globe } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function ContactPage() {
@@ -15,7 +16,7 @@ export default function ContactPage() {
     message: '',
   });
 
-  const { language } = useLanguage();
+  const { language, isPakistan } = useLanguage();
   const isUrdu = language === 'ur';
 
   const strings = {
@@ -78,6 +79,30 @@ export default function ContactPage() {
       successTitle: 'MashaAllah! Your message has been received.',
       successDesc: 'We will get in touch with you shortly. Thank you for reaching out!',
       sendAnother: 'Send Another Message',
+    },
+  }[language];
+
+  const pkNotice = {
+    ur: {
+      title: 'بین الاقوامی قارئین کے لیے رابطہ ڈیسک',
+      desc: 'معزز قارئین، ہماری براہِ راست رابطہ و تصحیح سروس فی الوقت بین الاقوامی (اوورسیز) علمی و تحقیقی پوچھ گچھ کے لیے مختص ہے۔ تمام مستند دعائیں، درود شریف، اقوال اور اخلاقی مضامین پورٹل پر بغیر کسی رکاوٹ کے بالکل مفت دستیاب ہیں۔',
+      homeBtn: 'سرورق پر جائیں',
+      duainBtn: 'مسنون دعائیں و درود',
+      articlesBtn: 'سبق آموز مضامین',
+    },
+    ro: {
+      title: 'International Readers Ke Liye Rabta Desk',
+      desc: 'Mohtaram qari, hamara direct rabta desk is waqt overseas aur international tehqeeqi sawalat ke liye faal hai. Tamam mustanad duain, durood aur ilmi mazameen portal par bila-muawza dastyab hain.',
+      homeBtn: 'Home Par Wapas Jayein',
+      duainBtn: 'Durood o Duain',
+      articlesBtn: 'Sabaq Aamoz Mazameen',
+    },
+    en: {
+      title: 'Editorial Desk Notice',
+      desc: 'Our direct correspondence desk is currently dedicated to international scholarly and editorial inquiries. All authentic supplications, prophetic salawat, and ethical articles remain freely accessible on the portal.',
+      homeBtn: 'Back to Homepage',
+      duainBtn: 'Daily Duas & Durood',
+      articlesBtn: 'Explore Articles',
     },
   }[language];
 
@@ -174,6 +199,43 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {isPakistan ? (
+        <section className="p-6 sm:p-10 rounded-3xl bg-white dark:bg-[#11221c] border-2 border-amber-400/50 dark:border-[#d4af37]/40 shadow-xl space-y-6 text-center max-w-2xl mx-auto">
+          <div className="w-16 h-16 rounded-3xl bg-amber-500/15 dark:bg-amber-400/20 text-[#d4af37] border border-amber-400/30 flex items-center justify-center mx-auto shadow-xs">
+            <Globe className="w-8 h-8 text-[#d4af37]" />
+          </div>
+
+          <div className="space-y-3">
+            <h2 className={`text-xl sm:text-2xl font-bold text-slate-900 dark:text-[#fef3c7] ${isUrdu ? 'font-urdu' : ''}`}>
+              {pkNotice.title}
+            </h2>
+            <p className={`text-sm text-slate-600 dark:text-emerald-100/85 leading-relaxed ${isUrdu ? 'font-urdu text-base leading-[2.1]' : ''}`}>
+              {pkNotice.desc}
+            </p>
+          </div>
+
+          <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              href={language === 'en' ? '/en' : language === 'ro' ? '/roman' : '/'}
+              className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-emerald-800 hover:bg-emerald-900 text-white font-semibold text-xs sm:text-sm transition shadow-xs text-center"
+            >
+              {pkNotice.homeBtn}
+            </Link>
+            <Link
+              href={language === 'en' ? '/en/duain' : language === 'ro' ? '/roman/duain' : '/duain'}
+              className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-[#07130f] dark:hover:bg-emerald-950 text-slate-800 dark:text-[#fef3c7] border border-stone-200 dark:border-emerald-800/60 font-semibold text-xs sm:text-sm transition shadow-xs text-center"
+            >
+              {pkNotice.duainBtn}
+            </Link>
+            <Link
+              href={language === 'en' ? '/en/articles' : language === 'ro' ? '/roman/articles' : '/articles'}
+              className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-[#07130f] dark:hover:bg-emerald-950 text-slate-800 dark:text-[#fef3c7] border border-stone-200 dark:border-emerald-800/60 font-semibold text-xs sm:text-sm transition shadow-xs text-center"
+            >
+              {pkNotice.articlesBtn}
+            </Link>
+          </div>
+        </section>
+      ) : (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
         {/* Contact Info Card */}
         <div className="md:col-span-1 space-y-6">
@@ -323,6 +385,7 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+      )}
     </div>
   );
 }

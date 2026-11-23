@@ -7,7 +7,7 @@ import { categories, getCategoryTitle } from '@/data/categories';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function Footer() {
-  const { language, t } = useLanguage();
+  const { language, t, isPakistan } = useLanguage();
   const isUrdu = language === 'ur';
 
   return (
@@ -177,11 +177,13 @@ export default function Footer() {
                   {t.disclaimer}
                 </Link>
               </li>
-              <li>
-                <Link href="/contact" className={`hover:text-amber-400 transition ${isUrdu ? 'font-urdu' : ''}`}>
-                  {t.contact}
-                </Link>
-              </li>
+              {!isPakistan && (
+                <li>
+                  <Link href="/contact" className={`hover:text-amber-400 transition ${isUrdu ? 'font-urdu' : ''}`}>
+                    {t.contact}
+                  </Link>
+                </li>
+              )}
               <li className="pt-1">
                 <a
                   href="mailto:info@akhlaqibaatein.com"

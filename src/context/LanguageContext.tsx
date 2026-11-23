@@ -16,6 +16,7 @@ interface LanguageContextType {
   toggleTheme: () => void;
   toastMessage: string | null;
   showToast: (msg: string) => void;
+  isPakistan: boolean;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -48,8 +49,26 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [storedLang, setStoredLang] = useState<Language>('ur');
   const [theme, setTheme] = useState<ThemeMode>('light');
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [isPakistan, setIsPakistan] = useState<boolean>(false);
 
   const language: Language = routeLang || storedLang;
+
+  useEffect(() => {
+    if (typeof document !== 'undefined') {
+      const match = document.cookie.match(/(?:^|;\s*)akhlaqi_geo_pk=([^;]*)/);
+      if (match && match[1] === '1') {
+        setIsPakistan(true);
+      } else if (match && match[1] === '0') {
+        setIsPakistan(false);
+      } else if (process.env.NODE_ENV === 'development') {
+        const params = new URLSearchParams(window.location.search);
+        const geo = params.get('geo');
+        if (geo) {
+          setIsPakistan(geo.toUpperCase() === 'PK');
+        }
+      }
+    }
+  }, [pathname]);
 
   useEffect(() => {
     const rafId = window.requestAnimationFrame(() => {
@@ -115,6 +134,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         toggleTheme,
         toastMessage,
         showToast,
+        isPakistan,
       }}
     >
       {children}

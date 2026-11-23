@@ -1,5 +1,7 @@
 import { Article, Language } from './types';
 import { rumiArticles } from './rumiArticles';
+import { rumiArticlesNew } from './rumiArticlesNew';
+import { hadithArticlesNew } from './hadithArticlesNew';
 
 const baseArticles: Article[] = [
   {
@@ -560,6 +562,8 @@ When sacred lyrics touch the heart, they inspire the believer to align their dai
 export const articles: Article[] = [
   ...baseArticles,
   ...rumiArticles,
+  ...rumiArticlesNew,
+  ...hadithArticlesNew,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
