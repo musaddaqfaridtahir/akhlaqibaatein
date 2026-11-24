@@ -130,7 +130,7 @@ export const duainList: DuaItem[] = [
           en: 'How many times should this Dua be recited daily?',
         },
         answer: {
-          ur: 'صبح و شام 3 یا 7 مرتبہ، اور شدید ذہنی تناؤ کے وقت 33 مرتبہ پڑھنا مجرب ہے۔',
+          ur: 'صبح و شام 3 یا 7 مرتبہ، اور شدید ذہنی تناؤ کے وقت 33 مرتبہ پڑھنا صلحاء کا معمول رہا ہے۔',
           ro: 'Subah o sham 3 ya 7 martaba, aur shadeed pareshani ke waqt 33 bar parhein.',
           en: 'Reciting it 3 or 7 times morning and evening, or 33 times during distress, brings deep serenity.',
         },
@@ -256,7 +256,7 @@ export const duainList: DuaItem[] = [
     englishTranslation:
       'O Allah, Lord of mankind! Remove the suffering and grant cure. You are the Ultimate Healer; there is no healing except Yours—a cure that leaves behind no disease.',
     fazilat: {
-      ur: 'حضرت عائشہ صدیقہؓ فرماتی ہیں کہ رسول اللہ ﷺ جب بھی اپنے گھر کے کسی بیمار کی عیادت فرماتے تو اپنا دایاں ہاتھ اس کے درد کے مقام پر رکھتے اور یہ مبارک دعا پڑھتے تھے۔ اللہ تعالیٰ ہی شافیِ مطلق ہے اور مادی ادویات کے ساتھ اس مسنون دعا کا اہتمام شفاء کی رفتار کو تیز تر کر دیتا ہے۔ کینسر، بخار، آپریشن یا دائمی امراض میں مبتلا احباب کے لیے یہ اکسیرِ اعظم ہے۔',
+      ur: 'حضرت عائشہ صدیقہؓ فرماتی ہیں کہ رسول اللہ ﷺ جب بھی اپنے گھر کے کسی بیمار کی عیادت فرماتے تو اپنا دایاں ہاتھ اس کے درد کے مقام پر رکھتے اور یہ مبارک دعا پڑھتے تھے۔ اللہ تعالیٰ ہی شافیِ مطلق ہے اور مادی ادویات کے ساتھ اس مسنون دعا کا اہتمام شفاء کی رفتار کو تیز تر کر دیتا ہے۔ مختلف امراض اور تکالیف میں مبتلا احباب کے لیے یہ دعا ایک مبارک اور پرتاثیر روحانی سہارا ہے۔',
       ro: 'Huzoor ﷺ mareez ki ayadat ke waqt apna daayan haath dard ki jagah rakh kar yeh dua parha karte the. Shifa ke liye yeh behtareen roohani nuskha hai.',
       en: 'Whenever visiting the sick, Prophet Muhammad ﷺ would place his blessed right hand upon the area of pain and invoke this prayer (Sahih Bukhari & Muslim). It represents an unmatched spiritual remedy alongside medical care.',
     },
@@ -678,7 +678,7 @@ export const duainList: DuaItem[] = [
     englishTranslation:
       'O Allah, You are my Lord; none has the right to be worshipped but You. You created me and I am Your servant, and I remain upon Your covenant and promise as much as I am able. I seek refuge in You from the evil of what I have done. I completely acknowledge Your favor upon me, and I confess my sin to You, so forgive me, for none forgives sins except You.',
     fazilat: {
-      ur: 'صحیح بخاری (6306) میں حضرت شداد بن اوسؓ سے روایت ہے کہ رسول اللہ ﷺ نے فرمایا: "یہ سید الاستغفار یعنی تمام استغفاروں کا سردار ہے۔ جس شخص نے کامل یقین کے ساتھ دن کے وقت اسے پڑھا اور شام ہونے سے پہلے اس کا انتقال ہو گیا تو وہ اہلِ جنت میں سے ہوگا، اور جس نے رات کو یقین کے ساتھ پڑھا اور صبح سے پہلے وفات پا گیا تو وہ بھی اہلِ جنت میں سے ہوگا"۔ یہ دعا بندگی کا سب سے اعلیٰ اظہار، گناہوں کی فوری بخشش اور رزق و زندگی میں برکت کا سرچشمہ ہے۔',
+      ur: 'صحیح بخاری (6306) میں حضرت شداد بن اوسؓ سے روایت ہے کہ رسول اللہ ﷺ نے فرمایا: "یہ سید الاستغفار یعنی تمام استغفاروں کا سردار ہے۔ جس شخص نے کامل یقین کے ساتھ دن کے وقت اسے پڑھا اور شام ہونے سے پہلے اس کا انتقال ہو گیا تو وہ اہلِ جنت میں سے ہوگا، اور جس نے رات کو یقین کے ساتھ پڑھا اور صبح سے پہلے وفات پا گیا تو وہ بھی اہلِ جنت میں سے ہوگا"۔ یہ دعا بندگی کا سب سے اعلیٰ اظہار، گناہوں کی مغفرت اور رزق و زندگی میں برکت کا سرچشمہ ہے۔',
       ro: 'Sahih Bukhari (6306) ke mutabiq yeh Sayyid ul Istighfar hai. Subah ya shaam yaqeen se parhne wale ke liye jannat ki qatee bashaarat hai. Yeh gunahon ki bakhshish aur dili sukoon ka azeem tareen zariya hai.',
       en: 'In Sahih Bukhari (6306), the Prophet ﷺ declared this the paramount supplication for repentance. Whoever recites it with firm conviction during the morning or evening and passes away before the next part of the day is guaranteed to be among the people of Paradise.',
     },
@@ -824,7 +824,7 @@ export const duainList: DuaItem[] = [
     id: 'dua-15',
     slug: 'manzil-dua',
     title: {
-      ur: 'منزل شریف — نظرِ بد، سحر، جادو اور شیطانی اثرات سے مکمل حفاظت کا قرآنی حصار',
+      ur: 'منزل شریف — نظرِ بد، سحر، جادو اور شیطانی اثرات سے حفاظت کا قرآنی حصار',
       ro: 'Manzil Shareef — Nazar-e-Bad, Jadu aur Hifazat ka Qurani Hisar',
       en: 'Manzil Shareef — Complete Quranic Verses for Protection against Evil Eye, Sorcery, and Harm',
     },
@@ -992,7 +992,7 @@ export const duainList: DuaItem[] = [
     englishTranslation:
       'Blessed is He in whose hand is absolute dominion, and He is over all things competent. Who created death and life to test which of you is finest in conduct, and He is the Exalted in Might, the Forgiving. Who created seven heavens layered; you see no imperfection in the creation of the Most Merciful. When the Inevitable Event occurs, no soul can deny its arrival. It will lower some and exalt others, as believers are gathered in everlasting grace.',
     fazilat: {
-      ur: 'سنن ترمذی (2891) اور سنن ابوداؤد میں مروی ہے کہ رسول اللہ ﷺ نے فرمایا: "قرآن میں تیس آیتوں پر مشتمل ایک سورت ہے جس نے ایک شخص کی اس قدر سفارش کی کہ اس کی مغفرت فرما دی گئی، اور وہ سورۃ تبارک الذی بیدہ الملک ہے"۔ حضرت عبداللہ بن مسعودؓ فرماتے ہیں کہ جو شخص ہر رات سورۃ الملک پڑھے گا، اللہ تعالیٰ اس کی برکت سے اسے عذابِ قبر سے محفوظ رکھے گا۔ اور حضرت عبداللہ بن مسعودؓ ہی سے بیہقی میں مروی ہے کہ نبی ﷺ نے فرمایا: "جس نے ہر رات سورۃ الواقعہ کی تلاوت کی، اسے کبھی فاقہ کشی اور مالی تنگی نہیں پہنچے گی"۔ اس لیے مغرب و عشاء کے بعد یہ دونوں سورتیں پڑھنا دینی و دنیاوی خوشحالی کا اکسیر ہے۔',
+      ur: 'سنن ترمذی (2891) اور سنن ابوداؤد میں مروی ہے کہ رسول اللہ ﷺ نے فرمایا: "قرآن میں تیس آیتوں پر مشتمل ایک سورت ہے جس نے ایک شخص کی اس قدر سفارش کی کہ اس کی مغفرت فرما دی گئی، اور وہ سورۃ تبارک الذی بیدہ الملک ہے"۔ حضرت عبداللہ بن مسعودؓ فرماتے ہیں کہ جو شخص ہر رات سورۃ الملک پڑھے گا، اللہ تعالیٰ اس کی برکت سے اسے عذابِ قبر سے محفوظ رکھے گا۔ اور حضرت عبداللہ بن مسعودؓ ہی سے بیہقی میں مروی ہے کہ نبی ﷺ نے فرمایا: "جس نے ہر رات سورۃ الواقعہ کی تلاوت کی، اسے کبھی فاقہ کشی اور مالی تنگی نہیں پہنچے گی"۔ اس لیے مغرب و عشاء کے بعد یہ دونوں سورتیں پڑھنا دینی و دنیاوی برکت کا بہترین ذریعہ ہے۔',
       ro: 'Surah Al-Mulk raat ko parhne se azaab-e-qabr se kamil najaat milti hai (Tirmidhi: 2891), aur Surah Al-Waqiah har raat parhne se faqa aur rizq ki tangi kabhi nahi aati. Yeh dono sooratein dunya o aakhirat ki kamyabi ka zariya hain.',
       en: 'Narrated in Jami` at-Tirmidhi (2891), Surah Al-Mulk intercedes for its companion until all sins are forgiven and shields against the torment of the grave. Reciting Surah Al-Waqiah every night brings unending abundance and shields against destitution.',
     },
@@ -1136,7 +1136,7 @@ export const duainList: DuaItem[] = [
     "romanUrdu": "Bismillahil-Kabeer, aoodhu billahil-Azeemi min sharri kulli irqin naaar, wa min sharri harrin-naar.",
     "englishTranslation": "In the Name of Allah the Great. I seek refuge in Allah the Supreme from the harm of every throbbing blood vessel, and from the afflictive heat of the Fire.",
     "fazilat": {
-      "ur": "حضرت عبداللہ بن عباس رضی اللہ عنہما سے روایت ہے کہ نبی کریم ﷺ صحابہ کرام کو تمام دردوں اور خصوصاً بخار اور شدید سر درد کے لیے یہ دعا پڑھنے کی تعلیم فرماتے تھے۔ بخار کو احادیث میں جہنم کی تپش کا اثر فرمایا گیا ہے اور یہ مسنون دعا جسمانی حرارت اور رگوں کی تکلیف کو ٹھنڈا کرنے کے لیے اکسیر ہے۔",
+      "ur": "حضرت عبداللہ بن عباس رضی اللہ عنہما سے روایت ہے کہ نبی کریم ﷺ صحابہ کرام کو تمام دردوں اور خصوصاً بخار اور شدید سر درد کے لیے یہ دعا پڑھنے کی تعلیم فرماتے تھے۔ بخار کو احادیث میں جہنم کی تپش کا اثر فرمایا گیا ہے اور یہ مسنون دعا جسمانی حرارت اور رگوں کی تکلیف کے لیے ایک مبارک اور مسنون علاج ہے۔",
       "ro": "Hazrat Ibn Abbas (R.A) se riwayat hai ke Huzoor ﷺ tamam dardon, sar dard aur bukhar ke liye yeh dua sikhate the.",
       "en": "Narrated by Ibn Abbas (R.A) that the Messenger of Allah ﷺ taught this prayer for relieving pains, headaches, and fevers."
     },
@@ -1182,7 +1182,7 @@ export const duainList: DuaItem[] = [
       },
       {
         "question": {
-          "ur": "کیا یہ دعا مائیگرین (آدھے سر کے درد) کے لیے بھی مجرب ہے؟",
+          "ur": "کیا یہ دعا مائیگرین (آدھے سر کے درد) کے لیے بھی پڑھی جا سکتی ہے؟",
           "ro": "Kya yeh dua migraine (adhe sar ke dard) ke liye bhi mufeed hai?",
           "en": "Is this effective for chronic migraines?"
         },

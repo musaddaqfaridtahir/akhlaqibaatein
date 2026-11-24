@@ -1,12 +1,21 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import CollectionPage, {
   generateStaticParams as baseStaticParams,
-  generateMetadata as baseMetadata,
 } from '@/app/collections/[slug]/page';
+import { buildCollectionMetadata } from '@/lib/quoteSeo';
 
 export const dynamic = 'force-static';
 export const generateStaticParams = baseStaticParams;
-export const generateMetadata = baseMetadata;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  return buildCollectionMetadata(slug, 'en');
+}
 
 export default function EnglishCollectionPage(props: any) {
   return <CollectionPage {...props} />;

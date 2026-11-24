@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { articles, getArticleBySlug } from '@/data/articles';
 import { getCategoryBySlug } from '@/data/categories';
-import { buildHreflangAlternates, BASE_URL } from '@/lib/quoteSeo';
+import { buildArticleMetadata, BASE_URL } from '@/lib/quoteSeo';
 import AdSlot from '@/components/AdSlot';
 import JsonLd from '@/components/JsonLd';
 import ArticleDetailView from '@/components/ArticleDetailView';
@@ -22,49 +22,7 @@ export async function generateMetadata({
   params,
 }: ArticlePageProps): Promise<Metadata> {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
-
-  if (!article) {
-    return {
-      title: 'Article Not Found',
-    };
-  }
-
-  const title = `${article.titleUrdu} — ${article.titleRoman}`;
-  const description = `${article.summaryUrdu} ${article.summaryRoman}`.slice(0, 160);
-  const articleUrl = `${BASE_URL}/articles/${article.slug}`;
-
-  return {
-    title,
-    description,
-    keywords: [
-      article.titleUrdu,
-      article.titleRoman,
-      article.titleEnglish,
-      article.category,
-      ...article.tags,
-      'Hikayat-e-Rumi in Urdu',
-      'Masnavi Maulana Rumi',
-      'Rumi Stories in Urdu',
-      'Seerat un Nabi',
-      'Islamic Articles',
-      'Akhlaqi Mazameen',
-      'AkhlaqiBaatein.com',
-    ],
-    openGraph: {
-      title: article.titleUrdu,
-      description: article.summaryUrdu,
-      type: 'article',
-      url: articleUrl,
-      publishedTime: article.publishedAt,
-    },
-    alternates: buildHreflangAlternates({
-      canonical: articleUrl,
-      ur: articleUrl,
-      en: articleUrl,
-      ro: articleUrl,
-    }),
-  };
+  return buildArticleMetadata(slug, 'ur');
 }
 
 export default async function ArticleDetailPage({ params }: ArticlePageProps) {

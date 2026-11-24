@@ -6,6 +6,7 @@ import { LanguageProvider } from '@/context/LanguageContext';
 import Navbar from '@/components/Navbar';
 import IslamicDateBar from '@/components/IslamicDateBar';
 import Footer from '@/components/Footer';
+import CookieConsent from '@/components/CookieConsent';
 import JsonLd from '@/components/JsonLd';
 import AnalyticsTracker from '@/components/AnalyticsTracker';
 import { Analytics } from '@vercel/analytics/next';
@@ -74,22 +75,23 @@ export const metadata: Metadata = {
     url: 'https://www.akhlaqibaatein.com',
     title: 'اخلاقی باتیں | AkhlaqiBaatein.com — Islamic Moral Wisdom',
     description:
-      'Explore authentic Islamic wisdom, Quranic teachings, Hadith ethics, and classic moral stories in pure Urdu, Roman Urdu, and English.',
+      'مستند اسلامی اخلاقیات، اقوالِ زریں، احادیثِ مبارکہ، چَہل حدیث، اور کلاسیکی کتب کے اخلاقی مضامین۔ Authentic Islamic wisdom, Hadith ethics, and classic moral stories in Urdu, Roman Urdu, and English.',
     siteName: 'AkhlaqiBaatein.com',
     images: [
       {
-        url: 'https://www.akhlaqibaatein.com/logo.png',
-        width: 512,
-        height: 512,
-        alt: 'AkhlaqiBaatein.com Emblem',
+        url: 'https://www.akhlaqibaatein.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'اخلاقی باتیں — AkhlaqiBaatein.com',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'اخلاقی باتیں | AkhlaqiBaatein.com',
-    description: 'Timeless Islamic wisdom and classical moral literature with strict language isolation.',
-    images: ['https://www.akhlaqibaatein.com/logo.png'],
+    description:
+      'مستند اسلامی اخلاقیات، اقوالِ زریں، احادیثِ مبارکہ اور روزمرہ وظائف۔ Authentic Islamic moral wisdom, Hadith, and classical literature in Urdu, Roman Urdu, and English.',
+    images: ['https://www.akhlaqibaatein.com/og-image.png'],
   },
   robots: {
     index: true,
@@ -100,6 +102,15 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://www.akhlaqibaatein.com',
+    languages: {
+      'ur': 'https://www.akhlaqibaatein.com',
+      'en': 'https://www.akhlaqibaatein.com/en',
+      'ur-Latn': 'https://www.akhlaqibaatein.com/roman',
+      'x-default': 'https://www.akhlaqibaatein.com',
     },
   },
 };
@@ -187,6 +198,7 @@ gtag('js', new Date());`,
             {children}
           </main>
           <Footer />
+          <CookieConsent />
         </LanguageProvider>
         <Analytics />
       </body>

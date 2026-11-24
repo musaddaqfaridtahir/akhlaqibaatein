@@ -4,9 +4,12 @@ import { Award, BookOpen, Sparkles, CheckCircle2 } from 'lucide-react';
 import { chahalHadithList } from '@/data/chahalHadith';
 import ChahalHadithTracker from '@/components/ChahalHadithTracker';
 import AdSlot from '@/components/AdSlot';
+import { buildStaticPageMetadata } from '@/lib/quoteSeo';
 
-export const metadata: Metadata = {
-  title: 'چَہل حدیث (40 Hadith) حفظ ٹریکر',
+export const metadata: Metadata = buildStaticPageMetadata({
+  path: '/chahal-hadith',
+  lang: 'ur',
+  title: 'چَہل حدیث (40 Hadith) حفظ ٹریکر | AkhlaqiBaatein.com',
   description:
     'رسول اللہ ﷺ کی چالیس جامع، مختصر اور مستند احادیثِ مبارکہ (اربعین) کا حفظ ٹریکر۔ عربی متن، اردو ترجمہ، رومن اردو اور مختصر اخلاقی سبق کے ساتھ۔',
   keywords: [
@@ -15,13 +18,10 @@ export const metadata: Metadata = {
     '40 Hadith Roman Urdu',
     'Arbaeen Hadith',
     'Hadith Memorization Tracker',
-    'چل حدیث',
+    'چہل حدیث',
     'احادیث مبارکہ',
   ],
-  alternates: {
-    canonical: 'https://www.akhlaqibaatein.com/chahal-hadith',
-  },
-};
+});
 
 export default function ChahalHadithPage() {
   return (

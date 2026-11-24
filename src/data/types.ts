@@ -16,6 +16,10 @@ export interface QuoteItem {
   quote: LocalizedText;
   tashreeh: LocalizedText;
   tags: LocalizedText[];
+  kitab?: string;
+  hawala_number?: string;
+  grading?: string;
+  reviewed?: boolean;
 }
 
 export interface Category {
@@ -60,6 +64,10 @@ export interface Quote {
   bookRef?: string;
   title?: LocalizedText;
   featured?: boolean;
+  kitab?: string;
+  hawala_number?: string;
+  grading?: string;
+  reviewed?: boolean;
 }
 
 export interface ChahalHadithItem {
@@ -89,6 +97,8 @@ export interface Article {
   author: string;
   authorUrdu: string;
   authorEnglish: string;
+  authorName?: string;
+  reviewerName?: string;
   readTime: string;
   readTimeUrdu: string;
   readTimeEnglish: string;

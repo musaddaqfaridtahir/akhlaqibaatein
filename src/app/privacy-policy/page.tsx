@@ -1,15 +1,16 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { Shield, Lock, Eye, FileText } from 'lucide-react';
+import { buildStaticPageMetadata } from '@/lib/quoteSeo';
 
-export const metadata: Metadata = {
-  title: 'Privacy Policy (پرائیویسی پالیسی)',
+export const metadata: Metadata = buildStaticPageMetadata({
+  path: '/privacy-policy',
+  lang: 'ur',
+  title: 'Privacy Policy (پرائیویسی پالیسی) | AkhlaqiBaatein.com',
   description:
     'Complete Google AdSense-compliant Privacy Policy for AkhlaqiBaatein.com, explaining our usage of cookies, DART cookies, and third-party advertising partners.',
-  alternates: {
-    canonical: 'https://www.akhlaqibaatein.com/privacy-policy',
-  },
-};
+  keywords: ['Privacy Policy', 'پرائیویسی پالیسی', 'AdSense Privacy Compliance'],
+});
 
 export default function PrivacyPolicyPage() {
   return (

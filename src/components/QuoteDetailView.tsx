@@ -14,6 +14,7 @@ import {
   Layers,
   Compass,
   ChevronDown,
+  AlertCircle,
 } from 'lucide-react';
 import { Quote, Category, Language } from '@/data/types';
 import { uiTranslations } from '@/data/uiTranslations';
@@ -248,15 +249,27 @@ export default function QuoteDetailView({
               </Link>
             </div>
 
-            {category && (
-              <Link
-                href={`/category/${category.slug}`}
-                className={`text-xs px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium ${
+            {quote.category === 'irshadat-e-nabawi' && !quote.reviewed ? (
+              <span
+                className={`text-xs px-3 py-1 rounded-full bg-amber-500/15 text-amber-900 dark:text-amber-300 border border-amber-500/30 font-semibold inline-flex items-center gap-1.5 ${
                   isUrdu ? 'font-urdu' : ''
                 }`}
+                title={isUrdu ? 'یہ روایت تاحال علمائے کرام کے زیرِ تحقیق و تخریج ہے' : 'This tradition is currently under scholarly verification'}
               >
-                #{categoryTitle}
-              </Link>
+                <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+                {activeLang === 'en' ? 'Under Review' : activeLang === 'ro' ? 'Zer-e-Tehqeeq' : 'زیرِ تحقیق'}
+              </span>
+            ) : (
+              category && (
+                <Link
+                  href={`/category/${category.slug}`}
+                  className={`text-xs px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium ${
+                    isUrdu ? 'font-urdu' : ''
+                  }`}
+                >
+                  #{categoryTitle}
+                </Link>
+              )
             )}
           </div>
         </div>
@@ -283,6 +296,28 @@ export default function QuoteDetailView({
           >
             {isUrdu ? quoteText : `“${quoteText}”`}
           </h1>
+
+          {quote.category === 'irshadat-e-nabawi' && !quote.reviewed && (
+            <div className="mt-3 p-3.5 sm:p-4 rounded-xl bg-amber-500/10 dark:bg-amber-950/25 border border-amber-500/30 text-amber-950 dark:text-amber-200 text-xs sm:text-sm flex items-start gap-2.5">
+              <AlertCircle className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
+              <div className="space-y-1 text-left sm:text-right w-full">
+                <p className="font-bold text-xs sm:text-sm">
+                  {activeLang === 'en'
+                    ? 'Scholarly Verification in Progress'
+                    : activeLang === 'ro'
+                    ? 'Zer-e-Tehqeeq Wazahat'
+                    : 'علمی و تحقیقی وضاحت'}
+                </p>
+                <p className={`text-xs text-amber-900/80 dark:text-amber-300/80 leading-relaxed ${isUrdu ? 'font-urdu text-xs leading-[1.9]' : ''}`}>
+                  {activeLang === 'en'
+                    ? 'This tradition is currently undergoing academic reference verification and chain-of-transmission analysis by Islamic scholars. Primary sourcing details, book references, and grading will be published once verified.'
+                    : activeLang === 'ro'
+                    ? 'Yeh qol fi-waqt ulama-e-kiram ke zer-e-tehqeeq hai. Asnad aur sanad ki tasdeeq ke baad hawala number aur grading shamil ki jayegi.'
+                    : 'یہ متن فی الوقت علمائے کرام اور محققین کے زیرِ تحقیق و نظرثانی ہے تاکہ اس کی اسناد، تخریج اور صحت کا حتمی تعین کیا جا سکے۔ تصدیق مکمل ہوتے ہی اصل کتاب، حدیث نمبر اور درجہ بندی شائع کی جائے گی۔'}
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Action Buttons Toolbar: Responsive Grid on Mobile */}

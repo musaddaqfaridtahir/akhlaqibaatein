@@ -7,7 +7,7 @@ import {
   getQuotesForCollection,
   toSerializableCollection,
 } from '@/data/collections';
-import { buildHreflangAlternates, BASE_URL } from '@/lib/quoteSeo';
+import { buildCollectionMetadata, BASE_URL } from '@/lib/quoteSeo';
 import JsonLd from '@/components/JsonLd';
 import CollectionDetailView from '@/components/CollectionDetailView';
 
@@ -25,33 +25,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const collection = getCollectionBySlug(slug);
-
-  if (!collection) {
-    return {
-      title: 'Collection Not Found',
-    };
-  }
-
-  const pageUrl = `${BASE_URL}/collections/${collection.slug}`;
-
-  return {
-    title: `${collection.metaTitle}`,
-    description: collection.metaDescription,
-    keywords: collection.keywords,
-    alternates: buildHreflangAlternates({
-      canonical: pageUrl,
-      ur: pageUrl,
-      en: pageUrl,
-      ro: pageUrl,
-    }),
-    openGraph: {
-      title: `${collection.titleUrdu} — ${collection.titleEnglish}`,
-      description: collection.metaDescription,
-      url: pageUrl,
-      type: 'website',
-    },
-  };
+  return buildCollectionMetadata(slug, 'ur');
 }
 
 export default async function CollectionSlugPage({ params }: PageProps) {

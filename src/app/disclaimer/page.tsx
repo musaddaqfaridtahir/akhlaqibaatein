@@ -1,15 +1,16 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { AlertCircle, BookOpen, Shield } from 'lucide-react';
+import { buildStaticPageMetadata } from '@/lib/quoteSeo';
 
-export const metadata: Metadata = {
-  title: 'Disclaimer (اعلانِ لاتعلقی و علمی وضاحت)',
+export const metadata: Metadata = buildStaticPageMetadata({
+  path: '/disclaimer',
+  lang: 'ur',
+  title: 'Disclaimer (اعلانِ لاتعلقی و علمی وضاحت) | AkhlaqiBaatein.com',
   description:
     'Islamic, religious, and educational content disclaimer for AkhlaqiBaatein.com.',
-  alternates: {
-    canonical: 'https://www.akhlaqibaatein.com/disclaimer',
-  },
-};
+  keywords: ['Disclaimer', 'اعلان لاتعلقی', 'علمی وضاحت'],
+});
 
 export default function DisclaimerPage() {
   return (

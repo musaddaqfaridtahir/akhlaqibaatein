@@ -1,16 +1,35 @@
 'use client';
 
-import React, { useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
-import { computeFormattedDate } from '@/lib/dateUtils';
+import { computeFormattedDate, getKarachiNow } from '@/lib/dateUtils';
 
 export default function IslamicDateBar() {
   const { language } = useLanguage();
-  const dateString = useMemo(
-    () => computeFormattedDate(new Date(), language),
-    [language]
+  const [dateString, setDateString] = useState<string>(() =>
+    computeFormattedDate(getKarachiNow(), language)
   );
+
+  useEffect(() => {
+    setDateString(computeFormattedDate(getKarachiNow(), language));
+
+    const interval = setInterval(() => {
+      setDateString(computeFormattedDate(getKarachiNow(), language));
+    }, 60000);
+
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        setDateString(computeFormattedDate(getKarachiNow(), language));
+      }
+    };
+    document.addEventListener('visibilitychange', onVisibilityChange);
+
+    return () => {
+      clearInterval(interval);
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+    };
+  }, [language]);
 
   const quickLinks =
     language === 'ur'

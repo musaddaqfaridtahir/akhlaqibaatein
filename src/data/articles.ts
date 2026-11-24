@@ -564,7 +564,11 @@ export const articles: Article[] = [
   ...rumiArticles,
   ...rumiArticlesNew,
   ...hadithArticlesNew,
-];
+].map((art) => ({
+  ...art,
+  authorName: art.authorName ?? '',
+  reviewerName: art.reviewerName ?? '',
+}));
 
 export function getArticleBySlug(slug: string): Article | undefined {
   return articles.find((art) => art.slug === slug);

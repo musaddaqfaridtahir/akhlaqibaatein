@@ -88,6 +88,11 @@ export default function QuoteCard({
   const isUrdu = activeLanguage === 'ur';
   const isRoman = activeLanguage === 'ro';
 
+  const isUnreviewedHadith = quote.category === 'irshadat-e-nabawi' && !quote.reviewed;
+  const displayAuthor = isUnreviewedHadith && /ارشادِ نبوی|Irshad-e-Nabawi|Prophetic Tradition/i.test(quoteAuthor)
+    ? (isUrdu ? 'زیرِ تحقیق قول' : isRoman ? 'Zer-e-Tehqeeq Qol' : 'Under Review Wisdom')
+    : quoteAuthor;
+
   const handleCopy = () => {
     const quoteUrl = getLocalizedQuoteUrl(quote.slug, activeLanguage);
     const textToCopy = `"${quoteText}"\n\n— ${quoteAuthor}${cleanSource ? ` (${cleanSource})` : ''}\n\n${quoteUrl}`;
@@ -125,19 +130,33 @@ export default function QuoteCard({
                   isUrdu ? 'font-urdu text-xs leading-normal' : 'tracking-wide'
                 }`}
               >
-                {renderBadgeText(quoteAuthor)}
+                {renderBadgeText(displayAuthor)}
               </span>
             </div>
 
-            {showCategoryBadge && category && (
-              <Link
-                href={`/category/${quote.category}`}
-                className={`text-xs px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium inline-flex items-center ${
-                  isUrdu ? 'font-urdu leading-normal' : ''
-                }`}
-              >
-                #{renderBadgeText(categoryTitle)}
-              </Link>
+            {showCategoryBadge && (
+              isUnreviewedHadith ? (
+                <span
+                  className={`text-xs px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-900 dark:text-amber-300 border border-amber-500/30 font-semibold inline-flex items-center gap-1 ${
+                    isUrdu ? 'font-urdu leading-normal' : ''
+                  }`}
+                  title={isUrdu ? 'یہ روایت تاحال علمائے کرام کے زیرِ تحقیق و تخریج ہے' : 'This tradition is currently under scholarly verification'}
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+                  {activeLanguage === 'en' ? 'Under Review' : activeLanguage === 'ro' ? 'Zer-e-Tehqeeq' : 'زیرِ تحقیق'}
+                </span>
+              ) : (
+                category && (
+                  <Link
+                    href={`/category/${quote.category}`}
+                    className={`text-xs px-2.5 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-900/60 text-emerald-900 dark:text-emerald-200 border border-emerald-200 dark:border-emerald-700/60 hover:bg-emerald-100 transition font-medium inline-flex items-center ${
+                      isUrdu ? 'font-urdu leading-normal' : ''
+                    }`}
+                  >
+                    #{renderBadgeText(categoryTitle)}
+                  </Link>
+                )
+              )
             )}
           </div>
 

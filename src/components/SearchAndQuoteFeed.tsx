@@ -93,14 +93,7 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
   }[language];
 
   const filteredQuotes = useMemo(() => {
-    const isUnfiltered =
-      !searchQuery.trim() && selectedTag === 'All' && selectedCategory === 'All';
-
     return initialQuotes.filter((q) => {
-      if (isUnfiltered && excludeId && q.id === excludeId) {
-        return false;
-      }
-
       // Filter by tag
       if (selectedTag !== 'All') {
         const hasTag = q.tags.some(
@@ -140,7 +133,7 @@ export default function SearchAndQuoteFeed({ initialQuotes, excludeId }: SearchA
 
       return true;
     });
-  }, [initialQuotes, excludeId, searchQuery, selectedTag, selectedCategory, language]);
+  }, [initialQuotes, searchQuery, selectedTag, selectedCategory, language]);
 
   const visibleQuotes = useMemo(() => {
     return filteredQuotes.slice(0, visibleCount);

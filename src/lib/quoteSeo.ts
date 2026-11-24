@@ -13,6 +13,9 @@ import {
 import { getDuroodBySlug } from '@/data/durood';
 import { getNaatBySlug } from '@/data/naats';
 import { getDuaBySlug } from '@/data/duain';
+import { getArticleBySlug } from '@/data/articles';
+import { getCategoryBySlug, getCategoryTitle, getCategoryDesc } from '@/data/categories';
+import { getCollectionBySlug } from '@/data/collections';
 
 export const BASE_URL = 'https://www.akhlaqibaatein.com';
 
@@ -507,6 +510,266 @@ export function buildDuaMetadata(slug: string, lang: Language): Metadata {
       ur: `${BASE_URL}/duain/${dua.slug}`,
       ro: `${BASE_URL}/roman/duain/${dua.slug}`,
       en: `${BASE_URL}/en/duain/${dua.slug}`,
+    }),
+  };
+}
+
+export function buildArticleMetadata(slug: string, lang: Language): Metadata {
+  const article = getArticleBySlug(slug);
+
+  if (!article) {
+    return {
+      title: lang === 'en' ? 'Article Not Found' : lang === 'ro' ? 'Mazmoon Dastyab Nahi' : 'مضمون دستیاب نہیں',
+    };
+  }
+
+  const localizedPath =
+    lang === 'en'
+      ? `/en/articles/${article.slug}`
+      : lang === 'ro'
+      ? `/roman/articles/${article.slug}`
+      : `/articles/${article.slug}`;
+  const canonicalUrl = `${BASE_URL}${localizedPath}`;
+
+  const title =
+    lang === 'en'
+      ? `${article.titleEnglish || article.titleRoman} — Classical Moral Stories & Islamic Insights`
+      : lang === 'ro'
+      ? `${article.titleRoman} — Sabaq Aamoz Mazameen | ${article.titleUrdu}`
+      : `${article.titleUrdu} — ${article.titleRoman} | سبق آموز مضامین`;
+
+  const description =
+    lang === 'en'
+      ? `${article.summaryEnglish || article.summaryRoman}`.slice(0, 160)
+      : lang === 'ro'
+      ? `${article.summaryRoman}`.slice(0, 160)
+      : `${article.summaryUrdu}`.slice(0, 160);
+
+  return {
+    title,
+    description,
+    keywords: [
+      article.titleUrdu,
+      article.titleRoman,
+      article.titleEnglish,
+      article.category,
+      ...article.tags,
+      'Hikayat-e-Rumi in Urdu',
+      'Masnavi Maulana Rumi',
+      'Islamic Articles',
+      'AkhlaqiBaatein.com',
+    ],
+    openGraph: {
+      title: lang === 'en' ? (article.titleEnglish || article.titleRoman) : lang === 'ro' ? article.titleRoman : article.titleUrdu,
+      description,
+      type: 'article',
+      url: canonicalUrl,
+      publishedTime: article.publishedAt,
+      images: [
+        {
+          url: `${BASE_URL}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: lang === 'en' ? (article.titleEnglish || article.titleRoman) : lang === 'ro' ? article.titleRoman : article.titleUrdu,
+      description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+    alternates: buildHreflangAlternates({
+      canonical: canonicalUrl,
+      ur: `${BASE_URL}/articles/${article.slug}`,
+      ro: `${BASE_URL}/roman/articles/${article.slug}`,
+      en: `${BASE_URL}/en/articles/${article.slug}`,
+    }),
+  };
+}
+
+export function buildCategoryMetadata(slug: string, lang: Language): Metadata {
+  const category = getCategoryBySlug(slug);
+
+  if (!category) {
+    return {
+      title: lang === 'en' ? 'Category Not Found' : lang === 'ro' ? 'Category Dastyab Nahi' : 'کیٹیگری دستیاب نہیں',
+    };
+  }
+
+  const localizedPath =
+    lang === 'en'
+      ? `/en/category/${category.slug}`
+      : lang === 'ro'
+      ? `/roman/category/${category.slug}`
+      : `/category/${category.slug}`;
+  const canonicalUrl = `${BASE_URL}${localizedPath}`;
+
+  const title =
+    lang === 'en'
+      ? `${category.titleEnglish} (${category.titleRoman}) — Islamic Quotes & Wisdom`
+      : lang === 'ro'
+      ? `${category.titleRoman} (${category.titleUrdu}) — Islami Aqwal o Hadith`
+      : `${category.titleUrdu} (${category.titleRoman}) — ${category.titleEnglish}`;
+
+  const description =
+    lang === 'en'
+      ? `${category.descriptionEnglish || category.descriptionRoman}`.slice(0, 160)
+      : lang === 'ro'
+      ? `${category.descriptionRoman}`.slice(0, 160)
+      : `${category.descriptionUrdu}`.slice(0, 160);
+
+  return {
+    title,
+    description,
+    keywords: [
+      category.titleUrdu,
+      category.titleRoman,
+      category.titleEnglish,
+      `${category.titleEnglish} quotes`,
+      `${category.titleRoman} Urdu quotes`,
+      'AkhlaqiBaatein.com',
+    ],
+    openGraph: {
+      title,
+      description,
+      type: 'website',
+      url: canonicalUrl,
+      images: [
+        {
+          url: `${BASE_URL}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+    alternates: buildHreflangAlternates({
+      canonical: canonicalUrl,
+      ur: `${BASE_URL}/category/${category.slug}`,
+      ro: `${BASE_URL}/roman/category/${category.slug}`,
+      en: `${BASE_URL}/en/category/${category.slug}`,
+    }),
+  };
+}
+
+export function buildCollectionMetadata(slug: string, lang: Language): Metadata {
+  const collection = getCollectionBySlug(slug);
+
+  if (!collection) {
+    return {
+      title: lang === 'en' ? 'Collection Not Found' : lang === 'ro' ? 'Collection Dastyab Nahi' : 'مجموعہ دستیاب نہیں',
+    };
+  }
+
+  const localizedPath =
+    lang === 'en'
+      ? `/en/collections/${collection.slug}`
+      : lang === 'ro'
+      ? `/roman/collections/${collection.slug}`
+      : `/collections/${collection.slug}`;
+  const canonicalUrl = `${BASE_URL}${localizedPath}`;
+
+  const title =
+    lang === 'en'
+      ? `${collection.titleEnglish} — Curated Islamic Quotes & Sayings`
+      : lang === 'ro'
+      ? `${collection.titleRoman} — Islami Aqwal Collection`
+      : collection.metaTitle;
+
+  const description = collection.metaDescription;
+
+  return {
+    title,
+    description,
+    keywords: collection.keywords,
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type: 'website',
+      images: [
+        {
+          url: `${BASE_URL}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+    alternates: buildHreflangAlternates({
+      canonical: canonicalUrl,
+      ur: `${BASE_URL}/collections/${collection.slug}`,
+      ro: `${BASE_URL}/roman/collections/${collection.slug}`,
+      en: `${BASE_URL}/en/collections/${collection.slug}`,
+    }),
+  };
+}
+
+export function buildStaticPageMetadata({
+  path,
+  lang,
+  title,
+  description,
+  keywords = [],
+}: {
+  path: string;
+  lang: Language;
+  title: string;
+  description: string;
+  keywords?: string[];
+}): Metadata {
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  const localizedPath =
+    lang === 'en' ? `/en${cleanPath}` : lang === 'ro' ? `/roman${cleanPath}` : cleanPath;
+  const canonicalUrl = `${BASE_URL}${localizedPath}`;
+
+  return {
+    title,
+    description,
+    keywords: [
+      ...keywords,
+      'AkhlaqiBaatein.com',
+      'Islamic Moral Wisdom',
+    ],
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type: 'website',
+      images: [
+        {
+          url: `${BASE_URL}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${BASE_URL}/og-image.png`],
+    },
+    alternates: buildHreflangAlternates({
+      canonical: canonicalUrl,
+      ur: `${BASE_URL}${cleanPath}`,
+      ro: `${BASE_URL}/roman${cleanPath}`,
+      en: `${BASE_URL}/en${cleanPath}`,
     }),
   };
 }

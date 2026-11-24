@@ -1,15 +1,16 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { FileText, CheckCircle } from 'lucide-react';
+import { buildStaticPageMetadata } from '@/lib/quoteSeo';
 
-export const metadata: Metadata = {
-  title: 'Terms & Conditions (شرائط و ضوابط)',
+export const metadata: Metadata = buildStaticPageMetadata({
+  path: '/terms',
+  lang: 'ur',
+  title: 'Terms & Conditions (شرائط و ضوابط) | AkhlaqiBaatein.com',
   description:
     'Terms of use and conditions for visitors, content sharing, and educational resources on AkhlaqiBaatein.com.',
-  alternates: {
-    canonical: 'https://www.akhlaqibaatein.com/terms',
-  },
-};
+  keywords: ['Terms and Conditions', 'شرائط و ضوابط', 'قوانین'],
+});
 
 export default function TermsPage() {
   return (

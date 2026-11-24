@@ -18,6 +18,10 @@ export interface QuoteItem {
   quote: LocalizedText;
   tashreeh: LocalizedText;
   tags: LocalizedText[];
+  kitab?: string;
+  hawala_number?: string;
+  grading?: string;
+  reviewed?: boolean;
 }
 
 export const batch1Quotes: QuoteItem[] = [
@@ -500,6 +504,10 @@ export function quoteItemToQuote(item: QuoteItem, featured = false): Quote {
     bookRef: item.bookRef,
     title: item.title,
     featured,
+    kitab: item.kitab || '',
+    hawala_number: item.hawala_number || '',
+    grading: item.grading || '',
+    reviewed: item.reviewed ?? false,
   };
 }
 

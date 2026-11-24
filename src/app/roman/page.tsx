@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     languages: {
       ur: 'https://www.akhlaqibaatein.com',
       en: 'https://www.akhlaqibaatein.com/en',
-      'ro-PK': 'https://www.akhlaqibaatein.com/roman',
+      'ur-Latn': 'https://www.akhlaqibaatein.com/roman',
       'x-default': 'https://www.akhlaqibaatein.com',
     },
   },

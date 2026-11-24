@@ -84,10 +84,15 @@ export default function ArticleDetailView({
           </p>
         </div>
 
-        <div className="pt-2 flex items-center justify-between text-xs text-slate-500 border-t border-slate-100 dark:border-slate-800">
+        <div className="pt-2 flex items-center justify-between text-xs text-slate-500 border-t border-slate-100 dark:border-slate-800 flex-wrap gap-2">
           <span className={`text-emerald-900 dark:text-emerald-300 font-medium ${isUrdu ? 'font-urdu text-sm' : ''}`}>
-            {author}
+            {article.authorName ? `${language === 'ur' ? 'مصنف: ' : language === 'en' ? 'Author: ' : 'Musannif: '}${article.authorName}` : author}
           </span>
+          {article.reviewerName && (
+            <span className={`text-slate-600 dark:text-slate-400 font-medium ${isUrdu ? 'font-urdu text-sm' : ''}`}>
+              {language === 'ur' ? 'تحقیقی جائزہ: ' : language === 'en' ? 'Reviewed by: ' : 'Tahqeeqi Jaiza: '}{article.reviewerName}
+            </span>
+          )}
         </div>
       </header>
 

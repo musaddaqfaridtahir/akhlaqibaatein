@@ -1,11 +1,25 @@
 import { Language } from '@/data/types';
 
 /**
+ * Returns the current live Date object converted to Asia/Karachi (Pakistan Standard Time, UTC+5).
+ */
+export function getKarachiNow(): Date {
+  try {
+    const karachiStr = new Date().toLocaleString('en-US', { timeZone: 'Asia/Karachi' });
+    return new Date(karachiStr);
+  } catch {
+    const now = new Date();
+    const utc = now.getTime() + now.getTimezoneOffset() * 60000;
+    return new Date(utc + 5 * 3600000);
+  }
+}
+
+/**
  * Formats a Date into localized Day, Hijri (Umm al-Qura), and Gregorian strings
- * across Urdu ('ur'), Roman Urdu ('ro'), and English ('en').
+ * in Asia/Karachi timezone across Urdu ('ur'), Roman Urdu ('ro'), and English ('en').
  */
 export function computeFormattedDate(
-  date: Date,
+  date: Date = getKarachiNow(),
   language: Language,
   adjustmentDays = -1
 ): string {
