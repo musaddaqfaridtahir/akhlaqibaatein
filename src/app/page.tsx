@@ -792,7 +792,7 @@ export default function HomePage() {
                     isUrdu ? 'font-urdu leading-normal' : ''
                   }`}
                 >
-                  {isUrdu ? 'قضا نماز و زکوٰۃ' : 'Namaz & Zakat'}
+                  {isUrdu ? '۶ مستند اسلامی ٹولز' : '6 Islamic Tools'}
                 </span>
               </div>
 
@@ -802,7 +802,7 @@ export default function HomePage() {
                     isUrdu ? 'font-urdu leading-[1.8]' : ''
                   }`}
                 >
-                  {isUrdu ? 'اسلامی کیلکولیٹرز' : isRoman ? 'Islamic Calculators' : 'Islamic Calculators & Tools'}
+                  {isUrdu ? 'اسلامی کیلکولیٹرز و ٹولز' : isRoman ? 'Islamic Calculators & Tools' : 'Islamic Calculators & Tools'}
                 </h3>
               </div>
 
@@ -812,10 +812,10 @@ export default function HomePage() {
                 }`}
               >
                 {isUrdu
-                  ? 'زندگی بھر کی قضا نمازوں کا تخمینہ و پرنٹ ایبل چارٹ، اور سونے چاندی کے نصاب پر ۲.۵ فیصد زکوٰۃ کا شرعی حساب۔'
+                  ? 'قضا نماز، زکوٰۃ، ہجری تاریخ کنورٹر، نماز کے اوقات، ۹۹ اسمائے حسنیٰ اور فدیہ و فطرانہ کیلکولیٹر۔'
                   : isRoman
-                  ? 'Qaza namaz ka hisab aur printable chart, plus sona chandi ke nisab par 2.5% zakat calculator.'
-                  : 'Lifetime Qaza Namaz calculator with printable tracker sheet, and precise 2.5% Zakat calculator across 5 currencies.'}
+                  ? 'Qaza Namaz, Zakat, Hijri Date Converter, Namaz Timings, 99 Asma-ul-Husna, aur Fidya o Fitrana Calculator.'
+                  : 'Qaza Namaz, Zakat, Hijri Date Converter, Namaz Timings, 99 Names of Allah, and Fidya & Fitrana Calculator.'}
               </p>
             </div>
 

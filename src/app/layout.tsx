@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar';
 import IslamicDateBar from '@/components/IslamicDateBar';
 import Footer from '@/components/Footer';
 import CookieConsent from '@/components/CookieConsent';
+import PwaInstallBanner from '@/components/PwaInstallBanner';
 import JsonLd from '@/components/JsonLd';
 import AnalyticsTracker from '@/components/AnalyticsTracker';
 import { Analytics } from '@vercel/analytics/next';
@@ -199,6 +200,7 @@ gtag('js', new Date());`,
           </main>
           <Footer />
           <CookieConsent />
+          <PwaInstallBanner />
         </LanguageProvider>
         <Analytics />
       </body>

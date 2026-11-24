@@ -6,6 +6,8 @@ import {
   Calculator,
   Clock,
   Coins,
+  Calendar,
+  Sparkles,
   ChevronLeft,
   ChevronRight,
   ArrowRight,
@@ -21,7 +23,7 @@ export default function ToolsHubView() {
   const tools = [
     {
       id: 'qaza-namaz',
-      href: '/tools/qaza-namaz-calculator',
+      href: isUrdu ? '/tools/qaza-namaz-calculator' : isRoman ? '/roman/tools/qaza-namaz-calculator' : '/en/tools/qaza-namaz-calculator',
       icon: Clock,
       title: {
         ur: 'قضا نماز کیلکولیٹر و ٹریکر چارٹ',
@@ -43,7 +45,7 @@ export default function ToolsHubView() {
     },
     {
       id: 'zakat-calculator',
-      href: '/tools/zakat-calculator',
+      href: isUrdu ? '/tools/zakat-calculator' : isRoman ? '/roman/tools/zakat-calculator' : '/en/tools/zakat-calculator',
       icon: Coins,
       title: {
         ur: 'جامع زکوٰۃ کیلکولیٹر (نصاب گائیڈ)',
@@ -62,6 +64,94 @@ export default function ToolsHubView() {
       },
       gradient: 'from-[#1a1506] via-[#241c09] to-[#0d0f0a]',
       borderColor: 'border-amber-400/50',
+    },
+    {
+      id: 'hijri-date-converter',
+      href: isUrdu ? '/tools/hijri-date-converter' : isRoman ? '/roman/tools/hijri-date-converter' : '/en/tools/hijri-date-converter',
+      icon: Calendar,
+      title: {
+        ur: 'ہجری و عیسوی تاریخ کنورٹر و کاؤنٹ ڈاؤن',
+        ro: 'Hijri Date Converter & Events Countdown',
+        en: 'Hijri Date Converter & Events Countdown',
+      },
+      desc: {
+        ur: 'آج کی مصدقہ ہجری تاریخ، دو طرفہ عیسوی و ہجری کنورٹر، رویتِ ہلال مطابقت، اور رمضان و عیدین کا لائیو کاؤنٹ ڈاؤن۔',
+        ro: 'Aaj ki Hijri date, two-way solar-lunar converter, chaand ka farq aur Ramadan o Eid ka live countdown.',
+        en: 'Today’s verified Hijri date, two-way solar-lunar converter with moon sighting adjustment, and live countdowns to Ramadan and Eid.',
+      },
+      badge: {
+        ur: 'لائیو کاؤنٹ ڈاؤن',
+        ro: 'Live Countdown',
+        en: 'Live Countdown',
+      },
+      gradient: 'from-[#0b1624] via-[#07130f] to-[#0d221a]',
+      borderColor: 'border-cyan-600/50',
+    },
+    {
+      id: 'namaz-timings',
+      href: isUrdu ? '/tools/namaz-timings' : isRoman ? '/roman/tools/namaz-timings' : '/en/tools/namaz-timings',
+      icon: Clock,
+      title: {
+        ur: 'نماز کے اوقات و اگلی نماز کا کاؤنٹ ڈاؤن',
+        ro: 'Namaz Timings & Next Salah Countdown',
+        en: 'Accurate Namaz Timings & Salah Countdown',
+      },
+      desc: {
+        ur: 'پاکستان کے تمام بڑے شہروں اور دنیا بھر کے لیے فجر تا عشاء درست اوقات، حنفی و شافعی طریقہ اور اگلی نماز کا لائیو کاؤنٹ ڈاؤن۔',
+        ro: 'Pakistan aur international shehron ke liye accurate Namaz timings, Hanafi o Shafii method aur agli namaz ka live timer.',
+        en: 'Daily accurate prayer times for Pakistani and global diaspora cities with Hanafi/Shafi’i Asr toggle and live next prayer countdown.',
+      },
+      badge: {
+        ur: 'جی پی ایس و مسلک سپورٹ',
+        ro: 'GPS & Juristic',
+        en: 'GPS & Juristic',
+      },
+      gradient: 'from-emerald-950 via-[#11221c] to-[#07130f]',
+      borderColor: 'border-[#d4af37]/60',
+    },
+    {
+      id: 'asma-ul-husna',
+      href: isUrdu ? '/tools/asma-ul-husna' : isRoman ? '/roman/tools/asma-ul-husna' : '/en/tools/asma-ul-husna',
+      icon: Sparkles,
+      title: {
+        ur: '۹۹ اسمائے حسنیٰ (تسبیح کاؤنٹر کے ساتھ)',
+        ro: '99 Names of Allah Explorer & Counter',
+        en: '99 Names of Allah Explorer & Counter',
+      },
+      desc: {
+        ur: 'اللہ تعالیٰ کے ننانوے مبارک نام عربی خطِ نسخ، اردو و انگریزی معانی، روحانی اثرات اور بلٹ ان ٹیپ تسبیح کاؤنٹر کے ساتھ۔',
+        ro: 'Allah Taala ke 99 Asma-e-Husna Arabic calligraphy, Urdu o English tarjuma aur built-in tap tasbeeh counter.',
+        en: 'Explore the 99 Beautiful Names of Allah in Arabic Naskh with Urdu and English meanings, spiritual reflections, and interactive tap counter.',
+      },
+      badge: {
+        ur: 'بلٹ ان تسبیح کاؤنٹر',
+        ro: 'Tap Counter',
+        en: 'Tap Counter',
+      },
+      gradient: 'from-[#1a1506] via-[#11221c] to-[#07130f]',
+      borderColor: 'border-amber-400/50',
+    },
+    {
+      id: 'fidya-kaffara-calculator',
+      href: isUrdu ? '/tools/fidya-kaffara-calculator' : isRoman ? '/roman/tools/fidya-kaffara-calculator' : '/en/tools/fidya-kaffara-calculator',
+      icon: Coins,
+      title: {
+        ur: 'فدیہ، کفارہ و صدقۂ فطر کیلکولیٹر',
+        ro: 'Fidya, Kaffara & Fitrana Calculator',
+        en: 'Fidya, Kaffara & Sadqa-e-Fitr Calculator',
+      },
+      desc: {
+        ur: 'گندم، جو، کھجور اور کشمش کے شرعی اوزان پر صدقۂ فطر، قضاء روزوں کا فدیہ اور قسم و روزے کے کفارے کا دقیق حساب ۵ بین الاقوامی کرنسیوں میں۔',
+        ro: 'Fitrana, roza fidya aur qasam o roza kaffara ka accurate sharai hisab gandam, jau aur khajoor ke meyar par 5 currencies mein.',
+        en: 'Calculate Sadqa-e-Fitr, missed fasts Fidya, and Kaffara for broken oaths or fasts based on wheat, barley, dates, and raisins across 5 currencies.',
+      },
+      badge: {
+        ur: '۵ بین الاقوامی کرنسیاں',
+        ro: '5 Currencies',
+        en: '5 Currencies',
+      },
+      gradient: 'from-[#1c0f0a] via-[#241c09] to-[#07130f]',
+      borderColor: 'border-amber-500/50',
     },
   ];
 
