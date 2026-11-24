@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
+import { SHOW_SUPPORT_SECTION } from '@/config/features';
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
@@ -20,6 +21,20 @@ export function middleware(request: NextRequest) {
 
   const isPk = country === 'PK';
   const isPkValue = isPk ? '1' : '0';
+
+  // Temporary 302 Redirect for /support when SHOW_SUPPORT_SECTION is disabled
+  if (!SHOW_SUPPORT_SECTION) {
+    if (
+      pathname === '/support' ||
+      pathname === '/en/support' ||
+      pathname === '/roman/support' ||
+      pathname === '/ur/support'
+    ) {
+      const res = NextResponse.redirect(new URL('/', 'https://www.akhlaqibaatein.com'), 302);
+      res.cookies.set('akhlaqi_geo_pk', isPkValue, { path: '/', httpOnly: false, sameSite: 'lax' });
+      return res;
+    }
+  }
 
   // 1. If someone accesses legacy /ur or /ur/..., cleanly redirect to canonical https://www.akhlaqibaatein.com
   if (pathname === '/ur') {

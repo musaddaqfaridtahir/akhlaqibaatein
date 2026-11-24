@@ -14,6 +14,7 @@ import {
 import { useLanguage } from '@/context/LanguageContext';
 import { Language } from '@/data/types';
 import { getLocalizedPath } from '@/lib/quoteSeo';
+import { SHOW_SUPPORT_SECTION } from '@/config/features';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ export default function Navbar() {
     { href: '/duain', label: t.masnoonDuain },
     { href: '/naat', label: t.naatSharif },
     { href: '/tools', label: t.islamicTools },
-    { href: '/support', label: t.supportUs, isSupport: true },
+    ...(SHOW_SUPPORT_SECTION ? [{ href: '/support', label: t.supportUs, isSupport: true }] : []),
     { href: '/chahal-hadith', label: t.chahalHadith, badge: '40' },
     { href: '/articles', label: t.articles },
     { href: '/books', label: t.books },

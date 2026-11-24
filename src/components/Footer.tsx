@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Sparkles, ChevronRight, Mail } from 'lucide-react';
 import { categories, getCategoryTitle } from '@/data/categories';
 import { useLanguage } from '@/context/LanguageContext';
+import { SHOW_SUPPORT_SECTION } from '@/config/features';
 
 export default function Footer() {
   const { language, t, isPakistan } = useLanguage();
@@ -92,12 +93,14 @@ export default function Footer() {
                   <span>{isUrdu ? 'اسلامی کیلکولیٹرز' : t.islamicTools}</span>
                 </Link>
               </li>
-              <li>
-                <Link href="/support" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
-                  <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
-                  <span className="text-amber-300 font-semibold">{isUrdu ? 'ہمارا تعاون کریں (صدقہ جاریہ)' : t.supportUs}</span>
-                </Link>
-              </li>
+              {SHOW_SUPPORT_SECTION && (
+                <li>
+                  <Link href="/support" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
+                    <ChevronRight className="w-3.5 h-3.5 text-amber-500" />
+                    <span className="text-amber-300 font-semibold">{isUrdu ? 'ہمارا تعاون کریں (صدقہ جاریہ)' : t.supportUs}</span>
+                  </Link>
+                </li>
+              )}
               <li>
                 <Link href="/articles" className={`hover:text-amber-400 transition flex items-center gap-2 ${isUrdu ? 'font-urdu' : ''}`}>
                   <ChevronRight className="w-3.5 h-3.5 text-emerald-500" />

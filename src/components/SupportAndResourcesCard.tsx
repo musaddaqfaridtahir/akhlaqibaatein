@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { Language, Quote } from '@/data/types';
 import { useLanguage } from '@/context/LanguageContext';
+import { SHOW_SUPPORT_SECTION } from '@/config/features';
 
 interface SupportAndResourcesCardProps {
   quote?: Quote;
@@ -219,39 +220,41 @@ export default function SupportAndResourcesCard({
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+        <div className={`grid grid-cols-1 ${SHOW_SUPPORT_SECTION ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-4 sm:gap-5`}>
           {/* 1. Sadqah-e-Jariyah Support Card */}
-          <div className="flex flex-col justify-between p-4 sm:p-5 rounded-2xl bg-white/5 border border-emerald-700/60 hover:border-amber-400/50 transition space-y-4">
-            <div className="space-y-2">
-              <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center">
-                <HeartHandshake className="w-5 h-5" />
+          {SHOW_SUPPORT_SECTION && (
+            <div className="flex flex-col justify-between p-4 sm:p-5 rounded-2xl bg-white/5 border border-emerald-700/60 hover:border-amber-400/50 transition space-y-4">
+              <div className="space-y-2">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-300 flex items-center justify-center">
+                  <HeartHandshake className="w-5 h-5" />
+                </div>
+                <h3
+                  className={`text-sm sm:text-base font-bold text-white ${
+                    isUrdu ? 'font-urdu leading-[1.85]' : 'leading-snug'
+                  }`}
+                >
+                  {labels.supportTitle}
+                </h3>
+                <p
+                  className={`text-xs text-emerald-100/80 ${
+                    isUrdu ? 'font-urdu leading-[1.95]' : 'leading-relaxed'
+                  }`}
+                >
+                  {labels.supportDesc}
+                </p>
               </div>
-              <h3
-                className={`text-sm sm:text-base font-bold text-white ${
-                  isUrdu ? 'font-urdu leading-[1.85]' : 'leading-snug'
+              <button
+                type="button"
+                onClick={() => setShowSupportModal(true)}
+                className={`w-full min-h-[42px] px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow-sm transition active:scale-95 flex items-center justify-center gap-2 ${
+                  isUrdu ? 'font-urdu' : ''
                 }`}
               >
-                {labels.supportTitle}
-              </h3>
-              <p
-                className={`text-xs text-emerald-100/80 ${
-                  isUrdu ? 'font-urdu leading-[1.95]' : 'leading-relaxed'
-                }`}
-              >
-                {labels.supportDesc}
-              </p>
+                <HeartHandshake className="w-4 h-4 shrink-0" />
+                <span>{labels.supportCta}</span>
+              </button>
             </div>
-            <button
-              type="button"
-              onClick={() => setShowSupportModal(true)}
-              className={`w-full min-h-[42px] px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow-sm transition active:scale-95 flex items-center justify-center gap-2 ${
-                isUrdu ? 'font-urdu' : ''
-              }`}
-            >
-              <HeartHandshake className="w-4 h-4 shrink-0" />
-              <span>{labels.supportCta}</span>
-            </button>
-          </div>
+          )}
 
           {/* 2. Printable PDF & 40 Hadith Poster Card */}
           <div className="flex flex-col justify-between p-4 sm:p-5 rounded-2xl bg-white/5 border border-emerald-700/60 hover:border-amber-400/50 transition space-y-4">

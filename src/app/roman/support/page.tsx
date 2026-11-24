@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
+import { redirect } from 'next/navigation';
 import SupportView from '@/components/SupportView';
 import { buildStaticPageMetadata } from '@/lib/quoteSeo';
+import { SHOW_SUPPORT_SECTION } from '@/config/features';
 
 export const metadata: Metadata = buildStaticPageMetadata({
   path: '/support',
@@ -12,5 +14,8 @@ export const metadata: Metadata = buildStaticPageMetadata({
 });
 
 export default function RomanSupportPage() {
+  if (!SHOW_SUPPORT_SECTION) {
+    redirect('/');
+  }
   return <SupportView />;
 }

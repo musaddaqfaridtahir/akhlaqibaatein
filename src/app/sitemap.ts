@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { SHOW_SUPPORT_SECTION } from '@/config/features';
 import { categories } from '@/data/categories';
 import { articles } from '@/data/articles';
 import { seoCollections } from '@/data/collections';
@@ -155,24 +156,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
     },
-    {
-      url: `${baseUrl}/support`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/en/support`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/roman/support`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
+    ...(SHOW_SUPPORT_SECTION ? [
+      {
+        url: `${baseUrl}/support`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+      },
+      {
+        url: `${baseUrl}/en/support`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+      },
+      {
+        url: `${baseUrl}/roman/support`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+      },
+    ] : []),
     {
       url: `${baseUrl}/durood`,
       lastModified: new Date(),
