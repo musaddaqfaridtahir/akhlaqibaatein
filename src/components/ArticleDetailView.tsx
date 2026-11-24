@@ -174,9 +174,23 @@ export default function ArticleDetailView({
                     : 'text-xs sm:text-base leading-relaxed text-left'
                 }`}
               >
-                {secBody.split('\n').map((para, pIdx) => (
-                  <p key={pIdx}>{para}</p>
-                ))}
+                {secBody.split('\n').map((para, pIdx) => {
+                  const hasArabicHarakat = (para.match(/[\u064B-\u065F\u0670]/g) || []).length >= 3;
+                  return (
+                    <p
+                      key={pIdx}
+                      className={
+                        hasArabicHarakat
+                          ? 'font-arabic text-base sm:text-xl md:text-2xl leading-[2.5] text-emerald-950 dark:text-emerald-200 font-medium py-1.5'
+                          : ''
+                      }
+                      dir={hasArabicHarakat ? 'rtl' : undefined}
+                      lang={hasArabicHarakat ? 'ar' : undefined}
+                    >
+                      {para}
+                    </p>
+                  );
+                })}
               </div>
 
               {idx === 1 && <AdSlot position="in-article" />}

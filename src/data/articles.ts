@@ -3,6 +3,8 @@ import { rumiArticles } from './rumiArticles';
 import { rumiArticlesNew } from './rumiArticlesNew';
 import { hadithArticlesNew } from './hadithArticlesNew';
 import { newScholarlyArticles } from './newScholarlyArticles';
+import { topicWiseHadithBatch1 } from './topicWiseHadithBatch1';
+import { topicWiseHadithBatch2 } from './topicWiseHadithBatch2';
 
 const baseArticles: Article[] = [
   {
@@ -566,6 +568,8 @@ export const articles: Article[] = [
   ...rumiArticlesNew,
   ...hadithArticlesNew,
   ...newScholarlyArticles,
+  ...topicWiseHadithBatch1,
+  ...topicWiseHadithBatch2,
 ].map((art) => ({
   ...art,
   authorName: art.authorName ?? '',
