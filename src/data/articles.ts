@@ -2,6 +2,7 @@ import { Article, Language } from './types';
 import { rumiArticles } from './rumiArticles';
 import { rumiArticlesNew } from './rumiArticlesNew';
 import { hadithArticlesNew } from './hadithArticlesNew';
+import { newScholarlyArticles } from './newScholarlyArticles';
 
 const baseArticles: Article[] = [
   {
@@ -564,6 +565,7 @@ export const articles: Article[] = [
   ...rumiArticles,
   ...rumiArticlesNew,
   ...hadithArticlesNew,
+  ...newScholarlyArticles,
 ].map((art) => ({
   ...art,
   authorName: art.authorName ?? '',
