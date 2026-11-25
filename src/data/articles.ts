@@ -1,6 +1,7 @@
 import { Article, Language } from './types';
 import { rumiArticles } from './rumiArticles';
 import { rumiArticlesNew } from './rumiArticlesNew';
+import { rumiArticlesBatch3 } from './rumiArticlesBatch3';
 import { hadithArticlesNew } from './hadithArticlesNew';
 import { newScholarlyArticles } from './newScholarlyArticles';
 import { topicWiseHadithBatch1 } from './topicWiseHadithBatch1';
@@ -566,6 +567,7 @@ export const articles: Article[] = [
   ...baseArticles,
   ...rumiArticles,
   ...rumiArticlesNew,
+  ...rumiArticlesBatch3,
   ...hadithArticlesNew,
   ...newScholarlyArticles,
   ...topicWiseHadithBatch1,
